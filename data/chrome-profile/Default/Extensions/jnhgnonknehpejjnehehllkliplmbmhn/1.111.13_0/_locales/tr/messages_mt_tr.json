@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - Ücretsiz Web Kazıma",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - Ücretsiz Web Kazıma",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Modern web için kullanımı kolay, tıklama tabanlı arayüze sahip web veri çıkarma aracı."
+	},
+	"common_actions": {
+		"message": "Eylemler"
+	},
+	"common_createSitemap": {
+		"message": "$sitemap$ oluşturun",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "İD"
+	},
+	"common_importSitemap": {
+		"message": "$sitemap$'ı içe aktarın",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Daha fazla bilgi edin",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Çoklu"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Henüz veri kazınmadı."
+	},
+	"common_scrape": {
+		"message": "Kazıma",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Seçici"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Gelişmiş $sitemap$ oluşturucusuna gidin",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "Daha fazla veri çıkarıcı"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Özelleştirilebilir site navigasyonu"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Özelleştirilebilir $css$ seçicileri",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "$logIn$ özelliği",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "Ve dahası..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Erişim sihirbazı $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Geliştirici Araçlarını açmak için $shortcut1$ veya $shortcut2$ tuşuna basın.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Geliştirici Araçlarını açmak için $shortcut$ tuşuna basın.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Tarayıcının Geliştirici Araçlarını Açın"
+	},
+	"wizard_showMe": {
+		"message": "Bana göster",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Veri bulunamadı.",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Sütun adı"
+	},
+	"wizard_title": {
+		"message": "Başlık",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Bağlantı"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Sayfa içeriği analiz ediliyor..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Bu sayfadan veri alınırken bir hata oluştu. Sorun bildirildi. Lütfen daha sonra tekrar deneyin."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "$2 kayıttan $1 gösteriliyor.",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "1 kayıt gösteriliyor"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "$1 kaydı gösteriliyor",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "Sayfada 1 veri noktası bulundu."
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "Sayfada $1 veri noktası bulundu.",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Sayfa yükleniyor..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Veri çıkarma işleminden önce sütunları kaldırın, ekleyin veya yeniden adlandırın."
+	},
+	"wizard_addMoreText": {
+		"message": "Daha fazla metin ekle",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Görseller ekle",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Tekrar dene",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Yeniden oluştur",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Hata"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "Veri kazıyıcı yapılandırması hazır."
+	},
+	"wizard_scrapeThePage": {
+		"message": "Sayfayı kazıyın",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Hiçbir kayıt taranmadı. Önceki adımları kontrol edin veya tekrar deneyin."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Yeniden kazıma",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Ne düşünüyorsun?"
+	},
+	"wizard_giveFeedback": {
+		"message": "Geri Bildirim Verin",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Geri bildiriminiz",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Geri bildirim gönder",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$, Gelişmiş $sitemap2$ Oluşturucu'da kaydedildi.",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Yeniden seç",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "1 öğe sayfa bağlantısı seçildi"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "$1 öğe sayfası bağlantıları seçildi",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "En az iki bağlantı gereklidir."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Tekrar seçmeyi deneyin.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Veri kazıma deneyiminiz nasıldı?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "$webScraperCloud$ içinde çıkarma işlemini otomatikleştirin.",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "$dropbox$, $googleDrive$, $s3$, ... şeklinde dışa aktarın.",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Bot algılama yönetimi",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "$webScraper$ ve $sitemaps$'i senkronize et ve çalıştır.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Üye olmak",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Planlayıcı"
+	},
+	"wizard_stepPagination": {
+		"message": "Sayfalandırma ve Kaydırma"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Veri Kurulumu"
+	},
+	"wizard_continueButton": {
+		"message": "Devam etmek",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Bu sayfada sayfalama var mı?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Sayfalama etkinleştirildi"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Sonraki Sayfa düğmesini seçin",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Sayfalandırmayı Devre Dışı Bırak",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Sayfalama düğmesini seçin. Yaygın türler şunlardır:"
+	},
+	"wizard_nextPage": {
+		"message": "Sonraki sayfa"
+	},
+	"wizard_loadMore": {
+		"message": "Daha fazla yükle"
+	},
+	"wizard_numberedPages": {
+		"message": "Numaralandırılmış sayfalar: tümünü seçmek için birden fazla düğmeye tıklayın."
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "Sayfayı kaydırdıktan sonra daha fazla öğe yükleniyor mu?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Sonsuz kaydırma kontrolü"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Kaydırma etkinleştirildi"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Sonsuz Kaydırma Özelliğini Etkinleştir",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Sonsuz kaydırmayı devre dışı bırak",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Veri kazıma işlemi devam ediyor."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Veri kazıma işlemi devam ediyor. (1 kayıt kazındı)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Veri kazıma işlemi devam ediyor. ($1 kayıt kazındı)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Veri kazıma işlemi devam ediyor. ($1 kayıt kazındı, $2 gösteriliyor)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 kayıt tarandı"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 kayıt kazındı",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "$1 kaydı tarandı, $2 gösteriliyor.",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Geri bildiriminiz için teşekkür ederim!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Lütfen eklentiyi tarayıcınızın uygulama mağazasında inceleyin!"
+	},
+	"wizard_rateUs": {
+		"message": "Bizi değerlendirin"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Kullanıcı deneyimini iyileştirmek için tüm yorumlar incelenmektedir."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Ürün sayfalarına navigasyonu ve her sayfadan veri çıkarmayı etkinleştirin."
+	},
+	"wizard_selectLink": {
+		"message": "Bağlantıyı seçin",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Sayfa verileri toplanıyor $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "Yapay zeka ile $1 URL'lerinin analizi (ortalama bekleme süresi $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Ürün bağlantılarını takip edin"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Geri Bildirim ve Gelişmiş Veri Kazıma"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Ürün Sayfası Veri Kurulumu"
+	},
+	"wizard_doneSelecting": {
+		"message": "Seçim işlemi tamamlandı.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "$cloud$ içinde otomatikleştirin",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Sayfalama algılandı. Yapılandırmayı bir sonraki adımda yönetin."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Yalnızca tek sekmede çalışır."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "$sitemap$ adı",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "Başlangıç URL'si"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL"
+	},
+	"button_saveSitemap": {
+		"message": "$sitemap$'ı kaydet",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 geçerli bir URL değil.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ ve $json$ zorunludur ve boş bırakılamaz.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "Geçersiz $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "$sitemap$ anahtarı eksik - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "$1 sayısı $2 sayısını aşmamalıdır.",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 zorunludur ve boş bırakılamaz.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 en az $2 karakter uzunluğunda olmalıdır.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "$1'ın maksimum uzunluğu $2 karakterdir.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Yalnızca harfler, rakamlar $digits$ veya $allowedCharacters$ karakterlerinden herhangi biri kullanılabilir.",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "Bu kimliğe sahip $sitemap$ zaten mevcut.",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 bir dizi olmalıdır.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 zorunludur ve boş bırakılamaz. En az birini seçmelisiniz.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "$sitemap$ içinde yalnızca benzersiz anahtarlar olan _id, startUrl, websiteStateSetup, selectors, hashHistory'ye izin verilir.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "Filtre $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "İhtisas"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "$cloud$ adresine yükle",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "$cloud$ adresinden indir",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ senkronize edilmedi.",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ senkronize edildi.",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ yalnızca $cloud$'de bulunur.",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ yalnızca uzantıdadır.",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Üzerine yaz",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "En son $sitemap$ sürümü belirlenemiyor. $cloud$ hesabındaki $sitemap$ değerini $sitemap$ sürümüyle değiştirin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "En son $sitemap$ sürümü belirlenemiyor. Bu $sitemap$ değerini $cloud$ hesabındaki sürümle değiştirin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "En son $sitemap$ sürümü $cloud$ hesabında bulunmaktadır. $cloud$ hesabındaki $sitemap$'yi bu $sitemap$ sürümüyle değiştirin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "Bu, en son $sitemap$ sürümüdür. Bu $sitemap$ değerini $cloud$ hesabından bir sürümle değiştirin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Güncelleme",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "En son $sitemap$ sürümü $cloud$ hesabında bulunmaktadır. Bu $sitemap$'yi $cloud$ hesabındaki sürümle eşleşecek şekilde güncelleyin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "Bu, en son $sitemap$ sürümüdür. $cloud$ hesabındaki $sitemap$'i bu $sitemap$ sürümüyle güncelleyin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "İndirmek",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "Bu $sitemap$ yalnızca $cloud$ hesabında mevcuttur. Düzenlemek için $sitemap$'yi $cloud$ hesabından indirin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Yüklemek",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Yerel olarak sil",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "Bu $sitemap$ yalnızca uzantı depolama alanındadır. $sitemap$'i $cloud$ hesabına yükleyin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "$sitemap$'ı silmek mi istiyorsunuz?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Silme Onayı"
+	},
+	"button_cancel": {
+		"message": "İptal etmek",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Silmek",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Çıkış yap",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "$cloud$ hesabına giriş yapın",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Seçiciler",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "Başlangıç URL'leri",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Web Sitesi Girişi / Eyalet Ayarları",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Kazınmış veriler",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "$sitemap$ dışa aktar",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Veri dışa aktarımı",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Yeni bir $sitemap$ oluşturun",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Sihirbaz ile $sitemap$ oluşturun",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Yardım",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Video Eğitimleri",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Dokümantasyon",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Test Alanları",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Forum",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Öne Çıkan Fikirleri Oylayın",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Deneysel özellikler etkinleştirildi",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Tip"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Ebeveyn seçiciler",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Yeni seçici oluştur",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Yapay Zeka ile Seçiciler Oluşturun:"
+	},
+	"button_listingPage": {
+		"message": "Listeleme sayfası",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Tek ürün sayfası",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "$1 seçicisini silmek istiyor musunuz?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "$webScraper$ özelliğini kullanmaya başlamak için geliştirici araçlarını tarayıcının en altına taşıyın.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Veri Önizlemesi"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Henüz veri çıkarılmadı."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Uzantıyı $cloud$ hesabına bağladıktan sonra, $sitemap$ listesini yeniden yükleyin.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Yeniden yükle",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Kapalı",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Öznitelik adı"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Mevcut özellikleri görüntülemek için tıklayın."
+	},
+	"edit_selector_tableColumns": {
+		"message": "Tablo sütunları"
+	},
+	"edit_selector_column": {
+		"message": "Kolon"
+	},
+	"edit_selector_resultKey": {
+		"message": "Sonuç anahtarı"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Sonuçlara dahil et"
+	},
+	"button_dataPreview": {
+		"message": "Veri önizlemesi",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "$sitemap$'ı $cloud$'e yükle",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Eğitim verilerini gönder",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Kaydırma öğesi",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Yalnızca eksikse kaydırın."
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Öğeye kaydır"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Tıklama seçici"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Başlık satırı seçici"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Veri satırları seçici"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Seçici bulunamadığında gerçekleştir"
+	},
+	"button_select": {
+		"message": "Seçme",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Öğe önizlemesi",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Önizlemeyi kapat",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Kaydet seçici",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Taslak",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Eleman sınırı",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Sınırsız",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Regex",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "URL $regex$ bulundu.",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Minimum öncelik",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Gecikme (ms)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Sütun sayısı",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Çoklu tip",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "İlk Kayıt Sadece"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Birden Çok Sütunda Birden Çok Kayıt"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Tek Sütunda Birden Fazla Kayıt"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Ebeveyn seçiciler",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Eylemi Gerçekleştir",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Senaryo",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Döndürülen veri sütunları"
+	},
+	"edit_selector_columnName": {
+		"message": "Sütun Adı"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "URL (yalnızca bir tane)"
+	},
+	"button_remove": {
+		"message": "Kaldırmak",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Sütun Ekle",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Tıklama türü",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Sayfalama türü",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Tıklama öğesinin benzersizliği",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Bağlantı türü",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "İlk unsurları atın",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Otomatik"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Bağlantı ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Komut dosyası bağlantısı ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Öznitelik bağlantısı ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Metin bağlantısı ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Sonraki/daha fazla düğmesine ([Sonraki sayfa] [Daha Fazla Yükle]) birden fazla kez tıklayın."
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Birden fazla düğmeye bir kez tıklayın ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Herhangi bir komut dosyasından bağlantı ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Tek tıklama (sayfalama, sekmeler)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Daha fazla öğe yüklemek için tıklayın (benzersiz metin içeriğine sahip yeni öğe bulunmadığında durur.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Benzersiz Metin"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Benzersiz $html$+Metin",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Benzersiz $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Benzersiz $css$ seçici",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Bağlantı (href özniteliğinden okunuyor)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Metin (metin içeriğini bağlantı olarak kullanın)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Bağlanmak"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Öznitelikteki betiklenmiş bağlantı ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Asla atmayın"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Tıklama öğesi mevcut olduğunda atla"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Her zaman atın"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URL'leri",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "URL ekle",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "$robotstxt$'dan ekle",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Bu özellik kullanımdan kaldırılmıştır ve gelecekteki sürümlerde çalışmayacaktır."
+	},
+	"website_state_setup_enabled": {
+		"message": "Etkinleştirilmiş",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Web Sitesi Durum Ayarlarını Sil",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Eylem Ekle",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Eylemleri Gerçekleştir",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Kaydetmek",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Web Sitesi Durum Ayarlarını Sil?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Şifre",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Metin",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Süre (ms)",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "URL'yi aç"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Tıklamak"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Uyku (ms)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Metin Girişi"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Şifre Girişi"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Giriş"
+	},
+	"button_loading": {
+		"message": "Yükleniyor...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Kazımaya başlayın",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "Web Sitesi Durum Kurulumu'ndaki parola alanı boş."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "İstek aralığı (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "İstek aralığı",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Sayfa yükleme gecikmesi (ms)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Sayfa yükleme gecikmesi",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Yükleniyor"
+	},
+	"button_refresh": {
+		"message": "Yenile",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Verileri Yenile",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "$webScraper$'ı geliştirmemize yardımcı olun!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Önerilerinizi oylayın ve gönderin.",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "$webScraperCloud$'da Veri Kazıma İşlemini Otomatikleştirin",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Veri çıkarma işlemini otomatik olarak planla"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "$webScraper$'ı API aracılığıyla yönetin",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$'e otomatik dışa aktarma",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "Site erişim sorunları için yerleşik $proxy$",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Dosya oluşturuluyor"
+	},
+	"export_downloadAs": {
+		"message": "Şu şekilde indir:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Evet"
+	},
+	"edit_selector_multipleNo": {
+		"message": "HAYIR"
+	},
+	"button_edit": {
+		"message": "Düzenlemek",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "Seçici Kimliği",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Ayarlar"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Uzantı kullanım ölçümlerinin toplanmasına izin verin. Yalnızca toplu biçimde kişisel olmayan bilgiler toplanmaktadır. Daha fazla ayrıntı için"
+	},
+	"options_page_privacyPolicy": {
+		"message": "Gizlilik Politikası"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Kullanım ölçümlerinin toplanmasına izin verin."
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Deneysel özellikleri etkinleştirin"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "Veri kazıma işlemi yeni bir sekmede başlayacaktır. Kazıma işlemi tamamlandığında bu pencere kapanacaktır."
+	},
+	"options_page_keepWorking": {
+		"message": "Kazıma işlemi devam ederken diğer işler de sürdürülebilir."
+	}
+}

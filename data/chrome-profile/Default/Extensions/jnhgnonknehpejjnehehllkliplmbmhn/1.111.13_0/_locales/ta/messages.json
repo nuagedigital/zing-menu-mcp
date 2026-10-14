@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "$webScraperCloud$ இல் ஸ்க்ரேப்பிங்கைத் தானியக்கமாக்கு",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "API மூலம் $webScraper$ நிர்வகி",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$ க்கு தானியங்கி ஏற்றுமதி",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "தள அணுகல் சிக்கல்களுக்கு உள்ளமைந்த $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "தரவுப் பிரித்தெடுப்பைத் தானாகவே திட்டமிடு"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ ஐ மேம்படுத்த உதவுங்கள்!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "ஏற்றுகிறது"
+   },
+   "button_addAction": {
+      "message": "செயல் சேர்"
+   },
+   "button_addColumn": {
+      "message": "நெடுவரிசை சேர்"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "$robotstxt$ இலிருந்து சேர்",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "புதிய தேர்வியை உருவாக்கு"
+   },
+   "button_addUrl": {
+      "message": "URL சேர்"
+   },
+   "button_cancel": {
+      "message": "ரத்துசெய்"
+   },
+   "button_close": {
+      "message": "மூடு"
+   },
+   "button_closePreview": {
+      "message": "முன்னோட்டத்தை மூடு"
+   },
+   "button_dataPreview": {
+      "message": "தரவு முன்னோட்டம்"
+   },
+   "button_delete": {
+      "message": "நீக்கு"
+   },
+   "button_deleteLocally": {
+      "message": "உள்ளூரில் நீக்கு"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "இணையதள நிலை அமைப்பை நீக்கு"
+   },
+   "button_download": {
+      "message": "பதிவிறக்கு"
+   },
+   "button_edit": {
+      "message": "திருத்து"
+   },
+   "button_elementPreview": {
+      "message": "உறுப்பு முன்னோட்டம்"
+   },
+   "button_listingPage": {
+      "message": "பட்டியல் பக்கம்"
+   },
+   "button_loading": {
+      "message": "ஏற்றுகிறது..."
+   },
+   "button_overwrite": {
+      "message": "மேலெழுது"
+   },
+   "button_performAction": {
+      "message": "செயலைச் செய்"
+   },
+   "button_performActions": {
+      "message": "செயல்களைச் செய்"
+   },
+   "button_refresh": {
+      "message": "புதுப்பி"
+   },
+   "button_refreshData": {
+      "message": "தரவைப் புதுப்பி"
+   },
+   "button_reload": {
+      "message": "புதுப்பி"
+   },
+   "button_remove": {
+      "message": "அகற்று"
+   },
+   "button_save": {
+      "message": "சேமி"
+   },
+   "button_saveSelector": {
+      "message": "தேர்வியைச் சேமி"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ சேமி",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "தேர்ந்தெடு"
+   },
+   "button_sendTrainingData": {
+      "message": "பயிற்சித் தரவை அனுப்பு"
+   },
+   "button_singleItemPage": {
+      "message": "ஒற்றை உருப்படிப் பக்கம்"
+   },
+   "button_startScraping": {
+      "message": "ஸ்க்ரேப்பிங் தொடங்கு"
+   },
+   "button_update": {
+      "message": "புதுப்பி"
+   },
+   "button_upload": {
+      "message": "பதிவேற்று"
+   },
+   "button_uploadToCloud": {
+      "message": "$sitemap$ ஐ $cloud$ க்கு பதிவேற்று",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "அம்ச யோசனைகளுக்கு வாக்களி & சமர்ப்பி"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "நீட்டிப்பை $cloud$ கணக்குடன் இணைத்த பிறகு, $sitemap$ பட்டியலைப் புதுப்பிக்கவும்.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "செயல்கள்"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ உருவாக்கு",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "பிழை:"
+   },
+   "common_id": {
+      "message": "Id"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ இறக்குமதி செய்",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "மேலும் அறி"
+   },
+   "common_multiple": {
+      "message": "பல"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 $2 மற்றும் $3 இடையே இருக்க வேண்டும்",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 எண்ணாக இருக்க வேண்டும்",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "இன்னும் தரவு ஸ்க்ராப் செய்யப்படவில்லை"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 வரம்பு ஏறுவரிசையில் இருக்க வேண்டும்",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "ஸ்க்ரேப் செய்"
+   },
+   "common_selector": {
+      "message": "தேர்வி"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "அங்கீகரிக்கப்படவில்லை. $cloud$ உடன் மீண்டும் இணைக்கவும்.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "மதிப்பு தனித்துவமாக இருக்க வேண்டும்."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "குறுக்குவிசைகளை இயக்க இங்கே கிளிக் செய்யவும்"
+   },
+   "contentApp_doneSelecting": {
+      "message": "தேர்ந்தெடுத்தல் முடிந்தது"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "தேர்ந்தெடுத்த உறுப்பு தாய் உறுப்பில் இல்லை"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "தாய் உறுப்பு காணப்படவில்லை"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "சேய் உறுப்பைத் தேர்ந்தெடுக்க $key$-ஐ அழுத்தவும்",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "தாய் உறுப்பைத் தேர்ந்தெடுக்க $key$-ஐ அழுத்தவும்",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "சுட்டி மேலிருக்கும் உறுப்பைத் தேர்ந்தெடுக்க $key$-ஐ அழுத்தவும்",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "தேர்ந்தெடுத்த உறுப்புகள்: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 தேவை, காலியாக இருக்கக்கூடாது",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1-இன் அதிகபட்ச நீளம் $2 எழுத்துகள்",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 குறைந்தது $2 எழுத்துகள் நீளமாக இருக்க வேண்டும்",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "எழுத்துகள், இலக்கங்கள் $digits$ அல்லது $allowedCharacters$ எழுத்துகள் மட்டுமே அனுமதிக்கப்படும்",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "செல்லாத $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ விசை இல்லை - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 ஒரு வரிசையாக இருக்க வேண்டும்",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "இந்த ID கொண்ட $sitemap$ ஏற்கனவே உள்ளது",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ தேவை; காலியாக இருக்கக்கூடாது",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 தேவை; காலியாக இருக்கக்கூடாது",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 எண்ணிக்கை $2-ஐ மீறக்கூடாது",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$-இல் _id, startUrl, websiteStateSetup, selectors, hashHistory ஆகிய தனித்துவமான விசைகள் மட்டுமே அனுமதிக்கப்படும்",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ பெயர்",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "தொடக்க URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 ஒரு செல்லுபடியாகும் URL அல்ல",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "தரவு முன்னோட்டம்"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "இன்னும் தரவு பிரித்தெடுக்கப்படவில்லை."
+   },
+   "edit_selector_attributeName": {
+      "message": "பண்புக்கூறு பெயர்"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "கிளிக் உறுப்பு தனித்துவம்"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "கிடைக்கும் பண்புக்கூறுகளைக் காண கிளிக் செய்க"
+   },
+   "edit_selector_clickType": {
+      "message": "கிளிக் வகை"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "மேலும் கிளிக் செய் (மேலும் உறுப்புகளை ஏற்ற கிளிக் செய். தனித்துவ உரை உள்ளடக்கம் கொண்ட புதிய உறுப்புகள் இல்லாதபோது நிற்கிறது.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "ஒரு முறை கிளிக் (பக்க வழிசெலுத்தல், தாவல்கள்)"
+   },
+   "edit_selector_column": {
+      "message": "நெடுவரிசை"
+   },
+   "edit_selector_columnCount": {
+      "message": "நெடுவரிசை எண்ணிக்கை"
+   },
+   "edit_selector_columnName": {
+      "message": "நெடுவரிசை பெயர்"
+   },
+   "edit_selector_delay": {
+      "message": "தாமதம் (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "இந்த அம்சம் வழக்கொழிந்தது, எதிர்கால வெளியீட்டில் செயல்படாது."
+   },
+   "edit_selector_discardAlways": {
+      "message": "எப்போதும் விலக்கு"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "தொடக்க உறுப்புகளை விலக்குதல்"
+   },
+   "edit_selector_discardNever": {
+      "message": "ஒருபோதும் விலக்காது"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "கிளிக் உறுப்பு இருக்கும்போது விலக்கு"
+   },
+   "edit_selector_elementLimit": {
+      "message": "உறுப்பு வரம்பு"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "முதல் பதிவு மட்டும்"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "கண்டறிந்த URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "தேர்வி ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "முடிவில் சேர்"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL ஆகும் (ஒன்று மட்டும்)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "கிளிக் தேர்வி"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "தரவு வரிசைகள் தேர்வி"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "தலைப்பு வரிசை தேர்வி"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "காணப்படாதபோது செயல்படுத்தும் தேர்வி"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "ஸ்க்ரோல் உறுப்பு"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "இல்லாவிட்டால் மட்டும் ஸ்க்ரோல்"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "உறுப்புக்கு ஸ்க்ரோல்"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "எந்த ஸ்கிரிப்டிலிருந்தும் இணைப்பு ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "இணைப்பு வகை"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "பண்புக்கூறு"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "இணைப்பு (href பண்புக்கூறிலிருந்து படிக்கப்படுகிறது)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "பண்புக்கூறில் ஸ்கிரிப்ட் இணைப்பு ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "உரை (உரை உள்ளடக்கத்தை இணைப்பாகப் பயன்படுத்து)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "குறைந்தபட்ச முன்னுரிமை"
+   },
+   "edit_selector_multipleNo": {
+      "message": "இல்லை"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "பல நெடுவரிசைகளில் பல பதிவுகள்"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "ஒரு நெடுவரிசையில் பல பதிவுகள்"
+   },
+   "edit_selector_multipleType": {
+      "message": "பல வகை"
+   },
+   "edit_selector_multipleYes": {
+      "message": "ஆம்"
+   },
+   "edit_selector_paginationType": {
+      "message": "பக்க வழிசெலுத்தல் வகை"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "தானியங்கி"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "அடுத்த/மேலும் பொத்தானில் பல முறை கிளிக் ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "பல பொத்தான்களில் ஒரு முறை கிளிக் ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "பண்புக்கூறு இணைப்பு ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "இணைப்பு ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "ஸ்கிரிப்ட் இணைப்பு ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "உரை இணைப்பு ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "பெற்றோர் தேர்விகள்"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "முடிவு விசை"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "திருப்பப்பட்ட தரவு நெடுவரிசைகள்"
+   },
+   "edit_selector_script": {
+      "message": "ஸ்கிரிப்ட்"
+   },
+   "edit_selector_scroll": {
+      "message": "ஸ்க்ரோல்"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "கிளிக் செயல்"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "கீழே ஸ்க்ரோல் செயல்"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "உறுப்பு (ஸ்க்ரோல்)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "உறுப்பு பண்புக்கூறு"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "உறுப்பு கிளிக்"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "உறுப்பு கீழே ஸ்க்ரோல் (வழக்கொழிந்தது)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "குழுவாக்கப்பட்டது (வழக்கொழிந்தது)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "படம்"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "இணைப்பு"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "நெட்வொர்க் தரவு"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "பக்க வழிசெலுத்தல்"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "பாப்அப் இணைப்பு (வழக்கொழிந்தது)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "ஸ்கிரிப்ட் தரவு"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ இணைப்புகள்",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "அட்டவணை"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "உரை"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URLகள்",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "அட்டவணை நெடுவரிசைகள்"
+   },
+   "edit_selector_type": {
+      "message": "வகை"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "தனித்துவ $css$ தேர்வி",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "தனித்துவ $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "தனித்துவ $html$+உரை",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "தனித்துவ உரை"
+   },
+   "edit_selector_unlimited": {
+      "message": "வரம்பற்றது"
+   },
+   "export_downloadAs": {
+      "message": "இவ்வாறு பதிவிறக்கு:"
+   },
+   "export_generatingFile": {
+      "message": "கோப்பை உருவாக்குகிறது"
+   },
+   "extDesc": {
+      "message": "நவீன வலைக்கான எளிய சுட்டிச் சொடுக்கு இடைமுகத்துடன் கூடிய வலைத் தரவு பிரித்தெடுப்புக் கருவி"
+   },
+   "extName": {
+      "message": "$webScraper$ - இலவச வலை ஸ்க்ரேப்பிங்",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - இலவச வலை ஸ்க்ரேப்பிங்",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "ஸ்க்ராப் செய்யப்பட்ட தரவு"
+   },
+   "nav_createNewSitemap": {
+      "message": "புதிய $sitemap$ உருவாக்கு",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "வழிகாட்டி மூலம் $sitemap$ உருவாக்கு",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "ஆவணப்படுத்தல்"
+   },
+   "nav_editMetadata": {
+      "message": "தொடக்க URLs"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "சோதனை அம்சங்கள் இயக்கப்பட்டுள்ளன"
+   },
+   "nav_exportData": {
+      "message": "தரவு ஏற்றுமதி"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ ஏற்றுமதி",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "மன்றம்"
+   },
+   "nav_help": {
+      "message": "உதவி"
+   },
+   "nav_logout": {
+      "message": "வெளியேறு"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$ ஐப் பயன்படுத்தத் தொடங்க, டெவலப்பர் கருவிகளை உலாவியின் கீழே நகர்த்தவும்.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "தேர்விகள்"
+   },
+   "nav_signInToCloud": {
+      "message": "$cloud$ இல் உள்நுழை",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "சோதனை தளங்கள்"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "அம்ச யோசனைகளுக்கு வாக்களி"
+   },
+   "nav_videoTutorials": {
+      "message": "வீடியோ பயிற்சிகள்"
+   },
+   "nav_websiteStateSetup": {
+      "message": "இணையதள Log-In / நிலை அமைப்பு"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "பயன்பாட்டு அளவீடு சேகரிப்பை அனுமதி"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "சோதனை அம்சங்களை இயக்கு"
+   },
+   "options_page_keepWorking": {
+      "message": "ஸ்க்ரேப்பிங் நடக்கும்போது மற்ற வேலைகளைத் தொடரலாம்."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "நீட்டிப்பு பயன்பாட்டு அளவீடு சேகரிப்பை அனுமதி. தனிப்பட்டதல்லாத தகவல் மட்டுமே திரட்டப்பட்ட வடிவில் சேகரிக்கப்படுகிறது. மேலும் விவரங்கள்"
+   },
+   "options_page_privacyPolicy": {
+      "message": "தனியுரிமைக் கொள்கை"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ ஸ்க்ரேப்பிங் முடிந்தது",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "ஸ்க்ரேப்பிங் முடிந்தது"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "ஸ்க்ரேப்பிங் புதிய தாவலில் தொடங்கும். ஸ்க்ரேப்பிங் முடிந்ததும், இந்தச் சாளரம் மூடப்படும்."
+   },
+   "options_page_settings": {
+      "message": "அமைப்புகள்"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "இணையதள நிலை அமைப்பில் கடவுச்சொல் புலம் காலியாக உள்ளது."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "பக்க ஏற்ற தாமதம் (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "பக்க ஏற்ற தாமதம்"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "கோரிக்கை இடைவெளி (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "கோரிக்கை இடைவெளி"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "தேர்வி $1-ஐ நீக்கவா?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "AI மூலம் தேர்விகளை உருவாக்கு:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "இந்த ID கொண்ட தேர்வி ஏற்கனவே உள்ளது"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "இந்த ID கொண்ட தேர்வி ஏற்கனவே உள்ள தரவு ஏற்றுமதி நெடுவரிசைக்குச் சமமாக உள்ளது"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "பண்புக்கூறு பெயரில் இடைவெளி, \", ', >, /, = அல்லது கட்டுப்பாட்டு எழுத்துகள் இருக்கக்கூடாது"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 இடைவெளி, அடிக்கோடு அல்லது \"web-scraper\" எனத் தொடங்கக்கூடாது, மேலும் இவற்றைக் கொண்டிருக்கக்கூடாது: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "செல்லுபடியான CSS தேர்வியாக இருக்க வேண்டும்"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "தேர்விக்கு குறைந்தது வேறு ஒரு தேர்வி தாய் தேர்வியாக இருக்க வேண்டும்"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "0 எழுத்துகளைப் பொருத்தக்கூடிய regular expression-களை JavaScript ஆதரிக்காது"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "பெற்றோர் தேர்விகள்"
+   },
+   "selectors_tableHeaderType": {
+      "message": "வகை"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "நீக்குதல் உறுதிப்படுத்தல்"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$-ஐ நீக்கவா?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ வடிகட்டு",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "இந்த $sitemap$ $cloud$ கணக்கில் மட்டுமே உள்ளது. திருத்த $cloud$ கணக்கிலிருந்து $sitemap$-ஐப் பதிவிறக்கவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "இது சமீபத்திய $sitemap$ பதிப்பு. இந்த $sitemap$-ஐ $cloud$ கணக்கில் உள்ள பதிப்பால் மேலெழுதவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ ஒத்திசைக்கப்படவில்லை",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "சமீபத்திய $sitemap$ பதிப்பு $cloud$ கணக்கில் உள்ளது. $cloud$ கணக்கில் உள்ள $sitemap$-ஐ இந்த $sitemap$ பதிப்பால் மேலெழுதவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "சமீபத்திய $sitemap$ பதிப்பைத் தீர்மானிக்க முடியவில்லை. இந்த $sitemap$-ஐ $cloud$ கணக்கில் உள்ள பதிப்பால் மேலெழுதவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "சமீபத்திய $sitemap$ பதிப்பைத் தீர்மானிக்க முடியவில்லை. $cloud$ கணக்கில் உள்ள $sitemap$-ஐ இந்த $sitemap$ பதிப்பால் மேலெழுதவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ $cloud$-இல் மட்டுமே உள்ளது",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ ஒத்திசைக்கப்பட்டது",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ நீட்டிப்பில் மட்டுமே உள்ளது",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "சமீபத்திய $sitemap$ பதிப்பு $cloud$ கணக்கில் உள்ளது. $cloud$ கணக்கில் உள்ள பதிப்புடன் பொருந்த இந்த $sitemap$-ஐப் புதுப்பிக்கவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "இது சமீபத்திய $sitemap$ பதிப்பு. $cloud$ கணக்கில் உள்ள $sitemap$-ஐ இந்த $sitemap$ பதிப்பால் புதுப்பிக்கவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "இந்த $sitemap$ நீட்டிப்புச் சேமிப்பகத்தில் மட்டுமே உள்ளது. $sitemap$-ஐ $cloud$ கணக்கிற்குப் பதிவேற்றவும்",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "டொமைன்"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "$cloud$ இலிருந்து பதிவிறக்கு",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "$cloud$ இல் பதிவேற்று",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "கிளிக்"
+   },
+   "website_state_setup_actionInput": {
+      "message": "உள்ளீடு"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL திற"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "கடவுச்சொல் உள்ளீடு"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "காத்திருத்தல் (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "உரை உள்ளீடு"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "இணையதள நிலை அமைப்பை நீக்கவா?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "கால அளவு (ms)"
+   },
+   "website_state_setup_enabled": {
+      "message": "இயக்கப்பட்டது"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "கடவுச்சொல்"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "உரை"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "வழிகாட்டி $sitemaps$ அணுகல்",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "படங்களைச் சேர்"
+   },
+   "wizard_addMoreText": {
+      "message": "மேலும் உரை சேர்"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "பக்க உள்ளடக்கத்தைப் பகுப்பாய்வு செய்கிறது..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "AI மூலம் $1 URL-களைப் பகுப்பாய்வு செய்கிறது (சராசரி காத்திருப்பு $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "மேலும் பல..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "ஸ்க்ரோல் செய்த பிறகு மேலும் உருப்படிகள் ஏற்றப்படுகின்றனவா?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "$webScraperCloud$ இல் பிரித்தெடுப்பைத் தானியக்கமாக்கு",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "$cloud$-இல் தானியக்கப்படுத்து",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "பாட் கண்டறிதல் கையாளுதல்"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "முடிவற்ற ஸ்க்ரோலைச் சரிபார்க்கிறது"
+   },
+   "wizard_columnName": {
+      "message": "நெடுவரிசை பெயர்"
+   },
+   "wizard_continueButton": {
+      "message": "தொடர்"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "தனிப்பயனாக்கக்கூடிய $css$ தேர்விகள்",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "தனிப்பயனாக்கக்கூடிய தள வழிசெலுத்தல்"
+   },
+   "wizard_dataExtractionError": {
+      "message": "இந்தப் பக்கத்திலிருந்து தரவைப் பிரித்தெடுக்கும்போது பிழை ஏற்பட்டது. சிக்கல் தெரிவிக்கப்பட்டது. பின்னர் மீண்டும் முயற்சிக்கவும்."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "பக்கத்தில் $1 தரவுப் புள்ளிகள் கண்டறியப்பட்டன",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "பக்கத்தில் 1 தரவுப் புள்ளி கண்டறியப்பட்டது"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "முடிவற்ற ஸ்க்ரோலை முடக்கு"
+   },
+   "wizard_disablePagination": {
+      "message": "பக்க வழிசெலுத்தலை முடக்கு"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "இந்தப் பக்கத்தில் பக்க வழிசெலுத்தல் உள்ளதா?"
+   },
+   "wizard_doneSelecting": {
+      "message": "தேர்வு முடிந்தது"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "முடிவற்ற ஸ்க்ரோலை இயக்கு"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "உருப்படிப் பக்கங்களுக்கு வழிசெலுத்தலையும் ஒவ்வொரு பக்கத்திலிருந்தும் தரவுப் பிரித்தெடுப்பையும் இயக்கவும்."
+   },
+   "wizard_errorTitle": {
+      "message": "பிழை"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "$dropbox$, $googleDrive$, $s3$, ... க்கு ஏற்றுமதி செய்",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "பக்கத் தரவைச் சேகரிக்கிறது $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "கருத்து தெரிவி"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "மேம்பட்ட $sitemap$ உருவாக்கிக்குச் செல்",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "என்ன நினைக்கிறீர்கள்?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "உங்கள் ஸ்க்ரேப்பிங் அனுபவம் எப்படி இருந்தது?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 உருப்படிப் பக்க இணைப்புகள் தேர்ந்தெடுக்கப்பட்டன",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 உருப்படிப் பக்க இணைப்பு தேர்ந்தெடுக்கப்பட்டது"
+   },
+   "wizard_link": {
+      "message": "இணைப்பு"
+   },
+   "wizard_loadMore": {
+      "message": "மேலும் ஏற்று"
+   },
+   "wizard_loadingPage": {
+      "message": "பக்கம் ஏற்றப்படுகிறது..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ அம்சம்",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "பிரித்தெடுப்பதற்கு முன் நெடுவரிசைகளை அகற்று, சேர் அல்லது மறுபெயரிடு"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "மேலும் தரவுப் பிரித்தெடுப்பிகள்"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 பதிவுகள் ஸ்க்ராப் செய்யப்பட்டன",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "உருப்படிப் பக்க இணைப்புகளைக் கண்டறிய பக்க வழிசெலுத்தலில் செல்கிறது."
+   },
+   "wizard_nextPage": {
+      "message": "அடுத்த பக்கம்"
+   },
+   "wizard_noDataFound": {
+      "message": "தரவு எதுவும் இல்லை"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "பதிவுகள் எதுவும் ஸ்க்ராப் செய்யப்படவில்லை. முந்தைய படிகளைச் சரிபார்க்கவும் அல்லது மீண்டும் முயற்சிக்கவும்."
+   },
+   "wizard_numberedPages": {
+      "message": "எண்ணிடப்பட்ட பக்கங்கள்: அனைத்தையும் தேர்ந்தெடுக்க பல பொத்தான்களைக் கிளிக் செய்யவும்"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "ஒரு தாவலில் மட்டுமே செயல்படும்."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "டெவலப்பர் கருவிகளைத் திறக்க $shortcut1$ அல்லது $shortcut2$ அழுத்தவும்.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "டெவலப்பர் கருவிகளைத் திறக்க $shortcut$ அழுத்தவும்.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "உலாவியின் டெவலப்பர் கருவிகளைத் திற"
+   },
+   "wizard_paginationDetected": {
+      "message": "பக்க வழிசெலுத்தல் கண்டறியப்பட்டது. அடுத்த படியில் உள்ளமைவை நிர்வகிக்கவும்."
+   },
+   "wizard_paginationEnabled": {
+      "message": "பக்க வழிசெலுத்தல் இயக்கப்பட்டது"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "உலாவியின் webstore-இல் நீட்டிப்புக்கு மதிப்புரை அளிக்கவும்!"
+   },
+   "wizard_rateUs": {
+      "message": "எங்களை மதிப்பிடுங்கள்"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 பதிவுகள் ஸ்க்ராப் செய்யப்பட்டன, $2 காட்டப்படுகிறது",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "மீள்-உருவாக்கு"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "மீண்டும் ஸ்க்ரேப் செய்"
+   },
+   "wizard_reselect": {
+      "message": "மீண்டும் தேர்ந்தெடு"
+   },
+   "wizard_retry": {
+      "message": "மீண்டும் முயற்சி"
+   },
+   "wizard_scheduler": {
+      "message": "திட்டமிடல் அமைப்பு"
+   },
+   "wizard_scrapeThePage": {
+      "message": "பக்கத்தை ஸ்க்ரேப் செய்"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "ஸ்க்ரேப்பர் கட்டமைப்பு தயாராக உள்ளது"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "ஸ்க்ரேப்பிங் நடைபெறுகிறது. ($1 பதிவுகள் ஸ்க்ரேப் செய்யப்பட்டன)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "ஸ்க்ரேப்பிங் நடைபெறுகிறது."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "ஸ்க்ரேப்பிங் நடைபெறுகிறது. (1 பதிவு ஸ்க்ரேப் செய்யப்பட்டது)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "ஸ்க்ரேப்பிங் நடைபெறுகிறது. ($1 பதிவுகள் ஸ்க்ரேப் செய்யப்பட்டன, $2 காட்டப்படுகின்றன)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "ஸ்க்ரோல் இயக்கப்பட்டது"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "குறைந்தது இரண்டு இணைப்புகள் தேவை."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "தரவுப் புள்ளிகளைக் கைமுறையாகத் தேர்ந்தெடுக்கவும்"
+   },
+   "wizard_selectLink": {
+      "message": "இணைப்பைத் தேர்ந்தெடு"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "அடுத்த பக்கப் பொத்தானைத் தேர்ந்தெடு"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "பக்க வழிசெலுத்தல் பொத்தானைத் தேர்ந்தெடுக்கவும். பொதுவான வகைகள்:"
+   },
+   "wizard_sendFeedback": {
+      "message": "கருத்து அனுப்பு"
+   },
+   "wizard_showMe": {
+      "message": "காட்டு"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$2 பதிவுகளில் $1 காண்பிக்கப்படுகிறது",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1 பதிவுகள் காண்பிக்கப்படுகின்றன",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "1 பதிவு காண்பிக்கப்படுகிறது"
+   },
+   "wizard_signUp": {
+      "message": "பதிவு செய்"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 பதிவு ஸ்க்ராப் செய்யப்பட்டது"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "மேம்பட்ட $sitemap2$ உருவாக்கியில் $sitemap$ சேமிக்கப்பட்டது",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "தவிர்"
+   },
+   "wizard_stepDataSetup": {
+      "message": "தரவு அமைப்பு"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "கருத்து & மேம்பட்ட ஸ்க்ரேப்பிங்"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "உருப்படி இணைப்புகளைப் பின்தொடர்தல்"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "உருப்படிப் பக்கத் தரவு அமைப்பு"
+   },
+   "wizard_stepPagination": {
+      "message": "பக்க வழிசெலுத்தல் & ஸ்க்ரோல்"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ ஐ ஒத்திசைத்து இயக்கு",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "கருத்துக்கு நன்றி!"
+   },
+   "wizard_title": {
+      "message": "தலைப்பு"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "மீண்டும் தேர்ந்தெடுக்க முயற்சிக்கவும்"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "பயனர் அனுபவத்தை மேம்படுத்த அனைத்து மதிப்பாய்வுகளும் ஆய்வு செய்யப்படுகின்றன."
+   },
+   "wizard_yourFeedback": {
+      "message": "உங்கள் கருத்து"
+   }
+}

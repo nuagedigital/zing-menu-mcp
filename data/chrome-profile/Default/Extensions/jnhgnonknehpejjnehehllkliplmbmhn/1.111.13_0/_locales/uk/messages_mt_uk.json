@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ – Безкоштовний веб-скрейпінг",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ – Безкоштовний веб-скрейпінг",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Інструмент для вилучення веб-даних із простим інтерфейсом типу «вкажи та клацни» для сучасного вебу"
+	},
+	"common_actions": {
+		"message": "Дії"
+	},
+	"common_createSitemap": {
+		"message": "Створити $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "Ідентифікатор"
+	},
+	"common_importSitemap": {
+		"message": "Імпорт $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Дізнатися більше",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Кілька"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Дані ще не зібрані"
+	},
+	"common_scrape": {
+		"message": "Скрейп",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Селектор"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Перейти до розширеного конструктора $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "Більше екстракторів даних"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Налаштовувана навігація сайтом"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Налаштовувані селектори $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "Функція $logIn$",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "І більше..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Майстер доступу $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Натисніть $shortcut1$ або $shortcut2$, щоб відкрити Інструменти розробника.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Натисніть $shortcut$, щоб відкрити Інструменти розробника.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Відкрийте інструменти розробника браузера"
+	},
+	"wizard_showMe": {
+		"message": "Покажи мені",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Дані не знайдено",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Назва стовпця"
+	},
+	"wizard_title": {
+		"message": "Назва",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Посилання"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Аналіз вмісту сторінки..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Під час вилучення даних із цієї сторінки сталася помилка. Про проблему повідомлено. Спробуйте ще раз пізніше."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "Показано записів $1 з $2",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "Показано 1 запис"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "Показано записи $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "На сторінці знайдено 1 точку даних"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "На сторінці знайдено $1 точок даних",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Завантаження сторінки..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Видалення, додавання або перейменування стовпців перед вилученням"
+	},
+	"wizard_addMoreText": {
+		"message": "Додати більше тексту",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Додати зображення",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Повторити спробу",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Регенерувати",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Помилка"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "Конфігурація скрепера готова"
+	},
+	"wizard_scrapeThePage": {
+		"message": "Зіскребти сторінку",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Жодних записів не було скопійовано. Перевірте попередні кроки або повторіть спробу."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Повторно зіскребти",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Що ви думаєте?"
+	},
+	"wizard_giveFeedback": {
+		"message": "Залишити відгук",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Ваш відгук",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Надіслати відгук",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ збережено в розширеному конструкторі $sitemap2$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Вибрати повторно",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "Вибрано 1 посилання на сторінку товару"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "Вибрано посилання на сторінки товарів $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "Потрібно щонайменше два посилання."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Спробуйте вибрати ще раз",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Як вам сподобався ваш досвід парсингу?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "Автоматизувати видобування в $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "Експортувати до $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Обробка виявлення ботів",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "Синхронізувати та запустити $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Зареєструватися",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Планувальник"
+	},
+	"wizard_stepPagination": {
+		"message": "Пагінація та прокручування"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Налаштування даних"
+	},
+	"wizard_continueButton": {
+		"message": "Продовжити",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Чи має ця сторінка пагінацію?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Пагінація ввімкнена"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Кнопка «Вибрати наступну сторінку»",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Вимкнути пагінацію",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Кнопка вибору сторінкового розбиття. Поширені типи:"
+	},
+	"wizard_nextPage": {
+		"message": "Наступна сторінка"
+	},
+	"wizard_loadMore": {
+		"message": "Завантажити більше"
+	},
+	"wizard_numberedPages": {
+		"message": "Нумеровані сторінки: натисніть кілька кнопок, щоб вибрати всі"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "Чи завантажуються додаткові елементи після прокручування?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Перевірка нескінченного прокручування"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Прокручування ввімкнено"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Увімкнути нескінченне прокручування",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Вимкнути нескінченне прокручування",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Триває скребкування."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Триває парсинг. (1 запис парсинговано)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Триває парсинг. ($1 записів парсинговано)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Триває парсинг. ($1 записів парсинговано, відображається $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 запис вилучено"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "Зібрано записів $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "Зібрано записи $1, що показують $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Дякую за відгук!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Будь ласка, перегляньте розширення в інтернет-магазині браузера!"
+	},
+	"wizard_rateUs": {
+		"message": "Оцініть нас"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Усі відгуки перевіряються для покращення взаємодії з користувачами."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Увімкнути навігацію по сторінках елементів та вилучення даних з кожної сторінки."
+	},
+	"wizard_selectLink": {
+		"message": "Виберіть посилання",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Збір даних сторінки $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "Аналіз URL-адрес $1 за допомогою штучного інтелекту (середній час очікування $waitTime$ с)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Перейти до посилань на товари"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Зворотній зв'язок та розширений парсинг"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Налаштування даних сторінки елемента"
+	},
+	"wizard_doneSelecting": {
+		"message": "Вибір завершено",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "Автоматизувати в $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Виявлено пагінацію. Керуйте конфігурацією на наступному кроці."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Працює лише в одній вкладці."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "Ім'я $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "Початкова URL-адреса"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL-адреса"
+	},
+	"button_saveSitemap": {
+		"message": "Зберегти $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 не є дійсною URL-адресою",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "Поле $sitemap$ $json$ є обов'язковим і не може бути порожнім.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "Недійсний $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "Бракує ключа $sitemap$ - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "Кількість $1 не повинна перевищувати $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "Поле $1 обов'язкове та не може бути порожнім",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 має містити щонайменше $2 символів",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "Максимальна довжина $1 становить $2 символів",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Дозволено лише літери, цифри $digits$ або будь-які символи $allowedCharacters$",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ з цим ідентифікатором вже існує",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 має бути масивом",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 обов'язкові та не можуть бути порожніми. Потрібно вибрати принаймні один",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "У $sitemap$ дозволені лише унікальні ключі _id, startUrl, websiteStateSetup, селектори, hashHistory.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "Фільтр $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "Домен"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "Завантажити на $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "Завантажити з $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ не синхронізовано",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ синхронізовано",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ є лише в $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ доступний лише в розширенні",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Перезаписати",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "Не вдалося визначити останню версію $sitemap$. Перезапишіть $sitemap$ в обліковому записі $cloud$ цією версією $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "Не вдалося визначити останню версію $sitemap$. Перезапишіть цей $sitemap$ версією з облікового запису $cloud$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "Найновіша версія $sitemap$ знаходиться в обліковому записі $cloud$. Перезапишіть $sitemap$ в обліковому записі $cloud$ цією версією $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "Це остання версія $sitemap$. Перезапишіть цей $sitemap$ версією з облікового запису $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Оновлення",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "Найновіша версія $sitemap$ знаходиться в обліковому записі $cloud$. Оновіть цей $sitemap$, щоб він відповідав версії в обліковому записі $cloud$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "Це остання версія $sitemap$. Оновіть $sitemap$ в обліковому записі $cloud$ цією версією $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "Завантажити",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "Цей $sitemap$ є лише в обліковому записі $cloud$. Завантажте $sitemap$ з облікового запису $cloud$ для редагування.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Завантажити",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Видалити локально",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "Цей $sitemap$ знаходиться лише у сховищі розширення. Завантажте $sitemap$ до облікового запису $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "Видалити $sitemap$?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Підтвердження видалення"
+	},
+	"button_cancel": {
+		"message": "Скасувати",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Видалити",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Вийти",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "Увійдіть до $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Селектори",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "Початкові URL-адреси",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Вхід на веб-сайт / налаштування стану",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Зібрані дані",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "експорт $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Експорт даних",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Створити новий $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Створіть $sitemap$ за допомогою майстра",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Допомога",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Відеоуроки",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Документація",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Тестові майданчики",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Форум",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Ідеї для функцій з голосуванням за них",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Експериментальні функції ввімкнено",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Тип"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Батьківські селектори",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Створити новий селектор",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Генерація селекторів за допомогою штучного інтелекту:"
+	},
+	"button_listingPage": {
+		"message": "Сторінка оголошення",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Сторінка з одним елементом",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "Видалити селектор $1?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "Перемістіть інструменти розробника вниз браузера, щоб почати використовувати $webScraper$.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Попередній перегляд даних"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Дані ще не витягнуті."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Після підключення розширення до облікового запису $cloud$, перезавантажте список $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Перезавантажити",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Закрити",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Назва атрибута"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Натисніть, щоб переглянути доступні атрибути"
+	},
+	"edit_selector_tableColumns": {
+		"message": "Стовпці таблиці"
+	},
+	"edit_selector_column": {
+		"message": "Колонка"
+	},
+	"edit_selector_resultKey": {
+		"message": "Ключ результату"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Включити в результат"
+	},
+	"button_dataPreview": {
+		"message": "Попередній перегляд даних",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "Завантажити $sitemap$ на $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Надіслати навчальні дані",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Елемент прокручування",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Прокручуйте лише якщо відсутнє"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Прокрутити до елемента"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Клікніть на селектор"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Вибір рядка заголовка"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Селектор рядків даних"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Виконувати, коли селектор не знайдено"
+	},
+	"button_select": {
+		"message": "Виберіть",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Попередній перегляд елемента",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Закрити попередній перегляд",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Зберегти селектор",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Прокрутка",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Ліміт елемента",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Безлімітний",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Регулярний вираз",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "Знайдено URL-адресу $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Мінімальний пріоритет",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Затримка (мс)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Кількість стовпців",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Кілька типів",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "Тільки перший запис"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Кілька записів у кількох стовпцях"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Кілька записів в одному стовпці"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Батьківські селектори",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Виконати дію",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Сценарій",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Повернуті стовпці даних"
+	},
+	"edit_selector_columnName": {
+		"message": "Назва стовпця"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "URL-адреса (лише одна)"
+	},
+	"button_remove": {
+		"message": "Видалити",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Додати стовпець",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Тип кліку",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Тип пагінації",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Унікальність елемента клік",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Тип посилання",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "Відкинути початкові елементи",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Авто"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Посилання ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Скриптоване посилання ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Посилання на атрибут ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Текстове посилання ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Натисніть кілька разів кнопку «Далі/більше» ([Наступна сторінка] [Завантажити більше])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Натисніть один раз на кілька кнопок ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Посилання з будь-якого скрипта ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Клацніть один раз (пагінація, табуляція)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Натисніть більше (натисніть, щоб завантажити більше елементів. Зупиняється, коли не знайдено нових елементів з унікальним текстовим вмістом.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Унікальний текст"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Унікальний $html$+Текст",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Унікальний $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Унікальний селектор $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Посилання (зчитується з атрибута href)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Текст (використовуйте текстовий вміст як посилання)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Атрибут"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Скриптоване посилання в атрибуті ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Ніколи не викидайте"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Відхилити, якщо елемент click існує"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Завжди викидайте"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "URL-адреси $sitemapXml$",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "Додати URL-адресу",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "Додати з $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Ця функція застаріла та не працюватиме в майбутньому випуску."
+	},
+	"website_state_setup_enabled": {
+		"message": "Увімкнено",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Видалити налаштування стану веб-сайту",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Додати дію",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Виконання дій",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Зберегти",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Видалити налаштування стану веб-сайту?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Пароль",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Текст",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Тривалість у мс",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "Відкрити URL-адресу"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Натисніть"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Сон (мс)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Введення тексту"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Введення пароля"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Вхід"
+	},
+	"button_loading": {
+		"message": "Завантаження...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Почати парсинг",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "Поле пароля в налаштуваннях стану веб-сайту порожнє."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "Інтервал запиту (мс)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "Інтервал запиту",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Затримка завантаження сторінки (мс)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Затримка завантаження сторінки",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Завантаження"
+	},
+	"button_refresh": {
+		"message": "Оновити",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Оновити дані",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "Допоможіть нам покращити $webScraper$!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Проголосуйте за та надішліть ідеї для функцій",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "Автоматизувати парсинг у $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Автоматичне планування вилучення даних"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "Керування $webScraper$ через API",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "Автоматичний експорт до $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "Вбудований $proxy$ для вирішення проблем із доступом до сайту",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Генерування файлу"
+	},
+	"export_downloadAs": {
+		"message": "Завантажити як:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Так"
+	},
+	"edit_selector_multipleNo": {
+		"message": "Ні"
+	},
+	"button_edit": {
+		"message": "Редагувати",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "Ідентифікатор селектора",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Налаштування"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Дозволити збір показників використання розширень. Збирається лише неперсональна інформація в узагальненому форматі. Докладніше див."
+	},
+	"options_page_privacyPolicy": {
+		"message": "Політика конфіденційності"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Дозволити збір показників використання"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Увімкнути експериментальні функції"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "Парсинг розпочнеться в новій вкладці. Після завершення парсингу це вікно закриється."
+	},
+	"options_page_keepWorking": {
+		"message": "Інша робота може тривати під час шкребіння."
+	}
+}

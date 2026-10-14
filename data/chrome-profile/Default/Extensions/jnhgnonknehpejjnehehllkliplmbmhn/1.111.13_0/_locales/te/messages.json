@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "$webScraperCloud$లో స్క్రాపింగ్ ఆటోమేట్ చేయడం",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "API ద్వారా $webScraper$ నిర్వహించడం",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$కు స్వయంచాలక ఎగుమతి",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "సైట్ యాక్సెస్ సమస్యల కోసం అంతర్నిర్మిత $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "డేటా వెలికితీతను స్వయంచాలకంగా షెడ్యూల్ చేయడం"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ను మెరుగుపరచడంలో మాకు సహాయం చేయండి!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "లోడ్ అవుతోంది"
+   },
+   "button_addAction": {
+      "message": "చర్యను జోడించడం"
+   },
+   "button_addColumn": {
+      "message": "నిలువు వరుసను జోడించు"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "$robotstxt$ నుండి జోడించడం",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "కొత్త సెలెక్టర్‌ను సృష్టించండి"
+   },
+   "button_addUrl": {
+      "message": "URL జోడించడం"
+   },
+   "button_cancel": {
+      "message": "రద్దు చేయి"
+   },
+   "button_close": {
+      "message": "మూసివేయి"
+   },
+   "button_closePreview": {
+      "message": "ప్రివ్యూ మూసివేయి"
+   },
+   "button_dataPreview": {
+      "message": "డేటా ప్రివ్యూ"
+   },
+   "button_delete": {
+      "message": "తొలగించు"
+   },
+   "button_deleteLocally": {
+      "message": "స్థానికంగా తొలగించు"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "వెబ్‌సైట్ స్థితి సెటప్ తొలగించడం"
+   },
+   "button_download": {
+      "message": "డౌన్‌లోడ్"
+   },
+   "button_edit": {
+      "message": "సవరించు"
+   },
+   "button_elementPreview": {
+      "message": "ఎలిమెంట్ ప్రివ్యూ"
+   },
+   "button_listingPage": {
+      "message": "జాబితా పేజీ"
+   },
+   "button_loading": {
+      "message": "లోడ్ అవుతోంది..."
+   },
+   "button_overwrite": {
+      "message": "ఓవర్‌రైట్"
+   },
+   "button_performAction": {
+      "message": "చర్యను అమలు చేయి"
+   },
+   "button_performActions": {
+      "message": "చర్యలను అమలు చేయడం"
+   },
+   "button_refresh": {
+      "message": "రిఫ్రెష్"
+   },
+   "button_refreshData": {
+      "message": "డేటా రిఫ్రెష్"
+   },
+   "button_reload": {
+      "message": "రిఫ్రెష్"
+   },
+   "button_remove": {
+      "message": "తీసివేయి"
+   },
+   "button_save": {
+      "message": "సేవ్ చేయడం"
+   },
+   "button_saveSelector": {
+      "message": "సెలెక్టర్ సేవ్ చేయి"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ సేవ్ చేయండి",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "ఎంచుకో"
+   },
+   "button_sendTrainingData": {
+      "message": "శిక్షణ డేటా పంపు"
+   },
+   "button_singleItemPage": {
+      "message": "ఒకే ఐటెమ్ పేజీ"
+   },
+   "button_startScraping": {
+      "message": "స్క్రాపింగ్ ప్రారంభించడం"
+   },
+   "button_update": {
+      "message": "అప్‌డేట్"
+   },
+   "button_upload": {
+      "message": "అప్‌లోడ్"
+   },
+   "button_uploadToCloud": {
+      "message": "$sitemap$ను $cloud$కు అప్‌లోడ్ చేయి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "ఫీచర్ ఆలోచనలను అప్‌వోట్ & సమర్పించడం"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "ఎక్స్‌టెన్షన్‌ను $cloud$ ఖాతాకు కనెక్ట్ చేసిన తర్వాత, $sitemap$ జాబితాను రిఫ్రెష్ చేయండి.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "చర్యలు"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ సృష్టించండి",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "లోపం:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ దిగుమతి చేయండి",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "మరింత తెలుసుకోండి"
+   },
+   "common_multiple": {
+      "message": "బహుళ"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 $2 మరియు $3 మధ్య ఉండాలి",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 సంఖ్య అయి ఉండాలి",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "ఇంకా డేటా స్క్రాప్ చేయలేదు"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 పరిధి ఆరోహణ క్రమంలో ఉండాలి",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "స్క్రాప్ చేయండి"
+   },
+   "common_selector": {
+      "message": "సెలెక్టర్"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "అనధికృతం. $cloud$తో మళ్లీ కనెక్ట్ అవ్వండి.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "విలువ ప్రత్యేకంగా ఉండాలి."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "హాట్‌కీలను ప్రారంభించడానికి ఇక్కడ క్లిక్ చేయండి"
+   },
+   "contentApp_doneSelecting": {
+      "message": "ఎంపిక పూర్తయింది"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "పేరెంట్‌లో ఎంచుకున్న ఎలిమెంట్ లేదు"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "పేరెంట్ ఎలిమెంట్ కనుగొనబడలేదు"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "చైల్డ్ ఎలిమెంట్‌ను ఎంచుకోవడానికి $key$ నొక్కండి",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "పేరెంట్ ఎలిమెంట్‌ను ఎంచుకోవడానికి $key$ నొక్కండి",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "హోవర్ చేసిన ఎలిమెంట్‌ను ఎంచుకోవడానికి $key$ నొక్కండి",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "ఎంచుకున్న ఎలిమెంట్ల సంఖ్య: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 అవసరం మరియు ఖాళీగా ఉండకూడదు",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1 యొక్క గరిష్ట పొడవు $2 అక్షరాలు",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 కనీసం $2 అక్షరాల పొడవు ఉండాలి",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "అక్షరాలు, అంకెలు $digits$ లేదా $allowedCharacters$ అక్షరాలలో ఏదైనా మాత్రమే అనుమతించబడతాయి",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "చెల్లని $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ కీ లేదు - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 ఒక శ్రేణి అయి ఉండాలి",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "ఈ Idతో $sitemap$ ఇప్పటికే ఉంది",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ తప్పనిసరి మరియు ఖాళీగా ఉండకూడదు",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 తప్పనిసరి మరియు ఖాళీగా ఉండకూడదు",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 సంఖ్య $2ను మించకూడదు",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$లో _id, startUrl, websiteStateSetup, selectors, hashHistory అనే ప్రత్యేక కీలు మాత్రమే అనుమతించబడతాయి",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ పేరు",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "ప్రారంభ URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 చెల్లుబాటు అయ్యే URL కాదు",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "డేటా ప్రివ్యూ"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "ఇంకా డేటా వెలికితీయబడలేదు."
+   },
+   "edit_selector_attributeName": {
+      "message": "అట్రిబ్యూట్ పేరు"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "క్లిక్ ఎలిమెంట్ ప్రత్యేకత"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "అందుబాటులో ఉన్న అట్రిబ్యూట్‌లను వీక్షించడానికి క్లిక్ చేయండి"
+   },
+   "edit_selector_clickType": {
+      "message": "క్లిక్ రకం"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "మరిన్ని క్లిక్ చేయి (మరిన్ని ఎలిమెంట్‌లను లోడ్ చేయడానికి క్లిక్ చేయి. ప్రత్యేక టెక్స్ట్ కంటెంట్‌తో కొత్త ఎలిమెంట్‌లు కనుగొనబడనప్పుడు ఆగుతుంది.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "ఒకసారి క్లిక్ చేయి (పేజినేషన్, ట్యాబ్‌లు)"
+   },
+   "edit_selector_column": {
+      "message": "నిలువు వరుస"
+   },
+   "edit_selector_columnCount": {
+      "message": "నిలువు వరుసల సంఖ్య"
+   },
+   "edit_selector_columnName": {
+      "message": "నిలువు వరుస పేరు"
+   },
+   "edit_selector_delay": {
+      "message": "ఆలస్యం (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "ఈ ఫీచర్ వాడుకలో లేనిది మరియు భవిష్యత్ విడుదలలో పని చేయదు."
+   },
+   "edit_selector_discardAlways": {
+      "message": "ఎల్లప్పుడూ విస్మరించు"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "ప్రారంభ ఎలిమెంట్‌లను విస్మరించు"
+   },
+   "edit_selector_discardNever": {
+      "message": "ఎప్పుడూ విస్మరించవద్దు"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "క్లిక్ ఎలిమెంట్ ఉన్నప్పుడు విస్మరించు"
+   },
+   "edit_selector_elementLimit": {
+      "message": "ఎలిమెంట్ పరిమితి"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "మొదటి రికార్డ్ మాత్రమే"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "కనుగొనబడిన URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "సెలెక్టర్ ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "ఫలితంలో చేర్చు"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL అవునా (ఒకటి మాత్రమే)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "క్లిక్ సెలెక్టర్"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "డేటా వరుసల సెలెక్టర్"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "హెడర్ వరుస సెలెక్టర్"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "కనుగొనబడనప్పుడు అమలు చేసే సెలెక్టర్"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "స్క్రోల్ ఎలిమెంట్"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "లేనప్పుడు మాత్రమే స్క్రోల్ చేయి"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "ఎలిమెంట్‌కు స్క్రోల్ చేయి"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "ఏదైనా స్క్రిప్ట్ నుండి లింక్ ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "లింక్ రకం"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "అట్రిబ్యూట్"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "లింక్ (href అట్రిబ్యూట్ నుండి చదువు)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "అట్రిబ్యూట్‌లో స్క్రిప్టెడ్ లింక్ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "టెక్స్ట్ (టెక్స్ట్ కంటెంట్‌ను లింక్‌గా ఉపయోగించు)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "కనిష్ట ప్రాధాన్యత"
+   },
+   "edit_selector_multipleNo": {
+      "message": "లేదు"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "బహుళ నిలువు వరుసలలో బహుళ రికార్డులు"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "ఒకే నిలువు వరుసలో బహుళ రికార్డులు"
+   },
+   "edit_selector_multipleType": {
+      "message": "బహుళ రకం"
+   },
+   "edit_selector_multipleYes": {
+      "message": "అవును"
+   },
+   "edit_selector_paginationType": {
+      "message": "పేజినేషన్ రకం"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "ఆటో"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "తదుపరి/మరిన్ని బటన్‌పై బహుళసార్లు క్లిక్ చేయి ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "బహుళ బటన్‌లపై ఒకసారి క్లిక్ చేయి ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "అట్రిబ్యూట్ లింక్ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "లింక్ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "స్క్రిప్టెడ్ లింక్ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "టెక్స్ట్ లింక్ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "పేరెంట్ సెలెక్టర్లు"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "ఫలిత కీ"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "తిరిగి వచ్చిన డేటా నిలువు వరుసలు"
+   },
+   "edit_selector_script": {
+      "message": "స్క్రిప్ట్"
+   },
+   "edit_selector_scroll": {
+      "message": "స్క్రోల్"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "క్లిక్ చర్య"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "స్క్రోల్ డౌన్ చర్య"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "ఎలిమెంట్ (స్క్రోల్)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "ఎలిమెంట్ అట్రిబ్యూట్"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "ఎలిమెంట్ క్లిక్"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "ఎలిమెంట్ స్క్రోల్ డౌన్ (వాడుకలో లేనిది)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "గ్రూప్ చేసినది (వాడుకలో లేనిది)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "ఇమేజ్"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "లింక్"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "నెట్‌వర్క్ డేటా"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "పేజినేషన్"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "పాప్అప్ లింక్ (వాడుకలో లేనిది)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "స్క్రిప్ట్ డేటా"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ లింక్‌లు",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "టేబుల్"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "టెక్స్ట్"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URLలు",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "పట్టిక నిలువు వరుసలు"
+   },
+   "edit_selector_type": {
+      "message": "రకం"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "ప్రత్యేక $css$ సెలెక్టర్",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "ప్రత్యేక $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "ప్రత్యేక $html$+టెక్స్ట్",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "ప్రత్యేక టెక్స్ట్"
+   },
+   "edit_selector_unlimited": {
+      "message": "అపరిమితం"
+   },
+   "export_downloadAs": {
+      "message": "ఇలా డౌన్‌లోడ్ చేయడం:"
+   },
+   "export_generatingFile": {
+      "message": "ఫైల్ రూపొందిస్తోంది"
+   },
+   "extDesc": {
+      "message": "ఆధునిక వెబ్ కోసం సులభమైన పాయింట్-అండ్-క్లిక్ ఇంటర్‌ఫేస్‌తో వెబ్ డేటా వెలికితీత సాధనం"
+   },
+   "extName": {
+      "message": "$webScraper$ - ఉచిత వెబ్ స్క్రాపింగ్",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - ఉచిత వెబ్ స్క్రాపింగ్",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "స్క్రాప్ చేసిన డేటా"
+   },
+   "nav_createNewSitemap": {
+      "message": "కొత్త $sitemap$ సృష్టించండి",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "విజార్డ్‌తో $sitemap$ సృష్టించండి",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "డాక్యుమెంటేషన్"
+   },
+   "nav_editMetadata": {
+      "message": "ప్రారంభ URLలు"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "ప్రయోగాత్మక ఫీచర్లు ప్రారంభించబడ్డాయి"
+   },
+   "nav_exportData": {
+      "message": "డేటా ఎగుమతి"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ ఎగుమతి",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "ఫోరమ్"
+   },
+   "nav_help": {
+      "message": "సహాయం"
+   },
+   "nav_logout": {
+      "message": "లాగ్అవుట్"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$ ఉపయోగించడం ప్రారంభించడానికి డెవలపర్ సాధనాలను బ్రౌజర్ దిగువకు తరలించండి.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "సెలెక్టర్లు"
+   },
+   "nav_signInToCloud": {
+      "message": "$cloud$‌కు సైన్ ఇన్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "పరీక్ష సైట్‌లు"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "ఫీచర్ ఆలోచనలను అప్‌వోట్ చేయండి"
+   },
+   "nav_videoTutorials": {
+      "message": "వీడియో ట్యుటోరియల్స్"
+   },
+   "nav_websiteStateSetup": {
+      "message": "వెబ్‌సైట్ Log-in / స్థితి సెటప్"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "వినియోగ మెట్రిక్ సేకరణను అనుమతించు"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "ప్రయోగాత్మక ఫీచర్లను ప్రారంభించు"
+   },
+   "options_page_keepWorking": {
+      "message": "స్క్రాపింగ్ సమయంలో ఇతర పని కొనసాగవచ్చు."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "ఎక్స్‌టెన్షన్ వినియోగ మెట్రిక్ సేకరణను అనుమతించు. సమగ్ర ఆకృతిలో వ్యక్తిగతేతర సమాచారం మాత్రమే సేకరించబడుతుంది. మరిన్ని వివరాలు"
+   },
+   "options_page_privacyPolicy": {
+      "message": "గోప్యతా విధానం"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ స్క్రాపింగ్ పూర్తయింది",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "స్క్రాపింగ్ పూర్తయింది"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "స్క్రాపింగ్ కొత్త ట్యాబ్‌లో ప్రారంభమవుతుంది. స్క్రాపింగ్ పూర్తయిన తర్వాత ఈ విండో మూసివేయబడుతుంది."
+   },
+   "options_page_settings": {
+      "message": "సెట్టింగ్‌లు"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "వెబ్‌సైట్ స్థితి సెటప్‌లో పాస్‌వర్డ్ ఫీల్డ్ ఖాళీగా ఉంది."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "పేజీ లోడ్ ఆలస్యం (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "పేజీ లోడ్ ఆలస్యం"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "అభ్యర్థన విరామం (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "అభ్యర్థన విరామం"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "$1 సెలెక్టర్‌ను తొలగించాలా?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "AIతో సెలెక్టర్లను రూపొందించండి:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "ఈ id ఉన్న సెలెక్టర్ ఇప్పటికే ఉంది"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "ఈ id ఉన్న సెలెక్టర్ ఇప్పటికే ఉన్న డేటా ఎగుమతి కాలమ్‌తో సమానం"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "అట్రిబ్యూట్ పేరులో వైట్‌స్పేస్, \", ', >, /, = లేదా ఏవైనా కంట్రోల్ అక్షరాలు ఉండకూడదు"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 వైట్‌స్పేస్, అండర్‌స్కోర్ లేదా \"web-scraper\"తో ప్రారంభం కాకూడదు మరియు వీటిని కలిగి ఉండకూడదు: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "చెల్లుబాటు అయ్యే CSS సెలెక్టర్ అయి ఉండాలి"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "సెలెక్టర్‌కు కనీసం మరో సెలెక్టర్ పేరెంట్‌గా ఉండాలి"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "0 అక్షరాలను మ్యాచ్ చేయగల రెగ్యులర్ ఎక్స్‌ప్రెషన్‌లకు JavaScript మద్దతు ఇవ్వదు"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "పేరెంట్ సెలెక్టర్లు"
+   },
+   "selectors_tableHeaderType": {
+      "message": "రకం"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "తొలగింపు నిర్ధారణ"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$‌ను తొలగించాలా?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ ఫిల్టర్ చేయండి",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "ఈ $sitemap$ కేవలం $cloud$ ఖాతాలో మాత్రమే ఉంది. సవరించడానికి $cloud$ ఖాతా నుండి $sitemap$‌ను డౌన్‌లోడ్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "ఇది తాజా $sitemap$ వెర్షన్. ఈ $sitemap$‌ను $cloud$ ఖాతాలోని వెర్షన్‌తో ఓవర్‌రైట్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ సింక్ చేయబడలేదు",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "తాజా $sitemap$ వెర్షన్ $cloud$ ఖాతాలో ఉంది. $cloud$ ఖాతాలోని $sitemap$‌ను ఈ $sitemap$ వెర్షన్‌తో ఓవర్‌రైట్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "తాజా $sitemap$ వెర్షన్‌ను నిర్ధారించలేము. ఈ $sitemap$‌ను $cloud$ ఖాతాలోని వెర్షన్‌తో ఓవర్‌రైట్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "తాజా $sitemap$ వెర్షన్‌ను నిర్ధారించలేము. $cloud$ ఖాతాలోని $sitemap$‌ను ఈ $sitemap$ వెర్షన్‌తో ఓవర్‌రైట్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ కేవలం $cloud$‌లో మాత్రమే ఉంది",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ సింక్ చేయబడింది",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ కేవలం ఎక్స్‌టెన్షన్‌లో మాత్రమే ఉంది",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "తాజా $sitemap$ వెర్షన్ $cloud$ ఖాతాలో ఉంది. $cloud$ ఖాతాలోని వెర్షన్‌కు సరిపోయేలా ఈ $sitemap$‌ను అప్‌డేట్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "ఇది తాజా $sitemap$ వెర్షన్. $cloud$ ఖాతాలోని $sitemap$‌ను ఈ $sitemap$ వెర్షన్‌తో అప్‌డేట్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "ఈ $sitemap$ కేవలం ఎక్స్‌టెన్షన్ నిల్వలో మాత్రమే ఉంది. $sitemap$‌ను $cloud$ ఖాతాకు అప్‌లోడ్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "డొమైన్"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "$cloud$ నుండి డౌన్‌లోడ్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "$cloud$‌కు అప్‌లోడ్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "క్లిక్ చేయడం"
+   },
+   "website_state_setup_actionInput": {
+      "message": "ఇన్‌పుట్"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL తెరవడం"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "పాస్‌వర్డ్ ఇన్‌పుట్"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "విరామం (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "టెక్స్ట్ ఇన్‌పుట్"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "వెబ్‌సైట్ స్థితి సెటప్ తొలగించాలా?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "msలో వ్యవధి"
+   },
+   "website_state_setup_enabled": {
+      "message": "ప్రారంభించబడింది"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "పాస్‌వర్డ్"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "టెక్స్ట్"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "విజార్డ్ $sitemaps$ యాక్సెస్ చేయడం",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "చిత్రాలను జోడించండి"
+   },
+   "wizard_addMoreText": {
+      "message": "మరింత టెక్స్ట్ జోడించండి"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "పేజీ కంటెంట్‌ను విశ్లేషిస్తోంది..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "AIతో $1 URLలను విశ్లేషిస్తోంది (సగటు నిరీక్షణ $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "ఇంకా మరిన్ని..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "స్క్రోల్ చేసిన తర్వాత మరిన్ని ఐటెమ్‌లు లోడ్ అవుతాయా?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "$webScraperCloud$లో వెలికితీతను ఆటోమేట్ చేయండి",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "$cloud$లో ఆటోమేట్ చేయండి",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "బాట్ గుర్తింపు నిర్వహణ"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "అనంత స్క్రోల్ తనిఖీ చేస్తోంది"
+   },
+   "wizard_columnName": {
+      "message": "కాలమ్ పేరు"
+   },
+   "wizard_continueButton": {
+      "message": "కొనసాగించు"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "అనుకూలీకరించదగిన $css$ సెలెక్టర్లు",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "అనుకూలీకరించదగిన సైట్ నావిగేషన్"
+   },
+   "wizard_dataExtractionError": {
+      "message": "ఈ పేజీ నుండి డేటాను వెలికితీసేటప్పుడు లోపం సంభవించింది. సమస్య నివేదించబడింది. తర్వాత మళ్లీ ప్రయత్నించండి."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "పేజీలో $1 డేటా పాయింట్‌లు కనుగొనబడ్డాయి",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "పేజీలో 1 డేటా పాయింట్ కనుగొనబడింది"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "అనంత స్క్రోల్ నిలిపివేయండి"
+   },
+   "wizard_disablePagination": {
+      "message": "పేజినేషన్ నిలిపివేయండి"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "ఈ పేజీలో పేజినేషన్ ఉందా?"
+   },
+   "wizard_doneSelecting": {
+      "message": "ఎంపిక పూర్తయింది"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "అనంత స్క్రోల్ ప్రారంభించండి"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "ఐటెమ్ పేజీలకు నావిగేషన్ మరియు ప్రతి పేజీ నుండి డేటా వెలికితీతను ప్రారంభించండి."
+   },
+   "wizard_errorTitle": {
+      "message": "లోపం"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "$dropbox$, $googleDrive$, $s3$, ...కు ఎగుమతి చేయండి",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "పేజీ డేటాను సేకరిస్తోంది $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "అభిప్రాయం ఇవ్వండి"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "అధునాతన $sitemap$ బిల్డర్‌కు వెళ్లండి",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "మీ అభిప్రాయం ఏమిటి?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "మీ స్క్రాపింగ్ అనుభవం ఎలా ఉంది?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 ఐటెమ్ పేజీ లింక్‌లు ఎంచుకోబడ్డాయి",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 ఐటెమ్ పేజీ లింక్ ఎంచుకోబడింది"
+   },
+   "wizard_link": {
+      "message": "లింక్"
+   },
+   "wizard_loadMore": {
+      "message": "మరిన్ని లోడ్ చేయండి"
+   },
+   "wizard_loadingPage": {
+      "message": "పేజీ లోడ్ అవుతోంది..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ ఫీచర్",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "వెలికితీసే ముందు కాలమ్‌లను తీసివేయండి, జోడించండి లేదా పేరు మార్చండి"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "మరిన్ని డేటా ఎక్స్‌ట్రాక్టర్లు"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 రికార్డ్‌లు స్క్రాప్ చేయబడ్డాయి",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "ఐటెమ్ పేజీ లింక్‌లను కనుగొనడానికి పేజినేషన్ ద్వారా నావిగేట్ చేస్తోంది."
+   },
+   "wizard_nextPage": {
+      "message": "తదుపరి పేజీ"
+   },
+   "wizard_noDataFound": {
+      "message": "డేటా కనుగొనబడలేదు"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "ఏ రికార్డ్‌లు స్క్రాప్ చేయబడలేదు. మునుపటి దశలను తనిఖీ చేయండి లేదా మళ్లీ ప్రయత్నించండి."
+   },
+   "wizard_numberedPages": {
+      "message": "సంఖ్యల పేజీలు: అన్నింటినీ ఎంచుకోవడానికి బహుళ బటన్‌లపై క్లిక్ చేయండి"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "ఒక ట్యాబ్‌లో మాత్రమే పనిచేస్తుంది."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "డెవలపర్ సాధనాలను తెరవడానికి $shortcut1$ లేదా $shortcut2$ నొక్కండి.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "డెవలపర్ సాధనాలను తెరవడానికి $shortcut$ నొక్కండి.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "బ్రౌజర్ డెవలపర్ సాధనాలను తెరవండి"
+   },
+   "wizard_paginationDetected": {
+      "message": "పేజినేషన్ గుర్తించబడింది. తదుపరి దశలో కాన్ఫిగరేషన్‌ను నిర్వహించండి."
+   },
+   "wizard_paginationEnabled": {
+      "message": "పేజినేషన్ ప్రారంభించబడింది"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "దయచేసి బ్రౌజర్ వెబ్‌స్టోర్‌లో ఎక్స్‌టెన్షన్‌ను సమీక్షించండి!"
+   },
+   "wizard_rateUs": {
+      "message": "మాకు రేటింగ్ ఇవ్వండి"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 రికార్డ్‌లు స్క్రాప్ చేయబడ్డాయి, $2 చూపుతోంది",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "మళ్లీ సృష్టించు"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "మళ్లీ స్క్రాప్"
+   },
+   "wizard_reselect": {
+      "message": "మళ్లీ ఎంచుకోండి"
+   },
+   "wizard_retry": {
+      "message": "మళ్లీ ప్రయత్నించు"
+   },
+   "wizard_scheduler": {
+      "message": "షెడ్యూలర్"
+   },
+   "wizard_scrapeThePage": {
+      "message": "పేజీని స్క్రాప్ చేయండి"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "స్క్రాపర్ కాన్ఫిగరేషన్ సిద్ధంగా ఉంది"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "స్క్రాపింగ్ జరుగుతోంది. ($1 రికార్డ్‌లు స్క్రాప్ చేయబడ్డాయి)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "స్క్రాపింగ్ జరుగుతోంది."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "స్క్రాపింగ్ జరుగుతోంది. (1 రికార్డ్ స్క్రాప్ చేయబడింది)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "స్క్రాపింగ్ జరుగుతోంది. ($1 రికార్డ్‌లు స్క్రాప్ చేయబడ్డాయి, $2 చూపుతోంది)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "స్క్రోలింగ్ ప్రారంభించబడింది"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "కనీసం రెండు లింక్‌లు అవసరం."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "డేటా పాయింట్లను మాన్యువల్‌గా ఎంచుకోండి"
+   },
+   "wizard_selectLink": {
+      "message": "లింక్‌ను ఎంచుకోండి"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "తదుపరి పేజీ బటన్‌ను ఎంచుకోండి"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "పేజినేషన్ బటన్‌ను ఎంచుకోండి. సాధారణ రకాలు:"
+   },
+   "wizard_sendFeedback": {
+      "message": "అభిప్రాయం పంపండి"
+   },
+   "wizard_showMe": {
+      "message": "చూపించు"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$2 రికార్డులలో $1 చూపుతోంది",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1 రికార్డులు చూపుతోంది",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "1 రికార్డు చూపుతోంది"
+   },
+   "wizard_signUp": {
+      "message": "సైన్ అప్"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 రికార్డ్ స్క్రాప్ చేయబడింది"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "అధునాతన $sitemap2$ బిల్డర్‌లో $sitemap$ సేవ్ చేయబడింది",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "దాటవేయి"
+   },
+   "wizard_stepDataSetup": {
+      "message": "డేటా సెటప్"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "ఫీడ్‌బ్యాక్ & అధునాతన స్క్రాపింగ్"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "ఐటెమ్ లింక్‌లను అనుసరించడం"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "ఐటెమ్ పేజీ డేటా సెటప్"
+   },
+   "wizard_stepPagination": {
+      "message": "పేజినేషన్ & స్క్రోల్"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ సింక్ & రన్ చేయండి",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "అభిప్రాయానికి ధన్యవాదాలు!"
+   },
+   "wizard_title": {
+      "message": "ఐటెమ్ పేరు"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "మళ్లీ ఎంచుకోవడానికి ప్రయత్నించండి"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "వినియోగదారు అనుభవాన్ని మెరుగుపరచడానికి అన్ని సమీక్షలు పరిశీలించబడతాయి."
+   },
+   "wizard_yourFeedback": {
+      "message": "మీ అభిప్రాయం"
+   }
+}

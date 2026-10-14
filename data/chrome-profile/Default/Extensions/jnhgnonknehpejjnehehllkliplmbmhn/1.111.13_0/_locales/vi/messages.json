@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Tự động hóa thu thập dữ liệu web trong $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Quản lý $webScraper$ qua API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Tự động xuất sang $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "$proxy$ tích hợp cho sự cố truy cập trang",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Tự động lập lịch trích xuất dữ liệu"
+   },
+   "browse_helpUsImprove": {
+      "message": "Hãy giúp chúng tôi cải thiện $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Đang tải"
+   },
+   "button_addAction": {
+      "message": "Thêm hành động"
+   },
+   "button_addColumn": {
+      "message": "Thêm Cột"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Thêm từ $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Tạo bộ chọn mới"
+   },
+   "button_addUrl": {
+      "message": "Thêm URL"
+   },
+   "button_cancel": {
+      "message": "Hủy"
+   },
+   "button_close": {
+      "message": "Đóng"
+   },
+   "button_closePreview": {
+      "message": "Đóng xem trước"
+   },
+   "button_dataPreview": {
+      "message": "Xem trước dữ liệu"
+   },
+   "button_delete": {
+      "message": "Xóa"
+   },
+   "button_deleteLocally": {
+      "message": "Xóa cục bộ"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Xóa Thiết lập trạng thái trang web"
+   },
+   "button_download": {
+      "message": "Tải xuống"
+   },
+   "button_edit": {
+      "message": "Chỉnh sửa"
+   },
+   "button_elementPreview": {
+      "message": "Xem trước phần tử"
+   },
+   "button_listingPage": {
+      "message": "Trang danh sách"
+   },
+   "button_loading": {
+      "message": "Đang tải..."
+   },
+   "button_overwrite": {
+      "message": "Ghi đè"
+   },
+   "button_performAction": {
+      "message": "Thực hiện hành động"
+   },
+   "button_performActions": {
+      "message": "Thực hiện hành động"
+   },
+   "button_refresh": {
+      "message": "Làm mới"
+   },
+   "button_refreshData": {
+      "message": "Làm mới dữ liệu"
+   },
+   "button_reload": {
+      "message": "Làm mới"
+   },
+   "button_remove": {
+      "message": "Xóa"
+   },
+   "button_save": {
+      "message": "Lưu"
+   },
+   "button_saveSelector": {
+      "message": "Lưu bộ chọn"
+   },
+   "button_saveSitemap": {
+      "message": "Lưu $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Chọn"
+   },
+   "button_sendTrainingData": {
+      "message": "Gửi dữ liệu huấn luyện"
+   },
+   "button_singleItemPage": {
+      "message": "Trang chi tiết một mục"
+   },
+   "button_startScraping": {
+      "message": "Bắt đầu thu thập dữ liệu web"
+   },
+   "button_update": {
+      "message": "Cập nhật"
+   },
+   "button_upload": {
+      "message": "Tải lên"
+   },
+   "button_uploadToCloud": {
+      "message": "Tải $sitemap$ lên $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Bình chọn & Gửi ý tưởng tính năng"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Sau khi kết nối tiện ích mở rộng với tài khoản $cloud$, làm mới danh sách $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Hành động"
+   },
+   "common_createSitemap": {
+      "message": "Tạo $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Lỗi:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Nhập $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Tìm hiểu thêm"
+   },
+   "common_multiple": {
+      "message": "Nhiều"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 phải nằm trong khoảng $2 đến $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 phải là số",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Chưa thu thập dữ liệu"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Phạm vi $1 phải tăng dần",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Thu thập dữ liệu"
+   },
+   "common_selector": {
+      "message": "Bộ chọn"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Chưa xác thực. Kết nối lại với $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Giá trị phải là duy nhất."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Nhấp vào đây để bật phím tắt"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Hoàn tất chọn"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Phần tử cha không chứa phần tử đã chọn"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Không tìm thấy phần tử cha"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Nhấn $key$ để chọn phần tử con",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Nhấn $key$ để chọn phần tử cha",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Nhấn $key$ để chọn phần tử đang di chuột qua",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Số phần tử đã chọn: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 là bắt buộc và không được để trống",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Độ dài tối đa của $1 là $2 ký tự",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 phải có ít nhất $2 ký tự",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Chỉ cho phép chữ cái, chữ số $digits$ hoặc bất kỳ ký tự nào trong $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "$json$ không hợp lệ",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Thiếu khóa $sitemap$ - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 phải là một mảng",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ với ID này đã tồn tại",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ là bắt buộc và không được để trống",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 là bắt buộc và không được để trống",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Số lượng $1 không được vượt quá $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Chỉ cho phép các khóa duy nhất _id, startUrl, websiteStateSetup, selectors, hashHistory trong $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Tên $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "URL bắt đầu"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 không phải là URL hợp lệ",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Xem trước dữ liệu"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Chưa trích xuất dữ liệu nào."
+   },
+   "edit_selector_attributeName": {
+      "message": "Tên thuộc tính"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Tính duy nhất của phần tử cần nhấp"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Nhấp để xem các thuộc tính khả dụng"
+   },
+   "edit_selector_clickType": {
+      "message": "Loại nhấp"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Nhấp thêm (nhấp để tải thêm phần tử. Dừng khi không tìm thấy phần tử mới có nội dung văn bản duy nhất.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Nhấp một lần (phân trang, tab)"
+   },
+   "edit_selector_column": {
+      "message": "Cột"
+   },
+   "edit_selector_columnCount": {
+      "message": "Số cột"
+   },
+   "edit_selector_columnName": {
+      "message": "Tên cột"
+   },
+   "edit_selector_delay": {
+      "message": "Độ trễ (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Tính năng này không dùng nữa và sẽ không hoạt động trong bản phát hành sau."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Luôn loại bỏ"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Loại bỏ phần tử ban đầu"
+   },
+   "edit_selector_discardNever": {
+      "message": "Không bao giờ loại bỏ"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Loại bỏ khi có phần tử cần nhấp"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Giới hạn phần tử"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Chỉ bản ghi đầu tiên"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "URL tìm thấy $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "ID bộ chọn"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Đưa vào kết quả"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Là URL (chỉ một)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Bộ chọn cần nhấp"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Bộ chọn hàng dữ liệu"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Bộ chọn hàng tiêu đề"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Bộ chọn thực thi khi không tìm thấy"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Phần tử cần cuộn"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Chỉ cuộn nếu thiếu"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Cuộn đến phần tử"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Liên kết từ bất kỳ tập lệnh nào ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Loại liên kết"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Thuộc tính"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Liên kết (đọc từ thuộc tính href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Liên kết bằng tập lệnh trong thuộc tính ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Văn bản (dùng nội dung văn bản làm liên kết)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Mức ưu tiên tối thiểu"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Không"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Nhiều bản ghi trong nhiều cột"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Nhiều bản ghi trong một cột"
+   },
+   "edit_selector_multipleType": {
+      "message": "Loại nhiều bản ghi"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Có"
+   },
+   "edit_selector_paginationType": {
+      "message": "Loại phân trang"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Tự động"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Nhấp nhiều lần vào nút tiếp theo/tải thêm ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Nhấp một lần vào nhiều nút ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Liên kết từ thuộc tính ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Liên kết ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Liên kết bằng tập lệnh ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Liên kết văn bản ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Bộ chọn cha"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Khóa kết quả"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Cột dữ liệu trả về"
+   },
+   "edit_selector_script": {
+      "message": "Tập lệnh"
+   },
+   "edit_selector_scroll": {
+      "message": "Cuộn"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Hành động nhấp"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Hành động cuộn xuống"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Phần tử (cuộn)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Thuộc tính phần tử"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Phần tử nhấp"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Phần tử cuộn xuống (Không dùng nữa)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Nhóm (Không dùng nữa)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Hình ảnh"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Liên kết"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Dữ liệu mạng"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Phân trang"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Liên kết popup (Không dùng nữa)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Dữ liệu script"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "Liên kết $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Bảng"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Văn bản"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "URL $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Cột bảng"
+   },
+   "edit_selector_type": {
+      "message": "Loại"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Bộ chọn $css$ duy nhất",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "$html$ duy nhất",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "$html$+Văn bản duy nhất",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Văn bản duy nhất"
+   },
+   "edit_selector_unlimited": {
+      "message": "Không giới hạn"
+   },
+   "export_downloadAs": {
+      "message": "Tải xuống dưới dạng:"
+   },
+   "export_generatingFile": {
+      "message": "Đang tạo tệp"
+   },
+   "extDesc": {
+      "message": "Công cụ trích xuất dữ liệu web với giao diện trỏ và nhấp dễ dùng cho web hiện đại"
+   },
+   "extName": {
+      "message": "$webScraper$ - Thu thập dữ liệu web miễn phí",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Thu thập dữ liệu web miễn phí",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Dữ liệu đã thu thập"
+   },
+   "nav_createNewSitemap": {
+      "message": "Tạo $sitemap$ mới",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Tạo $sitemap$ bằng trình hướng dẫn",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Tài liệu"
+   },
+   "nav_editMetadata": {
+      "message": "URL bắt đầu"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Đã bật tính năng thử nghiệm"
+   },
+   "nav_exportData": {
+      "message": "Xuất dữ liệu"
+   },
+   "nav_exportSitemap": {
+      "message": "Xuất $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Diễn đàn"
+   },
+   "nav_help": {
+      "message": "Trợ giúp"
+   },
+   "nav_logout": {
+      "message": "Đăng xuất"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Di chuyển công cụ dành cho nhà phát triển xuống cuối trình duyệt để bắt đầu dùng $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Bộ chọn"
+   },
+   "nav_signInToCloud": {
+      "message": "Đăng nhập vào $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Trang web thử nghiệm"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Bình chọn ý tưởng tính năng"
+   },
+   "nav_videoTutorials": {
+      "message": "Video hướng dẫn"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-in trang web / Thiết lập trạng thái"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Cho phép thu thập số liệu sử dụng"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Bật tính năng thử nghiệm"
+   },
+   "options_page_keepWorking": {
+      "message": "Có thể tiếp tục công việc khác trong khi thu thập dữ liệu web."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Cho phép thu thập số liệu sử dụng tiện ích mở rộng. Chỉ thu thập thông tin phi cá nhân ở dạng tổng hợp. Xem thêm chi tiết tại"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Chính sách quyền riêng tư"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Đã hoàn tất thu thập dữ liệu $sitemapId$",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Thu thập dữ liệu hoàn tất"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Quá trình thu thập dữ liệu web sẽ bắt đầu trong tab mới. Sau khi hoàn tất, cửa sổ này sẽ đóng."
+   },
+   "options_page_settings": {
+      "message": "Cài đặt"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Trường mật khẩu trong Thiết lập trạng thái trang web đang trống."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Độ trễ tải trang (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Độ trễ tải trang"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Khoảng thời gian yêu cầu (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Khoảng thời gian yêu cầu"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Xóa bộ chọn $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Tạo bộ chọn bằng AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Bộ chọn có ID này đã tồn tại"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Bộ chọn có ID này trùng với cột xuất dữ liệu đã tồn tại"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Tên thuộc tính không được chứa khoảng trắng, \", ', >, /, = hoặc bất kỳ ký tự điều khiển nào"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 không được bắt đầu bằng khoảng trắng, dấu gạch dưới hoặc \"web-scraper\" và không được chứa: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Phải là bộ chọn CSS hợp lệ"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Bộ chọn cần có ít nhất một bộ chọn khác làm bộ chọn cha"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript không hỗ trợ biểu thức chính quy có thể khớp 0 ký tự"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Bộ chọn cha"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Loại"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Xác nhận xóa"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Xóa $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Lọc $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "$sitemap$ này chỉ có trong tài khoản $cloud$. Tải $sitemap$ từ tài khoản $cloud$ xuống để chỉnh sửa",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Đây là phiên bản $sitemap$ mới nhất. Ghi đè $sitemap$ này bằng phiên bản từ tài khoản $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ chưa được đồng bộ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Phiên bản $sitemap$ mới nhất nằm trong tài khoản $cloud$. Ghi đè $sitemap$ trong tài khoản $cloud$ bằng phiên bản $sitemap$ này",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Không thể xác định phiên bản $sitemap$ mới nhất. Ghi đè $sitemap$ này bằng phiên bản từ tài khoản $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Không thể xác định phiên bản $sitemap$ mới nhất. Ghi đè $sitemap$ trong tài khoản $cloud$ bằng phiên bản $sitemap$ này",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ chỉ có trong $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ đã được đồng bộ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ chỉ có trong tiện ích mở rộng",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Phiên bản $sitemap$ mới nhất nằm trong tài khoản $cloud$. Cập nhật $sitemap$ này để khớp với phiên bản trong tài khoản $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Đây là phiên bản $sitemap$ mới nhất. Cập nhật $sitemap$ trong tài khoản $cloud$ bằng phiên bản $sitemap$ này",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "$sitemap$ này chỉ có trong bộ nhớ tiện ích mở rộng. Tải $sitemap$ lên tài khoản $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Tên miền"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Tải xuống từ $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Tải lên $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Nhấp"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Trường nhập liệu"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Mở URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Trường nhập mật khẩu"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Tạm dừng (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Trường nhập văn bản"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Xóa Thiết lập trạng thái trang web?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Thời lượng tính bằng ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Đã bật"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Mật khẩu"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Văn bản"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Truy cập $sitemaps$ của trình hướng dẫn",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Thêm hình ảnh"
+   },
+   "wizard_addMoreText": {
+      "message": "Thêm văn bản"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Đang phân tích nội dung trang..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Đang phân tích $1 URL bằng AI (thời gian chờ trung bình $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Và nhiều hơn nữa..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Có tải thêm mục sau khi cuộn không?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Tự động hóa trích xuất trong $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Tự động hóa trong $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Xử lý phát hiện bot"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Đang kiểm tra cuộn vô hạn"
+   },
+   "wizard_columnName": {
+      "message": "Tên cột"
+   },
+   "wizard_continueButton": {
+      "message": "Tiếp tục"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Bộ chọn $css$ tùy chỉnh",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Điều hướng trang tùy chỉnh"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Đã xảy ra lỗi khi trích xuất dữ liệu từ trang này. Sự cố đã được báo cáo. Thử lại sau."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "Tìm thấy $1 điểm dữ liệu trên trang",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "Tìm thấy 1 điểm dữ liệu trên trang"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Tắt cuộn vô hạn"
+   },
+   "wizard_disablePagination": {
+      "message": "Tắt phân trang"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Trang này có phân trang không?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Hoàn tất chọn"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Bật cuộn vô hạn"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Bật điều hướng đến trang chi tiết và trích xuất dữ liệu từ mỗi trang."
+   },
+   "wizard_errorTitle": {
+      "message": "Lỗi"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Xuất sang $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Đang thu thập dữ liệu trang $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Gửi Phản Hồi"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Mở trình tạo $sitemap$ nâng cao",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Bạn nghĩ sao?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Trải nghiệm thu thập dữ liệu web của bạn thế nào?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "Đã chọn $1 liên kết trang chi tiết",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "Đã chọn 1 liên kết trang chi tiết"
+   },
+   "wizard_link": {
+      "message": "Liên kết"
+   },
+   "wizard_loadMore": {
+      "message": "Tải thêm"
+   },
+   "wizard_loadingPage": {
+      "message": "Đang tải trang..."
+   },
+   "wizard_loginFeature": {
+      "message": "Tính năng $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Xóa, thêm hoặc đổi tên cột trước khi trích xuất"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Thêm trình trích xuất dữ liệu"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "Đã thu thập $1 bản ghi",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Đang điều hướng qua phân trang để tìm liên kết trang chi tiết."
+   },
+   "wizard_nextPage": {
+      "message": "Trang tiếp theo"
+   },
+   "wizard_noDataFound": {
+      "message": "Không tìm thấy dữ liệu"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Không thu thập được bản ghi nào. Kiểm tra các bước trước hoặc thử lại."
+   },
+   "wizard_numberedPages": {
+      "message": "Trang đánh số: nhấp nhiều nút để chọn tất cả"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Chỉ hoạt động trong một tab."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Nhấn $shortcut1$ hoặc $shortcut2$ để mở công cụ dành cho nhà phát triển.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Nhấn $shortcut$ để mở công cụ dành cho nhà phát triển.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Mở công cụ dành cho nhà phát triển của trình duyệt"
+   },
+   "wizard_paginationDetected": {
+      "message": "Đã phát hiện phân trang. Quản lý cấu hình ở bước tiếp theo."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Đã bật phân trang"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Vui lòng đánh giá tiện ích mở rộng trên webstore của trình duyệt!"
+   },
+   "wizard_rateUs": {
+      "message": "Đánh giá"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "Đã thu thập $1 bản ghi, hiển thị $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Tạo lại"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Thu thập lại"
+   },
+   "wizard_reselect": {
+      "message": "Chọn lại"
+   },
+   "wizard_retry": {
+      "message": "Thử lại"
+   },
+   "wizard_scheduler": {
+      "message": "Bộ lập lịch"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Thu thập dữ liệu trang"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Cấu hình trình thu thập dữ liệu đã sẵn sàng"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Đang thu thập dữ liệu. (đã thu thập $1 bản ghi)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Đang thu thập dữ liệu."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Đang thu thập dữ liệu. (đã thu thập 1 bản ghi)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Đang thu thập dữ liệu. (đã thu thập $1 bản ghi, hiển thị $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Đã bật cuộn"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Cần ít nhất hai liên kết."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Chọn điểm dữ liệu thủ công"
+   },
+   "wizard_selectLink": {
+      "message": "Chọn liên kết"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Chọn nút Trang tiếp theo"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Chọn nút phân trang. Các loại phổ biến:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Gửi phản hồi"
+   },
+   "wizard_showMe": {
+      "message": "Hiển thị"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Đang hiển thị $1 trong số $2 bản ghi",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Đang hiển thị $1 bản ghi",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Đang hiển thị 1 bản ghi"
+   },
+   "wizard_signUp": {
+      "message": "Đăng ký"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "Đã thu thập 1 bản ghi"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ đã lưu trong Trình tạo $sitemap2$ nâng cao",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Bỏ qua"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Thiết lập dữ liệu"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Phản hồi & thu thập dữ liệu nâng cao"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Truy cập liên kết mục"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Thiết lập dữ liệu trang chi tiết"
+   },
+   "wizard_stepPagination": {
+      "message": "Phân trang & Cuộn"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Đồng bộ & chạy $sitemaps$ của $webScraper$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Cảm ơn phản hồi của bạn!"
+   },
+   "wizard_title": {
+      "message": "Tiêu đề"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Thử chọn lại"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Tất cả đánh giá đều được xem xét để cải thiện trải nghiệm người dùng."
+   },
+   "wizard_yourFeedback": {
+      "message": "Phản hồi của bạn"
+   }
+}

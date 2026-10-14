@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "在 $webScraperCloud$ 中自动化抓取",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "通过 API 管理 $webScraper$",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "自动导出到 $dropbox$、$googledrive$、$awss3$、$googlecloud$、$azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "内置 $proxy$ 以应对站点访问问题",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "自动定时运行数据提取"
+   },
+   "browse_helpUsImprove": {
+      "message": "帮助我们改进 $webScraper$！",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "正在加载"
+   },
+   "button_addAction": {
+      "message": "添加操作"
+   },
+   "button_addColumn": {
+      "message": "添加列"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "从 $robotstxt$ 添加",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "创建新选择器"
+   },
+   "button_addUrl": {
+      "message": "添加 URL"
+   },
+   "button_cancel": {
+      "message": "取消"
+   },
+   "button_close": {
+      "message": "关闭"
+   },
+   "button_closePreview": {
+      "message": "关闭预览"
+   },
+   "button_dataPreview": {
+      "message": "数据预览"
+   },
+   "button_delete": {
+      "message": "删除"
+   },
+   "button_deleteLocally": {
+      "message": "本地删除"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "删除网站状态设置"
+   },
+   "button_download": {
+      "message": "下载"
+   },
+   "button_edit": {
+      "message": "编辑"
+   },
+   "button_elementPreview": {
+      "message": "元素预览"
+   },
+   "button_listingPage": {
+      "message": "列表页"
+   },
+   "button_loading": {
+      "message": "正在加载……"
+   },
+   "button_overwrite": {
+      "message": "覆盖"
+   },
+   "button_performAction": {
+      "message": "执行操作"
+   },
+   "button_performActions": {
+      "message": "执行操作"
+   },
+   "button_refresh": {
+      "message": "刷新"
+   },
+   "button_refreshData": {
+      "message": "刷新数据"
+   },
+   "button_reload": {
+      "message": "刷新"
+   },
+   "button_remove": {
+      "message": "移除"
+   },
+   "button_save": {
+      "message": "保存"
+   },
+   "button_saveSelector": {
+      "message": "保存选择器"
+   },
+   "button_saveSitemap": {
+      "message": "保存 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "选择"
+   },
+   "button_sendTrainingData": {
+      "message": "发送训练数据"
+   },
+   "button_singleItemPage": {
+      "message": "单个条目页面"
+   },
+   "button_startScraping": {
+      "message": "开始抓取"
+   },
+   "button_update": {
+      "message": "更新"
+   },
+   "button_upload": {
+      "message": "上传"
+   },
+   "button_uploadToCloud": {
+      "message": "将 $sitemap$ 上传到 $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "投票并提交功能创意"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "将扩展程序连接到 $cloud$ 账户后，刷新 $sitemap$ 列表。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "操作"
+   },
+   "common_createSitemap": {
+      "message": "创建 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "错误："
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "导入 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "了解更多"
+   },
+   "common_multiple": {
+      "message": "多个"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 必须介于 $2 和 $3 之间",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1必须为数字",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "尚未抓取数据"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1范围应为升序",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "抓取"
+   },
+   "common_selector": {
+      "message": "选择器"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "未授权。请重新连接 $cloud$。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "值必须唯一。"
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "点击此处启用快捷键"
+   },
+   "contentApp_doneSelecting": {
+      "message": "完成选择"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "父元素不包含所选元素"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "未找到父元素"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "按 $key$ 选择子元素",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "按 $key$ 选择父元素",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "按 $key$ 选择悬停元素",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "已选元素数量：$1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 为必填项，不能为空",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1 的最大长度为 $2 个字符",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 长度至少应为 $2 个字符",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "仅允许字母、数字 $digits$ 或任意 $allowedCharacters$ 字符",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "无效的 $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "缺少 $sitemap$ 键 - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 必须为数组",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "已存在使用此 ID 的 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ 为必填项，不能为空",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 为必填项，不能为空",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 数量不得超过 $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$ 中仅允许唯一键 _id、startUrl、websiteStateSetup、selectors、hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ 名称",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "起始 URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 不是有效的 URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "数据预览"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "尚未提取数据。"
+   },
+   "edit_selector_attributeName": {
+      "message": "属性名称"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "点击元素唯一性"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "点击查看可用属性"
+   },
+   "edit_selector_clickType": {
+      "message": "点击类型"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "点击更多 (点击以加载更多元素。当未找到具有唯一文本内容的新元素时停止。)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "点击一次 (分页、标签页)"
+   },
+   "edit_selector_column": {
+      "message": "列"
+   },
+   "edit_selector_columnCount": {
+      "message": "列数"
+   },
+   "edit_selector_columnName": {
+      "message": "列名"
+   },
+   "edit_selector_delay": {
+      "message": "延迟 (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "此功能已弃用，将在未来版本中失效。"
+   },
+   "edit_selector_discardAlways": {
+      "message": "始终丢弃"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "丢弃初始元素"
+   },
+   "edit_selector_discardNever": {
+      "message": "从不丢弃"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "点击元素存在时丢弃"
+   },
+   "edit_selector_elementLimit": {
+      "message": "元素限制"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "仅第一条记录"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "找到的 URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "选择器 ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "包含到结果中"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "是 URL (仅一个)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "点击选择器"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "数据行选择器"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "表头行选择器"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "未找到时执行选择器"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "滚动元素"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "仅在缺失时滚动"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "滚动至元素"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "来自任意脚本的链接 ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "链接类型"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "属性"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "链接 (从 href 属性读取)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "属性中的脚本链接 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "文本 (使用文本内容作为链接)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "最低优先级"
+   },
+   "edit_selector_multipleNo": {
+      "message": "否"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "多条记录分多列"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "多条记录合并为一列"
+   },
+   "edit_selector_multipleType": {
+      "message": "多记录类型"
+   },
+   "edit_selector_multipleYes": {
+      "message": "是"
+   },
+   "edit_selector_paginationType": {
+      "message": "分页类型"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "自动"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "多次点击下一页/更多按钮 ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "在多个按钮上各点击一次 ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "属性链接 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "链接 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "脚本链接 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "文本链接 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "父选择器"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "结果键"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "返回的数据列"
+   },
+   "edit_selector_script": {
+      "message": "脚本"
+   },
+   "edit_selector_scroll": {
+      "message": "滚动"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "点击操作"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "向下滚动操作"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "元素（滚动）"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "元素属性"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "元素点击"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "元素向下滚动（已弃用）"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "分组（已弃用）"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "图片"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "链接"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "网络数据"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "分页"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "弹窗链接（已弃用）"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "脚本数据"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ 链接",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "表格"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "文本"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "表格列"
+   },
+   "edit_selector_type": {
+      "message": "类型"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "唯一 $css$ 选择器",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "唯一 $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "唯一 $html$+文本",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "唯一文本"
+   },
+   "edit_selector_unlimited": {
+      "message": "无限制"
+   },
+   "export_downloadAs": {
+      "message": "下载为："
+   },
+   "export_generatingFile": {
+      "message": "正在生成文件"
+   },
+   "extDesc": {
+      "message": "面向现代网页的网页数据提取工具，提供简便的点击式界面"
+   },
+   "extName": {
+      "message": "$webScraper$ - 免费网页抓取",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - 免费网页抓取",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "已抓取数据"
+   },
+   "nav_createNewSitemap": {
+      "message": "创建新 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "使用向导创建 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "文档"
+   },
+   "nav_editMetadata": {
+      "message": "起始 URL"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "已启用实验性功能"
+   },
+   "nav_exportData": {
+      "message": "数据导出"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ 导出",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "论坛"
+   },
+   "nav_help": {
+      "message": "帮助"
+   },
+   "nav_logout": {
+      "message": "登出"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "将开发者工具移至浏览器底部以开始使用 $webScraper$。",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "选择器"
+   },
+   "nav_signInToCloud": {
+      "message": "登录 $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "测试站点"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "为功能创意投票"
+   },
+   "nav_videoTutorials": {
+      "message": "视频教程"
+   },
+   "nav_websiteStateSetup": {
+      "message": "网站 Log-In / 状态设置"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "允许收集使用情况指标"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "启用实验性功能"
+   },
+   "options_page_keepWorking": {
+      "message": "抓取期间可继续执行其他工作。"
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "允许扩展程序收集使用情况指标。仅以聚合格式收集非个人信息。更多详情请见"
+   },
+   "options_page_privacyPolicy": {
+      "message": "隐私政策"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "已完成 $sitemapId$ 的抓取",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "抓取完成"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "网页抓取将在新标签页中开始。抓取完成后，此窗口将关闭。"
+   },
+   "options_page_settings": {
+      "message": "设置"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "网站状态设置中的密码字段为空。"
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "页面加载延迟（ms）"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "页面加载延迟"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "请求间隔（ms）"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "请求间隔"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "删除选择器 $1？",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "使用 AI 生成选择器："
+   },
+   "selectors_idAlreadyExists": {
+      "message": "该 ID 的选择器已存在"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "该选择器 ID 与已存在的数据导出列相同"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "属性名称不能包含空格、\"、'、>、/、= 或任何控制字符"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1不能以空格、下划线或 \"web-scraper\" 开头，且不能包含：. $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "必须是有效的 CSS 选择器"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "选择器必须至少有一个其他选择器作为父选择器"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript 不支持可匹配 0 个字符的正则表达式"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "父选择器"
+   },
+   "selectors_tableHeaderType": {
+      "message": "类型"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "删除确认"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "删除该 $sitemap$？",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "筛选 $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "此 $sitemap$ 仅在 $cloud$ 账户中。从 $cloud$ 账户下载 $sitemap$ 以进行编辑",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "这是最新的 $sitemap$ 版本。用 $cloud$ 账户中的版本覆盖此 $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ 未同步",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "最新的 $sitemap$ 版本在 $cloud$ 账户中。用此版本的 $sitemap$ 覆盖 $cloud$ 账户中的 $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "无法确定最新的 $sitemap$ 版本。用 $cloud$ 账户中的版本覆盖此 $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "无法确定最新的 $sitemap$ 版本。用此版本的 $sitemap$ 覆盖 $cloud$ 账户中的 $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ 仅在 $cloud$ 中",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ 已同步",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ 仅在扩展程序中",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "最新的 $sitemap$ 版本在 $cloud$ 账户中。更新此 $sitemap$ 以匹配 $cloud$ 账户中的版本",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "这是最新的 $sitemap$ 版本。用此版本的 $sitemap$ 更新 $cloud$ 账户中的 $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "此 $sitemap$ 仅在扩展程序存储中。将 $sitemap$ 上传到 $cloud$ 账户",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "域名"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "从 $cloud$ 下载",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "上传到 $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "点击"
+   },
+   "website_state_setup_actionInput": {
+      "message": "输入"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "打开 URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "密码输入"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "暂停（ms）"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "文本输入"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "删除网站状态设置？"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "持续时间（ms）"
+   },
+   "website_state_setup_enabled": {
+      "message": "已启用"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "密码"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "文本"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "访问向导 $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "添加图片"
+   },
+   "wizard_addMoreText": {
+      "message": "添加更多文本"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "正在分析页面内容..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "正在使用 AI 分析 $1 个 URL（平均等待 $waitTime$s）",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "更多..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "滚动后是否加载更多条目？"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "在 $webScraperCloud$ 中自动提取",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "在 $cloud$ 中自动化",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "机器人检测处理"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "正在检查无限滚动"
+   },
+   "wizard_columnName": {
+      "message": "列名"
+   },
+   "wizard_continueButton": {
+      "message": "继续"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "可自定义的 $css$ 选择器",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "可自定义的网站导航"
+   },
+   "wizard_dataExtractionError": {
+      "message": "从此页面提取数据时发生错误。此问题已上报。请稍后重试。"
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "页面上找到 $1 个数据点",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "页面上找到 1 个数据点"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "禁用无限滚动"
+   },
+   "wizard_disablePagination": {
+      "message": "禁用分页"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "此页面是否有分页？"
+   },
+   "wizard_doneSelecting": {
+      "message": "完成选择"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "启用无限滚动"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "启用导航至条目页面并从每个页面提取数据。"
+   },
+   "wizard_errorTitle": {
+      "message": "错误"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "导出到 $dropbox$、$googleDrive$、$s3$ 等",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "正在收集页面数据 $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "提供反馈"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "前往高级 $sitemap$ 构建器",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "您觉得如何？"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "您的网页抓取体验如何？"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "已选择 $1 个条目页面链接",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "已选择 1 个条目页面链接"
+   },
+   "wizard_link": {
+      "message": "链接"
+   },
+   "wizard_loadMore": {
+      "message": "加载更多"
+   },
+   "wizard_loadingPage": {
+      "message": "正在加载页面..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ 功能",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "提取前移除、添加或重命名列"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "更多数据提取器"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "已抓取 $1 条记录",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "正在浏览分页以发现条目页面链接。"
+   },
+   "wizard_nextPage": {
+      "message": "下一页"
+   },
+   "wizard_noDataFound": {
+      "message": "未找到数据"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "未抓取到记录。请检查前面的步骤或重试。"
+   },
+   "wizard_numberedPages": {
+      "message": "数字页码：点击多个按钮以全选"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "仅在一个标签页中有效"
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "按 $shortcut1$ 或 $shortcut2$ 打开开发者工具。",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "按 $shortcut$ 打开开发者工具。",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "打开浏览器的开发者工具"
+   },
+   "wizard_paginationDetected": {
+      "message": "检测到分页。在下一步中管理配置。"
+   },
+   "wizard_paginationEnabled": {
+      "message": "分页已启用"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "请在浏览器应用商店中评价该扩展程序！"
+   },
+   "wizard_rateUs": {
+      "message": "评价我们"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "已抓取 $1 条记录，显示 $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "重新生成"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "重新抓取"
+   },
+   "wizard_reselect": {
+      "message": "重新选择"
+   },
+   "wizard_retry": {
+      "message": "重试"
+   },
+   "wizard_scheduler": {
+      "message": "调度程序"
+   },
+   "wizard_scrapeThePage": {
+      "message": "抓取页面"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "抓取器配置已就绪"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "正在抓取。（已抓取 $1 条记录）",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "正在抓取。"
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "正在抓取。（已抓取 1 条记录）"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "正在抓取。（已抓取 $1 条记录，显示 $2 条）",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "滚动已启用"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "至少需要两个链接。"
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "手动选择数据点"
+   },
+   "wizard_selectLink": {
+      "message": "选择链接"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "选择下一页按钮"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "选择分页按钮。常见类型有："
+   },
+   "wizard_sendFeedback": {
+      "message": "发送反馈"
+   },
+   "wizard_showMe": {
+      "message": "演示"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "显示 $2 条记录中的 $1 条",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "显示 $1 条记录",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "显示 1 条记录"
+   },
+   "wizard_signUp": {
+      "message": "注册"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "已抓取 1 条记录"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ 已保存到高级 $sitemap2$ 构建器",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "跳过"
+   },
+   "wizard_stepDataSetup": {
+      "message": "数据设置"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "反馈与高级抓取"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "访问条目链接"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "条目页面数据设置"
+   },
+   "wizard_stepPagination": {
+      "message": "分页与滚动"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "同步并运行 $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "感谢您的反馈！"
+   },
+   "wizard_title": {
+      "message": "名称"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "尝试重新选择"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "所有评价均会经过审核，以改善用户体验。"
+   },
+   "wizard_yourFeedback": {
+      "message": "您的反馈"
+   }
+}

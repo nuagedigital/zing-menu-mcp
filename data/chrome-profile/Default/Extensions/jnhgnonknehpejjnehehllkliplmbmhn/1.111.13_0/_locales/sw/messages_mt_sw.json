@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - Kuchakata Mtandao Bila Malipo",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - Kuchakata Mtandao Bila Malipo",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Zana ya kutoa data ya wavuti yenye kiolesura rahisi cha kuelekeza na kubofya kwa wavuti wa kisasa"
+	},
+	"common_actions": {
+		"message": "Vitendo"
+	},
+	"common_createSitemap": {
+		"message": "Unda $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "Kitambulisho"
+	},
+	"common_importSitemap": {
+		"message": "Ingiza $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Pata maelezo zaidi",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Nyingi"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Hakuna data iliyofutwa bado"
+	},
+	"common_scrape": {
+		"message": "Kukwaruza",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Kiteuzi"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Nenda kwenye kijenzi cha kina $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "Vitoa data zaidi"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Urambazaji wa tovuti unaoweza kubinafsishwa"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Viteuzi vya $css$ vinavyoweza kubinafsishwa",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "$logIn$ kipengele",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "Na zaidi..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Mchawi wa ufikiaji $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Bonyeza $shortcut1$ au $shortcut2$ ili kufungua Zana za Wasanidi Programu.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Bonyeza $shortcut$ ili kufungua Zana za Wasanidi Programu.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Fungua Zana za Wasanidi Programu za Kivinjari"
+	},
+	"wizard_showMe": {
+		"message": "Nionyeshe",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Hakuna Data Iliyopatikana",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Jina la safu wima"
+	},
+	"wizard_title": {
+		"message": "Kichwa",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Kiungo"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Inachambua maudhui ya ukurasa..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Hitilafu imetokea wakati wa kutoa data kutoka ukurasa huu. Tatizo limeripotiwa. Jaribu tena baadaye."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "Inaonyesha $1 kati ya rekodi za $2",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "Inaonyesha rekodi 1"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "Inaonyesha rekodi za $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "Pointi 1 ya data imepatikana kwenye ukurasa"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "$1 pointi za data zimepatikana kwenye ukurasa",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Inapakia ukurasa..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Ondoa, ongeza au badilisha jina la safu wima kabla ya kutoa"
+	},
+	"wizard_addMoreText": {
+		"message": "Ongeza maandishi zaidi",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Ongeza picha",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Jaribu tena",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Tengeneza upya",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Hitilafu"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "Mpangilio wa kichakataji uko tayari"
+	},
+	"wizard_scrapeThePage": {
+		"message": "Futa ukurasa",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Hakuna rekodi zilizokwaruzwa. Angalia hatua zilizopita au jaribu tena."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Kukwangua upya",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Unafikiri nini?"
+	},
+	"wizard_giveFeedback": {
+		"message": "Toa Maoni",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Maoni yako",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Tuma maoni",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ imehifadhiwa katika Kijenzi cha Kina $sitemap2$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Chagua upya",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "Kiungo cha ukurasa wa bidhaa 1 kimechaguliwa"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "$1 viungo vya ukurasa wa bidhaa vimechaguliwa",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "Angalau viungo viwili vinahitajika."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Jaribu kuchagua tena",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Uzoefu wako wa kukwangua ulikuwaje?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "Uchimbaji otomatiki katika $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "Hamisha hadi $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Ushughulikiaji wa ugunduzi wa viroboti",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "Sawazisha na uendesha $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Jisajili",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Mratibu"
+	},
+	"wizard_stepPagination": {
+		"message": "Kurasa na Kusogeza"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Usanidi wa Data"
+	},
+	"wizard_continueButton": {
+		"message": "Endelea",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Je, ukurasa huu una kurasa za kurasa?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Upagani umewezeshwa"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Chagua kitufe cha Ukurasa Unaofuata",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Zima Upachikaji wa Ukurasa",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Chagua kitufe cha kurasa. Aina za kawaida ni:"
+	},
+	"wizard_nextPage": {
+		"message": "Ukurasa unaofuata"
+	},
+	"wizard_loadMore": {
+		"message": "Pakia zaidi"
+	},
+	"wizard_numberedPages": {
+		"message": "Kurasa zenye nambari: bofya vitufe vingi ili kuchagua vyote"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "Je, vipengee zaidi vinapakiwa baada ya kusogeza?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Kuangalia kusogeza bila kikomo"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Kusogeza kumewezeshwa"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Washa Infinite Scroll",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Lemaza Infinite Scroll",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Kuchakata kunaendelea."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Kukwangua kunaendelea. (Rekodi 1 imekwangua)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Kuchakata kunaendelea. ($1 rekodi zimechakata)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Kuchakata kunaendelea. ($1 rekodi zimechakata, zikionyesha $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "Rekodi 1 imekunjwa"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 rekodi zimefutwa",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "$1 rekodi zilizokwaruzwa, zikionyesha $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Asante kwa maoni!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Tafadhali kagua kiendelezi kwenye duka la wavuti la kivinjari!"
+	},
+	"wizard_rateUs": {
+		"message": "Kadiria sisi"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Mapitio yote hukaguliwa ili kuboresha uzoefu wa mtumiaji."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Wezesha urambazaji hadi kwenye kurasa za vipengee na uchimbaji wa data kutoka kila ukurasa."
+	},
+	"wizard_selectLink": {
+		"message": "Chagua kiungo",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Kukusanya data ya ukurasa $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "Inachambua URL za $1 zenye akili bandia (wastani wa kusubiri $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Fuata Viungo vya Bidhaa"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Maoni na Uchakataji wa Kina"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Usanidi wa Data ya Ukurasa wa Bidhaa"
+	},
+	"wizard_doneSelecting": {
+		"message": "Imemaliza kuchagua",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "Otomatiki katika $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Upagani umegunduliwa. Dhibiti usanidi katika hatua inayofuata."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Inafanya kazi katika kichupo kimoja pekee."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "$sitemap$ jina",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "Anza URL"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL"
+	},
+	"button_saveSitemap": {
+		"message": "Hifadhi $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 si URL halali",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ $json$ inahitajika na haiwezi kuwa tupu",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "$json$ Batili",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "$sitemap$ ufunguo haupo - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "$1 idadi haipaswi kuzidi $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 inahitajika na haiwezi kuwa tupu",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 inapaswa kuwa na angalau herufi $2",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "Urefu wa juu zaidi wa $1 ni herufi $2",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Herufi, tarakimu $digits$ au herufi yoyote $allowedCharacters$ pekee ndizo zinazoruhusiwa",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ na kitambulisho hiki tayari kipo",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 lazima iwe safu",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 zinahitajika na haziwezi kuwa tupu. Lazima uchague angalau moja",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "Funguo za kipekee _id, startUrl, websiteStateSetup, viteuzi, hashHistory pekee ndizo zinazoruhusiwa katika $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "Chuja $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "Kikoa"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "Pakia kwenye $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "Pakua kutoka $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ haijasawazishwa",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ imesawazishwa",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ iko katika $cloud$ pekee",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ iko katika kiendelezi pekee",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Andika zaidi",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "Toleo la hivi karibuni la $sitemap$ haliwezi kubainishwa. Andika tena $sitemap$ katika akaunti ya $cloud$ na toleo hili la $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "Toleo la hivi karibuni la $sitemap$ haliwezi kubainishwa. Andika tena $sitemap$ hii na toleo kutoka kwa akaunti ya $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "Toleo la hivi karibuni la $sitemap$ liko katika akaunti ya $cloud$. Andika tena $sitemap$ katika akaunti ya $cloud$ ukitumia toleo hili la $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "Hili ndilo toleo jipya zaidi la $sitemap$. Andika tena $sitemap$ hii kwa kutumia toleo kutoka kwa akaunti ya $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Sasisho",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "Toleo la hivi karibuni la $sitemap$ liko katika akaunti ya $cloud$. Sasisha $sitemap$ hii ili ilingane na toleo katika akaunti ya $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "Hili ndilo toleo jipya zaidi la $sitemap$. Sasisha $sitemap$ katika akaunti ya $cloud$ ukitumia toleo hili la $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "Pakua",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "$sitemap$ hii iko katika akaunti ya $cloud$ pekee. Pakua $sitemap$ kutoka kwa akaunti ya $cloud$ ili kuhariri",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Pakia",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Futa ndani ya eneo lako",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "$sitemap$ hii iko kwenye hifadhi ya kiendelezi pekee. Pakia $sitemap$ kwenye akaunti ya $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "Futa $sitemap$?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Futa Uthibitisho"
+	},
+	"button_cancel": {
+		"message": "Ghairi",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Futa",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Toka",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "Ingia katika $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Viteuzi",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "Anza URL",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Kuingia kwa Tovuti / Usanidi wa Jimbo",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Data iliyofutwa",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "$sitemap$ hamisha",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Usafirishaji wa data",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Unda $sitemap$ mpya",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Unda $sitemap$ ukitumia Mchawi",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Msaada",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Mafunzo ya Video",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Nyaraka",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Maeneo ya Majaribio",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Jukwaa",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Mawazo ya Vipengele vya Kupigia Kura ya Juu",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Vipengele vya majaribio vimewezeshwa",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Aina"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Viteuzi vya wazazi",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Unda kiteuzi kipya",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Tengeneza Viteuzi kwa kutumia AI:"
+	},
+	"button_listingPage": {
+		"message": "Ukurasa wa orodha",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Ukurasa wa bidhaa moja",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "Futa kiteuzi $1?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "Hamisha zana za msanidi programu hadi chini ya kivinjari ili kuanza kutumia $webScraper$.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Hakikisho la Data"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Hakuna data iliyotolewa bado."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Baada ya kuunganisha kiendelezi kwenye akaunti ya $cloud$, pakia upya orodha ya $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Pakia upya",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Funga",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Jina la sifa"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Bofya ili kuona sifa zinazopatikana"
+	},
+	"edit_selector_tableColumns": {
+		"message": "Safu wima za jedwali"
+	},
+	"edit_selector_column": {
+		"message": "Safu wima"
+	},
+	"edit_selector_resultKey": {
+		"message": "Ufunguo wa matokeo"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Jumuisha katika matokeo"
+	},
+	"button_dataPreview": {
+		"message": "Onyesho la awali la data",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "Pakia $sitemap$ kwa $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Tuma data ya mafunzo",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Kipengee cha kusogeza",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Sogeza tu ikiwa haipo"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Sogeza hadi kwenye kipengele"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Kiteuzi cha mibofyo"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Kiteuzi cha safu mlalo ya kichwa"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Kiteuzi cha safu mlalo za data"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Tekeleza wakati chaguo halijapatikana"
+	},
+	"button_select": {
+		"message": "Chagua",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Onyesho la awali la kipengele",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Funga onyesho la kuchungulia",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Hifadhi kiteuzi",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Sogeza",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Kikomo cha vipengele",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Isiyo na kikomo",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Regex",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "URL iliyopatikana $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Kipaumbele cha chini kabisa",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Kuchelewa (ms)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Idadi ya safu wima",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Aina nyingi",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "Rekodi ya Kwanza Pekee"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Rekodi Nyingi katika Safu Wingi"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Rekodi Nyingi katika Safu Moja"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Viteuzi vya wazazi",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Tekeleza Kitendo",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Hati",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Safu wima za data zilizorejeshwa"
+	},
+	"edit_selector_columnName": {
+		"message": "Jina la Safu wima"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "Ni URL (moja tu)"
+	},
+	"button_remove": {
+		"message": "Ondoa",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Ongeza Safu Wima",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Aina ya kubofya",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Aina ya kurasa",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Upekee wa kipengele cha kubofya",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Aina ya kiungo",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "Tupa vipengele vya mwanzo",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Otomatiki"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Kiungo ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Kiungo kilichoandikwa ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Kiungo cha sifa ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Kiungo cha maandishi ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Bonyeza mara nyingi kwenye kitufe kinachofuata/zaidi ([Ukurasa unaofuata] [Pakia Zaidi])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Bonyeza mara moja kwenye vitufe vingi ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Kiungo kutoka kwa hati yoyote ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Bonyeza mara moja (ubao wa kurasa, vichupo)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Bonyeza zaidi (bonyeza ili kupakia vipengele zaidi. Husimama wakati hakuna vipengele vipya vyenye maudhui ya maandishi ya kipekee vinavyopatikana.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Maandishi ya Kipekee"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Maandishi ya kipekee $html$+",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Kipekee $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Kiteuzi cha kipekee cha $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Kiungo (kilichosomwa kutoka kwa sifa ya href)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Maandishi (tumia yaliyomo kwenye maandishi kama kiungo)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Sifa"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Kiungo kilichoandikwa katika sifa ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Kamwe usitupe"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Tupa wakati kipengele cha kubofya kipo"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Tupa kila wakati"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URL",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "Ongeza URL",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "Ongeza kutoka $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Kipengele hiki kimeondolewa kwenye huduma na hakitafanya kazi katika toleo lijalo."
+	},
+	"website_state_setup_enabled": {
+		"message": "Imewezeshwa",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Futa Usanidi wa Hali ya Tovuti",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Ongeza Kitendo",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Tekeleza Vitendo",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Hifadhi",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Futa Usanidi wa Hali ya Tovuti?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Nenosiri",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Maandishi",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Muda katika ms",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "Fungua URL"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Bonyeza"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Usingizi (ms)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Ingizo la Maandishi"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Ingizo la Nenosiri"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Ingizo"
+	},
+	"button_loading": {
+		"message": "Inapakia...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Anza kukwaruza",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "Sehemu ya nenosiri katika Usanidi wa Hali ya Tovuti ni tupu."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "Muda wa ombi (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "Muda wa ombi",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Kuchelewa kwa upakiaji wa ukurasa (ms)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Kuchelewa kwa upakiaji wa ukurasa",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Inapakia"
+	},
+	"button_refresh": {
+		"message": "Onyesha upya",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Onyesha Data Upya",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "Tusaidie kuboresha $webScraper$!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Piga Kura ya Kuunga Mkono na Wasilisha Mawazo ya Vipengele",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "Kukwaruza kiotomatiki katika $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Panga utoaji wa data kiotomatiki"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "Dhibiti $webScraper$ kupitia API",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "Hamisha kiotomatiki hadi $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "$proxy$ Imejengewa ndani kwa ajili ya matatizo ya ufikiaji wa tovuti",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Inazalisha faili"
+	},
+	"export_downloadAs": {
+		"message": "Pakua kama:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Ndiyo"
+	},
+	"edit_selector_multipleNo": {
+		"message": "Hapana"
+	},
+	"button_edit": {
+		"message": "Hariri",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "Kitambulisho cha Kiteuzi",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Mipangilio"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Ruhusu mkusanyiko wa kipimo cha matumizi ya kiendelezi. Taarifa zisizo za kibinafsi pekee katika umbizo lililojumlishwa ndizo zinazokusanywa. Maelezo zaidi katika"
+	},
+	"options_page_privacyPolicy": {
+		"message": "Sera ya Faragha"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Ruhusu mkusanyiko wa kipimo cha matumizi"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Washa vipengele vya majaribio"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "Kukwaruza kutaanza kwenye kichupo kipya. Mara tu kukwaruza kutakapokamilika, dirisha hili litafungwa."
+	},
+	"options_page_keepWorking": {
+		"message": "Kazi nyingine inaweza kuendelea wakati wa kukwangua."
+	}
+}

@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatizuoti duomenų išgavimą su $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Valdyti $webScraper$ per API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automatinis eksportas į $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Integruotas $proxy$ svetainės prieigos problemoms",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Automatiškai planuoti duomenų išgavimą"
+   },
+   "browse_helpUsImprove": {
+      "message": "Padėkite tobulinti $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Įkeliama"
+   },
+   "button_addAction": {
+      "message": "Pridėti veiksmą"
+   },
+   "button_addColumn": {
+      "message": "Pridėti stulpelį"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Pridėti iš $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Sukurti naują selektorių"
+   },
+   "button_addUrl": {
+      "message": "Pridėti URL"
+   },
+   "button_cancel": {
+      "message": "Atšaukti"
+   },
+   "button_close": {
+      "message": "Uždaryti"
+   },
+   "button_closePreview": {
+      "message": "Uždaryti peržiūrą"
+   },
+   "button_dataPreview": {
+      "message": "Duomenų peržiūra"
+   },
+   "button_delete": {
+      "message": "Ištrinti"
+   },
+   "button_deleteLocally": {
+      "message": "Ištrinti lokaliai"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Ištrinti Svetainės būsenos sąranką"
+   },
+   "button_download": {
+      "message": "Atsisiųsti"
+   },
+   "button_edit": {
+      "message": "Redaguoti"
+   },
+   "button_elementPreview": {
+      "message": "Elemento peržiūra"
+   },
+   "button_listingPage": {
+      "message": "Sąrašo puslapis"
+   },
+   "button_loading": {
+      "message": "Įkeliama..."
+   },
+   "button_overwrite": {
+      "message": "Perrašyti"
+   },
+   "button_performAction": {
+      "message": "Atlikti veiksmą"
+   },
+   "button_performActions": {
+      "message": "Vykdyti veiksmus"
+   },
+   "button_refresh": {
+      "message": "Atnaujinti"
+   },
+   "button_refreshData": {
+      "message": "Atnaujinti duomenis"
+   },
+   "button_reload": {
+      "message": "Atnaujinti"
+   },
+   "button_remove": {
+      "message": "Pašalinti"
+   },
+   "button_save": {
+      "message": "Įrašyti"
+   },
+   "button_saveSelector": {
+      "message": "Įrašyti selektorių"
+   },
+   "button_saveSitemap": {
+      "message": "Įrašyti $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Pasirinkti"
+   },
+   "button_sendTrainingData": {
+      "message": "Siųsti mokymo duomenis"
+   },
+   "button_singleItemPage": {
+      "message": "Vieno elemento puslapis"
+   },
+   "button_startScraping": {
+      "message": "Pradėti duomenų išgavimą"
+   },
+   "button_update": {
+      "message": "Atnaujinti"
+   },
+   "button_upload": {
+      "message": "Įkelti"
+   },
+   "button_uploadToCloud": {
+      "message": "Įkelti $sitemap$ į $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Balsuoti ir pateikti funkcijų idėjas"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Prijungę plėtinį prie $cloud$ paskyros, atnaujinkite $sitemap$ sąrašą.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Veiksmai"
+   },
+   "common_createSitemap": {
+      "message": "Sukurti $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Klaida:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Importuoti $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Sužinoti daugiau"
+   },
+   "common_multiple": {
+      "message": "Keli"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 turi būti nuo $2 iki $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 turi būti skaičius",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Dar neišgauta duomenų"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 intervalas turi būti didėjantis",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Išgauti duomenis"
+   },
+   "common_selector": {
+      "message": "Selektorius"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Neautorizuota. Prisijunkite prie $cloud$ iš naujo.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Reikšmė turi būti unikali."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Spustelėkite čia, kad įjungtumėte sparčiuosius klavišus"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Baigti pasirinkimą"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Tėviniame elemente nėra pasirinkto elemento"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Tėvinis elementas nerastas"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Spauskite $key$ ir pasirinkite vaikinį elementą",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Spauskite $key$ ir pasirinkite tėvinį elementą",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Spauskite $key$ ir pasirinkite elementą po žymekliu",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Pasirinktų elementų skaičius: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 yra privalomas ir negali būti tuščias",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Didžiausias $1 ilgis - $2 simboliai",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 turi būti bent $2 simbolių ilgio",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Leidžiamos tik raidės, skaitmenys $digits$ arba bet kurie iš simbolių $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Netinkamas $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Trūksta $sitemap$ rakto - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 turi būti masyvas",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ su šiuo ID jau yra",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ yra privalomas ir negali būti tuščias",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 yra privalomas ir negali būti tuščias",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 skaičius neturi viršyti $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$ leidžiami tik unikalūs raktai _id, startUrl, websiteStateSetup, selectors, hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ pavadinimas",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Pradinis URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 nėra tinkamas URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Duomenų peržiūra"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Duomenų dar neišgauta."
+   },
+   "edit_selector_attributeName": {
+      "message": "Atributo pavadinimas"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Spustelėjimo elemento unikalumas"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Spustelėkite, kad peržiūrėtumėte galimus atributus"
+   },
+   "edit_selector_clickType": {
+      "message": "Spustelėjimo tipas"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Spustelėti daugiau (spustelėti, kad būtų įkelta daugiau elementų. Sustoja, kai nerandama naujų elementų su unikaliu teksto turiniu.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Spustelėti vieną kartą (puslapiavimas, skirtukai)"
+   },
+   "edit_selector_column": {
+      "message": "Stulpelis"
+   },
+   "edit_selector_columnCount": {
+      "message": "Stulpelių skaičius"
+   },
+   "edit_selector_columnName": {
+      "message": "Stulpelio pavadinimas"
+   },
+   "edit_selector_delay": {
+      "message": "Delsa (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Ši funkcija nebenaudojama ir neveiks būsimoje versijoje."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Visada atmesti"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Atmesti pradinius elementus"
+   },
+   "edit_selector_discardNever": {
+      "message": "Niekada neatmesti"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Atmesti, kai yra spustelėjimo elementas"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Elementų riba"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Tik pirmas įrašas"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Rastas URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Selektoriaus ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Įtraukti į rezultatą"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Yra URL (tik vienas)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Spustelėjimo selektorius"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Duomenų eilučių selektorius"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Antraštės eilutės selektorius"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Vykdyti, kai selektorius nerastas"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Slinkimo elementas"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Slinkti tik jei trūksta"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Slinkti iki elemento"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Nuoroda iš bet kurio scenarijaus ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Nuorodos tipas"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atributas"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Nuoroda (skaitoma iš href atributo)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Scenarijaus nuoroda atribute ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Tekstas (naudoti teksto turinį kaip nuorodą)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Minimalus prioritetas"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Ne"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Keli įrašai keliuose stulpeliuose"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Keli įrašai viename stulpelyje"
+   },
+   "edit_selector_multipleType": {
+      "message": "Kelių įrašų tipas"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Taip"
+   },
+   "edit_selector_paginationType": {
+      "message": "Puslapiavimo tipas"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automatinis"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Spustelėti kito/daugiau mygtuką kelis kartus ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Spustelėti kelis mygtukus po vieną kartą ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Atributo nuoroda ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Nuoroda ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Scenarijaus nuoroda ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Teksto nuoroda ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Pirminiai selektoriai"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Rezultato raktas"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Grąžinamų duomenų stulpeliai"
+   },
+   "edit_selector_script": {
+      "message": "Scenarijus"
+   },
+   "edit_selector_scroll": {
+      "message": "Slinkimas"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Spustelėjimo veiksmas"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Slinkimo žemyn veiksmas"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Elementas (slinkimas)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Elemento atributas"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Elemento spustelėjimas"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Elemento slinkimas žemyn (nebenaudojama)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Sugrupuota (nebenaudojama)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Paveikslėlis"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Nuoroda"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Tinklo duomenys"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Puslapiavimas"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Iškylančio lango nuoroda (nebenaudojama)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Skripto duomenys"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ nuorodos",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Lentelė"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Tekstas"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL adresai",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Lentelės stulpeliai"
+   },
+   "edit_selector_type": {
+      "message": "Tipas"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Unikalus $css$ selektorius",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Unikalus $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Unikalus $html$+tekstas",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Unikalus tekstas"
+   },
+   "edit_selector_unlimited": {
+      "message": "Neribota"
+   },
+   "export_downloadAs": {
+      "message": "Atsisiųsti kaip:"
+   },
+   "export_generatingFile": {
+      "message": "Generuojamas failas"
+   },
+   "extDesc": {
+      "message": "Žiniatinklio duomenų išgavimo įrankis su patogia spustelėjimu pagrįsta sąsaja, skirta šiuolaikiniam žiniatinkliui"
+   },
+   "extName": {
+      "message": "$webScraper$ - nemokamas duomenų išgavimas",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - nemokamas duomenų išgavimas",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Išgauti duomenys"
+   },
+   "nav_createNewSitemap": {
+      "message": "Sukurti naują $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Sukurti $sitemap$ su vedikliu",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentacija"
+   },
+   "nav_editMetadata": {
+      "message": "Pradžios URL"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Eksperimentinės funkcijos įjungtos"
+   },
+   "nav_exportData": {
+      "message": "Duomenų eksportas"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ eksportas",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forumas"
+   },
+   "nav_help": {
+      "message": "Pagalba"
+   },
+   "nav_logout": {
+      "message": "Atsijungti"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Perkelkite kūrėjo įrankius į naršyklės apačią, kad pradėtumėte naudoti $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selektoriai"
+   },
+   "nav_signInToCloud": {
+      "message": "Prisijungti prie $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Bandomosios svetainės"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Balsuoti už funkcijų idėjas"
+   },
+   "nav_videoTutorials": {
+      "message": "Vaizdo pamokos"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Svetainės Log-In / būsenos sąranka"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Leisti naudojimo metrikų rinkimą"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Įjungti eksperimentines funkcijas"
+   },
+   "options_page_keepWorking": {
+      "message": "Duomenų išgavimo metu galima tęsti kitus darbus."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Leisti plėtinio naudojimo metrikų rinkimą. Renkama tik neasmeninė informacija apibendrintu formatu. Daugiau informacijos:"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Privatumo politika"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Baigtas $sitemapId$ duomenų išgavimas",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Duomenų išgavimas baigtas"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Duomenų išgavimas prasidės naujame skirtuke. Jam pasibaigus, šis langas užsidarys."
+   },
+   "options_page_settings": {
+      "message": "Nustatymai"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Slaptažodžio laukas Svetainės būsenos sąrankoje yra tuščias."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Puslapio įkėlimo delsa (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Puslapio įkėlimo delsa"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Užklausų intervalas (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Užklausų intervalas"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Ištrinti selektorių $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Generuoti selektorius su AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Selektorius su šiuo ID jau egzistuoja"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Selektorius su šiuo ID sutampa su jau esamu duomenų eksporto stulpeliu"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Atributo pavadinime negali būti tarpų, \", ', >, /, = ar valdymo simbolių"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 negali prasidėti tarpu, apatiniu brūkšniu ar \"web-scraper\" ir negali turėti: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Turi būti tinkamas CSS selektorius"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Selektorius turi turėti bent vieną kitą selektorių kaip tėvinį"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript nepalaiko reguliariųjų reiškinių, galinčių atitikti 0 simbolių"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Pirminiai selektoriai"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Tipas"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Ištrynimo patvirtinimas"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Ištrinti $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtruoti $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Šis $sitemap$ yra tik $cloud$ paskyroje. Atsisiųsti $sitemap$ iš $cloud$ paskyros redaguoti",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Tai naujausia $sitemap$ versija. Perrašyti šį $sitemap$ versija iš $cloud$ paskyros",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ nesinchronizuotas",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Naujausia $sitemap$ versija yra $cloud$ paskyroje. Perrašyti $sitemap$ $cloud$ paskyroje šia $sitemap$ versija",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Nepavyksta nustatyti naujausios $sitemap$ versijos. Perrašyti šį $sitemap$ versija iš $cloud$ paskyros",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Nepavyksta nustatyti naujausios $sitemap$ versijos. Perrašyti $sitemap$ $cloud$ paskyroje šia $sitemap$ versija",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ yra tik $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ sinchronizuotas",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ yra tik plėtinyje",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Naujausia $sitemap$ versija yra $cloud$ paskyroje. Atnaujinti šį $sitemap$, kad atitiktų $cloud$ paskyros versiją",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Tai naujausia $sitemap$ versija. Atnaujinti $sitemap$ $cloud$ paskyroje šia $sitemap$ versija",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Šis $sitemap$ yra tik plėtinio saugykloje. Įkelti $sitemap$ į $cloud$ paskyrą",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domenas"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Atsisiųsti iš $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Įkelti į $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Spustelėjimas"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Įvestis"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Atverti URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Slaptažodžio įvestis"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Pristabdymas (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Teksto įvestis"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Ištrinti Svetainės būsenos sąranką?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Trukmė ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Įjungta"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Slaptažodis"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Tekstas"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Pasiekti vediklio $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Pridėti paveikslėlius"
+   },
+   "wizard_addMoreText": {
+      "message": "Pridėti daugiau teksto"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Analizuojamas puslapio turinys..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Analizuojama $1 URL su AI (vidutinis laukimas $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Ir daugiau..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Ar paslinkus įkeliama daugiau elementų?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatizuoti duomenų išgavimą $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatizuoti su $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Botų aptikimo valdymas"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Tikrinamas begalinis slinkimas"
+   },
+   "wizard_columnName": {
+      "message": "Stulpelio pavadinimas"
+   },
+   "wizard_continueButton": {
+      "message": "Tęsti"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Tinkinami $css$ selektoriai",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Tinkinama svetainės navigacija"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Išgaunant duomenis iš šio puslapio įvyko klaida. Apie problemą pranešta. Bandykite vėliau."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "Puslapyje rasta $1 duomenų taškų",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "Puslapyje rastas 1 duomenų taškas"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Išjungti begalinį slinkimą"
+   },
+   "wizard_disablePagination": {
+      "message": "Išjungti puslapiavimą"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Ar šiame puslapyje yra puslapiavimas?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Baigti pasirinkimą"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Įjungti begalinį slinkimą"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Įjungti naršymą po elementų puslapius ir duomenų išgavimą iš kiekvieno puslapio."
+   },
+   "wizard_errorTitle": {
+      "message": "Klaida"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Eksportuoti į $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Renkami puslapio duomenys $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Pateikti atsiliepimą"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Eiti į Išplėstinę $sitemap$ rengyklę",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Ką manote?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Kaip vertinate duomenų išgavimo patirtį?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "Pasirinkta elemento puslapio nuorodų: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "Pasirinkta 1 elemento puslapio nuoroda"
+   },
+   "wizard_link": {
+      "message": "Nuoroda"
+   },
+   "wizard_loadMore": {
+      "message": "Įkelti daugiau"
+   },
+   "wizard_loadingPage": {
+      "message": "Įkeliamas puslapis..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ funkcija",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Prieš išgaunant pašalinti, pridėti ar pervadinti stulpelius"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Daugiau duomenų ištraukiklių"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "Išgauta įrašų: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Pereinama per puslapiavimą ieškant elementų puslapių nuorodų."
+   },
+   "wizard_nextPage": {
+      "message": "Kitas puslapis"
+   },
+   "wizard_noDataFound": {
+      "message": "Duomenų nerasta"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Įrašų neišgauta. Patikrinkite ankstesnius veiksmus arba bandykite dar kartą."
+   },
+   "wizard_numberedPages": {
+      "message": "Sunumeruoti puslapiai: spustelėkite kelis mygtukus, kad pasirinktumėte visus"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Veikia tik viename skirtuke."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Paspauskite $shortcut1$ arba $shortcut2$, kad atidarytumėte kūrėjo įrankius.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Paspauskite $shortcut$, kad atidarytumėte kūrėjo įrankius.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Atidarykite naršyklės kūrėjo įrankius"
+   },
+   "wizard_paginationDetected": {
+      "message": "Aptiktas puslapiavimas. Konfigūraciją tvarkykite kitame žingsnyje."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Puslapiavimas įjungtas"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Palikite atsiliepimą apie plėtinį naršyklės parduotuvėje!"
+   },
+   "wizard_rateUs": {
+      "message": "Įvertinkite mus"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "Išgauta įrašų: $1, rodoma: $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Pergeneruoti"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Išgauti iš naujo"
+   },
+   "wizard_reselect": {
+      "message": "Pasirinkti iš naujo"
+   },
+   "wizard_retry": {
+      "message": "Bandyti dar kartą"
+   },
+   "wizard_scheduler": {
+      "message": "Planuoklė"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Išgauti puslapio duomenis"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Duomenų išgavimo priemonės konfigūracija paruošta"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Vyksta duomenų išgavimas. (išgauta įrašų: $1)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Vyksta duomenų išgavimas."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Vyksta duomenų išgavimas. (išgautas 1 įrašas)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Vyksta duomenų išgavimas. (išgauta įrašų: $1, rodoma: $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Slinkimas įjungtas"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Reikia bent dviejų nuorodų."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Pasirinkite duomenų taškus rankiniu būdu"
+   },
+   "wizard_selectLink": {
+      "message": "Pasirinkti nuorodą"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Pasirinkti kito puslapio mygtuką"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Pasirinkite puslapiavimo mygtuką. Dažniausi tipai:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Siųsti atsiliepimą"
+   },
+   "wizard_showMe": {
+      "message": "Parodyti"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Rodoma $1 iš $2 įrašų",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Rodoma $1 įrašų",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Rodomas 1 įrašas"
+   },
+   "wizard_signUp": {
+      "message": "Registruotis"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "Išgautas 1 įrašas"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ įrašytas Išplėstinėje $sitemap2$ rengyklėje",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Praleisti"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Duomenų sąranka"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Atsiliepimai ir išplėstinis duomenų išgavimas"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Sekti elementų nuorodas"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Elemento puslapio duomenų sąranka"
+   },
+   "wizard_stepPagination": {
+      "message": "Puslapiavimas ir slinkimas"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Sinchronizuoti ir paleisti $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Ačiū už atsiliepimą!"
+   },
+   "wizard_title": {
+      "message": "Pavadinimas"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Bandyti pasirinkti dar kartą"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Visi atsiliepimai peržiūrimi siekiant pagerinti naudojimo patirtį."
+   },
+   "wizard_yourFeedback": {
+      "message": "Jūsų atsiliepimas"
+   }
+}

@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "$webScraperCloud$ में स्क्रैपिंग स्वचालित करें",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "API के माध्यम से $webScraper$ प्रबंधित करें",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$ में स्वचालित निर्यात",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "साइट एक्सेस समस्याओं के लिए अंतर्निहित $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "डेटा एक्सट्रैक्शन को स्वचालित रूप से शेड्यूल करें"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ को बेहतर बनाने में मदद करें!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "लोड हो रहा है"
+   },
+   "button_addAction": {
+      "message": "एक्शन जोड़ें"
+   },
+   "button_addColumn": {
+      "message": "कॉलम जोड़ें"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "$robotstxt$ से जोड़ें",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "नया सेलेक्टर बनाएं"
+   },
+   "button_addUrl": {
+      "message": "URL जोड़ें"
+   },
+   "button_cancel": {
+      "message": "रद्द करें"
+   },
+   "button_close": {
+      "message": "बंद करें"
+   },
+   "button_closePreview": {
+      "message": "पूर्वावलोकन बंद करें"
+   },
+   "button_dataPreview": {
+      "message": "डेटा पूर्वावलोकन"
+   },
+   "button_delete": {
+      "message": "हटाएं"
+   },
+   "button_deleteLocally": {
+      "message": "स्थानीय रूप से हटाएं"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "वेबसाइट स्टेट सेटअप हटाएं"
+   },
+   "button_download": {
+      "message": "डाउनलोड करें"
+   },
+   "button_edit": {
+      "message": "संपादित करें"
+   },
+   "button_elementPreview": {
+      "message": "एलिमेंट पूर्वावलोकन"
+   },
+   "button_listingPage": {
+      "message": "लिस्टिंग पेज"
+   },
+   "button_loading": {
+      "message": "लोड हो रहा है..."
+   },
+   "button_overwrite": {
+      "message": "अधिलेखित करें"
+   },
+   "button_performAction": {
+      "message": "एक्शन निष्पादित करें"
+   },
+   "button_performActions": {
+      "message": "क्रियाएं निष्पादित करें"
+   },
+   "button_refresh": {
+      "message": "रीफ़्रेश"
+   },
+   "button_refreshData": {
+      "message": "डेटा रीफ़्रेश करें"
+   },
+   "button_reload": {
+      "message": "रीफ़्रेश"
+   },
+   "button_remove": {
+      "message": "हटाएं"
+   },
+   "button_save": {
+      "message": "सहेजें"
+   },
+   "button_saveSelector": {
+      "message": "सेलेक्टर सहेजें"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ सहेजें",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "चुनें"
+   },
+   "button_sendTrainingData": {
+      "message": "प्रशिक्षण डेटा भेजें"
+   },
+   "button_singleItemPage": {
+      "message": "एकल आइटम पेज"
+   },
+   "button_startScraping": {
+      "message": "स्क्रैपिंग शुरू करें"
+   },
+   "button_update": {
+      "message": "अपडेट करें"
+   },
+   "button_upload": {
+      "message": "अपलोड करें"
+   },
+   "button_uploadToCloud": {
+      "message": "$sitemap$ को $cloud$ पर अपलोड करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "सुविधा सुझावों को अपवोट और सबमिट करें"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "एक्सटेंशन को $cloud$ खाते से कनेक्ट करने के बाद, $sitemap$ सूची रीफ़्रेश करें।",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "क्रियाएं"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ बनाएं",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "त्रुटि:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ आयात करें",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "अधिक जानें"
+   },
+   "common_multiple": {
+      "message": "एकाधिक"
+   },
+   "common_mustBeBetween": {
+      "message": "$1, $2 और $3 के बीच होना चाहिए",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 संख्यात्मक होना चाहिए",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "अभी तक कोई डेटा स्क्रैप नहीं किया गया"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 रेंज आरोही क्रम में होनी चाहिए",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "स्क्रैप करें"
+   },
+   "common_selector": {
+      "message": "सेलेक्टर"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "अनधिकृत। $cloud$ से फिर से कनेक्ट करें।",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "मान अद्वितीय होना चाहिए।"
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "हॉटकी सक्षम करने के लिए यहां क्लिक करें"
+   },
+   "contentApp_doneSelecting": {
+      "message": "चयन पूर्ण"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "पैरेंट में चयनित एलिमेंट शामिल नहीं है"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "पैरेंट एलिमेंट नहीं मिला"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "चाइल्ड एलिमेंट चुनने के लिए $key$ दबाएं",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "पैरेंट एलिमेंट चुनने के लिए $key$ दबाएं",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "होवर किए गए एलिमेंट को चुनने के लिए $key$ दबाएं",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "चुने गए एलिमेंट की संख्या: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 आवश्यक है और खाली नहीं हो सकता",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1 की अधिकतम लंबाई $2 वर्ण है",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 कम से कम $2 वर्ण लंबा होना चाहिए",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "केवल अक्षर, अंक $digits$ या वर्ण $allowedCharacters$ में से किसी की अनुमति है",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "अमान्य $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ कुंजी अनुपस्थित - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 एक array होना चाहिए",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "इस Id वाला $sitemap$ पहले से मौजूद है",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ आवश्यक है और खाली नहीं हो सकता",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 आवश्यक है और खाली नहीं हो सकता",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 की संख्या $2 से अधिक नहीं होनी चाहिए",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$ में केवल अद्वितीय कुंजियों _id, startUrl, websiteStateSetup, selectors, hashHistory की अनुमति है",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ नाम",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "प्रारंभ URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 एक मान्य URL नहीं है",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "डेटा पूर्वावलोकन"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "अभी तक कोई डेटा निष्कर्षित नहीं हुआ"
+   },
+   "edit_selector_attributeName": {
+      "message": "एट्रिब्यूट नाम"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "क्लिक एलिमेंट विशिष्टता"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "उपलब्ध एट्रिब्यूट देखने के लिए क्लिक करें"
+   },
+   "edit_selector_clickType": {
+      "message": "क्लिक प्रकार"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "अधिक क्लिक करें (अधिक एलिमेंट लोड करने के लिए क्लिक करें। अद्वितीय टेक्स्ट सामग्री वाले नए एलिमेंट न मिलने पर रुक जाता है।)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "एक बार क्लिक करें (पेजिनेशन, टैब)"
+   },
+   "edit_selector_column": {
+      "message": "कॉलम"
+   },
+   "edit_selector_columnCount": {
+      "message": "कॉलम संख्या"
+   },
+   "edit_selector_columnName": {
+      "message": "कॉलम नाम"
+   },
+   "edit_selector_delay": {
+      "message": "विलंब (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "यह सुविधा अप्रचलित है और भविष्य की रिलीज़ में काम नहीं करेगी।"
+   },
+   "edit_selector_discardAlways": {
+      "message": "हमेशा त्यागें"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "प्रारंभिक एलिमेंट त्यागें"
+   },
+   "edit_selector_discardNever": {
+      "message": "कभी न त्यागें"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "क्लिक एलिमेंट मौजूद होने पर त्यागें"
+   },
+   "edit_selector_elementLimit": {
+      "message": "एलिमेंट सीमा"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "केवल पहला रिकॉर्ड"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "मिला URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "सेलेक्टर Id"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "परिणाम में शामिल करें"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL है (केवल एक)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "क्लिक सेलेक्टर"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "डेटा पंक्ति सेलेक्टर"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "हेडर पंक्ति सेलेक्टर"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "न मिलने पर निष्पादित करने वाला सेलेक्टर"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "स्क्रॉल एलिमेंट"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "केवल अनुपस्थित होने पर स्क्रॉल करें"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "एलिमेंट तक स्क्रॉल करें"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "किसी भी स्क्रिप्ट से लिंक ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "लिंक प्रकार"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "एट्रिब्यूट"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "लिंक (href एट्रिब्यूट से पढ़ें)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "एट्रिब्यूट में स्क्रिप्टेड लिंक ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "टेक्स्ट (टेक्स्ट सामग्री को लिंक के रूप में उपयोग करें)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "न्यूनतम प्राथमिकता"
+   },
+   "edit_selector_multipleNo": {
+      "message": "नहीं"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "एकाधिक कॉलम में एकाधिक रिकॉर्ड"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "एक कॉलम में एकाधिक रिकॉर्ड"
+   },
+   "edit_selector_multipleType": {
+      "message": "एकाधिक प्रकार"
+   },
+   "edit_selector_multipleYes": {
+      "message": "हां"
+   },
+   "edit_selector_paginationType": {
+      "message": "पेजिनेशन प्रकार"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "ऑटो"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "अगले/अधिक बटन पर कई बार क्लिक करें ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "एकाधिक बटन पर एक बार क्लिक करें ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "एट्रिब्यूट लिंक ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "लिंक ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "स्क्रिप्टेड लिंक ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "टेक्स्ट लिंक ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "पैरेंट सेलेक्टर"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "परिणाम कुंजी"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "लौटाए गए डेटा कॉलम"
+   },
+   "edit_selector_script": {
+      "message": "स्क्रिप्ट"
+   },
+   "edit_selector_scroll": {
+      "message": "स्क्रॉल"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "क्लिक एक्शन"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "स्क्रॉल डाउन एक्शन"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "एलिमेंट (स्क्रॉल)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "एलिमेंट एट्रिब्यूट"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "एलिमेंट क्लिक"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "एलिमेंट स्क्रॉल डाउन (अप्रचलित)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "ग्रुप्ड (अप्रचलित)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "इमेज"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "लिंक"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "नेटवर्क डेटा"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "पेजिनेशन"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "पॉपअप लिंक (अप्रचलित)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "स्क्रिप्ट डेटा"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ लिंक",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "टेबल"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "टेक्स्ट"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URLs",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "टेबल कॉलम"
+   },
+   "edit_selector_type": {
+      "message": "प्रकार"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "अद्वितीय $css$ सेलेक्टर",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "अद्वितीय $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "अद्वितीय $html$+टेक्स्ट",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "अद्वितीय टेक्स्ट"
+   },
+   "edit_selector_unlimited": {
+      "message": "असीमित"
+   },
+   "export_downloadAs": {
+      "message": "इस रूप में डाउनलोड करें:"
+   },
+   "export_generatingFile": {
+      "message": "फ़ाइल जनरेट हो रही है"
+   },
+   "extDesc": {
+      "message": "आधुनिक वेब के लिए आसान पॉइंट-एंड-क्लिक इंटरफ़ेस वाला वेब डेटा एक्सट्रैक्शन टूल"
+   },
+   "extName": {
+      "message": "$webScraper$ - मुफ़्त वेब स्क्रैपिंग",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - मुफ़्त वेब स्क्रैपिंग",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "स्क्रैप किया गया डेटा"
+   },
+   "nav_createNewSitemap": {
+      "message": "नया $sitemap$ बनाएं",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "विज़ार्ड से $sitemap$ बनाएं",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "प्रलेखन"
+   },
+   "nav_editMetadata": {
+      "message": "प्रारंभ URLs"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "प्रायोगिक सुविधाएं सक्षम"
+   },
+   "nav_exportData": {
+      "message": "डेटा निर्यात"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ एक्सपोर्ट",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "फ़ोरम"
+   },
+   "nav_help": {
+      "message": "सहायता"
+   },
+   "nav_logout": {
+      "message": "लॉगआउट"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$ का उपयोग शुरू करने के लिए डेवलपर टूल्स को ब्राउज़र में सबसे नीचे ले जाएं।",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "सेलेक्टर"
+   },
+   "nav_signInToCloud": {
+      "message": "$cloud$ में साइन इन करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "परीक्षण साइटें"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "फ़ीचर विचारों को अपवोट करें"
+   },
+   "nav_videoTutorials": {
+      "message": "वीडियो ट्यूटोरियल"
+   },
+   "nav_websiteStateSetup": {
+      "message": "वेबसाइट Log-In / स्टेट सेटअप"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "उपयोग मेट्रिक संग्रह की अनुमति दें"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "प्रायोगिक सुविधाएं सक्षम करें"
+   },
+   "options_page_keepWorking": {
+      "message": "स्क्रैपिंग के दौरान अन्य कार्य जारी रह सकते हैं।"
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "एक्सटेंशन उपयोग मेट्रिक संग्रह की अनुमति दें। केवल गैर-व्यक्तिगत जानकारी समेकित प्रारूप में एकत्र की जाती है। अधिक विवरण यहां"
+   },
+   "options_page_privacyPolicy": {
+      "message": "गोपनीयता नीति"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ की स्क्रैपिंग पूरी हुई",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "स्क्रैपिंग पूरी हुई"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "स्क्रैपिंग नए टैब में शुरू होगी। स्क्रैपिंग पूरी होने पर यह विंडो बंद हो जाएगी।"
+   },
+   "options_page_settings": {
+      "message": "सेटिंग्स"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "वेबसाइट स्टेट सेटअप में एक पासवर्ड फ़ील्ड खाली है।"
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "पेज लोड विलंब (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "पेज लोड विलंब"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "अनुरोध अंतराल (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "अनुरोध अंतराल"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "सेलेक्टर $1 हटाएं?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "AI से सेलेक्टर जनरेट करें:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "इस id वाला सेलेक्टर पहले से मौजूद है"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "इस id वाला सेलेक्टर पहले से मौजूद डेटा एक्सपोर्ट कॉलम के समान है"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "एट्रिब्यूट नाम में व्हाइटस्पेस, \", ', >, /, = या कोई कंट्रोल कैरेक्टर नहीं हो सकता"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 व्हाइटस्पेस, अंडरस्कोर या \"web-scraper\" से शुरू नहीं हो सकता और इसमें ये नहीं हो सकते: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "मान्य CSS सेलेक्टर होना चाहिए"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "सेलेक्टर के पैरेंट के रूप में कम से कम एक अन्य सेलेक्टर होना चाहिए"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript ऐसे रेगुलर एक्सप्रेशन सपोर्ट नहीं करता जो 0 कैरेक्टर से मैच कर सकें"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "पैरेंट सेलेक्टर"
+   },
+   "selectors_tableHeaderType": {
+      "message": "प्रकार"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "हटाने की पुष्टि"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$ हटाएं?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ फ़िल्टर करें",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "यह $sitemap$ केवल $cloud$ खाते में है। संपादित करने के लिए $cloud$ खाते से $sitemap$ डाउनलोड करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "यह नवीनतम $sitemap$ संस्करण है। इस $sitemap$ को $cloud$ खाते के संस्करण से ओवरराइट करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ सिंक नहीं है",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "नवीनतम $sitemap$ संस्करण $cloud$ खाते में है। $cloud$ खाते में $sitemap$ को $sitemap$ के इस संस्करण से ओवरराइट करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "नवीनतम $sitemap$ संस्करण निर्धारित नहीं किया जा सकता। इस $sitemap$ को $cloud$ खाते के संस्करण से ओवरराइट करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "नवीनतम $sitemap$ संस्करण निर्धारित नहीं किया जा सकता। $cloud$ खाते में $sitemap$ को $sitemap$ के इस संस्करण से ओवरराइट करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ केवल $cloud$ में है",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ सिंक है",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ केवल एक्सटेंशन में है",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "नवीनतम $sitemap$ संस्करण $cloud$ खाते में है। इस $sitemap$ को $cloud$ खाते के संस्करण से मिलान के लिए अपडेट करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "यह नवीनतम $sitemap$ संस्करण है। $cloud$ खाते में $sitemap$ को $sitemap$ के इस संस्करण से अपडेट करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "यह $sitemap$ केवल एक्सटेंशन स्टोरेज में है। $sitemap$ को $cloud$ खाते में अपलोड करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "डोमेन"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "$cloud$ से डाउनलोड करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "$cloud$ पर अपलोड करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "क्लिक"
+   },
+   "website_state_setup_actionInput": {
+      "message": "इनपुट"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL खोलें"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "पासवर्ड इनपुट"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "स्लीप (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "टेक्स्ट इनपुट"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "वेबसाइट स्टेट सेटअप हटाएं?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "अवधि (ms)"
+   },
+   "website_state_setup_enabled": {
+      "message": "सक्षम"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "पासवर्ड"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "टेक्स्ट"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "विज़ार्ड $sitemaps$ एक्सेस करें",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "छवियां जोड़ें"
+   },
+   "wizard_addMoreText": {
+      "message": "अधिक टेक्स्ट जोड़ें"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "पृष्ठ सामग्री का विश्लेषण किया जा रहा है..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "AI से $1 URL का विश्लेषण हो रहा है (औसत प्रतीक्षा $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "और भी बहुत कुछ..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "क्या स्क्रॉल करने के बाद और आइटम लोड होते हैं?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "$webScraperCloud$ में निष्कर्षण स्वचालित करें",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "$cloud$ में स्वचालित करें",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "बॉट डिटेक्शन हैंडलिंग"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "इनफिनिट स्क्रॉल की जांच जारी है"
+   },
+   "wizard_columnName": {
+      "message": "कॉलम नाम"
+   },
+   "wizard_continueButton": {
+      "message": "जारी रखें"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "अनुकूलन योग्य $css$ सेलेक्टर",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "अनुकूलन योग्य साइट नेविगेशन"
+   },
+   "wizard_dataExtractionError": {
+      "message": "इस पृष्ठ से डेटा निकालते समय एक त्रुटि हुई। समस्या की रिपोर्ट कर दी गई है। बाद में पुनः प्रयास करें।"
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "पृष्ठ पर $1 डेटा बिंदु मिले",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "पेज पर 1 डेटा पॉइंट मिला"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "इनफिनिट स्क्रॉल अक्षम करें"
+   },
+   "wizard_disablePagination": {
+      "message": "पेजिनेशन अक्षम करें"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "क्या इस पेज पर पेजिनेशन है?"
+   },
+   "wizard_doneSelecting": {
+      "message": "चुनना पूर्ण"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "इनफिनिट स्क्रॉल सक्षम करें"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "आइटम पेज पर नेविगेशन और प्रत्येक पेज से डेटा एक्सट्रैक्शन सक्षम करें।"
+   },
+   "wizard_errorTitle": {
+      "message": "त्रुटि"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "$dropbox$, $googleDrive$, $s3$, ... में निर्यात करें",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "पेज डेटा एकत्र किया जा रहा है $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "फीडबैक दें"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "एडवांस्ड $sitemap$ बिल्डर पर जाएं",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "आपकी क्या राय है?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "आपका स्क्रैपिंग अनुभव कैसा रहा?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 आइटम पेज लिंक चुने गए",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 आइटम पेज लिंक चुना गया"
+   },
+   "wizard_link": {
+      "message": "लिंक"
+   },
+   "wizard_loadMore": {
+      "message": "और लोड करें"
+   },
+   "wizard_loadingPage": {
+      "message": "पृष्ठ लोड हो रहा है..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ सुविधा",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "निकालने से पहले कॉलम हटाएं, जोड़ें या नाम बदलें"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "अधिक डेटा एक्सट्रैक्टर"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 रिकॉर्ड स्क्रैप किए गए",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "आइटम पेज लिंक खोजने के लिए पेजिनेशन में नेविगेट हो रहा है।"
+   },
+   "wizard_nextPage": {
+      "message": "अगला पेज"
+   },
+   "wizard_noDataFound": {
+      "message": "कोई डेटा नहीं मिला"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "कोई रिकॉर्ड स्क्रैप नहीं हुआ। पिछले चरण जांचें या पुनः प्रयास करें।"
+   },
+   "wizard_numberedPages": {
+      "message": "क्रमांकित पेज: सभी चुनने के लिए एकाधिक बटनों पर क्लिक करें"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "केवल एक टैब में काम करता है।"
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "डेवलपर टूल्स खोलने के लिए $shortcut1$ या $shortcut2$ दबाएं।",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "डेवलपर टूल्स खोलने के लिए $shortcut$ दबाएं।",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "ब्राउज़र के डेवलपर टूल्स खोलें"
+   },
+   "wizard_paginationDetected": {
+      "message": "पेजिनेशन का पता चला। अगले चरण में कॉन्फ़िगरेशन प्रबंधित करें।"
+   },
+   "wizard_paginationEnabled": {
+      "message": "पेजिनेशन सक्षम"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "कृपया ब्राउज़र के वेबस्टोर पर एक्सटेंशन की समीक्षा करें!"
+   },
+   "wizard_rateUs": {
+      "message": "हमें रेट करें"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 रिकॉर्ड स्क्रैप किए गए, $2 दिखाए जा रहे हैं",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "पुनः जनरेट करें"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "पुनः स्क्रैप करें"
+   },
+   "wizard_reselect": {
+      "message": "पुनः चुनें"
+   },
+   "wizard_retry": {
+      "message": "पुनः प्रयास करें"
+   },
+   "wizard_scheduler": {
+      "message": "शेड्यूलर"
+   },
+   "wizard_scrapeThePage": {
+      "message": "पेज स्क्रैप करें"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "स्क्रैपर कॉन्फ़िगरेशन तैयार है"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "स्क्रैपिंग जारी है। ($1 रिकॉर्ड स्क्रैप हुए)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "स्क्रैपिंग जारी है।"
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "स्क्रैपिंग जारी है। (1 रिकॉर्ड स्क्रैप हुआ)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "स्क्रैपिंग जारी है। ($1 रिकॉर्ड स्क्रैप हुए, $2 दिखाए जा रहे हैं)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "स्क्रॉल सक्षम"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "कम से कम दो लिंक आवश्यक हैं।"
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "डेटा पॉइंट मैन्युअल रूप से चुनें"
+   },
+   "wizard_selectLink": {
+      "message": "लिंक चुनें"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "अगले पेज का बटन चुनें"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "पेजिनेशन बटन चुनें। सामान्य प्रकार हैं:"
+   },
+   "wizard_sendFeedback": {
+      "message": "फीडबैक भेजें"
+   },
+   "wizard_showMe": {
+      "message": "दिखाएं"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$2 में से $1 रिकॉर्ड दिखाए जा रहे हैं",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1 रिकॉर्ड दिखाए जा रहे हैं",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "1 रिकॉर्ड दिखाया जा रहा है"
+   },
+   "wizard_signUp": {
+      "message": "साइन अप करें"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 रिकॉर्ड स्क्रैप किया गया"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ एडवांस्ड $sitemap2$ बिल्डर में सहेजा गया",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "छोड़ें"
+   },
+   "wizard_stepDataSetup": {
+      "message": "डेटा सेटअप"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "फ़ीडबैक और एडवांस्ड स्क्रैपिंग"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "आइटम लिंक का अनुसरण करें"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "आइटम पेज डेटा सेटअप"
+   },
+   "wizard_stepPagination": {
+      "message": "पेजिनेशन और स्क्रॉल"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ सिंक और रन करें",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "फ़ीडबैक के लिए धन्यवाद!"
+   },
+   "wizard_title": {
+      "message": "शीर्षक"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "फिर से चुनने का प्रयास करें"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "उपयोगकर्ता अनुभव को बेहतर बनाने के लिए सभी समीक्षाओं का निरीक्षण किया जाता है।"
+   },
+   "wizard_yourFeedback": {
+      "message": "आपका फीडबैक"
+   }
+}

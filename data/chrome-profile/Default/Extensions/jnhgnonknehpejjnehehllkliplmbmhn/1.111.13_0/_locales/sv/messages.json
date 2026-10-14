@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatisera skrapning i $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Hantera $webScraper$ via API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automatisk export till $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Inbyggd $proxy$ för problem med webbplatsåtkomst",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Schemalägg dataextraktion automatiskt"
+   },
+   "browse_helpUsImprove": {
+      "message": "Hjälp oss förbättra $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Läser in"
+   },
+   "button_addAction": {
+      "message": "Lägg till åtgärd"
+   },
+   "button_addColumn": {
+      "message": "Lägg till kolumn"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Lägg till från $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Skapa ny väljare"
+   },
+   "button_addUrl": {
+      "message": "Lägg till URL"
+   },
+   "button_cancel": {
+      "message": "Avbryt"
+   },
+   "button_close": {
+      "message": "Stäng"
+   },
+   "button_closePreview": {
+      "message": "Stäng förhandsvisning"
+   },
+   "button_dataPreview": {
+      "message": "Dataförhandsvisning"
+   },
+   "button_delete": {
+      "message": "Ta bort"
+   },
+   "button_deleteLocally": {
+      "message": "Ta bort lokalt"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Ta bort Konfiguration av webbplatstillstånd"
+   },
+   "button_download": {
+      "message": "Ladda ner"
+   },
+   "button_edit": {
+      "message": "Redigera"
+   },
+   "button_elementPreview": {
+      "message": "Förhandsvisa element"
+   },
+   "button_listingPage": {
+      "message": "Listsida"
+   },
+   "button_loading": {
+      "message": "Läser in..."
+   },
+   "button_overwrite": {
+      "message": "Skriv över"
+   },
+   "button_performAction": {
+      "message": "Utför åtgärd"
+   },
+   "button_performActions": {
+      "message": "Utför åtgärder"
+   },
+   "button_refresh": {
+      "message": "Uppdatera"
+   },
+   "button_refreshData": {
+      "message": "Uppdatera data"
+   },
+   "button_reload": {
+      "message": "Uppdatera"
+   },
+   "button_remove": {
+      "message": "Ta bort"
+   },
+   "button_save": {
+      "message": "Spara"
+   },
+   "button_saveSelector": {
+      "message": "Spara väljare"
+   },
+   "button_saveSitemap": {
+      "message": "Spara $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Välj"
+   },
+   "button_sendTrainingData": {
+      "message": "Skicka träningsdata"
+   },
+   "button_singleItemPage": {
+      "message": "Enskild objektsida"
+   },
+   "button_startScraping": {
+      "message": "Starta skrapning"
+   },
+   "button_update": {
+      "message": "Uppdatera"
+   },
+   "button_upload": {
+      "message": "Ladda upp"
+   },
+   "button_uploadToCloud": {
+      "message": "Ladda upp $sitemap$ till $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Rösta på och skicka in funktionsidéer"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "När tillägget anslutits till $cloud$-kontot, uppdatera $sitemap$-listan.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Åtgärder"
+   },
+   "common_createSitemap": {
+      "message": "Skapa $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Fel:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Importera $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Läs mer"
+   },
+   "common_multiple": {
+      "message": "Flera"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 måste vara mellan $2 och $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 måste vara numeriskt",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Ingen data skrapad ännu"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Intervallet för $1 ska vara stigande",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Skrapa"
+   },
+   "common_selector": {
+      "message": "Väljare"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Obehörig. Återanslut till $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Värdet måste vara unikt."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Klicka här för att aktivera kortkommandon"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Klar med val"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Överordnat element innehåller inte valt element"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Överordnat element hittades inte"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Tryck på $key$ för att välja underordnat element",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Tryck på $key$ för att välja överordnat element",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Tryck på $key$ för att välja hovrat element",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Antal valda element: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 krävs och får inte vara tom",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Maximal längd för $1 är $2 tecken",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 måste vara minst $2 tecken långt",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Endast bokstäver, siffror $digits$ eller något av tecknen $allowedCharacters$ är tillåtna",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Ogiltig $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$-nyckel saknas - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 måste vara en array",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ med detta ID finns redan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ krävs och får inte vara tomt",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 krävs och får inte vara tom",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Antalet $1 får inte överstiga $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Endast unika nycklar _id, startUrl, websiteStateSetup, selectors, hashHistory är tillåtna i $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$-namn",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Start-URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 är inte en giltig URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Dataförhandsvisning"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Ingen data extraherad ännu."
+   },
+   "edit_selector_attributeName": {
+      "message": "Attributnamn"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Klickelementets unikhet"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Klicka för att visa tillgängliga attribut"
+   },
+   "edit_selector_clickType": {
+      "message": "Klicktyp"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Klicka mer (klicka för att läsa in fler element. Stoppar när inga nya element med unikt textinnehåll hittas.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Klicka en gång (paginering, flikar)"
+   },
+   "edit_selector_column": {
+      "message": "Kolumn"
+   },
+   "edit_selector_columnCount": {
+      "message": "Antal kolumner"
+   },
+   "edit_selector_columnName": {
+      "message": "Kolumnnamn"
+   },
+   "edit_selector_delay": {
+      "message": "Fördröjning (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Denna funktion är föråldrad och kommer inte att fungera i en framtida version."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Kassera alltid"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Kassera initiala element"
+   },
+   "edit_selector_discardNever": {
+      "message": "Kassera aldrig"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Kassera när klickelement finns"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Elementgräns"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Endast första posten"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Hittad URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Väljar-ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Inkludera i resultat"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Är URL (endast en)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Klickväljare"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Väljare för datarader"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Väljare för rubrikrad"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Väljare att köra om element saknas"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Rullningselement"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Rulla endast om saknas"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Rulla till element"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Länk från valfritt skript ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Länktyp"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Attribut"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Länk (läs från href-attribut)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Skriptad länk i attribut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Text (använd textinnehåll som länk)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Lägsta prioritet"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Nej"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Flera poster i flera kolumner"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Flera poster i en kolumn"
+   },
+   "edit_selector_multipleType": {
+      "message": "Typ för flera"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Ja"
+   },
+   "edit_selector_paginationType": {
+      "message": "Pagineringstyp"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Auto"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Klicka flera gånger på nästa/mer-knapp ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Klicka en gång på flera knappar ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Attributlänk ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Länk ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Skriptad länk ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Textlänk ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Överordnade väljare"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Resultatnyckel"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Returnerade datakolumner"
+   },
+   "edit_selector_script": {
+      "message": "Skript"
+   },
+   "edit_selector_scroll": {
+      "message": "Rullning"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Klickåtgärd"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Rulla nedåt-åtgärd"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Element (rullning)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Elementattribut"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Elementklick"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Element rulla nedåt (föråldrad)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Grupperad (föråldrad)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Bild"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Länk"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Nätverksdata"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Paginering"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Popup-länk (föråldrad)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Skriptdata"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$-länkar",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Tabell"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Text"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$-URL:er",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Tabellkolumner"
+   },
+   "edit_selector_type": {
+      "message": "Typ"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Unik $css$-väljare",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Unik $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Unik $html$+text",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Unik text"
+   },
+   "edit_selector_unlimited": {
+      "message": "Obegränsat"
+   },
+   "export_downloadAs": {
+      "message": "Ladda ner som:"
+   },
+   "export_generatingFile": {
+      "message": "Genererar fil"
+   },
+   "extDesc": {
+      "message": "Verktyg för webbdataextraktion med ett enkelt peka-och-klicka-gränssnitt för modern webb"
+   },
+   "extName": {
+      "message": "$webScraper$ - Gratis webbskrapning",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Gratis webbskrapning",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Skrapad data"
+   },
+   "nav_createNewSitemap": {
+      "message": "Skapa ny $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Skapa $sitemap$ med guide",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentation"
+   },
+   "nav_editMetadata": {
+      "message": "Start-URL:er"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Experimentella funktioner aktiverade"
+   },
+   "nav_exportData": {
+      "message": "Dataexport"
+   },
+   "nav_exportSitemap": {
+      "message": "Export av $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forum"
+   },
+   "nav_help": {
+      "message": "Hjälp"
+   },
+   "nav_logout": {
+      "message": "Logga ut"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Flytta utvecklarverktygen längst ned i webbläsaren för att börja använda $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Väljare"
+   },
+   "nav_signInToCloud": {
+      "message": "Logga in på $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Testwebbplatser"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Rösta på funktionsidéer"
+   },
+   "nav_videoTutorials": {
+      "message": "Videohandledningar"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Webbplatsinloggning / Konfiguration av webbplatstillstånd"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Tillåt insamling av användningsstatistik"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Aktivera experimentella funktioner"
+   },
+   "options_page_keepWorking": {
+      "message": "Annat arbete kan fortsätta under skrapningen."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Tillåt insamling av användningsstatistik för tillägget. Endast icke-personlig information i aggregerat format samlas in. Mer information finns i"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Integritetspolicy"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Skrapning av $sitemapId$ slutförd",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Skrapning slutförd"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Skrapningen startar i en ny flik. När skrapningen är klar stängs detta fönster."
+   },
+   "options_page_settings": {
+      "message": "Inställningar"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Ett lösenordsfält i Konfiguration av webbplatstillstånd är tomt."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Fördröjning vid sidladdning (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Fördröjning vid sidladdning"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Förfrågningsintervall (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Förfrågningsintervall"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Ta bort väljare $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Generera väljare med AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Väljare med detta ID finns redan"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Väljare med detta ID är identisk med en befintlig dataexportkolumn"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Attributnamn får inte innehålla blanktecken, \", ', >, /, = eller kontrolltecken"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 får inte börja med blanktecken, understreck eller \"web-scraper\" och får inte innehålla: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Måste vara en giltig CSS-väljare"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Väljaren måste ha minst en annan väljare som överordnad"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript stöder inte reguljära uttryck som kan matcha 0 tecken"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Överordnade väljare"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Typ"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Bekräfta borttagning"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Ta bort $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtrera $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Denna $sitemap$ finns endast i $cloud$-kontot. Ladda ner $sitemap$ från $cloud$-kontot för att redigera",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Detta är den senaste versionen av $sitemap$. Skriv över denna $sitemap$ med en version från $cloud$-kontot",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ är inte synkroniserad",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Senaste versionen av $sitemap$ finns i $cloud$-kontot. Skriv över $sitemap$ i $cloud$-kontot med denna version av $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Senaste versionen av $sitemap$ kan inte fastställas. Skriv över denna $sitemap$ med versionen från $cloud$-kontot",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Senaste versionen av $sitemap$ kan inte fastställas. Skriv över $sitemap$ i $cloud$-kontot med denna version av $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ finns endast i $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ är synkroniserad",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ finns endast i tillägget",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Senaste versionen av $sitemap$ finns i $cloud$-kontot. Uppdatera denna $sitemap$ så att den matchar versionen i $cloud$-kontot",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Detta är den senaste versionen av $sitemap$. Uppdatera $sitemap$ i $cloud$-kontot med denna version av $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Denna $sitemap$ finns endast i tilläggets lagring. Ladda upp $sitemap$ till $cloud$-kontot",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domän"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Ladda ner från $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Ladda upp till $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Klicka"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Inmatning"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Öppna URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Lösenordsinmatning"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Paus (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Textinmatning"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Ta bort Konfiguration av webbplatstillstånd?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Varaktighet i ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Aktiverad"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Lösenord"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Text"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Öppna guidens $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Lägg till bilder"
+   },
+   "wizard_addMoreText": {
+      "message": "Lägg till mer text"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Analyserar sidinnehåll..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Analyserar $1 URL:er med AI (genomsnittlig väntetid $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Och mer..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Laddas fler objekt efter rullning?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatisera extraktion i $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatisera i $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Hantering av botdetektering"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Kontrollerar oändlig rullning"
+   },
+   "wizard_columnName": {
+      "message": "Kolumnnamn"
+   },
+   "wizard_continueButton": {
+      "message": "Fortsätt"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Anpassningsbara $css$-väljare",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Anpassningsbar webbplatsnavigering"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Ett fel uppstod vid extraktion av data från denna sida. Problemet har rapporterats. Försök igen senare."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 datapunkter hittades på sidan",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "1 datapunkt hittades på sidan"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Inaktivera oändlig rullning"
+   },
+   "wizard_disablePagination": {
+      "message": "Inaktivera paginering"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Har den här sidan paginering?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Klar med val"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Aktivera oändlig rullning"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Aktivera navigering till objektsidor och dataextraktion från varje sida."
+   },
+   "wizard_errorTitle": {
+      "message": "Fel"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Exportera till $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Samlar in siddata $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Ge feedback"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Gå till Avancerad $sitemap$-byggare",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Vad tycker du?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Hur var din skrapningsupplevelse?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 objektsidelänkar valda",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 objektsidelänk vald"
+   },
+   "wizard_link": {
+      "message": "Länk"
+   },
+   "wizard_loadMore": {
+      "message": "Ladda fler"
+   },
+   "wizard_loadingPage": {
+      "message": "Laddar sida..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$-funktion",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Ta bort, lägg till eller byt namn på kolumner före extraktion"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Fler dataextraktorer"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 poster skrapade",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Navigerar genom paginering för att hitta länkar till objektsidor."
+   },
+   "wizard_nextPage": {
+      "message": "Nästa sida"
+   },
+   "wizard_noDataFound": {
+      "message": "Ingen data hittades"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Inga poster skrapades. Kontrollera föregående steg eller försök igen."
+   },
+   "wizard_numberedPages": {
+      "message": "Numrerade sidor: klicka på flera knappar för att välja alla"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Fungerar endast i en flik."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Tryck på $shortcut1$ eller $shortcut2$ för att öppna utvecklarverktygen.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Tryck på $shortcut$ för att öppna utvecklarverktygen.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Öppna webbläsarens utvecklarverktyg"
+   },
+   "wizard_paginationDetected": {
+      "message": "Paginering upptäckt. Hantera konfigurationen i nästa steg."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Paginering aktiverad"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Recensera gärna tillägget i webbläsarens webbutik!"
+   },
+   "wizard_rateUs": {
+      "message": "Betygsätt oss"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 poster skrapade, visar $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Återskapa"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Skrapa om"
+   },
+   "wizard_reselect": {
+      "message": "Välj om"
+   },
+   "wizard_retry": {
+      "message": "Försök igen"
+   },
+   "wizard_scheduler": {
+      "message": "Schemaläggare"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Skrapa sidan"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Skraparkonfigurationen är klar"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Skrapning pågår. ($1 poster skrapade)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Skrapning pågår."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Skrapning pågår. (1 post skrapad)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Skrapning pågår. ($1 poster skrapade, visar $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Rullning aktiverad"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Minst två länkar krävs."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Välj datapunkter manuellt"
+   },
+   "wizard_selectLink": {
+      "message": "Välj länk"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Välj knappen Nästa sida"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Välj pagineringsknapp. Vanliga typer är:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Skicka feedback"
+   },
+   "wizard_showMe": {
+      "message": "Visa"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Visar $1 av $2 poster",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Visar $1 poster",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Visar 1 post"
+   },
+   "wizard_signUp": {
+      "message": "Registrera dig"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 post skrapad"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ sparad i Avancerad $sitemap2$-byggare",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Hoppa över"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Datakonfiguration"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Feedback och avancerad skrapning"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Följ objektlänkar"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Datakonfiguration för objektsida"
+   },
+   "wizard_stepPagination": {
+      "message": "Paginering & rullning"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Synkronisera & kör $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Tack för din feedback!"
+   },
+   "wizard_title": {
+      "message": "Titel"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Försök välja igen"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Alla recensioner granskas för att förbättra användarupplevelsen."
+   },
+   "wizard_yourFeedback": {
+      "message": "Din feedback"
+   }
+}

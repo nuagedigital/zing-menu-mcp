@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - גירוד אתרים בחינם",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - גירוד אתרים בחינם",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "כלי לחילוץ נתוני אינטרנט עם ממשק קל וקליל עבור אינטרנט מודרני"
+	},
+	"common_actions": {
+		"message": "פעולות"
+	},
+	"common_createSitemap": {
+		"message": "צור $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "תְעוּדַת זֶהוּת"
+	},
+	"common_importSitemap": {
+		"message": "ייבוא $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "למידע נוסף",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "מְרוּבֶּה"
+	},
+	"common_noDataScrapedYet": {
+		"message": "עדיין לא נגרדו נתונים"
+	},
+	"common_scrape": {
+		"message": "לְגַרֵד",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "בורר"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "עבור אל בונה $sitemap$ מתקדם",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "עוד מחלצי נתונים"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "ניווט באתר הניתן להתאמה אישית"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "בוררי $css$ הניתנים להתאמה אישית",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "תכונת $logIn$",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "ועוד..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "אשף הגישה $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "לחץ $shortcut1$ או $shortcut2$ כדי לפתוח את כלי המפתחים.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "לחץ $shortcut$ כדי לפתוח את כלי המפתחים.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "פתח את כלי המפתחים של הדפדפן"
+	},
+	"wizard_showMe": {
+		"message": "הראה לי",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "לא נמצאו נתונים",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "שם העמודה"
+	},
+	"wizard_title": {
+		"message": "כּוֹתֶרֶת",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "לְקַשֵׁר"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "ניתוח תוכן הדף..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "אירעה שגיאה בעת חילוץ נתונים מדף זה. הבעיה דווחה. נסה שוב מאוחר יותר."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "מציג $1 מתוך $2 רשומות",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "מוצג רשומה אחת"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "מציג רשומות $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "נמצאה נקודת נתונים אחת בדף"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "נקודות נתונים $1 נמצאו בדף",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "טוען דף..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "הסרה, הוספה או שינוי שם של עמודות לפני חילוץ"
+	},
+	"wizard_addMoreText": {
+		"message": "הוסף עוד טקסט",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "הוסף תמונות",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "נסה שוב",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "לְהִתְחַדֵשׁ",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "שְׁגִיאָה"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "תצורת המגרד מוכנה"
+	},
+	"wizard_scrapeThePage": {
+		"message": "גרד את הדף",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "לא נגרדו רשומות. בדוק את השלבים הקודמים או נסה שוב."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "גרד מחדש",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "מה דעתך?"
+	},
+	"wizard_giveFeedback": {
+		"message": "תן משוב",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "המשוב שלך",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "שלח משוב",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ נשמר בבונה $sitemap2$ מתקדם",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "בחר מחדש",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "קישור אחד לדף פריט נבחר"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "$1 קישורים לדף הפריט נבחרו",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "נדרשים לפחות שני קישורים."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "נסה לבחור שוב",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "איך הייתה חוויית הסקראפינג שלך?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "אוטומציה של חילוץ ב-$webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "ייצוא אל $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "טיפול בזיהוי בוטים",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "סנכרן והפעל את $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "הרשמה",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "מתזמן"
+	},
+	"wizard_stepPagination": {
+		"message": "דפדוף וגלילה"
+	},
+	"wizard_stepDataSetup": {
+		"message": "הגדרת נתונים"
+	},
+	"wizard_continueButton": {
+		"message": "לְהַמשִׁיך",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "האם לדף הזה יש מסד דפים?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "דפדוף מופעל"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "לחצן בחר עמוד הבא",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "השבתת דפדוף",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "בחירת כפתור דפדוף. סוגים נפוצים הם:"
+	},
+	"wizard_nextPage": {
+		"message": "עמוד הבא"
+	},
+	"wizard_loadMore": {
+		"message": "טען עוד"
+	},
+	"wizard_numberedPages": {
+		"message": "עמודים ממוספרים: לחץ על מספר כפתורים כדי לבחור את כולם"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "האם נטענים פריטים נוספים לאחר הגלילה?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "בדיקת גלילה אינסופית"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "גלילה מופעלת"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "הפעל גלילה אינסופית",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "השבת גלילה אינסופית",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "גירוד בעיצומו."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "גירוד מתבצע. (רשומה אחת נגרמה)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "גירוד מתבצע. ($1 רשומות נגרדו)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "גירוד מתבצע. ($1 רשומות נגרדו, מציגות $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "רשומה אחת נגרדה"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "רשומות $1 נגרדו",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "רשומות $1 נגרדו, מציגות $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "תודה על המשוב!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "אנא בדוק את התוסף בחנות האינטרנט של הדפדפן!"
+	},
+	"wizard_rateUs": {
+		"message": "דרג אותנו"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "כל הביקורות נבדקות כדי לשפר את חוויית המשתמש."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "אפשר ניווט לדפי פריטים וחילוץ נתונים מכל עמוד."
+	},
+	"wizard_selectLink": {
+		"message": "בחר קישור",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "איסוף נתוני דף $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "ניתוח כתובות URL של $1 באמצעות בינה מלאכותית (המתנה ממוצעת של $waitTime$ שניות)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "עקוב אחר קישורי הפריטים"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "משוב וגירוד מתקדם"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "הגדרת נתוני דף פריט"
+	},
+	"wizard_doneSelecting": {
+		"message": "סיימתי לבחור",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "אוטומציה ב-$cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "זוהה דפדוף. נהל את התצורה בשלב הבא."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "עובד רק בכרטיסייה אחת."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "שם $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "כתובת אתר התחלתית"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "כתובת אתר"
+	},
+	"button_saveSitemap": {
+		"message": "שמור $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 אינו כתובת URL חוקית",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ $json$ נדרש ואינו יכול להיות ריק",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "$json$ לא חוקי",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "חסר מפתח $sitemap$ - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "מספר $1 לא יעלה על $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "שדה $1 נדרש ואינו יכול להיות ריק",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "ה-$1 צריך להיות באורך של לפחות $2 תווים",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "האורך המקסימלי של $1 הוא $2 תווים",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "רק אותיות, ספרות $digits$ או כל אחד מהתווים $allowedCharacters$ מותרים",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ עם מזהה זה כבר קיים",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 חייב להיות מערך",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 נדרשים ואינם יכולים להיות ריקים. יש לבחור לפחות אחד",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "רק מפתחות ייחודיים כמו _id, startUrl, websiteStateSetup, selectors ו-hashHistory מותרים ב-$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "סנן $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "תְחוּם"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "העלה אל $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "הורד מ-$cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ לא מסונכרן",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ מסונכרן",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ נמצא רק ב-$cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ נמצא רק בסיומת",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "החלפה",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "לא ניתן לקבוע את הגרסה העדכנית ביותר של $sitemap$. יש להחליף את $sitemap$ בחשבון $cloud$ עם גרסה זו של $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "לא ניתן לקבוע את הגרסה העדכנית ביותר של $sitemap$. החלף את $sitemap$ זה עם הגרסה מחשבון $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "הגרסה האחרונה של $sitemap$ נמצאת בחשבון $cloud$. החלף את $sitemap$ בחשבון $cloud$ עם גרסה זו של $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "זוהי הגרסה העדכנית ביותר של $sitemap$. החלף את ה-$sitemap$ בגרסה מחשבון $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "לְעַדְכֵּן",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "הגרסה האחרונה של $sitemap$ נמצאת בחשבון $cloud$. עדכן את $sitemap$ כך שיתאים לגרסה בחשבון $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "זוהי הגרסה העדכנית ביותר של $sitemap$. עדכן את $sitemap$ בחשבון $cloud$ עם גרסה זו של $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "הורדה",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "ה-$sitemap$ הזה נמצא רק בחשבון $cloud$. הורד את $sitemap$ מחשבון $cloud$ כדי לערוך",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "העלאה",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "מחיקה מקומית",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "ה-$sitemap$ הזה נמצא רק באחסון ההרחבה. העלה את ה-$sitemap$ לחשבון $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "למחוק את ה-$sitemap$?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "אישור מחיקה"
+	},
+	"button_cancel": {
+		"message": "לְבַטֵל",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "לִמְחוֹק",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "התנתק",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "התחבר אל $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "בוררים",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "כתובות URL התחלתיות",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "כניסה לאתר / הגדרת מצב",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "נתונים שנגרדו",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "ייצוא $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "ייצוא נתונים",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "צור $sitemap$ חדש",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "צור $sitemap$ באמצעות אשף",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "עֶזרָה",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "הדרכות וידאו",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "תיעוד",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "אתרי בדיקה",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "פוֹרוּם",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "רעיונות לתכונות בעדיפות",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "תכונות ניסיוניות הופעלו",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "סוּג"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "בוררי הורים",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "צור בורר חדש",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "צור בוררים בעזרת בינה מלאכותית:"
+	},
+	"button_listingPage": {
+		"message": "דף רישום",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "דף פריט בודד",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "למחוק את הבורר $1?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "הזז את כלי המפתחים לתחתית הדפדפן כדי להתחיל להשתמש ב-$webScraper$.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "תצוגה מקדימה של נתונים"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "עדיין לא חולצו נתונים."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "לאחר חיבור ההרחבה לחשבון $cloud$, טען מחדש את רשימת $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "לִטעוֹן מִחָדָשׁ",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "לִסְגוֹר",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "שם המאפיין"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "לחץ כדי להציג את המאפיינים הזמינים"
+	},
+	"edit_selector_tableColumns": {
+		"message": "עמודות טבלה"
+	},
+	"edit_selector_column": {
+		"message": "עַמוּדָה"
+	},
+	"edit_selector_resultKey": {
+		"message": "מפתח תוצאות"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "כלול בתוצאה"
+	},
+	"button_dataPreview": {
+		"message": "תצוגה מקדימה של נתונים",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "העלה את $sitemap$ אל $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "שלח נתוני אימון",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "אלמנט גלילה",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "גלילה רק אם חסר"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "גלילה אל רכיב"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "בורר לחיצות"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "בורר שורת כותרת"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "בורר שורות נתונים"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "בצע בורר כאשר לא נמצא"
+	},
+	"button_select": {
+		"message": "לִבחוֹר",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "תצוגה מקדימה של האלמנט",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "סגור את התצוגה המקדימה",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "בורר שמירת",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "גְלִילָה",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "מגבלת אלמנטים",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "בִּלתִי מוּגבָּל",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "רֶגֶקס",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "נמצאה כתובת URL $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "עדיפות מינימלית",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "עיכוב (מילישניות)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "ספירת עמודות",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "סוגים מרובים",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "רק רשומה ראשונה"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "רשומות מרובות בעמודות מרובות"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "מספר רשומות בעמודה אחת"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "בוררי הורים",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "ביצוע פעולה",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "תַסרִיט",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "עמודות נתונים שהוחזרו"
+	},
+	"edit_selector_columnName": {
+		"message": "שם העמודה"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "האם כתובת URL (אחת בלבד)"
+	},
+	"button_remove": {
+		"message": "לְהַסִיר",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "הוסף עמודה",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "סוג קליק",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "סוג דפדוף",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "ייחודיות אלמנט הלחיצה",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "סוג קישור",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "מחק את האלמנטים הראשוניים",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "אוטומטי"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "קישור ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "קישור סקריפטי ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "קישור תכונה ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "קישור טקסט ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "לחצו מספר פעמים על כפתור הבא/עוד ([עמוד הבא] [טען עוד])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "לחץ פעם אחת על מספר כפתורים ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "קישור מכל סקריפט ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "לחיצה אחת (עמודים, טאבים)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "לחץ על עוד (לחץ כדי לטעון אלמנטים נוספים. נעצר כאשר לא נמצאו אלמנטים חדשים עם תוכן טקסט ייחודי.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "טקסט ייחודי"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "$html$ ייחודי + טקסט",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "$html$ ייחודי",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "בורר $css$ ייחודי",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "קישור (נקרא מתכונת href)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "טקסט (השתמש בתוכן טקסט כקישור)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "תְכוּנָה"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "קישור סקריפטי במאפיין ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "לעולם אל תשליך"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "מחק כאשר אלמנט הלחיצה קיים"
+	},
+	"edit_selector_discardAlways": {
+		"message": "תמיד להשליך"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ כתובות URL",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "הוסף כתובת URL",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "הוסף מ-$robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "תכונה זו הוצאה משימוש ולא תפעל בגרסה עתידית."
+	},
+	"website_state_setup_enabled": {
+		"message": "מופעל",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "מחיקת הגדרת מצב אתר אינטרנט",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "הוסף פעולה",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "ביצוע פעולות",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "לְהַצִיל",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "למחוק את הגדרת מצב האתר?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "סִיסמָה",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "טֶקסט",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "משך זמן במילי-שניות",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "פתיחת כתובת URL"
+	},
+	"website_state_setup_actionClick": {
+		"message": "נְקִישָׁה"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "שינה (מילישניות)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "קלט טקסט"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "הזנת סיסמה"
+	},
+	"website_state_setup_actionInput": {
+		"message": "קֶלֶט"
+	},
+	"button_loading": {
+		"message": "טְעִינָה...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "התחל לגרד",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "שדה סיסמה בהגדרת מצב אתר אינטרנט ריק."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "מרווח זמן בקשה (מילישניות)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "מרווח זמן של בקשה",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "עיכוב טעינת דף (מילישניות)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "עיכוב בטעינת הדף",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "טְעִינָה"
+	},
+	"button_refresh": {
+		"message": "לְרַעֲנֵן",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "רענון נתונים",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "עזרו לנו לשפר את $webScraper$!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "הצבע בעד ושלח רעיונות לתכונות",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "אוטומציה של גירוד ב-$webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "תזמון אוטומטי של חילוץ נתונים"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "ניהול $webScraper$ דרך API",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "ייצוא אוטומטי אל $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "$proxy$ מובנה עבור בעיות גישה לאתר",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "יצירת קובץ"
+	},
+	"export_downloadAs": {
+		"message": "הורד כ:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "כֵּן"
+	},
+	"edit_selector_multipleNo": {
+		"message": "לֹא"
+	},
+	"button_edit": {
+		"message": "לַעֲרוֹך",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "מזהה בורר",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "הגדרות"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "אפשר איסוף מדדי שימוש בתוסף. נאסף רק מידע שאינו אישי בפורמט מצטבר. פרטים נוספים ב"
+	},
+	"options_page_privacyPolicy": {
+		"message": "מדיניות פרטיות"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "אפשר איסוף מדדי שימוש"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "הפעל תכונות ניסיוניות"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "הגירוד יתחיל בכרטיסייה חדשה. לאחר השלמת הגירוד, חלון זה ייסגר."
+	},
+	"options_page_keepWorking": {
+		"message": "עבודות אחרות יכולות להימשך תוך כדי הגירוד."
+	}
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<!--
+  class="dark" is set statically here, not by a script.
+
+  ThemeProvider applies the theme class in an effect, so the document painted
+  white for a frame before React mounted — very visible on a tab the extension
+  opens straight into a dark UI. The usual remedy is a pre-paint inline script,
+  but MV3 extension pages run under `script-src 'self'` and inline scripts are
+  silently blocked. Verified rather than assumed: the script parsed, never
+  executed, and the flash remained.
+
+  Hardcoding the default theme costs nothing and fixes the common case. If the
+  user has chosen light, ThemeProvider corrects it on mount — a rarer, and far
+  less jarring, flash than white-into-dark.
+-->
+<html lang="en" class="dark">
+  <head>
+    <title>SVG Export</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Lets the UA style native scrollbars and the number-input spinners in the
+         settings dialog to match the theme; without it they stay light. -->
+    <meta name="color-scheme" content="dark light" />
+
+    <!-- The results page is a real tab, so it gets a real favicon — the same
+         icons the manifest already ships, served from publicDir at /icons.
+         Without these the tab shows the generic page glyph, which makes it hard
+         to pick out among the user's other tabs and gives tooling nothing to
+         identify the page by. -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/16x16.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="./icons/48x48.png" />
+    <link rel="icon" type="image/png" sizes="128x128" href="./icons/128x128.png" />
+    <link rel="apple-touch-icon" href="./icons/128x128.png" />
+    <script type="module" crossorigin src="./static/js/index.js"></script>
+    <link rel="stylesheet" crossorigin href="./static/css/index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

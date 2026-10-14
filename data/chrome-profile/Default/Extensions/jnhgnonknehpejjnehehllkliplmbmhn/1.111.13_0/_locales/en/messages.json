@@ -1,0 +1,1999 @@
+{
+   "browse_cloudAdHeading": {
+      "description": "Heading of the Web Scraper Cloud promotional ad shown in the data browse view.",
+      "message": "Automate Scraping in $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "description": "A feature of Web Scraper Cloud listed in the promotional ad in the data browse view.",
+      "message": "Manage $webScraper$ via API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "description": "A feature of Web Scraper Cloud listing supported export destinations, shown in the promotional ad in the data browse view.",
+      "message": "Automatic export to $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "description": "A feature of Web Scraper Cloud listed in the promotional ad in the data browse view.",
+      "message": "Built-in $proxy$ for site access issues",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "description": "A feature of Web Scraper Cloud listed in the promotional ad in the data browse view.",
+      "message": "Automatically schedule data extraction"
+   },
+   "browse_helpUsImprove": {
+      "description": "Text inviting the user to submit feedback, shown above the scraped data table in the data browse view.",
+      "message": "Help us improve $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "description": "Placeholder text shown while scraped data is being loaded in the data browse view.",
+      "message": "Loading"
+   },
+   "button_addAction": {
+      "description": "A button that adds a new action to the website state setup.",
+      "labels": [ "button" ],
+      "message": "Add Action"
+   },
+   "button_addColumn": {
+      "description": "A button that adds a new data column to the selector configuration.",
+      "labels": [ "button" ],
+      "message": "Add Column"
+   },
+   "button_addFromRobotsTxt": {
+      "description": "A button that populates sitemap XML URLs discovered from the site's robots.txt file.",
+      "labels": [ "button" ],
+      "message": "Add from $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "description": "A button that creates a new selector in the sitemap's selector list.",
+      "labels": [ "button" ],
+      "message": "Create new selector"
+   },
+   "button_addUrl": {
+      "description": "A button that adds a new sitemap XML URL to the selector configuration.",
+      "labels": [ "button" ],
+      "message": "Add URL"
+   },
+   "button_cancel": {
+      "description": "A button that cancels the current action or closes the form without saving.",
+      "labels": [ "button" ],
+      "message": "Cancel"
+   },
+   "button_close": {
+      "description": "A button that closes the modal dialog. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Close"
+   },
+   "button_closePreview": {
+      "description": "A button that closes the on-page element data preview.",
+      "labels": [ "button" ],
+      "message": "Close preview"
+   },
+   "button_dataPreview": {
+      "description": "A button that previews the data extracted by the selector.",
+      "labels": [ "button" ],
+      "message": "Data preview"
+   },
+   "button_delete": {
+      "description": "A button that deletes the sitemap or selector.",
+      "labels": [ "button" ],
+      "message": "Delete"
+   },
+   "button_deleteLocally": {
+      "description": "A button that removes the sitemap from local storage while keeping it in the Cloud.",
+      "labels": [ "button" ],
+      "message": "Delete locally"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "description": "A button that deletes the website state setup for the sitemap.",
+      "labels": [ "button" ],
+      "message": "Delete Website State Setup"
+   },
+   "button_download": {
+      "description": "A button that downloads a cloud-stored sitemap into local storage in the sitemap list.",
+      "labels": [ "button" ],
+      "message": "Download"
+   },
+   "button_edit": {
+      "description": "A button that opens the selector for editing. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Edit"
+   },
+   "button_elementPreview": {
+      "description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+      "labels": [ "button" ],
+      "message": "Element preview"
+   },
+   "button_listingPage": {
+      "description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+      "labels": [ "button" ],
+      "message": "Listing page"
+   },
+   "button_loading": {
+      "description": "Text shown on the scrape button while scraping is in progress, replacing the start label.",
+      "labels": [ "button" ],
+      "message": "Loading..."
+   },
+   "button_overwrite": {
+      "description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Overwrite"
+   },
+   "button_performAction": {
+      "description": "A button that executes the configured website state setup action on the page.",
+      "labels": [ "button" ],
+      "message": "Perform Action"
+   },
+   "button_performActions": {
+      "description": "A button that runs all configured website state setup actions on the page.",
+      "labels": [ "button" ],
+      "message": "Perform Actions"
+   },
+   "button_refresh": {
+      "description": "A button that reloads the scraped data table. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Refresh"
+   },
+   "button_refreshData": {
+      "description": "A button that reloads the scraped data shown in the browse data view.",
+      "labels": [ "button" ],
+      "message": "Refresh Data"
+   },
+   "button_reload": {
+      "description": "A button that refreshes the sitemap list in the cloud authentication modal. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Refresh"
+   },
+   "button_remove": {
+      "description": "A button that removes the current row or item from a list. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Remove"
+   },
+   "button_save": {
+      "description": "A button that saves the current form. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Save"
+   },
+   "button_saveSelector": {
+      "description": "A button that saves the selector in the edit selector form.",
+      "labels": [ "button" ],
+      "message": "Save selector"
+   },
+   "button_saveSitemap": {
+      "description": "A button that saves the sitemap's metadata in the edit sitemap metadata form.",
+      "labels": [ "button" ],
+      "message": "Save $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Select"
+   },
+   "button_sendTrainingData": {
+      "description": "A button that submits the current sitemap as training data (experimental feature).",
+      "labels": [ "button" ],
+      "message": "Send training data"
+   },
+   "button_singleItemPage": {
+      "description": "A button that generates single-item-page selectors in the selector list.",
+      "labels": [ "button" ],
+      "message": "Single item page"
+   },
+   "button_startScraping": {
+      "description": "Button label for starting the scraping process.",
+      "labels": [ "button" ],
+      "message": "Start scraping"
+   },
+   "button_update": {
+      "description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Update"
+   },
+   "button_upload": {
+      "description": "A button that uploads a locally-stored sitemap to the Web Scraper Cloud in the sitemap list.",
+      "labels": [ "button" ],
+      "message": "Upload"
+   },
+   "button_uploadToCloud": {
+      "description": "A button that uploads the sitemap to the Web Scraper Cloud from the selector view.",
+      "labels": [ "button" ],
+      "message": "Upload $sitemap$ to $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "description": "A link styled as a button that opens the Web Scraper feature feedback site.",
+      "labels": [ "button" ],
+      "message": "Upvote & Submit Feature Ideas"
+   },
+   "cloud_auth_reloadMessage": {
+      "description": "Message shown in the cloud authentication modal instructing the user to refresh the sitemap list after connecting to the Cloud account.",
+      "message": "After connecting the extension to the $cloud$ account, refresh the $sitemap$ list.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "description": "Generic column header and label reused across views for the actions available on each selector or setup step.",
+      "message": "Actions"
+   },
+   "common_createSitemap": {
+      "description": "A button and navigation menu item that opens the form for creating a new sitemap manually.",
+      "labels": [ "button" ],
+      "message": "Create $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "description": "Heading of the error alert in the DevTools panel that lists background script error messages.",
+      "message": "Error:"
+   },
+   "common_id": {
+      "description": "Generic column header and form field label reused across views for the sitemap or selector identifier.",
+      "message": "Id"
+   },
+   "common_importSitemap": {
+      "description": "A button and navigation menu item that opens the form for importing a sitemap from JSON.",
+      "labels": [ "button" ],
+      "message": "Import $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "description": "A button linking to more information about Web Scraper Cloud, reused across views.",
+      "labels": [ "button" ],
+      "message": "Learn more"
+   },
+   "common_multiple": {
+      "description": "Generic label reused for the selector table column and form checkbox indicating whether a selector extracts multiple records.",
+      "message": "Multiple"
+   },
+   "common_mustBeBetween": {
+      "description": "Validation error shown when a numeric input field value is outside the allowed range. $1 is the capitalized field label (for example \"Delay\"), $2 is the minimum and $3 the maximum allowed value.",
+      "message": "$1 must be between $2 and $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "description": "Validation error shown when a numeric input field contains a non-numeric value. $1 is the lowercased field label, for example \"request interval\".",
+      "message": "The $1 must be numeric",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "description": "Placeholder message shown in the scraped data view when no data has been scraped for the sitemap.",
+      "message": "No data scraped yet"
+   },
+   "common_rangeShouldBeAscending": {
+      "description": "Validation error shown when a numeric URL range (for example [1-100]) has a start value that is not lower than the end value. $1 is the lowercased field label, for example \"start url\".",
+      "message": "The $1 range should be ascending",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "description": "Button label for starting the scraping process",
+      "labels": [ "button" ],
+      "message": "Scrape"
+   },
+   "common_selector": {
+      "description": "Generic label reused across views for the selector table column and selector input fields.",
+      "message": "Selector"
+   },
+   "common_unauthorizedReconnect": {
+      "description": "Error message shown in the DevTools panel error alert when a background script request is rejected as unauthorized, prompting the user to re-connect the extension to Web Scraper Cloud.",
+      "message": "Unauthorized. Re-connect with $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "description": "Validation error shown when a field in a repeatable list has a duplicate value that must be unique across all entries.",
+      "message": "Value must be unique."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "description": "Notification shown in the in-page element picker overlay prompting the user to click it so the keyboard shortcuts (hotkeys) become active.",
+      "message": "Click here to enable hotkeys"
+   },
+   "contentApp_doneSelecting": {
+      "description": "Button in the in-page element picker toolbar that confirms the current element selection.",
+      "labels": [ "button" ],
+      "message": "Done selecting"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "description": "Notification shown in the point-and-click element picker when a clicked element is outside the configured parent element and therefore cannot be selected.",
+      "message": "Parent does not contain selected element"
+   },
+   "contentApp_parentElementNotFound": {
+      "description": "Alert dialog shown in the point-and-click element picker when the configured parent CSS selector does not match any element on the page.",
+      "message": "Parent element not found"
+   },
+   "contentApp_pressCToSelectChild": {
+      "description": "Tooltip on the C button in the in-page element picker toolbar; $key$ is the keyboard shortcut and should stay as is.",
+      "message": "Press $key$ to select child element",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "description": "Tooltip on the P button in the in-page element picker toolbar; $key$ is the keyboard shortcut and should stay as is.",
+      "message": "Press $key$ to select parent element",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "description": "Tooltip on the S button in the in-page element picker toolbar; $key$ is the keyboard shortcut and should stay as is.",
+      "message": "Press $key$ to select hovered element",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "description": "Counter shown in the in-page element picker overlay with the number of currently selected elements.",
+      "message": "Selected element count: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "description": "Form input title for the field where sitemap JSON is pasted when importing a sitemap.",
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "description": "Validation error shown when a required field is left empty.",
+      "message": "The $1 is required and cannot be empty",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "description": "Validation error shown when a field value exceeds the maximum allowed number of characters.",
+      "message": "The maximum length of $1 is $2 characters",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "description": "Validation error shown when a field value has fewer than the minimum required characters.",
+      "message": "The $1 must be at least $2 characters long",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "description": "Validation error shown when a field contains characters that are not allowed, listing the permitted ones.",
+      "message": "Only letters, digits $digits$ or any of the characters $allowedCharacters$ are allowed",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "description": "Validation error shown when the pasted sitemap text is not valid JSON.",
+      "message": "Invalid $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "description": "Validation error shown when the imported sitemap JSON is missing a required key.",
+      "message": "$sitemap$ key missing - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "description": "Validation error shown when a field that must be a list is not an array.",
+      "message": "$1 must be an array",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "description": "Validation error shown when the sitemap name already belongs to another sitemap.",
+      "message": "$sitemap$ with this Id already exists",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "description": "Validation error shown when the sitemap JSON import field is left empty.",
+      "message": "The $sitemap$ $json$ is required and cannot be empty",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "description": "Validation error shown when no start URL is provided during sitemap import.",
+      "message": "$1 is required and cannot be empty",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "description": "Validation error shown when the number of items exceeds the allowed maximum.",
+      "message": "$1 count must not exceed $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "description": "Validation error shown when the imported sitemap JSON contains keys other than the allowed ones.",
+      "message": "Only unique keys _id, startUrl, websiteStateSetup, selectors, hashHistory are allowed in the $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "description": "Form input title and placeholder for the sitemap's name when creating or editing a sitemap.",
+      "message": "$sitemap$ name",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "description": "Form input title for a sitemap start URL, shown next to its index number.",
+      "message": "Start URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "description": "Placeholder text shown inside the empty start URL input field.",
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "description": "Validation error shown when the entered value is not a valid URL.",
+      "message": "$1 is not a valid URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "description": "Heading title of the modal that previews the extracted data.",
+      "message": "Data Preview"
+   },
+   "data_preview_noDataExtracted": {
+      "description": "Empty-state text shown in the data preview when no data has been extracted yet.",
+      "message": "No data extracted yet."
+   },
+   "edit_selector_attributeName": {
+      "description": "Form input title. Which HTML attribute of the element the value is read from.",
+      "message": "Attribute name"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "description": "Form input title",
+      "message": "Click element uniqueness"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "description": "Placeholder text in the attribute name input, prompting the user to click to see the element's available attributes.",
+      "message": "Click to view available attributes"
+   },
+   "edit_selector_clickType": {
+      "description": "Form input title. A dropdown to choose between click types",
+      "message": "Click type"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "description": "Click type dropdown option. Repeatedly clicks the element to load more elements, stopping when no new unique content appears.",
+      "message": "Click more (click to load more elements. Stops when no new elements with unique text content are found.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "description": "Click type dropdown option. Clicks the element a single time, e.g. for pagination or tabs.",
+      "message": "Click once (pagination, tabs)"
+   },
+   "edit_selector_column": {
+      "description": "Column header of the table columns list, showing the source column name found in the HTML table.",
+      "message": "Column"
+   },
+   "edit_selector_columnCount": {
+      "description": "Form input title",
+      "message": "Column count"
+   },
+   "edit_selector_columnName": {
+      "description": "Table header and input placeholder for the name of a returned data column.",
+      "message": "Column Name"
+   },
+   "edit_selector_delay": {
+      "description": "Form input title. How much time (in milliseconds) to wait before executing action",
+      "message": "Delay (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "description": "Tooltip shown on a deprecated form input, warning that the feature will stop working in a future release.",
+      "message": "This feature is deprecated and will not work in a future release."
+   },
+   "edit_selector_discardAlways": {
+      "description": "Discard initial elements dropdown option. Always discards the elements loaded before clicking.",
+      "message": "Always discard"
+   },
+   "edit_selector_discardInitialElements": {
+      "description": "Form input title",
+      "message": "Discard initial elements"
+   },
+   "edit_selector_discardNever": {
+      "description": "Discard initial elements dropdown option. Never discards the elements loaded before clicking.",
+      "message": "Never discard"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "description": "Discard initial elements dropdown option. Discards the initially loaded elements only when the click element is present.",
+      "message": "Discard when click element exists"
+   },
+   "edit_selector_elementLimit": {
+      "description": "Form input title",
+      "message": "Element limit"
+   },
+   "edit_selector_firstRecordOnly": {
+      "description": "Multiple type dropdown option. Stores only the first matched record in a single column.",
+      "message": "First Record Only"
+   },
+   "edit_selector_foundUrlRegex": {
+      "description": "Form input title",
+      "message": "Found URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "description": "Form input title",
+      "message": "Selector Id"
+   },
+   "edit_selector_includeIntoResult": {
+      "description": "Column header for the checkbox that toggles whether a table column is included in the extracted data.",
+      "message": "Include into result"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "description": "Column header for the checkbox marking a returned data column as containing a URL; only one column can be marked.",
+      "message": "Is URL (only one)"
+   },
+   "edit_selector_labelClickSelector": {
+      "description": "Form input title. CSS selector of the element that will be clicked.",
+      "message": "Click selector"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "description": "Form input title. CSS selector of the table's data rows.",
+      "message": "Data rows selector"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "description": "Form input title. CSS selector of the table's header row.",
+      "message": "Header row selector"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "description": "Form input title. CSS selector of an element; the action is performed only when this element is not found on the page.",
+      "message": "Perform when not found selector"
+   },
+   "edit_selector_labelScrollElement": {
+      "description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page.",
+      "message": "Scroll element"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "description": "Form input title. CSS selector of an element that is scrolled to only if it is not already visible on the page.",
+      "message": "Scroll only if missing"
+   },
+   "edit_selector_labelScrollToElement": {
+      "description": "Form input title. CSS selector of the element that will be scrolled to during data extraction.",
+      "message": "Scroll to element"
+   },
+   "edit_selector_linkFromRedirect": {
+      "description": "Pagination and link type dropdown option. Follows a link opened by a redirect script such as window.location or window.open.",
+      "message": "Link from any script ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "description": "Form input title",
+      "message": "Link type"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "description": "Link type dropdown option. Reads the link from a custom attribute of the element.",
+      "message": "Attribute"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "description": "Link type dropdown option. Reads the link from the anchor's href attribute.",
+      "message": "Link (read from href attribute)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "description": "Link type dropdown option. Reads the link from JavaScript in an element attribute such as onclick.",
+      "message": "Scripted link in attribute ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "description": "Link type dropdown option. Uses the element's text content as the link.",
+      "message": "Text (use text contents as link)"
+   },
+   "edit_selector_minimumPriority": {
+      "description": "Form input title",
+      "message": "Minimum priority"
+   },
+   "edit_selector_multipleNo": {
+      "description": "Value shown in the selector list's Multiple column, indicating the selector returns a single record.",
+      "message": "No"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "description": "Multiple type dropdown option. Stores multiple matched records spread across several columns.",
+      "message": "Multiple Records in Multiple Columns"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "description": "Multiple type dropdown option. Stores multiple matched records combined into a single column.",
+      "message": "Multiple Records in One Column"
+   },
+   "edit_selector_multipleType": {
+      "description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns",
+      "message": "Multiple type"
+   },
+   "edit_selector_multipleYes": {
+      "description": "Value shown in the selector list's Multiple column, indicating the selector returns multiple records.",
+      "message": "Yes"
+   },
+   "edit_selector_paginationType": {
+      "description": "Form input title",
+      "message": "Pagination type"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "description": "Pagination type dropdown option. Automatically detects how pagination links should be followed.",
+      "message": "Auto"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "description": "Pagination type dropdown option. Repeatedly clicks a next/load-more button to load additional pages.",
+      "message": "Click multiple times on next/more button ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "description": "Pagination type dropdown option. Clicks each page-number button once to load all pages.",
+      "message": "Click once on multiple buttons ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "description": "Pagination type dropdown option. Reads the next-page link from a custom attribute of the element.",
+      "message": "Attribute link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "description": "Pagination type dropdown option. Reads the next-page link from an anchor's href attribute.",
+      "message": "Link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "description": "Pagination type dropdown option. Reads the next-page link from JavaScript in an anchor's href attribute.",
+      "message": "Scripted link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "description": "Pagination type dropdown option. Reads the next-page link from the element's text content.",
+      "message": "Text link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "description": "Form input title",
+      "message": "Parent selectors"
+   },
+   "edit_selector_regex": {
+      "description": "Form input title",
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "description": "Column header of the table columns list; the key name this column will have in the extracted data.",
+      "message": "Result key"
+   },
+   "edit_selector_returnedDataColumns": {
+      "description": "Form input title for the list of data columns returned by the selector's script.",
+      "message": "Returned data columns"
+   },
+   "edit_selector_script": {
+      "description": "Form input title",
+      "message": "Script"
+   },
+   "edit_selector_scroll": {
+      "description": "Form input title",
+      "message": "Scroll"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "description": "Experimental selector type dropdown option. Clicks an element on the page, without extracting data.",
+      "message": "Click Action"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "description": "Experimental selector type dropdown option. Scrolls the page down to trigger loading, without extracting data.",
+      "message": "Scroll Down Action"
+   },
+   "edit_selector_selectorTypeElement": {
+      "description": "Selector type dropdown option. Selects wrapper elements that hold child selectors and scrolls the page to load more of them.",
+      "message": "Element (scroll)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "description": "Selector type dropdown option. Extracts the value of a chosen HTML attribute.",
+      "message": "Element attribute"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "description": "Selector type dropdown option. Selects wrapper elements, clicking a button to load more of them.",
+      "message": "Element click"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "description": "Deprecated selector type dropdown option. Selects wrapper elements while scrolling down to load more; replaced by the Element type.",
+      "message": "Element scroll down (Deprecated)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "description": "Deprecated selector type dropdown option. Extracts text from several elements as a single grouped value.",
+      "message": "Grouped (Deprecated)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "description": "Selector type dropdown option. Extracts the inner HTML of the selected elements.",
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "description": "Selector type dropdown option. Extracts image source URLs.",
+      "message": "Image"
+   },
+   "edit_selector_selectorTypeLink": {
+      "description": "Selector type dropdown option. Extracts links and lets the scraper follow them to child pages.",
+      "message": "Link"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "description": "Experimental selector type dropdown option. Extracts data from network responses using a JSONPath expression.",
+      "message": "Network Data"
+   },
+   "edit_selector_selectorTypePagination": {
+      "description": "Selector type dropdown option. Follows pagination links or buttons to load additional pages.",
+      "message": "Pagination"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "description": "Deprecated selector type dropdown option. Captures links opened in a popup window.",
+      "message": "Popup Link (Deprecated)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "description": "Experimental selector type dropdown option. Runs a user-defined script to extract data from the page.",
+      "message": "Script Data"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "description": "Selector type dropdown option. Extracts page URLs listed in a Sitemap.xml file.",
+      "message": "$sitemapXml$ Links",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "description": "Selector type dropdown option. Extracts rows and columns from an HTML table.",
+      "message": "Table"
+   },
+   "edit_selector_selectorTypeText": {
+      "description": "Selector type dropdown option. Extracts the text content of the selected elements.",
+      "message": "Text"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "description": "Form input title for the list of URLs discovered from the site's Sitemap.xml.",
+      "message": "$sitemapXml$ URLs",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "description": "Form input title for the Table selector's list of columns to extract.",
+      "message": "Table columns"
+   },
+   "edit_selector_type": {
+      "description": "Field label for the selector type dropdown in the selector edit form (classic devtools panel), shown above the select control.",
+      "message": "Type"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "description": "Element uniqueness dropdown option. Treats clicked elements as unique by their CSS selector.",
+      "message": "Unique $css$ selector",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "description": "Element uniqueness dropdown option. Treats clicked elements as unique by their HTML.",
+      "message": "Unique $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "description": "Element uniqueness dropdown option. Treats clicked elements as unique by their combined HTML and text content.",
+      "message": "Unique $html$+Text",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "description": "Element uniqueness dropdown option. Treats clicked elements as unique by their text content.",
+      "message": "Unique Text"
+   },
+   "edit_selector_unlimited": {
+      "description": "Form input title",
+      "message": "Unlimited"
+   },
+   "export_downloadAs": {
+      "description": "Label above the download buttons letting the user pick the export file format in the data export view.",
+      "message": "Download as:"
+   },
+   "export_generatingFile": {
+      "description": "Loader message shown while the export file is being generated in the data export view.",
+      "message": "Generating file"
+   },
+   "extDesc": {
+      "description": "Extension description shown in the Chrome Web Store.",
+      "message": "Web data extraction tool with an easy point-and-click interface for modern web"
+   },
+   "extName": {
+      "description": "Extension name shown in the browser and Chrome Web Store.",
+      "message": "$webScraper$ - Free Web Scraping",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "description": "Extension name for the development build shown in the browser and Chrome Web Store.",
+      "message": "$webScraperDev$ - Free Web Scraping",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "description": "Navigation menu item that opens the view showing the sitemap's scraped data.",
+      "labels": [ "button" ],
+      "message": "Scraped data"
+   },
+   "nav_createNewSitemap": {
+      "description": "Navigation menu item opening the dropdown for creating a new sitemap.",
+      "labels": [ "button" ],
+      "message": "Create new $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "description": "Navigation menu item that opens the AI-assisted Create Sitemap with Wizard side panel.",
+      "labels": [ "button" ],
+      "message": "Create $sitemap$ with Wizard",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "description": "Navigation menu item that opens the Web Scraper documentation page in a new tab.",
+      "labels": [ "button" ],
+      "message": "Documentation"
+   },
+   "nav_editMetadata": {
+      "description": "Navigation menu item that opens the sitemap's start URLs and metadata editor.",
+      "labels": [ "button" ],
+      "message": "Start URLs"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "description": "Navigation menu label shown when experimental features are enabled.",
+      "labels": [ "button" ],
+      "message": "Experimental features enabled"
+   },
+   "nav_exportData": {
+      "description": "Navigation menu item that opens the view for exporting the scraped data.",
+      "labels": [ "button" ],
+      "message": "Data export"
+   },
+   "nav_exportSitemap": {
+      "description": "Navigation menu item that opens the view for exporting the sitemap definition as JSON.",
+      "labels": [ "button" ],
+      "message": "$sitemap$ export",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "description": "Navigation menu item that opens the Web Scraper community forum in a new tab.",
+      "labels": [ "button" ],
+      "message": "Forum"
+   },
+   "nav_help": {
+      "description": "Navigation menu item opening the dropdown of help resources.",
+      "labels": [ "button" ],
+      "message": "Help"
+   },
+   "nav_logout": {
+      "description": "Navigation menu item that disconnects the extension from the Web Scraper Cloud account.",
+      "labels": [ "button" ],
+      "message": "Logout"
+   },
+   "nav_moveDevToolsToBottom": {
+      "description": "Instruction shown in the panel prompting the user to dock the browser developer tools to the bottom before using the extension.",
+      "message": "Move developer tools to the bottom of the browser to start using $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "description": "Data extraction instruction selectors based on CSS Selectors.",
+      "labels": [ "button" ],
+      "message": "Selectors"
+   },
+   "nav_signInToCloud": {
+      "description": "Navigation menu item that opens the sign-in page for the Web Scraper Cloud account.",
+      "labels": [ "button" ],
+      "message": "Sign in to $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "description": "Navigation menu item opening the dropdown of actions for the currently selected sitemap.",
+      "labels": [ "button" ],
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "description": "Navigation menu item that opens the list of all sitemaps.",
+      "labels": [ "button" ],
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "description": "Navigation menu item that opens the Web Scraper test sites page in a new tab.",
+      "labels": [ "button" ],
+      "message": "Test Sites"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "description": "Navigation menu item that opens the feature feedback page in a new tab.",
+      "labels": [ "button" ],
+      "message": "Upvote Feature Ideas"
+   },
+   "nav_videoTutorials": {
+      "description": "Navigation menu item that opens the Web Scraper video tutorials page in a new tab.",
+      "labels": [ "button" ],
+      "message": "Video Tutorials"
+   },
+   "nav_websiteStateSetup": {
+      "description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+      "labels": [ "button" ],
+      "message": "Website Log-In / State setup"
+   },
+   "options_page_allowMetricGathering": {
+      "description": "Label of the toggle that enables usage metric gathering on the extension options page.",
+      "message": "Allow usage metric gathering"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "description": "Label of the toggle that enables experimental features on the extension options page.",
+      "message": "Enable experimental features"
+   },
+   "options_page_keepWorking": {
+      "description": "Additional note about the scraper window behavior shown on the extension options page.",
+      "message": "Other work can continue while scraping."
+   },
+   "options_page_metricGatheringDescription": {
+      "description": "Description of the usage metric gathering setting on the extension options page, followed by a link to the Privacy Policy.",
+      "message": "Allow extension usage metric gathering. Only non-personal information in aggregated format is being gathered. More details in"
+   },
+   "options_page_privacyPolicy": {
+      "description": "Label of the Privacy Policy link on the extension options page.",
+      "message": "Privacy Policy"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "description": "Body of the desktop notification shown when scraping in the options-page scraper window completes. $sitemapId$ is the sitemap id.",
+      "message": "Finished scraping $sitemapId$",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "description": "Title of the desktop notification shown when scraping in the options-page scraper window completes.",
+      "message": "Scraping finished"
+   },
+   "options_page_scrapingInNewTab": {
+      "description": "Description of the scraper window behavior shown on the extension options page.",
+      "message": "Scraping will start in a new tab. Once scraping is complete, this window will close."
+   },
+   "options_page_settings": {
+      "description": "Default title of the extension options page.",
+      "message": "Settings"
+   },
+   "scrape_emptyPasswordError": {
+      "description": "Validation error shown before scraping when a Website State Setup password field is empty.",
+      "message": "A password field in Website State Setup is empty."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "description": "Form input title. How much time (in milliseconds) to wait for a page to load before extracting data.",
+      "message": "Page load delay (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "description": "Form input title",
+      "message": "Page load delay"
+   },
+   "scrape_requestIntervalLabel": {
+      "description": "Form input title. How much time (in milliseconds) to wait between page requests during scraping.",
+      "message": "Request interval (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "description": "Form input title",
+      "message": "Request interval"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "description": "Confirmation question shown in the modal that asks the user to confirm deleting a selector, with the selector id.",
+      "message": "Delete selector $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "description": "Label above the button that generates selectors automatically with AI in the selector list view.",
+      "message": "Generate Selectors with AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "description": "Validation error shown in the selector edit form when the entered selector id is already used by another selector.",
+      "message": "Selector with this id already exists"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "description": "Validation error shown in the selector edit form when the selector id matches the name of an existing data export column.",
+      "message": "Selector with this id is equal to already existing data export column"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "description": "Validation error shown in the selector edit form when an attribute name contains disallowed characters (whitespace, double quote, single quote, greater-than, slash, equals, or control characters).",
+      "message": "Attribute name cannot contain whitespace, \", ', >, /, = or any of the control characters"
+   },
+   "selectors_invalidColumnName": {
+      "description": "Validation error shown when a selector id or column name uses a forbidden prefix or character. $1 is the field label (for example \"Selector id\" or \"Column name\"). The character list and \"web-scraper\" are literal forbidden values and must not be translated.",
+      "message": "$1 cannot start with whitespace, underscore, or \"web-scraper\" and cannot contain: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "description": "Validation error shown when the value entered in a selector's CSS selector field is not a valid CSS selector.",
+      "message": "Must be a valid CSS selector"
+   },
+   "selectors_needsOtherParentSelector": {
+      "description": "Validation error shown in the selector edit form when a selector lists only itself as its parent selector.",
+      "message": "Selector needs to have at least one other selector as parent"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "description": "Validation error shown in the selector edit form when the entered regular expression can match an empty string.",
+      "message": "JavaScript does not support regular expressions that can match 0 characters"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "description": "A scraper could be configured like\n  this \u003Cproduct links selector> -> [\u003Ctitle selector>, \u003Cprice selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages.",
+      "message": "Parent selectors"
+   },
+   "selectors_tableHeaderType": {
+      "description": "A column header in the selector list table showing each selector's type.",
+      "message": "Type"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "description": "Heading title of the modal that asks the user to confirm deleting a sitemap.",
+      "message": "Delete Confirmation"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "description": "Confirmation question shown in the modal that asks the user to confirm deleting a sitemap.",
+      "message": "Delete the $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "description": "Placeholder text of the search input that filters the list of sitemaps.",
+      "message": "Filter $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "description": "Tooltip on the download button in the sitemap list table when the sitemap is only in the Cloud account and must be downloaded to edit.",
+      "message": "This $sitemap$ is only in the $cloud$ account. Download the $sitemap$ from the $cloud$ account to edit",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "description": "Tooltip on the download button in the sitemap list table when this is the latest version, offering to overwrite it with the Cloud version.",
+      "message": "This is the latest $sitemap$ version. Overwrite this $sitemap$ with a version from the $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "description": "Tooltip on the sync-state icon in the sitemap list table when the sitemap is not synced.",
+      "message": "$sitemap$ is not synced",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "description": "Tooltip on the upload button in the sitemap list table when the Cloud has the latest version, offering to overwrite the Cloud copy with this version.",
+      "message": "Latest $sitemap$ version is in the $cloud$ account. Overwrite $sitemap$ in the $cloud$ account with this version of the $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "description": "Tooltip on the download button in the sitemap list table when the latest version is unknown, offering to overwrite this copy with the Cloud version.",
+      "message": "Latest $sitemap$ version can't be determined. Overwrite this $sitemap$ with the version from the $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "description": "Tooltip on the upload button in the sitemap list table when the latest version is unknown, offering to overwrite the Cloud copy with this version.",
+      "message": "Latest $sitemap$ version can't be determined. Overwrite $sitemap$ in the $cloud$ account with this version of the $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "description": "Tooltip on the sync-state icon in the sitemap list table when the sitemap exists only in the Cloud account.",
+      "message": "$sitemap$ is only in $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "description": "Tooltip on the sync-state icon in the sitemap list table when the sitemap is synced.",
+      "message": "$sitemap$ is synced",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "description": "Tooltip on the sync-state icon in the sitemap list table when the sitemap exists only in the extension storage.",
+      "message": "$sitemap$ is only in extension",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "description": "Tooltip on the download button in the sitemap list table when the Cloud has the latest version, offering to update this copy to match the Cloud.",
+      "message": "Latest $sitemap$ version is in the $cloud$ account. Update this $sitemap$ to match the version in the $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "description": "Tooltip on the upload button in the sitemap list table when this is the latest version, offering to update the Cloud copy to match it.",
+      "message": "This is the latest $sitemap$ version. Update $sitemap$ in the $cloud$ account with this version of the $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "description": "Tooltip on the upload button in the sitemap list table when the sitemap is only in extension storage and can be uploaded to the Cloud.",
+      "message": "This $sitemap$ is only in the extension storage. Upload the $sitemap$ to the $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "description": "A column header in the sitemap list table showing each sitemap's domain name - example.com.",
+      "message": "Domain"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "description": "A column header in the sitemap list table for the action that downloads a sitemap from the Cloud account.",
+      "message": "Download from $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "description": "A column header in the sitemap list table for the action that uploads a sitemap to the Cloud account.",
+      "message": "Upload to $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "description": "Title of the Click action type in the Website State Setup configuration view.",
+      "message": "Click"
+   },
+   "website_state_setup_actionInput": {
+      "description": "Title of the Input action type in the Website State Setup configuration view.",
+      "message": "Input"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "description": "Title of the Open URL action type in the Website State Setup configuration view.",
+      "message": "Open URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "description": "Title of the Password Input action type in the Website State Setup configuration view.",
+      "message": "Password Input"
+   },
+   "website_state_setup_actionSleep": {
+      "description": "Title of the Sleep action type, measured in milliseconds, in the Website State Setup configuration view.",
+      "message": "Sleep (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "description": "Title of the Text Input action type in the Website State Setup configuration view.",
+      "message": "Text Input"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "description": "Confirmation dialog title shown when deleting a Website State Setup, which is a configuration that sets up a predefined state of the website before data extraction starts, such as logging in or applying a filter.",
+      "message": "Delete Website State Setup?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "description": "Form input title",
+      "message": "Duration in ms"
+   },
+   "website_state_setup_enabled": {
+      "description": "Form input title",
+      "message": "Enabled"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "description": "Form input title",
+      "message": "Password"
+   },
+   "website_state_setup_textPlaceholder": {
+      "description": "Form input title",
+      "message": "Text"
+   },
+   "wizard_accessWizardSitemaps": {
+      "description": "A feature bullet in the info card promoting the Advanced Sitemap builder, about accessing sitemaps created with the wizard.",
+      "message": "Access wizard $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "description": "a button that allows to create more data selectors by clicking on image elements within the page",
+      "labels": [ "button" ],
+      "message": "Add images"
+   },
+   "wizard_addMoreText": {
+      "description": "a button that allows to create more data selectors by clicking on data elements within the page",
+      "labels": [ "button" ],
+      "message": "Add more text"
+   },
+   "wizard_analyzingPageContent": {
+      "description": "Heading shown while the wizard is analyzing the page content.",
+      "message": "Analyzing page content..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "description": "Status heading shown while AI analyzes the collected URLs; the count is a plural and the wait time is in seconds.",
+      "message": "Analyzing $1 URLs with AI (average wait $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "description": "The last item in the wizard card's feature list, indicating there are additional features.",
+      "message": "And more..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "description": "Title of the card asking whether more items load after scrolling (infinite scroll).",
+      "message": "Are more items loaded after scrolling?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "description": "Heading on the finish view promoting automated extraction in Web Scraper Cloud.",
+      "message": "Automate extraction in $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "description": "Button that sets up the scrape to run automatically in Web Scraper Cloud.",
+      "labels": [ "button" ],
+      "message": "Automate in $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms.",
+      "message": "Bot detection handling"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "description": "Status text shown while the wizard checks whether the page has infinite scroll.",
+      "message": "Checking infinite scroll"
+   },
+   "wizard_columnName": {
+      "description": "Form input placeholder for the name of a data column in the results table.",
+      "message": "Column name"
+   },
+   "wizard_continueButton": {
+      "description": "Button that advances the wizard to the next step.",
+      "labels": [ "button" ],
+      "message": "Continue"
+   },
+   "wizard_customizableCssSelectors": {
+      "description": "A feature list item in the wizard card promoting the Advanced Sitemap Builder; refers to CSS selectors.",
+      "message": "Customizable $css$ selectors",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "description": "A feature bullet in the info card promoting the Advanced Sitemap builder.",
+      "message": "Customizable site navigation"
+   },
+   "wizard_dataExtractionError": {
+      "description": "Heading and error message shown when the wizard fails to extract data from the page.",
+      "message": "An error occurred while extracting data from this page. The issue has been reported. Try again later."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "description": "Heading showing how many data points were found on the page; the number is a plural.",
+      "message": "$1 data points found on page",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "description": "Heading shown when a single data point was found on the page.",
+      "message": "1 data point found on page"
+   },
+   "wizard_disableInfiniteScroll": {
+      "description": "Button that disables infinite scroll.",
+      "labels": [ "button" ],
+      "message": "Disable Infinite Scroll"
+   },
+   "wizard_disablePagination": {
+      "description": "Button that turns off pagination.",
+      "labels": [ "button" ],
+      "message": "Disable Pagination"
+   },
+   "wizard_doesPageHavePagination": {
+      "description": "Title of the card asking whether the page has pagination.",
+      "message": "Does this page have pagination?"
+   },
+   "wizard_doneSelecting": {
+      "description": "Button that finishes the point-and-click element selection.",
+      "labels": [ "button" ],
+      "message": "Done selecting"
+   },
+   "wizard_enableInfiniteScroll": {
+      "description": "Button that turns on infinite scroll handling.",
+      "labels": [ "button" ],
+      "message": "Enable Infinite Scroll"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "description": "Heading describing enabling navigation to item pages and extracting data from each one.",
+      "message": "Enable navigation to item pages and data extraction from each page."
+   },
+   "wizard_errorTitle": {
+      "description": "Title of an error alert box.",
+      "message": "Error"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "description": "Web Scraper Cloud Feature List.",
+      "message": "Export to $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "description": "Progress heading shown while gathering data from item pages; the numbers are the current page and total, e.g. 'Gathering page data 1 / 5'.",
+      "message": "Gathering page data $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "description": "A button that opens feedback form.",
+      "labels": [ "button" ],
+      "message": "Give Feedback"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "description": "Title of an info card in the Sitemap Wizard that promotes switching to the classic Advanced Sitemap builder.",
+      "message": "Go to Advanced $sitemap$ builder",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "description": "Heading of the AI feedback modal inviting the user to share thoughts.",
+      "message": "What do you think?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "description": "Heading on the wizard finish view asking the user to rate their scraping experience.",
+      "message": "How was your scraping experience?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "description": "Heading showing how many item page links were selected; the number is a plural count, e.g. '3 item page links selected'.",
+      "message": "$1 item page links selected",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "description": "Heading shown when exactly one item page link has been selected (singular form).",
+      "message": "1 item page link selected"
+   },
+   "wizard_link": {
+      "description": "Column header of the link table in the item-page link data preview.",
+      "message": "Link"
+   },
+   "wizard_loadMore": {
+      "description": "Label for the 'Load more' pagination type in the pagination types tooltip.",
+      "message": "Load more"
+   },
+   "wizard_loadingPage": {
+      "description": "Heading shown while the page is loading in the wizard.",
+      "message": "Loading page..."
+   },
+   "wizard_loginFeature": {
+      "description": "A feature bullet in the info card promoting the Advanced Sitemap builder, referring to the extension's log-in feature.",
+      "message": "$logIn$ feature",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "description": "Instructional text prompting the user to edit columns before extracting data.",
+      "message": "Remove, add or rename columns before extracting"
+   },
+   "wizard_moreDataExtractors": {
+      "description": "A feature list item in the wizard card promoting the Advanced Sitemap Builder.",
+      "message": "More data extractors"
+   },
+   "wizard_multipleRecordsScraped": {
+      "description": "Heading showing how many records were scraped; the number is a plural count, e.g. '5 records scraped'.",
+      "message": "$1 records scraped",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "description": "Info alert shown in the Sitemap Wizard scrape view while the scraper follows pagination pages before any item records have been scraped.",
+      "message": "Navigating through pagination to discover item page links."
+   },
+   "wizard_nextPage": {
+      "description": "Label for the next-page pagination type option.",
+      "message": "Next page"
+   },
+   "wizard_noDataFound": {
+      "description": "an alert message when no data selectors were created because no data was found on the page",
+      "message": "No Data Found"
+   },
+   "wizard_noRecordsScraped": {
+      "description": "Message shown when the scrape finished without collecting any records.",
+      "message": "No records were scraped. Check previous steps or retry."
+   },
+   "wizard_numberedPages": {
+      "description": "Label for the numbered-pages pagination option, instructing the user to click multiple page buttons.",
+      "message": "Numbered pages: click on multiple buttons to select all"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "description": "Note informing the user that the wizard only works in one tab.",
+      "message": "Only works in one tab."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "description": "Instruction shown to Linux and Windows users on how to open the browser's Developer Tools using keyboard shortcuts.",
+      "message": "Press $shortcut1$ or $shortcut2$ to open Developer Tools.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "description": "Instruction text showing the macOS keyboard shortcut to open Chrome Developer Tools.",
+      "message": "Press $shortcut$ to open Developer Tools.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "description": "Instruction to open the browser's Developer Tools, shown on operating systems without a specific keyboard shortcut.",
+      "message": "Open Browser's Developer Tools"
+   },
+   "wizard_paginationDetected": {
+      "description": "Informational text shown when the wizard detects pagination on the page.",
+      "message": "Pagination detected. Manage configuration in the next step."
+   },
+   "wizard_paginationEnabled": {
+      "description": "Status title shown when pagination has been enabled for the sitemap.",
+      "message": "Pagination enabled"
+   },
+   "wizard_pleaseReviewExtension": {
+      "description": "Body text asking the user to review the extension on the browser's webstore.",
+      "message": "Please review the extension on the browser's webstore!"
+   },
+   "wizard_rateUs": {
+      "description": "Button that opens the browser store so the user can rate the extension.",
+      "message": "Rate us"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "description": "Status text showing total records scraped and how many are shown; both numbers are plurals.",
+      "message": "$1 records scraped, showing $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "description": "A fixed width button that allows to re-generate the data extraction configuration. Previously the configuration was already generated. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Re-generate"
+   },
+   "wizard_rescrapeThePage": {
+      "description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Re-scrape"
+   },
+   "wizard_reselect": {
+      "description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+      "labels": [ "button" ],
+      "message": "Re-select"
+   },
+   "wizard_retry": {
+      "description": "Button that retries the current step after a failure.",
+      "labels": [ "button" ],
+      "message": "Retry"
+   },
+   "wizard_scheduler": {
+      "description": "A Web Scraper Cloud feature list item, referring to the Scheduler.",
+      "message": "Scheduler"
+   },
+   "wizard_scrapeThePage": {
+      "description": "Button label for starting to scrape the page.",
+      "labels": [ "button" ],
+      "message": "Scrape the page"
+   },
+   "wizard_scraperConfigurationReady": {
+      "description": "Title of a success alert stating the scraper configuration is ready.",
+      "message": "Scraper configuration is ready"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "description": "Status text shown while scraping is running; the number of records is a plural.",
+      "message": "Scraping in progress. ($1 records scraped)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "description": "Status text shown while scraping is running before any record is collected.",
+      "message": "Scraping in progress."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "description": "Heading shown during scraping when a single record has been scraped.",
+      "message": "Scraping in progress. (1 record scraped)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "description": "Heading shown during scraping with counts; the numbers are plurals, e.g. 'Scraping in progress. (5 records scraped, showing 3)'.",
+      "message": "Scraping in progress. ($1 records scraped, showing $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "description": "Card title shown once infinite scroll has been enabled.",
+      "message": "Scrolling enabled"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "description": "Warning alert shown when fewer than two links are selected.",
+      "message": "At least two links are required."
+   },
+   "wizard_selectDataPointsManually": {
+      "description": "Info alert shown in the Sitemap Wizard when automatic data extraction failed, suggesting the user selects data points by clicking on the page.",
+      "message": "Select data points manually"
+   },
+   "wizard_selectLink": {
+      "description": "Button that starts point-and-click selection of a link on the page.",
+      "labels": [ "button" ],
+      "message": "Select link"
+   },
+   "wizard_selectNextPageButton": {
+      "description": "Button that starts selecting the Next Page pagination button on the page.",
+      "labels": [ "button" ],
+      "message": "Select Next Page button"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "description": "Heading of the tooltip listing the common pagination button types to select.",
+      "message": "Select pagination button. Common types are:"
+   },
+   "wizard_sendFeedback": {
+      "description": "A button that sends a single feedback from form.",
+      "labels": [ "button" ],
+      "message": "Send feedback"
+   },
+   "wizard_showMe": {
+      "description": "Button that opens the Web Scraper tutorial page in a new tab.",
+      "labels": [ "button" ],
+      "message": "Show me"
+   },
+   "wizard_showingLimitedRecords": {
+      "description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc.",
+      "message": "Showing $1 out of $2 records",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "description": "Heading showing how many records are displayed; the number is a plural, e.g. 'Showing 3 records'.",
+      "message": "Showing $1 records",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "description": "Heading above the data preview when a single scraped record is shown.",
+      "message": "Showing 1 record"
+   },
+   "wizard_signUp": {
+      "description": "Button that lets the user sign up for Web Scraper Cloud.",
+      "labels": [ "button" ],
+      "message": "Sign up"
+   },
+   "wizard_singleRecordScraped": {
+      "description": "Status text shown when exactly one record has been scraped (singular form).",
+      "message": "1 record scraped"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "description": "Alert text confirming the Sitemap has been saved to the Advanced Sitemap Builder.",
+      "message": "$sitemap$ saved in Advanced $sitemap2$ Builder",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "description": "Button that skips the current wizard step when no selection is required, for example skipping item page navigation setup.",
+      "labels": [ "button" ],
+      "message": "Skip"
+   },
+   "wizard_stepDataSetup": {
+      "description": "Label of the Data Setup step in the wizard's step navigation.",
+      "message": "Data Setup"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "description": "Step label in the wizard stepper for the feedback and advanced scraping step.",
+      "message": "Feedback & Advanced Scraping"
+   },
+   "wizard_stepFollowItemLinks": {
+      "description": "Label of the Follow Item Links step in the wizard's step navigation. Here the user selects links to item pages and the wizard gathers data from each page.",
+      "message": "Follow Item Links"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "description": "Label of the Item Page Data Setup step in the wizard's step navigation. Here the user is in a single item page and creates data selectors for the data to be scraped from each item page.",
+      "message": "Item Page Data Setup"
+   },
+   "wizard_stepPagination": {
+      "description": "Step label in the wizard stepper for the pagination and scroll configuration step.",
+      "message": "Pagination & Scroll"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "description": "Web Scraper Cloud Feature List.",
+      "message": "Sync & run $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "description": "Message shown after the user submits feedback.",
+      "message": "Thank you for the feedback!"
+   },
+   "wizard_title": {
+      "description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title",
+      "message": "Title"
+   },
+   "wizard_trySelectingAgain": {
+      "description": "Button that lets the user select the item page links again.",
+      "labels": [ "button" ],
+      "message": "Try selecting again"
+   },
+   "wizard_weInspectAllReviews": {
+      "description": "Body text explaining that all reviews are inspected to improve the experience.",
+      "message": "All reviews are inspected to improve the user experience."
+   },
+   "wizard_yourFeedback": {
+      "description": "A label text in feedback form. It should be in singular form.",
+      "message": "Your feedback"
+   }
+}

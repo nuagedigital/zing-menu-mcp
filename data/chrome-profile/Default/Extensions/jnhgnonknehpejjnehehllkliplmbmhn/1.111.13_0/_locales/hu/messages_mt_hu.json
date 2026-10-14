@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - Ingyenes webes adatgyűjtés",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - Ingyenes webes adatgyűjtés",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Webes adatkitermelő eszköz egyszerű, kattintással vezérelhető felülettel a modern webhez"
+	},
+	"common_actions": {
+		"message": "Műveletek"
+	},
+	"common_createSitemap": {
+		"message": "$sitemap$ létrehozása",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "Azonosító"
+	},
+	"common_importSitemap": {
+		"message": "$sitemap$ importálása",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Tudj meg többet",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Több"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Még nincsenek lemásolt adatok"
+	},
+	"common_scrape": {
+		"message": "Kaparás",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Választó"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Lépjen a Speciális $sitemap$ építőbe",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "További adatkinyerők"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Testreszabható webhelynavigáció"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Testreszabható $css$ szelektorok",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "$logIn$ funkció",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "És még több..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Hozzáférés varázsló $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Nyomja meg az $shortcut1$ vagy a $shortcut2$ billentyűkombinációt a Fejlesztői eszközök megnyitásához.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Nyomja meg a $shortcut$ billentyűkombinációt a Fejlesztői eszközök megnyitásához.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Nyissa meg a böngésző fejlesztői eszközeit"
+	},
+	"wizard_showMe": {
+		"message": "Mutasd meg",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Nincsenek adatok",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Oszlop neve"
+	},
+	"wizard_title": {
+		"message": "Cím",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Link"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Oldaltartalom elemzése..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Hiba történt az adatok kinyerése során erről az oldalról. A problémát jelentettük. Próbáld újra később."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "$1 rekord megjelenítése $2 rekordból",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "1 rekord megjelenítése"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "$1 rekord megjelenítése",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "1 adatpont található az oldalon"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "$1 adatpont található az oldalon",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Oldal betöltése..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Oszlopok eltávolítása, hozzáadása vagy átnevezése kibontás előtt"
+	},
+	"wizard_addMoreText": {
+		"message": "További szöveg hozzáadása",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Képek hozzáadása",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Újrapróbálkozás",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Regenerátum",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Hiba"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "A kaparó konfigurációja készen áll"
+	},
+	"wizard_scrapeThePage": {
+		"message": "Kapard le az oldalt",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Nem kerültek mentésre rekordok. Ellenőrizd az előző lépéseket, vagy próbáld újra."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Újrakaparás",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Mit gondolsz?"
+	},
+	"wizard_giveFeedback": {
+		"message": "Visszajelzés küldése",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Visszajelzésed",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Visszajelzés küldése",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ mentése a Speciális $sitemap2$ Builderben",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Újraválasztás",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "1 elem oldallinkje kiválasztva"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "$1 elemoldal-linkek kiválasztva",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "Legalább két link szükséges."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Próbálja meg újra kiválasztani",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Milyen volt a kaparási élményed?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "Automatizálja a kinyerést a $webScraperCloud$-ban",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "Exportálás ide: $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Botészlelés kezelése",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "Szinkronizálás és $webScraper$ $sitemaps$ futtatása",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Regisztráció",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Ütemező"
+	},
+	"wizard_stepPagination": {
+		"message": "Lapozás és görgetés"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Adatbeállítás"
+	},
+	"wizard_continueButton": {
+		"message": "Folytatás",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Van ennek az oldalnak lapozása?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Lapozás engedélyezve"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Következő oldal kiválasztása gomb",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Lapozás letiltása",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Lapozás kiválasztása gomb. Gyakori típusok:"
+	},
+	"wizard_nextPage": {
+		"message": "Következő oldal"
+	},
+	"wizard_loadMore": {
+		"message": "Továbbiak betöltése"
+	},
+	"wizard_numberedPages": {
+		"message": "Számozott oldalak: kattintson több gombra az összes kiválasztásához"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "További elemek töltődnek be görgetés után?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Végtelen görgetés ellenőrzése"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Görgetés engedélyezve"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Végtelen görgetés engedélyezése",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Végtelen görgetés letiltása",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Kaparás folyamatban."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Adatmentés folyamatban. (1 rekord adatmentés)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Adatmentés folyamatban. ($1 rekordok adatmentve)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Adatgyűjtés folyamatban. ($1 rekord adatgyűjtése, $2 látható)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 rekord eltávolítva"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 rekordok lekaparva",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "$1 rekordok lekaparva, $2 látható",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Köszönöm a visszajelzést!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Kérjük, tekintse át a bővítményt a böngésző webáruházában!"
+	},
+	"wizard_rateUs": {
+		"message": "Értékeljen minket"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Minden értékelést ellenőrizünk a felhasználói élmény javítása érdekében."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Engedélyezze a navigációt az elemoldalakra és az adatok kinyerését az egyes oldalakról."
+	},
+	"wizard_selectLink": {
+		"message": "Link kiválasztása",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Oldaladatok gyűjtése $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "$1 URL-ek elemzése mesterséges intelligenciával (átlagos várakozási idő $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Kövesse az elemhivatkozásokat"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Visszajelzés és speciális adatgyűjtés"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Elemoldal adatbeállítása"
+	},
+	"wizard_doneSelecting": {
+		"message": "Kijelölés kész",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "Automatizálás $cloud$-ban",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Lapozás észlelve. A konfiguráció kezelése a következő lépésben történik."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Csak egy lapon működik."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "$sitemap$ név",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "Kezdő URL"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL-cím"
+	},
+	"button_saveSitemap": {
+		"message": "Mentse el a $sitemap$-t",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "A $1 nem érvényes URL.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "A $sitemap$ $json$ kötelező és nem lehet üres.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "Érvénytelen $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "$sitemap$ kulcs hiányzik - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "A $1 szám nem haladhatja meg a $2 értéket.",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "A $1 kötelező és nem lehet üres",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "A $1 karakternek legalább $2 karakter hosszúnak kell lennie.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "A $1 maximális hossza $2 karakter.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Csak betűk, számjegyek $digits$ vagy a $allowedCharacters$ karakterek engedélyezettek.",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ ezzel az azonosítóval már létezik",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "A $1 tömbnek kell lennie",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "A $1 mezők kitöltése kötelező, és nem lehet üres. Legalább egyet ki kell választani.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "Csak az egyedi kulcsok, mint az _id, startUrl, websiteStateSetup, selectors és hashHistory engedélyezettek a $sitemap$-ban.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "$sitemaps$ szűrő",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "Domain"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "Feltöltés ide: $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "Letöltés innen: $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "A $sitemap$ nincs szinkronizálva",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ szinkronizálva van",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "A $sitemap$ csak a $cloud$-ban található meg.",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "A $sitemap$ csak a bővítményben található",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Átír",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "A legújabb $sitemap$ verzió nem meghatározható. Írd felül a $sitemap$-t a $cloud$ fiókban a $sitemap$ ezen verziójával.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "A legújabb $sitemap$ verzió nem meghatározható. Írd felül ezt a $sitemap$ fiókot a $cloud$ fiók verziójával.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "A legújabb $sitemap$ verzió a $cloud$ fiókban található. Írd felül a $sitemap$ verziót a $cloud$ fiókban a $sitemap$ ezen verziójával.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "Ez a legújabb $sitemap$ verzió. Írd felül ezt a $sitemap$ verziót a $cloud$ fiók egy verziójával.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Frissítés",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "A legújabb $sitemap$ verzió a $cloud$ fiókban található. Frissítse ezt a $sitemap$ verziót, hogy megegyezzen a $cloud$ fiókban található verzióval.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "Ez a legújabb $sitemap$ verzió. Frissítsd a $sitemap$ verziót a $cloud$ fiókban a $sitemap$ ezen verziójával.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "Letöltés",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "Ez a $sitemap$ csak a $cloud$ fiókban található meg. Töltsd le a $sitemap$-t a $cloud$ fiókból a szerkesztéshez.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Feltöltés",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Helyi törlés",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "Ez a $sitemap$ csak a bővítmény tárhelyén található. Töltse fel a $sitemap$-t a $cloud$ fiókba.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "Törölje a $sitemap$-t?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Törlés megerősítése"
+	},
+	"button_cancel": {
+		"message": "Mégsem",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Töröl",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Kijelentkezés",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "Jelentkezzen be a $cloud$ oldalra",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Választók",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "Kezdő URL-ek",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Weboldal bejelentkezés / állapot beállítása",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Lemásolt adatok",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "$sitemap$ export",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Adatexportálás",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Új $sitemap$ létrehozása",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Hozz létre $sitemap$-t varázslóval",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Segítség",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Videós oktatóanyagok",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Dokumentáció",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Tesztelési oldalak",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Fórum",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Szavazz a funkcióötletekre",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Kísérleti funkciók engedélyezve",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Típus"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Szülőválasztók",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Új szelektor létrehozása",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Szelektorok generálása mesterséges intelligenciával:"
+	},
+	"button_listingPage": {
+		"message": "Hirdetési oldal",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Egyetlen elem oldala",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "Törölni a $1 szelektort?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "A $webScraper$ használatának megkezdéséhez mozgasd a fejlesztői eszközöket a böngésző aljára.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Adatok előnézete"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Még nincsenek kinyert adatok."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Miután csatlakoztatta a bővítményt a $cloud$ fiókhoz, töltse újra a $sitemap$ listát.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Újratöltés",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Közeli",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Attribútum neve"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Kattintson az elérhető attribútumok megtekintéséhez"
+	},
+	"edit_selector_tableColumns": {
+		"message": "Táblázat oszlopai"
+	},
+	"edit_selector_column": {
+		"message": "Oszlop"
+	},
+	"edit_selector_resultKey": {
+		"message": "Eredménykulcs"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Belefoglalás az eredménybe"
+	},
+	"button_dataPreview": {
+		"message": "Adatok előnézete",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "Töltsd fel a $sitemap$-t a $cloud$-ba",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Betanítási adatok küldése",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Görgetőelem",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Csak görgessen, ha hiányzik"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Görgessen az elemhez"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Kattints a választóra"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Fejlécsor-választó"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Adatsor-választó"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Végezze el a választót, ha nem található"
+	},
+	"button_select": {
+		"message": "Válasszon",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Elem előnézete",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Előnézet bezárása",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Mentésválasztó",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Görgetés",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Elemszámkorlát",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Korlátlan",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Reguláris kifejezés",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "Megtalálva az URL-t: $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Minimális prioritás",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Késleltetés (ms)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Oszlopok száma",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Több típus",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "Csak az első feljegyzés"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Több rekord több oszlopban"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Több rekord egy oszlopban"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Szülőválasztók",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Művelet végrehajtása",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Forgatókönyv",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Visszaadott adatoszlopok"
+	},
+	"edit_selector_columnName": {
+		"message": "Oszlop neve"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "URL (csak egy)"
+	},
+	"button_remove": {
+		"message": "Eltávolítás",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Oszlop hozzáadása",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Kattintás típusa",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Lapozás típusa",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Kattints elem egyedisége",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Link típusa",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "Kezdő elemek elvetése",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Autó"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Link ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Szkriptelt link ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Attribútumhivatkozás ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Szöveges link ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Kattintson többször a következő/több gombra ([Következő oldal] [Továbbiak betöltése])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Kattintson egyszer több gombra ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Bármely szkriptből származó link ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Kattintson egyszer (oldalazás, tabulátorok)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Kattintson a továbbiakra (kattintson további elemek betöltéséhez. Leáll, ha nem találhatók új, egyedi szövegtartalmú elemek)."
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Egyedi szöveg"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Egyedi $html$+szöveg",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Egyedi $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Egyedi $css$ szelektor",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Link (a href attribútumból olvasva)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Szöveg (szöveges tartalom használata hivatkozásként)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Attribútum"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Szkriptelt hivatkozás az attribútumban ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Soha ne dobja el"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Elvetés, ha a kattintáselem létezik"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Mindig dobja ki"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URL-ek",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "URL hozzáadása",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "Hozzáadás innen: $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Ez a funkció elavult, és a jövőbeli kiadásokban nem fog működni."
+	},
+	"website_state_setup_enabled": {
+		"message": "Engedélyezve",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Webhelyállapot-beállítás törlése",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Művelet hozzáadása",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Műveletek végrehajtása",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Megtakarítás",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Törli a webhelyállapot-beállítást?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Jelszó",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Szöveg",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Időtartam ms-ban",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "URL megnyitása"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Kattintás"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Alvás (ms)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Szövegbevitel"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Jelszó megadása"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Bemenet"
+	},
+	"button_loading": {
+		"message": "Terhelés...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Kezdje el a kaparást",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "A webhelyállapot-beállításokban található jelszó mező üres."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "Kérésidőköz (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "Kérési intervallum",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Oldalbetöltési késleltetés (ms)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Oldalbetöltési késés",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Terhelés"
+	},
+	"button_refresh": {
+		"message": "Frissítés",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Adatok frissítése",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "Segíts nekünk a $webScraper$ fejlesztésében!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Szavazz fel és küldj be ötleteket a funkciókhoz",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "Automatizálja a adatgyűjtést a $webScraperCloud$-ban",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Adatkivonás automatikus ütemezése"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "$webScraper$ kezelése API-n keresztül",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "Automatikus exportálás $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$ fájlokba",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "Beépített $proxy$ a webhelyhozzáférési problémákhoz",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Fájl generálása"
+	},
+	"export_downloadAs": {
+		"message": "Letöltés mint:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Igen"
+	},
+	"edit_selector_multipleNo": {
+		"message": "Nem"
+	},
+	"button_edit": {
+		"message": "Szerkesztés",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "Választó azonosító",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Beállítások"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Bővítményhasználati mutatók gyűjtésének engedélyezése. Csak nem személyes, összesített formátumú információkat gyűjtünk. További részletek itt:"
+	},
+	"options_page_privacyPolicy": {
+		"message": "Adatvédelmi irányelvek"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Használati mutatók gyűjtésének engedélyezése"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Kísérleti funkciók engedélyezése"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "A begyűjtés egy új lapon kezdődik. A begyűjtés befejezése után ez az ablak bezárul."
+	},
+	"options_page_keepWorking": {
+		"message": "A kaparás közben más munkák is folytatódhatnak."
+	}
+}

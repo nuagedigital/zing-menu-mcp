@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatizuj skrejpovanje u $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Upravljaj sa $webScraper$ putem API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automatski izvoz u $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Ugrađeni $proxy$ za probleme sa pristupom sajtu",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Automatski zakaži ekstrakciju podataka"
+   },
+   "browse_helpUsImprove": {
+      "message": "Pomozite nam da poboljšamo $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Učitavanje"
+   },
+   "button_addAction": {
+      "message": "Dodaj akciju"
+   },
+   "button_addColumn": {
+      "message": "Dodaj kolonu"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Dodaj iz $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Kreiraj novi selektor"
+   },
+   "button_addUrl": {
+      "message": "Dodaj URL"
+   },
+   "button_cancel": {
+      "message": "Otkaži"
+   },
+   "button_close": {
+      "message": "Zatvori"
+   },
+   "button_closePreview": {
+      "message": "Zatvori pregled"
+   },
+   "button_dataPreview": {
+      "message": "Pregled podataka"
+   },
+   "button_delete": {
+      "message": "Obriši"
+   },
+   "button_deleteLocally": {
+      "message": "Obriši lokalno"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Izbriši Podešavanje stanja veb-sajta"
+   },
+   "button_download": {
+      "message": "Preuzmi"
+   },
+   "button_edit": {
+      "message": "Izmeni"
+   },
+   "button_elementPreview": {
+      "message": "Pregled elementa"
+   },
+   "button_listingPage": {
+      "message": "Stranica liste"
+   },
+   "button_loading": {
+      "message": "Učitavanje..."
+   },
+   "button_overwrite": {
+      "message": "Prepiši"
+   },
+   "button_performAction": {
+      "message": "Izvrši akciju"
+   },
+   "button_performActions": {
+      "message": "Izvrši akcije"
+   },
+   "button_refresh": {
+      "message": "Osveži"
+   },
+   "button_refreshData": {
+      "message": "Osveži podatke"
+   },
+   "button_reload": {
+      "message": "Osveži"
+   },
+   "button_remove": {
+      "message": "Ukloni"
+   },
+   "button_save": {
+      "message": "Sačuvaj"
+   },
+   "button_saveSelector": {
+      "message": "Sačuvaj selektor"
+   },
+   "button_saveSitemap": {
+      "message": "Sačuvaj $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Izaberi"
+   },
+   "button_sendTrainingData": {
+      "message": "Pošalji podatke za obuku"
+   },
+   "button_singleItemPage": {
+      "message": "Stranica pojedinačne stavke"
+   },
+   "button_startScraping": {
+      "message": "Pokreni skrejpovanje"
+   },
+   "button_update": {
+      "message": "Ažuriraj"
+   },
+   "button_upload": {
+      "message": "Otpremi"
+   },
+   "button_uploadToCloud": {
+      "message": "Otpremi $sitemap$ na $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Glasaj i pošalji ideje za funkcije"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Nakon povezivanja ekstenzije sa $cloud$ nalogom, osvežite $sitemap$ listu.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Akcije"
+   },
+   "common_createSitemap": {
+      "message": "Kreiraj $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Greška:"
+   },
+   "common_id": {
+      "message": "Id"
+   },
+   "common_importSitemap": {
+      "message": "Uvezi $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Saznaj više"
+   },
+   "common_multiple": {
+      "message": "Višestruko"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 mora biti između $2 i $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 mora biti broj",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Još nema prikupljenih podataka"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Opseg $1 mora biti rastući",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Skrejpuj"
+   },
+   "common_selector": {
+      "message": "Selektor"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Neovlašćeno. Ponovo se povežite sa $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Vrednost mora biti jedinstvena."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Kliknite ovde da omogućite prečice"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Završi izbor"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Roditeljski element ne sadrži izabrani element"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Roditeljski element nije pronađen"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Pritisnite $key$ za izbor podređenog elementa",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Pritisnite $key$ za izbor roditeljskog elementa",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Pritisnite $key$ za izbor elementa pod kursorom",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Broj izabranih elemenata: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 je obavezan i ne može biti prazan",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Maksimalna dužina $1 je $2 karaktera",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 mora imati najmanje $2 znakova",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Dozvoljena su samo slova, cifre $digits$ ili bilo koji od karaktera $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Nevažeći $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Nedostaje $sitemap$ ključ - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 mora biti niz",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ sa ovim ID-om već postoji",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ je obavezan i ne može biti prazan",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 je obavezan i ne može biti prazan",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Broj $1 ne sme premašiti $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "U $sitemap$ su dozvoljeni samo jedinstveni ključevi _id, startUrl, websiteStateSetup, selectors, hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Naziv $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Početni URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 nije važeći URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Pregled podataka"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Još nema izdvojenih podataka"
+   },
+   "edit_selector_attributeName": {
+      "message": "Naziv atributa"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Jedinstvenost elementa za klik"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Kliknite za prikaz dostupnih atributa"
+   },
+   "edit_selector_clickType": {
+      "message": "Tip klika"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Klikni više (klik za učitavanje više elemenata. Zaustavlja se kada nema novih elemenata sa jedinstvenim tekstualnim sadržajem.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Klikni jednom (paginacija, kartice)"
+   },
+   "edit_selector_column": {
+      "message": "Kolona"
+   },
+   "edit_selector_columnCount": {
+      "message": "Broj kolona"
+   },
+   "edit_selector_columnName": {
+      "message": "Naziv kolone"
+   },
+   "edit_selector_delay": {
+      "message": "Kašnjenje (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Ova funkcija je zastarela i neće raditi u budućem izdanju."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Uvek odbaci"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Odbaci početne elemente"
+   },
+   "edit_selector_discardNever": {
+      "message": "Nikad ne odbacuj"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Odbaci kada element za klik postoji"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Ograničenje elemenata"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Samo prvi zapis"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Pronađen URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "ID selektora"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Uključi u rezultat"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Je URL (samo jedan)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Selektor za klik"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Selektor redova podataka"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Selektor reda zaglavlja"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Selektor za izvršavanje kada nije pronađen"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Element za skrolovanje"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Skroluj samo ako nedostaje"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Skroluj do elementa"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Link iz bilo koje skripte ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Tip linka"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atribut"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Link (čita se iz href atributa)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Skriptovani link u atributu ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Tekst (koristi tekstualni sadržaj kao link)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Minimalni prioritet"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Ne"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Više zapisa u više kolona"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Više zapisa u jednoj koloni"
+   },
+   "edit_selector_multipleType": {
+      "message": "Tip višestrukih zapisa"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Da"
+   },
+   "edit_selector_paginationType": {
+      "message": "Tip paginacije"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automatski"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Klikni više puta na dugme dalje/više ([Sledeća stranica] [Učitaj još])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Klikni jednom na više dugmadi ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Link iz atributa ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Skriptovani link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Tekstualni link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Roditeljski selektori"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Ključ rezultata"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Vraćene kolone podataka"
+   },
+   "edit_selector_script": {
+      "message": "Skripta"
+   },
+   "edit_selector_scroll": {
+      "message": "Skrolovanje"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Akcija klika"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Akcija skrolovanja nadole"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Element (skrolovanje)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Atribut elementa"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Element klik"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Element skrolovanje nadole (zastarelo)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Grupisano (zastarelo)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Slika"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Link"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Mrežni podaci"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Paginacija"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Popup link (zastarelo)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Podaci skripte"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ linkovi",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Tabela"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Tekst"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL-ovi",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Kolone tabele"
+   },
+   "edit_selector_type": {
+      "message": "Tip"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Jedinstveni $css$ selektor",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Jedinstveni $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Jedinstveni $html$+tekst",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Jedinstveni tekst"
+   },
+   "edit_selector_unlimited": {
+      "message": "Neograničeno"
+   },
+   "export_downloadAs": {
+      "message": "Preuzmi kao:"
+   },
+   "export_generatingFile": {
+      "message": "Generisanje datoteke"
+   },
+   "extDesc": {
+      "message": "Alat za ekstrakciju veb podataka sa jednostavnim interfejsom „pokaži i klikni“ za moderni veb"
+   },
+   "extName": {
+      "message": "$webScraper$ - Besplatno veb skrejpovanje",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Besplatno veb skrejpovanje",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Prikupljeni podaci"
+   },
+   "nav_createNewSitemap": {
+      "message": "Kreiraj novi $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Kreiraj $sitemap$ pomoću čarobnjaka",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentacija"
+   },
+   "nav_editMetadata": {
+      "message": "Početni URL-ovi"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Eksperimentalne funkcije omogućene"
+   },
+   "nav_exportData": {
+      "message": "Izvoz podataka"
+   },
+   "nav_exportSitemap": {
+      "message": "Izvoz $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forum"
+   },
+   "nav_help": {
+      "message": "Pomoć"
+   },
+   "nav_logout": {
+      "message": "Odjava"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Premestite alatke za programere na dno pregledača da biste počeli da koristite $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selektori"
+   },
+   "nav_signInToCloud": {
+      "message": "Prijavi se na $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Test sajtovi"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Glasaj za ideje funkcija"
+   },
+   "nav_videoTutorials": {
+      "message": "Video tutorijali"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-in / Podešavanje stanja veb-sajta"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Dozvoli prikupljanje metrike korišćenja"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Omogući eksperimentalne funkcije"
+   },
+   "options_page_keepWorking": {
+      "message": "Drugi rad može da se nastavi tokom skrejpovanja."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Dozvoli prikupljanje metrike korišćenja ekstenzije. Prikupljaju se samo nelične informacije u agregiranom formatu. Više detalja u"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Politika privatnosti"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Skrejpovanje $sitemapId$ završeno",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Skrejpovanje završeno"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Skrejpovanje počinje u novoj kartici. Po završetku, ovaj prozor se zatvara."
+   },
+   "options_page_settings": {
+      "message": "Podešavanja"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Polje za lozinku u Podešavanju stanja veb-sajta je prazno."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Kašnjenje učitavanja stranice (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Kašnjenje učitavanja stranice"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Interval zahteva (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Interval zahteva"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Obrisati selektor $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Generiši selektore pomoću AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Selektor sa ovim ID-jem već postoji"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Selektor sa ovim ID-jem jednak je postojećoj koloni za izvoz podataka"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Naziv atributa ne može sadržati prazne znakove, \", ', >, /, = ili kontrolne znakove"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 ne može početi razmakom, donjom crtom ili \"web-scraper\" niti sadržati: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Mora biti važeći CSS selektor"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Selektor mora imati bar jedan drugi selektor kao roditelja"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript ne podržava regularne izraze koji mogu poklopiti 0 znakova"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Roditeljski selektori"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Tip"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Potvrda brisanja"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Obrisati $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtriraj $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Ovaj $sitemap$ je samo na $cloud$ nalogu. Preuzmi $sitemap$ sa $cloud$ naloga za uređivanje",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Ovo je najnovija verzija $sitemap$. Prepiši ovaj $sitemap$ verzijom sa $cloud$ naloga",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ nije sinhronizovan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Najnovija verzija $sitemap$ je na $cloud$ nalogu. Prepiši $sitemap$ na $cloud$ nalogu ovom verzijom $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Nije moguće utvrditi najnoviju verziju $sitemap$. Prepiši ovaj $sitemap$ verzijom sa $cloud$ naloga",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Nije moguće utvrditi najnoviju verziju $sitemap$. Prepiši $sitemap$ na $cloud$ nalogu ovom verzijom $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ je samo u $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ je sinhronizovan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ je samo u ekstenziji",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Najnovija verzija $sitemap$ je na $cloud$ nalogu. Ažuriraj ovaj $sitemap$ prema verziji na $cloud$ nalogu",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Ovo je najnovija verzija $sitemap$. Ažuriraj $sitemap$ na $cloud$ nalogu ovom verzijom $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Ovaj $sitemap$ je samo u skladištu ekstenzije. Otpremi $sitemap$ na $cloud$ nalog",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domen"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Preuzmi sa $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Otpremi na $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Klik"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Unos"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Otvori URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Unos lozinke"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Pauza (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Unos teksta"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Izbrisati Podešavanje stanja veb-sajta?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Trajanje u ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Omogućeno"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Lozinka"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Tekst"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Pristup $sitemaps$ iz čarobnjaka",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Dodaj slike"
+   },
+   "wizard_addMoreText": {
+      "message": "Dodaj još teksta"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Analiziranje sadržaja stranice..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Analiziranje $1 URL-ova pomoću AI (prosečno čekanje $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "I još..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Da li se nakon skrolovanja učitava više stavki?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatizujte ekstrakciju u $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatizuj u $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Upravljanje detekcijom botova"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Provera beskonačnog skrolovanja"
+   },
+   "wizard_columnName": {
+      "message": "Naziv kolone"
+   },
+   "wizard_continueButton": {
+      "message": "Nastavi"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Prilagodljivi $css$ selektori",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Prilagodljiva navigacija sajta"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Došlo je do greške pri ekstrakciji podataka sa ove stranice. Problem je prijavljen. Pokušaj ponovo kasnije."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 podataka pronađeno na stranici",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "1 podatak pronađen na stranici"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Onemogući beskonačno skrolovanje"
+   },
+   "wizard_disablePagination": {
+      "message": "Onemogući paginaciju"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Da li ova stranica ima paginaciju?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Izbor završen"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Omogući beskonačno skrolovanje"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Omogući navigaciju do stranica stavki i ekstrakciju podataka sa svake stranice."
+   },
+   "wizard_errorTitle": {
+      "message": "Greška"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Izvoz u $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Prikupljanje podataka stranice $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Pošaljite povratnu informaciju"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Idi na Napredni $sitemap$ kreator",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Šta mislite?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Kakvo je bilo vaše iskustvo sa skrejpovanjem?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "Izabrano linkova stranice stavke: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "Izabran 1 link stranice stavke"
+   },
+   "wizard_link": {
+      "message": "Link"
+   },
+   "wizard_loadMore": {
+      "message": "Učitaj još"
+   },
+   "wizard_loadingPage": {
+      "message": "Učitavanje stranice..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ funkcija",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Ukloni, dodaj ili preimenuj kolone pre ekstrakcije"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Više ekstraktora podataka"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "Prikupljeno $1 zapisa",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Prolazak kroz paginaciju radi otkrivanja linkova ka stranicama stavki."
+   },
+   "wizard_nextPage": {
+      "message": "Sledeća stranica"
+   },
+   "wizard_noDataFound": {
+      "message": "Podaci nisu pronađeni"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Nijedan zapis nije prikupljen. Proverite prethodne korake ili pokušajte ponovo."
+   },
+   "wizard_numberedPages": {
+      "message": "Numerisane stranice: kliknite na više dugmadi da izaberete sve"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Radi samo u jednoj kartici."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Pritisnite $shortcut1$ ili $shortcut2$ da otvorite alatke za programere.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Pritisnite $shortcut$ da otvorite alatke za programere.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Otvorite alatke za programere pregledača"
+   },
+   "wizard_paginationDetected": {
+      "message": "Otkrivena paginacija. Upravljanje konfiguracijom u sledećem koraku."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Paginacija omogućena"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Ocenite ekstenziju u veb-prodavnici pregledača!"
+   },
+   "wizard_rateUs": {
+      "message": "Ocenite nas"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "Prikupljeno $1 zapisa, prikazano $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Regeneriši"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Ponovi"
+   },
+   "wizard_reselect": {
+      "message": "Ponovo izaberi"
+   },
+   "wizard_retry": {
+      "message": "Pokušaj ponovo"
+   },
+   "wizard_scheduler": {
+      "message": "Planer"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Skrejpuj stranicu"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Konfiguracija skrejpera je spremna"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Skrejpovanje u toku. (skrejpovano $1 zapisa)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Skrejpovanje u toku."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Skrejpovanje u toku. (1 zapis skrejpovan)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Skrejpovanje u toku. (skrejpovano $1 zapisa, prikazano $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Skrolovanje omogućeno"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Potrebna su najmanje dva linka."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Ručno izaberite podatke"
+   },
+   "wizard_selectLink": {
+      "message": "Izaberi link"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Izaberi dugme za sledeću stranicu"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Izaberite dugme za paginaciju. Uobičajeni tipovi su:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Pošalji povratnu informaciju"
+   },
+   "wizard_showMe": {
+      "message": "Prikaži"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Prikazuje se $1 od $2 zapisa",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Prikazuje se $1 zapisa",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Prikazuje se 1 zapis"
+   },
+   "wizard_signUp": {
+      "message": "Registrujte se"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "Prikupljen 1 zapis"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ sačuvan u Naprednom $sitemap2$ kreatoru",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Preskoči"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Podešavanje podataka"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Povratne informacije i napredno skrejpovanje"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Prati linkove stavki"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Podešavanje podataka stranice stavke"
+   },
+   "wizard_stepPagination": {
+      "message": "Paginacija i skrolovanje"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Sinhronizujte i pokrenite $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Hvala na povratnim informacijama!"
+   },
+   "wizard_title": {
+      "message": "Naziv"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Pokušajte ponovo da izaberete"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Sve recenzije se pregledaju radi poboljšanja korisničkog iskustva."
+   },
+   "wizard_yourFeedback": {
+      "message": "Vaša povratna informacija"
+   }
+}

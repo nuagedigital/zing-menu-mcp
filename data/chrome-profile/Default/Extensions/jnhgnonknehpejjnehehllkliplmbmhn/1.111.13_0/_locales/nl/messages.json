@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Scrapen automatiseren in $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "$webScraper$ beheren via API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automatische export naar $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Ingebouwde $proxy$ voor problemen met sitetoegang",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Gegevensextractie automatisch plannen"
+   },
+   "browse_helpUsImprove": {
+      "message": "Help ons $webScraper$ te verbeteren!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Laden"
+   },
+   "button_addAction": {
+      "message": "Actie Toevoegen"
+   },
+   "button_addColumn": {
+      "message": "Kolom Toevoegen"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Toevoegen uit $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Nieuwe selector maken"
+   },
+   "button_addUrl": {
+      "message": "URL Toevoegen"
+   },
+   "button_cancel": {
+      "message": "Annuleren"
+   },
+   "button_close": {
+      "message": "Sluiten"
+   },
+   "button_closePreview": {
+      "message": "Voorbeeld sluiten"
+   },
+   "button_dataPreview": {
+      "message": "Gegevensvoorbeeld"
+   },
+   "button_delete": {
+      "message": "Verwijderen"
+   },
+   "button_deleteLocally": {
+      "message": "Lokaal verwijderen"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Configuratie websitestatus verwijderen"
+   },
+   "button_download": {
+      "message": "Downloaden"
+   },
+   "button_edit": {
+      "message": "Bewerken"
+   },
+   "button_elementPreview": {
+      "message": "Elementvoorbeeld"
+   },
+   "button_listingPage": {
+      "message": "Lijstpagina"
+   },
+   "button_loading": {
+      "message": "Laden..."
+   },
+   "button_overwrite": {
+      "message": "Overschrijven"
+   },
+   "button_performAction": {
+      "message": "Actie Uitvoeren"
+   },
+   "button_performActions": {
+      "message": "Acties Uitvoeren"
+   },
+   "button_refresh": {
+      "message": "Vernieuwen"
+   },
+   "button_refreshData": {
+      "message": "Gegevens Vernieuwen"
+   },
+   "button_reload": {
+      "message": "Vernieuwen"
+   },
+   "button_remove": {
+      "message": "Verwijderen"
+   },
+   "button_save": {
+      "message": "Opslaan"
+   },
+   "button_saveSelector": {
+      "message": "Selector opslaan"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ opslaan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Selecteren"
+   },
+   "button_sendTrainingData": {
+      "message": "Trainingsgegevens verzenden"
+   },
+   "button_singleItemPage": {
+      "message": "Enkele itempagina"
+   },
+   "button_startScraping": {
+      "message": "Scrapen starten"
+   },
+   "button_update": {
+      "message": "Bijwerken"
+   },
+   "button_upload": {
+      "message": "Uploaden"
+   },
+   "button_uploadToCloud": {
+      "message": "$sitemap$ uploaden naar $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Stem op & Dien Functie-ideeën In"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Vernieuw de $sitemap$-lijst nadat de extensie met het $cloud$-account is verbonden.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Acties"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ maken",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Fout:"
+   },
+   "common_id": {
+      "message": "Id"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ importeren",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Meer informatie"
+   },
+   "common_multiple": {
+      "message": "Meerdere"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 moet tussen $2 en $3 liggen",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 moet numeriek zijn",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Nog geen gegevens geëxtraheerd"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Het bereik van $1 moet oplopend zijn",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Scrapen"
+   },
+   "common_selector": {
+      "message": "Selector"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Niet geautoriseerd. Opnieuw verbinden met $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Waarde moet uniek zijn."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Klik hier om sneltoetsen in te schakelen"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Selectie voltooid"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Bovenliggend element bevat het geselecteerde element niet"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Bovenliggend element niet gevonden"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Druk op $key$ om onderliggend element te selecteren",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Druk op $key$ om bovenliggend element te selecteren",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Druk op $key$ om aangewezen element te selecteren",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Aantal geselecteerde elementen: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "De $1 is vereist en mag niet leeg zijn",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "De maximale lengte van $1 is $2 tekens",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "De $1 moet minimaal $2 tekens lang zijn",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Alleen letters, cijfers $digits$ of een van de tekens $allowedCharacters$ zijn toegestaan",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Ongeldige $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$-sleutel ontbreekt - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 moet een array zijn",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ met dit ID bestaat al",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "De $sitemap$ $json$ is vereist en mag niet leeg zijn",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 is vereist en mag niet leeg zijn",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Aantal $1 mag niet hoger zijn dan $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Alleen unieke sleutels _id, startUrl, websiteStateSetup, selectors, hashHistory zijn toegestaan in de $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$-naam",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Start-URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 is geen geldige URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Gegevensvoorbeeld"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Nog geen gegevens geëxtraheerd."
+   },
+   "edit_selector_attributeName": {
+      "message": "Attribuutnaam"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Uniciteit klikelement"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Klik om beschikbare attributen te bekijken"
+   },
+   "edit_selector_clickType": {
+      "message": "Kliktype"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Meer klikken (klikken om meer elementen te laden. Stopt wanneer geen nieuwe elementen met unieke tekstinhoud worden gevonden.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Eén keer klikken (paginering, tabbladen)"
+   },
+   "edit_selector_column": {
+      "message": "Kolom"
+   },
+   "edit_selector_columnCount": {
+      "message": "Aantal kolommen"
+   },
+   "edit_selector_columnName": {
+      "message": "Kolomnaam"
+   },
+   "edit_selector_delay": {
+      "message": "Vertraging (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Deze functie is verouderd en zal in een toekomstige release niet meer werken."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Altijd uitsluiten"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Eerste elementen uitsluiten"
+   },
+   "edit_selector_discardNever": {
+      "message": "Nooit uitsluiten"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Uitsluiten wanneer klikelement bestaat"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Elementlimiet"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Alleen Eerste Record"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Gevonden URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Selector-ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Opnemen in resultaat"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Is URL (slechts één)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Klikselector"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Selector voor gegevensrijen"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Selector voor koprij"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Selector voor uitvoeren indien niet gevonden"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Scrollelement"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Alleen scrollen indien ontbrekend"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Naar element scrollen"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Link uit een willekeurig script ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Linktype"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Attribuut"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Link (gelezen uit href-attribuut)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Gescripte link in attribuut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Tekst (tekstinhoud als link gebruiken)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Minimale prioriteit"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Nee"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Meerdere records in meerdere kolommen"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Meerdere records in één kolom"
+   },
+   "edit_selector_multipleType": {
+      "message": "Type meerdere"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Ja"
+   },
+   "edit_selector_paginationType": {
+      "message": "Pagineringstype"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automatisch"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Meerdere keren klikken op knop volgende/meer ([Volgende pagina] [Meer laden])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Eén keer klikken op meerdere knoppen ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Attribuutlink ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Gescripte link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Tekstlink ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Bovenliggende selectors"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Resultaatsleutel"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Geretourneerde gegevenskolommen"
+   },
+   "edit_selector_script": {
+      "message": "Script"
+   },
+   "edit_selector_scroll": {
+      "message": "Scrollen"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Klikactie"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Actie omlaag scrollen"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Element (scrollen)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Elementattribuut"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Element klikken"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Element omlaag scrollen (verouderd)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Gegroepeerd (verouderd)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Afbeelding"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Link"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Netwerkgegevens"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Paginering"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Pop-uplink (verouderd)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Scriptgegevens"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$-links",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Tabel"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Tekst"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$-URL's",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Tabelkolommen"
+   },
+   "edit_selector_type": {
+      "message": "Type"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Unieke $css$-selector",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Unieke $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Unieke $html$+tekst",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Unieke tekst"
+   },
+   "edit_selector_unlimited": {
+      "message": "Onbeperkt"
+   },
+   "export_downloadAs": {
+      "message": "Downloaden als:"
+   },
+   "export_generatingFile": {
+      "message": "Bestand genereren"
+   },
+   "extDesc": {
+      "message": "Tool voor webdata-extractie met een eenvoudige point-and-click-interface voor het moderne web"
+   },
+   "extName": {
+      "message": "$webScraper$ - Gratis webscraping",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Gratis webscraping",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Gescrapete data"
+   },
+   "nav_createNewSitemap": {
+      "message": "Nieuwe $sitemap$ maken",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "$sitemap$ maken met wizard",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Documentatie"
+   },
+   "nav_editMetadata": {
+      "message": "Start-URL's"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Experimentele functies ingeschakeld"
+   },
+   "nav_exportData": {
+      "message": "Gegevensexport"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$-export",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forum"
+   },
+   "nav_help": {
+      "message": "Hulp"
+   },
+   "nav_logout": {
+      "message": "Uitloggen"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Verplaats de ontwikkelaarstools naar de onderkant van de browser om $webScraper$ te gaan gebruiken.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selectors"
+   },
+   "nav_signInToCloud": {
+      "message": "Aanmelden bij $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Testsites"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Stem op functie-ideeën"
+   },
+   "nav_videoTutorials": {
+      "message": "Videotutorials"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Website Log-in / Configuratie websitestatus"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Verzamelen van gebruiksstatistieken toestaan"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Experimentele functies inschakelen"
+   },
+   "options_page_keepWorking": {
+      "message": "Ander werk kan doorgaan tijdens het scrapen."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Verzamelen van gebruiksstatistieken van de extensie toestaan. Alleen niet-persoonlijke informatie in geaggregeerde vorm wordt verzameld. Meer details in"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Privacybeleid"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Scrapen van $sitemapId$ voltooid",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Scrapen voltooid"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Scrapen start in een nieuw tabblad. Zodra het scrapen is voltooid, wordt dit venster gesloten."
+   },
+   "options_page_settings": {
+      "message": "Instellingen"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Een wachtwoordveld in Configuratie websitestatus is leeg."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Vertraging pagina laden (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Vertraging pagina laden"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Aanvraaginterval (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Aanvraaginterval"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Selector $1 verwijderen?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Selectors genereren met AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Selector met dit ID bestaat al"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Selector met dit ID is gelijk aan een bestaande gegevensexportkolom"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Attribuutnaam mag geen witruimte, \", ', >, /, = of besturingstekens bevatten"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 mag niet beginnen met witruimte, underscore of \"web-scraper\" en mag niet bevatten: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Moet een geldige CSS-selector zijn"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Selector moet minimaal één andere selector als bovenliggende selector hebben"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript ondersteunt geen reguliere expressies die 0 tekens kunnen matchen"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Bovenliggende selectors"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Type"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Verwijderen bevestigen"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$ verwijderen?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ filteren",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Deze $sitemap$ staat alleen in het $cloud$-account. Download de $sitemap$ uit het $cloud$-account om te bewerken",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Dit is de laatste $sitemap$-versie. Overschrijf deze $sitemap$ met een versie uit het $cloud$-account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ is niet gesynchroniseerd",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Laatste $sitemap$-versie staat in het $cloud$-account. Overschrijf $sitemap$ in het $cloud$-account met deze versie van de $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Laatste $sitemap$-versie kan niet worden bepaald. Overschrijf deze $sitemap$ met de versie uit het $cloud$-account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Laatste $sitemap$-versie kan niet worden bepaald. Overschrijf $sitemap$ in het $cloud$-account met deze versie van de $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ staat alleen in $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ is gesynchroniseerd",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ staat alleen in de extensie",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Laatste $sitemap$-versie staat in het $cloud$-account. Werk deze $sitemap$ bij naar de versie in het $cloud$-account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Dit is de laatste $sitemap$-versie. Werk $sitemap$ in het $cloud$-account bij met deze versie van de $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Deze $sitemap$ staat alleen in de extensieopslag. Upload de $sitemap$ naar het $cloud$-account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domein"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Downloaden van $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Uploaden naar $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Klikken"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Invoer"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL openen"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Wachtwoordinvoer"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Pauze (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Tekstinvoer"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Configuratie websitestatus verwijderen?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Duur in ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Ingeschakeld"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Wachtwoord"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Tekst"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Wizard-$sitemaps$ openen",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Afbeeldingen toevoegen"
+   },
+   "wizard_addMoreText": {
+      "message": "Meer tekst toevoegen"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Pagina-inhoud analyseren..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "$1 URL's analyseren met AI (gemiddelde wachttijd $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "En meer..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Worden er meer items geladen na het scrollen?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Extractie automatiseren in $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatiseren in $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Afhandeling botdetectie"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Oneindig scrollen controleren"
+   },
+   "wizard_columnName": {
+      "message": "Kolomnaam"
+   },
+   "wizard_continueButton": {
+      "message": "Doorgaan"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Aanpasbare $css$-selectors",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Aanpasbare sitenavigatie"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Er is een fout opgetreden bij het extraheren van gegevens van deze pagina. Het probleem is gemeld. Probeer het later opnieuw."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 datapunten gevonden op pagina",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "1 datapunt gevonden op pagina"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Oneindig scrollen uitschakelen"
+   },
+   "wizard_disablePagination": {
+      "message": "Paginering uitschakelen"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Heeft deze pagina paginering?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Klaar met selecteren"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Oneindig scrollen inschakelen"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Navigatie naar itempagina's en gegevensextractie van elke pagina inschakelen."
+   },
+   "wizard_errorTitle": {
+      "message": "Fout"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Exporteren naar $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Paginagegevens verzamelen $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Feedback Geven"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Naar Geavanceerde $sitemap$-builder",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Wat vindt u ervan?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Hoe was uw ervaring met scrapen?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 itempaginalinks geselecteerd",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 itempaginalink geselecteerd"
+   },
+   "wizard_link": {
+      "message": "Link"
+   },
+   "wizard_loadMore": {
+      "message": "Meer laden"
+   },
+   "wizard_loadingPage": {
+      "message": "Pagina laden..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$-functie",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Kolommen verwijderen, toevoegen of hernoemen vóór extractie"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Meer gegevensextractors"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 records geëxtraheerd",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Navigeert door paginering om links naar itempagina's te vinden."
+   },
+   "wizard_nextPage": {
+      "message": "Volgende pagina"
+   },
+   "wizard_noDataFound": {
+      "message": "Geen gegevens gevonden"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Geen records geëxtraheerd. Controleer de vorige stappen of probeer opnieuw."
+   },
+   "wizard_numberedPages": {
+      "message": "Genummerde pagina's: klik op meerdere knoppen om alles te selecteren"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Werkt alleen in één tabblad."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Druk op $shortcut1$ of $shortcut2$ om de ontwikkelaarstools te openen.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Druk op $shortcut$ om de ontwikkelaarstools te openen.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Open de ontwikkelaarstools van de browser"
+   },
+   "wizard_paginationDetected": {
+      "message": "Paginering gedetecteerd. Configuratie beheren in de volgende stap."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Paginering ingeschakeld"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Beoordeel de extensie in de webstore van de browser!"
+   },
+   "wizard_rateUs": {
+      "message": "Beoordeel ons"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 records geëxtraheerd, $2 weergegeven",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Hergenereren"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Opnieuw scrapen"
+   },
+   "wizard_reselect": {
+      "message": "Opnieuw selecteren"
+   },
+   "wizard_retry": {
+      "message": "Opnieuw proberen"
+   },
+   "wizard_scheduler": {
+      "message": "Planner"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Pagina scrapen"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Scraperconfiguratie is gereed"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Bezig met scrapen. ($1 records gescrapet)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Bezig met scrapen."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Bezig met scrapen. (1 record gescrapet)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Bezig met scrapen. ($1 records gescrapet, $2 weergegeven)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Scrollen ingeschakeld"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Er zijn minimaal twee links vereist."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Selecteer datapunten handmatig"
+   },
+   "wizard_selectLink": {
+      "message": "Link selecteren"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Knop Volgende pagina selecteren"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Selecteer pagineringsknop. Veelvoorkomende typen zijn:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Feedback verzenden"
+   },
+   "wizard_showMe": {
+      "message": "Weergeven"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$1 van $2 records weergegeven",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1 records weergegeven",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "1 record weergegeven"
+   },
+   "wizard_signUp": {
+      "message": "Registreren"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 record geëxtraheerd"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ opgeslagen in Geavanceerde $sitemap2$-builder",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Overslaan"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Gegevensconfiguratie"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Feedback & geavanceerd scrapen"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Itemlinks volgen"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Gegevensconfiguratie itempagina"
+   },
+   "wizard_stepPagination": {
+      "message": "Paginering en scrollen"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ synchroniseren en uitvoeren",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Bedankt voor je feedback!"
+   },
+   "wizard_title": {
+      "message": "Titel"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Probeer opnieuw te selecteren"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Alle reviews worden gecontroleerd om de gebruikerservaring te verbeteren."
+   },
+   "wizard_yourFeedback": {
+      "message": "Uw feedback"
+   }
+}

@@ -1,0 +1,1 @@
+(function(){"use strict";window.addEventListener("analytics-debugger-ext-msg-from-page",e=>{chrome==null||chrome.runtime.sendMessage(e==null?void 0:e.detail).then(n=>{}).catch(n=>{})}),window.postMessage({event:"analytics-debugger-content-script-loaded"},"*")})();

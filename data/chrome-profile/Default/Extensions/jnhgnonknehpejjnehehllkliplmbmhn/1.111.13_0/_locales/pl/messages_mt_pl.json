@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - Darmowe scrapowanie sieci",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - Darmowe scrapowanie sieci",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Narzędzie do ekstrakcji danych internetowych z łatwym w obsłudze interfejsem typu „wskaż i kliknij” dla nowoczesnych stron internetowych"
+	},
+	"common_actions": {
+		"message": "Akcje"
+	},
+	"common_createSitemap": {
+		"message": "Utwórz $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "Id"
+	},
+	"common_importSitemap": {
+		"message": "Importuj $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Dowiedz się więcej",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Wiele"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Nie zebrano jeszcze żadnych danych"
+	},
+	"common_scrape": {
+		"message": "Zeskrobać",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Selektor"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Przejdź do zaawansowanego konstruktora $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "Więcej ekstraktorów danych"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Możliwość dostosowania nawigacji witryny"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Konfigurowalne selektory $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "Funkcja $logIn$",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "I więcej..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Kreator dostępu $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Naciśnij $shortcut1$ lub $shortcut2$, aby otworzyć Narzędzia programistyczne.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Naciśnij $shortcut$, aby otworzyć Narzędzia programistyczne.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Narzędzia programistyczne przeglądarki Open Browser"
+	},
+	"wizard_showMe": {
+		"message": "Pokaż mi",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Nie znaleziono danych",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Nazwa kolumny"
+	},
+	"wizard_title": {
+		"message": "Tytuł",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Połączyć"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Analizowanie zawartości strony..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Wystąpił błąd podczas wyodrębniania danych z tej strony. Problem został zgłoszony. Spróbuj ponownie później."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "Wyświetlanie $1 z $2 rekordów",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "Wyświetlanie 1 rekordu"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "Wyświetlanie $1 rekordów",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "Znaleziono 1 punkt danych na stronie"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "Znaleziono na stronie $1 punktów danych",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Ładowanie strony..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Przed wyodrębnieniem usuń, dodaj lub zmień nazwy kolumn"
+	},
+	"wizard_addMoreText": {
+		"message": "Dodaj więcej tekstu",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Dodaj obrazy",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Spróbować ponownie",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Zregenerować",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Błąd"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "Konfiguracja skrobaka jest gotowa"
+	},
+	"wizard_scrapeThePage": {
+		"message": "Zeskrob stronę",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Nie pobrano żadnych rekordów. Sprawdź poprzednie kroki lub spróbuj ponownie."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Ponowne zeskrobanie",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Co o tym myślisz?"
+	},
+	"wizard_giveFeedback": {
+		"message": "Przekaż opinię",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Twoja opinia",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Wyślij opinię",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ zapisano w zaawansowanym kreatorze $sitemap2$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Wybierz ponownie",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "Wybrano 1 link do strony elementu"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "Wybrano linki do stron $1 elementów",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "Wymagane są co najmniej dwa linki."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Spróbuj wybrać ponownie",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Jakie były Twoje doświadczenia ze scrapowaniem?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "Zautomatyzuj ekstrakcję w $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "Eksportuj do $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Obsługa wykrywania botów",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "Synchronizuj i uruchom $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Zapisać się",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Harmonogram"
+	},
+	"wizard_stepPagination": {
+		"message": "Paginacja i przewijanie"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Konfiguracja danych"
+	},
+	"wizard_continueButton": {
+		"message": "Kontynuować",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Czy ta strona ma podział na strony?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Włączono paginację"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Przycisk Wybierz następną stronę",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Wyłącz paginację",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Przycisk wyboru paginacji. Typowe typy to:"
+	},
+	"wizard_nextPage": {
+		"message": "Następna strona"
+	},
+	"wizard_loadMore": {
+		"message": "Załaduj więcej"
+	},
+	"wizard_numberedPages": {
+		"message": "Numerowane strony: kliknij wiele przycisków, aby zaznaczyć wszystkie"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "Czy po przewijaniu ładują się dodatkowe elementy?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Sprawdzanie nieskończonego przewijania"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Przewijanie włączone"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Włącz nieskończone przewijanie",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Wyłącz nieskończone przewijanie",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Trwa skrobanie."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Trwa skrobanie. (Skrosowano 1 rekord)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Trwa skrobanie. (Skrosowano $1 rekordów)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Trwa skrobanie. (Skrosowano $1 rekordów, pokazano $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 rekord zeskrobany"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 rekordów zeskrobanych",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "Zebrano rekordy $1, pokazano $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Dziękujemy za opinię!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Proszę sprawdzić rozszerzenie w sklepie internetowym przeglądarki!"
+	},
+	"wizard_rateUs": {
+		"message": "Oceń nas"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Wszystkie recenzje są sprawdzane w celu poprawy doświadczeń użytkowników."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Włącz nawigację do stron elementów i wyodrębnianie danych z każdej strony."
+	},
+	"wizard_selectLink": {
+		"message": "Wybierz link",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Zbieranie danych strony $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "Analiza adresów URL $1 za pomocą sztucznej inteligencji (średni czas oczekiwania $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Śledź linki do pozycji"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Informacje zwrotne i zaawansowane scrapowanie"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Konfiguracja danych strony elementu"
+	},
+	"wizard_doneSelecting": {
+		"message": "Zakończono wybieranie",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "Zautomatyzuj w $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Wykryto paginację. Zarządzaj konfiguracją w następnym kroku."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Działa tylko w jednej karcie."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "$sitemap$ nazwa",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "Adres URL początkowy"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "Adres URL"
+	},
+	"button_saveSitemap": {
+		"message": "Zapisz $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 nie jest prawidłowym adresem URL",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ $json$ jest wymagany i nie może być pusty",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "Nieprawidłowy $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "Brak klucza $sitemap$ - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "Liczba $1 nie powinna przekraczać $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 jest wymagany i nie może być pusty",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 powinien mieć co najmniej $2 znaków",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "Maksymalna długość $1 wynosi $2 znaków",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Dozwolone są wyłącznie litery, cyfry $digits$ lub dowolny ze znaków $allowedCharacters$",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ o tym identyfikatorze już istnieje",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 musi być tablicą",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 są wymagane i nie mogą być puste. Należy wybrać co najmniej jeden",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "W $sitemap$ dozwolone są tylko unikalne klucze _id, startUrl, websiteStateSetup, selektory i hashHistory",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "Filtr $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "Domena"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "Prześlij do $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "Pobierz z $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ nie jest zsynchronizowany",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ jest zsynchronizowany",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ jest tylko w $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ jest tylko w rozszerzeniu",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Przepisać",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "Nie można określić najnowszej wersji $sitemap$. Nadpisz $sitemap$ na koncie $cloud$ tą wersją $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "Nie można określić najnowszej wersji $sitemap$. Nadpisz ten $sitemap$ wersją z konta $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "Najnowsza wersja $sitemap$ znajduje się na koncie $cloud$. Nadpisz $sitemap$ na koncie $cloud$ tą wersją $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "To najnowsza wersja $sitemap$. Nadpisz ten $sitemap$ wersją z konta $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Aktualizacja",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "Najnowsza wersja $sitemap$ znajduje się na koncie $cloud$. Zaktualizuj $sitemap$, aby odpowiadał wersji na koncie $cloud$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "To najnowsza wersja $sitemap$. Zaktualizuj $sitemap$ na koncie $cloud$ tą wersją $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "Pobierać",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "Ten $sitemap$ jest dostępny tylko na koncie $cloud$. Pobierz $sitemap$ z konta $cloud$, aby go edytować.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Wgrywać",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Usuń lokalnie",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "Ten $sitemap$ jest dostępny tylko w pamięci rozszerzenia. Prześlij $sitemap$ na konto $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "Usunąć $sitemap$?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Potwierdzenie usunięcia"
+	},
+	"button_cancel": {
+		"message": "Anulować",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Usuwać",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Wyloguj",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "Zaloguj się do $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Selektory",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "Adresy URL początkowe",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Konfiguracja logowania/stanu witryny",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Zebrane dane",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "Eksport $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Eksport danych",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Utwórz nowy $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Utwórz $sitemap$ za pomocą Kreatora",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Pomoc",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Samouczki wideo",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Dokumentacja",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Miejsca testowe",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Forum",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Głosuj na pomysły funkcji",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Włączono funkcje eksperymentalne",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Typ"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Selektory nadrzędne",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Utwórz nowy selektor",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Generuj selektory za pomocą sztucznej inteligencji:"
+	},
+	"button_listingPage": {
+		"message": "Strona z listą",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Strona pojedynczego elementu",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "Usunąć selektor $1?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "Aby zacząć używać $webScraper$, przenieś narzędzia programistyczne na dół przeglądarki.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Podgląd danych"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Nie wyodrębniono jeszcze żadnych danych."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Po połączeniu rozszerzenia z kontem $cloud$ należy ponownie załadować listę $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Przeładować",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Zamknąć",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Nazwa atrybutu"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Kliknij, aby wyświetlić dostępne atrybuty"
+	},
+	"edit_selector_tableColumns": {
+		"message": "Kolumny tabeli"
+	},
+	"edit_selector_column": {
+		"message": "Kolumna"
+	},
+	"edit_selector_resultKey": {
+		"message": "Klucz wyniku"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Uwzględnij w wyniku"
+	},
+	"button_dataPreview": {
+		"message": "Podgląd danych",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "Prześlij $sitemap$ do $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Wyślij dane treningowe",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Element przewijania",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Przewiń tylko jeśli brakuje"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Przewiń do elementu"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Kliknij selektor"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Selektor wiersza nagłówka"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Selektor wierszy danych"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Wykonaj, gdy nie znaleziono selektora"
+	},
+	"button_select": {
+		"message": "Wybierać",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Podgląd elementu",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Zamknij podgląd",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Zapisz selektor",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Zwój",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Limit elementów",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Nieograniczony",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Wyrażenie regularne",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "Znaleziono adres URL $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Minimalny priorytet",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Opóźnienie (ms)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Liczba kolumn",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Wiele typów",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "Tylko pierwszy rekord"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Wiele rekordów w wielu kolumnach"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Wiele rekordów w jednej kolumnie"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Selektory nadrzędne",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Wykonaj akcję",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Scenariusz",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Zwrócone kolumny danych"
+	},
+	"edit_selector_columnName": {
+		"message": "Nazwa kolumny"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "Jest to adres URL (tylko jeden)"
+	},
+	"button_remove": {
+		"message": "Usunąć",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Dodaj kolumnę",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Kliknij typ",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Typ paginacji",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Unikalność elementu kliknięcia",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Typ łącza",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "Odrzuć elementy początkowe",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Automatyczny"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Łącze ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Skryptowany link ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Łącze atrybutu ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Link tekstowy ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Kliknij kilka razy przycisk Dalej/Więcej ([Następna strona] [Załaduj więcej])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Kliknij raz na wiele przycisków ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Link z dowolnego skryptu ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Kliknij raz (paginacja, zakładki)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Kliknij „więcej” (kliknij, aby załadować więcej elementów. Zatrzymuje się, gdy nie zostaną znalezione żadne nowe elementy z unikatową zawartością tekstową.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Unikalny tekst"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Unikalny $html$+Tekst",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Unikalny $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Unikalny selektor $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Link (odczyt z atrybutu href)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Tekst (użyj zawartości tekstowej jako linku)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Atrybut"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Skryptowany link w atrybucie ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Nigdy nie wyrzucaj"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Odrzuć, gdy element kliknięcia istnieje"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Zawsze wyrzucaj"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ adresy URL",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "Dodaj adres URL",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "Dodaj z $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Ta funkcja jest przestarzała i nie będzie działać w przyszłych wersjach."
+	},
+	"website_state_setup_enabled": {
+		"message": "Włączony",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Usuń konfigurację stanu witryny",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Dodaj akcję",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Wykonaj działania",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Ratować",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Usunąć konfigurację stanu witryny?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Hasło",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Tekst",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Czas trwania w milisekundach",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "Otwórz adres URL"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Trzask"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Sen (ms)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Wprowadzanie tekstu"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Wprowadzanie hasła"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Wejście"
+	},
+	"button_loading": {
+		"message": "Załadunek...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Zacznij skrobać",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "Pole hasła w konfiguracji stanu witryny jest puste."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "Interwał żądania (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "Interwał żądania",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Opóźnienie ładowania strony (ms)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Opóźnienie ładowania strony",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Załadunek"
+	},
+	"button_refresh": {
+		"message": "Odświeżać",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Odśwież dane",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "Pomóż nam ulepszyć $webScraper$!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Głosuj i przesyłaj pomysły na funkcje",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "Zautomatyzuj scrapowanie w $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Automatyczne planowanie ekstrakcji danych"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "Zarządzaj $webScraper$ za pomocą API",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "Automatyczny eksport do $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "Wbudowany $proxy$ na wypadek problemów z dostępem do witryny",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Generowanie pliku"
+	},
+	"export_downloadAs": {
+		"message": "Pobierz jako:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Tak"
+	},
+	"edit_selector_multipleNo": {
+		"message": "NIE"
+	},
+	"button_edit": {
+		"message": "Redagować",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "Identyfikator selektora",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Ustawienia"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Zezwól na gromadzenie danych o wykorzystaniu rozszerzeń. Gromadzone są wyłącznie dane nieosobowe w formacie zagregowanym. Więcej szczegółów w"
+	},
+	"options_page_privacyPolicy": {
+		"message": "Polityka prywatności"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Zezwól na zbieranie danych o wykorzystaniu"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Włącz funkcje eksperymentalne"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "Scraping rozpocznie się w nowej karcie. Po zakończeniu scrapowania okno zostanie zamknięte."
+	},
+	"options_page_keepWorking": {
+		"message": "Podczas skrobania można wykonywać inne prace."
+	}
+}

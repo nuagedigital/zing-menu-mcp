@@ -1,0 +1,1 @@
+import{b as e}from"./107159db.js";e.devtools.panels.create(`Analytics Debugger${e.runtime.getManifest().version.endsWith("99")?" DEV":""}`,"./public/img/icon-16.png","./dist/panel/index.html").then(()=>{});

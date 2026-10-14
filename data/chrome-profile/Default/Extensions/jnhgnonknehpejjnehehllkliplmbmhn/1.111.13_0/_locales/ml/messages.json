@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "$webScraperCloud$-ൽ സ്ക്രാപ്പിംഗ് ഓട്ടോമേറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "API വഴി $webScraper$ കൈകാര്യം ചെയ്യുക",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$ എന്നിവയിലേക്ക് സ്വയമേവ എക്സ്പോർട്ട്",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "സൈറ്റ് ആക്സസ് പ്രശ്നങ്ങൾക്ക് ബിൽറ്റ്-ഇൻ $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "ഡാറ്റ എക്സ്ട്രാക്ഷൻ സ്വയമേവ ഷെഡ്യൂൾ ചെയ്യുക"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ മെച്ചപ്പെടുത്താൻ ഞങ്ങളെ സഹായിക്കുക!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "ലോഡ് ചെയ്യുന്നു"
+   },
+   "button_addAction": {
+      "message": "പ്രവർത്തനം ചേർക്കുക"
+   },
+   "button_addColumn": {
+      "message": "കോളം ചേർക്കുക"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "$robotstxt$-ൽ നിന്ന് ചേർക്കുക",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "പുതിയ സെലക്ടർ സൃഷ്ടിക്കുക"
+   },
+   "button_addUrl": {
+      "message": "URL ചേർക്കുക"
+   },
+   "button_cancel": {
+      "message": "റദ്ദാക്കുക"
+   },
+   "button_close": {
+      "message": "അടയ്ക്കുക"
+   },
+   "button_closePreview": {
+      "message": "പ്രിവ്യൂ അടയ്ക്കുക"
+   },
+   "button_dataPreview": {
+      "message": "ഡാറ്റ പ്രിവ്യൂ"
+   },
+   "button_delete": {
+      "message": "ഇല്ലാതാക്കുക"
+   },
+   "button_deleteLocally": {
+      "message": "ലോക്കലായി ഇല്ലാതാക്കുക"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "വെബ്‌സൈറ്റ് സ്റ്റേറ്റ് സജ്ജീകരണം ഇല്ലാതാക്കുക"
+   },
+   "button_download": {
+      "message": "ഡൗൺലോഡ്"
+   },
+   "button_edit": {
+      "message": "എഡിറ്റ് ചെയ്യുക"
+   },
+   "button_elementPreview": {
+      "message": "എലമെന്റ് പ്രിവ്യൂ"
+   },
+   "button_listingPage": {
+      "message": "ലിസ്റ്റിംഗ് പേജ്"
+   },
+   "button_loading": {
+      "message": "ലോഡ് ചെയ്യുന്നു..."
+   },
+   "button_overwrite": {
+      "message": "ഓവർറൈറ്റ്"
+   },
+   "button_performAction": {
+      "message": "പ്രവർത്തനം നടത്തുക"
+   },
+   "button_performActions": {
+      "message": "പ്രവർത്തനങ്ങൾ നടത്തുക"
+   },
+   "button_refresh": {
+      "message": "പുതുക്കുക"
+   },
+   "button_refreshData": {
+      "message": "ഡാറ്റ പുതുക്കുക"
+   },
+   "button_reload": {
+      "message": "പുതുക്കുക"
+   },
+   "button_remove": {
+      "message": "നീക്കം ചെയ്യുക"
+   },
+   "button_save": {
+      "message": "സംരക്ഷിക്കുക"
+   },
+   "button_saveSelector": {
+      "message": "സെലക്ടർ സംരക്ഷിക്കുക"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ സംരക്ഷിക്കുക",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "തിരഞ്ഞെടുക്കുക"
+   },
+   "button_sendTrainingData": {
+      "message": "പരിശീലന ഡാറ്റ അയയ്ക്കുക"
+   },
+   "button_singleItemPage": {
+      "message": "ഒറ്റ ഇന പേജ്"
+   },
+   "button_startScraping": {
+      "message": "സ്ക്രാപ്പിംഗ് ആരംഭിക്കുക"
+   },
+   "button_update": {
+      "message": "അപ്ഡേറ്റ്"
+   },
+   "button_upload": {
+      "message": "അപ്‌ലോഡ്"
+   },
+   "button_uploadToCloud": {
+      "message": "$sitemap$ $cloud$-ലേക്ക് അപ്‌ലോഡ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "ഫീച്ചർ ആശയങ്ങൾ അപ്‌വോട്ട് ചെയ്ത് സമർപ്പിക്കുക"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "എക്സ്റ്റൻഷൻ $cloud$ അക്കൗണ്ടുമായി ബന്ധിപ്പിച്ച ശേഷം, $sitemap$ ലിസ്റ്റ് പുതുക്കുക.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "പ്രവർത്തനങ്ങൾ"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ സൃഷ്ടിക്കുക",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "പിശക്:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ ഇമ്പോർട്ട് ചെയ്യുക",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "കൂടുതൽ അറിയുക"
+   },
+   "common_multiple": {
+      "message": "ഒന്നിലധികം"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 $2-നും $3-നും ഇടയിലായിരിക്കണം",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 സംഖ്യയായിരിക്കണം",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "ഇതുവരെ ഡാറ്റ സ്ക്രാപ്പ് ചെയ്തിട്ടില്ല"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 റേഞ്ച് ആരോഹണ ക്രമത്തിലായിരിക്കണം",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "സ്ക്രാപ്പ് ചെയ്യുക"
+   },
+   "common_selector": {
+      "message": "സെലക്ടർ"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "അനുമതിയില്ല. $cloud$-മായി വീണ്ടും കണക്റ്റ് ചെയ്യുക.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "മൂല്യം അദ്വിതീയമായിരിക്കണം."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "ഹോട്ട്‌കീകൾ പ്രവർത്തനക്ഷമമാക്കാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക"
+   },
+   "contentApp_doneSelecting": {
+      "message": "തിരഞ്ഞെടുപ്പ് പൂർത്തിയാക്കുക"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "തിരഞ്ഞെടുത്ത എലമെന്റ് പാരന്റിൽ ഉൾപ്പെടുന്നില്ല"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "പാരന്റ് എലമെന്റ് കണ്ടെത്തിയില്ല"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "ചൈൽഡ് എലമെന്റ് തിരഞ്ഞെടുക്കാൻ $key$ അമർത്തുക",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "പാരന്റ് എലമെന്റ് തിരഞ്ഞെടുക്കാൻ $key$ അമർത്തുക",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "ഹോവർ ചെയ്ത എലമെന്റ് തിരഞ്ഞെടുക്കാൻ $key$ അമർത്തുക",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "തിരഞ്ഞെടുത്ത എലമെന്റ് എണ്ണം: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 ആവശ്യമാണ്, ശൂന്യമായിരിക്കരുത്",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1-ന്റെ പരമാവധി നീളം $2 പ്രതീകങ്ങളാണ്",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 കുറഞ്ഞത് $2 പ്രതീകങ്ങൾ നീളമുള്ളതായിരിക്കണം",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "അക്ഷരങ്ങൾ, അക്കങ്ങൾ $digits$ അല്ലെങ്കിൽ $allowedCharacters$ പ്രതീകങ്ങളിൽ ഏതെങ്കിലും മാത്രമേ അനുവദനീയമായുള്ളൂ",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "അസാധുവായ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ കീ കാണുന്നില്ല - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 ഒരു അറേ ആയിരിക്കണം",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "ഈ Id-യുള്ള $sitemap$ ഇതിനകം നിലവിലുണ്ട്",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ ആവശ്യമാണ്, ശൂന്യമായിരിക്കരുത്",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 ആവശ്യമാണ്, ശൂന്യമായിരിക്കരുത്",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 എണ്ണം $2 കവിയരുത്",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$-ൽ _id, startUrl, websiteStateSetup, selectors, hashHistory എന്നീ അദ്വിതീയ കീകൾ മാത്രമേ അനുവദനീയമായുള്ളൂ",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ പേര്",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "ആരംഭ URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 ഒരു സാധുവായ URL അല്ല",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "ഡാറ്റ പ്രിവ്യൂ"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "ഇതുവരെ ഡാറ്റ വേർതിരിച്ചെടുത്തിട്ടില്ല."
+   },
+   "edit_selector_attributeName": {
+      "message": "ആട്രിബ്യൂട്ട് പേര്"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "ക്ലിക്ക് എലമെന്റ് അദ്വിതീയത"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "ലഭ്യമായ ആട്രിബ്യൂട്ടുകൾ കാണാൻ ക്ലിക്ക് ചെയ്യുക"
+   },
+   "edit_selector_clickType": {
+      "message": "ക്ലിക്ക് തരം"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "കൂടുതൽ ക്ലിക്ക് ചെയ്യുക (കൂടുതൽ എലമെന്റുകൾ ലോഡ് ചെയ്യാൻ ക്ലിക്ക് ചെയ്യുക. അദ്വിതീയ ടെക്സ്റ്റ് ഉള്ളടക്കമുള്ള പുതിയ എലമെന്റുകൾ കണ്ടെത്താത്തപ്പോൾ നിർത്തുന്നു.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "ഒരിക്കൽ ക്ലിക്ക് ചെയ്യുക (പേജിനേഷൻ, ടാബുകൾ)"
+   },
+   "edit_selector_column": {
+      "message": "കോളം"
+   },
+   "edit_selector_columnCount": {
+      "message": "കോളം എണ്ണം"
+   },
+   "edit_selector_columnName": {
+      "message": "കോളം പേര്"
+   },
+   "edit_selector_delay": {
+      "message": "കാലതാമസം (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "ഈ സവിശേഷത കാലഹരണപ്പെട്ടതാണ്, ഭാവിയിലെ റിലീസിൽ പ്രവർത്തിക്കില്ല."
+   },
+   "edit_selector_discardAlways": {
+      "message": "എപ്പോഴും ഒഴിവാക്കുക"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "പ്രാരംഭ എലമെന്റുകൾ ഒഴിവാക്കുക"
+   },
+   "edit_selector_discardNever": {
+      "message": "ഒരിക്കലും ഒഴിവാക്കരുത്"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "ക്ലിക്ക് എലമെന്റ് ഉള്ളപ്പോൾ ഒഴിവാക്കുക"
+   },
+   "edit_selector_elementLimit": {
+      "message": "എലമെന്റ് പരിധി"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "ആദ്യ റെക്കോർഡ് മാത്രം"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "കണ്ടെത്തിയ URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "സെലക്ടർ ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "ഫലത്തിൽ ഉൾപ്പെടുത്തുക"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL ആണ് (ഒന്ന് മാത്രം)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "ക്ലിക്ക് സെലക്ടർ"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "ഡാറ്റ വരികളുടെ സെലക്ടർ"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "ഹെഡർ വരി സെലക്ടർ"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "കണ്ടെത്താത്തപ്പോൾ പ്രവർത്തിക്കാനുള്ള സെലക്ടർ"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "സ്ക്രോൾ എലമെന്റ്"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "കാണാനില്ലെങ്കിൽ മാത്രം സ്ക്രോൾ ചെയ്യുക"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "എലമെന്റിലേക്ക് സ്ക്രോൾ ചെയ്യുക"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "ഏതെങ്കിലും സ്ക്രിപ്റ്റിൽ നിന്നുള്ള ലിങ്ക് ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "ലിങ്ക് തരം"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "ആട്രിബ്യൂട്ട്"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "ലിങ്ക് (href ആട്രിബ്യൂട്ടിൽ നിന്ന് വായിക്കുക)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "ആട്രിബ്യൂട്ടിലെ സ്ക്രിപ്റ്റഡ് ലിങ്ക് ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "ടെക്സ്റ്റ് (ടെക്സ്റ്റ് ഉള്ളടക്കം ലിങ്കായി ഉപയോഗിക്കുക)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "ഏറ്റവും കുറഞ്ഞ മുൻഗണന"
+   },
+   "edit_selector_multipleNo": {
+      "message": "ഇല്ല"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "ഒന്നിലധികം കോളങ്ങളിൽ ഒന്നിലധികം റെക്കോർഡുകൾ"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "ഒരു കോളത്തിൽ ഒന്നിലധികം റെക്കോർഡുകൾ"
+   },
+   "edit_selector_multipleType": {
+      "message": "മൾട്ടിപ്പിൾ തരം"
+   },
+   "edit_selector_multipleYes": {
+      "message": "അതെ"
+   },
+   "edit_selector_paginationType": {
+      "message": "പേജിനേഷൻ തരം"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "ഓട്ടോ"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "അടുത്ത/കൂടുതൽ ബട്ടണിൽ ഒന്നിലധികം തവണ ക്ലിക്ക് ചെയ്യുക ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "ഒന്നിലധികം ബട്ടണുകളിൽ ഒരിക്കൽ ക്ലിക്ക് ചെയ്യുക ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "ആട്രിബ്യൂട്ട് ലിങ്ക് ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "ലിങ്ക് ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "സ്ക്രിപ്റ്റഡ് ലിങ്ക് ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "ടെക്സ്റ്റ് ലിങ്ക് ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "പാരന്റ് സെലക്ടറുകൾ"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "ഫല കീ"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "ലഭിച്ച ഡാറ്റ കോളങ്ങൾ"
+   },
+   "edit_selector_script": {
+      "message": "സ്ക്രിപ്റ്റ്"
+   },
+   "edit_selector_scroll": {
+      "message": "സ്ക്രോൾ"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "ക്ലിക്ക് പ്രവർത്തനം"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "സ്ക്രോൾ ഡൗൺ പ്രവർത്തനം"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "എലമെന്റ് (സ്ക്രോൾ)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "എലമെന്റ് ആട്രിബ്യൂട്ട്"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "എലമെന്റ് ക്ലിക്ക്"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "എലമെന്റ് സ്ക്രോൾ ഡൗൺ (കാലഹരണപ്പെട്ടത്)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "ഗ്രൂപ്പ് ചെയ്തത് (കാലഹരണപ്പെട്ടത്)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "ഇമേജ്"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "ലിങ്ക്"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "നെറ്റ്‌വർക്ക് ഡാറ്റ"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "പേജിനേഷൻ"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "പോപ്പപ്പ് ലിങ്ക് (കാലഹരണപ്പെട്ടത്)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "സ്ക്രിപ്റ്റ് ഡാറ്റ"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ ലിങ്കുകൾ",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "ടേബിൾ"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "ടെക്സ്റ്റ്"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL-കൾ",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "ടേബിൾ കോളങ്ങൾ"
+   },
+   "edit_selector_type": {
+      "message": "തരം"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "അദ്വിതീയ $css$ സെലക്ടർ",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "അദ്വിതീയ $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "അദ്വിതീയ $html$+ടെക്സ്റ്റ്",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "അദ്വിതീയ ടെക്സ്റ്റ്"
+   },
+   "edit_selector_unlimited": {
+      "message": "പരിധിയില്ലാത്തത്"
+   },
+   "export_downloadAs": {
+      "message": "ഇതായി ഡൗൺലോഡ് ചെയ്യുക:"
+   },
+   "export_generatingFile": {
+      "message": "ഫയൽ ജനറേറ്റ് ചെയ്യുന്നു"
+   },
+   "extDesc": {
+      "message": "ആധുനിക വെബിനായി എളുപ്പമുള്ള പോയിന്റ്-ആൻഡ്-ക്ലിക്ക് ഇന്റർഫേസുള്ള വെബ് ഡാറ്റ എക്സ്ട്രാക്ഷൻ ടൂൾ"
+   },
+   "extName": {
+      "message": "$webScraper$ - സൗജന്യ വെബ് സ്ക്രാപ്പിംഗ്",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - സൗജന്യ വെബ് സ്ക്രാപ്പിംഗ്",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "സ്ക്രാപ്പ് ചെയ്ത ഡാറ്റ"
+   },
+   "nav_createNewSitemap": {
+      "message": "പുതിയ $sitemap$ സൃഷ്ടിക്കുക",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "വിസാർഡ് ഉപയോഗിച്ച് $sitemap$ സൃഷ്ടിക്കുക",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "ഡോക്യുമെന്റേഷൻ"
+   },
+   "nav_editMetadata": {
+      "message": "ആരംഭ URL-കൾ"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "പരീക്ഷണാത്മക സവിശേഷതകൾ പ്രവർത്തനക്ഷമമാക്കി"
+   },
+   "nav_exportData": {
+      "message": "ഡാറ്റ എക്സ്പോർട്ട്"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ എക്സ്പോർട്ട്",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "ഫോറം"
+   },
+   "nav_help": {
+      "message": "സഹായം"
+   },
+   "nav_logout": {
+      "message": "ലോഗൗട്ട്"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$ ഉപയോഗിച്ചു തുടങ്ങാൻ ഡെവലപ്പർ ടൂളുകൾ ബ്രൗസറിന്റെ താഴേക്ക് നീക്കുക.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "സെലക്ടറുകൾ"
+   },
+   "nav_signInToCloud": {
+      "message": "$cloud$-ലേക്ക് സൈൻ ഇൻ ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "ടെസ്റ്റ് സൈറ്റുകൾ"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "ഫീച്ചർ ആശയങ്ങൾ അപ്‌വോട്ട് ചെയ്യുക"
+   },
+   "nav_videoTutorials": {
+      "message": "വീഡിയോ ട്യൂട്ടോറിയലുകൾ"
+   },
+   "nav_websiteStateSetup": {
+      "message": "വെബ്‌സൈറ്റ് Log-In / സ്റ്റേറ്റ് സജ്ജീകരണം"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "ഉപയോഗ മെട്രിക് ശേഖരണം അനുവദിക്കുക"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "പരീക്ഷണാത്മക സവിശേഷതകൾ പ്രവർത്തനക്ഷമമാക്കുക"
+   },
+   "options_page_keepWorking": {
+      "message": "സ്ക്രാപ്പിംഗ് നടക്കുമ്പോൾ മറ്റ് ജോലികൾ തുടരാം."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "എക്സ്റ്റൻഷൻ ഉപയോഗ മെട്രിക് ശേഖരണം അനുവദിക്കുക. സമാഹരിച്ച രൂപത്തിൽ വ്യക്തിഗതമല്ലാത്ത വിവരങ്ങൾ മാത്രമേ ശേഖരിക്കുന്നുള്ളൂ. കൂടുതൽ വിവരങ്ങൾക്ക്"
+   },
+   "options_page_privacyPolicy": {
+      "message": "സ്വകാര്യതാ നയം"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ സ്ക്രാപ്പിംഗ് പൂർത്തിയായി",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "സ്ക്രാപ്പിംഗ് പൂർത്തിയായി"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "സ്ക്രാപ്പിംഗ് ഒരു പുതിയ ടാബിൽ ആരംഭിക്കും. സ്ക്രാപ്പിംഗ് പൂർത്തിയായാൽ ഈ വിൻഡോ അടയും."
+   },
+   "options_page_settings": {
+      "message": "ക്രമീകരണങ്ങൾ"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "വെബ്‌സൈറ്റ് സ്റ്റേറ്റ് സജ്ജീകരണത്തിലെ ഒരു പാസ്‌വേഡ് ഫീൽഡ് ശൂന്യമാണ്."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "പേജ് ലോഡ് കാലതാമസം (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "പേജ് ലോഡ് കാലതാമസം"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "അഭ്യർത്ഥന ഇടവേള (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "അഭ്യർത്ഥന ഇടവേള"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "സെലക്ടർ $1 ഇല്ലാതാക്കണോ?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "AI ഉപയോഗിച്ച് സെലക്ടറുകൾ ജനറേറ്റ് ചെയ്യുക:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "ഈ id ഉള്ള സെലക്ടർ ഇതിനകം നിലവിലുണ്ട്"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "ഈ id ഉള്ള സെലക്ടർ നിലവിലുള്ള ഡാറ്റ എക്സ്പോർട്ട് കോളത്തിന് തുല്യമാണ്"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "ആട്രിബ്യൂട്ട് പേരിൽ വൈറ്റ്‌സ്പേസ്, \", ', >, /, = അല്ലെങ്കിൽ കൺട്രോൾ പ്രതീകങ്ങൾ ഉൾപ്പെടുത്താൻ പാടില്ല"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 വൈറ്റ്‌സ്പേസ്, അണ്ടർസ്കോർ അല്ലെങ്കിൽ \"web-scraper\" ഉപയോഗിച്ച് തുടങ്ങരുത്; ഇവ ഉൾക്കൊള്ളാനും പാടില്ല: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "സാധുവായ CSS സെലക്ടർ ആയിരിക്കണം"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "സെലക്ടറിന് പാരന്റായി കുറഞ്ഞത് മറ്റൊരു സെലക്ടർ എങ്കിലും ഉണ്ടായിരിക്കണം"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "0 പ്രതീകങ്ങളുമായി പൊരുത്തപ്പെടാവുന്ന റെഗുലർ എക്സ്പ്രഷനുകൾ JavaScript പിന്തുണയ്ക്കുന്നില്ല"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "പാരന്റ് സെലക്ടറുകൾ"
+   },
+   "selectors_tableHeaderType": {
+      "message": "തരം"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "ഇല്ലാതാക്കൽ സ്ഥിരീകരണം"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$ ഇല്ലാതാക്കണോ?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ ഫിൽട്ടർ ചെയ്യുക",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "ഈ $sitemap$ $cloud$ അക്കൗണ്ടിൽ മാത്രമേയുള്ളൂ. എഡിറ്റ് ചെയ്യാൻ $cloud$ അക്കൗണ്ടിൽ നിന്ന് $sitemap$ ഡൗൺലോഡ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "ഇതാണ് ഏറ്റവും പുതിയ $sitemap$ പതിപ്പ്. $cloud$ അക്കൗണ്ടിലെ പതിപ്പ് ഉപയോഗിച്ച് ഈ $sitemap$ ഓവർറൈറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ സിങ്ക് ചെയ്തിട്ടില്ല",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "ഏറ്റവും പുതിയ $sitemap$ പതിപ്പ് $cloud$ അക്കൗണ്ടിലാണ്. $sitemap$-ന്റെ ഈ പതിപ്പ് ഉപയോഗിച്ച് $cloud$ അക്കൗണ്ടിലെ $sitemap$ ഓവർറൈറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "ഏറ്റവും പുതിയ $sitemap$ പതിപ്പ് നിർണ്ണയിക്കാനാവില്ല. $cloud$ അക്കൗണ്ടിലെ പതിപ്പ് ഉപയോഗിച്ച് ഈ $sitemap$ ഓവർറൈറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "ഏറ്റവും പുതിയ $sitemap$ പതിപ്പ് നിർണ്ണയിക്കാനാവില്ല. $sitemap$-ന്റെ ഈ പതിപ്പ് ഉപയോഗിച്ച് $cloud$ അക്കൗണ്ടിലെ $sitemap$ ഓവർറൈറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ $cloud$-ൽ മാത്രമേയുള്ളൂ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ സിങ്ക് ചെയ്തു",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ എക്സ്റ്റൻഷനിൽ മാത്രമേയുള്ളൂ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "ഏറ്റവും പുതിയ $sitemap$ പതിപ്പ് $cloud$ അക്കൗണ്ടിലാണ്. $cloud$ അക്കൗണ്ടിലെ പതിപ്പുമായി പൊരുത്തപ്പെടാൻ ഈ $sitemap$ അപ്‌ഡേറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "ഇതാണ് ഏറ്റവും പുതിയ $sitemap$ പതിപ്പ്. $sitemap$-ന്റെ ഈ പതിപ്പ് ഉപയോഗിച്ച് $cloud$ അക്കൗണ്ടിലെ $sitemap$ അപ്‌ഡേറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "ഈ $sitemap$ എക്സ്റ്റൻഷൻ സ്റ്റോറേജിൽ മാത്രമേയുള്ളൂ. $sitemap$ $cloud$ അക്കൗണ്ടിലേക്ക് അപ്‌ലോഡ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "ഡൊമെയ്ൻ"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "$cloud$-ൽ നിന്ന് ഡൗൺലോഡ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "$cloud$-ലേക്ക് അപ്‌ലോഡ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "ക്ലിക്ക്"
+   },
+   "website_state_setup_actionInput": {
+      "message": "ഇൻപുട്ട്"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL തുറക്കുക"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "പാസ്‌വേഡ് ഇൻപുട്ട്"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "സ്ലീപ്പ് (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "ടെക്സ്റ്റ് ഇൻപുട്ട്"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "വെബ്‌സൈറ്റ് സ്റ്റേറ്റ് സജ്ജീകരണം ഇല്ലാതാക്കണോ?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "ms-ൽ ദൈർഘ്യം"
+   },
+   "website_state_setup_enabled": {
+      "message": "പ്രവർത്തനക്ഷമമാക്കി"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "പാസ്‌വേഡ്"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "ടെക്സ്റ്റ്"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "വിസാർഡ് $sitemaps$ ആക്സസ് ചെയ്യുക",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "ചിത്രങ്ങൾ ചേർക്കുക"
+   },
+   "wizard_addMoreText": {
+      "message": "കൂടുതൽ ടെക്സ്റ്റ് ചേർക്കുക"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "പേജ് ഉള്ളടക്കം വിശകലനം ചെയ്യുന്നു..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "AI ഉപയോഗിച്ച് $1 URL-കൾ വിശകലനം ചെയ്യുന്നു (ശരാശരി കാത്തിരിപ്പ് $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "കൂടാതെ മറ്റും..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "സ്ക്രോൾ ചെയ്ത ശേഷം കൂടുതൽ ഇനങ്ങൾ ലോഡ് ചെയ്യപ്പെടുന്നുണ്ടോ?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "$webScraperCloud$-ൽ ഡാറ്റ വേർതിരിച്ചെടുക്കൽ ഓട്ടോമേറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "$cloud$-ൽ ഓട്ടോമേറ്റ് ചെയ്യുക",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "ബോട്ട് കണ്ടെത്തൽ കൈകാര്യം ചെയ്യൽ"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "ഇൻഫിനിറ്റ് സ്ക്രോൾ പരിശോധിക്കുന്നു"
+   },
+   "wizard_columnName": {
+      "message": "കോളം പേര്"
+   },
+   "wizard_continueButton": {
+      "message": "തുടരുക"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "ഇഷ്ടാനുസൃതമാക്കാവുന്ന $css$ സെലക്ടറുകൾ",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "ഇഷ്ടാനുസൃതമാക്കാവുന്ന സൈറ്റ് നാവിഗേഷൻ"
+   },
+   "wizard_dataExtractionError": {
+      "message": "ഈ പേജിൽ നിന്ന് ഡാറ്റ വേർതിരിച്ചെടുക്കുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു. പ്രശ്നം റിപ്പോർട്ട് ചെയ്തു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "പേജിൽ $1 ഡാറ്റ പോയിന്റുകൾ കണ്ടെത്തി",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "പേജിൽ 1 ഡാറ്റ പോയിന്റ് കണ്ടെത്തി"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "ഇൻഫിനിറ്റ് സ്ക്രോൾ പ്രവർത്തനരഹിതമാക്കുക"
+   },
+   "wizard_disablePagination": {
+      "message": "പേജിനേഷൻ പ്രവർത്തനരഹിതമാക്കുക"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "ഈ പേജിന് പേജിനേഷൻ ഉണ്ടോ?"
+   },
+   "wizard_doneSelecting": {
+      "message": "തിരഞ്ഞെടുക്കൽ പൂർത്തിയായി"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "ഇൻഫിനിറ്റ് സ്ക്രോൾ പ്രവർത്തനക്ഷമമാക്കുക"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "ഇന പേജുകളിലേക്കുള്ള നാവിഗേഷനും ഓരോ പേജിൽ നിന്നുമുള്ള ഡാറ്റ എക്സ്ട്രാക്ഷനും പ്രവർത്തനക്ഷമമാക്കുക."
+   },
+   "wizard_errorTitle": {
+      "message": "പിശക്"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "$dropbox$, $googleDrive$, $s3$, ... എന്നിവയിലേക്ക് എക്സ്പോർട്ട് ചെയ്യുക",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "പേജ് ഡാറ്റ ശേഖരിക്കുന്നു $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "ഫീഡ്‌ബാക്ക് നൽകുക"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "അഡ്വാൻസ്ഡ് $sitemap$ ബിൽഡറിലേക്ക് പോകുക",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "നിങ്ങളുടെ അഭിപ്രായം എന്താണ്?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "നിങ്ങളുടെ സ്ക്രാപ്പിംഗ് അനുഭവം എങ്ങനെയായിരുന്നു?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 ഇന പേജ് ലിങ്കുകൾ തിരഞ്ഞെടുത്തു",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 ഇന പേജ് ലിങ്ക് തിരഞ്ഞെടുത്തു"
+   },
+   "wizard_link": {
+      "message": "ലിങ്ക്"
+   },
+   "wizard_loadMore": {
+      "message": "കൂടുതൽ ലോഡ് ചെയ്യുക"
+   },
+   "wizard_loadingPage": {
+      "message": "പേജ് ലോഡ് ചെയ്യുന്നു..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ സവിശേഷത",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "വേർതിരിച്ചെടുക്കുന്നതിന് മുമ്പ് കോളങ്ങൾ നീക്കം ചെയ്യുക, ചേർക്കുക അല്ലെങ്കിൽ പുനർനാമകരണം ചെയ്യുക"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "കൂടുതൽ ഡാറ്റ എക്സ്ട്രാക്റ്ററുകൾ"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 റെക്കോർഡുകൾ സ്ക്രാപ്പ് ചെയ്തു",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "ഇന പേജ് ലിങ്കുകൾ കണ്ടെത്താൻ പേജിനേഷനിലൂടെ നാവിഗേറ്റ് ചെയ്യുന്നു."
+   },
+   "wizard_nextPage": {
+      "message": "അടുത്ത പേജ്"
+   },
+   "wizard_noDataFound": {
+      "message": "ഡാറ്റ കണ്ടെത്തിയില്ല"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "റെക്കോർഡുകളൊന്നും സ്ക്രാപ്പ് ചെയ്തില്ല. മുൻ ഘട്ടങ്ങൾ പരിശോധിക്കുക അല്ലെങ്കിൽ വീണ്ടും ശ്രമിക്കുക."
+   },
+   "wizard_numberedPages": {
+      "message": "നമ്പറുള്ള പേജുകൾ: എല്ലാം തിരഞ്ഞെടുക്കാൻ ഒന്നിലധികം ബട്ടണുകളിൽ ക്ലിക്ക് ചെയ്യുക"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "ഒരു ടാബിൽ മാത്രം പ്രവർത്തിക്കുന്നു."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "ഡെവലപ്പർ ടൂളുകൾ തുറക്കാൻ $shortcut1$ അല്ലെങ്കിൽ $shortcut2$ അമർത്തുക.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "ഡെവലപ്പർ ടൂളുകൾ തുറക്കാൻ $shortcut$ അമർത്തുക.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "ബ്രൗസറിന്റെ ഡെവലപ്പർ ടൂളുകൾ തുറക്കുക"
+   },
+   "wizard_paginationDetected": {
+      "message": "പേജിനേഷൻ കണ്ടെത്തി. അടുത്ത ഘട്ടത്തിൽ കോൺഫിഗറേഷൻ കൈകാര്യം ചെയ്യുക."
+   },
+   "wizard_paginationEnabled": {
+      "message": "പേജിനേഷൻ പ്രവർത്തനക്ഷമമാക്കി"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "ബ്രൗസറിന്റെ വെബ്‌സ്റ്റോറിൽ എക്സ്റ്റൻഷന് അവലോകനം നൽകുക!"
+   },
+   "wizard_rateUs": {
+      "message": "ഞങ്ങളെ റേറ്റ് ചെയ്യുക"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 റെക്കോർഡുകൾ സ്ക്രാപ്പ് ചെയ്തു, $2 കാണിക്കുന്നു",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "വീണ്ടും ജനറേറ്റ് ചെയ്യുക"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "വീണ്ടും സ്ക്രാപ്പ്"
+   },
+   "wizard_reselect": {
+      "message": "വീണ്ടും തിരഞ്ഞെടുക്കുക"
+   },
+   "wizard_retry": {
+      "message": "വീണ്ടും ശ്രമിക്കുക"
+   },
+   "wizard_scheduler": {
+      "message": "ഷെഡ്യൂളർ"
+   },
+   "wizard_scrapeThePage": {
+      "message": "പേജ് സ്ക്രാപ്പ് ചെയ്യുക"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "സ്ക്രാപ്പർ കോൺഫിഗറേഷൻ തയ്യാറാണ്"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "സ്ക്രാപ്പിംഗ് പുരോഗമിക്കുന്നു. ($1 റെക്കോർഡുകൾ സ്ക്രാപ്പ് ചെയ്തു)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "സ്ക്രാപ്പിംഗ് പുരോഗമിക്കുന്നു."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "സ്ക്രാപ്പിംഗ് പുരോഗമിക്കുന്നു. (1 റെക്കോർഡ് സ്ക്രാപ്പ് ചെയ്തു)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "സ്ക്രാപ്പിംഗ് പുരോഗമിക്കുന്നു. ($1 റെക്കോർഡുകൾ സ്ക്രാപ്പ് ചെയ്തു, $2 കാണിക്കുന്നു)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "സ്ക്രോളിംഗ് പ്രവർത്തനക്ഷമമാക്കി"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "കുറഞ്ഞത് രണ്ട് ലിങ്കുകൾ ആവശ്യമാണ്."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "ഡാറ്റ പോയിന്റുകൾ മാനുവലായി തിരഞ്ഞെടുക്കുക"
+   },
+   "wizard_selectLink": {
+      "message": "ലിങ്ക് തിരഞ്ഞെടുക്കുക"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "അടുത്ത പേജ് ബട്ടൺ തിരഞ്ഞെടുക്കുക"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "പേജിനേഷൻ ബട്ടൺ തിരഞ്ഞെടുക്കുക. സാധാരണ തരങ്ങൾ:"
+   },
+   "wizard_sendFeedback": {
+      "message": "ഫീഡ്‌ബാക്ക് അയയ്ക്കുക"
+   },
+   "wizard_showMe": {
+      "message": "കാണിക്കുക"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$2 റെക്കോർഡുകളിൽ $1 കാണിക്കുന്നു",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1 റെക്കോർഡുകൾ കാണിക്കുന്നു",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "1 റെക്കോർഡ് കാണിക്കുന്നു"
+   },
+   "wizard_signUp": {
+      "message": "സൈൻ അപ്പ് ചെയ്യുക"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 റെക്കോർഡ് സ്ക്രാപ്പ് ചെയ്തു"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ അഡ്വാൻസ്ഡ് $sitemap2$ ബിൽഡറിൽ സംരക്ഷിച്ചു",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "ഒഴിവാക്കുക"
+   },
+   "wizard_stepDataSetup": {
+      "message": "ഡാറ്റ സജ്ജീകരണം"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "ഫീഡ്‌ബാക്കും അഡ്വാൻസ്ഡ് സ്ക്രാപ്പിംഗും"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "ഇന ലിങ്കുകൾ പിന്തുടരുക"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "ഇന പേജ് ഡാറ്റ സജ്ജീകരണം"
+   },
+   "wizard_stepPagination": {
+      "message": "പേജിനേഷൻ & സ്ക്രോൾ"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ സമന്വയിപ്പിച്ച് പ്രവർത്തിപ്പിക്കുക",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "ഫീഡ്‌ബാക്കിന് നന്ദി!"
+   },
+   "wizard_title": {
+      "message": "തലക്കെട്ട്"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "വീണ്ടും തിരഞ്ഞെടുക്കാൻ ശ്രമിക്കുക"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "ഉപയോക്തൃ അനുഭവം മെച്ചപ്പെടുത്താൻ എല്ലാ അവലോകനങ്ങളും പരിശോധിക്കുന്നു."
+   },
+   "wizard_yourFeedback": {
+      "message": "നിങ്ങളുടെ ഫീഡ്‌ബാക്ക്"
+   }
+}

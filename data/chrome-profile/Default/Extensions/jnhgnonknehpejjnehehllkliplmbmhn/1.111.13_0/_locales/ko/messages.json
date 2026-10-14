@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "$webScraperCloud$에서 스크래핑 자동화",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "API로 $webScraper$ 관리",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$로 자동 내보내기",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "사이트 접근 문제를 위한 내장 $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "데이터 추출 자동 예약"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ 개선에 도움을 주세요!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "로딩 중"
+   },
+   "button_addAction": {
+      "message": "작업 추가"
+   },
+   "button_addColumn": {
+      "message": "열 추가"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "$robotstxt$에서 추가",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "새 선택자 만들기"
+   },
+   "button_addUrl": {
+      "message": "URL 추가"
+   },
+   "button_cancel": {
+      "message": "취소"
+   },
+   "button_close": {
+      "message": "닫기"
+   },
+   "button_closePreview": {
+      "message": "미리보기 닫기"
+   },
+   "button_dataPreview": {
+      "message": "데이터 미리보기"
+   },
+   "button_delete": {
+      "message": "삭제"
+   },
+   "button_deleteLocally": {
+      "message": "로컬에서 삭제"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "웹사이트 상태 설정 삭제"
+   },
+   "button_download": {
+      "message": "다운로드"
+   },
+   "button_edit": {
+      "message": "편집"
+   },
+   "button_elementPreview": {
+      "message": "요소 미리보기"
+   },
+   "button_listingPage": {
+      "message": "목록 페이지"
+   },
+   "button_loading": {
+      "message": "로딩 중..."
+   },
+   "button_overwrite": {
+      "message": "덮어쓰기"
+   },
+   "button_performAction": {
+      "message": "작업 수행"
+   },
+   "button_performActions": {
+      "message": "작업 수행"
+   },
+   "button_refresh": {
+      "message": "새로 고침"
+   },
+   "button_refreshData": {
+      "message": "데이터 새로 고침"
+   },
+   "button_reload": {
+      "message": "새로 고침"
+   },
+   "button_remove": {
+      "message": "제거"
+   },
+   "button_save": {
+      "message": "저장"
+   },
+   "button_saveSelector": {
+      "message": "선택자 저장"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ 저장",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "선택"
+   },
+   "button_sendTrainingData": {
+      "message": "학습 데이터 보내기"
+   },
+   "button_singleItemPage": {
+      "message": "단일 항목 페이지"
+   },
+   "button_startScraping": {
+      "message": "스크래핑 시작"
+   },
+   "button_update": {
+      "message": "업데이트"
+   },
+   "button_upload": {
+      "message": "업로드"
+   },
+   "button_uploadToCloud": {
+      "message": "$cloud$에 $sitemap$ 업로드",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "기능 아이디어 추천 및 제출"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "확장 프로그램을 $cloud$ 계정에 연결한 후 $sitemap$ 목록을 새로 고침하세요.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "작업"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ 만들기",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "오류:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ 가져오기",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "자세히 알아보기"
+   },
+   "common_multiple": {
+      "message": "다중"
+   },
+   "common_mustBeBetween": {
+      "message": "$1은(는) $2와(과) $3 사이여야 합니다",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1은(는) 숫자여야 합니다",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "아직 스크래핑된 데이터 없음"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 범위는 오름차순이어야 합니다",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "스크래핑"
+   },
+   "common_selector": {
+      "message": "선택자"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "인증되지 않음. $cloud$에 다시 연결하세요.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "값은 고유해야 합니다."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "단축키를 활성화하려면 여기를 클릭하세요"
+   },
+   "contentApp_doneSelecting": {
+      "message": "선택 완료"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "부모 요소에 선택한 요소가 포함되지 않음"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "부모 요소를 찾을 수 없음"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "$key$ 키를 눌러 자식 요소 선택",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "$key$ 키를 눌러 부모 요소 선택",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "$key$ 키를 눌러 호버된 요소 선택",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "선택된 요소 수: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1은(는) 필수이며 비워 둘 수 없습니다",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1의 최대 길이는 $2자입니다",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1은(는) 최소 $2자 이상이어야 합니다",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "문자, 숫자 $digits$ 또는 $allowedCharacters$ 문자만 허용됩니다",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "유효하지 않은 $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ 키 누락 - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1은(는) 배열이어야 합니다",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "이 ID를 가진 $sitemap$이 이미 존재합니다",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$은(는) 필수이며 비워 둘 수 없습니다",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1은(는) 필수이며 비워 둘 수 없습니다",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 개수는 $2을(를) 초과할 수 없습니다",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$에는 고유 키 _id, startUrl, websiteStateSetup, selectors, hashHistory만 허용됩니다",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ 이름",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "시작 URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1은(는) 유효한 URL이 아닙니다",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "데이터 미리보기"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "아직 추출된 데이터가 없습니다."
+   },
+   "edit_selector_attributeName": {
+      "message": "속성 이름"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "클릭 요소 고유성"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "클릭하여 사용 가능한 속성 보기"
+   },
+   "edit_selector_clickType": {
+      "message": "클릭 유형"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "더 클릭 (클릭하여 요소를 더 로드. 고유한 텍스트 콘텐츠를 가진 새 요소가 없으면 중지됨)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "한 번 클릭 (페이지네이션, 탭)"
+   },
+   "edit_selector_column": {
+      "message": "열"
+   },
+   "edit_selector_columnCount": {
+      "message": "열 개수"
+   },
+   "edit_selector_columnName": {
+      "message": "열 이름"
+   },
+   "edit_selector_delay": {
+      "message": "지연 (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "이 기능은 지원 중단 예정이며 향후 릴리스에서 작동하지 않습니다."
+   },
+   "edit_selector_discardAlways": {
+      "message": "항상 제외"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "초기 요소 제외"
+   },
+   "edit_selector_discardNever": {
+      "message": "제외하지 않음"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "클릭 요소가 있을 때 제외"
+   },
+   "edit_selector_elementLimit": {
+      "message": "요소 제한"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "첫 레코드만"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "찾은 URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "선택자 ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "결과에 포함"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL임 (하나만)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "클릭 선택자"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "데이터 행 선택자"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "헤더 행 선택자"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "찾을 수 없을 때 실행할 선택자"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "스크롤 요소"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "없을 때만 스크롤"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "요소로 스크롤"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "임의 스크립트의 링크 ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "링크 유형"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "속성"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "링크 (href 속성에서 읽기)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "속성의 스크립트 링크 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "텍스트 (텍스트 콘텐츠를 링크로 사용)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "최소 우선순위"
+   },
+   "edit_selector_multipleNo": {
+      "message": "아니요"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "여러 열에 다중 레코드"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "한 열에 다중 레코드"
+   },
+   "edit_selector_multipleType": {
+      "message": "다중 유형"
+   },
+   "edit_selector_multipleYes": {
+      "message": "예"
+   },
+   "edit_selector_paginationType": {
+      "message": "페이지네이션 유형"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "자동"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "다음/더보기 버튼을 여러 번 클릭 ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "여러 버튼을 한 번씩 클릭 ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "속성 링크 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "링크 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "스크립트 링크 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "텍스트 링크 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "상위 선택자"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "결과 키"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "반환된 데이터 열"
+   },
+   "edit_selector_script": {
+      "message": "스크립트"
+   },
+   "edit_selector_scroll": {
+      "message": "스크롤"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "클릭 작업"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "아래로 스크롤 작업"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "요소 (스크롤)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "요소 속성"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "요소 클릭"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "요소 아래로 스크롤 (지원 중단 예정)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "그룹화 (지원 중단 예정)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "이미지"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "링크"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "네트워크 데이터"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "페이지네이션"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "팝업 링크 (지원 중단 예정)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "스크립트 데이터"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ 링크",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "테이블"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "텍스트"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "테이블 열"
+   },
+   "edit_selector_type": {
+      "message": "유형"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "고유 $css$ 선택자",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "고유 $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "고유 $html$+텍스트",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "고유 텍스트"
+   },
+   "edit_selector_unlimited": {
+      "message": "무제한"
+   },
+   "export_downloadAs": {
+      "message": "다운로드 형식:"
+   },
+   "export_generatingFile": {
+      "message": "파일 생성 중"
+   },
+   "extDesc": {
+      "message": "최신 웹을 위한 간편한 포인트 앤 클릭 인터페이스를 갖춘 웹 데이터 추출 도구"
+   },
+   "extName": {
+      "message": "$webScraper$ - 무료 웹 스크래핑",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - 무료 웹 스크래핑",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "스크래핑된 데이터"
+   },
+   "nav_createNewSitemap": {
+      "message": "새 $sitemap$ 만들기",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "마법사로 $sitemap$ 만들기",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "문서"
+   },
+   "nav_editMetadata": {
+      "message": "시작 URL"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "실험적 기능 활성화됨"
+   },
+   "nav_exportData": {
+      "message": "데이터 내보내기"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ 내보내기",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "포럼"
+   },
+   "nav_help": {
+      "message": "도움말"
+   },
+   "nav_logout": {
+      "message": "로그아웃"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$를 사용하려면 개발자 도구를 브라우저 하단으로 이동하세요.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "선택자"
+   },
+   "nav_signInToCloud": {
+      "message": "$cloud$에 로그인",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "테스트 사이트"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "기능 아이디어 투표"
+   },
+   "nav_videoTutorials": {
+      "message": "동영상 튜토리얼"
+   },
+   "nav_websiteStateSetup": {
+      "message": "웹사이트 Log-In / 상태 설정"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "사용 지표 수집 허용"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "실험적 기능 활성화"
+   },
+   "options_page_keepWorking": {
+      "message": "스크래핑 중에도 다른 작업을 계속할 수 있습니다."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "확장 프로그램 사용 지표 수집을 허용합니다. 집계된 형식의 비개인 정보만 수집됩니다. 자세한 내용은 다음을 참조:"
+   },
+   "options_page_privacyPolicy": {
+      "message": "개인정보 처리방침"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ 스크래핑 완료",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "스크래핑 완료"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "새 탭에서 스크래핑이 시작됩니다. 스크래핑이 완료되면 이 창이 닫힙니다."
+   },
+   "options_page_settings": {
+      "message": "설정"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "웹사이트 상태 설정의 비밀번호 필드가 비어 있습니다."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "페이지 로드 지연(ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "페이지 로드 지연"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "요청 간격(ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "요청 간격"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "선택자 $1을(를) 삭제하시겠습니까?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "AI로 선택자 생성:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "이 ID의 선택자가 이미 존재합니다"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "이 ID의 선택자가 기존 데이터 내보내기 열과 동일합니다"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "속성 이름에는 공백, \", ', >, /, = 또는 제어 문자를 포함할 수 없습니다"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1은(는) 공백, 밑줄 또는 \"web-scraper\"로 시작할 수 없으며 다음 문자를 포함할 수 없습니다: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "유효한 CSS 선택자여야 합니다"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "선택자는 다른 선택자를 하나 이상 부모로 가져야 합니다"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript는 빈 문자열과 일치할 수 있는 정규식을 지원하지 않습니다"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "상위 선택자"
+   },
+   "selectors_tableHeaderType": {
+      "message": "유형"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "삭제 확인"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$을 삭제하시겠습니까?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ 필터링",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "이 $sitemap$은 $cloud$ 계정에만 있습니다. 편집하려면 $cloud$ 계정에서 $sitemap$을 다운로드",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "이것이 최신 $sitemap$ 버전입니다. $cloud$ 계정의 버전으로 이 $sitemap$을 덮어쓰기",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$이 동기화되지 않음",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "최신 $sitemap$ 버전은 $cloud$ 계정에 있습니다. 이 버전의 $sitemap$으로 $cloud$ 계정의 $sitemap$을 덮어쓰기",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "최신 $sitemap$ 버전을 확인할 수 없습니다. $cloud$ 계정의 버전으로 이 $sitemap$을 덮어쓰기",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "최신 $sitemap$ 버전을 확인할 수 없습니다. 이 버전의 $sitemap$으로 $cloud$ 계정의 $sitemap$을 덮어쓰기",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$이 $cloud$에만 있음",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$이 동기화됨",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$이 확장 프로그램에만 있음",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "최신 $sitemap$ 버전은 $cloud$ 계정에 있습니다. $cloud$ 계정의 버전과 일치하도록 이 $sitemap$을 업데이트",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "이것이 최신 $sitemap$ 버전입니다. 이 버전의 $sitemap$으로 $cloud$ 계정의 $sitemap$을 업데이트",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "이 $sitemap$은 확장 프로그램 저장소에만 있습니다. $cloud$ 계정에 $sitemap$을 업로드",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "도메인"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "$cloud$에서 다운로드",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "$cloud$에 업로드",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "클릭"
+   },
+   "website_state_setup_actionInput": {
+      "message": "입력"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL 열기"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "비밀번호 입력"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "대기(ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "텍스트 입력"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "웹사이트 상태 설정을 삭제하시겠습니까?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "지속 시간(ms)"
+   },
+   "website_state_setup_enabled": {
+      "message": "활성화됨"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "비밀번호"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "텍스트"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "마법사 $sitemaps$ 액세스",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "이미지 추가"
+   },
+   "wizard_addMoreText": {
+      "message": "텍스트 더 추가"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "페이지 콘텐츠 분석 중..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "AI로 URL $1개 분석 중 (평균 대기 $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "그 외 더 보기..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "스크롤 후 더 많은 항목이 로드되나요?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "$webScraperCloud$에서 추출 자동화",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "$cloud$에서 자동화",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "봇 탐지 처리"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "무한 스크롤 확인 중"
+   },
+   "wizard_columnName": {
+      "message": "열 이름"
+   },
+   "wizard_continueButton": {
+      "message": "계속"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "맞춤형 $css$ 선택자",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "맞춤형 사이트 탐색"
+   },
+   "wizard_dataExtractionError": {
+      "message": "이 페이지에서 데이터를 추출하는 중 오류가 발생했습니다. 문제가 보고되었습니다. 나중에 다시 시도하세요."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "페이지에서 데이터 포인트 $1개 발견",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "페이지에서 데이터 포인트 1개 발견"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "무한 스크롤 비활성화"
+   },
+   "wizard_disablePagination": {
+      "message": "페이지네이션 비활성화"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "이 페이지에 페이지네이션이 있나요?"
+   },
+   "wizard_doneSelecting": {
+      "message": "선택 완료"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "무한 스크롤 활성화"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "항목 페이지 탐색 및 각 페이지에서 데이터 추출을 활성화합니다."
+   },
+   "wizard_errorTitle": {
+      "message": "오류"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "$dropbox$, $googleDrive$, $s3$ 등으로 내보내기",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "페이지 데이터 수집 중 $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "피드백 제공"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "고급 $sitemap$ 빌더로 이동",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "의견이 있으신가요?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "스크래핑 경험은 어떠셨나요?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "항목 페이지 링크 $1개 선택됨",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "항목 페이지 링크 1개 선택됨"
+   },
+   "wizard_link": {
+      "message": "링크"
+   },
+   "wizard_loadMore": {
+      "message": "더 보기"
+   },
+   "wizard_loadingPage": {
+      "message": "페이지 로드 중..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ 기능",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "추출 전 열 제거, 추가 또는 이름 변경"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "추가 데이터 추출기"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "레코드 $1개 스크래핑됨",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "페이지네이션을 이동하며 항목 페이지 링크를 찾는 중입니다."
+   },
+   "wizard_nextPage": {
+      "message": "다음 페이지"
+   },
+   "wizard_noDataFound": {
+      "message": "데이터를 찾을 수 없음"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "스크래핑된 레코드가 없습니다. 이전 단계를 확인하거나 다시 시도하세요."
+   },
+   "wizard_numberedPages": {
+      "message": "번호 매겨진 페이지: 여러 버튼을 클릭하여 모두 선택"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "하나의 탭에서만 작동합니다."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "$shortcut1$ 또는 $shortcut2$ 키를 눌러 개발자 도구를 여세요.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "$shortcut$ 키를 눌러 개발자 도구를 여세요.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "브라우저 개발자 도구 열기"
+   },
+   "wizard_paginationDetected": {
+      "message": "페이지네이션이 감지되었습니다. 다음 단계에서 구성을 관리하세요."
+   },
+   "wizard_paginationEnabled": {
+      "message": "페이지네이션 활성화됨"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "브라우저 웹스토어에서 확장 프로그램 리뷰를 남겨 주세요!"
+   },
+   "wizard_rateUs": {
+      "message": "평가하기"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "레코드 $1개 스크래핑됨, $2개 표시 중",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "재생성"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "다시 스크래핑"
+   },
+   "wizard_reselect": {
+      "message": "다시 선택"
+   },
+   "wizard_retry": {
+      "message": "재시도"
+   },
+   "wizard_scheduler": {
+      "message": "스케줄러"
+   },
+   "wizard_scrapeThePage": {
+      "message": "페이지 스크래핑"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "스크래퍼 구성 준비 완료"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "스크래핑 진행 중. (레코드 $1개 스크래핑됨)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "스크래핑 진행 중."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "스크래핑 진행 중. (레코드 1개 스크래핑됨)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "스크래핑 진행 중. (레코드 $1개 스크래핑됨, $2개 표시 중)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "스크롤 활성화됨"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "링크가 최소 두 개 필요합니다."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "데이터 포인트를 수동으로 선택하세요"
+   },
+   "wizard_selectLink": {
+      "message": "링크 선택"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "다음 페이지 버튼 선택"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "페이지네이션 버튼을 선택하세요. 일반적인 유형:"
+   },
+   "wizard_sendFeedback": {
+      "message": "피드백 보내기"
+   },
+   "wizard_showMe": {
+      "message": "보기"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$2개 레코드 중 $1개 표시",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "레코드 $1개 표시",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "레코드 1개 표시"
+   },
+   "wizard_signUp": {
+      "message": "가입"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "레코드 1개 스크래핑됨"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "고급 $sitemap2$ 빌더에 $sitemap$ 저장됨",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "건너뛰기"
+   },
+   "wizard_stepDataSetup": {
+      "message": "데이터 설정"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "피드백 및 고급 스크래핑"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "항목 링크 따라가기"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "항목 페이지 데이터 설정"
+   },
+   "wizard_stepPagination": {
+      "message": "페이지네이션 및 스크롤"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ 동기화 및 실행",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "피드백 주셔서 감사합니다!"
+   },
+   "wizard_title": {
+      "message": "제목"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "다시 선택 시도"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "사용자 경험 개선을 위해 모든 리뷰를 검토합니다."
+   },
+   "wizard_yourFeedback": {
+      "message": "피드백"
+   }
+}

@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Автоматизиране на извличането на данни в $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Управление на $webScraper$ чрез API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Автоматичен експорт към $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Вграден $proxy$ при проблеми с достъпа до сайтове",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Автоматично планиране на извличане на данни"
+   },
+   "browse_helpUsImprove": {
+      "message": "Помогнете ни да подобрим $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Зареждане"
+   },
+   "button_addAction": {
+      "message": "Добавяне на действие"
+   },
+   "button_addColumn": {
+      "message": "Добавяне на колона"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Добавяне от $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Създаване на нов селектор"
+   },
+   "button_addUrl": {
+      "message": "Добавяне на URL"
+   },
+   "button_cancel": {
+      "message": "Отказ"
+   },
+   "button_close": {
+      "message": "Затваряне"
+   },
+   "button_closePreview": {
+      "message": "Затваряне на преглед"
+   },
+   "button_dataPreview": {
+      "message": "Преглед на данни"
+   },
+   "button_delete": {
+      "message": "Изтриване"
+   },
+   "button_deleteLocally": {
+      "message": "Изтриване локално"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Изтриване на Настройка на състоянието на уебсайта"
+   },
+   "button_download": {
+      "message": "Изтегляне"
+   },
+   "button_edit": {
+      "message": "Редактиране"
+   },
+   "button_elementPreview": {
+      "message": "Преглед на елемент"
+   },
+   "button_listingPage": {
+      "message": "Страница със списък"
+   },
+   "button_loading": {
+      "message": "Зареждане..."
+   },
+   "button_overwrite": {
+      "message": "Презаписване"
+   },
+   "button_performAction": {
+      "message": "Изпълнение на действие"
+   },
+   "button_performActions": {
+      "message": "Изпълнение на действия"
+   },
+   "button_refresh": {
+      "message": "Презареждане"
+   },
+   "button_refreshData": {
+      "message": "Презареждане на данни"
+   },
+   "button_reload": {
+      "message": "Презареждане"
+   },
+   "button_remove": {
+      "message": "Премахване"
+   },
+   "button_save": {
+      "message": "Запазване"
+   },
+   "button_saveSelector": {
+      "message": "Запазване на селектор"
+   },
+   "button_saveSitemap": {
+      "message": "Запазване на $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Избор"
+   },
+   "button_sendTrainingData": {
+      "message": "Изпращане на данни за обучение"
+   },
+   "button_singleItemPage": {
+      "message": "Страница на единичен запис"
+   },
+   "button_startScraping": {
+      "message": "Стартиране на извличане на данни"
+   },
+   "button_update": {
+      "message": "Актуализиране"
+   },
+   "button_upload": {
+      "message": "Качване"
+   },
+   "button_uploadToCloud": {
+      "message": "Качване на $sitemap$ в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Гласувайте и предложете идеи за функции"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "След свързване на разширението с акаунта в $cloud$ презаредете списъка със $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Действия"
+   },
+   "common_createSitemap": {
+      "message": "Създаване на $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Грешка:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Импортиране на $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Повече информация"
+   },
+   "common_multiple": {
+      "message": "Множество"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 трябва да е между $2 и $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 трябва да е число",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Все още няма извлечени данни"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Диапазонът на $1 трябва да е възходящ",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Извличане на данни"
+   },
+   "common_selector": {
+      "message": "Селектор"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Неоторизиран достъп. Свържете се отново с $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Стойността трябва да е уникална."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Кликнете тук за активиране на бързите клавиши"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Край на избирането"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Родителят не съдържа избрания елемент"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Родителският елемент не е намерен"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Натиснете $key$ за избор на дъщерен елемент",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Натиснете $key$ за избор на родителски елемент",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Натиснете $key$ за избор на елемента под курсора",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Брой избрани елементи: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 е задължителен и не може да е празен",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Максималната дължина на $1 е $2 знака",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 трябва да е с дължина поне $2 знака",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Разрешени са само букви, цифри $digits$ или някой от знаците $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Невалиден $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Липсва ключ за $sitemap$ - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 трябва да е масив",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ с този Id вече съществува",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ е задължителен и не може да е празен",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 е задължителен и не може да е празен",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Броят на $1 не трябва да надвишава $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "В $sitemap$ са разрешени само уникалните ключове _id, startUrl, websiteStateSetup, selectors, hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Име на $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Начален URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 не е валиден URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Преглед на данни"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Все още няма извлечени данни."
+   },
+   "edit_selector_attributeName": {
+      "message": "Име на атрибут"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Уникалност на елемента за кликване"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Кликнете за преглед на наличните атрибути"
+   },
+   "edit_selector_clickType": {
+      "message": "Тип кликване"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Кликване за още (кликване за зареждане на още елементи. Спира, когато не се намерят нови елементи с уникално текстово съдържание.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Еднократно кликване (странициране, раздели)"
+   },
+   "edit_selector_column": {
+      "message": "Колона"
+   },
+   "edit_selector_columnCount": {
+      "message": "Брой колони"
+   },
+   "edit_selector_columnName": {
+      "message": "Име на колона"
+   },
+   "edit_selector_delay": {
+      "message": "Забавяне (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Тази функция е остаряла и няма да работи в бъдеща версия."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Винаги отхвърляне"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Отхвърляне на началните елементи"
+   },
+   "edit_selector_discardNever": {
+      "message": "Никога да не се отхвърля"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Отхвърляне при наличие на елемент за кликване"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Ограничение на елементи"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Само първи запис"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Намерен URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "ID на селектор"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Включване в резултата"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Е URL (само един)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Селектор за кликване"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Селектор за редове с данни"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Селектор за заглавен ред"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Селектор за изпълнение при ненамиране"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Елемент за превъртане"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Превъртане само ако липсва"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Превъртане до елемент"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Връзка от произволен скрипт ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Тип връзка"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Атрибут"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Връзка (четене от атрибут href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Скриптова връзка в атрибут ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Текст (използване на текстовото съдържание като връзка)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Минимален приоритет"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Не"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Множество записи в множество колони"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Множество записи в една колона"
+   },
+   "edit_selector_multipleType": {
+      "message": "Тип множество"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Да"
+   },
+   "edit_selector_paginationType": {
+      "message": "Тип странициране"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Автоматично"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Многократно кликване върху бутон следваща/още ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Еднократно кликване върху множество бутони ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Връзка от атрибут ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Връзка ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Скриптова връзка ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Текстова връзка ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Родителски селектори"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Ключ на резултат"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Връщани колони с данни"
+   },
+   "edit_selector_script": {
+      "message": "Скрипт"
+   },
+   "edit_selector_scroll": {
+      "message": "Превъртане"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Действие за кликване"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Действие за превъртане надолу"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Елемент (превъртане)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Атрибут на елемент"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Елемент с кликване"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Елемент с превъртане надолу (остаряло)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Групиран (остаряло)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Изображение"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Връзка"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Мрежови данни"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Странициране"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Popup връзка (остаряло)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Данни от скрипт"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "Връзки от $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Таблица"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Текст"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL адреси",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Колони на таблица"
+   },
+   "edit_selector_type": {
+      "message": "Тип"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Уникален $css$ селектор",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Уникален $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Уникален $html$+Текст",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Уникален текст"
+   },
+   "edit_selector_unlimited": {
+      "message": "Неограничено"
+   },
+   "export_downloadAs": {
+      "message": "Изтегляне като:"
+   },
+   "export_generatingFile": {
+      "message": "Генериране на файл"
+   },
+   "extDesc": {
+      "message": "Инструмент за извличане на уеб данни с лесен интерфейс с посочване и кликване за съвременния уеб"
+   },
+   "extName": {
+      "message": "$webScraper$ - Безплатно извличане на уеб данни",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Безплатно извличане на уеб данни",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Извлечени данни"
+   },
+   "nav_createNewSitemap": {
+      "message": "Създаване на нов $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Създаване на $sitemap$ със съветник",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Документация"
+   },
+   "nav_editMetadata": {
+      "message": "Начални URL адреси"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Експерименталните функции са активирани"
+   },
+   "nav_exportData": {
+      "message": "Експорт на данни"
+   },
+   "nav_exportSitemap": {
+      "message": "Експорт на $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Форум"
+   },
+   "nav_help": {
+      "message": "Помощ"
+   },
+   "nav_logout": {
+      "message": "Изход"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Преместете инструментите за разработчици в долната част на браузъра, за да започнете да използвате $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Селектори"
+   },
+   "nav_signInToCloud": {
+      "message": "Вход в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Тестови сайтове"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Гласуване за идеи за функции"
+   },
+   "nav_videoTutorials": {
+      "message": "Видео уроци"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-In в уебсайт / Настройка на състоянието"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Разрешаване на събиране на метрики за употреба"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Активиране на експериментални функции"
+   },
+   "options_page_keepWorking": {
+      "message": "Друга работа може да продължи по време на извличане на данни."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Разрешаване на събиране на метрики за употреба на разширението. Събира се само нелична информация в обобщен формат. Повече подробности в"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Политика за поверителност"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Извличането на данни от $sitemapId$ завърши",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Извличането на данни завърши"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Извличането на данни ще започне в нов раздел. След приключване този прозорец ще се затвори."
+   },
+   "options_page_settings": {
+      "message": "Настройки"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Поле за парола в Настройка на състоянието на уебсайта е празно."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Забавяне при зареждане на страница (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Забавяне при зареждане на страница"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Интервал между заявките (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Интервал между заявките"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Изтриване на селектор $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Генериране на селектори с AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Селектор с това ID вече съществува"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Селектор с това ID съвпада с вече съществуваща колона за експорт на данни"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Името на атрибута не може да съдържа празни символи, \", ', >, /, = или контролни символи"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 не може да започва с празен символ, долна черта или \"web-scraper\" и не може да съдържа: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Трябва да е валиден CSS селектор"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Селекторът трябва да има поне един друг селектор като родител"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript не поддържа регулярни изрази, които могат да съвпадат с 0 символа"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Родителски селектори"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Тип"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Потвърждение за изтриване"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Изтриване на $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Филтриране на $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Този $sitemap$ е само в акаунта в $cloud$. Изтеглете $sitemap$ от акаунта в $cloud$ за редактиране",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Това е последната версия на $sitemap$. Презапишете този $sitemap$ с версия от акаунта в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ не е синхронизиран",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Последната версия на $sitemap$ е в акаунта в $cloud$. Презапишете $sitemap$ в акаунта в $cloud$ с тази версия на $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Последната версия на $sitemap$ не може да бъде определена. Презапишете този $sitemap$ с версията от акаунта в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Последната версия на $sitemap$ не може да бъде определена. Презапишете $sitemap$ в акаунта в $cloud$ с тази версия на $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ е само в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ е синхронизиран",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ е само в разширението",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Последната версия на $sitemap$ е в акаунта в $cloud$. Актуализирайте този $sitemap$, за да съответства на версията в акаунта в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Това е последната версия на $sitemap$. Актуализирайте $sitemap$ в акаунта в $cloud$ с тази версия на $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Този $sitemap$ е само в хранилището на разширението. Качете $sitemap$ в акаунта в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Домейн"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Изтегляне от $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Качване в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Кликване"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Входно поле"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Отваряне на URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Входно поле за парола"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Изчакване (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Текстово входно поле"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Изтриване на Настройка на състоянието на уебсайта?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Продължителност в ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Активирано"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Парола"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Текст"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Достъп до $sitemaps$ от съветника",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Добавяне на изображения"
+   },
+   "wizard_addMoreText": {
+      "message": "Добавяне на още текст"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Анализиране на съдържанието на страницата..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Анализиране на $1 URL с AI (средно изчакване $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "И още..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Зареждат ли се още елементи след превъртане?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Автоматизиране на извличането в $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Автоматизиране в $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Справяне с откриване на ботове"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Проверка за безкрайно превъртане"
+   },
+   "wizard_columnName": {
+      "message": "Име на колона"
+   },
+   "wizard_continueButton": {
+      "message": "Продължаване"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Персонализируеми $css$ селектори",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Персонализируема навигация в сайта"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Възникна грешка при извличане на данни от тази страница. Проблемът е докладван. Опитайте отново по-късно."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 точки с данни намерени на страницата",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "Намерена е 1 точка от данни на страницата"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Деактивиране на безкрайно превъртане"
+   },
+   "wizard_disablePagination": {
+      "message": "Деактивиране на странициране"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Тази страница има ли странициране?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Готово с избирането"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Активиране на безкрайно превъртане"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Активиране на навигация към страници на записи и извличане на данни от всяка страница."
+   },
+   "wizard_errorTitle": {
+      "message": "Грешка"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Експортиране към $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Събиране на данни от страница $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Дайте обратна връзка"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Към Разширен конструктор на $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Какво мислите?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Как премина извличането на данни?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "Избрани са $1 връзки към страници на записи",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "Избрана е 1 връзка към страница на запис"
+   },
+   "wizard_link": {
+      "message": "Връзка"
+   },
+   "wizard_loadMore": {
+      "message": "Зареди още"
+   },
+   "wizard_loadingPage": {
+      "message": "Зареждане на страницата..."
+   },
+   "wizard_loginFeature": {
+      "message": "Функция $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Премахване, добавяне или преименуване на колони преди извличане"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Още екстрактори на данни"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 извлечени записа",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Обхождане на страницирането за откриване на връзки към страници на записи."
+   },
+   "wizard_nextPage": {
+      "message": "Следваща страница"
+   },
+   "wizard_noDataFound": {
+      "message": "Няма намерени данни"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Няма извлечени записи. Проверете предишните стъпки или опитайте отново."
+   },
+   "wizard_numberedPages": {
+      "message": "Номерирани страници: кликнете върху няколко бутона, за да изберете всички"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Работи само в един раздел."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Натиснете $shortcut1$ или $shortcut2$, за да отворите инструментите за разработчици.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Натиснете $shortcut$, за да отворите инструментите за разработчици.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Отворете инструментите за разработчици на браузъра"
+   },
+   "wizard_paginationDetected": {
+      "message": "Открито е странициране. Управлявайте конфигурацията в следващата стъпка."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Страницирането е активирано"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Оставете отзив за разширението в уеб магазина на браузъра!"
+   },
+   "wizard_rateUs": {
+      "message": "Оценете ни"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 извлечени записа, показани $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Повторно генериране"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Повторно извличане"
+   },
+   "wizard_reselect": {
+      "message": "Повторно избиране"
+   },
+   "wizard_retry": {
+      "message": "Повторен опит"
+   },
+   "wizard_scheduler": {
+      "message": "Планировчик"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Извличане на данни от страницата"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Конфигурацията на скрейпъра е готова"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Извличане на данни в ход. ($1 извлечени записа)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Извличане на данни в ход."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Извличане на данни в ход. (1 извлечен запис)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Извличане на данни в ход. ($1 извлечени записа, показани $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Превъртането е активирано"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Необходими са поне две връзки."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Изберете точки от данни ръчно"
+   },
+   "wizard_selectLink": {
+      "message": "Избиране на връзка"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Изберете бутон за следваща страница"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Изберете бутон за странициране. Чести типове са:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Изпращане на обратна връзка"
+   },
+   "wizard_showMe": {
+      "message": "Показване"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Показване на $1 от $2 записа",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Показване на $1 записа",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Показване на 1 запис"
+   },
+   "wizard_signUp": {
+      "message": "Регистрация"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 извлечен запис"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ е запазен в Разширен конструктор на $sitemap2$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Пропускане"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Настройка на данни"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Обратна връзка и разширено извличане на данни"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Следване на връзки към записи"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Настройка на данни за страница на запис"
+   },
+   "wizard_stepPagination": {
+      "message": "Странициране и превъртане"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Синхронизиране и изпълнение на $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Благодарим за обратната връзка!"
+   },
+   "wizard_title": {
+      "message": "Име"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Опитайте да изберете отново"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Всички отзиви се преглеждат за подобряване на потребителското изживяване."
+   },
+   "wizard_yourFeedback": {
+      "message": "Вашата обратна връзка"
+   }
+}

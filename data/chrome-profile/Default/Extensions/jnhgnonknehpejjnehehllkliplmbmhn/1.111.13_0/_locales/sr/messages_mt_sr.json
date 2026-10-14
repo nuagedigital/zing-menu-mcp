@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - Бесплатно скрејповање веба",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - Бесплатно скрејповање веба",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Алат за екстракцију веб података са једноставним интерфејсом типа „покажи и кликни“ за модерни веб"
+	},
+	"common_actions": {
+		"message": "Акције"
+	},
+	"common_createSitemap": {
+		"message": "Креирај $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "ИД"
+	},
+	"common_importSitemap": {
+		"message": "Увези $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Сазнајте више",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Вишеструко"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Још увек нема извучених података"
+	},
+	"common_scrape": {
+		"message": "Остругати",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Селектор"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Идите на Напредни $sitemap$ креатор",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "Више програма за извлачење података"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Прилагодљива навигација сајта"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Прилагодљиви селектори $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "Функција $logIn$",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "И више..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Чаробњак за приступ $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Притисните $shortcut1$ или $shortcut2$ да бисте отворили Алатке за програмере.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Притисните $shortcut$ да бисте отворили Алатке за програмере.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Отворите алате за програмере у прегледачу"
+	},
+	"wizard_showMe": {
+		"message": "Покажи ми",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Нису пронађени подаци",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Назив колоне"
+	},
+	"wizard_title": {
+		"message": "Наслов",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Линк"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Анализирање садржаја странице..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Дошло је до грешке приликом издвајања података са ове странице. Проблем је пријављен. Покушајте поново касније."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "Приказује се $1 од $2 записа",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "Приказује се 1 запис"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "Приказују се записи $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "1 тачка података пронађена на страници"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "Пронађене тачке података $1 на страници",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Учитавање странице..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Уклоните, додајте или преименујте колоне пре издвајања"
+	},
+	"wizard_addMoreText": {
+		"message": "Додај још текста",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Додај слике",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Покушај поново",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Регенериши",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Грешка"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "Конфигурација скрепера је спремна"
+	},
+	"wizard_scrapeThePage": {
+		"message": "Остружите страницу",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Ниједан запис није покраден. Проверите претходне кораке или покушајте поново."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Поново стругање",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Шта мислиш?"
+	},
+	"wizard_giveFeedback": {
+		"message": "Пошаљите повратне информације",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Ваше повратне информације",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Пошаљи повратне информације",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ сачувано у Напредном $sitemap2$ креатору",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Поново изабери",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "Изабрана је 1 веза до странице ставке"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "Изабрани линкови ка страницама са $1 ставком",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "Потребна су најмање два линка."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Покушајте поново да изаберете",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Како је било твоје искуство са стругањем?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "Аутоматизуј екстракцију у $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "Извоз у $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Руковање детекцијом ботова",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "Синхронизуј и покрени $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Региструј се",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Планер"
+	},
+	"wizard_stepPagination": {
+		"message": "Пагинација и скроловање"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Подешавање података"
+	},
+	"wizard_continueButton": {
+		"message": "Настави",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Да ли ова страница има пагинацију?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Пагинација је омогућена"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Дугме „Изабери следећу страницу“",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Онемогући пагинацију",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Дугме за избор пагинације. Уобичајени типови су:"
+	},
+	"wizard_nextPage": {
+		"message": "Следећа страница"
+	},
+	"wizard_loadMore": {
+		"message": "Учитај још"
+	},
+	"wizard_numberedPages": {
+		"message": "Нумерисане странице: кликните на више дугмади да бисте изабрали све"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "Да ли се након скроловања учитавају додатне ставке?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Провера бесконачног скроловања"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Скроловање је омогућено"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Омогући бесконачно скроловање",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Онемогући бесконачно скроловање",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Скрбовање у току."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Скрађивање у току. (1 запис је скрађен)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Скраповање у току. ($1 записи скрапљени)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Скрајповање у току. ($1 записи скрајповани, приказује $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 запис је извучен"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 записи сакупљени",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "Записи $1 извучени, приказујући $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Хвала вам на повратним информацијама!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Молимо вас да прегледате екстензију у веб продавници прегледача!"
+	},
+	"wizard_rateUs": {
+		"message": "Оцените нас"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Све рецензије се проверавају како би се побољшало корисничко искуство."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Омогућите навигацију до страница ставки и издвајање података са сваке странице."
+	},
+	"wizard_selectLink": {
+		"message": "Изаберите везу",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Прикупљање података са странице $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "Анализирање $1 URL-ова помоћу вештачке интелигенције (просечно време чекања $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Пратите линкове ставки"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Повратне информације и напредно скрапинговање"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Подешавање података на страници ставке"
+	},
+	"wizard_doneSelecting": {
+		"message": "Завршено са одабиром",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "Аутоматизуј у $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Откривена је пагинација. Управљајте конфигурацијом у следећем кораку."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Ради само у једној картици."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "Име $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "Почетни URL"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL"
+	},
+	"button_saveSitemap": {
+		"message": "Сачувај $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 није важећи URL",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "__МТ_ТОКЕН_0__ __МТ_ТОКЕН_1__",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "Поље $sitemap$ $json$ је обавезно и не може бити празно",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "Неважећи $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "Недостаје $sitemap$ кључ - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "Број $1 не сме бити већи од $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 је обавезан и не може бити празан",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 треба да има најмање $2 знакова",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "Максимална дужина $1 је $2 знакова",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Дозвољена су само слова, цифре $digits$ или било који од карактера $allowedCharacters$",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ са овим ID-ом већ постоји",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 мора бити низ",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 су обавезни и не могу бити празни. Морате изабрати барем један",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "Само јединствени кључеви _id, startUrl, websiteStateSetup, селектори, hashHistory су дозвољени у $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "Филтер $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "Домен"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "Отпреми на $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "Преузми са $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ није синхронизован",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ је синхронизован",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ је само у $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ је само у екстензији",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Пребриши",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "Најновија верзија $sitemap$ не може бити утврђена. Препишите $sitemap$ у $cloud$ налогу овом верзијом $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "Најновија верзија $sitemap$ не може бити утврђена. Препишите овај $sitemap$ верзијом са $cloud$ налога.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "Најновија верзија $sitemap$ је на $cloud$ налогу. Пребришите $sitemap$ на $cloud$ налогу овом верзијом $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "Ово је најновија верзија $sitemap$. Препишите овај $sitemap$ верзијом са $cloud$ налога.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Ажурирање",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "Најновија верзија $sitemap$ је на $cloud$ налогу. Ажурирајте овај $sitemap$ да би се подударала са верзијом на $cloud$ налогу",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "Ово је најновија верзија $sitemap$. Ажурирајте $sitemap$ на $cloud$ налогу овом верзијом $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "Преузми",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "Овај $sitemap$ је само на $cloud$ налогу. Преузмите $sitemap$ са $cloud$ налога да бисте га изменили.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Отпреми",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Локално обриши",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "Овај $sitemap$ је само у складишту екстензије. Отпремите $sitemap$ на $cloud$ налог.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "Обрисати $sitemap$?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Потврда брисања"
+	},
+	"button_cancel": {
+		"message": "Откажи",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Обриши",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Одјава",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "Пријавите се на $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Селектори",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "Почетни URL-ови",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Пријава на веб локацију / Подешавање стања",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Покрајани подаци",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "$sitemap$ извоз",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Извоз података",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Направи нови $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Креирајте $sitemap$ помоћу чаробњака",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Помоћ",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Видео туторијали",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Документација",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Тестна места",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Форум",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Идеје за функције са позитивним гласовима",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Експерименталне функције су омогућене",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Тип"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Родитељски селектори",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Направи нови селектор",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Генеришите селекторе помоћу вештачке интелигенције:"
+	},
+	"button_listingPage": {
+		"message": "Страница са огласом",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Страница са једном ставком",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "Обрисати селектор $1?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "Преместите алате за програмере на дно прегледача да бисте почели да користите $webScraper$.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Преглед података"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Још увек нису издвојени подаци."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Након повезивања екстензије са $cloud$ налогом, поново учитајте $sitemap$ листу.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Поново учитај",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Затвори",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Назив атрибута"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Кликните да бисте видели доступне атрибуте"
+	},
+	"edit_selector_tableColumns": {
+		"message": "Колоне табеле"
+	},
+	"edit_selector_column": {
+		"message": "Колона"
+	},
+	"edit_selector_resultKey": {
+		"message": "Кључ резултата"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Укључи у резултат"
+	},
+	"button_dataPreview": {
+		"message": "Преглед података",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "Отпреми $sitemap$ на $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Пошаљи податке за обуку",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Елемент за померање",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Померајте само ако недостаје"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Помери до елемента"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Кликните на селектор"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Селектор реда заглавља"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Селектор редова података"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Селектор „Изврши када није пронађен“"
+	},
+	"button_select": {
+		"message": "Изаберите",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Преглед елемента",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Затвори преглед",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Селектор за чување",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Скролуј",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Ограничење елемента",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Неограничено",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Регекс",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "Пронађен је URL $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Минимални приоритет",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Кашњење (ms)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Број колона",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Вишеструки тип",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "Само први запис"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Више записа у више колона"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Више записа у једној колони"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Родитељски селектори",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Изврши акцију",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Скрипта",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Враћене колоне са подацима"
+	},
+	"edit_selector_columnName": {
+		"message": "Назив колоне"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "URL (само један)"
+	},
+	"button_remove": {
+		"message": "Уклони",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Додај колону",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Тип клика",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Тип пагинације",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Јединственост елемента клика",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Тип везе",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "Одбаците почетне елементе",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Аутоматски"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Линк ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Скриптована веза ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Веза атрибута ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Текстуални линк ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Кликните више пута на дугме „следеће/више“ ([Следећа страница] [Учитај још])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Кликните једном на више дугмади ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Линк из било које скрипте ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Кликните једном (пагинација, табулатори)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Кликните на још (кликните да бисте учитали још елемената. Зауставља се када се не пронађу нови елементи са јединственим текстуалним садржајем.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Јединствени текст"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Јединствени $html$+Текст",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Јединствени $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Јединствени селектор $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Линк (чита се из атрибута href)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Текст (користите текстуални садржај као линк)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Атрибут"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Скриптована веза у атрибуту ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Никада не одбацујте"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Одбаци када постоји елемент клика"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Увек одбаци"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URL-ови",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "Додај URL",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "Додај из $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Ова функција је застарела и неће радити у будућем издању."
+	},
+	"website_state_setup_enabled": {
+		"message": "Омогућено",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Подешавање стања веб-сајта за брисање",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Додај акцију",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Извршите радње",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Сачувај",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Да ли желите да обришете подешавање стања веб-сајта?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Лозинка",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Текст",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Трајање у ms",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "Отвори URL"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Кликните"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Спавање (мс)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Унос текста"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Унос лозинке"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Унос"
+	},
+	"button_loading": {
+		"message": "Учитавање...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Почни са стругањем",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "Поље за лозинку у подешавању стања веб-сајта је празно."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "Интервал захтева (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "Интервал захтева",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Кашњење учитавања странице (ms)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Кашњење учитавања странице",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Учитавање"
+	},
+	"button_refresh": {
+		"message": "Освежи",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Освежи податке",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "Помозите нам да побољшамо $webScraper$!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Гласајте за и пошаљите идеје за функције",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "Аутоматизуј скрапинг у $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Аутоматски закажите екстракцију података"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "Управљајте $webScraper$ путем API-ја",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "Аутоматски извоз у $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "Уграђени $proxy$ за проблеме са приступом сајту",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Генерисање датотеке"
+	},
+	"export_downloadAs": {
+		"message": "Преузми као:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Да"
+	},
+	"edit_selector_multipleNo": {
+		"message": "Не"
+	},
+	"button_edit": {
+		"message": "Измени",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "ИД селектора",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Подешавања"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Дозволи прикупљање метрика коришћења екстензија. Прикупљају се само нелични подаци у агрегираном формату. Више детаља у"
+	},
+	"options_page_privacyPolicy": {
+		"message": "Политика приватности"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Дозволи прикупљање метрика коришћења"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Омогући експерименталне функције"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "Скраповање ће почети у новој картици. Када се скраповање заврши, овај прозор ће се затворити."
+	},
+	"options_page_keepWorking": {
+		"message": "Остали радови могу се наставити током стругања."
+	}
+}

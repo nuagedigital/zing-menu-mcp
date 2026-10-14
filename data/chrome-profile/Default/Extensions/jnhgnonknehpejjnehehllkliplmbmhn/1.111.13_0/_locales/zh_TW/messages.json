@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "在 $webScraperCloud$ 中自動化抓取",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "透過 API 管理 $webScraper$",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "自動匯出至 $dropbox$、$googledrive$、$awss3$、$googlecloud$、$azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "內建 $proxy$ 解決網站存取問題",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "自動排程資料擷取"
+   },
+   "browse_helpUsImprove": {
+      "message": "協助我們改善 $webScraper$！",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "載入中"
+   },
+   "button_addAction": {
+      "message": "新增動作"
+   },
+   "button_addColumn": {
+      "message": "新增欄"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "從 $robotstxt$ 新增",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "建立新選擇器"
+   },
+   "button_addUrl": {
+      "message": "新增 URL"
+   },
+   "button_cancel": {
+      "message": "取消"
+   },
+   "button_close": {
+      "message": "關閉"
+   },
+   "button_closePreview": {
+      "message": "關閉預覽"
+   },
+   "button_dataPreview": {
+      "message": "資料預覽"
+   },
+   "button_delete": {
+      "message": "刪除"
+   },
+   "button_deleteLocally": {
+      "message": "在本機刪除"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "刪除網站狀態設定"
+   },
+   "button_download": {
+      "message": "下載"
+   },
+   "button_edit": {
+      "message": "編輯"
+   },
+   "button_elementPreview": {
+      "message": "元素預覽"
+   },
+   "button_listingPage": {
+      "message": "列表頁面"
+   },
+   "button_loading": {
+      "message": "載入中..."
+   },
+   "button_overwrite": {
+      "message": "覆寫"
+   },
+   "button_performAction": {
+      "message": "執行動作"
+   },
+   "button_performActions": {
+      "message": "執行動作"
+   },
+   "button_refresh": {
+      "message": "重新整理"
+   },
+   "button_refreshData": {
+      "message": "重新整理資料"
+   },
+   "button_reload": {
+      "message": "重新整理"
+   },
+   "button_remove": {
+      "message": "移除"
+   },
+   "button_save": {
+      "message": "儲存"
+   },
+   "button_saveSelector": {
+      "message": "儲存選擇器"
+   },
+   "button_saveSitemap": {
+      "message": "儲存 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "選擇"
+   },
+   "button_sendTrainingData": {
+      "message": "傳送訓練資料"
+   },
+   "button_singleItemPage": {
+      "message": "單一項目頁面"
+   },
+   "button_startScraping": {
+      "message": "開始抓取"
+   },
+   "button_update": {
+      "message": "更新"
+   },
+   "button_upload": {
+      "message": "上傳"
+   },
+   "button_uploadToCloud": {
+      "message": "將 $sitemap$ 上傳至 $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "投票並提交功能構想"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "將擴充功能連接至 $cloud$ 帳戶後，重新整理 $sitemap$ 清單。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "動作"
+   },
+   "common_createSitemap": {
+      "message": "建立 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "錯誤："
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "匯入 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "了解更多"
+   },
+   "common_multiple": {
+      "message": "多個"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 必須介於 $2 和 $3 之間",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 必須為數字",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "尚未抓取資料"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 範圍應為遞增",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "抓取"
+   },
+   "common_selector": {
+      "message": "選擇器"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "未授權。請重新連線至 $cloud$。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "值不得重複。"
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "點擊此處以啟用快速鍵"
+   },
+   "contentApp_doneSelecting": {
+      "message": "完成選擇"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "父元素不包含所選元素"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "找不到父元素"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "按 $key$ 選擇子元素",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "按 $key$ 選擇父元素",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "按 $key$ 選擇懸停元素",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "已選擇元素數量：$1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 為必填,不可空白",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1 的最大長度為 $2 個字元",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 長度至少須為 $2 個字元",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "僅允許使用字母、數字 $digits$ 或 $allowedCharacters$ 中的任一字元",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "無效的 $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "缺少 $sitemap$ 鍵 - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 必須為陣列",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "已存在使用此 Id 的 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ 為必填，不可空白",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 為必填，不可空白",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 數量不可超過 $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$ 中僅允許使用唯一鍵 _id、startUrl、websiteStateSetup、selectors、hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ 名稱",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "起始 URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 不是有效的 URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "資料預覽"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "尚未擷取任何資料。"
+   },
+   "edit_selector_attributeName": {
+      "message": "屬性名稱"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "點擊元素唯一性"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "點擊以檢視可用屬性"
+   },
+   "edit_selector_clickType": {
+      "message": "點擊類型"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "點擊更多 (點擊以載入更多元素。找不到具唯一文字內容的新元素時停止。)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "點擊一次 (分頁、索引標籤)"
+   },
+   "edit_selector_column": {
+      "message": "欄"
+   },
+   "edit_selector_columnCount": {
+      "message": "欄數"
+   },
+   "edit_selector_columnName": {
+      "message": "欄名稱"
+   },
+   "edit_selector_delay": {
+      "message": "延遲 (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "此功能已淘汰，未來版本將無法使用。"
+   },
+   "edit_selector_discardAlways": {
+      "message": "一律捨棄"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "捨棄初始元素"
+   },
+   "edit_selector_discardNever": {
+      "message": "永不捨棄"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "當點擊元素存在時捨棄"
+   },
+   "edit_selector_elementLimit": {
+      "message": "元素限制"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "僅第一筆記錄"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "找到的 URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "選擇器 ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "納入結果"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "為 URL (僅一個)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "點擊選擇器"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "資料列選擇器"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "標題列選擇器"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "找不到時執行的選擇器"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "捲動元素"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "僅在缺少時捲動"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "捲動至元素"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "來自任意腳本的連結 ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "連結類型"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "屬性"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "連結 (從 href 屬性讀取)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "屬性中的腳本連結 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "文字 (以文字內容作為連結)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "最低優先順序"
+   },
+   "edit_selector_multipleNo": {
+      "message": "否"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "多筆記錄分至多欄"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "多筆記錄置於單欄"
+   },
+   "edit_selector_multipleType": {
+      "message": "多個類型"
+   },
+   "edit_selector_multipleYes": {
+      "message": "是"
+   },
+   "edit_selector_paginationType": {
+      "message": "分頁類型"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "自動"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "多次點擊下一頁/更多按鈕 ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "在多個按鈕上各點擊一次 ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "屬性連結 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "連結 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "腳本連結 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "文字連結 ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "父選擇器"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "結果鍵"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "回傳的資料欄"
+   },
+   "edit_selector_script": {
+      "message": "腳本"
+   },
+   "edit_selector_scroll": {
+      "message": "捲動"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "點擊動作"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "向下捲動動作"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "元素 (捲動)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "元素屬性"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "元素點擊"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "元素向下捲動 (已淘汰)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "群組 (已淘汰)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "圖片"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "連結"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "網路資料"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "分頁"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "快顯視窗連結 (已淘汰)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "指令碼資料"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ 連結",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "表格"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "文字"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "表格欄"
+   },
+   "edit_selector_type": {
+      "message": "類型"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "唯一 $css$ 選擇器",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "唯一 $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "唯一 $html$+文字",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "唯一文字"
+   },
+   "edit_selector_unlimited": {
+      "message": "無限制"
+   },
+   "export_downloadAs": {
+      "message": "下載為："
+   },
+   "export_generatingFile": {
+      "message": "正在產生檔案"
+   },
+   "extDesc": {
+      "message": "具備簡易點擊式介面的現代網頁資料擷取工具"
+   },
+   "extName": {
+      "message": "$webScraper$ - 免費網頁抓取",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - 免費網頁抓取",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "已抓取的資料"
+   },
+   "nav_createNewSitemap": {
+      "message": "建立新 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "使用精靈建立 $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "說明文件"
+   },
+   "nav_editMetadata": {
+      "message": "起始 URL"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "已啟用實驗性功能"
+   },
+   "nav_exportData": {
+      "message": "資料匯出"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ 匯出",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "論壇"
+   },
+   "nav_help": {
+      "message": "說明"
+   },
+   "nav_logout": {
+      "message": "登出"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "將開發人員工具移至瀏覽器底部以開始使用 $webScraper$。",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "選擇器"
+   },
+   "nav_signInToCloud": {
+      "message": "登入 $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "測試網站"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "為功能構想投票"
+   },
+   "nav_videoTutorials": {
+      "message": "影片教學"
+   },
+   "nav_websiteStateSetup": {
+      "message": "網站 Log-in / 狀態設定"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "允許使用狀況指標蒐集"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "啟用實驗性功能"
+   },
+   "options_page_keepWorking": {
+      "message": "網頁抓取期間可繼續進行其他工作。"
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "允許擴充功能進行使用狀況指標蒐集。僅蒐集彙總格式的非個人資訊。詳情請參閱"
+   },
+   "options_page_privacyPolicy": {
+      "message": "隱私權政策"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "已完成抓取 $sitemapId$",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "抓取完成"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "網頁抓取將在新索引標籤中開始。抓取完成後，此視窗將關閉。"
+   },
+   "options_page_settings": {
+      "message": "設定"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "網站狀態設定中的密碼欄位為空。"
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "頁面載入延遲 (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "頁面載入延遲"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "請求間隔 (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "請求間隔"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "刪除選擇器 $1？",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "使用 AI 產生選擇器："
+   },
+   "selectors_idAlreadyExists": {
+      "message": "此 ID 的選擇器已存在"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "此 ID 的選擇器與現有的資料匯出欄位相同"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "屬性名稱不能包含空白字元、\", ', >, /, = 或任何控制字元"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 不能以空白字元、底線或 \"web-scraper\" 開頭，且不能包含: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "必須為有效的 CSS 選擇器"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "選擇器至少需要另一個選擇器作為父選擇器"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript 不支援可比對 0 個字元的正規表示式"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "父選擇器"
+   },
+   "selectors_tableHeaderType": {
+      "message": "類型"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "刪除確認"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "刪除 $sitemap$？",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "篩選 $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "此 $sitemap$ 僅存在於 $cloud$ 帳戶中。從 $cloud$ 帳戶下載 $sitemap$ 以進行編輯。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "這是最新的 $sitemap$ 版本。以 $cloud$ 帳戶中的版本覆寫此 $sitemap$。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ 未同步",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "最新的 $sitemap$ 版本位於 $cloud$ 帳戶中。以此版本的 $sitemap$ 覆寫 $cloud$ 帳戶中的 $sitemap$。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "無法判斷最新的 $sitemap$ 版本。以 $cloud$ 帳戶中的版本覆寫此 $sitemap$。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "無法判斷最新的 $sitemap$ 版本。以此版本的 $sitemap$ 覆寫 $cloud$ 帳戶中的 $sitemap$。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ 僅存在於 $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ 已同步",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ 僅存在於擴充功能",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "最新的 $sitemap$ 版本位於 $cloud$ 帳戶中。更新此 $sitemap$ 以符合 $cloud$ 帳戶中的版本。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "這是最新的 $sitemap$ 版本。以此版本的 $sitemap$ 更新 $cloud$ 帳戶中的 $sitemap$。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "此 $sitemap$ 僅存在於擴充功能儲存空間中。將 $sitemap$ 上傳至 $cloud$ 帳戶。",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "網域"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "從 $cloud$ 下載",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "上傳至 $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "點擊"
+   },
+   "website_state_setup_actionInput": {
+      "message": "輸入"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "開啟 URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "密碼輸入"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "等待 (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "文字輸入"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "刪除網站狀態設定？"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "持續時間 (ms)"
+   },
+   "website_state_setup_enabled": {
+      "message": "已啟用"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "密碼"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "文字"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "存取精靈 $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "新增圖片"
+   },
+   "wizard_addMoreText": {
+      "message": "新增更多文字"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "正在分析頁面內容..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "正在使用 AI 分析 $1 個 URL（平均等待 $waitTime$s）",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "還有更多..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "捲動後是否會載入更多項目？"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "在 $webScraperCloud$ 中自動化擷取",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "在 $cloud$ 中自動化",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "機器人偵測處理"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "正在檢查無限捲動"
+   },
+   "wizard_columnName": {
+      "message": "欄位名稱"
+   },
+   "wizard_continueButton": {
+      "message": "繼續"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "可自訂的 $css$ 選擇器",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "可自訂的網站導覽"
+   },
+   "wizard_dataExtractionError": {
+      "message": "從此頁面擷取資料時發生錯誤。問題已回報。請稍後再試。"
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "在頁面上找到 $1 個資料點",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "在頁面上找到 1 個資料點"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "停用無限捲動"
+   },
+   "wizard_disablePagination": {
+      "message": "停用分頁"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "此頁面是否有分頁？"
+   },
+   "wizard_doneSelecting": {
+      "message": "完成選擇"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "啟用無限捲動"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "啟用導覽至項目頁面並從每個頁面擷取資料。"
+   },
+   "wizard_errorTitle": {
+      "message": "錯誤"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "匯出至 $dropbox$、$googleDrive$、$s3$ ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "正在蒐集頁面資料 $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "提供意見回饋"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "前往進階 $sitemap$ 建構器",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "有什麼想法嗎？"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "您的網頁抓取體驗如何？"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "已選擇 $1 個項目頁面連結",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "已選擇 1 個項目頁面連結"
+   },
+   "wizard_link": {
+      "message": "連結"
+   },
+   "wizard_loadMore": {
+      "message": "載入更多"
+   },
+   "wizard_loadingPage": {
+      "message": "正在載入頁面..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ 功能",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "擷取前移除、新增或重新命名欄位"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "更多資料擷取器"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "已抓取 $1 筆記錄",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "正在瀏覽分頁以尋找項目頁面連結。"
+   },
+   "wizard_nextPage": {
+      "message": "下一頁"
+   },
+   "wizard_noDataFound": {
+      "message": "找不到資料"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "未抓取到任何記錄。請檢查先前的步驟或重試。"
+   },
+   "wizard_numberedPages": {
+      "message": "編號頁面：點擊多個按鈕以全部選擇"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "僅能在單一索引標籤中運作。"
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "按 $shortcut1$ 或 $shortcut2$ 開啟開發人員工具。",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "按 $shortcut$ 開啟開發人員工具。",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "開啟瀏覽器的開發人員工具"
+   },
+   "wizard_paginationDetected": {
+      "message": "偵測到分頁。請在下一步管理設定。"
+   },
+   "wizard_paginationEnabled": {
+      "message": "分頁已啟用"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "請在瀏覽器線上商店為此擴充功能撰寫評論！"
+   },
+   "wizard_rateUs": {
+      "message": "為我們評分"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "已抓取 $1 筆記錄,顯示 $2 筆",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "重新產生"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "重新抓取"
+   },
+   "wizard_reselect": {
+      "message": "重新選擇"
+   },
+   "wizard_retry": {
+      "message": "重試"
+   },
+   "wizard_scheduler": {
+      "message": "排程器"
+   },
+   "wizard_scrapeThePage": {
+      "message": "抓取頁面"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "抓取器設定已就緒"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "正在抓取。（已抓取 $1 筆記錄）",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "正在抓取。"
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "正在抓取。（已抓取 1 筆記錄）"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "正在抓取。（已抓取 $1 筆記錄，顯示 $2 筆）",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "捲動已啟用"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "至少需要兩個連結。"
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "手動選擇資料點"
+   },
+   "wizard_selectLink": {
+      "message": "選擇連結"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "選擇下一頁按鈕"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "選擇分頁按鈕。常見類型包括："
+   },
+   "wizard_sendFeedback": {
+      "message": "傳送意見回饋"
+   },
+   "wizard_showMe": {
+      "message": "顯示"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "顯示 $2 筆記錄中的 $1 筆",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "顯示 $1 筆記錄",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "顯示 1 筆記錄"
+   },
+   "wizard_signUp": {
+      "message": "註冊"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "已抓取 1 筆記錄"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ 已儲存於進階 $sitemap2$ 建構器",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "略過"
+   },
+   "wizard_stepDataSetup": {
+      "message": "資料設定"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "意見回饋與進階網頁抓取"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "開啟項目連結"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "項目頁面資料設定"
+   },
+   "wizard_stepPagination": {
+      "message": "分頁與捲動"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "同步並執行 $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "感謝提供意見回饋!"
+   },
+   "wizard_title": {
+      "message": "標題"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "重新選擇"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "所有評論皆會經過檢視,以改善使用者體驗。"
+   },
+   "wizard_yourFeedback": {
+      "message": "您的意見回饋"
+   }
+}

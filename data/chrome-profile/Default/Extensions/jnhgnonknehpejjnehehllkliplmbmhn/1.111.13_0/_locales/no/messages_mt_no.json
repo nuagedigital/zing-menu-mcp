@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ – Gratis nettskraping",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ – Gratis nettskraping",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Verktøy for uttrekking av nettdata med et enkelt pek-og-klikk-grensesnitt for moderne nett"
+	},
+	"common_actions": {
+		"message": "Handlinger"
+	},
+	"common_createSitemap": {
+		"message": "Opprett $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "ID"
+	},
+	"common_importSitemap": {
+		"message": "Importer $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Lær mer",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Flere"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Ingen data skrapt ennå"
+	},
+	"common_scrape": {
+		"message": "Skrape",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Velger"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Gå til avansert $sitemap$-bygger",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "Flere datauttrekkere"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Tilpassbar nettstednavigasjon"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Tilpassbare $css$-selektorer",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "$logIn$-funksjonen",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "Og mer ..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Tilgangsveiviser $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Trykk $shortcut1$ eller $shortcut2$ for å åpne utviklerverktøy.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Trykk $shortcut$ for å åpne utviklerverktøy.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Åpne nettleserens utviklerverktøy"
+	},
+	"wizard_showMe": {
+		"message": "Vis meg",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Ingen data funnet",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Kolonnenavn"
+	},
+	"wizard_title": {
+		"message": "Tittel",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Lenke"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Analyserer sideinnhold..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Det oppsto en feil under uthenting av data fra denne siden. Problemet er rapportert. Prøv på nytt senere."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "Viser $1 av $2 poster",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "Viser 1 oppføring"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "Viser $1-oppføringer",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "1 datapunkt funnet på siden"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "$1 datapunkter funnet på siden",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Laster inn side..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Fjern, legg til eller gi nytt navn til kolonner før utpakking"
+	},
+	"wizard_addMoreText": {
+		"message": "Legg til mer tekst",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Legg til bilder",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Prøv på nytt",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Regenerer",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Feil"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "Skraperkonfigurasjonen er klar"
+	},
+	"wizard_scrapeThePage": {
+		"message": "Skrap siden",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Ingen poster ble skrapt. Sjekk tidligere trinn eller prøv på nytt."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Skrap på nytt",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Hva synes du?"
+	},
+	"wizard_giveFeedback": {
+		"message": "Gi tilbakemelding",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Din tilbakemelding",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Send tilbakemelding",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ lagret i avansert $sitemap2$-bygger",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Velg på nytt",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "1 lenke til varesiden er valgt"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "$1 lenker til varesiden er valgt",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "Minst to lenker er påkrevd."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Prøv å velge på nytt",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Hvordan var skrapeopplevelsen din?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "Automatiser uttrekking i $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "Eksporter til $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Håndtering av botdeteksjon",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "Synkroniser og kjør $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Registrer deg",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Planlegger"
+	},
+	"wizard_stepPagination": {
+		"message": "Paginering og bla"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Dataoppsett"
+	},
+	"wizard_continueButton": {
+		"message": "Fortsette",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Har denne siden paginering?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Paginering aktivert"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Velg Neste side-knapp",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Deaktiver paginering",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Velg pagineringsknapp. Vanlige typer er:"
+	},
+	"wizard_nextPage": {
+		"message": "Neste side"
+	},
+	"wizard_loadMore": {
+		"message": "Last inn mer"
+	},
+	"wizard_numberedPages": {
+		"message": "Nummererte sider: klikk på flere knapper for å velge alle"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "Lastes flere elementer inn etter at man har skrollet?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Sjekker uendelig rulling"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Rulling aktivert"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Aktiver uendelig rulling",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Deaktiver uendelig rulling",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Skraping pågår."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Skraping pågår. (1 post skrapt)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Skraping pågår. ($1 poster skrapt)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Skraping pågår. ($1 poster skrapt, viser $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 post skrapt"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 poster skrapt",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "$1 poster skrapet, viser $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Takk for tilbakemeldingen!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Vennligst se gjennom utvidelsen i nettleserens nettbutikk!"
+	},
+	"wizard_rateUs": {
+		"message": "Vurder oss"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Alle anmeldelser blir gjennomgått for å forbedre brukeropplevelsen."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Aktiver navigasjon til vare-sider og datauttrekk fra hver side."
+	},
+	"wizard_selectLink": {
+		"message": "Velg lenke",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Samler sidedata $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "Analyserer $1 URL-er med AI (gjennomsnittlig ventetid $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Følg lenker til varer"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Tilbakemelding og avansert skraping"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Oppsett av data for elementside"
+	},
+	"wizard_doneSelecting": {
+		"message": "Ferdig med valget",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "Automatiser i $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Paginering oppdaget. Administrer konfigurasjonen i neste trinn."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Fungerer bare i én fane."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "$sitemap$ navn",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "Start-URL"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL-adresse"
+	},
+	"button_saveSitemap": {
+		"message": "Lagre $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 er ikke en gyldig URL",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ $json$ er obligatorisk og kan ikke være tomt",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "Ugyldig $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "$sitemap$ nøkkel mangler - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "Antall $1 skal ikke overstige $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 er obligatorisk og kan ikke være tomt",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 må være minst $2 tegn langt",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "Maksimal lengde på $1 er $2 tegn",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Bare bokstaver, sifre $digits$ eller noen av tegnene $allowedCharacters$ er tillatt.",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ med denne ID-en finnes allerede",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 må være en matrise",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 er obligatoriske og kan ikke være tomme. Du må velge minst én",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "Bare unike nøkler _id, startUrl, websiteStateSetup, selectors og hashHistory er tillatt i $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "Filter $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "Domene"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "Last opp til $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "Last ned fra $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ er ikke synkronisert",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ er synkronisert",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ er bare i $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ er bare i utvidelsen",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Overskriv",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "Den nyeste $sitemap$-versjonen kan ikke bestemmes. Overskriv $sitemap$ i $cloud$-kontoen med denne versjonen av $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "Den nyeste $sitemap$-versjonen kan ikke bestemmes. Overskriv denne $sitemap$ med versjonen fra $cloud$-kontoen.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "Den nyeste versjonen av $sitemap$ finnes i $cloud$-kontoen. Overskriv $sitemap$ i $cloud$-kontoen med denne versjonen av $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "Dette er den nyeste $sitemap$-versjonen. Overskriv denne $sitemap$ med en versjon fra $cloud$-kontoen.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Oppdatering",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "Den nyeste $sitemap$-versjonen er i $cloud$-kontoen. Oppdater denne $sitemap$ slik at den samsvarer med versjonen i $cloud$-kontoen.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "Dette er den nyeste $sitemap$-versjonen. Oppdater $sitemap$ i $cloud$-kontoen med denne versjonen av $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "Last ned",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "Denne $sitemap$ er bare i $cloud$-kontoen. Last ned $sitemap$ fra $cloud$-kontoen for å redigere.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Last opp",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Slett lokalt",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "Denne $sitemap$ er bare i utvidelseslageret. Last opp $sitemap$ til $cloud$-kontoen.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "Slett $sitemap$?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Slettingsbekreftelse"
+	},
+	"button_cancel": {
+		"message": "Kansellere",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Slett",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Logg ut",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "Logg inn på $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Selektorer",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "Start-URL-er",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Nettstedpålogging / Oppsett av tilstand",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Skrapede data",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "$sitemap$ eksport",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Dataeksport",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Opprett ny $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Opprett $sitemap$ med veiviseren",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Hjelp",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Videoopplæringer",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Dokumentasjon",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Teststeder",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Forum",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Stem opp funksjonsideer",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Eksperimentelle funksjoner aktivert",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Type"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Foreldrevelgere",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Opprett ny velger",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Generer selektorer med AI:"
+	},
+	"button_listingPage": {
+		"message": "Oppføringsside",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Side med enkeltelement",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "Slett selektor $1?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "Flytt utviklerverktøyene til bunnen av nettleseren for å begynne å bruke $webScraper$.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Forhåndsvisning av data"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Ingen data er hentet ut ennå."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Etter at du har koblet utvidelsen til $cloud$-kontoen, laster du $sitemap$-listen på nytt.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Last inn på nytt",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Lukke",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Attributtnavn"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Klikk for å se tilgjengelige attributter"
+	},
+	"edit_selector_tableColumns": {
+		"message": "Tabellkolonner"
+	},
+	"edit_selector_column": {
+		"message": "Søyle"
+	},
+	"edit_selector_resultKey": {
+		"message": "Resultatnøkkel"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Inkluder i resultatet"
+	},
+	"button_dataPreview": {
+		"message": "Forhåndsvisning av data",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "Last opp $sitemap$ til $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Send treningsdata",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Rulleelement",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Bla bare hvis det mangler"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Bla til elementet"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Klikkvelger"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Velger for overskriftsrad"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Dataradervelger"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Utfør når ikke funnet-velgeren"
+	},
+	"button_select": {
+		"message": "Velge",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Forhåndsvisning av elementer",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Lukk forhåndsvisning",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Lagre velger",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Bla",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Elementgrense",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Ubegrenset",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Regex",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "Fant URL-en $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Minimumsprioritet",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Forsinkelse (ms)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Kolonnetall",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Flere typer",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "Kun første opptak"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Flere poster i flere kolonner"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Flere poster i én kolonne"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Foreldrevelgere",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Utfør handling",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Manus",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Returnerte datakolonner"
+	},
+	"edit_selector_columnName": {
+		"message": "Kolonnenavn"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "Er URL (bare én)"
+	},
+	"button_remove": {
+		"message": "Fjerne",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Legg til kolonne",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Klikktype",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Pagineringstype",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Klikkelementets unikhet",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Lenketype",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "Kast de første elementene",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Bil"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Lenke ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Skriptlenke ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Attributtlenke ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Tekstlenke ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Klikk flere ganger på neste/mer-knappen ([Neste side] [Last inn mer])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Klikk én gang på flere knapper ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Lenke fra et hvilket som helst skript ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Klikk én gang (paginering, tabulatorer)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Klikk på mer (klikk for å laste inn flere elementer. Stopper når ingen nye elementer med unikt tekstinnhold blir funnet.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Unik tekst"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Unik $html$+Tekst",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Unik $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Unik $css$-velger",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Lenke (lest fra href-attributtet)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Tekst (bruk tekstinnhold som lenke)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Attributt"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Skriptlenke i attributtet ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Kast aldri"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Forkast når klikkelementet finnes"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Kast alltid"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URL-er",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "Legg til nettadresse",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "Legg til fra $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Denne funksjonen er utdatert og vil ikke fungere i en fremtidig versjon."
+	},
+	"website_state_setup_enabled": {
+		"message": "Aktivert",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Slett oppsett for nettstedsstatus",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Legg til handling",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Utfør handlinger",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Spare",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Slette oppsettet for nettstedsstatus?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Passord",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Tekst",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Varighet i ms",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "Åpne URL-adressen"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Klikk"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Søvn (ms)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Tekstinndata"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Passordinntasting"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Inndata"
+	},
+	"button_loading": {
+		"message": "Laster inn...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Begynn å skrape",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "Et passordfelt i oppsettet for nettstedstilstand er tomt."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "Forespørselsintervall (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "Forespørselsintervall",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Forsinkelse ved sideinnlasting (ms)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Forsinkelse i sideinnlasting",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Laster"
+	},
+	"button_refresh": {
+		"message": "Forfriske",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Oppdater data",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "Hjelp oss å forbedre $webScraper$!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Stem opp og send inn funksjonsideer",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "Automatiser skraping i $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Planlegg datauttrekking automatisk"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "Administrer $webScraper$ via API",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "Automatisk eksport til $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "Innebygd $proxy$ for problemer med nettstedstilgang",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Genererer fil"
+	},
+	"export_downloadAs": {
+		"message": "Last ned som:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Ja"
+	},
+	"edit_selector_multipleNo": {
+		"message": "Ingen"
+	},
+	"button_edit": {
+		"message": "Redigere",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "Selector-ID",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Innstillinger"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Tillat innsamling av bruksmålinger for utvidelser. Kun ikke-personlig informasjon i aggregert format samles inn. Mer informasjon i"
+	},
+	"options_page_privacyPolicy": {
+		"message": "Personvernerklæring"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Tillat innsamling av bruksmålinger"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Aktiver eksperimentelle funksjoner"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "Skrapingen starter i en ny fane. Når skrapingen er fullført, lukkes dette vinduet."
+	},
+	"options_page_keepWorking": {
+		"message": "Annet arbeid kan fortsette mens man skraper."
+	}
+}

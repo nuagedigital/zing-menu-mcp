@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/128.png"
+      },
+      "default_popup": "src/popup/index.html"
+   },
+   "background": {
+      "service_worker": "serviceWorker.js",
+      "type": "module"
+   },
+   "default_locale": "en",
+   "description": "Get SEO insights at the click of a button to any website you're currently on. Built by full-time SEO's for daily analysis.",
+   "icons": {
+      "128": "icons/128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj+CVmjlBorvXdT4vP7q3O1hIebxFFjZHkghfUR5XsLeQIuRIUsF82Nnc1RSWzpkqHU9WSyos6KRr+wXDMKo7RMzBTjjnU6Ic57L5HFIiJc6nbJzN03yL0uJaB0k82xfeSjNzKjyx04utECb4iz7t3ZK9U1fXiidH75945Wvvw+7k1x2ve9fjmMbYezoh082oi6CpT/OApYKk/T5NZDVOUWI0zFfwZhuYtyrBRFWe2Jb7SWW/kHGbfz9Vgn6gmwQMRDb1Eh83BqYlOJxHeRlmGHQ517yVEKvv13LZUasotjZU1O9n3TGeb8et/Sg7svq5s76MC4lZ3lrJcns1GLJJQQIDAQAB",
+   "manifest_version": 3,
+   "name": "Detailed SEO Extension",
+   "optional_host_permissions": [ "https://*/*", "http://*/*", "https://*.google.com.ua/*", "https://*.google.tn/*", "https://*.google.co.th/*", "https://*.google.com.tr/*", "https://*.google.no/*", "https://*.google.com.my/*", "https://*.google.mx/*", "https://*.google.ma/*", "https://*.google.lu/*", "https://*.google.com.lb/*", "https://*.google.it/*", "https://*.google.ie/*", "https://*.google.fi/*", "https://*.google.es/*", "https://*.google.cz/*", "https://*.google.co/*", "https://*.google.ca/*", "https://*.google.at/*", "https://*.google.com/*", "https://*.google.com.au/*", "https://*.google.ch/*", "https://*.google.com.hk/*", "https://*.google.co.jp/*", "https://*.google.co.uk/*", "https://*.google.fr/*", "https://*.google.de/*", "https://*.google.ru/*", "https://*.google.be/*", "https://*.google.ae/*", "https://*.google.nl/*", "https://*.google.dk/*" ],
+   "optional_permissions": [ "tabs" ],
+   "permissions": [ "activeTab", "contextMenus", "storage", "scripting", "declarativeNetRequestWithHostAccess" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.7",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "popup.js", "serviceWorker.js", "assets/popup-BWQgiXde.css", "assets/urlBuilder-5MbXlzx5.js", "src/content/googleScript/index.js", "assets/d-logo-BNFRiB2S.png", "src/content/primary/main.js" ]
+   } ]
+}

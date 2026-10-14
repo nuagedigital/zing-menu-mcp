@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatisoi datan poiminta $webScraperCloud$-palvelussa",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Hallitse $webScraper$-laajennusta API:n kautta",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automaattinen vienti kohteisiin $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Sisäänrakennettu $proxy$ sivuston käyttöongelmiin",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Ajasta datan poiminta automaattisesti"
+   },
+   "browse_helpUsImprove": {
+      "message": "Auta parantamaan $webScraper$-laajennusta!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Ladataan"
+   },
+   "button_addAction": {
+      "message": "Lisää toiminto"
+   },
+   "button_addColumn": {
+      "message": "Lisää sarake"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Lisää kohteesta $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Luo uusi valitsin"
+   },
+   "button_addUrl": {
+      "message": "Lisää URL"
+   },
+   "button_cancel": {
+      "message": "Peruuta"
+   },
+   "button_close": {
+      "message": "Sulje"
+   },
+   "button_closePreview": {
+      "message": "Sulje esikatselu"
+   },
+   "button_dataPreview": {
+      "message": "Datan esikatselu"
+   },
+   "button_delete": {
+      "message": "Poista"
+   },
+   "button_deleteLocally": {
+      "message": "Poista paikallisesti"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Poista Sivuston tilan määritys"
+   },
+   "button_download": {
+      "message": "Lataa"
+   },
+   "button_edit": {
+      "message": "Muokkaa"
+   },
+   "button_elementPreview": {
+      "message": "Elementin esikatselu"
+   },
+   "button_listingPage": {
+      "message": "Listaussivu"
+   },
+   "button_loading": {
+      "message": "Ladataan..."
+   },
+   "button_overwrite": {
+      "message": "Korvaa"
+   },
+   "button_performAction": {
+      "message": "Suorita toiminto"
+   },
+   "button_performActions": {
+      "message": "Suorita toiminnot"
+   },
+   "button_refresh": {
+      "message": "Päivitä"
+   },
+   "button_refreshData": {
+      "message": "Päivitä data"
+   },
+   "button_reload": {
+      "message": "Päivitä"
+   },
+   "button_remove": {
+      "message": "Poista"
+   },
+   "button_save": {
+      "message": "Tallenna"
+   },
+   "button_saveSelector": {
+      "message": "Tallenna valitsin"
+   },
+   "button_saveSitemap": {
+      "message": "Tallenna $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Valitse"
+   },
+   "button_sendTrainingData": {
+      "message": "Lähetä koulutusdata"
+   },
+   "button_singleItemPage": {
+      "message": "Yksittäinen kohdesivu"
+   },
+   "button_startScraping": {
+      "message": "Aloita datan poiminta"
+   },
+   "button_update": {
+      "message": "Päivitä"
+   },
+   "button_upload": {
+      "message": "Lähetä"
+   },
+   "button_uploadToCloud": {
+      "message": "Lähetä $sitemap$ $cloud$-palveluun",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Äänestä ja lähetä ominaisuusideoita"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Kun laajennus on yhdistetty $cloud$-tiliin, päivitä $sitemap$-luettelo.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Toiminnot"
+   },
+   "common_createSitemap": {
+      "message": "Luo $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Virhe:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Tuo $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Lue lisää"
+   },
+   "common_multiple": {
+      "message": "Useita"
+   },
+   "common_mustBeBetween": {
+      "message": "Kentän $1 on oltava välillä $2-$3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "Kentän $1 on oltava numeerinen",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Dataa ei ole vielä poimittu"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Kentän $1 lukuvälin on oltava nouseva",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Poimi dataa"
+   },
+   "common_selector": {
+      "message": "Valitsin"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Ei valtuutusta. Yhdistä uudelleen $cloud$-palveluun.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Arvon on oltava yksilöllinen."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Ota pikanäppäimet käyttöön napsauttamalla tästä"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Valinta valmis"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Ylätason elementti ei sisällä valittua elementtiä"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Ylätason elementtiä ei löytynyt"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Valitse alatason elementti painamalla $key$",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Valitse ylätason elementti painamalla $key$",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Valitse osoitettu elementti painamalla $key$",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Valittuja elementtejä: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 on pakollinen eikä voi olla tyhjä",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1 enimmäispituus on $2 merkkiä",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1:n pituuden on oltava vähintään $2 merkkiä",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Vain kirjaimet, numerot $digits$ tai merkit $allowedCharacters$ ovat sallittuja",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Virheellinen $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$-avain puuttuu - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 on oltava taulukko",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ tällä ID:llä on jo olemassa",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ on pakollinen eikä voi olla tyhjä",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 on pakollinen eikä voi olla tyhjä",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1-määrä ei saa ylittää arvoa $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Vain yksilölliset avaimet _id, startUrl, websiteStateSetup, selectors, hashHistory ovat sallittuja $sitemap$:ssa",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$-nimi",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Aloitus-URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 ei ole kelvollinen URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Datan esikatselu"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Dataa ei ole vielä poimittu."
+   },
+   "edit_selector_attributeName": {
+      "message": "Attribuutin nimi"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Napsautettavan elementin yksilöllisyys"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Napsauta nähdäksesi käytettävissä olevat attribuutit"
+   },
+   "edit_selector_clickType": {
+      "message": "Napsautustyyppi"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Napsauta lisää (napsauta ladataksesi lisää elementtejä. Pysähtyy, kun uusia yksilöllisen tekstisisällön elementtejä ei löydy.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Napsauta kerran (sivutus, välilehdet)"
+   },
+   "edit_selector_column": {
+      "message": "Sarake"
+   },
+   "edit_selector_columnCount": {
+      "message": "Sarakemäärä"
+   },
+   "edit_selector_columnName": {
+      "message": "Sarakkeen nimi"
+   },
+   "edit_selector_delay": {
+      "message": "Viive (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Tämä ominaisuus on vanhentunut eikä toimi tulevassa julkaisussa."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Hylkää aina"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Hylkää alkuperäiset elementit"
+   },
+   "edit_selector_discardNever": {
+      "message": "Älä hylkää koskaan"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Hylkää, kun napsautettava elementti on olemassa"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Elementtiraja"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Vain ensimmäinen tietue"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Löydetty URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Valitsimen ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Sisällytä tulokseen"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "On URL (vain yksi)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Napsautusvalitsin"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Datarivien valitsin"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Otsikkorivin valitsin"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Suorita kun ei löydy -valitsin"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Vierityselementti"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Vieritä vain, jos puuttuu"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Vieritä elementtiin"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Linkki mistä tahansa skriptistä ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Linkkityyppi"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Attribuutti"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Linkki (luetaan href-attribuutista)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Skriptattu linkki attribuutissa ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Teksti (käytä tekstisisältöä linkkinä)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Vähimmäisprioriteetti"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Ei"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Useita tietueita useissa sarakkeissa"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Useita tietueita yhdessä sarakkeessa"
+   },
+   "edit_selector_multipleType": {
+      "message": "Useiden tietueiden tyyppi"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Kyllä"
+   },
+   "edit_selector_paginationType": {
+      "message": "Sivutustyyppi"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automaattinen"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Napsauta seuraava-/lisää-painiketta useita kertoja ([Seuraava sivu] [Lataa lisää])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Napsauta useita painikkeita kerran ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Attribuuttilinkki ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Linkki ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Skriptattu linkki ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Tekstilinkki ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Ylätason valitsimet"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Tulosavain"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Palautetut datasarakkeet"
+   },
+   "edit_selector_script": {
+      "message": "Skripti"
+   },
+   "edit_selector_scroll": {
+      "message": "Vieritys"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Napsautustoiminto"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Vieritys alas -toiminto"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Elementti (vieritys)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Elementin attribuutti"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Elementin napsautus"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Elementin vieritys alas (vanhentunut)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Ryhmitelty (vanhentunut)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Kuva"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Linkki"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Verkkodata"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Sivutus"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Ponnahduslinkki (vanhentunut)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Skriptidata"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$-linkit",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Taulukko"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Teksti"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$-URL-osoitteet",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Taulukon sarakkeet"
+   },
+   "edit_selector_type": {
+      "message": "Tyyppi"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Yksilöllinen $css$-valitsin",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Yksilöllinen $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Yksilöllinen $html$+teksti",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Yksilöllinen teksti"
+   },
+   "edit_selector_unlimited": {
+      "message": "Rajoittamaton"
+   },
+   "export_downloadAs": {
+      "message": "Lataa muodossa:"
+   },
+   "export_generatingFile": {
+      "message": "Luodaan tiedostoa"
+   },
+   "extDesc": {
+      "message": "Verkkodatan poimintatyökalu helppokäyttöisellä osoita ja napsauta -käyttöliittymällä moderniin verkkoon"
+   },
+   "extName": {
+      "message": "$webScraper$ - Ilmainen datan poiminta",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Ilmainen datan poiminta",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Poimittu data"
+   },
+   "nav_createNewSitemap": {
+      "message": "Luo uusi $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Luo $sitemap$ ohjatulla toiminnolla",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentaatio"
+   },
+   "nav_editMetadata": {
+      "message": "Aloitus-URL-osoitteet"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Kokeelliset ominaisuudet käytössä"
+   },
+   "nav_exportData": {
+      "message": "Datan vienti"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$-vienti",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Foorumi"
+   },
+   "nav_help": {
+      "message": "Ohje"
+   },
+   "nav_logout": {
+      "message": "Kirjaudu ulos"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Siirrä kehittäjätyökalut selaimen alareunaan aloittaaksesi $webScraper$:n käytön.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Valitsimet"
+   },
+   "nav_signInToCloud": {
+      "message": "Kirjaudu $cloud$-palveluun",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Testisivustot"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Äänestä ominaisuusideoita"
+   },
+   "nav_videoTutorials": {
+      "message": "Video-oppaat"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Sivuston kirjautuminen / tilan määritys"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Salli käyttötietojen kerääminen"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Ota kokeelliset ominaisuudet käyttöön"
+   },
+   "options_page_keepWorking": {
+      "message": "Muuta työtä voi jatkaa datan poiminnan aikana."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Salli laajennuksen käyttötietojen kerääminen. Kerätään vain ei-henkilökohtaisia tietoja koostetussa muodossa. Lisätietoja:"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Tietosuojakäytäntö"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Sitemapin $sitemapId$ datan poiminta valmis",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Datan poiminta valmis"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Datan poiminta alkaa uudessa välilehdessä. Kun poiminta on valmis, tämä ikkuna sulkeutuu."
+   },
+   "options_page_settings": {
+      "message": "Asetukset"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Sivuston tilan määrityksen salasanakenttä on tyhjä."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Sivun latausviive (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Sivun latausviive"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Pyyntöväli (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Pyyntöväli"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Poistetaanko valitsin $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Luo valitsimet tekoälyllä:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Valitsin tällä ID:llä on jo olemassa"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Tämän ID:n valitsin vastaa jo olemassa olevaa datan vientisaraketta"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Attribuutin nimi ei saa sisältää tyhjämerkkiä, merkkejä \", ', >, /, = eikä ohjausmerkkejä"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 ei saa alkaa tyhjämerkillä, alaviivalla tai merkkijonolla \"web-scraper\" eikä sisältää merkkejä: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "On oltava kelvollinen CSS-valitsin"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Valitsimella on oltava vähintään yksi toinen valitsin ylätasona"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript ei tue säännöllisiä lausekkeita, jotka voivat täsmätä 0 merkkiin"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Ylätason valitsimet"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Tyyppi"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Poiston vahvistus"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Poistetaanko $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Suodata $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Tämä $sitemap$ on vain $cloud$-palvelussa. Lataa $sitemap$ $cloud$-palvelusta muokkaamista varten",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Tämä on uusin $sitemap$-versio. Korvaa tämä $sitemap$ $cloud$-palvelun versiolla",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ ei ole synkronoitu",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Uusin $sitemap$-versio on $cloud$-palvelussa. Korvaa $cloud$-palvelussa oleva $sitemap$ tällä versiolla",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Uusinta $sitemap$-versiota ei voida määrittää. Korvaa tämä $sitemap$ $cloud$-palvelun versiolla",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Uusinta $sitemap$-versiota ei voida määrittää. Korvaa $cloud$-palvelussa oleva $sitemap$ tällä versiolla",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ on vain $cloud$-palvelussa",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ on synkronoitu",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ on vain laajennuksessa",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Uusin $sitemap$-versio on $cloud$-palvelussa. Päivitä tämä $sitemap$ vastaamaan $cloud$-palvelun versiota",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Tämä on uusin $sitemap$-versio. Päivitä $cloud$-palvelussa oleva $sitemap$ tällä versiolla",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Tämä $sitemap$ on vain laajennuksen tallennustilassa. Lähetä $sitemap$ $cloud$-palveluun",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Verkkotunnus"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Lataa $cloud$-palvelusta",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Lähetä $cloud$-palveluun",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Napsauta"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Syöttökenttä"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Avaa URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Salasanan syöttö"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Tauko (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Tekstin syöttö"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Poistetaanko Sivuston tilan määritys?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Kesto (ms)"
+   },
+   "website_state_setup_enabled": {
+      "message": "Käytössä"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Salasana"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Teksti"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Käytä ohjatun toiminnon $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Lisää kuvia"
+   },
+   "wizard_addMoreText": {
+      "message": "Lisää tekstiä"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Analysoidaan sivun sisältöä..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Analysoidaan $1 URL-osoitetta tekoälyllä (keskimääräinen odotus $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Ja muuta..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Latautuuko lisää kohteita vierityksen jälkeen?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatisoi poiminta $webScraperCloud$-palvelussa",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatisoi $cloud$-palvelussa",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Bottien tunnistuksen käsittely"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Tarkistetaan loputonta vieritystä"
+   },
+   "wizard_columnName": {
+      "message": "Sarakkeen nimi"
+   },
+   "wizard_continueButton": {
+      "message": "Jatka"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Mukautettavat $css$-valitsimet",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Mukautettava sivuston navigointi"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Tämän sivun datan poiminnassa tapahtui virhe. Ongelmasta on ilmoitettu. Yritä myöhemmin uudelleen."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "Sivulta löytyi $1 datapistettä",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "Sivulta löytyi 1 datapiste"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Poista loputon vieritys käytöstä"
+   },
+   "wizard_disablePagination": {
+      "message": "Poista sivutus käytöstä"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Onko tällä sivulla sivutus?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Valinta valmis"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Ota loputon vieritys käyttöön"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Ota käyttöön siirtyminen kohdesivuille ja datan poiminta jokaiselta sivulta."
+   },
+   "wizard_errorTitle": {
+      "message": "Virhe"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Vie kohteisiin $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Kerätään sivun dataa $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Anna palautetta"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Siirry Edistyneeseen $sitemap$-rakennustyökaluun",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Mitä mieltä olet?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Miten datan poiminta sujui?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 kohdesivun linkkiä valittu",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 kohdesivun linkki valittu"
+   },
+   "wizard_link": {
+      "message": "Linkki"
+   },
+   "wizard_loadMore": {
+      "message": "Lataa lisää"
+   },
+   "wizard_loadingPage": {
+      "message": "Ladataan sivua..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$-ominaisuus",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Poista, lisää tai nimeä sarakkeita uudelleen ennen poimintaa"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Lisää datan poimijoita"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 tietuetta poimittu",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Selataan sivutusta kohdesivulinkkien löytämiseksi."
+   },
+   "wizard_nextPage": {
+      "message": "Seuraava sivu"
+   },
+   "wizard_noDataFound": {
+      "message": "Dataa ei löytynyt"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Yhtään tietuetta ei poimittu. Tarkista edelliset vaiheet tai yritä uudelleen."
+   },
+   "wizard_numberedPages": {
+      "message": "Numeroidut sivut: valitse kaikki napsauttamalla useita painikkeita"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Toimii vain yhdessä välilehdessä."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Avaa kehittäjätyökalut painamalla $shortcut1$ tai $shortcut2$.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Avaa kehittäjätyökalut painamalla $shortcut$.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Avaa selaimen kehittäjätyökalut"
+   },
+   "wizard_paginationDetected": {
+      "message": "Sivutus havaittu. Hallitse määritystä seuraavassa vaiheessa."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Sivutus käytössä"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Arvostele laajennus selaimen verkkokaupassa!"
+   },
+   "wizard_rateUs": {
+      "message": "Arvostele meidät"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 tietuetta poimittu, näytetään $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Luo uudelleen"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Poimi uudelleen"
+   },
+   "wizard_reselect": {
+      "message": "Valitse uudelleen"
+   },
+   "wizard_retry": {
+      "message": "Yritä uudelleen"
+   },
+   "wizard_scheduler": {
+      "message": "Ajastin"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Poimi dataa sivulta"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Poimijan määritys on valmis"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Datan poiminta käynnissä. ($1 tietuetta poimittu)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Datan poiminta käynnissä."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Datan poiminta käynnissä. (1 tietue poimittu)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Datan poiminta käynnissä. ($1 tietuetta poimittu, näytetään $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Vieritys käytössä"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Vähintään kaksi linkkiä vaaditaan."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Valitse datapisteet manuaalisesti"
+   },
+   "wizard_selectLink": {
+      "message": "Valitse linkki"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Valitse seuraavan sivun painike"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Valitse sivutuspainike. Yleisiä tyyppejä ovat:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Lähetä palaute"
+   },
+   "wizard_showMe": {
+      "message": "Näytä"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Näytetään $1/$2 tietuetta",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Näytetään $1 tietuetta",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Näytetään 1 tietue"
+   },
+   "wizard_signUp": {
+      "message": "Rekisteröidy"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 tietue poimittu"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ tallennettu Edistyneeseen $sitemap2$-rakennustyökaluun",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Ohita"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Datan määritys"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Palaute ja edistynyt datan poiminta"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Seuraa kohdelinkkejä"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Kohdesivun datan määritys"
+   },
+   "wizard_stepPagination": {
+      "message": "Sivutus ja vieritys"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Synkronoi ja aja $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Kiitos palautteesta!"
+   },
+   "wizard_title": {
+      "message": "Nimi"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Yritä valita uudelleen"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Kaikki arvostelut tarkistetaan käyttökokemuksen parantamiseksi."
+   },
+   "wizard_yourFeedback": {
+      "message": "Palautteesi"
+   }
+}

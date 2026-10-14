@@ -1,0 +1,78 @@
+/* cspell:ignore searchform, minidiv, sfcnt */
+/* Styles appended into SERP page through manifest.json:content_scripts css option */
+/* These styles can't be loaded in JS files, because chrome won't replace placeholders eg. @@extension_id */
+
+/* Font files referenced below have to be present in the bundle (copied with webpack to `dist` directory) */
+/* These files also have to be listed in manifest.json:web_accessible_resources for them to be allowed by browser */
+
+/* Inter font family */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/inter/Inter-Bold.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/inter/Inter-SemiBold.woff2')
+    format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/inter/Inter-Medium.woff2')
+    format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('chrome-extension://__MSG_@@extension_id__/fonts/inter/Inter-Regular.woff2')
+    format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+keyword-surfer-sidebar {
+  z-index: 102;
+  position: relative;
+}
+
+/*
+Apply margin to filters/options element below
+the search field to make space for <SearchInputBranding />
+*/
+#sfcnt {
+  margin-bottom: 16px !important;
+}
+
+/*
+Hide the <SearchInputBranding /> component when sticky search bar is displayed (when scrolled down)
+*/
+#searchform.minidiv keyword-surfer-branding {
+  display: none !important;
+}
+
+/*
+Clear margin from MainKeywordWidget.tsx when sticky search bar is displayed (when scrolled down)
+*/
+#searchform.minidiv .ks-main-keyword-widget {
+  margin-top: 0 !important;
+}
+
+/* temp override for links, could be removed once Link component is reworked from styled-components to tailwind */
+.keyword-surfer .surfer-keyword-link {
+  color: var(--link-color);
+}
+.keyword-surfer .surfer-keyword-link:hover {
+  color: var(--link-hover-color);
+}
+.keyword-surfer .surfer-keyword-link:active {
+  color: var(--link-pressed-color);
+}

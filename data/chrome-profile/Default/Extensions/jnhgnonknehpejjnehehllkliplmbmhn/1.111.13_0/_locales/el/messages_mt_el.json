@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - Δωρεάν συλλογή δεδομένων ιστού",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - Δωρεάν συλλογή δεδομένων ιστού",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "Εργαλείο εξαγωγής δεδομένων ιστού με εύκολη διεπαφή point-and-click για σύγχρονο ιστό"
+	},
+	"common_actions": {
+		"message": "Ενέργειες"
+	},
+	"common_createSitemap": {
+		"message": "Δημιουργία $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "Ταυτότητα"
+	},
+	"common_importSitemap": {
+		"message": "Εισαγωγή $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "Μάθετε περισσότερα",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "Πολλαπλούς"
+	},
+	"common_noDataScrapedYet": {
+		"message": "Δεν έχουν ακόμη συλλεχθεί δεδομένα"
+	},
+	"common_scrape": {
+		"message": "Ξύνω",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "Εκλέκτορας"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "Μετάβαση στο Advanced $sitemap$ builder",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "Περισσότερα εργαλεία εξαγωγής δεδομένων"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "Προσαρμόσιμη πλοήγηση ιστότοπου"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "Προσαρμόσιμοι επιλογείς $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "Χαρακτηριστικό $logIn$",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "Και περισσότερα..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "Οδηγός πρόσβασης $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "Πατήστε $shortcut1$ ή $shortcut2$ για να ανοίξετε τα Εργαλεία Προγραμματιστή.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "Πατήστε $shortcut$ για να ανοίξετε τα Εργαλεία Προγραμματιστή.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "Άνοιγμα Εργαλείων Προγραμματιστή του Προγράμματος Περιήγησης"
+	},
+	"wizard_showMe": {
+		"message": "Δείξε μου",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "Δεν βρέθηκαν δεδομένα",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "Όνομα στήλης"
+	},
+	"wizard_title": {
+		"message": "Τίτλος",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "Σύνδεσμος"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "Ανάλυση περιεχομένου σελίδας..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "Παρουσιάστηκε σφάλμα κατά την εξαγωγή δεδομένων από αυτήν τη σελίδα. Το πρόβλημα έχει αναφερθεί. Δοκιμάστε ξανά αργότερα."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "Εμφάνιση $1 από $2 εγγραφές",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "Εμφάνιση 1 εγγραφής"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "Εμφάνιση εγγραφών $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "Βρέθηκε 1 σημείο δεδομένων στη σελίδα"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "Βρέθηκαν $1 σημεία δεδομένων στη σελίδα",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "Φόρτωση σελίδας..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "Αφαίρεση, προσθήκη ή μετονομασία στηλών πριν από την εξαγωγή"
+	},
+	"wizard_addMoreText": {
+		"message": "Προσθήκη περισσότερου κειμένου",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "Προσθήκη εικόνων",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "Δοκιμάζω πάλι",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "Αναγεννηθείς",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "Σφάλμα"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "Η διαμόρφωση του scraper είναι έτοιμη"
+	},
+	"wizard_scrapeThePage": {
+		"message": "Ξύστε τη σελίδα",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "Δεν έγινε διαγραφή εγγραφών. Ελέγξτε τα προηγούμενα βήματα ή προσπαθήστε ξανά."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "Ξύστε ξανά",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "Τι νομίζεις;"
+	},
+	"wizard_giveFeedback": {
+		"message": "Υποβολή σχολίων",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "Τα σχόλιά σας",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "Αποστολή σχολίων",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ αποθηκεύτηκε στο Advanced $sitemap2$ Builder",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "Επαναεπιλογή",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "Επιλέχθηκε 1 σύνδεσμος σελίδας στοιχείου"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "Επιλέχθηκαν σύνδεσμοι σελίδας στοιχείου $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "Απαιτούνται τουλάχιστον δύο σύνδεσμοι."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "Δοκιμάστε να επιλέξετε ξανά",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "Πώς ήταν η εμπειρία σου με το scraping;"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "Αυτοματοποίηση εξαγωγής σε $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "Εξαγωγή σε $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "Χειρισμός ανίχνευσης bot",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "Συγχρονισμός και εκτέλεση $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "Εγγραφή",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "Χρονοπρογραμματιστής"
+	},
+	"wizard_stepPagination": {
+		"message": "Σελιδοποίηση & Κύλιση"
+	},
+	"wizard_stepDataSetup": {
+		"message": "Ρύθμιση δεδομένων"
+	},
+	"wizard_continueButton": {
+		"message": "Συνεχίζω",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "Έχει αυτή η σελίδα σελιδοποίηση;"
+	},
+	"wizard_paginationEnabled": {
+		"message": "Ενεργοποιήθηκε η σελιδοποίηση"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "Κουμπί Επιλογή Επόμενης Σελίδας",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "Απενεργοποίηση σελιδοποίησης",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "Επιλογή κουμπιού σελιδοποίησης. Οι συνήθεις τύποι είναι:"
+	},
+	"wizard_nextPage": {
+		"message": "Επόμενη σελίδα"
+	},
+	"wizard_loadMore": {
+		"message": "Φόρτωση περισσότερων"
+	},
+	"wizard_numberedPages": {
+		"message": "Αριθμημένες σελίδες: κάντε κλικ σε πολλά κουμπιά για να επιλέξετε όλα"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "Φορτώνονται περισσότερα στοιχεία μετά την κύλιση;"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "Έλεγχος άπειρης κύλισης"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "Η κύλιση ενεργοποιήθηκε"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "Ενεργοποίηση Άπειρης Κύλισης",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "Απενεργοποίηση Άπειρης Κύλισης",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "Ξύσιμο σε εξέλιξη."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "Απόξεση σε εξέλιξη. (Απόξεση 1 εγγραφής)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "Απόξεση σε εξέλιξη. ($1 εγγραφές αποξέθηκαν)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "Απόξεση σε εξέλιξη. ($1 εγγραφές αποξέθηκαν, εμφανίζοντας $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 εγγραφή διαγράφηκε"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "Τα $1 αρχεία διαγράφηκαν",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "Τα $1 αρχεία αποκόπηκαν, εμφανίζοντας $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "Σας ευχαριστώ για τα σχόλια!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "Ελέγξτε την επέκταση στο ηλεκτρονικό κατάστημα του προγράμματος περιήγησης!"
+	},
+	"wizard_rateUs": {
+		"message": "Αξιολογήστε μας"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "Όλες οι αξιολογήσεις ελέγχονται για τη βελτίωση της εμπειρίας χρήστη."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "Ενεργοποιήστε την πλοήγηση στις σελίδες στοιχείων και την εξαγωγή δεδομένων από κάθε σελίδα."
+	},
+	"wizard_selectLink": {
+		"message": "Επιλογή συνδέσμου",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "Συλλογή δεδομένων σελίδας $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "Ανάλυση URL $1 με AI (μέσος χρόνος αναμονής $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "Ακολουθήστε τους συνδέσμους στοιχείων"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "Σχόλια & Σύνθετη Απόξεση"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "Ρύθμιση δεδομένων σελίδας στοιχείου"
+	},
+	"wizard_doneSelecting": {
+		"message": "Ολοκληρώθηκε η επιλογή",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "Αυτοματοποίηση σε $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "Εντοπίστηκε σελιδοποίηση. Διαχειριστείτε τη διαμόρφωση στο επόμενο βήμα."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "Λειτουργεί μόνο σε μία καρτέλα."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "Όνομα $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "URL έναρξης"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL"
+	},
+	"button_saveSitemap": {
+		"message": "Αποθήκευση $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "Το $1 δεν είναι έγκυρη διεύθυνση URL",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "Το $sitemap$ $json$ είναι υποχρεωτικό και δεν μπορεί να είναι κενό",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "Μη έγκυρο $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "Λείπει το κλειδί $sitemap$ - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "Ο αριθμός των $1 δεν πρέπει να υπερβαίνει τα $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "Το $1 είναι υποχρεωτικό και δεν μπορεί να είναι κενό",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "Το $1 πρέπει να έχει μήκος τουλάχιστον $2 χαρακτήρες",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "Το μέγιστο μήκος των $1 είναι $2 χαρακτήρες",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "Επιτρέπονται μόνο γράμματα, ψηφία $digits$ ή οποιοσδήποτε από τους χαρακτήρες $allowedCharacters$",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "Το $sitemap$ με αυτό το αναγνωριστικό υπάρχει ήδη",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "Το $1 πρέπει να είναι ένας πίνακας",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "Τα $1 είναι υποχρεωτικά και δεν μπορούν να είναι κενά. Πρέπει να επιλέξετε τουλάχιστον ένα",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "Μόνο τα μοναδικά κλειδιά _id, startUrl, websiteStateSetup, selectors, hashHistory επιτρέπονται στο $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "Φίλτρο $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "Πεδίο ορισμού"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "Μεταφόρτωση σε $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "Λήψη από $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "Το $sitemap$ δεν είναι συγχρονισμένο",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "Το $sitemap$ είναι συγχρονισμένο",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "Το $sitemap$ είναι μόνο στο $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "Το $sitemap$ είναι μόνο στην επέκταση",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "Αντικατάσταση",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "Δεν είναι δυνατός ο προσδιορισμός της τελευταίας έκδοσης $sitemap$. Αντικαταστήστε το $sitemap$ στον λογαριασμό $cloud$ με αυτήν την έκδοση του $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "Δεν είναι δυνατός ο προσδιορισμός της τελευταίας έκδοσης $sitemap$. Αντικαταστήστε αυτήν την έκδοση $sitemap$ με την έκδοση από τον λογαριασμό $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "Η τελευταία έκδοση του $sitemap$ βρίσκεται στον λογαριασμό $cloud$. Αντικαταστήστε το $sitemap$ στον λογαριασμό $cloud$ με αυτήν την έκδοση του $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "Αυτή είναι η τελευταία έκδοση του $sitemap$. Αντικαταστήστε αυτήν την $sitemap$ με μια έκδοση από τον λογαριασμό $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "Εκσυγχρονίζω",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "Η τελευταία έκδοση $sitemap$ βρίσκεται στον λογαριασμό $cloud$. Ενημερώστε αυτήν την $sitemap$ ώστε να ταιριάζει με την έκδοση στον λογαριασμό $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "Αυτή είναι η τελευταία έκδοση του $sitemap$. Ενημερώστε το $sitemap$ στον λογαριασμό $cloud$ με αυτήν την έκδοση του $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "Λήψη",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "Αυτό το $sitemap$ υπάρχει μόνο στον λογαριασμό $cloud$. Κατεβάστε το $sitemap$ από τον λογαριασμό $cloud$ για επεξεργασία.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "Μεταφόρτωση",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "Διαγραφή τοπικά",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "Αυτό το $sitemap$ βρίσκεται μόνο στον χώρο αποθήκευσης της επέκτασης. Μεταφορτώστε το $sitemap$ στον λογαριασμό $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "Διαγραφή του $sitemap$;",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "Διαγραφή επιβεβαίωσης"
+	},
+	"button_cancel": {
+		"message": "Ματαίωση",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "Διαγράφω",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "Αποσύνδεση",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "Συνδεθείτε στο $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "Επιλογείς",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "URL έναρξης",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "Σύνδεση / Ρύθμιση κατάστασης ιστότοπου",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "Αποκομμένα δεδομένα",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "Εξαγωγή $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "Εξαγωγή δεδομένων",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "Δημιουργία νέου $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "Δημιουργήστε $sitemap$ με τον Οδηγό",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "Βοήθεια",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "Εκπαιδευτικά βίντεο",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "Απόδειξη με έγγραφα",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "Ιστότοποι δοκιμών",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "Δικαστήριο",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "Ιδέες για θετική ψήφο σε χαρακτηριστικά",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "Ενεργοποιήθηκαν πειραματικές λειτουργίες",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "Τύπος"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "Γονικοί επιλογείς",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "Δημιουργία νέου επιλογέα",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "Δημιουργήστε επιλογείς με τεχνητή νοημοσύνη:"
+	},
+	"button_listingPage": {
+		"message": "Σελίδα καταχώρισης",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "Σελίδα ενός στοιχείου",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "Διαγραφή επιλογέα $1;",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "Μετακινήστε τα εργαλεία προγραμματιστή στο κάτω μέρος του προγράμματος περιήγησης για να ξεκινήσετε να χρησιμοποιείτε το $webScraper$.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "Προεπισκόπηση δεδομένων"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "Δεν έχουν εξαχθεί ακόμη δεδομένα."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "Αφού συνδέσετε την επέκταση στον λογαριασμό $cloud$, φορτώστε ξανά τη λίστα $sitemap$.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "Γεμίζω πάλι",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "Κοντά",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "Όνομα χαρακτηριστικού"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "Κάντε κλικ για να δείτε τα διαθέσιμα χαρακτηριστικά"
+	},
+	"edit_selector_tableColumns": {
+		"message": "Στήλες πίνακα"
+	},
+	"edit_selector_column": {
+		"message": "Στήλη"
+	},
+	"edit_selector_resultKey": {
+		"message": "Κλειδί αποτελέσματος"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "Συμπερίληψη στο αποτέλεσμα"
+	},
+	"button_dataPreview": {
+		"message": "Προεπισκόπηση δεδομένων",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "Μεταφόρτωση $sitemap$ σε $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "Αποστολή δεδομένων εκπαίδευσης",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "Στοιχείο κύλισης",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "Κύλιση μόνο εάν λείπει"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "Μετακινηθείτε στο στοιχείο"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "Επιλογέας κλικ"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "Επιλογέας γραμμής κεφαλίδας"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "Επιλογέας γραμμών δεδομένων"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "Επιλογέας εκτέλεσης όταν δεν βρίσκεται"
+	},
+	"button_select": {
+		"message": "Επιλέγω",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "Προεπισκόπηση στοιχείου",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "Κλείσιμο προεπισκόπησης",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "Αποθήκευση επιλογέα",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "Πάπυρος",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "Όριο στοιχείου",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "Απεριόριστος",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "Regex",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "Βρέθηκε URL $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "Ελάχιστη προτεραιότητα",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "Καθυστέρηση (ms)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "Αριθμός στηλών",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "Πολλαπλός τύπος",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "Μόνο πρώτη εγγραφή"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "Πολλαπλές εγγραφές σε πολλαπλές στήλες"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "Πολλαπλές εγγραφές σε μία στήλη"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "Γονικοί επιλογείς",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "Εκτέλεση ενέργειας",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "Γραφή",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "Επιστρεφόμενες στήλες δεδομένων"
+	},
+	"edit_selector_columnName": {
+		"message": "Όνομα στήλης"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "Είναι η διεύθυνση URL (μόνο μία)"
+	},
+	"button_remove": {
+		"message": "Αφαιρώ",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "Προσθήκη στήλης",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "Τύπος κλικ",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "Τύπος σελιδοποίησης",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "Μοναδικότητα στοιχείου κλικ",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "Τύπος συνδέσμου",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "Απόρριψη αρχικών στοιχείων",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "Αυτο"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "Σύνδεσμος ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "Σύνδεσμος σεναρίου ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "Σύνδεσμος χαρακτηριστικού ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "Σύνδεσμος κειμένου ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "Κάντε κλικ πολλές φορές στο κουμπί επόμενο/περισσότερα ([Επόμενη σελίδα] [Φόρτωση περισσότερων])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "Κάντε κλικ μία φορά σε πολλά κουμπιά ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "Σύνδεσμος από οποιοδήποτε σενάριο ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "Κάντε κλικ μία φορά (σελιδοποίηση, στηλοθέτες)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "Κάντε κλικ σε περισσότερα (κάντε κλικ για να φορτώσετε περισσότερα στοιχεία. Σταματά όταν δεν βρεθούν νέα στοιχεία με μοναδικό περιεχόμενο κειμένου.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "Μοναδικό κείμενο"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "Μοναδικό $html$+Κείμενο",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "Μοναδικό $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "Μοναδικός επιλογέας $css$",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "Σύνδεσμος (ανάγνωση από χαρακτηριστικό href)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "Κείμενο (χρησιμοποιήστε το περιεχόμενο του κειμένου ως σύνδεσμο)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "Ιδιότης"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "Σύνδεσμος σεναρίου στο χαρακτηριστικό ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "Ποτέ μην απορρίπτετε"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "Απόρριψη όταν υπάρχει στοιχείο κλικ"
+	},
+	"edit_selector_discardAlways": {
+		"message": "Πάντα να απορρίπτετε"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URLs",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "Προσθήκη διεύθυνσης URL",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "Προσθήκη από $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "Αυτή η λειτουργία έχει καταργηθεί και δεν θα λειτουργήσει σε μελλοντική έκδοση."
+	},
+	"website_state_setup_enabled": {
+		"message": "Ενεργοποιημένο",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "Διαγραφή ρύθμισης κατάστασης ιστότοπου",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "Προσθήκη ενέργειας",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "Εκτέλεση ενεργειών",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "Εκτός",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "Διαγραφή ρύθμισης κατάστασης ιστότοπου;"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "Σύνθημα",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "Κείμενο",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "Διάρκεια σε ms",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "Άνοιγμα διεύθυνσης URL"
+	},
+	"website_state_setup_actionClick": {
+		"message": "Κλικ"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "Ύπνος (ms)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "Εισαγωγή κειμένου"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "Εισαγωγή κωδικού πρόσβασης"
+	},
+	"website_state_setup_actionInput": {
+		"message": "Εισαγωγή"
+	},
+	"button_loading": {
+		"message": "Φόρτωση...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "Έναρξη απόξεσης",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "Ένα πεδίο κωδικού πρόσβασης στη Ρύθμιση κατάστασης ιστότοπου είναι κενό."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "Διάστημα αιτήματος (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "Διάστημα αιτήματος",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "Καθυστέρηση φόρτωσης σελίδας (ms)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "Καθυστέρηση φόρτωσης σελίδας",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "Φόρτωση"
+	},
+	"button_refresh": {
+		"message": "Φρεσκάρω",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "Ανανέωση δεδομένων",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "Βοηθήστε μας να βελτιώσουμε το $webScraper$!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "Ψηφίστε θετικά και υποβάλετε ιδέες για χαρακτηριστικά",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "Αυτοματοποίηση απόξεσης σε $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "Αυτόματος προγραμματισμός εξαγωγής δεδομένων"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "Διαχείριση $webScraper$ μέσω API",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "Αυτόματη εξαγωγή σε $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "Ενσωματωμένο $proxy$ για προβλήματα πρόσβασης στον ιστότοπο",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "Δημιουργία αρχείου"
+	},
+	"export_downloadAs": {
+		"message": "Λήψη ως:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "Ναί"
+	},
+	"edit_selector_multipleNo": {
+		"message": "Οχι"
+	},
+	"button_edit": {
+		"message": "Εκδίδω",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "Αναγνωριστικό επιλογέα",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "Ρυθμίσεις"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "Να επιτρέπεται η συλλογή μετρήσεων χρήσης επεκτάσεων. Συλλέγονται μόνο μη προσωπικές πληροφορίες σε συγκεντρωτική μορφή. Περισσότερες λεπτομέρειες στο"
+	},
+	"options_page_privacyPolicy": {
+		"message": "Πολιτική Απορρήτου"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "Επιτρέψτε τη συλλογή μετρικών χρήσης"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "Ενεργοποίηση πειραματικών λειτουργιών"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "Η απόξεση θα ξεκινήσει σε νέα καρτέλα. Μόλις ολοκληρωθεί η απόξεση, αυτό το παράθυρο θα κλείσει."
+	},
+	"options_page_keepWorking": {
+		"message": "Άλλες εργασίες μπορούν να συνεχιστούν κατά την απόξεση."
+	}
+}

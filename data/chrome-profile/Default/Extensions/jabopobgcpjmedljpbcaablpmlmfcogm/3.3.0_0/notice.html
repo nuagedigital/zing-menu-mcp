@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WhatFont</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --text: #1f1f1f;
+        --soft: #5f6368;
+        --button: #262626;
+        --button-text: #fff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --text: #e8eaed;
+          --soft: #b1b5ba;
+          --button: #e8eaed;
+          --button-text: #1f1f1f;
+        }
+      }
+      body {
+        width: 300px;
+        margin: 0;
+        padding: 16px;
+        color: var(--text);
+        font: 14px/1.45 system-ui, sans-serif;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      img {
+        width: 28px;
+        height: 28px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.3;
+      }
+      p {
+        margin: 10px 0 0;
+        color: var(--soft);
+      }
+      button {
+        margin-top: 14px;
+        padding: 7px 12px;
+        border: 0;
+        border-radius: 6px;
+        background: var(--button);
+        color: var(--button-text);
+        font: inherit;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      [hidden] {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="icon128.png" alt="" />
+      <h1 id="title"></h1>
+    </header>
+    <p id="body"></p>
+    <button id="settings" hidden>Open WhatFont settings</button>
+    <script src="notice.js"></script>
+  </body>
+</html>

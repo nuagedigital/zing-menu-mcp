@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automasikan Pengikisan dalam $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Urus $webScraper$ melalui API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Eksport automatik ke $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "$proxy$ terbina dalam untuk isu akses tapak",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Jadualkan pengekstrakan data secara automatik"
+   },
+   "browse_helpUsImprove": {
+      "message": "Bantu kami menambah baik $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Memuatkan"
+   },
+   "button_addAction": {
+      "message": "Tambah Tindakan"
+   },
+   "button_addColumn": {
+      "message": "Tambah Lajur"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Tambah daripada $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Cipta Pemilih Baharu"
+   },
+   "button_addUrl": {
+      "message": "Tambah URL"
+   },
+   "button_cancel": {
+      "message": "Batal"
+   },
+   "button_close": {
+      "message": "Tutup"
+   },
+   "button_closePreview": {
+      "message": "Tutup pratonton"
+   },
+   "button_dataPreview": {
+      "message": "Pratonton data"
+   },
+   "button_delete": {
+      "message": "Padam"
+   },
+   "button_deleteLocally": {
+      "message": "Padam secara setempat"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Padam Persediaan Keadaan Tapak Web"
+   },
+   "button_download": {
+      "message": "Muat Turun"
+   },
+   "button_edit": {
+      "message": "Edit"
+   },
+   "button_elementPreview": {
+      "message": "Pratonton elemen"
+   },
+   "button_listingPage": {
+      "message": "Halaman Penyenaraian"
+   },
+   "button_loading": {
+      "message": "Memuatkan..."
+   },
+   "button_overwrite": {
+      "message": "Tulis Ganti"
+   },
+   "button_performAction": {
+      "message": "Laksanakan Tindakan"
+   },
+   "button_performActions": {
+      "message": "Laksanakan Tindakan"
+   },
+   "button_refresh": {
+      "message": "Muat Semula"
+   },
+   "button_refreshData": {
+      "message": "Muat Semula Data"
+   },
+   "button_reload": {
+      "message": "Muat Semula"
+   },
+   "button_remove": {
+      "message": "Alih Keluar"
+   },
+   "button_save": {
+      "message": "Simpan"
+   },
+   "button_saveSelector": {
+      "message": "Simpan pemilih"
+   },
+   "button_saveSitemap": {
+      "message": "Simpan $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Pilih"
+   },
+   "button_sendTrainingData": {
+      "message": "Hantar data latihan"
+   },
+   "button_singleItemPage": {
+      "message": "Halaman Item Tunggal"
+   },
+   "button_startScraping": {
+      "message": "Mulakan pengikisan"
+   },
+   "button_update": {
+      "message": "Kemas Kini"
+   },
+   "button_upload": {
+      "message": "Muat Naik"
+   },
+   "button_uploadToCloud": {
+      "message": "Muat naik $sitemap$ ke $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Undi & Hantar Idea Ciri"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Selepas menyambungkan sambungan ke akaun $cloud$, muat semula senarai $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Tindakan"
+   },
+   "common_createSitemap": {
+      "message": "Cipta $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Ralat:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Import $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Ketahui lebih lanjut"
+   },
+   "common_multiple": {
+      "message": "Berbilang"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 mesti antara $2 dan $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 mesti berangka",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Tiada data dikikis lagi"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Julat $1 mesti menaik",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Kikis"
+   },
+   "common_selector": {
+      "message": "Pemilih"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Tidak dibenarkan. Sambung semula dengan $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Nilai mesti unik."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Klik di sini untuk mendayakan kekunci pintas"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Selesai memilih"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Induk tidak mengandungi elemen yang dipilih"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Elemen induk tidak ditemui"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Tekan $key$ untuk memilih elemen anak",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Tekan $key$ untuk memilih elemen induk",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Tekan $key$ untuk memilih elemen yang dituding",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Bilangan elemen dipilih: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 diperlukan dan tidak boleh kosong",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Panjang maksimum $1 ialah $2 aksara",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 mesti sekurang-kurangnya $2 aksara",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Hanya huruf, digit $digits$ atau mana-mana aksara $allowedCharacters$ dibenarkan",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "$json$ tidak sah",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Kunci $sitemap$ hilang - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 mesti merupakan array",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ dengan ID ini sudah wujud",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ diperlukan dan tidak boleh kosong",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 diperlukan dan tidak boleh kosong",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Kiraan $1 tidak boleh melebihi $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Hanya kunci unik _id, startUrl, websiteStateSetup, selectors, hashHistory dibenarkan dalam $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Nama $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "URL Mula"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 bukan URL yang sah",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Pratonton Data"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Tiada data diekstrak lagi."
+   },
+   "edit_selector_attributeName": {
+      "message": "Nama atribut"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Keunikan elemen klik"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Klik untuk melihat atribut tersedia"
+   },
+   "edit_selector_clickType": {
+      "message": "Jenis klik"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Klik lagi (klik untuk memuatkan lebih banyak elemen. Berhenti apabila tiada elemen baharu dengan kandungan teks unik ditemui.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Klik sekali (penomboran halaman, tab)"
+   },
+   "edit_selector_column": {
+      "message": "Lajur"
+   },
+   "edit_selector_columnCount": {
+      "message": "Bilangan lajur"
+   },
+   "edit_selector_columnName": {
+      "message": "Nama Lajur"
+   },
+   "edit_selector_delay": {
+      "message": "Lengah (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Ciri ini usang dan tidak akan berfungsi dalam keluaran akan datang."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Sentiasa buang"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Buang elemen awal"
+   },
+   "edit_selector_discardNever": {
+      "message": "Jangan buang"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Buang apabila elemen klik wujud"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Had elemen"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Rekod Pertama Sahaja"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "URL $regex$ ditemui",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Id Pemilih"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Sertakan ke dalam hasil"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Ialah URL (satu sahaja)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Pemilih klik"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Pemilih baris data"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Pemilih baris pengepala"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Pemilih lakukan apabila tidak ditemui"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Elemen tatal"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Tatal hanya jika tiada"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Tatal ke elemen"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Pautan daripada mana-mana skrip ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Jenis pautan"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atribut"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Pautan (baca daripada atribut href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Pautan berskrip dalam atribut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Teks (guna kandungan teks sebagai pautan)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Keutamaan minimum"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Tidak"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Berbilang Rekod dalam Berbilang Lajur"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Berbilang Rekod dalam Satu Lajur"
+   },
+   "edit_selector_multipleType": {
+      "message": "Jenis berbilang"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Ya"
+   },
+   "edit_selector_paginationType": {
+      "message": "Jenis penomboran halaman"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Auto"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Klik berbilang kali pada butang seterusnya/lagi ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Klik sekali pada berbilang butang ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Pautan atribut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Pautan ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Pautan berskrip ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Pautan teks ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Pemilih induk"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Kunci hasil"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Lajur data dikembalikan"
+   },
+   "edit_selector_script": {
+      "message": "Skrip"
+   },
+   "edit_selector_scroll": {
+      "message": "Tatal"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Tindakan Klik"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Tindakan Tatal ke Bawah"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Elemen (tatal)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Atribut elemen"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Elemen klik"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Elemen tatal ke bawah (Usang)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Berkumpulan (Usang)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Imej"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Pautan"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Data Rangkaian"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Penomboran halaman"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Pautan Pop Timbul (Usang)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Data Skrip"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "Pautan $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Jadual"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Teks"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "URL $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Lajur jadual"
+   },
+   "edit_selector_type": {
+      "message": "Jenis"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Pemilih $css$ unik",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "$html$ Unik",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "$html$+Teks Unik",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Teks Unik"
+   },
+   "edit_selector_unlimited": {
+      "message": "Tanpa had"
+   },
+   "export_downloadAs": {
+      "message": "Muat turun sebagai:"
+   },
+   "export_generatingFile": {
+      "message": "Menjana fail"
+   },
+   "extDesc": {
+      "message": "Alat pengekstrakan data web dengan antara muka tuding dan klik yang mudah untuk web moden"
+   },
+   "extName": {
+      "message": "$webScraper$ - Pengikisan Web Percuma",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Pengikisan Web Percuma",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Data dikikis"
+   },
+   "nav_createNewSitemap": {
+      "message": "Cipta $sitemap$ baharu",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Cipta $sitemap$ dengan Bestari",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentasi"
+   },
+   "nav_editMetadata": {
+      "message": "URL Mula"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Ciri eksperimen didayakan"
+   },
+   "nav_exportData": {
+      "message": "Eksport data"
+   },
+   "nav_exportSitemap": {
+      "message": "Eksport $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forum"
+   },
+   "nav_help": {
+      "message": "Bantuan"
+   },
+   "nav_logout": {
+      "message": "Log keluar"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Alihkan alat pembangun ke bahagian bawah pelayar untuk mula menggunakan $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Pemilih"
+   },
+   "nav_signInToCloud": {
+      "message": "Log masuk ke $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Tapak Ujian"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Undi Idea Ciri"
+   },
+   "nav_videoTutorials": {
+      "message": "Tutorial Video"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-In Tapak Web / Persediaan Keadaan"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Benarkan pengumpulan metrik penggunaan"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Dayakan ciri eksperimen"
+   },
+   "options_page_keepWorking": {
+      "message": "Kerja lain boleh diteruskan semasa pengikisan."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Benarkan pengumpulan metrik penggunaan sambungan. Hanya maklumat bukan peribadi dalam format teragregat dikumpulkan. Butiran lanjut dalam"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Dasar Privasi"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Selesai mengikis $sitemapId$",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Pengikisan selesai"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Pengikisan akan bermula dalam tab baharu. Setelah pengikisan selesai, tetingkap ini akan ditutup."
+   },
+   "options_page_settings": {
+      "message": "Tetapan"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Medan kata laluan dalam Persediaan Keadaan Tapak Web kosong."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Lengah muat halaman (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Lengah muat halaman"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Selang permintaan (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Selang permintaan"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Padam pemilih $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Jana pemilih dengan AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Pemilih dengan ID ini sudah wujud"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Pemilih dengan ID ini sama dengan lajur eksport data sedia ada"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Nama atribut tidak boleh mengandungi ruang kosong, \", ', >, /, = atau sebarang aksara kawalan"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 tidak boleh bermula dengan ruang kosong, garis bawah atau \"web-scraper\" dan tidak boleh mengandungi: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Mesti pemilih CSS yang sah"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Pemilih perlu mempunyai sekurang-kurangnya satu pemilih lain sebagai induk"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript tidak menyokong Regex yang boleh memadankan 0 aksara"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Pemilih induk"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Jenis"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Pengesahan Pemadaman"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Padam $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Tapis $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "$sitemap$ ini hanya berada dalam akaun $cloud$. Muat turun $sitemap$ daripada akaun $cloud$ untuk diedit",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Ini ialah versi $sitemap$ terkini. Tulis ganti $sitemap$ ini dengan versi daripada akaun $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ tidak disegerakkan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Versi $sitemap$ terkini berada dalam akaun $cloud$. Tulis ganti $sitemap$ dalam akaun $cloud$ dengan versi $sitemap$ ini",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Versi $sitemap$ terkini tidak dapat ditentukan. Tulis ganti $sitemap$ ini dengan versi daripada akaun $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Versi $sitemap$ terkini tidak dapat ditentukan. Tulis ganti $sitemap$ dalam akaun $cloud$ dengan versi $sitemap$ ini",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ hanya dalam $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ disegerakkan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ hanya dalam sambungan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Versi $sitemap$ terkini berada dalam akaun $cloud$. Kemas kini $sitemap$ ini agar sepadan dengan versi dalam akaun $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Ini ialah versi $sitemap$ terkini. Kemas kini $sitemap$ dalam akaun $cloud$ dengan versi $sitemap$ ini",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "$sitemap$ ini hanya berada dalam storan sambungan. Muat naik $sitemap$ ke akaun $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domain"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Muat turun daripada $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Muat naik ke $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Klik"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Input"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Buka URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Input Kata Laluan"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Jeda (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Input Teks"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Padam Persediaan Keadaan Tapak Web?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Tempoh dalam ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Didayakan"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Kata laluan"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Teks"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Akses $sitemaps$ bestari",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Tambah imej"
+   },
+   "wizard_addMoreText": {
+      "message": "Tambah lagi teks"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Menganalisis kandungan halaman..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Menganalisis $1 URL dengan AI (purata tunggu $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Dan banyak lagi..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Adakah lebih banyak item dimuatkan selepas menatal?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automasikan pengekstrakan dalam $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatikkan dalam $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Pengendalian pengesanan bot"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Menyemak tatal tanpa had"
+   },
+   "wizard_columnName": {
+      "message": "Nama lajur"
+   },
+   "wizard_continueButton": {
+      "message": "Teruskan"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Pemilih $css$ boleh disesuaikan",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Navigasi tapak boleh disesuaikan"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Ralat berlaku semasa mengekstrak data dari halaman ini. Isu ini telah dilaporkan. Cuba lagi nanti."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 titik data ditemui pada halaman",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "1 titik data ditemui pada halaman"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Lumpuhkan Tatal Tanpa Had"
+   },
+   "wizard_disablePagination": {
+      "message": "Lumpuhkan Penomboran Halaman"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Adakah halaman ini mempunyai penomboran halaman?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Selesai memilih"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Dayakan Tatal Tanpa Had"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Dayakan navigasi ke halaman item dan pengekstrakan data daripada setiap halaman."
+   },
+   "wizard_errorTitle": {
+      "message": "Ralat"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Eksport ke $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Mengumpul data halaman $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Beri Maklum Balas"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Pergi ke Pembina $sitemap$ Lanjutan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Apa pendapat anda?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Bagaimana pengalaman pengikisan anda?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 pautan halaman item dipilih",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 pautan halaman item dipilih"
+   },
+   "wizard_link": {
+      "message": "Pautan"
+   },
+   "wizard_loadMore": {
+      "message": "Muat lagi"
+   },
+   "wizard_loadingPage": {
+      "message": "Memuatkan halaman..."
+   },
+   "wizard_loginFeature": {
+      "message": "Ciri $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Buang, tambah atau namakan semula lajur sebelum mengekstrak"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Lebih banyak pengekstrak data"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 rekod dikikis",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Menavigasi penomboran halaman untuk menemui pautan halaman item."
+   },
+   "wizard_nextPage": {
+      "message": "Halaman seterusnya"
+   },
+   "wizard_noDataFound": {
+      "message": "Tiada data ditemui"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Tiada rekod dikikis. Semak langkah sebelumnya atau cuba semula."
+   },
+   "wizard_numberedPages": {
+      "message": "Halaman bernombor: klik berbilang butang untuk memilih semua"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Hanya berfungsi dalam satu tab."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Tekan $shortcut1$ atau $shortcut2$ untuk membuka Alat Pembangun.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Tekan $shortcut$ untuk membuka Alat Pembangun.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Buka Alat Pembangun pelayar"
+   },
+   "wizard_paginationDetected": {
+      "message": "Penomboran halaman dikesan. Urus konfigurasi dalam langkah seterusnya."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Penomboran halaman didayakan"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Sila beri ulasan tentang sambungan di kedai web pelayar!"
+   },
+   "wizard_rateUs": {
+      "message": "Nilaikan Kami"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 rekod dikikis, menunjukkan $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Jana semula"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Kikis semula"
+   },
+   "wizard_reselect": {
+      "message": "Pilih semula"
+   },
+   "wizard_retry": {
+      "message": "Cuba semula"
+   },
+   "wizard_scheduler": {
+      "message": "Penjadual"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Kikis halaman"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Konfigurasi pengikis sedia"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Pengikisan sedang berjalan. ($1 rekod dikikis)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Pengikisan sedang berjalan."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Pengikisan sedang berjalan. (1 rekod dikikis)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Pengikisan sedang berjalan. ($1 rekod dikikis, memaparkan $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Tatal didayakan"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Sekurang-kurangnya dua pautan diperlukan."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Pilih titik data secara manual"
+   },
+   "wizard_selectLink": {
+      "message": "Pilih pautan"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Pilih butang Halaman Seterusnya"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Pilih butang penomboran halaman. Jenis biasa:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Hantar maklum balas"
+   },
+   "wizard_showMe": {
+      "message": "Tunjukkan"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Memaparkan $1 daripada $2 rekod",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Memaparkan $1 rekod",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Memaparkan 1 rekod"
+   },
+   "wizard_signUp": {
+      "message": "Daftar"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 rekod dikikis"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ disimpan dalam Pembina $sitemap2$ Lanjutan",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Langkau"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Persediaan Data"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Maklum Balas & Pengikisan Lanjutan"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Ikut Pautan Item"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Persediaan Data Halaman Item"
+   },
+   "wizard_stepPagination": {
+      "message": "Penomboran Halaman & Tatal"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Segerak & jalankan $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Terima kasih atas maklum balas!"
+   },
+   "wizard_title": {
+      "message": "Tajuk"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Cuba pilih semula"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Semua ulasan diperiksa untuk menambah baik pengalaman pengguna."
+   },
+   "wizard_yourFeedback": {
+      "message": "Maklum balas anda"
+   }
+}

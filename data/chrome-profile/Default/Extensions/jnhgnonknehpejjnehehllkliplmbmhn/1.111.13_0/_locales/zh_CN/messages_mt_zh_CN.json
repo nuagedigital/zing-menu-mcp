@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - 免费网页抓取",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - 免费网页抓取",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "适用于现代网络的简易点击式界面网页数据提取工具"
+	},
+	"common_actions": {
+		"message": "行动"
+	},
+	"common_createSitemap": {
+		"message": "创建 $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "ID"
+	},
+	"common_importSitemap": {
+		"message": "导入 $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "了解更多",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "多种的"
+	},
+	"common_noDataScrapedYet": {
+		"message": "尚未抓取任何数据"
+	},
+	"common_scrape": {
+		"message": "刮",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "选择器"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "前往高级 $sitemap$ 构建器",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "更多数据提取器"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "可自定义的网站导航"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "可自定义的 $css$ 选择器",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "$logIn$ 特征",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "还有更多……"
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "访问向导 $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "按 $shortcut1$ 或 $shortcut2$ 打开开发者工具。",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "按下$shortcut$打开开发者工具。",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "打开浏览器的开发者工具"
+	},
+	"wizard_showMe": {
+		"message": "给我看看",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "未找到数据",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "列名"
+	},
+	"wizard_title": {
+		"message": "标题",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "关联"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "正在分析页面内容……"
+	},
+	"wizard_dataExtractionError": {
+		"message": "从此页面提取数据时出错。该问题已上报。请稍后重试。"
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "显示 $1 条记录（共 $2 条记录）",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "显示 1 条记录"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "显示 $1 记录",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "在第 1 页找到 1 个数据点"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "页面上找到的 $1 数据点",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "页面正在加载..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "提取数据前，请删除、添加或重命名列。"
+	},
+	"wizard_addMoreText": {
+		"message": "添加更多文本",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "添加图片",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "重试",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "再生",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "错误"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "爬虫配置已完成"
+	},
+	"wizard_scrapeThePage": {
+		"message": "抓取页面",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "未抓取任何记录。请检查之前的步骤或重试。"
+	},
+	"wizard_rescrapeThePage": {
+		"message": "重新刮擦",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "你怎么认为？"
+	},
+	"wizard_giveFeedback": {
+		"message": "提供反馈",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "您的反馈",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "发送反馈",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ 已保存在高级 $sitemap2$ 构建器中",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "重新选择",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "已选择 1 个项目页面链接"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "已选择 $1 项目页面链接",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "至少需要两个链接。"
+	},
+	"wizard_trySelectingAgain": {
+		"message": "请再次尝试选择",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "你的网络爬虫抓取体验如何？"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "自动提取 $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "导出到 $dropbox$、$googleDrive$、$s3$、...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "机器人检测处理",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "同步并运行 $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "报名",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "调度程序"
+	},
+	"wizard_stepPagination": {
+		"message": "分页和滚动"
+	},
+	"wizard_stepDataSetup": {
+		"message": "数据设置"
+	},
+	"wizard_continueButton": {
+		"message": "继续",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "此页面有分页吗？"
+	},
+	"wizard_paginationEnabled": {
+		"message": "分页功能已启用"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "选择下一页按钮",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "禁用分页",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "选择分页按钮。常见类型有："
+	},
+	"wizard_nextPage": {
+		"message": "下一页"
+	},
+	"wizard_loadMore": {
+		"message": "加载更多"
+	},
+	"wizard_numberedPages": {
+		"message": "已编号页面：点击多个按钮选择全部"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "滚动后是否加载了更多项目？"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "检查无限滚动"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "已启用滚动功能"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "启用无限滚动",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "禁用无限滚动",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "抓取正在进行中。"
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "抓取正在进行中。（已抓取 1 条记录）"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "抓取正在进行中。（已抓取 $1 条记录）",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "抓取正在进行中。（已抓取 $1 条记录，显示 $2）",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "已抓取 1 条记录"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "已抓取的 $1 记录",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "已抓取 $1 记录，显示 $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "感谢您的反馈！"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "请前往浏览器应用商店查看该扩展程序！"
+	},
+	"wizard_rateUs": {
+		"message": "请给我们评分"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "所有评论都会经过审核，以改善用户体验。"
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "启用导航至商品页面并从每个页面提取数据的功能。"
+	},
+	"wizard_selectLink": {
+		"message": "选择链接",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "正在收集页面数据 $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "利用人工智能分析 $1 URL（平均等待时间 $waitTime$ 秒）",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "关注商品链接"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "反馈与高级抓取"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "项目页面数据设置"
+	},
+	"wizard_doneSelecting": {
+		"message": "选择完毕",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "在 $cloud$ 中自动执行",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "检测到分页。请在下一步中管理配置。"
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "只能在一个标签页中使用。"
+	},
+	"create_sitemap_sitemapName": {
+		"message": "$sitemap$ 名称",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "起始网址"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL"
+	},
+	"button_saveSitemap": {
+		"message": "保存 $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 不是有效的 URL",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ 和 $json$ 为必填项，且不能为空。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "无效的 $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "$sitemap$ 密钥缺失 - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "$1 的数量不应超过 $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 为必填项，且不能为空。",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 的长度至少应为 $2 个字符。",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "$1 的最大长度为 $2 个字符",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "仅允许使用字母、数字 $digits$ 或任何字符 $allowedCharacters$。",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "具有此 ID 的 $sitemap$ 已存在",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 必须是一个数组",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 为必填项，且不能为空。必须至少选择一个。",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "$sitemap$ 中只允许使用唯一的键 _id、startUrl、websiteStateSetup、selectors 和 hashHistory。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "过滤器 $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "领域"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "上传至$cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "从$cloud$下载",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ 未同步",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ 已同步",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ 仅存在于 $cloud$ 中",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ 仅在扩展中",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "覆盖",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "无法确定最新的 $sitemap$ 版本。请使用此版本的 $sitemap$ 覆盖 $cloud$ 账户中的 $sitemap$。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "无法确定最新的 $sitemap$ 版本。请将 $sitemap$ 中的版本覆盖为 $cloud$ 账户中的版本。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "最新的 $sitemap$ 版本位于 $cloud$ 账户中。请将此版本的 $sitemap$ 覆盖 $cloud$ 账户中的 $sitemap$。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "这是最新的 $sitemap$ 版本。请使用 $cloud$ 账户中的版本覆盖此 $sitemap$ 版本。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "更新",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "最新的 $sitemap$ 版本位于 $cloud$ 账户中。请将 $sitemap$ 更新为与 $cloud$ 账户中的版本一致。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "这是最新的 $sitemap$ 版本。请使用此版本的 $sitemap$ 更新 $cloud$ 账户中的 $sitemap$。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "下载",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "此 $sitemap$ 仅存在于 $cloud$ 账户中。请从 $cloud$ 账户下载 $sitemap$ 进行编辑。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "上传",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "本地删除",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "此 $sitemap$ 仅存在于扩展程序存储中。请将 $sitemap$ 上传到 $cloud$ 账户。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "删除 $sitemap$？",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "删除确认"
+	},
+	"button_cancel": {
+		"message": "取消",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "删除",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "注销",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "登录到$cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "选择器",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "起始网址",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "网站登录/状态设置",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "抓取的数据",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "$sitemap$ 导出",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "数据导出",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "创建新的 $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "使用向导创建 $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "帮助",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "视频教程",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "文档",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "测试地点",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "论坛",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "为功能创意点赞",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "已启用实验性功能",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "类型"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "父选择器",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "创建新选择器",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "利用人工智能生成选择器："
+	},
+	"button_listingPage": {
+		"message": "列表页",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "单项页面",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "删除选择器 $1？",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "将开发者工具移到浏览器底部，即可开始使用 $webScraper$。",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "数据预览"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "尚未提取任何数据。"
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "将扩展程序连接到 $cloud$ 帐户后，重新加载 $sitemap$ 列表。",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "重新加载",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "关闭",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "属性名称"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "点击查看可用属性"
+	},
+	"edit_selector_tableColumns": {
+		"message": "表格列"
+	},
+	"edit_selector_column": {
+		"message": "柱子"
+	},
+	"edit_selector_resultKey": {
+		"message": "结果键"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "纳入结果"
+	},
+	"button_dataPreview": {
+		"message": "数据预览",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "将 $sitemap$ 上传至 $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "发送训练数据",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "滚动元素",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "仅当缺少时才滚动"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "滚动到元素"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "点击选择器"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "标题行选择器"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "数据行选择器"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "未找到选择器时执行"
+	},
+	"button_select": {
+		"message": "选择",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "元素预览",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "关闭预览",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "保存选择器",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "滚动",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "元素限制",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "无限",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "正则表达式",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "找到 URL $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "最低优先级",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "延迟（毫秒）",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "列数",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "多种类型",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "仅限首张唱片"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "多列中的多条记录"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "一列中包含多条记录"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "父选择器",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "执行操作",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "脚本",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "返回的数据列"
+	},
+	"edit_selector_columnName": {
+		"message": "列名"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "是 URL（仅限一个）"
+	},
+	"button_remove": {
+		"message": "消除",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "添加列",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "点击类型",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "分页类型",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "点击元素唯一性",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "链接类型",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "丢弃初始元素",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "汽车"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "链接（$htmlExample$）",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "脚本链接（$htmlExample$）",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "属性链接（$htmlExample$）",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "文本链接（$htmlExample$）",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "多次点击下一页/更多按钮（[下一页] [加载更多]）"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "单击多个按钮（[1] [2], [3]）"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "来自任何脚本的链接（$scriptExample1$，$scriptExample2$）",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "单击一次（分页、标签页）"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "点击更多（点击加载更多元素。当未找到具有唯一文本内容的新元素时停止。）"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "唯一文本"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "唯一 $html$+文本",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "唯一 $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "唯一 $css$ 选择器",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "链接（从 href 属性读取）"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "文本（使用文本内容作为链接）"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "属性"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "属性中的脚本链接 ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "切勿丢弃"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "当点击元素存在时丢弃"
+	},
+	"edit_selector_discardAlways": {
+		"message": "始终丢弃"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URL",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "添加网址",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "从 $robotstxt$ 添加",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "此功能已弃用，在未来的版本中将无法使用。"
+	},
+	"website_state_setup_enabled": {
+		"message": "已启用",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "删除网站状态设置",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "添加操作",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "执行操作",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "节省",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "删除网站状态设置？"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "密码",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "文本",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "持续时间（毫秒）",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "打开网址"
+	},
+	"website_state_setup_actionClick": {
+		"message": "点击"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "睡眠时间（毫秒）"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "文本输入"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "密码输入"
+	},
+	"website_state_setup_actionInput": {
+		"message": "输入"
+	},
+	"button_loading": {
+		"message": "加载中...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "开始抓取",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "网站状态设置中的密码字段为空。"
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "请求间隔（毫秒）"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "请求间隔",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "页面加载延迟（毫秒）"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "页面加载延迟",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "加载中"
+	},
+	"button_refresh": {
+		"message": "刷新",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "刷新数据",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "请帮助我们改进$webScraper$！",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "点赞并提交功能创意",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "自动抓取 $webScraperCloud$ 中的数据",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "自动安排数据提取"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "通过 API 管理 $webScraper$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "自动导出到 $dropbox$、$googledrive$、$awss3$、$googlecloud$、$azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "内置的 $proxy$ 用于解决站点访问问题",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "生成文件"
+	},
+	"export_downloadAs": {
+		"message": "下载方式："
+	},
+	"edit_selector_multipleYes": {
+		"message": "是的"
+	},
+	"edit_selector_multipleNo": {
+		"message": "不"
+	},
+	"button_edit": {
+		"message": "编辑",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "选择器 ID",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "设置"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "允许收集扩展程序使用情况指标。仅收集汇总格式的非个人信息。更多详情请参见"
+	},
+	"options_page_privacyPolicy": {
+		"message": "隐私政策"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "允许收集使用情况指标"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "启用实验性功能"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "抓取操作将在新标签页中开始。抓取完成后，此窗口将关闭。"
+	},
+	"options_page_keepWorking": {
+		"message": "刮削作业的同时，其他工作也可以继续进行。"
+	}
+}

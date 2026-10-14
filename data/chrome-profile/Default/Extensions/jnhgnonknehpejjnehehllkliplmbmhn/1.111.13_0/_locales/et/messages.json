@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatiseeri kraapimine teenuses $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Halda $webScraper$ API kaudu",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automaatne eksport teenustesse $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Sisseehitatud $proxy$ saidile juurdepääsu probleemide korral",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Ajasta andmete eraldamine automaatselt"
+   },
+   "browse_helpUsImprove": {
+      "message": "Aita meil $webScraper$ paremaks muuta!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Laadimine"
+   },
+   "button_addAction": {
+      "message": "Lisa toiming"
+   },
+   "button_addColumn": {
+      "message": "Lisa Veerg"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Lisa failist $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Loo uus selektor"
+   },
+   "button_addUrl": {
+      "message": "Lisa URL"
+   },
+   "button_cancel": {
+      "message": "Tühista"
+   },
+   "button_close": {
+      "message": "Sulge"
+   },
+   "button_closePreview": {
+      "message": "Sulge eelvaade"
+   },
+   "button_dataPreview": {
+      "message": "Andmete eelvaade"
+   },
+   "button_delete": {
+      "message": "Kustuta"
+   },
+   "button_deleteLocally": {
+      "message": "Kustuta lokaalselt"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Kustuta Veebisaidi oleku seadistus"
+   },
+   "button_download": {
+      "message": "Laadi alla"
+   },
+   "button_edit": {
+      "message": "Muuda"
+   },
+   "button_elementPreview": {
+      "message": "Elemendi eelvaade"
+   },
+   "button_listingPage": {
+      "message": "Loendileht"
+   },
+   "button_loading": {
+      "message": "Laadimine..."
+   },
+   "button_overwrite": {
+      "message": "Kirjuta üle"
+   },
+   "button_performAction": {
+      "message": "Soorita toiming"
+   },
+   "button_performActions": {
+      "message": "Soorita toimingud"
+   },
+   "button_refresh": {
+      "message": "Värskenda"
+   },
+   "button_refreshData": {
+      "message": "Värskenda andmeid"
+   },
+   "button_reload": {
+      "message": "Värskenda"
+   },
+   "button_remove": {
+      "message": "Eemalda"
+   },
+   "button_save": {
+      "message": "Salvesta"
+   },
+   "button_saveSelector": {
+      "message": "Salvesta selektor"
+   },
+   "button_saveSitemap": {
+      "message": "Salvesta $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Vali"
+   },
+   "button_sendTrainingData": {
+      "message": "Saada treeningandmed"
+   },
+   "button_singleItemPage": {
+      "message": "Ühe üksuse leht"
+   },
+   "button_startScraping": {
+      "message": "Alusta kraapimist"
+   },
+   "button_update": {
+      "message": "Uuenda"
+   },
+   "button_upload": {
+      "message": "Laadi üles"
+   },
+   "button_uploadToCloud": {
+      "message": "Laadi $sitemap$ üles $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Hääleta ja esita funktsiooniideid"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Pärast laienduse ühendamist $cloud$ kontoga värskenda $sitemap$ loendit.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Toimingud"
+   },
+   "common_createSitemap": {
+      "message": "Loo $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Viga:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Impordi $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Loe lähemalt"
+   },
+   "common_multiple": {
+      "message": "Mitu"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 peab olema vahemikus $2 kuni $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 peab olema numbriline",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Andmeid pole veel kraabitud"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 vahemik peab olema kasvav",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Kraabi"
+   },
+   "common_selector": {
+      "message": "Selektor"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Autoriseerimata. Loo uuesti ühendus $cloud$-iga.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Väärtus peab olema unikaalne."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Kiirklahvide lubamiseks klõpsa siin"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Valimine valmis"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Vanemelement ei sisalda valitud elementi"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Vanemelementi ei leitud"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Vajuta $key$, et valida alamelement",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Vajuta $key$, et valida vanemelement",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Vajuta $key$, et valida kursori all olev element",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Valitud elementide arv: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 on kohustuslik ega tohi olla tühi",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1 maksimaalne pikkus on $2 märki",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 peab olema vähemalt $2 märki pikk",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Lubatud on ainult tähed, numbrid $digits$ või mõni märkidest $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Vigane $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ võti puudub - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 peab olema massiiv",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "Selle ID-ga $sitemap$ on juba olemas",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ on kohustuslik ega tohi olla tühi",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 on kohustuslik ega tohi olla tühi",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 arv ei tohi ületada $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$-is on lubatud ainult unikaalsed võtmed _id, startUrl, websiteStateSetup, selectors, hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ nimi",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Algus-URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 ei ole kehtiv URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Andmete eelvaade"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Andmeid pole veel eraldatud."
+   },
+   "edit_selector_attributeName": {
+      "message": "Atribuudi nimi"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Klõpsuelemendi unikaalsus"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Klõpsa saadaolevate atribuutide vaatamiseks"
+   },
+   "edit_selector_clickType": {
+      "message": "Klõpsamise tüüp"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Klõpsa rohkem (klõpsa rohkemate elementide laadimiseks. Peatub, kui uusi unikaalse tekstisisuga elemente ei leita.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Klõpsa korra (leheküljendus, vahelehed)"
+   },
+   "edit_selector_column": {
+      "message": "Veerg"
+   },
+   "edit_selector_columnCount": {
+      "message": "Veergude arv"
+   },
+   "edit_selector_columnName": {
+      "message": "Veeru nimi"
+   },
+   "edit_selector_delay": {
+      "message": "Viivitus (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "See funktsioon on aegunud ega tööta tulevases versioonis."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Jäta alati välja"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Jäta algsed elemendid välja"
+   },
+   "edit_selector_discardNever": {
+      "message": "Ära jäta kunagi välja"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Jäta välja, kui klõpsuelement on olemas"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Elementide piirang"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Ainult esimene kirje"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Leitud URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Selektori ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Kaasa tulemusse"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "On URL (ainult üks)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Klõpsuselektor"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Andmeridade selektor"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Päiserea selektor"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Käivita, kui elementi ei leita"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Kerimiselement"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Keri ainult puudumisel"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Keri elemendini"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Link mis tahes skriptist ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Lingi tüüp"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atribuut"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Link (loetakse href-atribuudist)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Skriptitud link atribuudis ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Tekst (kasuta tekstisisu lingina)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Minimaalne prioriteet"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Ei"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Mitu kirjet mitmes veerus"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Mitu kirjet ühes veerus"
+   },
+   "edit_selector_multipleType": {
+      "message": "Mitme kirje tüüp"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Jah"
+   },
+   "edit_selector_paginationType": {
+      "message": "Leheküljenduse tüüp"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automaatne"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Klõpsa korduvalt järgmise/rohkem nupul ([Järgmine leht] [Laadi rohkem])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Klõpsa korra mitmel nupul ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Atribuudi link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Skriptitud link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Tekstilink ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Vanemselektorid"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Tulemuse võti"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Tagastatud andmeveerud"
+   },
+   "edit_selector_script": {
+      "message": "Skript"
+   },
+   "edit_selector_scroll": {
+      "message": "Kerimine"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Klõpsamise toiming"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Allakerimise toiming"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Element (kerimine)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Elemendi atribuut"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Elemendi klõpsamine"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Elemendi allakerimine (aegunud)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Rühmitatud (aegunud)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Pilt"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Link"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Võrguandmed"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Leheküljendus"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Hüpikakna link (aegunud)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Skriptiandmed"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ lingid",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Tabel"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Tekst"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL-id",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Tabeli veerud"
+   },
+   "edit_selector_type": {
+      "message": "Tüüp"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Unikaalne $css$-selektor",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Unikaalne $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Unikaalne $html$+tekst",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Unikaalne tekst"
+   },
+   "edit_selector_unlimited": {
+      "message": "Piiramatu"
+   },
+   "export_downloadAs": {
+      "message": "Laadi alla kui:"
+   },
+   "export_generatingFile": {
+      "message": "Faili genereerimine"
+   },
+   "extDesc": {
+      "message": "Veebiandmete eraldamise tööriist lihtsa klõpsupõhise liidesega kaasaegse veebi jaoks"
+   },
+   "extName": {
+      "message": "$webScraper$ - Tasuta veebikraapimine",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Tasuta veebikraapimine",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Kraabitud andmed"
+   },
+   "nav_createNewSitemap": {
+      "message": "Loo uus $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Loo $sitemap$ viisardiga",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentatsioon"
+   },
+   "nav_editMetadata": {
+      "message": "Algus-URL-id"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Katselised funktsioonid lubatud"
+   },
+   "nav_exportData": {
+      "message": "Andmete eksport"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ eksport",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Foorum"
+   },
+   "nav_help": {
+      "message": "Abi"
+   },
+   "nav_logout": {
+      "message": "Logi välja"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Liiguta arendustööriistad brauseri alaossa, et alustada $webScraper$ kasutamist.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selektorid"
+   },
+   "nav_signInToCloud": {
+      "message": "Logi sisse $cloud$ keskkonda",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Testveebisaidid"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Hääleta funktsiooniideede poolt"
+   },
+   "nav_videoTutorials": {
+      "message": "Videoõpetused"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Veebisaidi Log-In / oleku seadistus"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Luba kasutusmõõdikute kogumine"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Luba katselised funktsioonid"
+   },
+   "options_page_keepWorking": {
+      "message": "Kraapimise ajal saab jätkata muud tööd."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Luba laienduse kasutusmõõdikute kogumine. Kogutakse ainult mitteisiklikku teavet koondatud kujul. Lisateave:"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Privaatsuspoliitika"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ kraapimine lõpetatud",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Kraapimine lõpetatud"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Kraapimine algab uuel vahelehel. Kui kraapimine on lõppenud, see aken suletakse."
+   },
+   "options_page_settings": {
+      "message": "Sätted"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Veebisaidi oleku seadistuses on parooliväli tühi."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Lehe laadimise viivitus (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Lehe laadimise viivitus"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Päringu intervall (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Päringu intervall"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Kas kustutada selektor $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Genereeri selektorid AI-ga:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Selle ID-ga selektor on juba olemas"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Selle ID-ga selektor kattub juba olemasoleva andmeekspordi veeruga"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Atribuudi nimi ei tohi sisaldada tühikut, \", ', >, /, = ega juhtmärke"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 ei tohi alata tühiku, allkriipsu ega tekstiga \"web-scraper\" ning ei tohi sisaldada: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Peab olema kehtiv CSS-selektor"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Selektoril peab vanemana olema vähemalt üks teine selektor"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript ei toeta regulaaravaldisi, mis võivad sobituda 0 tähemärgiga"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Vanemselektorid"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Tüüp"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Kustutamise kinnitus"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Kas kustutada $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtreeri $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "See $sitemap$ on ainult $cloud$ kontol. Laadi $sitemap$ muutmiseks $cloud$ kontolt alla",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "See on uusim $sitemap$ versioon. Kirjuta see $sitemap$ üle $cloud$ konto versiooniga",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ ei ole sünkroonitud",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Uusim $sitemap$ versioon on $cloud$ kontol. Kirjuta $cloud$ kontol olev $sitemap$ üle selle $sitemap$ versiooniga",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Uusimat $sitemap$ versiooni ei õnnestu tuvastada. Kirjuta see $sitemap$ üle $cloud$ konto versiooniga",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Uusimat $sitemap$ versiooni ei õnnestu tuvastada. Kirjuta $cloud$ kontol olev $sitemap$ üle selle $sitemap$ versiooniga",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ on ainult $cloud$ kontol",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ on sünkroonitud",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ on ainult laienduses",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Uusim $sitemap$ versioon on $cloud$ kontol. Uuenda see $sitemap$ $cloud$ konto versioonile vastavaks",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "See on uusim $sitemap$ versioon. Uuenda $cloud$ kontol olev $sitemap$ selle $sitemap$ versiooniga",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "See $sitemap$ on ainult laienduse salvestusruumis. Laadi $sitemap$ üles $cloud$ kontole",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domeen"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Laadi alla $cloud$ kontolt",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Laadi üles $cloud$ kontole",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Klõpsamine"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Sisestus"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Ava URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Paroolisisestus"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Ootamine (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Tekstisisestus"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Kustutada Veebisaidi oleku seadistus?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Kestus (ms)"
+   },
+   "website_state_setup_enabled": {
+      "message": "Lubatud"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Parool"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Tekst"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Ava viisardi $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Lisa pilte"
+   },
+   "wizard_addMoreText": {
+      "message": "Lisa rohkem teksti"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Lehe sisu analüüsimine..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "$1 URL-i analüüsimine AI-ga (keskmine ooteaeg $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Ja veel..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Kas pärast kerimist laaditakse rohkem kirjeid?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatiseeri eraldamine teenuses $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatiseeri $cloud$-is",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Botide tuvastamise käsitlemine"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Lõpmatu kerimise kontrollimine"
+   },
+   "wizard_columnName": {
+      "message": "Veeru nimi"
+   },
+   "wizard_continueButton": {
+      "message": "Jätka"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Kohandatavad $css$ selektorid",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Kohandatav saidi navigeerimine"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Sellelt lehelt andmete eraldamisel tekkis viga. Probleemist on teatatud. Proovi hiljem uuesti."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "Lehel leiti $1 andmepunkti",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "Lehel leiti 1 andmepunkt"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Keela lõpmatu kerimine"
+   },
+   "wizard_disablePagination": {
+      "message": "Keela leheküljendus"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Kas sellel lehel on leheküljendus?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Valimine lõpetatud"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Luba lõpmatu kerimine"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Luba navigeerimine üksuste lehtedele ja andmete eraldamine igalt lehelt."
+   },
+   "wizard_errorTitle": {
+      "message": "Viga"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Ekspordi teenustesse $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Lehe andmete kogumine $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Anna tagasisidet"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Ava Täpsem $sitemap$ koostaja",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Mida arvad?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Milline oli sinu kraapimiskogemus?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 üksuse lehe linki valitud",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 üksuse lehe link valitud"
+   },
+   "wizard_link": {
+      "message": "Link"
+   },
+   "wizard_loadMore": {
+      "message": "Laadi rohkem"
+   },
+   "wizard_loadingPage": {
+      "message": "Lehe laadimine..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ funktsioon",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Eemalda, lisa või nimeta veerge ümber enne eraldamist"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Rohkem andmete eraldajaid"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 kirjet kraabitud",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Läbib leheküljendust üksuste lehtede linkide leidmiseks."
+   },
+   "wizard_nextPage": {
+      "message": "Järgmine leht"
+   },
+   "wizard_noDataFound": {
+      "message": "Andmeid ei leitud"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Ühtegi kirjet ei kraabitud. Kontrolli eelnevaid samme või proovi uuesti."
+   },
+   "wizard_numberedPages": {
+      "message": "Nummerdatud lehed: kõigi valimiseks klõpsa mitmel nupul"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Töötab ainult ühel vahelehel."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Arendustööriistade avamiseks vajuta $shortcut1$ või $shortcut2$.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Arendustööriistade avamiseks vajuta $shortcut$.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Ava brauseri arendustööriistad"
+   },
+   "wizard_paginationDetected": {
+      "message": "Leheküljendus tuvastatud. Halda konfiguratsiooni järgmises sammus."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Leheküljendus lubatud"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Palun kirjuta laiendusele arvustus brauseri veebipoes!"
+   },
+   "wizard_rateUs": {
+      "message": "Hinda meid"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 kirjet kraabitud, kuvatakse $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Taasloo"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Kraabi uuesti"
+   },
+   "wizard_reselect": {
+      "message": "Vali uuesti"
+   },
+   "wizard_retry": {
+      "message": "Proovi uuesti"
+   },
+   "wizard_scheduler": {
+      "message": "Ajastaja"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Kraabi lehte"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Kraapija seadistus on valmis"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Kraapimine käib. ($1 kirjet kraabitud)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Kraapimine käib."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Kraapimine käib. (1 kirje kraabitud)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Kraapimine käib. ($1 kirjet kraabitud, kuvatakse $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Kerimine lubatud"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Vaja on vähemalt kahte linki."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Vali andmepunktid käsitsi"
+   },
+   "wizard_selectLink": {
+      "message": "Vali link"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Vali järgmise lehe nupp"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Vali leheküljenduse nupp. Levinud tüübid on:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Saada tagasiside"
+   },
+   "wizard_showMe": {
+      "message": "Näita"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Kuvatakse $1 kirjet $2-st",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Kuvatakse $1 kirjet",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Kuvatakse 1 kirje"
+   },
+   "wizard_signUp": {
+      "message": "Registreeru"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 kirje kraabitud"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ salvestatud Täpsemasse $sitemap2$ koostajasse",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Jäta vahele"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Andmete seadistus"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Tagasiside ja täpsem kraapimine"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Üksuste linkide avamine"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Üksuse lehe andmete seadistus"
+   },
+   "wizard_stepPagination": {
+      "message": "Leheküljendus ja kerimine"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Sünkrooni ja käivita $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Aitäh tagasiside eest!"
+   },
+   "wizard_title": {
+      "message": "Pealkiri"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Proovi uuesti valida"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Kõik arvustused vaadatakse üle kasutuskogemuse parandamiseks."
+   },
+   "wizard_yourFeedback": {
+      "message": "Sinu tagasiside"
+   }
+}

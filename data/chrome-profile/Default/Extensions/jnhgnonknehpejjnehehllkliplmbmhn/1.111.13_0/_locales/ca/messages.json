@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatitzar l'extracció de dades a $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Gestionar $webScraper$ via API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Exportació automàtica a $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "$proxy$ integrat per a problemes d'accés al lloc web",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Planificar automàticament l'extracció de dades"
+   },
+   "browse_helpUsImprove": {
+      "message": "Ajudeu-nos a millorar $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Carregant"
+   },
+   "button_addAction": {
+      "message": "Afegir acció"
+   },
+   "button_addColumn": {
+      "message": "Afegeix columna"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Afegir des de $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Crear nou selector"
+   },
+   "button_addUrl": {
+      "message": "Afegir URL"
+   },
+   "button_cancel": {
+      "message": "Cancel·la"
+   },
+   "button_close": {
+      "message": "Tancar"
+   },
+   "button_closePreview": {
+      "message": "Tancar vista prèvia"
+   },
+   "button_dataPreview": {
+      "message": "Vista prèvia de dades"
+   },
+   "button_delete": {
+      "message": "Suprimeix"
+   },
+   "button_deleteLocally": {
+      "message": "Suprimeix localment"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Eliminar la Configuració de l'estat del lloc web"
+   },
+   "button_download": {
+      "message": "Baixa"
+   },
+   "button_edit": {
+      "message": "Edita"
+   },
+   "button_elementPreview": {
+      "message": "Vista prèvia de l'element"
+   },
+   "button_listingPage": {
+      "message": "Pàgina de llistat"
+   },
+   "button_loading": {
+      "message": "Carregant..."
+   },
+   "button_overwrite": {
+      "message": "Sobreescriu"
+   },
+   "button_performAction": {
+      "message": "Executar l'acció"
+   },
+   "button_performActions": {
+      "message": "Executar accions"
+   },
+   "button_refresh": {
+      "message": "Actualitzar"
+   },
+   "button_refreshData": {
+      "message": "Actualitzar dades"
+   },
+   "button_reload": {
+      "message": "Actualitzar"
+   },
+   "button_remove": {
+      "message": "Elimina"
+   },
+   "button_save": {
+      "message": "Desar"
+   },
+   "button_saveSelector": {
+      "message": "Desar selector"
+   },
+   "button_saveSitemap": {
+      "message": "Desar $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Seleccionar"
+   },
+   "button_sendTrainingData": {
+      "message": "Enviar dades d'entrenament"
+   },
+   "button_singleItemPage": {
+      "message": "Pàgina d'element únic"
+   },
+   "button_startScraping": {
+      "message": "Iniciar l'extracció de dades"
+   },
+   "button_update": {
+      "message": "Actualitza"
+   },
+   "button_upload": {
+      "message": "Puja"
+   },
+   "button_uploadToCloud": {
+      "message": "Pujar $sitemap$ a $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Votar i enviar idees de funcions"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Després de connectar l'extensió al compte de $cloud$, actualitzeu la llista de $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Accions"
+   },
+   "common_createSitemap": {
+      "message": "Crea $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Error:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Importa $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Més informació"
+   },
+   "common_multiple": {
+      "message": "Múltiple"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 ha d'estar entre $2 i $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "El camp $1 ha de ser numèric",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Encara no s'han extret dades"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "L'interval de $1 ha de ser ascendent",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Extreu dades"
+   },
+   "common_selector": {
+      "message": "Selector"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "No autoritzat. Cal tornar a connectar amb $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "El valor ha de ser únic."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Feu clic aquí per activar les dreceres de teclat"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Selecció finalitzada"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "El pare no conté l'element seleccionat"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "No s'ha trobat l'element pare"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Prem $key$ per seleccionar l'element fill",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Prem $key$ per seleccionar l'element pare",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Prem $key$ per seleccionar l'element apuntat",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Elements seleccionats: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$json$ del $sitemap$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 és obligatori i no pot estar buit",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "La longitud màxima de $1 és de $2 caràcters",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 ha de tenir com a mínim $2 caràcters",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Només es permeten lletres, dígits $digits$ o qualsevol dels caràcters $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "$json$ no vàlid",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Falta la clau del $sitemap$ - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 ha de ser una matriu",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "Ja existeix un $sitemap$ amb aquest ID",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "El $json$ del $sitemap$ és obligatori i no pot estar buit",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 és obligatori i no pot estar buit",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "El nombre de $1 no ha de superar $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Només es permeten les claus úniques _id, startUrl, websiteStateSetup, selectors, hashHistory al $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Nom del $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "URL d'inici"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 no és un URL vàlid",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Vista prèvia de dades"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Encara no s'han extret dades."
+   },
+   "edit_selector_attributeName": {
+      "message": "Nom de l'atribut"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Unicitat de l'element de clic"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Feu clic per veure els atributs disponibles"
+   },
+   "edit_selector_clickType": {
+      "message": "Tipus de clic"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Fer més clics (clic per carregar més elements. S'atura quan no es troben elements nous amb contingut de text únic.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Fer clic una vegada (paginació, pestanyes)"
+   },
+   "edit_selector_column": {
+      "message": "Columna"
+   },
+   "edit_selector_columnCount": {
+      "message": "Nombre de columnes"
+   },
+   "edit_selector_columnName": {
+      "message": "Nom de la columna"
+   },
+   "edit_selector_delay": {
+      "message": "Retard (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Aquesta funció és obsoleta i no funcionarà en una versió futura."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Descartar sempre"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Descartar els elements inicials"
+   },
+   "edit_selector_discardNever": {
+      "message": "No descartar mai"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Descartar quan existeixi l'element de clic"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Límit d'elements"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Només el primer registre"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "URL trobada $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "ID del selector"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Incloure al resultat"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "És URL (només una)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Selector de clic"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Selector de files de dades"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Selector de fila de capçalera"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Executar si no es troba el selector"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Element de desplaçament"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Desplaçar només si falta"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Desplaçar fins a l'element"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Enllaç de qualsevol script ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Tipus d'enllaç"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atribut"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Enllaç (llegit de l'atribut href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Enllaç amb script a l'atribut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Text (utilitza el contingut de text com a enllaç)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Prioritat mínima"
+   },
+   "edit_selector_multipleNo": {
+      "message": "No"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Múltiples registres en múltiples columnes"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Múltiples registres en una columna"
+   },
+   "edit_selector_multipleType": {
+      "message": "Tipus de múltiple"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Sí"
+   },
+   "edit_selector_paginationType": {
+      "message": "Tipus de paginació"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automàtic"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Fer clic diverses vegades al botó de següent/més ([Pàgina següent] [Carrega'n més])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Fer clic una vegada en diversos botons ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Enllaç d'atribut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Enllaç ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Enllaç amb script ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Enllaç de text ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Selectors pare"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Clau de resultat"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Columnes de dades retornades"
+   },
+   "edit_selector_script": {
+      "message": "Script"
+   },
+   "edit_selector_scroll": {
+      "message": "Desplaçament"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Acció de clic"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Acció de desplaçament avall"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Element (desplaçament)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Atribut de l'element"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Element de clic"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Element amb desplaçament avall (obsolet)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Agrupat (obsolet)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Imatge"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Enllaç"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Dades de xarxa"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Paginació"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Enllaç emergent (obsolet)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Dades de script"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "Enllaços $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Taula"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Text"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "URL de $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Columnes de la taula"
+   },
+   "edit_selector_type": {
+      "message": "Tipus"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Selector $css$ únic",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "$html$ únic",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "$html$+Text únic",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Text únic"
+   },
+   "edit_selector_unlimited": {
+      "message": "Il·limitat"
+   },
+   "export_downloadAs": {
+      "message": "Descarregar com a:"
+   },
+   "export_generatingFile": {
+      "message": "Generant fitxer"
+   },
+   "extDesc": {
+      "message": "Eina d'extracció de dades web amb una interfície d'apuntar i fer clic senzilla per al web modern"
+   },
+   "extName": {
+      "message": "$webScraper$ - Extracció de dades web gratuïta",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Extracció de dades web gratuïta",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Dades extretes"
+   },
+   "nav_createNewSitemap": {
+      "message": "Crea un $sitemap$ nou",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Crea un $sitemap$ amb l'assistent",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Documentació"
+   },
+   "nav_editMetadata": {
+      "message": "URL inicials"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Funcions experimentals activades"
+   },
+   "nav_exportData": {
+      "message": "Exportació de dades"
+   },
+   "nav_exportSitemap": {
+      "message": "Exportació del $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Fòrum"
+   },
+   "nav_help": {
+      "message": "Ajuda"
+   },
+   "nav_logout": {
+      "message": "Tanca la sessió"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Moveu les eines per a desenvolupadors a la part inferior del navegador per començar a utilitzar $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selectors"
+   },
+   "nav_signInToCloud": {
+      "message": "Inicia la sessió a $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Llocs de prova"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Votar idees de funcions"
+   },
+   "nav_videoTutorials": {
+      "message": "Tutorials en vídeo"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-In / configuració de l'estat del lloc web"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Permetre la recollida de mètriques d'ús"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Activar les funcions experimentals"
+   },
+   "options_page_keepWorking": {
+      "message": "Es pot continuar amb altres tasques durant l'extracció de dades."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Permetre la recollida de mètriques d'ús de l'extensió. Només es recull informació no personal en format agregat. Més detalls a la"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Política de privadesa"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Extracció de dades de $sitemapId$ finalitzada",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Extracció de dades finalitzada"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "L'extracció de dades començarà en una pestanya nova. Un cop finalitzada, aquesta finestra es tancarà."
+   },
+   "options_page_settings": {
+      "message": "Configuració"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Un camp de contrasenya a la Configuració de l'estat del lloc web està buit."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Retard de càrrega de pàgina (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Retard de càrrega de pàgina"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Interval de sol·licituds (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Interval de sol·licituds"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Suprimir el selector $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Generar selectors amb IA:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Ja existeix un selector amb aquest ID"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "El selector amb aquest ID coincideix amb una columna d'exportació de dades existent"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "El nom de l'atribut no pot contenir espais en blanc, \", ', >, /, = ni cap caràcter de control"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 no pot començar amb espai en blanc, guió baix o \"web-scraper\", ni contenir: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Ha de ser un selector CSS vàlid"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "El selector ha de tenir almenys un altre selector com a pare"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript no admet expressions regulars que puguin coincidir amb 0 caràcters"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Selectors pare"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Tipus"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Confirmació de supressió"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Suprimir el $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtrar $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Aquest $sitemap$ només és al compte de $cloud$. Baixa el $sitemap$ del compte de $cloud$ per editar-lo",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Aquesta és l'última versió del $sitemap$. Sobreescriu aquest $sitemap$ amb una versió del compte de $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ no està sincronitzat",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "L'última versió del $sitemap$ és al compte de $cloud$. Sobreescriu el $sitemap$ del compte de $cloud$ amb aquesta versió del $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "No es pot determinar l'última versió del $sitemap$. Sobreescriu aquest $sitemap$ amb la versió del compte de $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "No es pot determinar l'última versió del $sitemap$. Sobreescriu el $sitemap$ del compte de $cloud$ amb aquesta versió del $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ només és a $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ està sincronitzat",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ només és a l'extensió",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "L'última versió del $sitemap$ és al compte de $cloud$. Actualitza aquest $sitemap$ perquè coincideixi amb la versió del compte de $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Aquesta és l'última versió del $sitemap$. Actualitza el $sitemap$ del compte de $cloud$ amb aquesta versió del $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Aquest $sitemap$ només és a l'emmagatzematge de l'extensió. Puja el $sitemap$ al compte de $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domini"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Baixa de $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Puja a $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Fer clic"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Entrada"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Obrir URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Entrada de contrasenya"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Pausa (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Entrada de text"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Eliminar la Configuració de l'estat del lloc web?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Durada en ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Activat"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Contrasenya"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Text"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Accedeix als $sitemaps$ de l'assistent",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Afegeix imatges"
+   },
+   "wizard_addMoreText": {
+      "message": "Afegeix més text"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Analitzant el contingut de la pàgina..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Analitzant $1 URL amb IA (espera mitjana $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "I més..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Es carreguen més elements en desplaçar-se?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatitzar l'extracció a $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatitzar a $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Gestió de la detecció de bots"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Comprovant el desplaçament infinit"
+   },
+   "wizard_columnName": {
+      "message": "Nom de la columna"
+   },
+   "wizard_continueButton": {
+      "message": "Continuar"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Selectors $css$ personalitzables",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Navegació del lloc web personalitzable"
+   },
+   "wizard_dataExtractionError": {
+      "message": "S'ha produït un error en extreure dades d'aquesta pàgina. S'ha notificat el problema. Torneu-ho a provar més tard."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 punts de dades trobats a la pàgina",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "1 punt de dades trobat a la pàgina"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Desactiva el desplaçament infinit"
+   },
+   "wizard_disablePagination": {
+      "message": "Desactiva la paginació"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Aquesta pàgina té paginació?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Selecció finalitzada"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Activa el desplaçament infinit"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Activar la navegació a les pàgines d'element i l'extracció de dades de cada pàgina."
+   },
+   "wizard_errorTitle": {
+      "message": "Error"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Exportar a $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Recopilant dades de la pàgina $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Enviar Comentaris"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Ves al Creador avançat de $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Què en penses?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Com ha estat la teva experiència d'extracció de dades?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 enllaços de pàgina d'element seleccionats",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 enllaç de pàgina d'element seleccionat"
+   },
+   "wizard_link": {
+      "message": "Enllaç"
+   },
+   "wizard_loadMore": {
+      "message": "Carregar més"
+   },
+   "wizard_loadingPage": {
+      "message": "Carregant la pàgina..."
+   },
+   "wizard_loginFeature": {
+      "message": "Funció de $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Elimina, afegeix o canvia el nom de columnes abans d'extreure"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Més extractors de dades"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 registres extrets",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Navegant per la paginació per descobrir enllaços de pàgines d'elements."
+   },
+   "wizard_nextPage": {
+      "message": "Pàgina següent"
+   },
+   "wizard_noDataFound": {
+      "message": "No s'han trobat dades"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "No s'ha extret cap registre. Comprova els passos anteriors o torna-ho a provar."
+   },
+   "wizard_numberedPages": {
+      "message": "Pàgines numerades: fes clic en diversos botons per seleccionar-los tots"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Només funciona en una pestanya."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Prem $shortcut1$ o $shortcut2$ per obrir les eines per a desenvolupadors.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Prem $shortcut$ per obrir les eines per a desenvolupadors.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Obre les eines per a desenvolupadors del navegador"
+   },
+   "wizard_paginationDetected": {
+      "message": "Paginació detectada. Gestioneu la configuració al pas següent."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Paginació activada"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Deixeu una ressenya de l'extensió a la botiga web del navegador!"
+   },
+   "wizard_rateUs": {
+      "message": "Valoreu-nos"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 registres extrets, mostrant $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Regenera"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Torna a extreure"
+   },
+   "wizard_reselect": {
+      "message": "Torna a seleccionar"
+   },
+   "wizard_retry": {
+      "message": "Torna-ho a provar"
+   },
+   "wizard_scheduler": {
+      "message": "Planificador"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Extreu dades de la pàgina"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Configuració de l'extractor a punt"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Extracció de dades en curs. ($1 registres extrets)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Extracció de dades en curs."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Extracció de dades en curs. (1 registre extret)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Extracció de dades en curs. ($1 registres extrets, se'n mostren $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Desplaçament activat"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Calen com a mínim dos enllaços."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Selecciona els punts de dades manualment"
+   },
+   "wizard_selectLink": {
+      "message": "Seleccionar enllaç"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Selecciona el botó de pàgina següent"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Selecciona el botó de paginació. Els tipus habituals són:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Enviar comentari"
+   },
+   "wizard_showMe": {
+      "message": "Mostra-m'ho"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Mostrant $1 de $2 registres",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Mostrant $1 registres",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Mostrant 1 registre"
+   },
+   "wizard_signUp": {
+      "message": "Registrar-se"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 registre extret"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ desat al Creador avançat de $sitemap2$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Omet"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Configuració de dades"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Comentaris i extracció de dades avançada"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Seguir els enllaços dels elements"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Configuració de dades de la pàgina d'element"
+   },
+   "wizard_stepPagination": {
+      "message": "Paginació i desplaçament"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Sincronitzar i executar $sitemaps$ de $webScraper$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Gràcies pels comentaris!"
+   },
+   "wizard_title": {
+      "message": "Títol"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Tornar a provar la selecció"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Totes les ressenyes s'inspeccionen per millorar l'experiència d'usuari."
+   },
+   "wizard_yourFeedback": {
+      "message": "El teu comentari"
+   }
+}

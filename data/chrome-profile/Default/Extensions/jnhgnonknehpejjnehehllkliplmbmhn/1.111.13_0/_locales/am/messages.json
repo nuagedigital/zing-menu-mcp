@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "በ$webScraperCloud$ ውስጥ ውሂብ ማውጣትን በራስ-ሰር አድርግ",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "$webScraper$ን በ API አስተዳድር",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "ወደ $dropbox$፣ $googledrive$፣ $awss3$፣ $googlecloud$፣ $azureblob$ በራስ-ሰር ላክ",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "ለድረ-ገጽ መዳረሻ ችግሮች አብሮ የተሰራ $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "ውሂብ ማውጣትን በራስ-ሰር መርሐ-ግብር ማስያዝ"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ን እንድናሻሽል ያግዙን!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "በመጫን ላይ"
+   },
+   "button_addAction": {
+      "message": "እርምጃ አክል"
+   },
+   "button_addColumn": {
+      "message": "አምድ አክል"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "ከ$robotstxt$ አክል",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "አዲስ መራጭ ፍጠር"
+   },
+   "button_addUrl": {
+      "message": "URL አክል"
+   },
+   "button_cancel": {
+      "message": "ይቅር"
+   },
+   "button_close": {
+      "message": "ዝጋ"
+   },
+   "button_closePreview": {
+      "message": "ቅድመ-እይታ ዝጋ"
+   },
+   "button_dataPreview": {
+      "message": "የውሂብ ቅድመ-እይታ"
+   },
+   "button_delete": {
+      "message": "ሰርዝ"
+   },
+   "button_deleteLocally": {
+      "message": "በአካባቢው ሰርዝ"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Website State Setup ሰርዝ"
+   },
+   "button_download": {
+      "message": "አውርድ"
+   },
+   "button_edit": {
+      "message": "አርትዕ"
+   },
+   "button_elementPreview": {
+      "message": "የኤለመንት ቅድመ-እይታ"
+   },
+   "button_listingPage": {
+      "message": "የዝርዝር ገጽ"
+   },
+   "button_loading": {
+      "message": "በመጫን ላይ..."
+   },
+   "button_overwrite": {
+      "message": "ተካ"
+   },
+   "button_performAction": {
+      "message": "እርምጃ አከናውን"
+   },
+   "button_performActions": {
+      "message": "እርምጃዎች አከናውን"
+   },
+   "button_refresh": {
+      "message": "አድስ"
+   },
+   "button_refreshData": {
+      "message": "ውሂብ አድስ"
+   },
+   "button_reload": {
+      "message": "አድስ"
+   },
+   "button_remove": {
+      "message": "አስወግድ"
+   },
+   "button_save": {
+      "message": "አስቀምጥ"
+   },
+   "button_saveSelector": {
+      "message": "መራጭ አስቀምጥ"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ አስቀምጥ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "ምረጥ"
+   },
+   "button_sendTrainingData": {
+      "message": "የስልጠና ውሂብ ላክ"
+   },
+   "button_singleItemPage": {
+      "message": "የነጠላ ንጥል ገጽ"
+   },
+   "button_startScraping": {
+      "message": "ውሂብ ማውጣት ጀምር"
+   },
+   "button_update": {
+      "message": "አዘምን"
+   },
+   "button_upload": {
+      "message": "ስቀል"
+   },
+   "button_uploadToCloud": {
+      "message": "$sitemap$ ወደ $cloud$ ስቀል",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "ለባህሪ ሀሳቦች ድምጽ ስጥ እና አስገባ"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "ቅጥያውን ከ$cloud$ መለያ ጋር ካገናኙ በኋላ የ$sitemap$ ዝርዝሩን ያድሱ።",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "እርምጃዎች"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ ፍጠር",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "ስህተት:"
+   },
+   "common_id": {
+      "message": "መለያ"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ አስመጣ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "ተጨማሪ እወቅ"
+   },
+   "common_multiple": {
+      "message": "ብዙ"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 በ$2 እና በ$3 መካከል መሆን አለበት",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 አሃዛዊ መሆን አለበት",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "እስካሁን የወጣ ውሂብ የለም"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "የ$1 ክልል እያደገ የሚሄድ መሆን አለበት",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "ውሂብ አውጣ"
+   },
+   "common_selector": {
+      "message": "መራጭ"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "ፈቃድ አልተሰጠም። ከ$cloud$ ጋር እንደገና ይገናኙ።",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "እሴቱ ልዩ መሆን አለበት።"
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "አቋራጭ ቁልፎችን ለማንቃት እዚህ ጠቅ ያድርጉ"
+   },
+   "contentApp_doneSelecting": {
+      "message": "ምርጫ ማጠናቀቅ"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "ወላጁ የተመረጠውን ኤለመንት አልያዘም"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "ወላጅ ኤለመንት አልተገኘም"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "ልጅ ኤለመንት ለመምረጥ $key$ ይጫኑ",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "ወላጅ ኤለመንት ለመምረጥ $key$ ይጫኑ",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "ጠቋሚው ያረፈበትን ኤለመንት ለመምረጥ $key$ ይጫኑ",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "የተመረጡ ኤለመንቶች ብዛት: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 ያስፈልጋል እና ባዶ ሊሆን አይችልም",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "የ$1 ከፍተኛ ርዝመት $2 ቁምፊዎች ነው",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 ቢያንስ $2 ቁምፊዎች ርዝመት ሊኖረው ይገባል",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "ፊደላት፣ አሃዞች $digits$ ወይም ከቁምፊዎቹ $allowedCharacters$ ውስጥ ማንኛውም ብቻ ይፈቀዳሉ",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "ልክ ያልሆነ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "የ$sitemap$ ቁልፍ ይጎድላል - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 ድርድር መሆን አለበት",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "በዚህ መለያ ያለው $sitemap$ አስቀድሞ አለ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ ያስፈልጋል እና ባዶ ሊሆን አይችልም",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 ያስፈልጋል እና ባዶ ሊሆን አይችልም",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "የ$1 ብዛት ከ$2 መብለጥ የለበትም",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "በ$sitemap$ ውስጥ ልዩ ቁልፎች _id, startUrl, websiteStateSetup, selectors, hashHistory ብቻ ይፈቀዳሉ",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "የ$sitemap$ ስም",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "መነሻ URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 ትክክለኛ URL አይደለም",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "የውሂብ ቅድመ-እይታ"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "እስካሁን ምንም ውሂብ አልወጣም።"
+   },
+   "edit_selector_attributeName": {
+      "message": "የባህሪ ስም"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "ጠቅ የሚደረግ ኤለመንት ልዩነት"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "ያሉ ባህሪያትን ለማየት ጠቅ አድርግ"
+   },
+   "edit_selector_clickType": {
+      "message": "የጠቅ ማድረግ ዓይነት"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "ተጨማሪ ጠቅ ማድረግ (ተጨማሪ ኤለመንቶችን ለመጫን ጠቅ ማድረግ። ልዩ የጽሑፍ ይዘት ያላቸው አዲስ ኤለመንቶች ሳይገኙ ሲቀሩ ይቆማል።)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "አንድ ጊዜ ጠቅ ማድረግ (ገጽ አሰሳ፣ ትሮች)"
+   },
+   "edit_selector_column": {
+      "message": "አምድ"
+   },
+   "edit_selector_columnCount": {
+      "message": "የአምድ ብዛት"
+   },
+   "edit_selector_columnName": {
+      "message": "የአምድ ስም"
+   },
+   "edit_selector_delay": {
+      "message": "መዘግየት (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "ይህ ባህሪ ጊዜ ያለፈበት ነው እና ወደፊት በሚወጣ ስሪት ላይ አይሠራም።"
+   },
+   "edit_selector_discardAlways": {
+      "message": "ሁልጊዜ ማስወገድ"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "የመጀመሪያ ኤለመንቶችን ማስወገድ"
+   },
+   "edit_selector_discardNever": {
+      "message": "በፍጹም አለማስወገድ"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "ጠቅ የሚደረግ ኤለመንት ሲኖር ማስወገድ"
+   },
+   "edit_selector_elementLimit": {
+      "message": "የኤለመንት ገደብ"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "የመጀመሪያ መዝገብ ብቻ"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "የተገኘ URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "የመራጭ መለያ"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "በውጤት ውስጥ አካትት"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL ነው (አንድ ብቻ)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "ጠቅ የሚደረግ መራጭ"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "የውሂብ ረድፎች መራጭ"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "የራስጌ ረድፍ መራጭ"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "መራጭ ካልተገኘ የሚፈጸም"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "የማሸብለያ ኤለመንት"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "ካልታየ ብቻ ማሸብለል"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "ወደ ኤለመንት ማሸብለል"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "ከማንኛውም ስክሪፕት የመጣ አገናኝ ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "የአገናኝ ዓይነት"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "ባህሪ"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "አገናኝ (ከ href ባህሪ ይነበባል)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "በባህሪ ውስጥ በስክሪፕት የተጻፈ አገናኝ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "ጽሑፍ (የጽሑፍ ይዘቶችን እንደ አገናኝ መጠቀም)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "ዝቅተኛ ቅድሚያ"
+   },
+   "edit_selector_multipleNo": {
+      "message": "አይ"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "ብዙ መዝገቦች በብዙ አምዶች"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "ብዙ መዝገቦች በአንድ አምድ"
+   },
+   "edit_selector_multipleType": {
+      "message": "የብዙ ዓይነት"
+   },
+   "edit_selector_multipleYes": {
+      "message": "አዎ"
+   },
+   "edit_selector_paginationType": {
+      "message": "የገጽ አሰሳ ዓይነት"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "ራስ-ሰር"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "በሚቀጥለው/ተጨማሪ አዝራር ላይ ብዙ ጊዜ ጠቅ ማድረግ ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "በብዙ አዝራሮች ላይ አንድ ጊዜ ጠቅ ማድረግ ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "የባህሪ አገናኝ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "አገናኝ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "በስክሪፕት የተጻፈ አገናኝ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "የጽሑፍ አገናኝ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "ወላጅ መራጮች"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "የውጤት ቁልፍ"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "የተመለሱ የውሂብ አምዶች"
+   },
+   "edit_selector_script": {
+      "message": "ስክሪፕት"
+   },
+   "edit_selector_scroll": {
+      "message": "ማሸብለል"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "ጠቅ የማድረግ እርምጃ"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "ወደ ታች የማሸብለል እርምጃ"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "ኤለመንት (ማሸብለል)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "የኤለመንት ባህሪ"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "ኤለመንት ጠቅ ማድረግ"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "ኤለመንት ወደ ታች ማሸብለል (ጊዜ ያለፈበት)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "የተቧደነ (ጊዜ ያለፈበት)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "ምስል"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "አገናኝ"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "የአውታረ መረብ ውሂብ"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "ገጽ አሰሳ"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "ብቅ-ባይ አገናኝ (ጊዜ ያለፈበት)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "የስክሪፕት ውሂብ"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ አገናኞች",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "ሰንጠረዥ"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "ጽሑፍ"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URLs",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "የሰንጠረዥ አምዶች"
+   },
+   "edit_selector_type": {
+      "message": "ዓይነት"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "ልዩ $css$ መራጭ",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "ልዩ $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "ልዩ $html$+ጽሑፍ",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "ልዩ ጽሑፍ"
+   },
+   "edit_selector_unlimited": {
+      "message": "ያልተገደበ"
+   },
+   "export_downloadAs": {
+      "message": "አውርድ እንደ፦"
+   },
+   "export_generatingFile": {
+      "message": "ፋይል በማመንጨት ላይ"
+   },
+   "extDesc": {
+      "message": "ለዘመናዊ ድር ቀላል በጠቅታ የሚሠራ በይነ-ገጽ ያለው የድር ውሂብ ማውጫ መሣሪያ"
+   },
+   "extName": {
+      "message": "$webScraper$ - ነፃ የድር ስክራፒንግ",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - ነፃ የድር ስክራፒንግ",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "የወጣ ውሂብ"
+   },
+   "nav_createNewSitemap": {
+      "message": "አዲስ $sitemap$ ፍጠር",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "$sitemap$ በዊዛርድ ፍጠር",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "ሰነዶች"
+   },
+   "nav_editMetadata": {
+      "message": "መነሻ URLs"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "የሙከራ ባህሪያት ነቅተዋል"
+   },
+   "nav_exportData": {
+      "message": "ውሂብ ወደ ውጭ መላክ"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ ወደ ውጭ መላክ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "መድረክ"
+   },
+   "nav_help": {
+      "message": "እገዛ"
+   },
+   "nav_logout": {
+      "message": "ውጣ"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$ መጠቀም ለመጀመር የገንቢ መሣሪያዎችን ወደ አሳሹ ግርጌ ያንቀሳቅሱ።",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "መራጮች"
+   },
+   "nav_signInToCloud": {
+      "message": "ወደ $cloud$ ግባ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "የሙከራ ድረ-ገጾች"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "የባህሪ ሐሳቦችን ድምጽ ስጥ"
+   },
+   "nav_videoTutorials": {
+      "message": "የቪዲዮ ትምህርቶች"
+   },
+   "nav_websiteStateSetup": {
+      "message": "የድር ጣቢያ Log-In / ሁኔታ ማዋቀር"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "የአጠቃቀም መለኪያ መሰብሰብን ማንቃት"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "የሙከራ ባህሪያትን ማንቃት"
+   },
+   "options_page_keepWorking": {
+      "message": "በውሂብ ማውጣት ጊዜ ሌላ ሥራ መቀጠል ይቻላል።"
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "የቅጥያ የአጠቃቀም መለኪያ መሰብሰብን ማንቃት። ግላዊ ያልሆነ መረጃ ብቻ በተጠቃለለ ቅርጸት ይሰበሰባል። ተጨማሪ ዝርዝሮች በ"
+   },
+   "options_page_privacyPolicy": {
+      "message": "የግላዊነት ፖሊሲ"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "የ$sitemapId$ ስክራፒንግ ተጠናቋል",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "ስክራፒንግ ተጠናቋል"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "የውሂብ ማውጣት ሂደት በአዲስ ትር ይጀምራል። ሂደቱ ሲጠናቀቅ ይህ መስኮት ይዘጋል።"
+   },
+   "options_page_settings": {
+      "message": "ቅንብሮች"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "በ Website State Setup ውስጥ የይለፍ ቃል መስክ ባዶ ነው።"
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "የገጽ መጫን መዘግየት (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "የገጽ መጫን መዘግየት"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "የጥያቄ ክፍተት (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "የጥያቄ ክፍተት"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "መራጭ $1 ይሰረዝ?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "መራጮችን በAI ፍጠር፦"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "ይህ መለያ ያለው መራጭ አስቀድሞ አለ"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "ይህ መለያ ያለው መራጭ አስቀድሞ ካለው የውሂብ ኤክስፖርት አምድ ጋር እኩል ነው"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "የባህሪ ስም ባዶ ቦታ, \", ', >, /, = ወይም ማንኛውንም የመቆጣጠሪያ ቁምፊ መያዝ አይችልም"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 በባዶ ቦታ፣ በስር መስመር ወይም በ\"web-scraper\" መጀመር አይችልም እና እነዚህን መያዝ አይችልም: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "ትክክለኛ CSS መራጭ መሆን አለበት"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "መራጩ ቢያንስ አንድ ሌላ መራጭ እንደ ወላጅ ሊኖረው ይገባል"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript 0 ቁምፊዎችን ሊያዛምዱ የሚችሉ መደበኛ አገላለጾችን አይደግፍም"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "ወላጅ መራጮች"
+   },
+   "selectors_tableHeaderType": {
+      "message": "ዓይነት"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "የስረዛ ማረጋገጫ"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$ ይሰረዝ?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ አጣራ",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "ይህ $sitemap$ በ$cloud$ መለያ ውስጥ ብቻ ነው። ለማረም $sitemap$ን ከ$cloud$ መለያ ያውርዱ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "ይህ የቅርብ ጊዜው የ$sitemap$ ስሪት ነው። ይህን $sitemap$ ከ$cloud$ መለያ ባለው ስሪት ይተኩ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ አልተመሳሰለም",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "የቅርብ ጊዜው የ$sitemap$ ስሪት በ$cloud$ መለያ ውስጥ ነው። በ$cloud$ መለያ ውስጥ ያለውን $sitemap$ በዚህ የ$sitemap$ ስሪት ይተኩ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "የቅርብ ጊዜው የ$sitemap$ ስሪት ሊወሰን አይችልም። ይህን $sitemap$ ከ$cloud$ መለያ ባለው ስሪት ይተኩ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "የቅርብ ጊዜው የ$sitemap$ ስሪት ሊወሰን አይችልም። በ$cloud$ መለያ ውስጥ ያለውን $sitemap$ በዚህ የ$sitemap$ ስሪት ይተኩ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ በ$cloud$ ውስጥ ብቻ ነው",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ ተመሳስሏል",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ በቅጥያው ውስጥ ብቻ ነው",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "የቅርብ ጊዜው የ$sitemap$ ስሪት በ$cloud$ መለያ ውስጥ ነው። ይህን $sitemap$ በ$cloud$ መለያ ውስጥ ካለው ስሪት ጋር እንዲመሳሰል ያዘምኑ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "ይህ የቅርብ ጊዜው የ$sitemap$ ስሪት ነው። በ$cloud$ መለያ ውስጥ ያለውን $sitemap$ በዚህ የ$sitemap$ ስሪት ያዘምኑ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "ይህ $sitemap$ በቅጥያው ማከማቻ ውስጥ ብቻ ነው። $sitemap$ን ወደ $cloud$ መለያ ይስቀሉ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "ዶሜይን"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "ከ$cloud$ አውርድ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "ወደ $cloud$ ስቀል",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "ጠቅ ማድረግ"
+   },
+   "website_state_setup_actionInput": {
+      "message": "ግቤት"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL ክፈት"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "የይለፍ ቃል ግቤት"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "መጠበቅ (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "የጽሑፍ ግቤት"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Website State Setup ይሰረዝ?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "ቆይታ በ ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "ነቅቷል"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "የይለፍ ቃል"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "ጽሑፍ"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "የዊዛርድ $sitemaps$ መዳረሻ",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "ምስሎችን አክል"
+   },
+   "wizard_addMoreText": {
+      "message": "ተጨማሪ ጽሑፍ አክል"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "የገጽ ይዘትን በመተንተን ላይ..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "$1 URLs በAI በመተንተን ላይ (አማካይ ጥበቃ $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "እና ተጨማሪ..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "ከማንሸራተት በኋላ ተጨማሪ ንጥሎች ይጫናሉ?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "በ$webScraperCloud$ ውሂብ ማውጣትን በራስ-ሰር ማድረግ",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "በ$cloud$ ውስጥ በራስ-ሰር አድርግ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "የቦት ማወቂያ አያያዝ"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "ማለቂያ የሌለው ማሸብለል በመፈተሽ ላይ"
+   },
+   "wizard_columnName": {
+      "message": "የአምድ ስም"
+   },
+   "wizard_continueButton": {
+      "message": "ቀጥል"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "ሊበጁ የሚችሉ $css$ መራጮች",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "ሊበጅ የሚችል የጣቢያ አሰሳ"
+   },
+   "wizard_dataExtractionError": {
+      "message": "ከዚህ ገጽ ውሂብ በማውጣት ላይ ሳለ ስህተት ተከስቷል። ችግሩ ሪፖርት ተደርጓል። ቆይተው እንደገና ይሞክሩ።"
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "በገጹ ላይ $1 የውሂብ ነጥቦች ተገኝተዋል",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "በገጹ ላይ 1 የውሂብ ነጥብ ተገኝቷል"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "ማለቂያ የሌለው ማሸብለል አሰናክል"
+   },
+   "wizard_disablePagination": {
+      "message": "ገጽ አሰሳ አሰናክል"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "ይህ ገጽ የገጽ አሰሳ አለው?"
+   },
+   "wizard_doneSelecting": {
+      "message": "መምረጥ ተጠናቋል"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "ማለቂያ የሌለው ማሸብለል አንቃ"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "ወደ ንጥል ገጾች አሰሳን እና ከእያንዳንዱ ገጽ ውሂብ ማውጣትን ያንቁ።"
+   },
+   "wizard_errorTitle": {
+      "message": "ስህተት"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "ወደ $dropbox$, $googleDrive$, $s3$, ... ላክ",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "የገጽ ውሂብ በመሰብሰብ ላይ $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "አስተያየት መስጠት"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "ወደ የላቀ $sitemap$ ገንቢ ሂድ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "ምን ያስባሉ?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "የስክራፒንግ ተሞክሮዎ እንዴት ነበር?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 የንጥል ገጽ አገናኞች ተመርጠዋል",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 የንጥል ገጽ አገናኝ ተመርጧል"
+   },
+   "wizard_link": {
+      "message": "አገናኝ"
+   },
+   "wizard_loadMore": {
+      "message": "ተጨማሪ ጫን"
+   },
+   "wizard_loadingPage": {
+      "message": "ገጽ በመጫን ላይ..."
+   },
+   "wizard_loginFeature": {
+      "message": "የ$logIn$ ባህሪ",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "ከማውጣት በፊት አምዶችን ያስወግዱ፣ ያክሉ ወይም ይሰይሙ"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "ተጨማሪ ውሂብ አውጪዎች"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 መዝገቦች ወጥተዋል",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "የንጥል ገጽ አገናኞችን ለማግኘት በገጽ አሰሳ ውስጥ በማለፍ ላይ።"
+   },
+   "wizard_nextPage": {
+      "message": "የሚቀጥለው ገጽ"
+   },
+   "wizard_noDataFound": {
+      "message": "ምንም ውሂብ አልተገኘም"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "ምንም መዝገብ አልወጣም። ቀደም ያሉ ደረጃዎችን ይፈትሹ ወይም እንደገና ይሞክሩ።"
+   },
+   "wizard_numberedPages": {
+      "message": "ቁጥር ያላቸው ገጾች፦ ሁሉንም ለመምረጥ ብዙ አዝራሮችን ጠቅ ያድርጉ"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "በአንድ ትር ብቻ ይሰራል።"
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "የገንቢ መሣሪያዎችን ለመክፈት $shortcut1$ ወይም $shortcut2$ ይጫኑ።",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "የገንቢ መሣሪያዎችን ለመክፈት $shortcut$ ይጫኑ።",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "የአሳሹን የገንቢ መሣሪያዎች ክፈት"
+   },
+   "wizard_paginationDetected": {
+      "message": "ገጽ አሰሳ ተገኝቷል። ውቅሩን በሚቀጥለው ደረጃ ያስተዳድሩ።"
+   },
+   "wizard_paginationEnabled": {
+      "message": "ገጽ አሰሳ ነቅቷል"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "እባክዎ ቅጥያውን በአሳሹ የድር መደብር ላይ ይገምግሙ!"
+   },
+   "wizard_rateUs": {
+      "message": "ደረጃ ይስጡን"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 መዝገቦች ወጥተዋል፣ $2 በማሳየት ላይ",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "እንደገና ፍጠር"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "እንደገና አውጣ"
+   },
+   "wizard_reselect": {
+      "message": "እንደገና ምረጥ"
+   },
+   "wizard_retry": {
+      "message": "እንደገና ሞክር"
+   },
+   "wizard_scheduler": {
+      "message": "መርሐ-ግብር አስያዥ"
+   },
+   "wizard_scrapeThePage": {
+      "message": "ከገጹ ውሂብ አውጣ"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "የስክራፐር ውቅር ዝግጁ ነው"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "ስክራፒንግ በመካሄድ ላይ። ($1 መዝገቦች ወጥተዋል)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "ስክራፒንግ በመካሄድ ላይ።"
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "ስክራፒንግ በመካሄድ ላይ። (1 መዝገብ ወጥቷል)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "ስክራፒንግ በመካሄድ ላይ። ($1 መዝገቦች ወጥተዋል፣ $2 በማሳየት ላይ)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "ማንሸራተት ነቅቷል"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "ቢያንስ ሁለት አገናኞች ያስፈልጋሉ።"
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "የውሂብ ነጥቦችን በእጅ ይምረጡ"
+   },
+   "wizard_selectLink": {
+      "message": "አገናኝ ምረጥ"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "የሚቀጥለውን ገጽ አዝራር ምረጥ"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "የገጽ አሰሳ አዝራር ይምረጡ። የተለመዱ ዓይነቶች፦"
+   },
+   "wizard_sendFeedback": {
+      "message": "አስተያየት መላክ"
+   },
+   "wizard_showMe": {
+      "message": "አሳየኝ"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "ከ$2 መዝገቦች ውስጥ $1 በማሳየት ላይ",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1 መዝገቦች በማሳየት ላይ",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "1 መዝገብ በማሳየት ላይ"
+   },
+   "wizard_signUp": {
+      "message": "ይመዝገቡ"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 መዝገብ ወጥቷል"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ በላቀ $sitemap2$ ገንቢ ውስጥ ተቀምጧል",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "ዝለል"
+   },
+   "wizard_stepDataSetup": {
+      "message": "የውሂብ ማዋቀር"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "ግብረመልስ እና የላቀ ስክራፒንግ"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "የንጥል ገጽ አገናኞችን መከተል"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "የንጥል ገጽ ውሂብ ማዋቀር"
+   },
+   "wizard_stepPagination": {
+      "message": "ገጽ አሰሳ እና ማሸብለል"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ ማመሳሰል እና ማስኬድ",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "ስለ አስተያየቱ እናመሰግናለን!"
+   },
+   "wizard_title": {
+      "message": "ርዕስ"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "እንደገና መምረጥ ይሞክሩ"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "የተጠቃሚ ተሞክሮን ለማሻሻል ሁሉም ግምገማዎች ይመረመራሉ።"
+   },
+   "wizard_yourFeedback": {
+      "message": "የእርስዎ አስተያየት"
+   }
+}

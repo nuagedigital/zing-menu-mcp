@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "I-automate ang Scraping sa $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Pamahalaan ang $webScraper$ sa pamamagitan ng API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Awtomatikong pag-export sa $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Built-in na $proxy$ para sa mga isyu sa pag-access ng site",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Awtomatikong i-schedule ang pagkuha ng data"
+   },
+   "browse_helpUsImprove": {
+      "message": "Tulungan kaming pahusayin ang $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Naglo-load"
+   },
+   "button_addAction": {
+      "message": "Magdagdag ng Aksyon"
+   },
+   "button_addColumn": {
+      "message": "Magdagdag ng Kolum"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Magdagdag mula sa $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Gumawa ng bagong selector"
+   },
+   "button_addUrl": {
+      "message": "Magdagdag ng URL"
+   },
+   "button_cancel": {
+      "message": "Kanselahin"
+   },
+   "button_close": {
+      "message": "Isara"
+   },
+   "button_closePreview": {
+      "message": "Isara ang preview"
+   },
+   "button_dataPreview": {
+      "message": "Preview ng data"
+   },
+   "button_delete": {
+      "message": "I-delete"
+   },
+   "button_deleteLocally": {
+      "message": "I-delete nang lokal"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Tanggalin ang Pag-setup ng Estado ng Website"
+   },
+   "button_download": {
+      "message": "I-download"
+   },
+   "button_edit": {
+      "message": "I-edit"
+   },
+   "button_elementPreview": {
+      "message": "Preview ng elemento"
+   },
+   "button_listingPage": {
+      "message": "Pahina ng listahan"
+   },
+   "button_loading": {
+      "message": "Naglo-load..."
+   },
+   "button_overwrite": {
+      "message": "I-overwrite"
+   },
+   "button_performAction": {
+      "message": "Magsagawa ng Aksyon"
+   },
+   "button_performActions": {
+      "message": "Magsagawa ng mga Aksyon"
+   },
+   "button_refresh": {
+      "message": "I-refresh"
+   },
+   "button_refreshData": {
+      "message": "I-refresh ang Data"
+   },
+   "button_reload": {
+      "message": "I-refresh"
+   },
+   "button_remove": {
+      "message": "Alisin"
+   },
+   "button_save": {
+      "message": "I-save"
+   },
+   "button_saveSelector": {
+      "message": "I-save ang selector"
+   },
+   "button_saveSitemap": {
+      "message": "I-save ang $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Piliin"
+   },
+   "button_sendTrainingData": {
+      "message": "Magpadala ng training data"
+   },
+   "button_singleItemPage": {
+      "message": "Pahina ng iisang item"
+   },
+   "button_startScraping": {
+      "message": "Simulan ang scraping"
+   },
+   "button_update": {
+      "message": "I-update"
+   },
+   "button_upload": {
+      "message": "I-upload"
+   },
+   "button_uploadToCloud": {
+      "message": "I-upload ang $sitemap$ sa $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "I-upvote at Isumite ang mga Ideya sa Tampok"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Pagkatapos ikonekta ang extension sa $cloud$ account, i-refresh ang listahan ng $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Mga aksyon"
+   },
+   "common_createSitemap": {
+      "message": "Gumawa ng $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Error:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "I-import ang $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Matuto pa"
+   },
+   "common_multiple": {
+      "message": "Maramihan"
+   },
+   "common_mustBeBetween": {
+      "message": "Dapat nasa pagitan ng $2 at $3 ang $1",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "Dapat numeric ang $1",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Wala pang data na na-scrape"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Dapat pataas ang range ng $1",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Mag-scrape"
+   },
+   "common_selector": {
+      "message": "Selector"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Hindi awtorisado. Muling kumonekta sa $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Dapat unique ang value."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "I-click dito para paganahin ang mga hotkey"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Tapos na sa pagpili"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Wala sa parent ang napiling elemento"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Hindi nahanap ang parent na elemento"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Pindutin ang $key$ para piliin ang child na elemento",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Pindutin ang $key$ para piliin ang parent na elemento",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Pindutin ang $key$ para piliin ang naka-hover na elemento",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Bilang ng napiling elemento: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "Kinakailangan ang $1 at hindi maaaring walang laman",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Ang maximum na haba ng $1 ay $2 na karakter",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "Ang $1 ay dapat na hindi bababa sa $2 na karakter ang haba",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Mga titik, digit $digits$ o alinman sa mga karakter na $allowedCharacters$ lang ang pinapayagan",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Hindi wastong $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Nawawala ang key ng $sitemap$ - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "Ang $1 ay dapat na array",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "May $sitemap$ nang may ganitong Id",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "Kinakailangan ang $sitemap$ $json$ at hindi maaaring walang laman",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "Kinakailangan ang $1 at hindi maaaring walang laman",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Ang bilang ng $1 ay hindi dapat lumampas sa $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Mga natatanging key na _id, startUrl, websiteStateSetup, selectors, hashHistory lang ang pinapayagan sa $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Pangalan ng $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Panimulang URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "Ang $1 ay hindi wastong URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Preview ng Data"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Wala pang nakuhang data."
+   },
+   "edit_selector_attributeName": {
+      "message": "Pangalan ng attribute"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Pagiging natatangi ng elementong i-click"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "I-click upang tingnan ang mga available na attribute"
+   },
+   "edit_selector_clickType": {
+      "message": "Uri ng click"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "I-click pa (i-click para mag-load ng iba pang elemento. Hihinto kapag walang bagong elementong may natatanging text content na natagpuan.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "I-click nang isang beses (pagination, tab)"
+   },
+   "edit_selector_column": {
+      "message": "Column"
+   },
+   "edit_selector_columnCount": {
+      "message": "Bilang ng kolum"
+   },
+   "edit_selector_columnName": {
+      "message": "Pangalan ng Kolum"
+   },
+   "edit_selector_delay": {
+      "message": "Delay (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Hindi na ginagamit ang tampok na ito at hindi na gagana sa susunod na release."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Palaging ibukod"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Ibukod ang mga unang elemento"
+   },
+   "edit_selector_discardNever": {
+      "message": "Huwag kailanman ibukod"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Ibukod kapag may elementong i-click"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Limitasyon ng elemento"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Unang Record Lang"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Nahanap na URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Selector ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Isama sa resulta"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL (isa lang)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Selector na i-click"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Selector ng mga data row"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Selector ng header row"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Selector na isasagawa kapag hindi nahanap"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Elementong i-scroll"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Mag-scroll lamang kung wala"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Mag-scroll sa elemento"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Link mula sa anumang script ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Uri ng link"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Attribute"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Link (basahin mula sa href attribute)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Scripted link sa attribute ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Text (gamitin ang nilalaman ng teksto bilang link)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Minimum na priority"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Hindi"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Maraming Record sa Maraming Kolum"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Maraming Record sa Isang Kolum"
+   },
+   "edit_selector_multipleType": {
+      "message": "Uri ng maramihan"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Oo"
+   },
+   "edit_selector_paginationType": {
+      "message": "Uri ng pagination"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Auto"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "I-click nang maraming beses ang next/more button ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "I-click nang isang beses ang maraming button ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Attribute link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Scripted link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Text link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Mga parent selector"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Key ng resulta"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Mga ibinalik na kolum ng data"
+   },
+   "edit_selector_script": {
+      "message": "Script"
+   },
+   "edit_selector_scroll": {
+      "message": "Scroll"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Aksyong Click"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Aksyong Scroll Pababa"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Elemento (scroll)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Attribute ng elemento"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Elemento click"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Elemento scroll pababa (Hindi na ginagamit)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Naka-grupo (Hindi na ginagamit)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Larawan"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Link"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Data ng Network"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Pagination"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Popup Link (Hindi na ginagamit)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Data ng Script"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "Mga Link ng $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Table"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Teksto"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "Mga URL ng $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Mga column ng talahanayan"
+   },
+   "edit_selector_type": {
+      "message": "Uri"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Natatanging $css$ selector",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Natatanging $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Natatanging $html$+Text",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Natatanging Text"
+   },
+   "edit_selector_unlimited": {
+      "message": "Walang limitasyon"
+   },
+   "export_downloadAs": {
+      "message": "I-download bilang:"
+   },
+   "export_generatingFile": {
+      "message": "Bumubuo ng file"
+   },
+   "extDesc": {
+      "message": "Tool sa pagkuha ng web data na may madaling point-and-click na interface para sa modernong web"
+   },
+   "extName": {
+      "message": "$webScraper$ - Libreng Web Scraping",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Libreng Web Scraping",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Na-scrape na data"
+   },
+   "nav_createNewSitemap": {
+      "message": "Gumawa ng bagong $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Gumawa ng $sitemap$ gamit ang Wizard",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentasyon"
+   },
+   "nav_editMetadata": {
+      "message": "Start URLs"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Naka-enable ang mga eksperimental na tampok"
+   },
+   "nav_exportData": {
+      "message": "Pag-export ng data"
+   },
+   "nav_exportSitemap": {
+      "message": "Pag-export ng $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forum"
+   },
+   "nav_help": {
+      "message": "Tulong"
+   },
+   "nav_logout": {
+      "message": "Mag-logout"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Ilipat ang mga tool ng developer sa ibaba ng browser upang simulang gamitin ang $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Mga selector"
+   },
+   "nav_signInToCloud": {
+      "message": "Mag-sign in sa $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Mga Test Site"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "I-upvote ang mga Ideya sa Tampok"
+   },
+   "nav_videoTutorials": {
+      "message": "Mga Video Tutorial"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Website Log-In / Pag-setup ng Estado"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Payagan ang pangangalap ng sukatan ng paggamit"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Paganahin ang mga eksperimental na tampok"
+   },
+   "options_page_keepWorking": {
+      "message": "Maaaring magpatuloy ang ibang gawain habang tumatakbo ang scraping."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Payagan ang pangangalap ng sukatan ng paggamit ng extension. Tanging hindi personal na impormasyon sa pinagsama-samang format ang kinakalap. Higit pang detalye sa"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Patakaran sa Privacy"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Natapos ang scraping ng $sitemapId$",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Natapos ang scraping"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Magsisimula ang scraping sa bagong tab. Kapag kumpleto na ang scraping, magsasara ang window na ito."
+   },
+   "options_page_settings": {
+      "message": "Mga Setting"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Walang laman ang isang field ng password sa Pag-setup ng Estado ng Website."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Antala ng pag-load ng pahina (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Antala ng pag-load ng pahina"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Agwat ng request (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Agwat ng request"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "I-delete ang selector $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Bumuo ng mga Selector gamit ang AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "May umiiral nang selector na may ganitong id"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Ang selector na may ganitong id ay katumbas ng umiiral nang data export column"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Hindi maaaring maglaman ang pangalan ng attribute ng whitespace, \", ', >, /, = o anumang control character"
+   },
+   "selectors_invalidColumnName": {
+      "message": "Hindi maaaring magsimula ang $1 sa whitespace, underscore, o \"web-scraper\" at hindi maaaring maglaman ng: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Dapat valid na CSS selector"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Kailangan ng selector ng kahit isa pang selector bilang parent"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "Hindi sinusuportahan ng JavaScript ang mga regular expression na maaaring tumugma sa 0 character"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Mga parent selector"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Uri"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Pagkumpirma ng Pag-delete"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "I-delete ang $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "I-filter ang $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Nasa $cloud$ account lang ang $sitemap$ na ito. I-download ang $sitemap$ mula sa $cloud$ account upang i-edit",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Ito ang pinakabagong bersyon ng $sitemap$. I-overwrite ang $sitemap$ na ito gamit ang bersyon mula sa $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "Hindi naka-sync ang $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Nasa $cloud$ account ang pinakabagong bersyon ng $sitemap$. I-overwrite ang $sitemap$ sa $cloud$ account gamit ang bersyong ito ng $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Hindi matukoy ang pinakabagong bersyon ng $sitemap$. I-overwrite ang $sitemap$ na ito gamit ang bersyon mula sa $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Hindi matukoy ang pinakabagong bersyon ng $sitemap$. I-overwrite ang $sitemap$ sa $cloud$ account gamit ang bersyong ito ng $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "Nasa $cloud$ lang ang $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "Naka-sync ang $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "Nasa extension lang ang $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Nasa $cloud$ account ang pinakabagong bersyon ng $sitemap$. I-update ang $sitemap$ na ito upang tumugma sa bersyon sa $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Ito ang pinakabagong bersyon ng $sitemap$. I-update ang $sitemap$ sa $cloud$ account gamit ang bersyong ito ng $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Nasa storage ng extension lang ang $sitemap$ na ito. I-upload ang $sitemap$ sa $cloud$ account",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domain"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "I-download mula sa $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "I-upload sa $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "I-click"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Input"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Buksan ang URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Input ng Password"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Sleep (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Input ng Teksto"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Tanggalin ang Pag-setup ng Estado ng Website?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Tagal sa ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Pinagana"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Password"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Teksto"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "I-access ang mga wizard $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Magdagdag ng mga larawan"
+   },
+   "wizard_addMoreText": {
+      "message": "Magdagdag pa ng teksto"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Sinusuri ang nilalaman ng pahina..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Sinusuri ang $1 URL gamit ang AI (average na paghihintay na $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "At iba pa..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "May mas maraming item ba na naglo-load pagkatapos mag-scroll?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "I-automate ang pagkuha sa $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "I-automate sa $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Pangangasiwa ng pagtukoy ng bot"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Sinusuri ang infinite scroll"
+   },
+   "wizard_columnName": {
+      "message": "Pangalan ng kolum"
+   },
+   "wizard_continueButton": {
+      "message": "Magpatuloy"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Nako-customize na mga $css$ selector",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Nako-customize na nabigasyon ng site"
+   },
+   "wizard_dataExtractionError": {
+      "message": "May naganap na error habang kumukuha ng data mula sa pahinang ito. Naiulat na ang isyu. Subukang muli mamaya."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 data point ang nahanap sa pahina",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "1 data point ang nahanap sa pahina"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Huwag Paganahin ang Infinite Scroll"
+   },
+   "wizard_disablePagination": {
+      "message": "Huwag Paganahin ang Pagination"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "May pagination ba ang pahinang ito?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Tapos na sa pagpili"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Paganahin ang Infinite Scroll"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Paganahin ang navigation sa mga pahina ng item at pagkuha ng data mula sa bawat pahina."
+   },
+   "wizard_errorTitle": {
+      "message": "Error"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "I-export sa $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Kinukuha ang data ng pahina $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Magbigay ng Feedback"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Pumunta sa Advanced na tagabuo ng $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Ano sa palagay mo?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Kumusta ang iyong karanasan sa scraping?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 link ng pahina ng item ang napili",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 link ng pahina ng item ang napili"
+   },
+   "wizard_link": {
+      "message": "Link"
+   },
+   "wizard_loadMore": {
+      "message": "Mag-load pa"
+   },
+   "wizard_loadingPage": {
+      "message": "Nilo-load ang pahina..."
+   },
+   "wizard_loginFeature": {
+      "message": "Tampok na $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Mag-alis, magdagdag o magpalit ng pangalan ng kolum bago kumuha"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Higit pang tagakuha ng data"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 record ang na-scrape",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Nagna-navigate sa pagination para hanapin ang mga link ng pahina ng item."
+   },
+   "wizard_nextPage": {
+      "message": "Susunod na pahina"
+   },
+   "wizard_noDataFound": {
+      "message": "Walang Nahanap na Data"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Walang record na na-scrape. Suriin ang mga naunang hakbang o subukan muli."
+   },
+   "wizard_numberedPages": {
+      "message": "Mga numeradong pahina: i-click ang maraming button para piliin lahat"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Gumagana lang sa isang tab."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Pindutin ang $shortcut1$ o $shortcut2$ para buksan ang mga tool ng developer.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Pindutin ang $shortcut$ para buksan ang mga tool ng developer.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Buksan ang mga tool ng developer ng browser"
+   },
+   "wizard_paginationDetected": {
+      "message": "Natukoy ang pagination. Pamahalaan ang configuration sa susunod na hakbang."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Pinagana ang pagination"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Mangyaring i-review ang extension sa webstore ng browser!"
+   },
+   "wizard_rateUs": {
+      "message": "I-rate kami"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 record ang na-scrape, ipinapakita ang $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Buuin muli"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "I-scrape Muli"
+   },
+   "wizard_reselect": {
+      "message": "Piliin Muli"
+   },
+   "wizard_retry": {
+      "message": "Subukang muli"
+   },
+   "wizard_scheduler": {
+      "message": "Scheduler"
+   },
+   "wizard_scrapeThePage": {
+      "message": "I-scrape ang pahina"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Handa na ang configuration ng scraper"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Kasalukuyang nag-i-scrape. ($1 record ang na-scrape)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Kasalukuyang nag-i-scrape."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Kasalukuyang nag-i-scrape. (1 record ang na-scrape)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Kasalukuyang nag-i-scrape. ($1 record ang na-scrape, ipinapakita ang $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Pinagana ang scroll"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Kailangan ng hindi bababa sa dalawang link."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Manual na piliin ang mga data point"
+   },
+   "wizard_selectLink": {
+      "message": "Piliin ang link"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Piliin ang button ng susunod na pahina"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Piliin ang button ng pagination. Mga karaniwang uri:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Ipadala ang Feedback"
+   },
+   "wizard_showMe": {
+      "message": "Ipakita"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Ipinapakita ang $1 sa $2 na record",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Ipinapakita ang $1 na record",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Ipinapakita ang 1 record"
+   },
+   "wizard_signUp": {
+      "message": "Mag-sign up"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 record ang na-scrape"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "Na-save ang $sitemap$ sa Advanced na tagabuo ng $sitemap2$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Laktawan"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Pag-setup ng Data"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Feedback at Advanced na Scraping"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Sundan ang mga Link ng Item"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Pag-setup ng Data ng Pahina ng Item"
+   },
+   "wizard_stepPagination": {
+      "message": "Pagination at Scroll"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "I-sync at patakbuhin ang $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Salamat sa feedback!"
+   },
+   "wizard_title": {
+      "message": "Pamagat"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Subukang pumili muli"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Sinusuri ang lahat ng review upang mapabuti ang karanasan ng user."
+   },
+   "wizard_yourFeedback": {
+      "message": "Ang iyong feedback"
+   }
+}

@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatizácia scrapingu v $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Spravovať $webScraper$ cez API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automatický export do $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Vstavaný $proxy$ pre problémy s prístupom na stránku",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Automatické plánovanie extrakcie dát"
+   },
+   "browse_helpUsImprove": {
+      "message": "Pomôžte nám zlepšiť $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Načítava sa"
+   },
+   "button_addAction": {
+      "message": "Pridať akciu"
+   },
+   "button_addColumn": {
+      "message": "Pridať stĺpec"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Pridať z $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Vytvoriť nový selektor"
+   },
+   "button_addUrl": {
+      "message": "Pridať URL"
+   },
+   "button_cancel": {
+      "message": "Zrušiť"
+   },
+   "button_close": {
+      "message": "Zavrieť"
+   },
+   "button_closePreview": {
+      "message": "Zavrieť náhľad"
+   },
+   "button_dataPreview": {
+      "message": "Náhľad dát"
+   },
+   "button_delete": {
+      "message": "Odstrániť"
+   },
+   "button_deleteLocally": {
+      "message": "Odstrániť lokálne"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Odstrániť Nastavenie stavu webu"
+   },
+   "button_download": {
+      "message": "Stiahnuť"
+   },
+   "button_edit": {
+      "message": "Upraviť"
+   },
+   "button_elementPreview": {
+      "message": "Náhľad prvku"
+   },
+   "button_listingPage": {
+      "message": "Stránka so zoznamom"
+   },
+   "button_loading": {
+      "message": "Načítava sa..."
+   },
+   "button_overwrite": {
+      "message": "Prepísať"
+   },
+   "button_performAction": {
+      "message": "Vykonať akciu"
+   },
+   "button_performActions": {
+      "message": "Vykonať akcie"
+   },
+   "button_refresh": {
+      "message": "Obnoviť"
+   },
+   "button_refreshData": {
+      "message": "Obnoviť dáta"
+   },
+   "button_reload": {
+      "message": "Obnoviť"
+   },
+   "button_remove": {
+      "message": "Odstrániť"
+   },
+   "button_save": {
+      "message": "Uložiť"
+   },
+   "button_saveSelector": {
+      "message": "Uložiť selektor"
+   },
+   "button_saveSitemap": {
+      "message": "Uložiť $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Vybrať"
+   },
+   "button_sendTrainingData": {
+      "message": "Odoslať tréningové dáta"
+   },
+   "button_singleItemPage": {
+      "message": "Stránka jednej položky"
+   },
+   "button_startScraping": {
+      "message": "Spustiť scraping"
+   },
+   "button_update": {
+      "message": "Aktualizovať"
+   },
+   "button_upload": {
+      "message": "Nahrať"
+   },
+   "button_uploadToCloud": {
+      "message": "Nahrať $sitemap$ do $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Hlasovať a odoslať nápady na funkcie"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Po pripojení rozšírenia k účtu $cloud$ obnovte zoznam $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Akcie"
+   },
+   "common_createSitemap": {
+      "message": "Vytvoriť $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Chyba:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Importovať $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Zistiť viac"
+   },
+   "common_multiple": {
+      "message": "Viacnásobné"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 musí byť medzi $2 a $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 musí byť číselná hodnota",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Zatiaľ neboli získané žiadne dáta"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Rozsah $1 musí byť vzostupný",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Scrapovať"
+   },
+   "common_selector": {
+      "message": "Selektor"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Neautorizované. Znova sa pripojte k $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Hodnota musí byť jedinečná."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Kliknite sem na povolenie klávesových skratiek"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Dokončiť výber"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Nadradený prvok neobsahuje vybraný prvok"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Nadradený prvok sa nenašiel"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Stlačte $key$ na výber podradeného prvku",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Stlačte $key$ na výber nadradeného prvku",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Stlačte $key$ na výber prvku pod kurzorom",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Počet vybraných prvkov: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 je povinné a nemôže byť prázdne",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Maximálna dĺžka $1 je $2 znakov",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 musí mať aspoň $2 znakov",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Povolené sú iba písmená, číslice $digits$ alebo niektorý zo znakov $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Neplatný $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Chýba kľúč $sitemap$ - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 musí byť pole",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ s týmto Id už existuje",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ je povinný a nemôže byť prázdny",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 je povinné a nemôže byť prázdne",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Počet $1 nesmie prekročiť $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "V $sitemap$ sú povolené iba jedinečné kľúče _id, startUrl, websiteStateSetup, selectors, hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Názov $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Počiatočná URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 nie je platná URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Náhľad dát"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Zatiaľ neboli extrahované žiadne dáta."
+   },
+   "edit_selector_attributeName": {
+      "message": "Názov atribútu"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Jedinečnosť prvku na kliknutie"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Kliknutím zobraziť dostupné atribúty"
+   },
+   "edit_selector_clickType": {
+      "message": "Typ kliknutia"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Kliknúť viac (kliknutím načítať ďalšie prvky. Zastaví sa, keď sa nenájdu nové prvky s jedinečným textovým obsahom.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Kliknúť raz (stránkovanie, karty)"
+   },
+   "edit_selector_column": {
+      "message": "Stĺpec"
+   },
+   "edit_selector_columnCount": {
+      "message": "Počet stĺpcov"
+   },
+   "edit_selector_columnName": {
+      "message": "Názov stĺpca"
+   },
+   "edit_selector_delay": {
+      "message": "Oneskorenie (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Táto funkcia je zastaraná a v budúcej verzii nebude fungovať."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Vždy vylúčiť"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Vylúčiť počiatočné prvky"
+   },
+   "edit_selector_discardNever": {
+      "message": "Nikdy nevylučovať"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Vylúčiť, keď existuje prvok na kliknutie"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Limit prvkov"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Iba prvý záznam"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Nájdená URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "ID selektora"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Zahrnúť do výsledku"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Je URL (iba jedna)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Selektor kliknutia"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Selektor dátových riadkov"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Selektor riadka hlavičky"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Selektor pre prípad nenájdenia"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Posúvaný prvok"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Posúvať, len ak chýba"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Posunúť na prvok"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Odkaz z ľubovoľného skriptu ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Typ odkazu"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atribút"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Odkaz (čítať z atribútu href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Skriptovaný odkaz v atribúte ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Text (použiť textový obsah ako odkaz)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Minimálna priorita"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Nie"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Viacero záznamov vo viacerých stĺpcoch"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Viacero záznamov v jednom stĺpci"
+   },
+   "edit_selector_multipleType": {
+      "message": "Typ viacnásobnosti"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Áno"
+   },
+   "edit_selector_paginationType": {
+      "message": "Typ stránkovania"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automaticky"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Kliknúť viackrát na tlačidlo ďalej/viac ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Kliknúť raz na viacero tlačidiel ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Odkaz v atribúte ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Odkaz ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Skriptovaný odkaz ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Textový odkaz ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Nadradené selektory"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Kľúč výsledku"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Vrátené stĺpce dát"
+   },
+   "edit_selector_script": {
+      "message": "Skript"
+   },
+   "edit_selector_scroll": {
+      "message": "Posúvanie"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Akcia kliknutia"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Akcia posúvania nadol"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Prvok (posúvanie)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Atribút prvku"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Prvok s kliknutím"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Prvok s posúvaním nadol (zastarané)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Zoskupené (zastarané)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Obrázok"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Odkaz"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Sieťové dáta"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Stránkovanie"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Popup odkaz (zastarané)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Dáta skriptu"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "Odkazy $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Tabuľka"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Text"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Stĺpce tabuľky"
+   },
+   "edit_selector_type": {
+      "message": "Typ"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Jedinečný $css$ selektor",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Jedinečný $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Jedinečný $html$+text",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Jedinečný text"
+   },
+   "edit_selector_unlimited": {
+      "message": "Neobmedzené"
+   },
+   "export_downloadAs": {
+      "message": "Stiahnuť ako:"
+   },
+   "export_generatingFile": {
+      "message": "Generuje sa súbor"
+   },
+   "extDesc": {
+      "message": "Nástroj na extrakciu webových dát s jednoduchým rozhraním s výberom kliknutím pre moderný web"
+   },
+   "extName": {
+      "message": "$webScraper$ - Bezplatný web scraping",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Bezplatný web scraping",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Získané dáta"
+   },
+   "nav_createNewSitemap": {
+      "message": "Vytvoriť nový $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Vytvoriť $sitemap$ pomocou sprievodcu",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentácia"
+   },
+   "nav_editMetadata": {
+      "message": "Počiatočné URL"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Experimentálne funkcie povolené"
+   },
+   "nav_exportData": {
+      "message": "Export dát"
+   },
+   "nav_exportSitemap": {
+      "message": "Export $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Fórum"
+   },
+   "nav_help": {
+      "message": "Pomoc"
+   },
+   "nav_logout": {
+      "message": "Odhlásiť sa"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Presuňte nástroje pre vývojárov do spodnej časti prehliadača a začnite používať $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selektory"
+   },
+   "nav_signInToCloud": {
+      "message": "Prihlásiť sa do $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Testovacie stránky"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Hlasovať za nápady na funkcie"
+   },
+   "nav_videoTutorials": {
+      "message": "Videonávody"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Prihlásenie na web / nastavenie stavu"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Povoliť zhromažďovanie metrík používania"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Povoliť experimentálne funkcie"
+   },
+   "options_page_keepWorking": {
+      "message": "Počas scrapingu možno pokračovať v inej práci."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Povoliť zhromažďovanie metrík používania rozšírenia. Zhromažďujú sa iba neosobné informácie v agregovanom formáte. Viac podrobností v"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Zásady ochrany osobných údajov"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Scraping $sitemapId$ dokončený",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Scraping dokončený"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Scraping sa spustí na novej karte. Po dokončení scrapingu sa toto okno zatvorí."
+   },
+   "options_page_settings": {
+      "message": "Nastavenia"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Pole hesla v Nastavení stavu webu je prázdne."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Oneskorenie načítania stránky (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Oneskorenie načítania stránky"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Interval požiadaviek (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Interval požiadaviek"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Odstrániť selektor $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Generovať selektory pomocou AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Selektor s týmto ID už existuje"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Selektor s týmto ID sa zhoduje s existujúcim stĺpcom exportu dát"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Názov atribútu nesmie obsahovať biele znaky, \", ', >, /, = ani riadiace znaky"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 nesmie začínať bielym znakom, podčiarkovníkom ani \"web-scraper\" a nesmie obsahovať: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Musí byť platný CSS selektor"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Selektor musí mať ako nadradený aspoň jeden iný selektor"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript nepodporuje regulárne výrazy, ktoré sa môžu zhodovať s 0 znakmi"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Nadradené selektory"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Typ"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Potvrdenie odstránenia"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Odstrániť $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtrovať $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Tento $sitemap$ je iba v účte $cloud$. Stiahne $sitemap$ z účtu $cloud$ na úpravu",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Toto je najnovšia verzia $sitemap$. Prepíše tento $sitemap$ verziou z účtu $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ nie je synchronizovaný",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Najnovšia verzia $sitemap$ je v účte $cloud$. Prepíše $sitemap$ v účte $cloud$ touto verziou $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Najnovšiu verziu $sitemap$ nie je možné určiť. Prepíše tento $sitemap$ verziou z účtu $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Najnovšiu verziu $sitemap$ nie je možné určiť. Prepíše $sitemap$ v účte $cloud$ touto verziou $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ je iba v $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ je synchronizovaný",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ je iba v rozšírení",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Najnovšia verzia $sitemap$ je v účte $cloud$. Aktualizuje tento $sitemap$ na verziu v účte $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Toto je najnovšia verzia $sitemap$. Aktualizuje $sitemap$ v účte $cloud$ touto verziou $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Tento $sitemap$ je iba v úložisku rozšírenia. Nahrá $sitemap$ do účtu $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Doména"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Stiahnuť z $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Nahrať do $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Kliknúť"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Vstup"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Otvoriť URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Vstup hesla"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Pauza (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Textový vstup"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Odstrániť Nastavenie stavu webu?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Trvanie v ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Povolené"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Heslo"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Text"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Prístup k $sitemaps$ zo sprievodcu",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Pridať obrázky"
+   },
+   "wizard_addMoreText": {
+      "message": "Pridať viac textu"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Analyzuje sa obsah stránky..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Analyzuje sa $1 URL pomocou AI (priemerné čakanie $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "A ďalšie..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Načítajú sa ďalšie položky po posúvaní?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatizovať extrakciu v $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatizovať v $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Riešenie detekcie botov"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Kontroluje sa nekonečné posúvanie"
+   },
+   "wizard_columnName": {
+      "message": "Názov stĺpca"
+   },
+   "wizard_continueButton": {
+      "message": "Pokračovať"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Prispôsobiteľné $css$ selektory",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Prispôsobiteľná navigácia webu"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Pri extrakcii dát z tejto stránky sa vyskytla chyba. Problém bol nahlásený. Skúste to znova neskôr."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "Na stránke nájdených $1 dátových bodov",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "Na stránke sa našiel 1 dátový bod"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Zakázať nekonečné posúvanie"
+   },
+   "wizard_disablePagination": {
+      "message": "Zakázať stránkovanie"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Má táto stránka stránkovanie?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Výber dokončený"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Povoliť nekonečné posúvanie"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Povoliť navigáciu na stránky položiek a extrakciu dát z každej stránky."
+   },
+   "wizard_errorTitle": {
+      "message": "Chyba"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Exportovať do $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Zhromažďovanie dát stránky $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Poskytnúť spätnú väzbu"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Prejsť na Pokročilý editor $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Aký je váš názor?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Aká bola vaša skúsenosť so scrapingom?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "Vybrané odkazy na stránky položiek: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "Vybraný 1 odkaz na stránku položky"
+   },
+   "wizard_link": {
+      "message": "Odkaz"
+   },
+   "wizard_loadMore": {
+      "message": "Načítať viac"
+   },
+   "wizard_loadingPage": {
+      "message": "Načítava sa stránka..."
+   },
+   "wizard_loginFeature": {
+      "message": "Funkcia $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Pred extrakciou odstrániť, pridať alebo premenovať stĺpce"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Ďalšie extraktory dát"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 získaných záznamov",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Prechádzanie stránkovaním na vyhľadanie odkazov na stránky položiek."
+   },
+   "wizard_nextPage": {
+      "message": "Ďalšia stránka"
+   },
+   "wizard_noDataFound": {
+      "message": "Nenašli sa žiadne dáta"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Nezískali sa žiadne záznamy. Skontrolujte predchádzajúce kroky alebo skúste znova."
+   },
+   "wizard_numberedPages": {
+      "message": "Číslované stránky: kliknutím na viacero tlačidiel vyberte všetky"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Funguje iba na jednej karte."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Stlačením $shortcut1$ alebo $shortcut2$ otvorte nástroje pre vývojárov.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Stlačením $shortcut$ otvorte nástroje pre vývojárov.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Otvoriť nástroje pre vývojárov prehliadača"
+   },
+   "wizard_paginationDetected": {
+      "message": "Zistené stránkovanie. Konfiguráciu spravujte v ďalšom kroku."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Stránkovanie povolené"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Napíšte recenziu na rozšírenie v obchode prehliadača!"
+   },
+   "wizard_rateUs": {
+      "message": "Ohodnotiť"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 získaných záznamov, zobrazených $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Regenerovať"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Znovu scrapovať"
+   },
+   "wizard_reselect": {
+      "message": "Znovu vybrať"
+   },
+   "wizard_retry": {
+      "message": "Skúsiť znova"
+   },
+   "wizard_scheduler": {
+      "message": "Plánovač"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Scrapovať stránku"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Konfigurácia scrapera je pripravená"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Prebieha scraping. (scrapovaných záznamov: $1)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Prebieha scraping."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Prebieha scraping. (scrapovaný 1 záznam)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Prebieha scraping. (scrapovaných záznamov: $1, zobrazených: $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Posúvanie povolené"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Vyžadujú sa aspoň dva odkazy."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Vyberte dátové body manuálne"
+   },
+   "wizard_selectLink": {
+      "message": "Vybrať odkaz"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Vybrať tlačidlo ďalšej stránky"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Vyberte tlačidlo stránkovania. Bežné typy sú:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Odoslať spätnú väzbu"
+   },
+   "wizard_showMe": {
+      "message": "Zobraziť"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Zobrazuje sa $1 z $2 záznamov",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Zobrazuje sa $1 záznamov",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Zobrazuje sa 1 záznam"
+   },
+   "wizard_signUp": {
+      "message": "Zaregistrovať sa"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "Získaný 1 záznam"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ uložená v Pokročilom editore $sitemap2$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Preskočiť"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Nastavenie dát"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Spätná väzba a pokročilý scraping"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Prechádzať odkazy položiek"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Nastavenie dát stránky položky"
+   },
+   "wizard_stepPagination": {
+      "message": "Stránkovanie a posúvanie"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Synchronizovať a spustiť $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Ďakujeme za spätnú väzbu!"
+   },
+   "wizard_title": {
+      "message": "Názov"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Skúsiť vybrať znova"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Všetky recenzie sa kontrolujú na zlepšenie používateľského zážitku."
+   },
+   "wizard_yourFeedback": {
+      "message": "Vaša spätná väzba"
+   }
+}

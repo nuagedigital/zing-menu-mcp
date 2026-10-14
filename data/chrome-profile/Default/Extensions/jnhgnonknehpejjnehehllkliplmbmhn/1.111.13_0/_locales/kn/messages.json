@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "$webScraperCloud$ ನಲ್ಲಿ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸಿ",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "API ಮೂಲಕ $webScraper$ ನಿರ್ವಹಿಸಿ",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$ ಗೆ ಸ್ವಯಂಚಾಲಿತ ರಫ್ತು",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "ಸೈಟ್ ಪ್ರವೇಶ ಸಮಸ್ಯೆಗಳಿಗೆ ಅಂತರ್ನಿರ್ಮಿತ $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "ಡೇಟಾ ಹೊರತೆಗೆಯುವಿಕೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿಗದಿಪಡಿಸಿ"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ ಸುಧಾರಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ"
+   },
+   "button_addAction": {
+      "message": "ಕ್ರಿಯೆ ಸೇರಿಸಿ"
+   },
+   "button_addColumn": {
+      "message": "ಕಾಲಂ ಸೇರಿಸಿ"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "$robotstxt$ ನಿಂದ ಸೇರಿಸಿ",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "ಹೊಸ ಸೆಲೆಕ್ಟರ್ ರಚಿಸಿ"
+   },
+   "button_addUrl": {
+      "message": "URL ಸೇರಿಸಿ"
+   },
+   "button_cancel": {
+      "message": "ರದ್ದುಮಾಡಿ"
+   },
+   "button_close": {
+      "message": "ಮುಚ್ಚಿ"
+   },
+   "button_closePreview": {
+      "message": "ಪೂರ್ವವೀಕ್ಷಣೆ ಮುಚ್ಚಿ"
+   },
+   "button_dataPreview": {
+      "message": "ಡೇಟಾ ಪೂರ್ವವೀಕ್ಷಣೆ"
+   },
+   "button_delete": {
+      "message": "ಅಳಿಸಿ"
+   },
+   "button_deleteLocally": {
+      "message": "ಸ್ಥಳೀಯವಾಗಿ ಅಳಿಸಿ"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "ವೆಬ್‌ಸೈಟ್ ಸ್ಥಿತಿ ಸೆಟಪ್ ಅಳಿಸಿ"
+   },
+   "button_download": {
+      "message": "ಡೌನ್‌ಲೋಡ್"
+   },
+   "button_edit": {
+      "message": "ಸಂಪಾದಿಸು"
+   },
+   "button_elementPreview": {
+      "message": "ಎಲಿಮೆಂಟ್ ಪೂರ್ವವೀಕ್ಷಣೆ"
+   },
+   "button_listingPage": {
+      "message": "ಪಟ್ಟಿ ಪುಟ"
+   },
+   "button_loading": {
+      "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+   },
+   "button_overwrite": {
+      "message": "ಮರುಬರೆಯಿರಿ"
+   },
+   "button_performAction": {
+      "message": "ಕ್ರಿಯೆ ನಿರ್ವಹಿಸಿ"
+   },
+   "button_performActions": {
+      "message": "ಕ್ರಿಯೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ"
+   },
+   "button_refresh": {
+      "message": "ರಿಫ್ರೆಶ್"
+   },
+   "button_refreshData": {
+      "message": "ಡೇಟಾ ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+   },
+   "button_reload": {
+      "message": "ರಿಫ್ರೆಶ್"
+   },
+   "button_remove": {
+      "message": "ತೆಗೆದುಹಾಕಿ"
+   },
+   "button_save": {
+      "message": "ಉಳಿಸಿ"
+   },
+   "button_saveSelector": {
+      "message": "ಸೆಲೆಕ್ಟರ್ ಉಳಿಸಿ"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ ಉಳಿಸಿ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "ಆಯ್ಕೆಮಾಡಿ"
+   },
+   "button_sendTrainingData": {
+      "message": "ತರಬೇತಿ ಡೇಟಾ ಕಳುಹಿಸಿ"
+   },
+   "button_singleItemPage": {
+      "message": "ಏಕ ಐಟಂ ಪುಟ"
+   },
+   "button_startScraping": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ"
+   },
+   "button_update": {
+      "message": "ನವೀಕರಿಸಿ"
+   },
+   "button_upload": {
+      "message": "ಅಪ್‌ಲೋಡ್"
+   },
+   "button_uploadToCloud": {
+      "message": "$sitemap$ ಅನ್ನು $cloud$ ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "ವೈಶಿಷ್ಟ್ಯ ಸಲಹೆಗಳನ್ನು ಅಪ್‌ವೋಟ್ ಮಾಡಿ ಮತ್ತು ಸಲ್ಲಿಸಿ"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "ವಿಸ್ತರಣೆಯನ್ನು $cloud$ ಖಾತೆಗೆ ಸಂಪರ್ಕಿಸಿದ ನಂತರ, $sitemap$ ಪಟ್ಟಿಯನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "ಕ್ರಿಯೆಗಳು"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ ರಚಿಸು",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "ದೋಷ:"
+   },
+   "common_id": {
+      "message": "Id"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ ಆಮದು ಮಾಡು",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+   },
+   "common_multiple": {
+      "message": "ಬಹು"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 $2 ಮತ್ತು $3 ನಡುವೆ ಇರಬೇಕು",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 ಸಂಖ್ಯಾತ್ಮಕವಾಗಿರಬೇಕು",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "ಇನ್ನೂ ಯಾವುದೇ ಡೇಟಾ ಸ್ಕ್ರೇಪ್ ಮಾಡಿಲ್ಲ"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 ವ್ಯಾಪ್ತಿ ಆರೋಹಣ ಕ್ರಮದಲ್ಲಿರಬೇಕು",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪ್ ಮಾಡು"
+   },
+   "common_selector": {
+      "message": "ಸೆಲೆಕ್ಟರ್"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "ಅನಧಿಕೃತ. $cloud$ ನೊಂದಿಗೆ ಮರು-ಸಂಪರ್ಕಿಸಿ.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "ಮೌಲ್ಯ ಅನನ್ಯವಾಗಿರಬೇಕು."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "ಹಾಟ್‌ಕೀಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+   },
+   "contentApp_doneSelecting": {
+      "message": "ಆಯ್ಕೆ ಪೂರ್ಣ"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "ಪೋಷಕವು ಆಯ್ಕೆಮಾಡಿದ ಎಲಿಮೆಂಟ್ ಅನ್ನು ಒಳಗೊಂಡಿಲ್ಲ"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "ಪೋಷಕ ಎಲಿಮೆಂಟ್ ಕಂಡುಬಂದಿಲ್ಲ"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "ಚೈಲ್ಡ್ ಎಲಿಮೆಂಟ್ ಆಯ್ಕೆಮಾಡಲು $key$ ಒತ್ತಿರಿ",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "ಪೋಷಕ ಎಲಿಮೆಂಟ್ ಆಯ್ಕೆಮಾಡಲು $key$ ಒತ್ತಿರಿ",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "ಹೋವರ್ ಮಾಡಿದ ಎಲಿಮೆಂಟ್ ಆಯ್ಕೆಮಾಡಲು $key$ ಒತ್ತಿರಿ",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "ಆಯ್ಕೆಮಾಡಿದ ಎಲಿಮೆಂಟ್‌ಗಳ ಸಂಖ್ಯೆ: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 ಅಗತ್ಯವಿದೆ ಮತ್ತು ಖಾಲಿ ಇರುವಂತಿಲ್ಲ",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1 ರ ಗರಿಷ್ಠ ಉದ್ದ $2 ಅಕ್ಷರಗಳು",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 ಕನಿಷ್ಠ $2 ಅಕ್ಷರಗಳಷ್ಟು ಉದ್ದವಾಗಿರಬೇಕು",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "ಅಕ್ಷರಗಳು, ಅಂಕೆಗಳು $digits$ ಅಥವಾ $allowedCharacters$ ಅಕ್ಷರಗಳನ್ನು ಮಾತ್ರ ಅನುಮತಿಸಲಾಗಿದೆ",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "ಅಮಾನ್ಯ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ ಕೀ ಕಾಣೆಯಾಗಿದೆ - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 ಒಂದು ಅರೇ ಆಗಿರಬೇಕು",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "ಈ Id ಹೊಂದಿರುವ $sitemap$ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ ಅಗತ್ಯವಿದೆ ಮತ್ತು ಖಾಲಿಯಾಗಿರಬಾರದು",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 ಅಗತ್ಯವಿದೆ ಮತ್ತು ಖಾಲಿಯಾಗಿರಬಾರದು",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 ಎಣಿಕೆ $2 ಮೀರಬಾರದು",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$ ನಲ್ಲಿ ಕೇವಲ ಅನನ್ಯ ಕೀಗಳಾದ _id, startUrl, websiteStateSetup, selectors, hashHistory ಮಾತ್ರ ಅನುಮತಿಸಲಾಗಿದೆ",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ ಹೆಸರು",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "ಪ್ರಾರಂಭ URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 ಮಾನ್ಯ URL ಅಲ್ಲ",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "ಡೇಟಾ ಪೂರ್ವವೀಕ್ಷಣೆ"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "ಇನ್ನೂ ಯಾವುದೇ ಡೇಟಾ ಹೊರತೆಗೆದಿಲ್ಲ."
+   },
+   "edit_selector_attributeName": {
+      "message": "ಗುಣಲಕ್ಷಣದ ಹೆಸರು"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "ಕ್ಲಿಕ್ ಎಲಿಮೆಂಟ್ ಅನನ್ಯತೆ"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "ಲಭ್ಯವಿರುವ ಗುಣಲಕ್ಷಣಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+   },
+   "edit_selector_clickType": {
+      "message": "ಕ್ಲಿಕ್ ಪ್ರಕಾರ"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "ಇನ್ನಷ್ಟು ಕ್ಲಿಕ್ ಮಾಡಿ (ಹೆಚ್ಚಿನ ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ. ಅನನ್ಯ ಪಠ್ಯ ವಿಷಯವಿರುವ ಹೊಸ ಎಲಿಮೆಂಟ್‌ಗಳು ಸಿಗದಿದ್ದಾಗ ನಿಲ್ಲುತ್ತದೆ.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "ಒಮ್ಮೆ ಕ್ಲಿಕ್ ಮಾಡಿ (ಪೇಜಿನೇಶನ್, ಟ್ಯಾಬ್‌ಗಳು)"
+   },
+   "edit_selector_column": {
+      "message": "ಕಾಲಮ್"
+   },
+   "edit_selector_columnCount": {
+      "message": "ಕಾಲಂ ಎಣಿಕೆ"
+   },
+   "edit_selector_columnName": {
+      "message": "ಕಾಲಂ ಹೆಸರು"
+   },
+   "edit_selector_delay": {
+      "message": "ವಿಳಂಬ (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "ಈ ವೈಶಿಷ್ಟ್ಯ ಅಪ್ರಚಲಿತವಾಗಿದೆ ಮತ್ತು ಮುಂದಿನ ಬಿಡುಗಡೆಯಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ."
+   },
+   "edit_selector_discardAlways": {
+      "message": "ಯಾವಾಗಲೂ ಹೊರಗಿಡಿ"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "ಆರಂಭಿಕ ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ಹೊರಗಿಡಿ"
+   },
+   "edit_selector_discardNever": {
+      "message": "ಎಂದಿಗೂ ಹೊರಗಿಡಬೇಡಿ"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "ಕ್ಲಿಕ್ ಎಲಿಮೆಂಟ್ ಇದ್ದಾಗ ಹೊರಗಿಡಿ"
+   },
+   "edit_selector_elementLimit": {
+      "message": "ಎಲಿಮೆಂಟ್ ಮಿತಿ"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "ಮೊದಲ ದಾಖಲೆ ಮಾತ್ರ"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "ಕಂಡುಬಂದ URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "ಸೆಲೆಕ್ಟರ್ ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "ಫಲಿತಾಂಶದಲ್ಲಿ ಸೇರಿಸಿ"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL ಆಗಿದೆ (ಒಂದು ಮಾತ್ರ)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "ಕ್ಲಿಕ್ ಸೆಲೆಕ್ಟರ್"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "ಡೇಟಾ ಸಾಲುಗಳ ಸೆಲೆಕ್ಟರ್"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "ಹೆಡರ್ ಸಾಲಿನ ಸೆಲೆಕ್ಟರ್"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "ಸಿಗದಿದ್ದಾಗ ನಿರ್ವಹಿಸುವ ಸೆಲೆಕ್ಟರ್"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "ಸ್ಕ್ರಾಲ್ ಎಲಿಮೆಂಟ್"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "ಇಲ್ಲದಿದ್ದರೆ ಮಾತ್ರ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "ಎಲಿಮೆಂಟ್‌ಗೆ ಸ್ಕ್ರಾಲ್ ಮಾಡಿ"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "ಯಾವುದೇ ಸ್ಕ್ರಿಪ್ಟ್‌ನಿಂದ ಲಿಂಕ್ ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "ಲಿಂಕ್ ಪ್ರಕಾರ"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "ಗುಣಲಕ್ಷಣ"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "ಲಿಂಕ್ (href ಗುಣಲಕ್ಷಣದಿಂದ ಓದಲಾಗಿದೆ)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "ಗುಣಲಕ್ಷಣದಲ್ಲಿ ಸ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಲಿಂಕ್ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "ಪಠ್ಯ (ಪಠ್ಯ ವಿಷಯವನ್ನು ಲಿಂಕ್ ಆಗಿ ಬಳಸಿ)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "ಕನಿಷ್ಠ ಆದ್ಯತೆ"
+   },
+   "edit_selector_multipleNo": {
+      "message": "ಇಲ್ಲ"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "ಬಹು ಕಾಲಮ್‌ಗಳಲ್ಲಿ ಬಹು ದಾಖಲೆಗಳು"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "ಒಂದು ಕಾಲಮ್‌ನಲ್ಲಿ ಬಹು ದಾಖಲೆಗಳು"
+   },
+   "edit_selector_multipleType": {
+      "message": "ಬಹು ಪ್ರಕಾರ"
+   },
+   "edit_selector_multipleYes": {
+      "message": "ಹೌದು"
+   },
+   "edit_selector_paginationType": {
+      "message": "ಪೇಜಿನೇಶನ್ ಪ್ರಕಾರ"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "ಸ್ವಯಂ"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "ಮುಂದಿನ/ಇನ್ನಷ್ಟು ಬಟನ್ ಮೇಲೆ ಹಲವು ಬಾರಿ ಕ್ಲಿಕ್ ಮಾಡಿ ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "ಬಹು ಬಟನ್‌ಗಳ ಮೇಲೆ ಒಮ್ಮೆ ಕ್ಲಿಕ್ ಮಾಡಿ ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "ಗುಣಲಕ್ಷಣ ಲಿಂಕ್ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "ಲಿಂಕ್ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "ಸ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಲಿಂಕ್ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "ಪಠ್ಯ ಲಿಂಕ್ ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "ಪೋಷಕ ಸೆಲೆಕ್ಟರ್‌ಗಳು"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "ಫಲಿತಾಂಶ ಕೀ"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "ಹಿಂತಿರುಗಿಸಲಾದ ಡೇಟಾ ಕಾಲಂಗಳು"
+   },
+   "edit_selector_script": {
+      "message": "ಸ್ಕ್ರಿಪ್ಟ್"
+   },
+   "edit_selector_scroll": {
+      "message": "ಸ್ಕ್ರಾಲ್"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "ಕ್ಲಿಕ್ ಕ್ರಿಯೆ"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "ಸ್ಕ್ರಾಲ್ ಡೌನ್ ಕ್ರಿಯೆ"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "ಎಲಿಮೆಂಟ್ (ಸ್ಕ್ರಾಲ್)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "ಎಲಿಮೆಂಟ್ ಗುಣಲಕ್ಷಣ"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "ಎಲಿಮೆಂಟ್ ಕ್ಲಿಕ್"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "ಎಲಿಮೆಂಟ್ ಸ್ಕ್ರಾಲ್ ಡೌನ್ (ಅಪ್ರಚಲಿತ)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "ಗುಂಪುಗೊಳಿಸಿದ (ಅಪ್ರಚಲಿತ)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "ಚಿತ್ರ"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "ಲಿಂಕ್"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "ನೆಟ್‌ವರ್ಕ್ ಡೇಟಾ"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "ಪೇಜಿನೇಶನ್"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "ಪಾಪ್‌ಅಪ್ ಲಿಂಕ್ (ಅಪ್ರಚಲಿತ)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "ಸ್ಕ್ರಿಪ್ಟ್ ಡೇಟಾ"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ ಲಿಂಕ್‌ಗಳು",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "ಕೋಷ್ಟಕ"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "ಪಠ್ಯ"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URLಗಳು",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "ಟೇಬಲ್ ಕಾಲಮ್‌ಗಳು"
+   },
+   "edit_selector_type": {
+      "message": "ಪ್ರಕಾರ"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "ಅನನ್ಯ $css$ ಸೆಲೆಕ್ಟರ್",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "ಅನನ್ಯ $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "ಅನನ್ಯ $html$+ಪಠ್ಯ",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "ಅನನ್ಯ ಪಠ್ಯ"
+   },
+   "edit_selector_unlimited": {
+      "message": "ಅಪರಿಮಿತ"
+   },
+   "export_downloadAs": {
+      "message": "ಹೀಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ:"
+   },
+   "export_generatingFile": {
+      "message": "ಫೈಲ್ ರಚಿಸಲಾಗುತ್ತಿದೆ"
+   },
+   "extDesc": {
+      "message": "ಆಧುನಿಕ ವೆಬ್‌ಗಾಗಿ ಸುಲಭವಾದ ಕ್ಲಿಕ್ ಆಧಾರಿತ ಇಂಟರ್‌ಫೇಸ್ ಹೊಂದಿರುವ ವೆಬ್ ಡೇಟಾ ಹೊರತೆಗೆಯುವ ಸಾಧನ"
+   },
+   "extName": {
+      "message": "$webScraper$ - ಉಚಿತ ವೆಬ್ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - ಉಚಿತ ವೆಬ್ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "ಸ್ಕ್ರೇಪ್ ಮಾಡಿದ ಡೇಟಾ"
+   },
+   "nav_createNewSitemap": {
+      "message": "ಹೊಸ $sitemap$ ರಚಿಸಿ",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "ವಿಝಾರ್ಡ್‌ನೊಂದಿಗೆ $sitemap$ ರಚಿಸಿ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "ದಾಖಲೀಕರಣ"
+   },
+   "nav_editMetadata": {
+      "message": "ಆರಂಭ URL ಗಳು"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "ಪ್ರಾಯೋಗಿಕ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+   },
+   "nav_exportData": {
+      "message": "ಡೇಟಾ ರಫ್ತು"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ ರಫ್ತು",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "ಫೋರಮ್"
+   },
+   "nav_help": {
+      "message": "ಸಹಾಯ"
+   },
+   "nav_logout": {
+      "message": "ಲಾಗ್‌ಔಟ್"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$ ಬಳಸಲು ಪ್ರಾರಂಭಿಸಲು ಡೆವಲಪರ್ ಪರಿಕರಗಳನ್ನು ಬ್ರೌಸರ್‌ನ ಕೆಳಭಾಗಕ್ಕೆ ಸರಿಸಿ.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "ಸೆಲೆಕ್ಟರ್‌ಗಳು"
+   },
+   "nav_signInToCloud": {
+      "message": "$cloud$ ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "ಪರೀಕ್ಷಾ ಸೈಟ್‌ಗಳು"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "ವೈಶಿಷ್ಟ್ಯ ಕಲ್ಪನೆಗಳಿಗೆ ಅಪ್‌ವೋಟ್ ಮಾಡಿ"
+   },
+   "nav_videoTutorials": {
+      "message": "ವೀಡಿಯೊ ಟ್ಯುಟೋರಿಯಲ್‌ಗಳು"
+   },
+   "nav_websiteStateSetup": {
+      "message": "ವೆಬ್‌ಸೈಟ್ Log-In / ಸ್ಥಿತಿ ಸೆಟಪ್"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "ಬಳಕೆಯ ಮೆಟ್ರಿಕ್ ಸಂಗ್ರಹಣೆಗೆ ಅನುಮತಿಸಿ"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "ಪ್ರಾಯೋಗಿಕ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+   },
+   "options_page_keepWorking": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ನಡೆಯುತ್ತಿರುವಾಗ ಇತರ ಕೆಲಸ ಮುಂದುವರಿಸಬಹುದು."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "ವಿಸ್ತರಣೆ ಬಳಕೆಯ ಮೆಟ್ರಿಕ್ ಸಂಗ್ರಹಣೆಗೆ ಅನುಮತಿಸಿ. ಒಟ್ಟುಗೂಡಿಸಿದ ಸ್ವರೂಪದಲ್ಲಿ ವೈಯಕ್ತಿಕವಲ್ಲದ ಮಾಹಿತಿಯನ್ನು ಮಾತ್ರ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ. ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ"
+   },
+   "options_page_privacyPolicy": {
+      "message": "ಗೌಪ್ಯತಾ ನೀತಿ"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಮುಗಿದಿದೆ",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಮುಗಿದಿದೆ"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ. ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಪೂರ್ಣಗೊಂಡ ನಂತರ, ಈ ವಿಂಡೋ ಮುಚ್ಚುತ್ತದೆ."
+   },
+   "options_page_settings": {
+      "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "ವೆಬ್‌ಸೈಟ್ ಸ್ಥಿತಿ ಸೆಟಪ್‌ನಲ್ಲಿ ಪಾಸ್‌ವರ್ಡ್ ಕ್ಷೇತ್ರ ಖಾಲಿಯಾಗಿದೆ."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "ಪುಟ ಲೋಡ್ ವಿಳಂಬ (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "ಪುಟ ಲೋಡ್ ವಿಳಂಬ"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "ವಿನಂತಿ ಮಧ್ಯಂತರ (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "ವಿನಂತಿ ಮಧ್ಯಂತರ"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "ಸೆಲೆಕ್ಟರ್ $1 ಅನ್ನು ಅಳಿಸುವುದೇ?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "AI ಬಳಸಿ ಸೆಲೆಕ್ಟರ್‌ಗಳನ್ನು ರಚಿಸಿ:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "ಈ id ಹೊಂದಿರುವ ಸೆಲೆಕ್ಟರ್ ಈಗಾಗಲೇ ಇದೆ"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "ಈ id ಹೊಂದಿರುವ ಸೆಲೆಕ್ಟರ್ ಈಗಾಗಲೇ ಇರುವ ಡೇಟಾ ರಫ್ತು ಕಾಲಮ್‌ಗೆ ಸಮನಾಗಿದೆ"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "ಗುಣಲಕ್ಷಣದ ಹೆಸರು ವೈಟ್‌ಸ್ಪೇಸ್, \", ', >, /, = ಅಥವಾ ಯಾವುದೇ ನಿಯಂತ್ರಣ ಅಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರುವಂತಿಲ್ಲ"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 ವೈಟ್‌ಸ್ಪೇಸ್, ಅಂಡರ್‌ಸ್ಕೋರ್ ಅಥವಾ \"web-scraper\" ನಿಂದ ಪ್ರಾರಂಭವಾಗುವಂತಿಲ್ಲ ಮತ್ತು ಇವುಗಳನ್ನು ಒಳಗೊಂಡಿರುವಂತಿಲ್ಲ: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "ಮಾನ್ಯ CSS ಸೆಲೆಕ್ಟರ್ ಆಗಿರಬೇಕು"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "ಸೆಲೆಕ್ಟರ್‌ಗೆ ಕನಿಷ್ಠ ಒಂದು ಬೇರೆ ಸೆಲೆಕ್ಟರ್ ಪೋಷಕವಾಗಿ ಇರಬೇಕು"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "0 ಅಕ್ಷರಗಳಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗಬಲ್ಲ ರೆಗ್ಯುಲರ್ ಎಕ್ಸ್‌ಪ್ರೆಶನ್‌ಗಳನ್ನು JavaScript ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "ಪೋಷಕ ಸೆಲೆಕ್ಟರ್‌ಗಳು"
+   },
+   "selectors_tableHeaderType": {
+      "message": "ಪ್ರಕಾರ"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "ಅಳಿಸುವಿಕೆ ದೃಢೀಕರಣ"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$ ಅಳಿಸಬೇಕೆ?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ ಫಿಲ್ಟರ್ ಮಾಡಿ",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "ಈ $sitemap$ $cloud$ ಖಾತೆಯಲ್ಲಿ ಮಾತ್ರ ಇದೆ. ಸಂಪಾದಿಸಲು $cloud$ ಖಾತೆಯಿಂದ $sitemap$ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "ಇದು ಇತ್ತೀಚಿನ $sitemap$ ಆವೃತ್ತಿ. ಈ $sitemap$ ಅನ್ನು $cloud$ ಖಾತೆಯಲ್ಲಿನ ಆವೃತ್ತಿಯೊಂದಿಗೆ ಮರುಬರೆಯಿರಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ ಸಿಂಕ್ ಆಗಿಲ್ಲ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "ಇತ್ತೀಚಿನ $sitemap$ ಆವೃತ್ತಿ $cloud$ ಖಾತೆಯಲ್ಲಿದೆ. $cloud$ ಖಾತೆಯಲ್ಲಿರುವ $sitemap$ ಅನ್ನು $sitemap$ ನ ಈ ಆವೃತ್ತಿಯೊಂದಿಗೆ ಮರುಬರೆಯಿರಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "ಇತ್ತೀಚಿನ $sitemap$ ಆವೃತ್ತಿಯನ್ನು ನಿರ್ಧರಿಸಲಾಗದು. ಈ $sitemap$ ಅನ್ನು $cloud$ ಖಾತೆಯ ಆವೃತ್ತಿಯೊಂದಿಗೆ ಮರುಬರೆಯಿರಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "ಇತ್ತೀಚಿನ $sitemap$ ಆವೃತ್ತಿಯನ್ನು ನಿರ್ಧರಿಸಲಾಗದು. $cloud$ ಖಾತೆಯಲ್ಲಿರುವ $sitemap$ ಅನ್ನು $sitemap$ ನ ಈ ಆವೃತ್ತಿಯೊಂದಿಗೆ ಮರುಬರೆಯಿರಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ $cloud$ ನಲ್ಲಿ ಮಾತ್ರ ಇದೆ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ ಸಿಂಕ್ ಆಗಿದೆ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ ವಿಸ್ತರಣೆಯಲ್ಲಿ ಮಾತ್ರ ಇದೆ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "ಇತ್ತೀಚಿನ $sitemap$ ಆವೃತ್ತಿ $cloud$ ಖಾತೆಯಲ್ಲಿದೆ. $cloud$ ಖಾತೆಯಲ್ಲಿರುವ ಆವೃತ್ತಿಗೆ ಹೊಂದುವಂತೆ ಈ $sitemap$ ಅನ್ನು ನವೀಕರಿಸಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "ಇದು ಇತ್ತೀಚಿನ $sitemap$ ಆವೃತ್ತಿ. $cloud$ ಖಾತೆಯಲ್ಲಿರುವ $sitemap$ ಅನ್ನು $sitemap$ ನ ಈ ಆವೃತ್ತಿಯೊಂದಿಗೆ ನವೀಕರಿಸಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "ಈ $sitemap$ ವಿಸ್ತರಣೆಯ ಸಂಗ್ರಹದಲ್ಲಿ ಮಾತ್ರ ಇದೆ. $sitemap$ ಅನ್ನು $cloud$ ಖಾತೆಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "ಡೊಮೇನ್"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "$cloud$ ನಿಂದ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "$cloud$ ಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "ಕ್ಲಿಕ್"
+   },
+   "website_state_setup_actionInput": {
+      "message": "ಇನ್‌ಪುಟ್"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL ತೆರೆಯಿರಿ"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "ಪಾಸ್‌ವರ್ಡ್ ಇನ್‌ಪುಟ್"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "ವಿರಾಮ (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "ಪಠ್ಯ ಇನ್‌ಪುಟ್"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "ವೆಬ್‌ಸೈಟ್ ಸ್ಥಿತಿ ಸೆಟಪ್ ಅಳಿಸುವುದೇ?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "ms ನಲ್ಲಿ ಅವಧಿ"
+   },
+   "website_state_setup_enabled": {
+      "message": "ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "ಪಾಸ್‌ವರ್ಡ್"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "ಪಠ್ಯ"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "ವಿಝಾರ್ಡ್ $sitemaps$ ಪ್ರವೇಶಿಸು",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "ಚಿತ್ರಗಳನ್ನು ಸೇರಿಸಿ"
+   },
+   "wizard_addMoreText": {
+      "message": "ಹೆಚ್ಚಿನ ಪಠ್ಯ ಸೇರಿಸಿ"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "ಪುಟದ ವಿಷಯ ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "AI ಮೂಲಕ $1 URL ಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ (ಸರಾಸರಿ ಕಾಯುವಿಕೆ $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "ಮತ್ತು ಇನ್ನಷ್ಟು..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "ಸ್ಕ್ರಾಲ್ ಮಾಡಿದ ನಂತರ ಹೆಚ್ಚಿನ ಐಟಂಗಳು ಲೋಡ್ ಆಗುತ್ತವೆಯೇ?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "$webScraperCloud$ ನಲ್ಲಿ ಹೊರತೆಗೆಯುವಿಕೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸಿ",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "$cloud$ ನಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತಗೊಳಿಸಿ",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "ಬಾಟ್ ಪತ್ತೆ ನಿರ್ವಹಣೆ"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "ಅನಂತ ಸ್ಕ್ರಾಲ್ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ"
+   },
+   "wizard_columnName": {
+      "message": "ಕಾಲಮ್ ಹೆಸರು"
+   },
+   "wizard_continueButton": {
+      "message": "ಮುಂದುವರಿಸಿ"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದಾದ $css$ ಸೆಲೆಕ್ಟರ್‌ಗಳು",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "ಕಸ್ಟಮೈಸ್ ಮಾಡಬಹುದಾದ ಸೈಟ್ ನ್ಯಾವಿಗೇಶನ್"
+   },
+   "wizard_dataExtractionError": {
+      "message": "ಈ ಪುಟದಿಂದ ಡೇಟಾ ಹೊರತೆಗೆಯುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ. ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಲಾಗಿದೆ. ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "ಪುಟದಲ್ಲಿ $1 ಡೇಟಾ ಬಿಂದುಗಳು ಕಂಡುಬಂದಿವೆ",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "ಪುಟದಲ್ಲಿ 1 ಡೇಟಾ ಪಾಯಿಂಟ್ ಕಂಡುಬಂದಿದೆ"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "ಅನಂತ ಸ್ಕ್ರಾಲ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು"
+   },
+   "wizard_disablePagination": {
+      "message": "ಪೇಜಿನೇಶನ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "ಈ ಪುಟವು ಪೇಜಿನೇಶನ್ ಹೊಂದಿದೆಯೇ?"
+   },
+   "wizard_doneSelecting": {
+      "message": "ಆಯ್ಕೆ ಮುಗಿದಿದೆ"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "ಅನಂತ ಸ್ಕ್ರಾಲ್ ಸಕ್ರಿಯಗೊಳಿಸು"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "ಐಟಂ ಪುಟಗಳಿಗೆ ನ್ಯಾವಿಗೇಶನ್ ಮತ್ತು ಪ್ರತಿ ಪುಟದಿಂದ ಡೇಟಾ ಹೊರತೆಗೆಯುವಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ."
+   },
+   "wizard_errorTitle": {
+      "message": "ದೋಷ"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "$dropbox$, $googleDrive$, $s3$, ... ಗೆ ರಫ್ತು ಮಾಡಿ",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "ಪುಟದ ಡೇಟಾ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತಿದೆ $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಿ"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "ಸುಧಾರಿತ $sitemap$ ಬಿಲ್ಡರ್‌ಗೆ ಹೋಗು",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "ನಿಮ್ಮ ಅಭಿಪ್ರಾಯವೇನು?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "ನಿಮ್ಮ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಅನುಭವ ಹೇಗಿತ್ತು?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 ಐಟಂ ಪುಟದ ಲಿಂಕ್‌ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 ಐಟಂ ಪುಟದ ಲಿಂಕ್ ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ"
+   },
+   "wizard_link": {
+      "message": "ಲಿಂಕ್"
+   },
+   "wizard_loadMore": {
+      "message": "ಇನ್ನಷ್ಟು ಲೋಡ್ ಮಾಡಿ"
+   },
+   "wizard_loadingPage": {
+      "message": "ಪುಟ ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ ವೈಶಿಷ್ಟ್ಯ",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "ಹೊರತೆಗೆಯುವ ಮೊದಲು ಕಾಲಮ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ, ಸೇರಿಸಿ ಅಥವಾ ಮರುಹೆಸರಿಸಿ"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "ಹೆಚ್ಚಿನ ಡೇಟಾ ಹೊರತೆಗೆಯುವ ಸಾಧನಗಳು"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 ದಾಖಲೆಗಳನ್ನು ಸ್ಕ್ರೇಪ್ ಮಾಡಲಾಗಿದೆ",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "ಐಟಂ ಪುಟದ ಲಿಂಕ್‌ಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಪೇಜಿನೇಶನ್ ಮೂಲಕ ನ್ಯಾವಿಗೇಟ್ ಮಾಡುತ್ತಿದೆ."
+   },
+   "wizard_nextPage": {
+      "message": "ಮುಂದಿನ ಪುಟ"
+   },
+   "wizard_noDataFound": {
+      "message": "ಯಾವುದೇ ಡೇಟಾ ಸಿಗಲಿಲ್ಲ"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "ಯಾವುದೇ ದಾಖಲೆಗಳನ್ನು ಸ್ಕ್ರೇಪ್ ಮಾಡಲಾಗಿಲ್ಲ. ಹಿಂದಿನ ಹಂತಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಮರುಪ್ರಯತ್ನಿಸಿ."
+   },
+   "wizard_numberedPages": {
+      "message": "ಸಂಖ್ಯೆಯುಳ್ಳ ಪುಟಗಳು: ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಲು ಬಹು ಬಟನ್‌ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "ಒಂದು ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "ಡೆವಲಪರ್ ಪರಿಕರಗಳನ್ನು ತೆರೆಯಲು $shortcut1$ ಅಥವಾ $shortcut2$ ಒತ್ತಿ.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "ಡೆವಲಪರ್ ಪರಿಕರಗಳನ್ನು ತೆರೆಯಲು $shortcut$ ಒತ್ತಿ.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "ಬ್ರೌಸರ್ ಡೆವಲಪರ್ ಪರಿಕರಗಳನ್ನು ತೆರೆ"
+   },
+   "wizard_paginationDetected": {
+      "message": "ಪೇಜಿನೇಶನ್ ಪತ್ತೆಯಾಗಿದೆ. ಮುಂದಿನ ಹಂತದಲ್ಲಿ ಕಾನ್ಫಿಗರೇಶನ್ ನಿರ್ವಹಿಸಿ."
+   },
+   "wizard_paginationEnabled": {
+      "message": "ಪೇಜಿನೇಶನ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "ಬ್ರೌಸರ್‌ನ ವೆಬ್‌ಸ್ಟೋರ್‌ನಲ್ಲಿ ವಿಸ್ತರಣೆಯನ್ನು ವಿಮರ್ಶಿಸಿ!"
+   },
+   "wizard_rateUs": {
+      "message": "ನಮ್ಮನ್ನು ರೇಟ್ ಮಾಡಿ"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 ದಾಖಲೆಗಳನ್ನು ಸ್ಕ್ರೇಪ್ ಮಾಡಲಾಗಿದೆ, $2 ತೋರಿಸಲಾಗುತ್ತಿದೆ",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "ಮರುರಚಿಸಿ"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "ಮರು-ಸ್ಕ್ರ್ಯಾಪ್ ಮಾಡು"
+   },
+   "wizard_reselect": {
+      "message": "ಮರು-ಆಯ್ಕೆಮಾಡು"
+   },
+   "wizard_retry": {
+      "message": "ಮರುಪ್ರಯತ್ನಿಸಿ"
+   },
+   "wizard_scheduler": {
+      "message": "ಶೆಡ್ಯೂಲರ್"
+   },
+   "wizard_scrapeThePage": {
+      "message": "ಪುಟವನ್ನು ಸ್ಕ್ರ್ಯಾಪ್ ಮಾಡು"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪರ್ ಕಾನ್ಫಿಗರೇಶನ್ ಸಿದ್ಧವಾಗಿದೆ"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ. ($1 ದಾಖಲೆಗಳನ್ನು ಸ್ಕ್ರ್ಯಾಪ್ ಮಾಡಲಾಗಿದೆ)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ. (1 ದಾಖಲೆ ಸ್ಕ್ರ್ಯಾಪ್ ಮಾಡಲಾಗಿದೆ)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಪ್ರಗತಿಯಲ್ಲಿದೆ. ($1 ದಾಖಲೆಗಳನ್ನು ಸ್ಕ್ರ್ಯಾಪ್ ಮಾಡಲಾಗಿದೆ, $2 ತೋರಿಸಲಾಗುತ್ತಿದೆ)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "ಸ್ಕ್ರಾಲ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "ಕನಿಷ್ಠ ಎರಡು ಲಿಂಕ್‌ಗಳ ಅಗತ್ಯವಿದೆ."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "ಡೇಟಾ ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಆಯ್ಕೆಮಾಡಿ"
+   },
+   "wizard_selectLink": {
+      "message": "ಲಿಂಕ್ ಆಯ್ಕೆಮಾಡು"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "ಮುಂದಿನ ಪುಟದ ಬಟನ್ ಆಯ್ಕೆಮಾಡು"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "ಪೇಜಿನೇಶನ್ ಬಟನ್ ಆಯ್ಕೆಮಾಡು. ಸಾಮಾನ್ಯ ಪ್ರಕಾರಗಳು ಹೀಗಿವೆ:"
+   },
+   "wizard_sendFeedback": {
+      "message": "ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ"
+   },
+   "wizard_showMe": {
+      "message": "ತೋರಿಸಿ"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$2 ದಾಖಲೆಗಳಲ್ಲಿ $1 ತೋರಿಸಲಾಗುತ್ತಿದೆ",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1 ದಾಖಲೆಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "1 ದಾಖಲೆ ತೋರಿಸಲಾಗುತ್ತಿದೆ"
+   },
+   "wizard_signUp": {
+      "message": "ಸೈನ್ ಅಪ್"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 ದಾಖಲೆ ಸ್ಕ್ರೇಪ್ ಮಾಡಲಾಗಿದೆ"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "ಸುಧಾರಿತ $sitemap2$ ಬಿಲ್ಡರ್‌ನಲ್ಲಿ $sitemap$ ಉಳಿಸಲಾಗಿದೆ",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "ಬಿಟ್ಟುಬಿಡಿ"
+   },
+   "wizard_stepDataSetup": {
+      "message": "ಡೇಟಾ ಸೆಟಪ್"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "ಪ್ರತಿಕ್ರಿಯೆ ಮತ್ತು ಸುಧಾರಿತ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "ಐಟಂ ಲಿಂಕ್‌ಗಳನ್ನು ಅನುಸರಿಸಿ"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "ಐಟಂ ಪುಟ ಡೇಟಾ ಸೆಟಪ್"
+   },
+   "wizard_stepPagination": {
+      "message": "ಪೇಜಿನೇಶನ್ & ಸ್ಕ್ರಾಲ್"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ ಸಿಂಕ್ ಮಾಡಿ ಮತ್ತು ಚಲಾಯಿಸಿ",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಧನ್ಯವಾದಗಳು!"
+   },
+   "wizard_title": {
+      "message": "ಶೀರ್ಷಿಕೆ"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "ಮತ್ತೆ ಆಯ್ಕೆ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "ಬಳಕೆದಾರ ಅನುಭವವನ್ನು ಸುಧಾರಿಸಲು ಎಲ್ಲಾ ವಿಮರ್ಶೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ."
+   },
+   "wizard_yourFeedback": {
+      "message": "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆ"
+   }
+}

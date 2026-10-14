@@ -1,0 +1,32 @@
+{
+   "background": {
+      "message": "background!"
+   },
+   "content": {
+      "message": "content-script!"
+   },
+   "devtools": {
+      "message": "devtools"
+   },
+   "extDescription": {
+      "message": "Get SEO insights at the click of a button to any website you're currently on. Built by full-time SEO's for daily analysis."
+   },
+   "extName": {
+      "message": "Detailed SEO Extension"
+   },
+   "fromCallback": {
+      "message": "hello from callback"
+   },
+   "options": {
+      "message": "options"
+   },
+   "pause": {
+      "message": "Pause"
+   },
+   "popup": {
+      "message": "New tab"
+   },
+   "tab": {
+      "message": "tab"
+   }
+}

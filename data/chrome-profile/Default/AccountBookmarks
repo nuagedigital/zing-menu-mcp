@@ -1,0 +1,198 @@
+{
+   "checksum": "812b81cbbed4c910830b62fccd36c5ac",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13395820009281739",
+               "date_last_used": "13396062567585755",
+               "guid": "b2d19c19-3120-4fa4-81ab-465502e67683",
+               "id": "9",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Inbox",
+               "type": "url",
+               "url": "https://app.hubspot.com/live-messages/24455730/inbox/9352978285#email"
+            } ],
+            "date_added": "13395819994293195",
+            "date_last_used": "0",
+            "date_modified": "13395820009281739",
+            "guid": "12c165df-5f41-471f-b035-04078336ae68",
+            "id": "8",
+            "name": "Nu-age-hubspot",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13395860638745310",
+               "date_last_used": "13397342052876361",
+               "guid": "38d199b6-9120-4bf0-84d4-bebbfc2221c1",
+               "id": "11",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Meta Business Suite",
+               "type": "url",
+               "url": "https://business.facebook.com/latest?nav_ref=mfb_get_started_header_cta"
+            } ],
+            "date_added": "13395860628927791",
+            "date_last_used": "0",
+            "date_modified": "13395860638745310",
+            "guid": "b00d08c0-d3d3-4271-8e61-e498b7c23db4",
+            "id": "10",
+            "name": "Social-media",
+            "type": "folder"
+         }, {
+            "date_added": "13396654759285606",
+            "date_last_used": "13400288157773727",
+            "guid": "0a630558-403e-4c80-b3d9-87d229bf39d1",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Free Keyword Research Tool - Moz",
+            "type": "url",
+            "url": "https://moz.com/explorer"
+         }, {
+            "date_added": "13397252438073913",
+            "date_last_used": "13408149996966529",
+            "guid": "a3d4d08a-f1d7-4873-af29-824b3654f29a",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Quora",
+            "type": "url",
+            "url": "https://www.quora.com/"
+         }, {
+            "date_added": "13397762487512508",
+            "date_last_used": "13401827716200423",
+            "guid": "1984aeeb-6b15-4bf8-ae63-db9808c47817",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Domain Expiry Check - Site24x7 Free Tools",
+            "type": "url",
+            "url": "https://www.site24x7.com/tools/domain-expiry.html"
+         }, {
+            "date_added": "13397762514334148",
+            "date_last_used": "0",
+            "guid": "2255f921-c380-49ec-a742-76628365cb29",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Hosting Checker - Find out who is hosting any website",
+            "type": "url",
+            "url": "https://hostingchecker.com/"
+         }, {
+            "date_added": "13400119784449681",
+            "date_last_used": "0",
+            "guid": "4a8502b7-0122-4fc9-a7ba-a1546b780cc6",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "fac",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13400805948744988",
+            "date_last_used": "0",
+            "guid": "eeab8bcc-9340-4642-bf34-648641ea829b",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Client Digital Marketing Services - Google Sheets",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1WnbFD3Jm06s0lCin_VCAUqNT89LkzBSIWsr04KazPgo/edit?gid=0#gid=0"
+         }, {
+            "date_added": "13402793419836772",
+            "date_last_used": "0",
+            "guid": "64b13e8d-3240-4d48-9ca7-fa40b7173e14",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Website SEO Checker | Free SEO Tools to Boost Your Website's Performance",
+            "type": "url",
+            "url": "https://websiteseochecker.com/"
+         }, {
+            "date_added": "13403314753910397",
+            "date_last_used": "0",
+            "guid": "eb83ecfd-b403-48ad-a1e6-fbbd361357b9",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Keyword Tool ⚠️ Google Keyword Planner【Search FREE】",
+            "type": "url",
+            "url": "https://keywordtool.io/"
+         }, {
+            "date_added": "13404608298421269",
+            "date_last_used": "0",
+            "guid": "f7c68e4b-771a-4d20-8df1-50cc9f7a599e",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Top 24 Generative Engine Optimization Tools That I’d Recommend",
+            "type": "url",
+            "url": "https://writesonic.com/blog/generative-engine-optimization-tools"
+         }, {
+            "date_added": "13407548615547603",
+            "date_last_used": "0",
+            "guid": "eaf1f530-ef72-4c58-a7b2-e66d2595c8a7",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Kebab-And-Curry-Website/src/lib/restaurantData.js at main · nuagedigital/Kebab-And-Curry-Website",
+            "type": "url",
+            "url": "https://github.com/nuagedigital/Kebab-And-Curry-Website/blob/main/src/lib/restaurantData.js"
+         }, {
+            "date_added": "13408220581444301",
+            "date_last_used": "0",
+            "guid": "b6f04af8-768a-4696-8c16-dc5cf0b596ba",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google Dashboard",
+            "type": "url",
+            "url": "https://myaccount.google.com/dashboard"
+         } ],
+         "date_added": "13436482919843287",
+         "date_last_used": "0",
+         "date_modified": "13408220581444301",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "5",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13436482919843287",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "6",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13436482919843287",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "7",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CswCCqsCCIiBAhKkAiAAkgGPAgqMAgoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJVhIfr9JdBgARVhIfr9JdBgAiNAmZSveu0l0GABADGQfTVSdj5df8IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmZSveu0l0GABADGQfTVSdj5df8IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmZSveu0l0GABADGQfTVSdj5df8IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAmZSveu0l0GABADGQfTVSdj5df8IAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpKHAgr9JdBgDqAQwI6si/1gYQ0OeYgQMSACoYMGZOL1hJWk4ydjJFcHlaWHYzaTR3dz09SAMS7QEIFRLoAQocWFg1dWJxV29hSFB4M3hUTDV4S3R3YmowclVFPRJmWjpBRHF0QVp6MEtBRzFhZnpISTdPZy9lTlNZTDFZbkxFcnVyVFhhSDFOKzlUUS9lOXp1QWM2eldseVM2TUZhcG1OTVFuVWd0ckRtNllBM3JVOTZaNDhwbW1lVWtkTGxkZ0xrZz09GAAgACgAMP2ZiKGe8JADOP6G1/unM0D+htf7pzNKHGxxN0I2N3lYeXFCd0Nmc0NGZG50bE8vVzJLTT1aICIe/+5lRXpYTUx2Z203WUQ1a2JpM3FiM0dtU2xMS2s9ZdeRPTkS7AEIEhLnAQocVHd5Y3Q0ckJFMzhzQ2cvRGJocDl2aTJSZHpBPRJmWjpBRHF0QVp6MEtBRzFhZnpISTdPZy9lTlNZTDFZVmRUdXpJL1E4SVJpSWRNVU1mWWVFRkVPdlRZbjZsaTVpcGtsRGxuWnpDYjN4VWFISEtpT2NYY1pHUnczZytqNE5HeEVIQT09GAAgACgAMI6Tq+Pr5Y8DOL74nKCWM0C++JygljNKHENlWWhaQ3FlbDROK29ZL2xLa29VODgvUmVScz1aHyId/3A4bDQvQzVpUCtHTklXclljdHNpdjczVms5cz1lDk2qXBLsAQgREucBChwrTFI0SURCU1Y4OW5lNWtEOUhFck9nZy92akU9EmZaOkFEcXRBWnowS0FHMWFmekhJN09nL2VOU1lMMVlzMDVEODFGZFh5OFdFTE9SUlNxa2xFQXd3UUVWUVJ4MVhTWFAwRGtXelBxa1FLcU1HVlhhRFUxSGV5bTRuSk1ybHdzVnV3PT0YACAAKAAwsPqM+JX3kwM40KrD7I4zQNCqw+yOM0ocTis5OWp3MzNSQ0dEdEV5c3hORDIrdFdrckdVPVofIh3+UU9rRUptOThvZHl0YnJ6SjcwTVhva3BEaXlBPWWS2QvaEu0BCBMS6AEKHFlYczFvR05rODc3dWVNMExveUQzcWJ0eDEybz0SZlo6QURxdEFaejBLQUcxYWZ6SEk3T2cvZU5TWUwxWVFxZGZPNVFaSkc0aFREenZSRTNSdWpPaUIxV2ExWXpGQ2NJcDA1eTFOR0xXUEd2czd0N1J3NGROdjdFTVhKbzBiYTZHN1E9PRgAIAAoADDTgsLygfWPAzj40uiYmDNA+NLomJgzShw0RmRCVGMrSEswZEpNZ3ZTRytXeFJ5Ry9GQzQ9WiAiHv+4OURjdmVDSGgySTFZOUZTTTdEY3FQNXZoVytvPWUHekKyEuwBCBAS5wEKHDVPM1lETnFzelVEN3NoZW83NTVzdFlob21lRT0SZlo6QURxdEFaejBLQUcxYWZ6SEk3T2cvZU5TWUwxWUhrY3JTVHJLQmVwZWFlYkJBdHRlWVM1bnVQZEdkVEtqaDVrdldGbWhGR1pUSjRxVzROWCsyMlVXWnF5NGRiOEZQZzdhb2c9PRgAIAAoADCJ7LKxlumSAziFmKuljDNAhZirpYwzShxCckQ2V3h5MVVlWnJHYmFRWjFKZmNZMStxUzQ9Wh8iHf02cXd3bWRCMmt4SzVmZ2taYll2Z0hlU2ozUTA9ZTR2n6AS7QEIFhLoAQocZWs3UmhaeWxaWC9YQlk3aUhRRTBjMU9rYTA4PRJmWjpBRHF0QVp6MEtBRzFhZnpISTdPZy9lTlNZTDFZc1Mxd3F3Z0dId05JSkpTOFVwRFlxaUNINEdZc3hpNFBKZk9PcnZsbk5oR2FKdm1IWU84ZzN4QW51UFBvNXptTWRNSGszdz09GAAgACgAMLbI0cPlg5EDOMTMjLyqM0DEzIy8qjNKHENyTHo5UFJZQWZDVXhndUhvZnpNamlUUFNXTT1aICIe//dDSFQzVlAzSXJ1VjB1SUNpSnd3U2tFYnZQSWc9ZYcQbEoS6wEICxLmAQocZFF0SWpKMDBmYjNLWXBuYTE2RDNsWE1rY1FBPRJmWjpBRHF0QVp6MEtBRzFhZnpISTdPZy9lTlNZTDFZQVJzc1hrS1Y1Mlh5VHBNVWdsOS9wYU9rQlNHTHlGR0pFRWp2OUhLVlE3VXZIbWNJQXVJQzRic3hRb1Q1eU1YUlRqNUtlQT09GAAgACgAMPCX67Om7ZEDOJnItbb8MkCZyLW2/DJKHGJvcnh3TjNXVVBEa1ZMdlU3V095YnpqM2xMQT1aHiIcTVRGY3RCYzdXV2dlNU9oZSs2S3kybnJWY09vPWWW+NIlEsEBCAcSvAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeGZ6MzhlaGtidE8wQU5kc3JQMm94QjM2L29TOTB0T2Qvbmh1WFlORXhSZVRkUC9YQnhOM0JDanFyVno0aHAybmxTRHIrSEY1WHV4ZHNMbnF6b3JqV2JrZlh6QVE9PRgAIAAoADCZld33qrqXAzgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1lAAAAABLsAQgPEucBChxneUVBK0ZxT3lVV0xYVzJ0TEx2TnR2N0xJSjQ9EmZaOkFEcXRBWnowS0FHMWFmekhJN09nL2VOU1lMMVlVOGtlQWllQzJVSE1KWnFvUlJWYnJJaWMvSm9ocnpKb3lyakUxU0FuanpMSG5VVzhjdlp2MU56NVhtbno4QlQ3cWZjcWNnPT0YACAAKAAwkpDv9+OXjwM4nuumwYMzQJ7rpsGDM0ocUkFXSnNqOWxNdU4wR3NNN2Y2R2FGVjNoUEw4PVofIh37T005ZjkvbHAxSUErb0VvUDliMzQ5R0daNTdjPWWAyhe6EuwBCA4S5wEKHEVta0NRMmlpNSswc2RWeVNOT2daclZEUFNMMD0SZlo6QURxdEFaejBLQUcxYWZ6SEk3T2cvZU5TWUwxWVdmdmV5VlhuSEZYR01zY25zQnZpaXBwNzE1ZXRpK2g1bW03Z2dtdTlHbEtlT1VtNU50aDE5VDRZT3ZTeUI0bVFvc2pSdVE9PRgAIAAoADD8882i3smPAzjYmaXBgzNA2JmlwYMzShxhbFBsbFpFME1ONEYrSk83OWV2TmVMbUJ4UEE9Wh8iHfYyS3VGNlptS09LYnd5d0w1ckQ3Rm1kTXk1c289ZZGja4gS7QEIFBLoAQocMzFzNHVHNk1ZQmVaWERvS3o5WnRYSmV2N1RnPRJmWjpBRHF0QVp6MEtBRzFhZnpISTdPZy9lTlNZTDFZSitCRTR5RTBRMjBndHNkYzIxcFRQM1ByOEplbGZFM1RORE1OdmpBUXFQb2xCTnAraGxkVUdHZFJ1WWJ2YUNNcG1paC9sdz09GAAgACgAMPXKzN3UmpADOLqr0IGdM0C6q9CBnTNKHFh0d0ZVUlZwUHZGZ0FSNkNBc2ZNWEdMdHMyRT1aICIe/9xXeHAzT09qM0d5bVhZR0NJOUwwVklCREYvd0U9Zf6NUrYS7AEIDRLnAQocY0ZNMUg2NnZpQ2pybWxPcDJ2YlpWNjZ6eS9jPRJmWjpBRHF0QVp6MEtBRzFhZnpISTdPZy9lTlNZTDFZWjFhUSsxK1Q1bnNqb2pvWFY4cW5zWWIvSVJVYm5MWUJUK28wTnFlNXhXUlB2RkQxY04vamFlUjcvdy9QMTBQalM1dWpJQT09GAAgACgAMNKyxsDggZEDOLugis6BM0C7oIrOgTNKHGQ0S2hrUEdZUDNFMHV4S2VYaXhmSkt2bHBjUT1aHyId7FhSd2ptWG5lZ1JocFR2dXJSRStsMmZob1hkST1l7CUaxRLrAQgJEuYBChwxVWc3Y3J4bDV6UXV0aUZwakhVcy8wMzhoUzg9EmZaOkFEcXRBWnowS0FHMWFmekhJN09nL2VOU1lMMVlvVGRYVXRoUGdxVlpPMWUxcFRkUUFWUkxsb0tJT1pjeFl3ek1SSWFWSnRtYTZmWWlXNDhmQnBTbWRPWnR4bkRqdHcwc21RPT0YACAAKAAw3uHlov6clgM4wd6Fo/wyQMHehaP8MkocTWxkdnNucndqSGRyc24wUVFDa1JhS2djeDVJPVoeIhxoRlRWRXIrUi9Sb1Z1R1VjOWo2bU5wSHdweWM9ZfbSjrES6wEICBLmAQoceXc1ZDRHV2pFcXZMbDY0bkN1RnY0VitUaTBzPRJmWjpBRHF0QVp6MEtBRzFhZnpISTdPZy9lTlNZTDFZR09OckZpbDBGSk5mOHNBYWdpaXc1MjZpV0NQSXlTbUgwWEU5L2htdlNhbHFHcWpnTGppc25ONXpnYkJzdlNSSHV6L1ZkQT09GAAgACgAMPydl9/xmo4DOLXphKP8MkC16YSj/DJKHFA0NVBVdkE1eEFtdW51VnkrdVRNZnpCaEJ0ND1aHiIcZGFXSGZTL3E3bWdWUXdabWpqN282WXdOWjhNPWUAAAAAEuwBCAoS5wEKHFVFQnNtbUFnM3M0V1BoZWMyazRHZmRBSHhNVT0SZlo6QURxdEFaejBLQUcxYWZ6SEk3T2cvZU5TWUwxWU1yalc1VUwzRmtTK0hYbmdNWVR1MStOSHcydG5TaGZpRVNTOFBuSmk1TlRYcFJSUjVRL0FNZGZpRjU0RUxPU2NKN0M1MVE9PRgAIAAoADD2zcqPiZyOAzjA+7S2/DJAwPu0tvwyShwvU0JVM0tWaXB6K25xSTdZc0pTc1hjL0dGMXc9Wh8iHbI4MEMrVkR5bVQ4aDZnd3BGNXZRcWVPVWcrUVk9ZQAAAAASqQEIBRKkAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp4NkVnRmFGZkJmWmswNmIzTW05bkFMRU1VLzBFcVFkZTRZNmk4UFlobm9aRjN5dVY4d2psaFAvaVdONlRJcWVydGtORGhWGAAgACgAMJmV3fequpcDOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPWUAAAAAEuwBCAwS5wEKHGRWamxJY05wcVNMQ3k1c01JMzlrcmx5bTVSMD0SZlo6QURxdEFaejBLQUcxYWZ6SEk3T2cvZU5TWUwxWVF1Q1lqZVc5ZGlxV2ZHbFFkN0hudUlJNDNVcXF5K0dYTGR4QUVETGRXeFU2MXRYQkhLZ1E5OWZicWtQdlBFL2ZBbytWelE9PRgAIAAoADDX+vfL072PAzj96oqx/zJA/eqKsf8yShxLdzJKQVU2R0I4Q3pTUlIwNTRaMEpzaXR3VjA9Wh8iHdlUZUxVWjZwQ2J5YUl2ZjlvK3FsZWxhZm5taFE9ZRTNpg4SwQEIBhK8AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp3M1BtUmZZTVdkNUJCbmZpRGlYeVNIWklTZk9wQ3BGSU80bkhUTFBTWlNqaENrSTdRSEwwcXJEU1A1a3F4UzdzUVRNNmo2SjNZRVliVEx1aThvdnNsRXVwZUV3Zz09GAAgACgAMJmV3fequpcDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PWUAAAAAMAE4AA==",
+   "version": 1
+}

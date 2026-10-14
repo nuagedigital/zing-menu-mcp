@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "$webScraperCloud$-এ স্ক্র্যাপিং স্বয়ংক্রিয় করুন",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "API-এর মাধ্যমে $webScraper$ পরিচালনা করুন",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$-এ স্বয়ংক্রিয় এক্সপোর্ট",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "সাইট অ্যাক্সেস সমস্যার জন্য বিল্ট-ইন $proxy$",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "স্বয়ংক্রিয়ভাবে ডেটা এক্সট্র্যাকশন শিডিউল করুন"
+   },
+   "browse_helpUsImprove": {
+      "message": "$webScraper$ উন্নত করতে আমাদের সাহায্য করুন!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "লোড হচ্ছে"
+   },
+   "button_addAction": {
+      "message": "অ্যাকশন যোগ করুন"
+   },
+   "button_addColumn": {
+      "message": "কলাম যোগ করুন"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "$robotstxt$ থেকে যোগ করুন",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "নতুন সিলেক্টর তৈরি করুন"
+   },
+   "button_addUrl": {
+      "message": "URL যোগ করুন"
+   },
+   "button_cancel": {
+      "message": "বাতিল"
+   },
+   "button_close": {
+      "message": "বন্ধ করুন"
+   },
+   "button_closePreview": {
+      "message": "প্রিভিউ বন্ধ করুন"
+   },
+   "button_dataPreview": {
+      "message": "ডেটা প্রিভিউ"
+   },
+   "button_delete": {
+      "message": "মুছুন"
+   },
+   "button_deleteLocally": {
+      "message": "স্থানীয়ভাবে মুছুন"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "ওয়েবসাইট স্টেট সেটআপ মুছুন"
+   },
+   "button_download": {
+      "message": "ডাউনলোড"
+   },
+   "button_edit": {
+      "message": "সম্পাদনা"
+   },
+   "button_elementPreview": {
+      "message": "এলিমেন্ট প্রিভিউ"
+   },
+   "button_listingPage": {
+      "message": "তালিকা পেজ"
+   },
+   "button_loading": {
+      "message": "লোড হচ্ছে..."
+   },
+   "button_overwrite": {
+      "message": "ওভাররাইট"
+   },
+   "button_performAction": {
+      "message": "অ্যাকশন সম্পাদন করুন"
+   },
+   "button_performActions": {
+      "message": "অ্যাকশন সম্পাদন করুন"
+   },
+   "button_refresh": {
+      "message": "রিফ্রেশ"
+   },
+   "button_refreshData": {
+      "message": "ডেটা রিফ্রেশ করুন"
+   },
+   "button_reload": {
+      "message": "রিফ্রেশ"
+   },
+   "button_remove": {
+      "message": "সরান"
+   },
+   "button_save": {
+      "message": "সংরক্ষণ করুন"
+   },
+   "button_saveSelector": {
+      "message": "সিলেক্টর সংরক্ষণ করুন"
+   },
+   "button_saveSitemap": {
+      "message": "$sitemap$ সংরক্ষণ করুন",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "নির্বাচন করুন"
+   },
+   "button_sendTrainingData": {
+      "message": "প্রশিক্ষণ ডেটা পাঠান"
+   },
+   "button_singleItemPage": {
+      "message": "একক আইটেম পেজ"
+   },
+   "button_startScraping": {
+      "message": "স্ক্র্যাপিং শুরু করুন"
+   },
+   "button_update": {
+      "message": "আপডেট"
+   },
+   "button_upload": {
+      "message": "আপলোড"
+   },
+   "button_uploadToCloud": {
+      "message": "$cloud$-এ $sitemap$ আপলোড করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "ফিচার আইডিয়া আপভোট ও জমা দিন"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "এক্সটেনশনটি $cloud$ অ্যাকাউন্টের সাথে সংযুক্ত করার পর, $sitemap$ তালিকা রিফ্রেশ করুন।",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "অ্যাকশন"
+   },
+   "common_createSitemap": {
+      "message": "$sitemap$ তৈরি করুন",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "ত্রুটি:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "$sitemap$ ইম্পোর্ট করুন",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "আরও জানুন"
+   },
+   "common_multiple": {
+      "message": "একাধিক"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 অবশ্যই $2 এবং $3 এর মধ্যে হতে হবে",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 সাংখ্যিক হতে হবে",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "এখনও কোনও ডেটা স্ক্র্যাপ করা হয়নি"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "$1 রেঞ্জ ঊর্ধ্বক্রমে হতে হবে",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "স্ক্র্যাপ"
+   },
+   "common_selector": {
+      "message": "সিলেক্টর"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "অননুমোদিত। $cloud$-এর সাথে পুনরায় সংযোগ করুন।",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "মান অনন্য হতে হবে।"
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "হটকি সক্রিয় করতে এখানে ক্লিক করুন"
+   },
+   "contentApp_doneSelecting": {
+      "message": "নির্বাচন সম্পন্ন"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "প্যারেন্টে নির্বাচিত এলিমেন্ট নেই"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "প্যারেন্ট এলিমেন্ট পাওয়া যায়নি"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "চাইল্ড এলিমেন্ট নির্বাচন করতে $key$ চাপুন",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "প্যারেন্ট এলিমেন্ট নির্বাচন করতে $key$ চাপুন",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "হোভার করা এলিমেন্ট নির্বাচন করতে $key$ চাপুন",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "নির্বাচিত এলিমেন্ট সংখ্যা: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 আবশ্যক এবং খালি রাখা যাবে না",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "$1-এর সর্বোচ্চ দৈর্ঘ্য $2টি অক্ষর",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 অন্তত $2টি অক্ষর দীর্ঘ হতে হবে",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "শুধুমাত্র অক্ষর, সংখ্যা $digits$ বা $allowedCharacters$ অক্ষরগুলোর যেকোনোটি অনুমোদিত",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "অবৈধ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "$sitemap$ কী অনুপস্থিত - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 অবশ্যই একটি অ্যারে হতে হবে",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "এই Id সহ $sitemap$ ইতিমধ্যে বিদ্যমান",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ আবশ্যক এবং খালি রাখা যাবে না",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 আবশ্যক এবং খালি রাখা যাবে না",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 সংখ্যা $2 অতিক্রম করা যাবে না",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$-এ শুধুমাত্র অনন্য কী _id, startUrl, websiteStateSetup, selectors, hashHistory অনুমোদিত",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ নাম",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "শুরুর URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 একটি বৈধ URL নয়",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "ডেটা প্রিভিউ"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "এখনও কোনো ডেটা নিষ্কাশন করা হয়নি।"
+   },
+   "edit_selector_attributeName": {
+      "message": "অ্যাট্রিবিউটের নাম"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "ক্লিক এলিমেন্টের অনন্যতা"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "উপলব্ধ অ্যাট্রিবিউট দেখতে ক্লিক করুন"
+   },
+   "edit_selector_clickType": {
+      "message": "ক্লিক ধরন"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "আরও ক্লিক করুন (আরও এলিমেন্ট লোড করতে ক্লিক করুন। অনন্য টেক্সট কনটেন্টসহ নতুন এলিমেন্ট না পাওয়া গেলে থামে।)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "একবার ক্লিক (পেজিনেশন, ট্যাব)"
+   },
+   "edit_selector_column": {
+      "message": "কলাম"
+   },
+   "edit_selector_columnCount": {
+      "message": "কলাম সংখ্যা"
+   },
+   "edit_selector_columnName": {
+      "message": "কলামের নাম"
+   },
+   "edit_selector_delay": {
+      "message": "বিলম্ব (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "এই ফিচারটি অপ্রচলিত এবং ভবিষ্যতের রিলিজে কাজ করবে না।"
+   },
+   "edit_selector_discardAlways": {
+      "message": "সর্বদা বাদ দেওয়া"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "প্রাথমিক এলিমেন্ট বাদ দেওয়া"
+   },
+   "edit_selector_discardNever": {
+      "message": "কখনও বাদ নয়"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "ক্লিক এলিমেন্ট থাকলে বাদ দেওয়া"
+   },
+   "edit_selector_elementLimit": {
+      "message": "এলিমেন্ট সীমা"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "শুধুমাত্র প্রথম রেকর্ড"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "পাওয়া URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "সিলেক্টর ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "ফলাফলে অন্তর্ভুক্ত করুন"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL কি না (শুধু একটি)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "ক্লিক সিলেক্টর"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "ডেটা সারি সিলেক্টর"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "হেডার সারি সিলেক্টর"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "না পাওয়া গেলে সম্পাদন করার সিলেক্টর"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "স্ক্রোল এলিমেন্ট"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "শুধুমাত্র অনুপস্থিত থাকলে স্ক্রোল"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "এলিমেন্টে স্ক্রোল"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "যেকোনো স্ক্রিপ্ট থেকে লিঙ্ক ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "লিঙ্ক ধরন"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "অ্যাট্রিবিউট"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "লিঙ্ক (href অ্যাট্রিবিউট থেকে পড়া হয়)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "অ্যাট্রিবিউটে স্ক্রিপ্টেড লিঙ্ক ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "টেক্সট (টেক্সট কনটেন্ট লিঙ্ক হিসেবে ব্যবহার করা হয়)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "ন্যূনতম অগ্রাধিকার"
+   },
+   "edit_selector_multipleNo": {
+      "message": "না"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "একাধিক কলামে একাধিক রেকর্ড"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "এক কলামে একাধিক রেকর্ড"
+   },
+   "edit_selector_multipleType": {
+      "message": "একাধিক ধরন"
+   },
+   "edit_selector_multipleYes": {
+      "message": "হ্যাঁ"
+   },
+   "edit_selector_paginationType": {
+      "message": "পেজিনেশন ধরন"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "অটো"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "পরবর্তী/আরও বাটনে একাধিকবার ক্লিক ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "একাধিক বাটনে একবার ক্লিক ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "অ্যাট্রিবিউট লিঙ্ক ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "লিঙ্ক ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "স্ক্রিপ্টেড লিঙ্ক ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "টেক্সট লিঙ্ক ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "প্যারেন্ট সিলেক্টর"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "ফলাফল কী"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "ফেরত দেওয়া ডেটা কলাম"
+   },
+   "edit_selector_script": {
+      "message": "স্ক্রিপ্ট"
+   },
+   "edit_selector_scroll": {
+      "message": "স্ক্রোল"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "ক্লিক অ্যাকশন"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "স্ক্রোল ডাউন অ্যাকশন"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "এলিমেন্ট (স্ক্রোল)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "এলিমেন্ট অ্যাট্রিবিউট"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "এলিমেন্ট ক্লিক"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "এলিমেন্ট স্ক্রোল ডাউন (অপ্রচলিত)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "গ্রুপড (অপ্রচলিত)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "ইমেজ"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "লিঙ্ক"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "নেটওয়ার্ক ডেটা"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "পেজিনেশন"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "পপআপ লিঙ্ক (অপ্রচলিত)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "স্ক্রিপ্ট ডেটা"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ লিঙ্ক",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "টেবিল"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "টেক্সট"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "টেবিল কলাম"
+   },
+   "edit_selector_type": {
+      "message": "টাইপ"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "অনন্য $css$ সিলেক্টর",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "অনন্য $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "অনন্য $html$+টেক্সট",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "অনন্য টেক্সট"
+   },
+   "edit_selector_unlimited": {
+      "message": "সীমাহীন"
+   },
+   "export_downloadAs": {
+      "message": "যে ফরম্যাটে ডাউনলোড করবেন:"
+   },
+   "export_generatingFile": {
+      "message": "ফাইল তৈরি হচ্ছে"
+   },
+   "extDesc": {
+      "message": "আধুনিক ওয়েবের জন্য সহজ পয়েন্ট-অ্যান্ড-ক্লিক ইন্টারফেস সহ ওয়েব ডেটা এক্সট্র্যাকশন টুল"
+   },
+   "extName": {
+      "message": "$webScraper$ - বিনামূল্যে ওয়েব স্ক্র্যাপিং",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - বিনামূল্যে ওয়েব স্ক্র্যাপিং",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "স্ক্র্যাপ করা ডেটা"
+   },
+   "nav_createNewSitemap": {
+      "message": "নতুন $sitemap$ তৈরি করুন",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "উইজার্ড দিয়ে $sitemap$ তৈরি করুন",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "ডকুমেন্টেশন"
+   },
+   "nav_editMetadata": {
+      "message": "শুরুর URL"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "পরীক্ষামূলক ফিচার সক্রিয় করা হয়েছে"
+   },
+   "nav_exportData": {
+      "message": "ডেটা এক্সপোর্ট"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ এক্সপোর্ট",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "ফোরাম"
+   },
+   "nav_help": {
+      "message": "সহায়তা"
+   },
+   "nav_logout": {
+      "message": "লগআউট"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "$webScraper$ ব্যবহার শুরু করতে ডেভেলপার টুলস ব্রাউজারের নিচে সরান।",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "সিলেক্টর"
+   },
+   "nav_signInToCloud": {
+      "message": "$cloud$-এ সাইন ইন করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "টেস্ট সাইট"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "ফিচার আইডিয়ায় আপভোট করুন"
+   },
+   "nav_videoTutorials": {
+      "message": "ভিডিও টিউটোরিয়াল"
+   },
+   "nav_websiteStateSetup": {
+      "message": "ওয়েবসাইট Log-In / স্টেট সেটআপ"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "ব্যবহারের মেট্রিক সংগ্রহের অনুমতি দিন"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "পরীক্ষামূলক ফিচার সক্রিয় করুন"
+   },
+   "options_page_keepWorking": {
+      "message": "স্ক্র্যাপিং চলাকালীন অন্যান্য কাজ চালিয়ে যাওয়া যায়।"
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "এক্সটেনশন ব্যবহারের মেট্রিক সংগ্রহের অনুমতি দিন। শুধুমাত্র সমষ্টিগত ফরম্যাটে অ-ব্যক্তিগত তথ্য সংগ্রহ করা হয়। আরও বিস্তারিত"
+   },
+   "options_page_privacyPolicy": {
+      "message": "গোপনীয়তা নীতি"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ স্ক্র্যাপিং সম্পন্ন হয়েছে",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "স্ক্র্যাপিং সম্পন্ন"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "স্ক্র্যাপিং একটি নতুন ট্যাবে শুরু হবে। স্ক্র্যাপিং সম্পন্ন হলে এই উইন্ডোটি বন্ধ হয়ে যাবে।"
+   },
+   "options_page_settings": {
+      "message": "সেটিংস"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "ওয়েবসাইট স্টেট সেটআপে একটি পাসওয়ার্ড ফিল্ড খালি রয়েছে।"
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "পেজ লোড বিলম্ব (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "পেজ লোড বিলম্ব"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "অনুরোধের ব্যবধান (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "অনুরোধের ব্যবধান"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "সিলেক্টর $1 মুছবেন?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "AI দিয়ে সিলেক্টর তৈরি করুন:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "এই ID যুক্ত সিলেক্টর ইতিমধ্যে বিদ্যমান"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "এই ID যুক্ত সিলেক্টর ইতিমধ্যে বিদ্যমান ডেটা এক্সপোর্ট কলামের সমান"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "অ্যাট্রিবিউট নামে হোয়াইটস্পেস, \", ', >, /, = বা কোনো কন্ট্রোল ক্যারেক্টার থাকতে পারবে না"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 হোয়াইটস্পেস, আন্ডারস্কোর বা \"web-scraper\" দিয়ে শুরু হতে পারবে না এবং এতে থাকতে পারবে না: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "বৈধ CSS সিলেক্টর হতে হবে"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "সিলেক্টরের প্যারেন্ট হিসেবে অন্তত একটি অন্য সিলেক্টর থাকতে হবে"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript 0 অক্ষর ম্যাচ করতে পারে এমন রেগুলার এক্সপ্রেশন সমর্থন করে না"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "প্যারেন্ট সিলেক্টর"
+   },
+   "selectors_tableHeaderType": {
+      "message": "ধরন"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "মুছে ফেলার নিশ্চিতকরণ"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$ মুছবেন?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "$sitemaps$ ফিল্টার করুন",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "এই $sitemap$ শুধুমাত্র $cloud$ অ্যাকাউন্টে আছে। সম্পাদনা করতে $cloud$ অ্যাকাউন্ট থেকে $sitemap$ ডাউনলোড করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "এটি সর্বশেষ $sitemap$ সংস্করণ। $cloud$ অ্যাকাউন্টের সংস্করণ দিয়ে এই $sitemap$ ওভাররাইট করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ সিঙ্ক করা হয়নি",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "সর্বশেষ $sitemap$ সংস্করণ $cloud$ অ্যাকাউন্টে আছে। $sitemap$-এর এই সংস্করণ দিয়ে $cloud$ অ্যাকাউন্টের $sitemap$ ওভাররাইট করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "সর্বশেষ $sitemap$ সংস্করণ নির্ধারণ করা যাচ্ছে না। $cloud$ অ্যাকাউন্টের সংস্করণ দিয়ে এই $sitemap$ ওভাররাইট করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "সর্বশেষ $sitemap$ সংস্করণ নির্ধারণ করা যাচ্ছে না। $sitemap$-এর এই সংস্করণ দিয়ে $cloud$ অ্যাকাউন্টের $sitemap$ ওভাররাইট করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ শুধুমাত্র $cloud$-এ আছে",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ সিঙ্ক করা হয়েছে",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ শুধুমাত্র এক্সটেনশনে আছে",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "সর্বশেষ $sitemap$ সংস্করণ $cloud$ অ্যাকাউন্টে আছে। $cloud$ অ্যাকাউন্টের সংস্করণের সাথে মেলাতে এই $sitemap$ আপডেট করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "এটি সর্বশেষ $sitemap$ সংস্করণ। $sitemap$-এর এই সংস্করণ দিয়ে $cloud$ অ্যাকাউন্টের $sitemap$ আপডেট করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "এই $sitemap$ শুধুমাত্র এক্সটেনশন স্টোরেজে আছে। $cloud$ অ্যাকাউন্টে $sitemap$ আপলোড করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "ডোমেইন"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "$cloud$ থেকে ডাউনলোড করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "$cloud$-এ আপলোড করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "ক্লিক"
+   },
+   "website_state_setup_actionInput": {
+      "message": "ইনপুট"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "URL খুলুন"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "পাসওয়ার্ড ইনপুট"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "স্লিপ (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "টেক্সট ইনপুট"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "ওয়েবসাইট স্টেট সেটআপ মুছবেন?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "ms-এ সময়কাল"
+   },
+   "website_state_setup_enabled": {
+      "message": "সক্ষম"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "পাসওয়ার্ড"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "টেক্সট"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "উইজার্ড $sitemaps$ অ্যাক্সেস করুন",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "ছবি যোগ করুন"
+   },
+   "wizard_addMoreText": {
+      "message": "আরও টেক্সট যোগ করুন"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "পৃষ্ঠার বিষয়বস্তু বিশ্লেষণ করা হচ্ছে..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "AI দিয়ে $1টি URL বিশ্লেষণ করা হচ্ছে (গড় অপেক্ষা $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "এবং আরও..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "স্ক্রোল করার পর কি আরও আইটেম লোড হয়?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "$webScraperCloud$-এ নিষ্কাশন স্বয়ংক্রিয় করুন",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "$cloud$-এ স্বয়ংক্রিয় করুন",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "বট শনাক্তকরণ পরিচালনা"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "ইনফিনিট স্ক্রোল যাচাই করা হচ্ছে"
+   },
+   "wizard_columnName": {
+      "message": "কলামের নাম"
+   },
+   "wizard_continueButton": {
+      "message": "চালিয়ে যান"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "কাস্টমাইজযোগ্য $css$ সিলেক্টর",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "কাস্টমাইজযোগ্য সাইট নেভিগেশন"
+   },
+   "wizard_dataExtractionError": {
+      "message": "এই পৃষ্ঠা থেকে ডেটা নিষ্কাশনের সময় একটি ত্রুটি ঘটেছে। সমস্যাটি রিপোর্ট করা হয়েছে। পরে আবার চেষ্টা করুন।"
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "পৃষ্ঠায় $1টি ডেটা পয়েন্ট পাওয়া গেছে",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "পেজে ১টি ডেটা পয়েন্ট পাওয়া গেছে"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "ইনফিনিট স্ক্রোল নিষ্ক্রিয় করুন"
+   },
+   "wizard_disablePagination": {
+      "message": "পেজিনেশন নিষ্ক্রিয় করুন"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "এই পেজে কি পেজিনেশন আছে?"
+   },
+   "wizard_doneSelecting": {
+      "message": "নির্বাচন সম্পন্ন"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "ইনফিনিট স্ক্রোল সক্রিয় করুন"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "আইটেম পেজে নেভিগেশন এবং প্রতিটি পেজ থেকে ডেটা এক্সট্র্যাকশন সক্রিয় করুন।"
+   },
+   "wizard_errorTitle": {
+      "message": "ত্রুটি"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "$dropbox$, $googleDrive$, $s3$, ...-এ এক্সপোর্ট করুন",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "পেজের ডেটা সংগ্রহ করা হচ্ছে $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "মতামত দিন"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "অ্যাডভান্সড $sitemap$ বিল্ডারে যান",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "আপনার মতামত কী?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "আপনার স্ক্র্যাপিং অভিজ্ঞতা কেমন ছিল?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1টি আইটেম পেজ লিঙ্ক নির্বাচিত",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "১টি আইটেম পেজ লিঙ্ক নির্বাচিত"
+   },
+   "wizard_link": {
+      "message": "লিঙ্ক"
+   },
+   "wizard_loadMore": {
+      "message": "আরও লোড করুন"
+   },
+   "wizard_loadingPage": {
+      "message": "পৃষ্ঠা লোড হচ্ছে..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ বৈশিষ্ট্য",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "নিষ্কাশনের আগে কলাম সরান, যোগ করুন বা নাম পরিবর্তন করুন"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "আরও ডেটা এক্সট্রাক্টর"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1টি রেকর্ড স্ক্র্যাপ করা হয়েছে",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "আইটেম পেজ লিঙ্ক খুঁজতে পেজিনেশনে নেভিগেট করছে।"
+   },
+   "wizard_nextPage": {
+      "message": "পরবর্তী পেজ"
+   },
+   "wizard_noDataFound": {
+      "message": "কোনও ডেটা পাওয়া যায়নি"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "কোনো রেকর্ড স্ক্র্যাপ করা হয়নি। পূর্ববর্তী ধাপ যাচাই করুন বা পুনরায় চেষ্টা করুন।"
+   },
+   "wizard_numberedPages": {
+      "message": "নম্বরযুক্ত পেজ: সবগুলো নির্বাচন করতে একাধিক বাটনে ক্লিক করুন"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "শুধুমাত্র একটি ট্যাবে কাজ করে।"
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "ডেভেলপার টুলস খুলতে $shortcut1$ বা $shortcut2$ চাপুন।",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "ডেভেলপার টুলস খুলতে $shortcut$ চাপুন।",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "ব্রাউজারের ডেভেলপার টুলস খুলুন"
+   },
+   "wizard_paginationDetected": {
+      "message": "পেজিনেশন শনাক্ত হয়েছে। পরবর্তী ধাপে কনফিগারেশন পরিচালনা করুন।"
+   },
+   "wizard_paginationEnabled": {
+      "message": "পেজিনেশন সক্রিয়"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "অনুগ্রহ করে ব্রাউজারের ওয়েবস্টোরে এক্সটেনশনের রিভিউ দিন!"
+   },
+   "wizard_rateUs": {
+      "message": "আমাদের রেট করুন"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1টি রেকর্ড স্ক্র্যাপ করা হয়েছে, $2টি দেখানো হচ্ছে",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "পুনঃতৈরি"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "পুনরায় স্ক্র্যাপ"
+   },
+   "wizard_reselect": {
+      "message": "পুনরায় নির্বাচন"
+   },
+   "wizard_retry": {
+      "message": "পুনরায় চেষ্টা"
+   },
+   "wizard_scheduler": {
+      "message": "শিডিউলার"
+   },
+   "wizard_scrapeThePage": {
+      "message": "পেজ স্ক্র্যাপ করুন"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "স্ক্র্যাপার কনফিগারেশন প্রস্তুত"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "স্ক্র্যাপিং চলছে। ($1টি রেকর্ড স্ক্র্যাপ করা হয়েছে)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "স্ক্র্যাপিং চলছে।"
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "স্ক্র্যাপিং চলছে। (১টি রেকর্ড স্ক্র্যাপ করা হয়েছে)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "স্ক্র্যাপিং চলছে। ($1টি রেকর্ড স্ক্র্যাপ করা হয়েছে, $2টি দেখানো হচ্ছে)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "স্ক্রোল সক্ষম"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "অন্তত দুটি লিঙ্ক প্রয়োজন।"
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "ডেটা পয়েন্ট ম্যানুয়ালি নির্বাচন করুন"
+   },
+   "wizard_selectLink": {
+      "message": "লিঙ্ক নির্বাচন করুন"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "পরবর্তী পেজ বাটন নির্বাচন করুন"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "পেজিনেশন বাটন নির্বাচন করুন। সাধারণ ধরনগুলো হলো:"
+   },
+   "wizard_sendFeedback": {
+      "message": "মতামত পাঠান"
+   },
+   "wizard_showMe": {
+      "message": "দেখান"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "$2টির মধ্যে $1টি রেকর্ড দেখানো হচ্ছে",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "$1টি রেকর্ড দেখানো হচ্ছে",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "১টি রেকর্ড দেখানো হচ্ছে"
+   },
+   "wizard_signUp": {
+      "message": "সাইন আপ করুন"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "১টি রেকর্ড স্ক্র্যাপ করা হয়েছে"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ অ্যাডভান্সড $sitemap2$ বিল্ডারে সংরক্ষিত হয়েছে",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "এড়িয়ে যান"
+   },
+   "wizard_stepDataSetup": {
+      "message": "ডেটা সেটআপ"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "ফিডব্যাক ও অ্যাডভান্সড স্ক্র্যাপিং"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "আইটেম লিঙ্ক অনুসরণ করুন"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "আইটেম পেজ ডেটা সেটআপ"
+   },
+   "wizard_stepPagination": {
+      "message": "পেজিনেশন ও স্ক্রোল"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "$webScraper$ $sitemaps$ সিঙ্ক ও চালান",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "মতামতের জন্য ধন্যবাদ!"
+   },
+   "wizard_title": {
+      "message": "শিরোনাম"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "আবার নির্বাচন করে দেখুন"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "ব্যবহারকারীর অভিজ্ঞতা উন্নত করতে সব পর্যালোচনা পরিদর্শন করা হয়।"
+   },
+   "wizard_yourFeedback": {
+      "message": "আপনার মতামত"
+   }
+}

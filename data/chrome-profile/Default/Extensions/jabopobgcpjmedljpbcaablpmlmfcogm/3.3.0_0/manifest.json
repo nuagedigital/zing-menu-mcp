@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "icon19.png",
+         "38": "icon38.png",
+         "76": "icon76.png"
+      }
+   },
+   "author": "chengyin.liu@gmail.com",
+   "background": {
+      "service_worker": "./background/background.js"
+   },
+   "description": "The easiest way to identify fonts on web pages.",
+   "homepage_url": "https://whatfonttool.com",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "256": "icon256.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "96": "icon96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjbPIwP6ULc5dJOepQoC6yXM+BLy+dtFkTfLaBOLm7Ug8kD0lN9Sj/t710/o9rUnf84jIaffjD7FwsiXHWXaJhXdhcXLSrCQNIMCY1mfLf3OE7PP1kMFBP9bZ2a1U+SlLRJO2j9fj8LnPcvoWw4AHjXw279Qwro+9u9Vx/JZh+5wIDAQAB",
+   "manifest_version": 3,
+   "name": "WhatFont",
+   "permissions": [ "activeTab", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.0"
+}

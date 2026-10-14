@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatizează extragerea datelor în $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Gestionează $webScraper$ prin API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Export automat în $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "$proxy$ încorporat pentru probleme de acces la site",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Planifică automat extragerea datelor"
+   },
+   "browse_helpUsImprove": {
+      "message": "Ajută-ne să îmbunătățim $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Se încarcă"
+   },
+   "button_addAction": {
+      "message": "Adaugă acțiune"
+   },
+   "button_addColumn": {
+      "message": "Adaugă Coloană"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Adaugă din $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Creare selector nou"
+   },
+   "button_addUrl": {
+      "message": "Adaugă URL"
+   },
+   "button_cancel": {
+      "message": "Anulare"
+   },
+   "button_close": {
+      "message": "Închide"
+   },
+   "button_closePreview": {
+      "message": "Închide previzualizarea"
+   },
+   "button_dataPreview": {
+      "message": "Previzualizare date"
+   },
+   "button_delete": {
+      "message": "Ștergere"
+   },
+   "button_deleteLocally": {
+      "message": "Ștergere locală"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Șterge Configurarea stării site-ului"
+   },
+   "button_download": {
+      "message": "Descărcare"
+   },
+   "button_edit": {
+      "message": "Editare"
+   },
+   "button_elementPreview": {
+      "message": "Previzualizare element"
+   },
+   "button_listingPage": {
+      "message": "Pagină de listare"
+   },
+   "button_loading": {
+      "message": "Se încarcă..."
+   },
+   "button_overwrite": {
+      "message": "Suprascriere"
+   },
+   "button_performAction": {
+      "message": "Execută Acțiunea"
+   },
+   "button_performActions": {
+      "message": "Execută acțiuni"
+   },
+   "button_refresh": {
+      "message": "Reîmprospătează"
+   },
+   "button_refreshData": {
+      "message": "Reîmprospătează datele"
+   },
+   "button_reload": {
+      "message": "Reîmprospătare"
+   },
+   "button_remove": {
+      "message": "Elimină"
+   },
+   "button_save": {
+      "message": "Salvează"
+   },
+   "button_saveSelector": {
+      "message": "Salvează selectorul"
+   },
+   "button_saveSitemap": {
+      "message": "Salvare $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Selectează"
+   },
+   "button_sendTrainingData": {
+      "message": "Trimite date de antrenare"
+   },
+   "button_singleItemPage": {
+      "message": "Pagină de detalii unică"
+   },
+   "button_startScraping": {
+      "message": "Începe extragerea datelor"
+   },
+   "button_update": {
+      "message": "Actualizare"
+   },
+   "button_upload": {
+      "message": "Încărcare"
+   },
+   "button_uploadToCloud": {
+      "message": "Încarcă $sitemap$ în $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Votează și trimite idei de funcții"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "După conectarea extensiei la contul $cloud$, reîmprospătează lista $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Acțiuni"
+   },
+   "common_createSitemap": {
+      "message": "Creare $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Eroare:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Import $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Aflați mai multe"
+   },
+   "common_multiple": {
+      "message": "Multiplu"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 trebuie să fie între $2 și $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 trebuie să fie numeric",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Nicio dată extrasă încă"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Intervalul $1 trebuie să fie crescător",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Extragere date"
+   },
+   "common_selector": {
+      "message": "Selector"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Neautorizat. Reconectare la $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Valoarea trebuie să fie unică."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Clic aici pentru a activa tastele rapide"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Finalizare selectare"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Părintele nu conține elementul selectat"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Element părinte negăsit"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Apasă $key$ pentru a selecta elementul copil",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Apasă $key$ pentru a selecta elementul părinte",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Apasă $key$ pentru a selecta elementul de sub cursor",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Număr de elemente selectate: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 este obligatoriu și nu poate fi gol",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Lungimea maximă a $1 este de $2 caractere",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 trebuie să aibă cel puțin $2 caractere",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Sunt permise doar litere, cifre $digits$ sau oricare dintre caracterele $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "$json$ nevalid",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Cheie $sitemap$ lipsă - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 trebuie să fie un array",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ cu acest ID există deja",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ este obligatoriu și nu poate fi gol",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 este obligatoriu și nu poate fi gol",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "Numărul de $1 nu trebuie să depășească $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "Doar cheile unice _id, startUrl, websiteStateSetup, selectors, hashHistory sunt permise în $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "Nume $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "URL de start"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 nu este un URL valid",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Previzualizare date"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Nu au fost extrase date încă."
+   },
+   "edit_selector_attributeName": {
+      "message": "Nume atribut"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Unicitate element pentru clic"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Clic pentru a vedea atributele disponibile"
+   },
+   "edit_selector_clickType": {
+      "message": "Tip de clic"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Clic mai multe (clic pentru a încărca mai multe elemente. Se oprește când nu se mai găsesc elemente cu conținut text unic.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Clic o dată (paginare, file)"
+   },
+   "edit_selector_column": {
+      "message": "Coloană"
+   },
+   "edit_selector_columnCount": {
+      "message": "Număr de coloane"
+   },
+   "edit_selector_columnName": {
+      "message": "Nume coloană"
+   },
+   "edit_selector_delay": {
+      "message": "Întârziere (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Această funcție este învechită și nu va mai funcționa într-o versiune viitoare."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Excludere întotdeauna"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Excludere elemente inițiale"
+   },
+   "edit_selector_discardNever": {
+      "message": "Fără excludere"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Excludere când există elementul pentru clic"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Limită de elemente"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Doar prima înregistrare"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "$regex$ URL găsit",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "ID selector"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Include în rezultat"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Este URL (doar unul)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Selector de clic"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Selector rânduri de date"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Selector rând antet"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Selector de executat când nu este găsit"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Element de derulare"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Derulare doar dacă lipsește"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Derulare la element"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Link din orice script ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Tip de link"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atribut"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Link (citit din atributul href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Link scriptat în atribut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Text (folosește conținutul text ca link)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Prioritate minimă"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Nu"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Înregistrări multiple în coloane multiple"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Înregistrări multiple într-o coloană"
+   },
+   "edit_selector_multipleType": {
+      "message": "Tip multiplu"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Da"
+   },
+   "edit_selector_paginationType": {
+      "message": "Tip de paginare"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automat"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Clic de mai multe ori pe butonul următor/mai multe ([Next page] [Load More])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Clic o dată pe mai multe butoane ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Link din atribut ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Link ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Link scriptat ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Link text ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Selectori părinte"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Cheie rezultat"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Coloane de date returnate"
+   },
+   "edit_selector_script": {
+      "message": "Script"
+   },
+   "edit_selector_scroll": {
+      "message": "Derulare"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Acțiune clic"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Acțiune derulare în jos"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Element (derulare)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Atribut element"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Element clic"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Element derulare în jos (învechit)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Grupat (învechit)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Imagine"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Link"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Date de rețea"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Paginare"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Link popup (învechit)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Date din script"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "Linkuri $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Tabel"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Text"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "URL-uri $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Coloane tabel"
+   },
+   "edit_selector_type": {
+      "message": "Tip"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Selector $css$ unic",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "$html$ unic",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "$html$+Text unic",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Text unic"
+   },
+   "edit_selector_unlimited": {
+      "message": "Nelimitat"
+   },
+   "export_downloadAs": {
+      "message": "Descarcă ca:"
+   },
+   "export_generatingFile": {
+      "message": "Se generează fișierul"
+   },
+   "extDesc": {
+      "message": "Instrument de extragere a datelor web cu o interfață simplă bazată pe clic pentru webul modern"
+   },
+   "extName": {
+      "message": "$webScraper$ - Scraping web gratuit",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - Scraping web gratuit",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Date extrase"
+   },
+   "nav_createNewSitemap": {
+      "message": "Creare $sitemap$ nou",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Creare $sitemap$ cu asistent",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Documentație"
+   },
+   "nav_editMetadata": {
+      "message": "URL-uri de start"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Funcții experimentale activate"
+   },
+   "nav_exportData": {
+      "message": "Export date"
+   },
+   "nav_exportSitemap": {
+      "message": "Export $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forum"
+   },
+   "nav_help": {
+      "message": "Ajutor"
+   },
+   "nav_logout": {
+      "message": "Deconectare"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Mută instrumentele pentru dezvoltatori în partea de jos a browserului pentru a începe utilizarea $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selectoare"
+   },
+   "nav_signInToCloud": {
+      "message": "Conectare la $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Site-uri de testare"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Votează idei de funcții"
+   },
+   "nav_videoTutorials": {
+      "message": "Tutoriale video"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-In site web / Configurare stare"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Permite colectarea indicatorilor de utilizare"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Activează funcțiile experimentale"
+   },
+   "options_page_keepWorking": {
+      "message": "Alte activități pot continua în timpul extragerii datelor."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Permite colectarea indicatorilor de utilizare a extensiei. Se colectează doar informații nepersonale, în format agregat. Mai multe detalii în"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Politica de confidențialitate"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "Scraping finalizat pentru $sitemapId$",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Scraping finalizat"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Extragerea datelor va începe într-o filă nouă. La finalizare, această fereastră se va închide."
+   },
+   "options_page_settings": {
+      "message": "Setări"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Un câmp de parolă din Configurarea stării site-ului este gol."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Întârziere încărcare pagină (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Întârziere încărcare pagină"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Interval între cereri (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Interval între cereri"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Ștergeți selectorul $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Generare selectori cu AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Există deja un selector cu acest ID"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Selectorul cu acest ID coincide cu o coloană de export de date existentă"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Numele atributului nu poate conține spațiu alb, \", ', >, /, = sau caractere de control"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 nu poate începe cu spațiu alb, underscore sau \"web-scraper\" și nu poate conține: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Trebuie să fie un selector CSS valid"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Selectorul trebuie să aibă cel puțin un alt selector ca părinte"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript nu acceptă expresii regulate care pot corespunde cu 0 caractere"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Selectori părinte"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Tip"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Confirmare ștergere"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Ștergeți $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtrare $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Acest $sitemap$ este doar în contul $cloud$. Descarcă $sitemap$ din contul $cloud$ pentru editare",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Aceasta este cea mai recentă versiune a $sitemap$. Suprascrie acest $sitemap$ cu o versiune din contul $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ nu este sincronizat",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Cea mai recentă versiune a $sitemap$ este în contul $cloud$. Suprascrie $sitemap$ din contul $cloud$ cu această versiune a $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Cea mai recentă versiune a $sitemap$ nu poate fi determinată. Suprascrie acest $sitemap$ cu versiunea din contul $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Cea mai recentă versiune a $sitemap$ nu poate fi determinată. Suprascrie $sitemap$ din contul $cloud$ cu această versiune a $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ este doar în $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ este sincronizat",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ este doar în extensie",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Cea mai recentă versiune a $sitemap$ este în contul $cloud$. Actualizează acest $sitemap$ pentru a corespunde versiunii din contul $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Aceasta este cea mai recentă versiune a $sitemap$. Actualizează $sitemap$ din contul $cloud$ cu această versiune a $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Acest $sitemap$ este doar în stocarea extensiei. Încarcă $sitemap$ în contul $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domeniu"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Descărcare din $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Încărcare în $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Clic"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Câmp de introducere"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Deschide URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Câmp de parolă"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Așteptare (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Câmp de text"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Șterge Configurarea stării site-ului?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Durată în ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Activat"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Parolă"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Text"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Accesare $sitemaps$ din asistent",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Adaugă imagini"
+   },
+   "wizard_addMoreText": {
+      "message": "Adaugă mai mult text"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Se analizează conținutul paginii..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Se analizează $1 URL-uri cu AI (așteptare medie $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Și altele..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Se încarcă mai multe elemente după derulare?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatizează extragerea în $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatizare în $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Gestionarea detectării boților"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Se verifică derularea infinită"
+   },
+   "wizard_columnName": {
+      "message": "Nume coloană"
+   },
+   "wizard_continueButton": {
+      "message": "Continuă"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Selectori $css$ personalizabili",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Navigare personalizabilă a site-ului"
+   },
+   "wizard_dataExtractionError": {
+      "message": "A apărut o eroare la extragerea datelor de pe această pagină. Problema a fost raportată. Încearcă din nou mai târziu."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 puncte de date găsite pe pagină",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "1 punct de date găsit pe pagină"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Dezactivare derulare infinită"
+   },
+   "wizard_disablePagination": {
+      "message": "Dezactivare paginare"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Această pagină are paginare?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Selectare finalizată"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Activare derulare infinită"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Activează navigarea către paginile de detalii și extragerea datelor din fiecare pagină."
+   },
+   "wizard_errorTitle": {
+      "message": "Eroare"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Exportă în $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Se colectează datele paginii $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Trimite Feedback"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Accesare Constructor avansat de $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Ce părere ai?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Cum a fost experiența ta de scraping?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 linkuri de pagină de detalii selectate",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "1 link de pagină de detalii selectat"
+   },
+   "wizard_link": {
+      "message": "Link"
+   },
+   "wizard_loadMore": {
+      "message": "Încarcă mai multe"
+   },
+   "wizard_loadingPage": {
+      "message": "Se încarcă pagina..."
+   },
+   "wizard_loginFeature": {
+      "message": "Funcție $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Elimină, adaugă sau redenumește coloane înainte de extragere"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Mai mulți extractori de date"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 înregistrări extrase",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Se navighează prin paginare pentru a descoperi linkuri către paginile de detalii."
+   },
+   "wizard_nextPage": {
+      "message": "Pagina următoare"
+   },
+   "wizard_noDataFound": {
+      "message": "Nu s-au găsit date"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Nu a fost extrasă nicio înregistrare. Verifică pașii anteriori sau reîncearcă."
+   },
+   "wizard_numberedPages": {
+      "message": "Pagini numerotate: fă clic pe mai multe butoane pentru a le selecta pe toate"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Funcționează doar într-o singură filă."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Apasă $shortcut1$ sau $shortcut2$ pentru a deschide instrumentele pentru dezvoltatori.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Apasă $shortcut$ pentru a deschide instrumentele pentru dezvoltatori.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Deschide instrumentele pentru dezvoltatori ale browserului"
+   },
+   "wizard_paginationDetected": {
+      "message": "Paginare detectată. Gestionați configurația în pasul următor."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Paginare activată"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Scrieți o recenzie pentru extensie în magazinul web al browserului!"
+   },
+   "wizard_rateUs": {
+      "message": "Evaluați-ne"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 înregistrări extrase, se afișează $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Regenerează"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Reextragere"
+   },
+   "wizard_reselect": {
+      "message": "Reselectare"
+   },
+   "wizard_retry": {
+      "message": "Reîncearcă"
+   },
+   "wizard_scheduler": {
+      "message": "Planificator"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Extragere date din pagină"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Configurația scraperului este gata"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Scraping în curs. ($1 înregistrări extrase)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Scraping în curs."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Scraping în curs. (1 înregistrare extrasă)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Scraping în curs. ($1 înregistrări extrase, se afișează $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Derulare activată"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Sunt necesare cel puțin două linkuri."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Selectează manual punctele de date"
+   },
+   "wizard_selectLink": {
+      "message": "Selectare link"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Selectare buton pentru pagina următoare"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Selectează butonul de paginare. Tipurile comune sunt:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Trimite feedback"
+   },
+   "wizard_showMe": {
+      "message": "Arată-mi"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Se afișează $1 din $2 înregistrări",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Se afișează $1 înregistrări",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Se afișează 1 înregistrare"
+   },
+   "wizard_signUp": {
+      "message": "Înregistrare"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "1 înregistrare extrasă"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ salvat în Constructorul avansat de $sitemap2$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Omitere"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Configurarea datelor"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Feedback și scraping avansat"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Accesare linkuri element"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Configurare date pagină de detalii"
+   },
+   "wizard_stepPagination": {
+      "message": "Paginare și derulare"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Sincronizează și rulează $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Mulțumim pentru feedback!"
+   },
+   "wizard_title": {
+      "message": "Titlu"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Încearcă selectarea din nou"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Toate recenziile sunt analizate pentru a îmbunătăți experiența utilizatorului."
+   },
+   "wizard_yourFeedback": {
+      "message": "Feedbackul tău"
+   }
+}

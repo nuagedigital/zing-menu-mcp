@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - บริการดึงข้อมูลจากเว็บไซต์ฟรี",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - บริการดึงข้อมูลจากเว็บไซต์ฟรี",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "เครื่องมือดึงข้อมูลจากเว็บที่มีอินเทอร์เฟซใช้งานง่ายแบบชี้และคลิก สำหรับเว็บยุคใหม่"
+	},
+	"common_actions": {
+		"message": "การกระทำ"
+	},
+	"common_createSitemap": {
+		"message": "สร้าง $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "รหัสประจำตัว"
+	},
+	"common_importSitemap": {
+		"message": "นำเข้า $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "เรียนรู้เพิ่มเติม",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "หลายรายการ"
+	},
+	"common_noDataScrapedYet": {
+		"message": "ยังไม่มีการดึงข้อมูลใดๆ"
+	},
+	"common_scrape": {
+		"message": "ถู",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "ตัวเลือก"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "ไปที่ตัวสร้าง $sitemap$ ขั้นสูง",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "เครื่องมือดึงข้อมูลเพิ่มเติม"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "ระบบนำทางเว็บไซต์ที่สามารถปรับแต่งได้"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "ตัวเลือก $css$ ที่ปรับแต่งได้",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "ฟีเจอร์ $logIn$",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "และอื่นๆ อีกมากมาย..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "ตัวช่วยการเข้าถึง $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "กด $shortcut1$ หรือ $shortcut2$ เพื่อเปิดเครื่องมือสำหรับนักพัฒนา",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "กด $shortcut$ เพื่อเปิดเครื่องมือสำหรับนักพัฒนา",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "เครื่องมือสำหรับนักพัฒนาของ Open Browser"
+	},
+	"wizard_showMe": {
+		"message": "แสดงให้ฉันดู",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "ไม่พบข้อมูล",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "ชื่อคอลัมน์"
+	},
+	"wizard_title": {
+		"message": "ชื่อ",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "ลิงก์"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "กำลังวิเคราะห์เนื้อหาหน้าเว็บ..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "เกิดข้อผิดพลาดขณะดึงข้อมูลจากหน้านี้ ปัญหาได้รับการรายงานแล้ว โปรดลองใหม่อีกครั้งในภายหลัง"
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "แสดงผลลัพธ์ $1 จากทั้งหมด $2 รายการ",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "แสดงผลลัพธ์ 1 รายการ"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "แสดงบันทึก $1",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "พบข้อมูล 1 จุดในหน้านี้"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "พบข้อมูล $1 จุดบนหน้าเว็บ",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "กำลังโหลดหน้าเว็บ..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "ลบ เพิ่ม หรือเปลี่ยนชื่อคอลัมน์ก่อนทำการดึงข้อมูล"
+	},
+	"wizard_addMoreText": {
+		"message": "เพิ่มข้อความเพิ่มเติม",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "เพิ่มรูปภาพ",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "ลองใหม่อีกครั้ง",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "สร้างใหม่",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "ข้อผิดพลาด"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "การตั้งค่า Scraper เสร็จเรียบร้อยแล้ว"
+	},
+	"wizard_scrapeThePage": {
+		"message": "คัดลอกข้อมูลจากหน้าเว็บ",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "ไม่พบข้อมูลใดๆ โปรดตรวจสอบขั้นตอนก่อนหน้าหรือลองใหม่อีกครั้ง"
+	},
+	"wizard_rescrapeThePage": {
+		"message": "ขูดซ้ำ",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "คุณคิดอย่างไร?"
+	},
+	"wizard_giveFeedback": {
+		"message": "ให้ข้อเสนอแนะ",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "ความคิดเห็นของคุณ",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "ส่งข้อเสนอแนะ",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "$sitemap$ ถูกบันทึกไว้ใน Advanced $sitemap2$ Builder",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "เลือกใหม่",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "เลือกหน้าลิงก์รายการ 1 รายการ"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "ลิงก์หน้ารายการ $1 ถูกเลือก",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "ต้องมีลิงก์อย่างน้อยสองลิงก์"
+	},
+	"wizard_trySelectingAgain": {
+		"message": "ลองเลือกใหม่อีกครั้ง",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "ประสบการณ์การดึงข้อมูลของคุณเป็นอย่างไรบ้าง?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "ทำการดึงข้อมูลโดยอัตโนมัติใน $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "ส่งออกไปยัง $dropbox$, $googleDrive$, $s3$, ...",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "การจัดการการตรวจจับบอท",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "ซิงค์และเรียกใช้ $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "ลงทะเบียน",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "ผู้กำหนดตารางเวลา"
+	},
+	"wizard_stepPagination": {
+		"message": "การแบ่งหน้าและการเลื่อน"
+	},
+	"wizard_stepDataSetup": {
+		"message": "การตั้งค่าข้อมูล"
+	},
+	"wizard_continueButton": {
+		"message": "ดำเนินการต่อ",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "หน้านี้มีระบบแบ่งหน้าหรือไม่?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "เปิดใช้งานการแบ่งหน้า"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "เลือกปุ่ม \"หน้าถัดไป\"",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "ปิดใช้งานการแบ่งหน้า",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "เลือกปุ่มแบ่งหน้า ประเภทที่ใช้กันทั่วไป ได้แก่:"
+	},
+	"wizard_nextPage": {
+		"message": "หน้าถัดไป"
+	},
+	"wizard_loadMore": {
+		"message": "โหลดเพิ่มเติม"
+	},
+	"wizard_numberedPages": {
+		"message": "หน้าที่มีหมายเลข: คลิกปุ่มหลายปุ่มเพื่อเลือกทั้งหมด"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "มีการโหลดรายการเพิ่มเติมหลังจากเลื่อนหน้าจอหรือไม่?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "ตรวจสอบการเลื่อนแบบไม่สิ้นสุด"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "เปิดใช้งานการเลื่อน"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "เปิดใช้งานการเลื่อนแบบไม่สิ้นสุด",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "ปิดใช้งานการเลื่อนแบบไม่สิ้นสุด",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "กำลังดำเนินการดึงข้อมูล"
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "กำลังดำเนินการดึงข้อมูล (ดึงข้อมูลได้ 1 รายการ)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "กำลังดำเนินการดึงข้อมูล (ดึงข้อมูลไปแล้ว $1 รายการ)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "กำลังดำเนินการดึงข้อมูล (ดึงข้อมูลไปแล้ว $1 รายการ แสดงผลเป็น $2)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "ดึงข้อมูลมา 1 รายการ"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 ระเบียนถูกดึงข้อมูล",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "มีการดึงข้อมูล $1 รายการ ซึ่งแสดง $2",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "ขอบคุณสำหรับข้อเสนอแนะ!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "โปรดตรวจสอบส่วนขยายในเว็บสโตร์ของเบราว์เซอร์ของคุณ!"
+	},
+	"wizard_rateUs": {
+		"message": "ให้คะแนนเรา"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "เราตรวจสอบรีวิวทั้งหมดเพื่อปรับปรุงประสบการณ์การใช้งานของผู้ใช้"
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "เปิดใช้งานการนำทางไปยังหน้ารายการและดึงข้อมูลจากแต่ละหน้า"
+	},
+	"wizard_selectLink": {
+		"message": "เลือกที่ลิงก์",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "กำลังรวบรวมข้อมูลหน้า $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "วิเคราะห์ URL $1 ด้วย AI (เวลารอเฉลี่ย $waitTime$ วินาที)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "ติดตามลิงก์สินค้า"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "ข้อเสนอแนะและการดึงข้อมูลขั้นสูง"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "การตั้งค่าข้อมูลหน้ารายการ"
+	},
+	"wizard_doneSelecting": {
+		"message": "เลือกเสร็จแล้ว",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "ตั้งค่าอัตโนมัติใน $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "ตรวจพบการแบ่งหน้า จัดการการตั้งค่าในขั้นตอนถัดไป"
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "ใช้งานได้เฉพาะในแท็บเดียวเท่านั้น"
+	},
+	"create_sitemap_sitemapName": {
+		"message": "ชื่อ $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "URL เริ่มต้น"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL"
+	},
+	"button_saveSitemap": {
+		"message": "บันทึก $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 ไม่ใช่ URL ที่ถูกต้อง",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ $json$ เป็นสิ่งที่จำเป็นและห้ามเว้นว่าง",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "$json$ ไม่ถูกต้อง",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "คีย์ $sitemap$ หายไป - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "จำนวน $1 ต้องไม่เกิน $2",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 เป็นสิ่งที่จำเป็นและต้องไม่ว่างเปล่า",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 ควรมีความยาวอย่างน้อย $2 ตัวอักษร",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "ความยาวสูงสุดของ $1 คือ $2 ตัวอักษร",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "อนุญาตเฉพาะตัวอักษร ตัวเลข $digits$ หรืออักขระใดๆ ในกลุ่ม $allowedCharacters$ เท่านั้น",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "$sitemap$ ที่มี ID นี้มีอยู่แล้ว",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 ต้องเป็นอาร์เรย์",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 เป็นสิ่งที่จำเป็นและต้องไม่ว่างเปล่า ต้องเลือกอย่างน้อยหนึ่งรายการ",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "อนุญาตเฉพาะคีย์ที่ไม่ซ้ำกันเท่านั้น ได้แก่ _id, startUrl, websiteStateSetup, selectors และ hashHistory ใน $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "กรอง $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "โดเมน"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "อัปโหลดไปยัง $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "ดาวน์โหลดจาก $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ ไม่ได้ซิงค์",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ ซิงค์เรียบร้อยแล้ว",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ มีอยู่ใน $cloud$ เท่านั้น",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ มีเฉพาะในส่วนขยายเท่านั้น",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "เขียนทับ",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "ไม่สามารถระบุเวอร์ชันล่าสุดของ $sitemap$ ได้ โปรดเขียนทับ $sitemap$ ในบัญชี $cloud$ ด้วยเวอร์ชันของ $sitemap$ นี้",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "ไม่สามารถระบุเวอร์ชันล่าสุดของ $sitemap$ ได้ โปรดเขียนทับ $sitemap$ นี้ด้วยเวอร์ชันจากบัญชี $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "เวอร์ชันล่าสุดของ $sitemap$ อยู่ในบัญชี $cloud$ แล้ว โปรดเขียนทับ $sitemap$ ในบัญชี $cloud$ ด้วยเวอร์ชันของ $sitemap$ นี้",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "นี่คือเวอร์ชันล่าสุดของ $sitemap$ โปรดเขียนทับ $sitemap$ นี้ด้วยเวอร์ชันจากบัญชี $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "อัปเดต",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "เวอร์ชันล่าสุดของ $sitemap$ อยู่ในบัญชี $cloud$ โปรดอัปเดต $sitemap$ นี้ให้ตรงกับเวอร์ชันในบัญชี $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "นี่คือเวอร์ชัน $sitemap$ ล่าสุด โปรดอัปเดต $sitemap$ ในบัญชี $cloud$ ด้วยเวอร์ชัน $sitemap$ นี้",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "ดาวน์โหลด",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "$sitemap$ นี้มีอยู่ในบัญชี $cloud$ เท่านั้น ดาวน์โหลด $sitemap$ จากบัญชี $cloud$ เพื่อแก้ไข",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "อัปโหลด",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "ลบในเครื่อง",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "$sitemap$ นี้จัดเก็บอยู่ในพื้นที่จัดเก็บส่วนขยายเท่านั้น โปรดอัปโหลด $sitemap$ ไปยังบัญชี $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "ลบ $sitemap$ ออกหรือไม่?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "การยืนยันการลบ"
+	},
+	"button_cancel": {
+		"message": "ยกเลิก",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "ลบ",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "ออกจากระบบ",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "ลงชื่อเข้าใช้ $cloud$",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "ตัวเลือก",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "เริ่มต้น URL",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "การตั้งค่าการเข้าสู่ระบบเว็บไซต์ / สถานะ",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "ข้อมูลที่ดึงมา",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "ส่งออก $sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "การส่งออกข้อมูล",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "สร้าง $sitemap$ ใหม่",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "สร้าง $sitemap$ ด้วยตัวช่วยสร้าง",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "ช่วย",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "วิดีโอสอนการใช้งาน",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "เอกสารประกอบ",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "สถานที่ทดสอบ",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "ฟอรัม",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "โหวตสนับสนุนไอเดียฟีเจอร์",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "คุณสมบัติทดลองเปิดใช้งานแล้ว",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "พิมพ์"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "ตัวเลือกผู้ปกครอง",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "สร้างตัวเลือกใหม่",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "สร้างตัวเลือกด้วย AI:"
+	},
+	"button_listingPage": {
+		"message": "หน้ารายการ",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "หน้ารายการเดียว",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "ลบตัวเลือก $1 หรือไม่?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "ย้ายเครื่องมือสำหรับนักพัฒนาไปไว้ด้านล่างสุดของเบราว์เซอร์เพื่อเริ่มใช้งาน $webScraper$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "ตัวอย่างข้อมูล"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "ยังไม่มีการดึงข้อมูลใดๆ ออกมา"
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "หลังจากเชื่อมต่อส่วนขยายกับบัญชี $cloud$ แล้ว ให้โหลดรายการ $sitemap$ ใหม่",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "โหลดซ้ำ",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "ปิด",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "ชื่อแอตทริบิวต์"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "คลิกเพื่อดูคุณสมบัติที่มีอยู่"
+	},
+	"edit_selector_tableColumns": {
+		"message": "คอลัมน์ตาราง"
+	},
+	"edit_selector_column": {
+		"message": "คอลัมน์"
+	},
+	"edit_selector_resultKey": {
+		"message": "ผลลัพธ์ที่สำคัญ"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "รวมเข้าในผลลัพธ์"
+	},
+	"button_dataPreview": {
+		"message": "ตัวอย่างข้อมูล",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "อัปโหลด $sitemap$ ไปยัง $cloud$",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "ส่งข้อมูลการฝึกอบรม",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "องค์ประกอบการเลื่อน",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "เลื่อนเฉพาะเมื่อไม่พบข้อมูล"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "เลื่อนไปยังองค์ประกอบ"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "คลิกตัวเลือก"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "ตัวเลือกแถวส่วนหัว"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "ตัวเลือกแถวข้อมูล"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "ดำเนินการเมื่อไม่พบตัวเลือก"
+	},
+	"button_select": {
+		"message": "เลือก",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "การแสดงตัวอย่างองค์ประกอบ",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "ปิดการแสดงตัวอย่าง",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "ตัวเลือกการบันทึก",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "เลื่อน",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "ขีดจำกัดองค์ประกอบ",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "ไม่จำกัด",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "เรเจ็กซ์",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "พบ URL $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "ลำดับความสำคัญขั้นต่ำ",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "ความล่าช้า (มิลลิวินาที)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "จำนวนคอลัมน์",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "หลายประเภท",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "บันทึกแรกเท่านั้น"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "บันทึกหลายรายการในหลายคอลัมน์"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "หลายระเบียนในคอลัมน์เดียว"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "ตัวเลือกผู้ปกครอง",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "ดำเนินการ",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "สคริปต์",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "คอลัมน์ข้อมูลที่ส่งคืน"
+	},
+	"edit_selector_columnName": {
+		"message": "ชื่อคอลัมน์"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "URL (เพียงหนึ่งเดียว)"
+	},
+	"button_remove": {
+		"message": "ลบ",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "เพิ่มคอลัมน์",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "คลิกประเภท",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "ประเภทการแบ่งหน้า",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "ความเป็นเอกลักษณ์ขององค์ประกอบการคลิก",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "ประเภทลิงก์",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "ละทิ้งองค์ประกอบเริ่มต้น",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "อัตโนมัติ"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "ลิงก์ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "ลิงก์สคริปต์ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "ลิงก์แอตทริบิวต์ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "ลิงก์ข้อความ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "คลิกปุ่มถัดไป/เพิ่มเติมหลายๆ ครั้ง ([หน้าถัดไป] [โหลดเพิ่มเติม])"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "คลิกครั้งเดียวบนปุ่มหลายปุ่ม ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "ลิงก์จากสคริปต์ใดๆ ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "คลิกหนึ่งครั้ง (การแบ่งหน้า, แท็บ)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "คลิกเพิ่มเติม (คลิกเพื่อโหลดองค์ประกอบเพิ่มเติม การโหลดจะหยุดเมื่อไม่พบองค์ประกอบใหม่ที่มีเนื้อหาข้อความที่ไม่ซ้ำกัน)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "ข้อความที่ไม่ซ้ำกัน"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "เฉพาะ $html$+ข้อความ",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "$html$ ที่ไม่ซ้ำกัน",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "ตัวเลือก $css$ ที่ไม่ซ้ำกัน",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "ลิงก์ (อ่านจากแอตทริบิวต์ href)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "ข้อความ (ใช้เนื้อหาข้อความเป็นลิงก์)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "คุณลักษณะ"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "ลิงก์สคริปต์ในแอตทริบิวต์ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "ห้ามทิ้งเด็ดขาด"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "ทิ้งเมื่อคลิกองค์ประกอบที่มีอยู่"
+	},
+	"edit_selector_discardAlways": {
+		"message": "ทิ้งทุกครั้ง"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "URL $sitemapXml$",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "เพิ่ม URL",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "เพิ่มจาก $robotstxt$",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "ฟังก์ชันนี้ถูกยกเลิกแล้วและจะไม่สามารถใช้งานได้ในเวอร์ชันที่จะออกในอนาคต"
+	},
+	"website_state_setup_enabled": {
+		"message": "เปิดใช้งาน",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "ลบการตั้งค่าสถานะเว็บไซต์",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "เพิ่มการดำเนินการ",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "ดำเนินการต่างๆ",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "บันทึก",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "ลบการตั้งค่าสถานะเว็บไซต์?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "รหัสผ่าน",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "ข้อความ",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "ระยะเวลา (มิลลิวินาที)",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "เปิด URL"
+	},
+	"website_state_setup_actionClick": {
+		"message": "คลิก"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "เวลานอนหลับ (มิลลิวินาที)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "การป้อนข้อความ"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "การป้อนรหัสผ่าน"
+	},
+	"website_state_setup_actionInput": {
+		"message": "ป้อนข้อมูล"
+	},
+	"button_loading": {
+		"message": "กำลังโหลด...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "เริ่มการดึงข้อมูล",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "ช่องรหัสผ่านในการตั้งค่าสถานะเว็บไซต์ว่างเปล่า"
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "ช่วงเวลาการร้องขอ (มิลลิวินาที)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "ช่วงเวลาการร้องขอ",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "เวลาหน่วงในการโหลดหน้าเว็บ (มิลลิวินาที)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "การโหลดหน้าเว็บล่าช้า",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "กำลังโหลด"
+	},
+	"button_refresh": {
+		"message": "รีเฟรช",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "รีเฟรชข้อมูล",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "ช่วยเราปรับปรุง $webScraper$ ให้ดียิ่งขึ้น!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "กดโหวตเห็นด้วยและส่งไอเดียฟีเจอร์",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "ทำการดึงข้อมูลโดยอัตโนมัติใน $webScraperCloud$",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "กำหนดเวลาการดึงข้อมูลโดยอัตโนมัติ"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "จัดการ $webScraper$ ผ่าน API",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "ส่งออกอัตโนมัติไปยัง $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "มี $proxy$ ในตัวสำหรับแก้ไขปัญหาการเข้าถึงเว็บไซต์",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "กำลังสร้างไฟล์"
+	},
+	"export_downloadAs": {
+		"message": "ดาวน์โหลดเป็น:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "ใช่"
+	},
+	"edit_selector_multipleNo": {
+		"message": "เลขที่"
+	},
+	"button_edit": {
+		"message": "แก้ไข",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "รหัสตัวเลือก",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "การตั้งค่า"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "อนุญาตให้รวบรวมข้อมูลเมตริกการใช้งานส่วนขยาย ข้อมูลที่รวบรวมจะเป็นข้อมูลที่ไม่ใช่ข้อมูลส่วนบุคคลในรูปแบบรวมเท่านั้น รายละเอียดเพิ่มเติมอยู่ใน..."
+	},
+	"options_page_privacyPolicy": {
+		"message": "นโยบายความเป็นส่วนตัว"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "อนุญาตให้รวบรวมข้อมูลการใช้งาน"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "เปิดใช้งานฟีเจอร์ทดลอง"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "การดึงข้อมูลจะเริ่มต้นในแท็บใหม่ เมื่อการดึงข้อมูลเสร็จสิ้น หน้าต่างนี้จะปิดลง"
+	},
+	"options_page_keepWorking": {
+		"message": "งานอื่นๆ สามารถดำเนินต่อไปได้ในขณะที่กำลังดึงข้อมูลอยู่"
+	}
+}

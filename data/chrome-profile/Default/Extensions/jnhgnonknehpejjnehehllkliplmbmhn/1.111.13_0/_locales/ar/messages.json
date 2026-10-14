@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "أتمتة الكشط في $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "إدارة $webScraper$ عبر API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "تصدير تلقائي إلى $dropbox$ و$googledrive$ و$awss3$ و$googlecloud$ و$azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "$proxy$ مدمج لمشكلات الوصول إلى المواقع",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "جدولة استخراج البيانات تلقائيًا"
+   },
+   "browse_helpUsImprove": {
+      "message": "ساعدنا في تحسين $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "جارٍ التحميل"
+   },
+   "button_addAction": {
+      "message": "إضافة إجراء"
+   },
+   "button_addColumn": {
+      "message": "إضافة عمود"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "إضافة من $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "إنشاء محدد جديد"
+   },
+   "button_addUrl": {
+      "message": "إضافة URL"
+   },
+   "button_cancel": {
+      "message": "إلغاء"
+   },
+   "button_close": {
+      "message": "إغلاق"
+   },
+   "button_closePreview": {
+      "message": "إغلاق المعاينة"
+   },
+   "button_dataPreview": {
+      "message": "معاينة البيانات"
+   },
+   "button_delete": {
+      "message": "حذف"
+   },
+   "button_deleteLocally": {
+      "message": "حذف محليًا"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "حذف إعداد حالة موقع الويب"
+   },
+   "button_download": {
+      "message": "تنزيل"
+   },
+   "button_edit": {
+      "message": "تحرير"
+   },
+   "button_elementPreview": {
+      "message": "معاينة العنصر"
+   },
+   "button_listingPage": {
+      "message": "صفحة القائمة"
+   },
+   "button_loading": {
+      "message": "جارٍ التحميل..."
+   },
+   "button_overwrite": {
+      "message": "استبدال"
+   },
+   "button_performAction": {
+      "message": "تنفيذ الإجراء"
+   },
+   "button_performActions": {
+      "message": "تنفيذ الإجراءات"
+   },
+   "button_refresh": {
+      "message": "تحديث"
+   },
+   "button_refreshData": {
+      "message": "تحديث البيانات"
+   },
+   "button_reload": {
+      "message": "تحديث"
+   },
+   "button_remove": {
+      "message": "إزالة"
+   },
+   "button_save": {
+      "message": "حفظ"
+   },
+   "button_saveSelector": {
+      "message": "حفظ المحدد"
+   },
+   "button_saveSitemap": {
+      "message": "حفظ $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "تحديد"
+   },
+   "button_sendTrainingData": {
+      "message": "إرسال بيانات التدريب"
+   },
+   "button_singleItemPage": {
+      "message": "صفحة عنصر واحد"
+   },
+   "button_startScraping": {
+      "message": "بدء الكشط"
+   },
+   "button_update": {
+      "message": "تحديث"
+   },
+   "button_upload": {
+      "message": "رفع"
+   },
+   "button_uploadToCloud": {
+      "message": "رفع $sitemap$ إلى $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "التصويت وإرسال أفكار الميزات"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "بعد ربط الإضافة بحساب $cloud$، حدّث قائمة $sitemap$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "الإجراءات"
+   },
+   "common_createSitemap": {
+      "message": "إنشاء $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "خطأ:"
+   },
+   "common_id": {
+      "message": "المعرّف"
+   },
+   "common_importSitemap": {
+      "message": "استيراد $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "معرفة المزيد"
+   },
+   "common_multiple": {
+      "message": "متعدد"
+   },
+   "common_mustBeBetween": {
+      "message": "يجب أن تكون قيمة $1 بين $2 و$3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "يجب أن تكون قيمة $1 رقمية",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "لم تُكشط أي بيانات بعد"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "يجب أن يكون نطاق $1 تصاعديًا",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "كشط"
+   },
+   "common_selector": {
+      "message": "محدد"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "غير مصرح به. أعد الاتصال بـ $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "يجب أن تكون القيمة فريدة."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "انقر هنا لتفعيل مفاتيح الاختصار"
+   },
+   "contentApp_doneSelecting": {
+      "message": "إنهاء التحديد"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "العنصر الأصل لا يحتوي على العنصر المحدد"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "العنصر الأصل غير موجود"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "اضغط $key$ لتحديد العنصر الفرعي",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "اضغط $key$ لتحديد العنصر الأصل",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "اضغط $key$ لتحديد العنصر تحت المؤشر",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "عدد العناصر المحددة: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$json$ لـ $sitemap$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 مطلوب ولا يمكن أن يكون فارغًا",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "الحد الأقصى لطول $1 هو $2 حرف",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "يجب أن يكون $1 بطول $2 أحرف على الأقل",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "يُسمح فقط بالأحرف والأرقام $digits$ أو أي من الأحرف $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "$json$ غير صالح",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "مفتاح $sitemap$ مفقود - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "يجب أن يكون $1 مصفوفة",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ بهذا المعرّف موجود بالفعل",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$json$ لـ $sitemap$ مطلوب ولا يمكن أن يكون فارغًا",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 مطلوب ولا يمكن أن يكون فارغًا",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "يجب ألا يتجاوز عدد $1 قيمة $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "يُسمح فقط بالمفاتيح الفريدة _id وstartUrl وwebsiteStateSetup وselectors وhashHistory في $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "اسم $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "عنوان URL للبدء"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 ليس عنوان URL صالحًا",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "معاينة البيانات"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "لم تُستخرج أي بيانات بعد."
+   },
+   "edit_selector_attributeName": {
+      "message": "اسم السمة"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "تفرّد عنصر النقر"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "انقر لعرض السمات المتاحة"
+   },
+   "edit_selector_clickType": {
+      "message": "نوع النقر"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "النقر للمزيد (انقر لتحميل المزيد من العناصر. يتوقف عند عدم العثور على عناصر جديدة بمحتوى نصي فريد.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "النقر مرة واحدة (ترقيم الصفحات، علامات التبويب)"
+   },
+   "edit_selector_column": {
+      "message": "العمود"
+   },
+   "edit_selector_columnCount": {
+      "message": "عدد الأعمدة"
+   },
+   "edit_selector_columnName": {
+      "message": "اسم العمود"
+   },
+   "edit_selector_delay": {
+      "message": "التأخير (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "هذه الميزة مهملة ولن تعمل في إصدار مستقبلي."
+   },
+   "edit_selector_discardAlways": {
+      "message": "التجاهل دائمًا"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "تجاهل العناصر الأولية"
+   },
+   "edit_selector_discardNever": {
+      "message": "عدم التجاهل أبدًا"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "التجاهل عند وجود عنصر النقر"
+   },
+   "edit_selector_elementLimit": {
+      "message": "حد العناصر"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "السجل الأول فقط"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "$regex$ لعنوان URL الموجود",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "معرّف المحدد"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "تضمين في النتيجة"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "هو URL (واحد فقط)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "محدد النقر"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "محدد صفوف البيانات"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "محدد صف الترويسة"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "محدد التنفيذ عند عدم العثور"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "عنصر التمرير"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "التمرير عند عدم الظهور فقط"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "التمرير إلى العنصر"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "رابط من أي نص برمجي ($scriptExample1$، $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "نوع الرابط"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "سمة"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "رابط (يُقرأ من سمة href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "رابط برمجي في السمة ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "نص (استخدام المحتوى النصي كرابط)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "الحد الأدنى للأولوية"
+   },
+   "edit_selector_multipleNo": {
+      "message": "لا"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "سجلات متعددة في أعمدة متعددة"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "سجلات متعددة في عمود واحد"
+   },
+   "edit_selector_multipleType": {
+      "message": "نوع التعدد"
+   },
+   "edit_selector_multipleYes": {
+      "message": "نعم"
+   },
+   "edit_selector_paginationType": {
+      "message": "نوع ترقيم الصفحات"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "تلقائي"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "النقر عدة مرات على زر التالي/المزيد ([الصفحة التالية] [تحميل المزيد])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "النقر مرة واحدة على عدة أزرار ([1] [2]، [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "رابط من سمة ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "رابط ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "رابط برمجي ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "رابط نصي ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "المحددات الأصل"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "مفتاح النتيجة"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "أعمدة البيانات المرجعة"
+   },
+   "edit_selector_script": {
+      "message": "نص برمجي"
+   },
+   "edit_selector_scroll": {
+      "message": "تمرير"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "إجراء النقر"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "إجراء التمرير لأسفل"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "عنصر (تمرير)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "سمة العنصر"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "نقر العنصر"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "تمرير العنصر لأسفل (مهمل)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "مجمّع (مهمل)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "صورة"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "رابط"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "بيانات الشبكة"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "ترقيم الصفحات"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "رابط منبثق (مهمل)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "بيانات السكربت"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "روابط $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "جدول"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "نص"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "عناوين URL لـ $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "أعمدة الجدول"
+   },
+   "edit_selector_type": {
+      "message": "النوع"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "محدد $css$ فريد",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "$html$ فريد",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "$html$+نص فريد",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "نص فريد"
+   },
+   "edit_selector_unlimited": {
+      "message": "غير محدود"
+   },
+   "export_downloadAs": {
+      "message": "تنزيل كـ:"
+   },
+   "export_generatingFile": {
+      "message": "جارٍ إنشاء الملف"
+   },
+   "extDesc": {
+      "message": "أداة استخراج بيانات الويب بواجهة التأشير والنقر السهلة للويب الحديث"
+   },
+   "extName": {
+      "message": "$webScraper$ - كشط ويب مجاني",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - كشط ويب مجاني",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "البيانات المستخرجة"
+   },
+   "nav_createNewSitemap": {
+      "message": "إنشاء $sitemap$ جديد",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "إنشاء $sitemap$ باستخدام المعالج",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "التوثيق"
+   },
+   "nav_editMetadata": {
+      "message": "عناوين URL الأولية"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "الميزات التجريبية مفعّلة"
+   },
+   "nav_exportData": {
+      "message": "تصدير البيانات"
+   },
+   "nav_exportSitemap": {
+      "message": "تصدير $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "المنتدى"
+   },
+   "nav_help": {
+      "message": "مساعدة"
+   },
+   "nav_logout": {
+      "message": "تسجيل الخروج"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "انقل أدوات المطور إلى أسفل المتصفح لبدء استخدام $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "المحددات"
+   },
+   "nav_signInToCloud": {
+      "message": "تسجيل الدخول إلى $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "مواقع الاختبار"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "التصويت لأفكار الميزات"
+   },
+   "nav_videoTutorials": {
+      "message": "فيديوهات تعليمية"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-In لموقع الويب / إعداد الحالة"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "السماح بجمع مقاييس الاستخدام"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "تفعيل الميزات التجريبية"
+   },
+   "options_page_keepWorking": {
+      "message": "يمكن متابعة أعمال أخرى أثناء الكشط."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "السماح بجمع مقاييس استخدام الإضافة. تُجمع معلومات غير شخصية فقط بصيغة مجمّعة. مزيد من التفاصيل في"
+   },
+   "options_page_privacyPolicy": {
+      "message": "سياسة الخصوصية"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "اكتمل كشط $sitemapId$",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "اكتمل الكشط"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "سيبدأ الكشط في علامة تبويب جديدة. عند اكتمال الكشط، ستُغلق هذه النافذة."
+   },
+   "options_page_settings": {
+      "message": "الإعدادات"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "حقل كلمة مرور في إعداد حالة موقع الويب فارغ."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "تأخير تحميل الصفحة (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "تأخير تحميل الصفحة"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "فاصل الطلبات (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "فاصل الطلبات"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "حذف المحدد $1؟",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "إنشاء محددات باستخدام الذكاء الاصطناعي:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "يوجد محدد بهذا المعرّف بالفعل"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "المحدد بهذا المعرّف مطابق لعمود تصدير بيانات موجود بالفعل"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "لا يمكن أن يحتوي اسم السمة على مسافة بيضاء أو \" أو ' أو > أو / أو = أو أي من أحرف التحكم"
+   },
+   "selectors_invalidColumnName": {
+      "message": "لا يمكن أن يبدأ $1 بمسافة بيضاء أو شرطة سفلية أو \"web-scraper\" ولا يمكن أن يحتوي على: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "يجب أن يكون محدد CSS صالحًا"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "يحتاج المحدد إلى محدد آخر واحد على الأقل كمحدد أصل"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "لا يدعم JavaScript التعبيرات النمطية التي يمكن أن تطابق 0 أحرف"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "المحددات الأصل"
+   },
+   "selectors_tableHeaderType": {
+      "message": "النوع"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "تأكيد الحذف"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "حذف $sitemap$؟",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "تصفية $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "هذا $sitemap$ موجود في حساب $cloud$ فقط. تنزيل $sitemap$ من حساب $cloud$ للتحرير",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "هذا أحدث إصدار من $sitemap$. استبدال هذا $sitemap$ بإصدار من حساب $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ غير متزامن",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "أحدث إصدار من $sitemap$ موجود في حساب $cloud$. استبدال $sitemap$ في حساب $cloud$ بهذا الإصدار من $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "تعذّر تحديد أحدث إصدار من $sitemap$. استبدال هذا $sitemap$ بالإصدار من حساب $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "تعذّر تحديد أحدث إصدار من $sitemap$. استبدال $sitemap$ في حساب $cloud$ بهذا الإصدار من $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ موجود في $cloud$ فقط",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ متزامن",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ موجود في الإضافة فقط",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "أحدث إصدار من $sitemap$ موجود في حساب $cloud$. تحديث هذا $sitemap$ ليطابق الإصدار في حساب $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "هذا أحدث إصدار من $sitemap$. تحديث $sitemap$ في حساب $cloud$ بهذا الإصدار من $sitemap$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "هذا $sitemap$ موجود في مخزن الإضافة فقط. رفع $sitemap$ إلى حساب $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "النطاق"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "تنزيل من $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "رفع إلى $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "نقر"
+   },
+   "website_state_setup_actionInput": {
+      "message": "إدخال"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "فتح URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "إدخال كلمة المرور"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "انتظار (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "إدخال نص"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "حذف إعداد حالة موقع الويب؟"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "المدة بـ ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "مفعّل"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "كلمة المرور"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "نص"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "الوصول إلى $sitemaps$ المعالج",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "إضافة صور"
+   },
+   "wizard_addMoreText": {
+      "message": "إضافة المزيد من النص"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "جارٍ تحليل محتوى الصفحة..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "تحليل $1 من عناوين URL باستخدام الذكاء الاصطناعي (متوسط الانتظار $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "والمزيد..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "هل يتم تحميل المزيد من العناصر بعد التمرير؟"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "أتمتة الاستخراج في $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "الأتمتة في $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "معالجة كشف الروبوتات"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "التحقق من التمرير اللانهائي"
+   },
+   "wizard_columnName": {
+      "message": "اسم العمود"
+   },
+   "wizard_continueButton": {
+      "message": "متابعة"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "محددات $css$ قابلة للتخصيص",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "تنقل قابل للتخصيص في الموقع"
+   },
+   "wizard_dataExtractionError": {
+      "message": "حدث خطأ أثناء استخراج البيانات من هذه الصفحة. تم الإبلاغ عن المشكلة. أعد المحاولة لاحقًا."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "تم العثور على $1 نقطة بيانات في الصفحة",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "تم العثور على نقطة بيانات واحدة في الصفحة"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "تعطيل التمرير اللانهائي"
+   },
+   "wizard_disablePagination": {
+      "message": "تعطيل ترقيم الصفحات"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "هل تحتوي هذه الصفحة على ترقيم صفحات؟"
+   },
+   "wizard_doneSelecting": {
+      "message": "تم التحديد"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "تفعيل التمرير اللانهائي"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "تفعيل التنقل إلى صفحات العناصر واستخراج البيانات من كل صفحة."
+   },
+   "wizard_errorTitle": {
+      "message": "خطأ"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "التصدير إلى $dropbox$ و$googleDrive$ و$s3$، ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "جمع بيانات الصفحة $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "إرسال ملاحظات"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "الانتقال إلى منشئ $sitemap$ المتقدم",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "ما رأيك؟"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "كيف كانت تجربتك في الكشط؟"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "تم تحديد $1 من روابط صفحات العناصر",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "تم تحديد رابط صفحة عنصر واحد"
+   },
+   "wizard_link": {
+      "message": "الرابط"
+   },
+   "wizard_loadMore": {
+      "message": "تحميل المزيد"
+   },
+   "wizard_loadingPage": {
+      "message": "جارٍ تحميل الصفحة..."
+   },
+   "wizard_loginFeature": {
+      "message": "ميزة $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "إزالة الأعمدة أو إضافتها أو إعادة تسميتها قبل الاستخراج"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "المزيد من مستخرجات البيانات"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "تم كشط $1 سجل",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "جارٍ التنقل عبر ترقيم الصفحات لاكتشاف روابط صفحات العناصر."
+   },
+   "wizard_nextPage": {
+      "message": "الصفحة التالية"
+   },
+   "wizard_noDataFound": {
+      "message": "لم يتم العثور على بيانات"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "لم يتم كشط أي سجلات. تحقق من الخطوات السابقة أو أعد المحاولة."
+   },
+   "wizard_numberedPages": {
+      "message": "صفحات مرقمة: انقر على أزرار متعددة لتحديدها جميعاً"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "يعمل في علامة تبويب واحدة فقط."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "اضغط $shortcut1$ أو $shortcut2$ لفتح أدوات المطور.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "اضغط $shortcut$ لفتح أدوات المطور.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "فتح أدوات المطور في المتصفح"
+   },
+   "wizard_paginationDetected": {
+      "message": "تم اكتشاف ترقيم الصفحات. يمكن إدارة الإعداد في الخطوة التالية."
+   },
+   "wizard_paginationEnabled": {
+      "message": "ترقيم الصفحات مفعّل"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "يُرجى تقييم الإضافة على متجر المتصفح!"
+   },
+   "wizard_rateUs": {
+      "message": "قيّمنا"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "تم كشط $1 سجل، عرض $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "إعادة الإنشاء"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "إعادة الكشط"
+   },
+   "wizard_reselect": {
+      "message": "إعادة التحديد"
+   },
+   "wizard_retry": {
+      "message": "إعادة المحاولة"
+   },
+   "wizard_scheduler": {
+      "message": "المجدول"
+   },
+   "wizard_scrapeThePage": {
+      "message": "كشط الصفحة"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "إعداد أداة الكشط جاهز"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "جارٍ الكشط. (تم كشط $1 سجل)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "جارٍ الكشط."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "جارٍ الكشط. (تم كشط سجل واحد)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "جارٍ الكشط. (تم كشط $1 سجل، عرض $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "التمرير مفعّل"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "يلزم وجود رابطين على الأقل."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "حدد نقاط البيانات يدويًا"
+   },
+   "wizard_selectLink": {
+      "message": "تحديد رابط"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "تحديد زر الصفحة التالية"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "حدد زر ترقيم الصفحات. الأنواع الشائعة هي:"
+   },
+   "wizard_sendFeedback": {
+      "message": "إرسال الملاحظة"
+   },
+   "wizard_showMe": {
+      "message": "عرض"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "عرض $1 من أصل $2 سجل",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "عرض $1 سجل",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "عرض سجل واحد"
+   },
+   "wizard_signUp": {
+      "message": "إنشاء حساب"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "تم كشط سجل واحد"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "تم حفظ $sitemap$ في منشئ $sitemap2$ المتقدم",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "تخطي"
+   },
+   "wizard_stepDataSetup": {
+      "message": "إعداد البيانات"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "الملاحظات والكشط المتقدم"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "اتباع روابط العناصر"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "إعداد بيانات صفحة العنصر"
+   },
+   "wizard_stepPagination": {
+      "message": "ترقيم الصفحات والتمرير"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "مزامنة وتشغيل $sitemaps$ في $webScraper$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "شكرًا على الملاحظات!"
+   },
+   "wizard_title": {
+      "message": "العنوان"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "حاول التحديد مرة أخرى"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "تُفحص جميع التقييمات لتحسين تجربة المستخدم."
+   },
+   "wizard_yourFeedback": {
+      "message": "ملاحظتك"
+   }
+}

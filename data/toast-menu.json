@@ -1,0 +1,713 @@
+{
+  "scrapedAt": "2026-10-14T20:48:39.729804+00:00",
+  "locations": {
+    "fremont": {
+      "ok": true,
+      "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
+      "items": [
+        {
+          "name": "Zing-1",
+          "title": "Zing-1",
+          "price": 13.49,
+          "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature and Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/QTzQGKQwvlsT-Ivxo9TGlZVoOj1r_JkBTqoCyZ60pdE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/56abcaf0-7334-4184-97c9-ad5e01715da4.png",
+          "category": "Featured Items"
+        },
+        {
+          "name": "Smash-Double",
+          "title": "Smash-Double",
+          "price": 9.49,
+          "description": "A DOUBLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/cEsjEDDnL3O52Qp-hG_UZrgkqIoV3R9-kZ5KaUuSruA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/01486ff3-a38b-4783-a302-f41219be5a02.png",
+          "category": "Zing-1"
+        },
+        {
+          "name": "Zing -2",
+          "title": "Zing -2",
+          "price": 14.49,
+          "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/W9VCbsR-JjYSO9yxYKoeEIQCBGGI4un5xtI1vzmuwzk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/4f5100c0-bea1-47c1-82a6-fa09cc7b5906.png",
+          "category": "Smash-Double"
+        },
+        {
+          "name": "Zing-1 Meal",
+          "title": "Zing-1 Meal",
+          "price": 18.99,
+          "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature Zing sauces, Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/EdoLEHbyiJbWHgrQLO67tXVIKd5_yNewCwImpHGeBCw/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/f1018fe6-041d-4fbb-9b2a-7bc261bf8d3c.png",
+          "category": "Zing-1"
+        },
+        {
+          "name": "Zing-2 Meal",
+          "title": "Zing-2 Meal",
+          "price": 19.99,
+          "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces, Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/jmvv1j77sW8PiVVfCBHUXGFoos5twMFPg3iDZu-GWYw/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/8c09dafd-c82a-47cf-ae97-3e49ed8c2a80.png",
+          "category": "Zing -2"
+        },
+        {
+          "name": "Zing -3",
+          "title": "Zing -3",
+          "price": 12.49,
+          "description": "2 crispy Chicken Tenders comes with  Pickles, and white bread.",
+          "image": "https://d1w7312wesee68.cloudfront.net/XhJxNahRTn6faJ9SX4HGKMgEgHMd2t_IE8jf5Ge6BXE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/f4fe0aec-bb60-45aa-a67b-6ebad7bbfc8d.png",
+          "category": "Zing-2 Meal"
+        },
+        {
+          "name": "Zing-3 Meal",
+          "title": "Zing-3 Meal",
+          "price": 17.99,
+          "description": "2 Crispy Chicken Tenders comes with Pickles, White bread, Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/2Cy-qRoZWyt2prcuLkalrYuU7x3er4YHemLiYXupOH8/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/88308f00-d142-4ab2-8145-e3e994a67e68.png",
+          "category": "Zing -3"
+        },
+        {
+          "name": "Zing-4",
+          "title": "Zing-4",
+          "price": 13.49,
+          "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
+          "image": "https://d1w7312wesee68.cloudfront.net/WForjIiq6a_gUtb14O5UKR8DFsUrfXfqu_1wmpi55vs/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/13d71f43-6c9d-41a0-8429-f71e608f8b56.png",
+          "category": "Zing-3 Meal"
+        },
+        {
+          "name": "Zing-4 Meal",
+          "title": "Zing-4 Meal",
+          "price": 18.99,
+          "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
+          "image": "https://d1w7312wesee68.cloudfront.net/u-NLMGb5Hi8nFZ31qzseqFLBQAcKLu_XQWkWtzQjlCY/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/80b50263-1079-4222-a465-bd5ab0cc3a16.png",
+          "category": "Zing-4"
+        },
+        {
+          "name": "Single Slider",
+          "title": "Single Slider",
+          "price": 7.49,
+          "description": "Single SliderSingle Slider$7.49",
+          "image": "https://d1w7312wesee68.cloudfront.net/xSr3Rp0gYd-6XZycXoxcMuK52ILmU6arkSMX21pnwmg/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/49fd036c-567d-4e7e-b2c4-29e71712448d.png",
+          "category": "Zing-4 Meal"
+        },
+        {
+          "name": "Single Tender",
+          "title": "Single Tender",
+          "price": 7.49,
+          "description": "Single Tender$7.49",
+          "image": "https://d1w7312wesee68.cloudfront.net/mzJo0Emy6kPf2M0UyZz_2OuD7-Ji-mORM2fCUQfsp_o/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/3eb291d8-b00a-457e-935b-04809b417ce4.png",
+          "category": "Single Slider"
+        },
+        {
+          "name": "Smash-Single",
+          "title": "Smash-Single",
+          "price": 7.99,
+          "description": "A single beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/qfuaVnIVWjFIPmzzAQxxGxEkb9G7bKW_S0YFbUJxS7c/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/6345aebe-bedc-4787-a61e-03c7f7db27d5.png",
+          "category": "Single Tender"
+        },
+        {
+          "name": "Smash-Single Meal",
+          "title": "Smash-Single Meal",
+          "price": 13.99,
+          "description": "Smash Burger - Single plus Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/ILmZb1c7fDaec-Ur1nVLodqyxMBDuF-bM7zhm_WOK5U/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/c7ed0d6b-466a-4bf4-87cd-6966d3979085.png",
+          "category": "Smash-Single"
+        },
+        {
+          "name": "Smash-Double Meal",
+          "title": "Smash-Double Meal",
+          "price": 14.99,
+          "description": "Smash Burger-Double plus  Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/YcLmfDtbNjDHMNarn_yeuSMoyYOxnubRqYuG_8vynDY/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/9d08941d-88a6-4d12-89ad-1ef6827ec1a4.png",
+          "category": "Smash-Double"
+        },
+        {
+          "name": "Smash-Triple",
+          "title": "Smash-Triple",
+          "price": 10.49,
+          "description": "A TRIPLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/SyxdD2Dzts8DJmxfltCa_g-v4_Ii3JUapqcckcWsjFk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/7ebb9a61-0bee-4168-8b4e-f3f2014b755b.png",
+          "category": "Smash-Double Meal"
+        },
+        {
+          "name": "Smash-Triple Meal",
+          "title": "Smash-Triple Meal",
+          "price": 15.99,
+          "description": "Smash Burger-Triple plus fries and drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/b_TtM3NUoCDbdiYA8zNdSmGKUYE-0uJRN1qOwzLKP0o/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/6da06c3e-687e-4479-ba83-1db36194e855.png",
+          "category": "Smash-Triple"
+        },
+        {
+          "name": "Combo Burger",
+          "title": "Combo Burger",
+          "price": 14.99,
+          "description": "Combo of Chicken Slider & SINGLE Smash Burger, served with creamy coleslaw, pickles, cheese & Zing Sauce",
+          "image": "https://d1w7312wesee68.cloudfront.net/wJyNcgeHWwrRrF-NrdRpezvwTw1-ndJ9yr2nhzYq6WA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/2fe571da-f285-4789-a6a1-bfe1093df6da.png",
+          "category": "Smash-Triple Meal"
+        },
+        {
+          "name": "Combo Burger Meal",
+          "title": "Combo Burger Meal",
+          "price": 19.99,
+          "description": "Combo of Chicken Slider & Single Smash Burger\r\n\r\nServed with creamy coleslaw, pickles, melted cheese, and Zing Sauce. Comes with a side of crispy fries and a refreshing drink.",
+          "image": "https://d1w7312wesee68.cloudfront.net/e4NqluA24mrcGuQAIGj-87HU2pTorI6uDqsm_TxfOTc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/29aef227-2e4f-490a-82bd-80875a6cbbed.png",
+          "category": "Combo Burger"
+        },
+        {
+          "name": "Chicken Wrap",
+          "title": "Chicken Wrap",
+          "price": 14.49,
+          "description": "Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/utShvP5TuAC779c81am-_h42Jklqw4vzHJiyA1A76m4/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/6fd88088-e86a-4d0c-b901-e2bf57da85d7.png",
+          "category": "Wraps"
+        },
+        {
+          "name": "Chicken Wrap Meal",
+          "title": "Chicken Wrap Meal",
+          "price": 19.99,
+          "description": "Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing and White sauces. Served with golden fries and a refreshing drink.",
+          "image": "https://d1w7312wesee68.cloudfront.net/nMy_XZLDxhAqJrHdsUUZ_4twVo7EYvl6WuV2jUQWLnc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/923ec760-56fc-435c-b9a0-b3cf509a098f.png",
+          "category": "Chicken Wrap"
+        },
+        {
+          "name": "Mix Wrap(chicken and smash)",
+          "title": "Mix Wrap(chicken and smash)",
+          "price": 14.49,
+          "description": "Crispy fried chicken tender and smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/rLlUEKuD6h5d_7At64n6YrnD1vCl3dOKVEFMl0I_Jto/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/7d35928d-7e38-4802-a0c2-c0de8e1d95c7.png",
+          "category": "Chicken Wrap Meal"
+        },
+        {
+          "name": "Mix Wrap Meal(chicken and smash)",
+          "title": "Mix Wrap Meal(chicken and smash)",
+          "price": 19.99,
+          "description": "Crispy fried chicken tender and smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces with Fries and Drinks.",
+          "image": "https://d1w7312wesee68.cloudfront.net/xN90WbkI8rxWS2ngu8I9MwZwYYG0HZL4zvMfBESrMCc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/4232411a-3707-44c5-9954-0b18cc227181.png",
+          "category": "Mix Wrap(chicken and smash)"
+        },
+        {
+          "name": "Salad Bowl",
+          "title": "Salad Bowl",
+          "price": 15.99,
+          "description": "fresh mixed lettuce ,onion and olives, topped with tenders and our signature zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/64PW5qouWgOMP3BiqlT6Gz8QhjtcVUu-6Uao99ZQbFs/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/1d75b456-d7f7-46e8-b5d4-f784f51b98e3.png",
+          "category": "Bowls"
+        },
+        {
+          "name": "Chicken Rice Platter",
+          "title": "Chicken Rice Platter",
+          "price": 15.99,
+          "description": "Two chopped, juicy chicken tenders served over fragrant rice with fresh coleslaw and our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/6aFt1Lf1K9wu19NS_4SK2xXgL2ZooHVmdASQp6XRbV0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/98c00394-1183-4bd4-b443-002d176c316d.png",
+          "category": "Salad Bowl"
+        },
+        {
+          "name": "Mix Rice Platter",
+          "title": "Mix Rice Platter",
+          "price": 15.99,
+          "description": "One chopped chicken tender and one juicy smash cheese patty served over seasoned rice with fresh coleslaw and our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/BAdbYaUJ6w8Lm_AfAeC-iajR3OCyFF3R9sXqk8KM0Zc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/7ff82353-f594-47b4-b0d8-0c5ee126abf0.png",
+          "category": "Chicken Rice Platter"
+        },
+        {
+          "name": "Side of rice",
+          "title": "Side of rice",
+          "price": 6,
+          "description": "Side of rice$6.00",
+          "image": "https://d1w7312wesee68.cloudfront.net/2MMhCmc9ubJTgcE5WvSFxYEqKec0w-WfVLa5mYOH7oQ/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/ba2d6908-683f-441d-af27-71110b592a18.png",
+          "category": "Mix Rice Platter"
+        },
+        {
+          "name": "Smash Rice Platter",
+          "title": "Smash Rice Platter",
+          "price": 15.99,
+          "description": "Served with 2 Smash Patty over fragrant Rice, Drizzled with Signature Sauce and paired with Fresh Coleslaw.",
+          "image": "https://d1w7312wesee68.cloudfront.net/tAN-0U_b9EADGAHR0CQ_uRVKLVjUzgoHliipqJTb3bE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/f7b72e90-cdde-4b27-985d-3a25f5dc6e77.png",
+          "category": "Side of rice"
+        },
+        {
+          "name": "Coleslaw",
+          "title": "Coleslaw",
+          "price": 4.99,
+          "description": "Coleslaw$4.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/cygvxMz4IVm5UoczGO86ayInj-FAsMWA-YjnKclTEDA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/752a330e-b06d-4af6-953f-74d2f1c76022.png",
+          "category": "Sides"
+        },
+        {
+          "name": "Loaded Chicken  Fries",
+          "title": "Loaded Chicken  Fries",
+          "price": 14.49,
+          "description": "A perfect duo of golden, seasoned fries served with our juicy chicken crispy tenders, paired with Zingster’s signature Z Sauces for that extra kick of flavor.",
+          "image": "https://d1w7312wesee68.cloudfront.net/r9wNvfZ75pYjlS8GMrIvcuy73bRyRSfHkSVdterzIqo/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/fca81f8b-d820-4c77-b164-b321c1b398b6.png",
+          "category": "Coleslaw"
+        },
+        {
+          "name": "Plain Fries",
+          "title": "Plain Fries",
+          "price": 4.49,
+          "description": "Seasoned Fries",
+          "image": "https://d1w7312wesee68.cloudfront.net/w4ESVTckVF47096NrJibjkOcmxy1931j0iYM1ZlakTM/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/3f3c6218-565f-48e0-8861-e8411f9605fa.png",
+          "category": "Loaded Chicken  Fries"
+        },
+        {
+          "name": "Seasoned Fries",
+          "title": "Seasoned Fries",
+          "price": 4.99,
+          "description": "Seasoned Fries $4.99",
+          "image": "",
+          "category": "Plain Fries"
+        },
+        {
+          "name": "Biscoff Milkshake",
+          "title": "Biscoff Milkshake",
+          "price": 8.99,
+          "description": "Biscoff Milkshakes",
+          "image": "https://d1w7312wesee68.cloudfront.net/ZI4-Gf8J6R7Mq7GY40HO_k--ONvs8tI4IhGTQYU8IUk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/73c6f752-f79e-42f4-ae78-51024491124b.png",
+          "category": "Milkshakes"
+        },
+        {
+          "name": "Dubai Chocolate Milkshake",
+          "title": "Dubai Chocolate Milkshake",
+          "price": 9.99,
+          "description": "Dubai Chocolate Milkshakes",
+          "image": "https://d1w7312wesee68.cloudfront.net/2cLWo76dP0TPJvzX7bYJljI0Ihil5lkuzgc4AAkzUGY/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/e05aa615-3d60-4d29-ac4c-d1df7a7cf701.png",
+          "category": "Biscoff Milkshake"
+        },
+        {
+          "name": "Oreo MilkShake",
+          "title": "Oreo MilkShake",
+          "price": 8.99,
+          "description": "Oero Milk Shake",
+          "image": "https://d1w7312wesee68.cloudfront.net/tDDpMKqR1ixTZBWp85GwHrA9ZRPsbYa0Q-1-0VNKsWU/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/57baa8af-8497-4889-b6f4-be1e27df6182.png",
+          "category": "Dubai Chocolate Milkshake"
+        },
+        {
+          "name": "Soft Drink",
+          "title": "Soft Drink",
+          "price": 2.99,
+          "description": "Fountain Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/lYUduKvH1khQGHIizBFSIcXKW5E1XiqQMjJS5C2VDQ8/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/4ef557eb-d544-4438-a373-3f168bebd32b.png",
+          "category": "Drinks"
+        },
+        {
+          "name": "Home Style Lemonade",
+          "title": "Home Style Lemonade",
+          "price": 4.49,
+          "description": "Home Style Lemonade Home Style Lemonade $4.49",
+          "image": "https://d1w7312wesee68.cloudfront.net/FoXbXWJNzPL7vcasjMK4JEzMSa5lyboZvvKdYfjiYVM/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/e8635892-7700-4a1d-9e08-2973766f3a04.png",
+          "category": "Soft Drink"
+        },
+        {
+          "name": "Mango Lemonade",
+          "title": "Mango Lemonade",
+          "price": 4.49,
+          "description": "Mango Lemonade Mango Lemonade $4.49",
+          "image": "https://d1w7312wesee68.cloudfront.net/US_ZeWZADxCvqCUICW1Vndea1ylYVcJpFm_KJTk68To/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/958aca34-b376-4249-9d12-0989b78345ff.png",
+          "category": "Home Style Lemonade"
+        },
+        {
+          "name": "Strawberry Watermelon Lemonade",
+          "title": "Strawberry Watermelon Lemonade",
+          "price": 4.49,
+          "description": "Strawberry Watermelon Lemonade Strawberry Watermelon Lemonade $4.49",
+          "image": "https://d1w7312wesee68.cloudfront.net/lyKB5-gra9llPMZWThNxj_kTnc-dA26MMPTaId9RoK8/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/b3bf8d60-846e-41a8-b0c9-5b1d8d88b9f8.png",
+          "category": "Mango Lemonade"
+        },
+        {
+          "name": "Zing Sauce",
+          "title": "Zing Sauce",
+          "price": 0.5,
+          "description": "Zing Sauce$0.50",
+          "image": "https://d1w7312wesee68.cloudfront.net/AuceJjN0MSmIoobPKdkXiPyMBpI1nAHVgQvHDPSTiRQ/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/b4554f79-b76a-4d27-961d-8396e4ed0acf.png",
+          "category": "Sauce"
+        },
+        {
+          "name": "White Sauce",
+          "title": "White Sauce",
+          "price": 0.5,
+          "description": "White Sauce$0.50",
+          "image": "https://d1w7312wesee68.cloudfront.net/JXpRn0RZypCSLvLQ9KD9dMsWXLbHvKE2Rs2pSpjKqno/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/f3cd034a-234f-447b-8b53-94f70d0a4244.png",
+          "category": "Zing Sauce"
+        },
+        {
+          "name": "Chicken Slider, Fries and Juice",
+          "title": "Chicken Slider, Fries and Juice",
+          "price": 10.99,
+          "description": "Chicken Slider comes with Plain Fries and Juice",
+          "image": "https://d1w7312wesee68.cloudfront.net/bU6h-CSRTWDZbDzD2mcMgmMz8Ca05dF1AoG581RqV20/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/3e27499f-4dd6-4184-887f-837b254739df.png",
+          "category": "Kids Menu"
+        },
+        {
+          "name": "Chicken Tender, Fries and Juice",
+          "title": "Chicken Tender, Fries and Juice",
+          "price": 10.99,
+          "description": "Chicken Tender comes with Plain regular fries and Juice",
+          "image": "https://d1w7312wesee68.cloudfront.net/2cBt5gQqtmFn-wJVNlduMH2C7saXHh4XpUNJZUBGnLU/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/8538162f-4855-4310-a617-e0317acbd213.png",
+          "category": "Chicken Slider, Fries and Juice"
+        },
+        {
+          "name": "Tender - 2 Pcs",
+          "title": "Tender - 2 Pcs",
+          "price": 11.49,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/DCcUTJoH8zxsr_AtLCFjWyfliNkfx43DNGfpTHCN2dQ/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/b7a1b81a-daa4-4aa8-9659-8996d036e106.png",
+          "category": "Tender Only"
+        },
+        {
+          "name": "Tender - 4 Pcs",
+          "title": "Tender - 4 Pcs",
+          "price": 21.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/mjDo_pisBA51QFZZu8uR0i_eIkcUxhShzDUqtiHO6J0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/2446fe8b-7255-467b-94d0-efd160903d60.png",
+          "category": "Tender - 2 Pcs"
+        },
+        {
+          "name": "Tender - 6 Pcs",
+          "title": "Tender - 6 Pcs",
+          "price": 32.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/ufXh41MOdZV7wr1io804B2uYnjM-L05PxQhBHSFcOiE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/c0547164-666b-4610-847c-e3f2cf77666a.png",
+          "category": "Tender - 4 Pcs"
+        }
+      ]
+    },
+    "palo_alto": {
+      "ok": true,
+      "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b",
+      "items": [
+        {
+          "name": "Kids Meal - Chicken Tender, Fries and Juice",
+          "title": "Kids Meal - Chicken Tender, Fries and Juice",
+          "price": 13.99,
+          "description": "Chicken Tender comes with Plain regular fries and Juice",
+          "image": "https://d1w7312wesee68.cloudfront.net/BGRfA6Y86yCMOiUI45-E6-5Jil8137XzGll8Uk3yJ3o/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/376fbc67-085e-4338-ae5d-e72843b168d5.png",
+          "category": "Featured Items"
+        },
+        {
+          "name": "Chicken Rice Platter",
+          "title": "Chicken Rice Platter",
+          "price": 16.99,
+          "description": "Two chopped, juicy chicken tenders served over fragrant rice with fresh coleslaw and our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/oFJlSLVw7qyfqBUZMVUplf4YTmURfHnGuMt9-P-J7TU/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/5658a11a-f7b5-46b4-8c19-8c77c55e3ccb.png",
+          "category": "Kids Meal - Chicken Tender, Fries and Juice"
+        },
+        {
+          "name": "Mix Rice Platter",
+          "title": "Mix Rice Platter",
+          "price": 16.99,
+          "description": "Served with 1 Single Smash Patty Topped with Cheese and 1 Chopped Crispy Fried Tender Over Fragrant Rice, Drizzled With Zing Sauce and White Sauce,",
+          "image": "https://d1w7312wesee68.cloudfront.net/LWMnOaTxT9-BuKWAcPmebiNsi8G13l0tfEyOGkjt05s/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6d87400b-ebeb-47e8-9d5b-96037361b072.png",
+          "category": "Chicken Rice Platter"
+        },
+        {
+          "name": "Zing-1",
+          "title": "Zing-1",
+          "price": 15.99,
+          "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/so5I7QkQR45zIuQYklsBtoAuJc5R-OLYYUsJR66rSK0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/b70644ec-49da-4209-8fb8-db4e2449c229.png",
+          "category": "Burgers"
+        },
+        {
+          "name": "Zing -2",
+          "title": "Zing -2",
+          "price": 17.99,
+          "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/ie2BAjcYr20hdDd5DF2x4abK0qpReYFxfThLAOvF5kc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6bafa521-4687-4c4f-b2da-326e8a6b299e.png",
+          "category": "Zing-1"
+        },
+        {
+          "name": "Zing -3",
+          "title": "Zing -3",
+          "price": 15.58,
+          "description": "2 crispy Chicken Tenders comes with  Pickles, and white bread.",
+          "image": "https://d1w7312wesee68.cloudfront.net/f0qarqqwk07qnPcTWWO49GEhBkz3R6ByYNeDmrKouhE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/3f15063d-a10f-42ea-b188-f819a9213f37.png",
+          "category": "Zing -2"
+        },
+        {
+          "name": "Zing-4",
+          "title": "Zing-4",
+          "price": 16.58,
+          "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
+          "image": "https://d1w7312wesee68.cloudfront.net/N_nsBJ1N4-cvaMxJVqvOBurYrBQMBJJ0lG2vysd6Zzo/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/d30e5cfd-ea41-4ded-99e2-a397f90e67b9.png",
+          "category": "Zing -3"
+        },
+        {
+          "name": "Combo Burger",
+          "title": "Combo Burger",
+          "price": 17.99,
+          "description": "Combo of Chicken Slider & SINGLE Smash Burger, served with creamy coleslaw, pickles, cheese & Zing Sauce",
+          "image": "https://d1w7312wesee68.cloudfront.net/91pppYoWikLk8xN4LB-vUtS68ymnj8bJ6MXtORH_yo0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77596c60-1f61-4496-adc9-e15cc193fb4c.png",
+          "category": "Zing-4"
+        },
+        {
+          "name": "Smash-Single",
+          "title": "Smash-Single",
+          "price": 11.49,
+          "description": "A single beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/LKF_29iAWlfsM75otM7722XyiKSnEkLiEuRaL5jg734/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/1d628728-d319-4b05-8521-38199be83850.png",
+          "category": "Combo Burger"
+        },
+        {
+          "name": "Smash-Double",
+          "title": "Smash-Double",
+          "price": 13.49,
+          "description": "A DOUBLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/xHTJ07SeFT3iIXvoZ3d3oaCJh-hb3p-LY7UH-qlbbeA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/69e33589-39a6-456f-82cc-f46015c18892.png",
+          "category": "Smash-Single"
+        },
+        {
+          "name": "Smash-Triple",
+          "title": "Smash-Triple",
+          "price": 15.49,
+          "description": "A TRIPLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/H7J3OFk-BnpSHYmF-1NqHRtHnG99pgladOT57kqMFyA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/37e32faf-38e6-4ff7-83e0-d319caa46f34.png",
+          "category": "Smash-Double"
+        },
+        {
+          "name": "Single Slider",
+          "title": "Single Slider",
+          "price": 8.99,
+          "description": "Single SliderSingle Slider$8.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/C8xffUWqKFjaUOCNaTK4pCM_NBC7MRv7I8woHR6P6Eo/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/960a3c37-973e-4561-92ab-847e39c3c92b.png",
+          "category": "Smash-Triple"
+        },
+        {
+          "name": "Single Tender",
+          "title": "Single Tender",
+          "price": 8.49,
+          "description": "Single TenderSingle Tender$8.49",
+          "image": "https://d1w7312wesee68.cloudfront.net/QiESFwniuliyPInlNmYpbTpNWSPEvS_M23CQXWghXO8/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/987913cd-4a7c-472f-87a5-cc5c330c190e.png",
+          "category": "Single Slider"
+        },
+        {
+          "name": "Chicken Wrap",
+          "title": "Chicken Wrap",
+          "price": 16.99,
+          "description": "2 Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/3ApNelkUTDZSPnac0P-ERC29S-uufXoLeu3wurvDJOI/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/c2b65b4d-4100-458b-a5cc-1ade18a91a10.png",
+          "category": "Wraps"
+        },
+        {
+          "name": "MIX WRAP  (chicken and smash)",
+          "title": "MIX WRAP  (chicken and smash)",
+          "price": 16.99,
+          "description": "1 Crispy fried chicken tender and 1 Smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/FbeVg_fSnaMGDkekF5rIUlkVW_V_Va0c9yAgJWnte9E/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/72e789ec-9713-4477-9356-a2c334d3248f.png",
+          "category": "Chicken Wrap"
+        },
+        {
+          "name": "Veg Wrap",
+          "title": "Veg Wrap",
+          "price": 14.99,
+          "description": "Crispy Falafel layered with fresh Lettuce and onion, drizzled with our signature sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/KhXweygzXhBrb1gljMGJSb_E4vtPOCX-RqOBpb3ZUoE/resize:fit:720:720/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/4/item-1600000003839065334_1781937427.png",
+          "category": "MIX WRAP  (chicken and smash)"
+        },
+        {
+          "name": "Beef wrap",
+          "title": "Beef wrap",
+          "price": 16.99,
+          "description": "Beef wrap$16.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/fdpAqpIw3o6x66T0ckNRTMtQIKZmVCpkLVIJJNbyY3g/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/9834a729-1e48-4125-a2bc-30e4ca4a8ade.png",
+          "category": "Veg Wrap"
+        },
+        {
+          "name": "Crispy Chicken Salad Bowl",
+          "title": "Crispy Chicken Salad Bowl",
+          "price": 17.99,
+          "description": "2 Crispy Tenders Served with Fresh Mixed Lettuce, Onion, Topped with Our Signature Zing Sauce And White Sauce",
+          "image": "https://d1w7312wesee68.cloudfront.net/Z55rHnl0hhh3UjTcrbtwNpqK-MOO8SNFGx9al0PEA0Q/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/65d4979e-e0d2-4af7-95ae-c63f1d8f17b1.png",
+          "category": "Bowls"
+        },
+        {
+          "name": "Grilled Chicken Salad Bowl",
+          "title": "Grilled Chicken Salad Bowl",
+          "price": 18.49,
+          "description": "2 Grilled Tenders Served With Fresh Mixed Lettuce, Onion, Topped With Our Signature Zing Sauces and White Sauce",
+          "image": "https://d1w7312wesee68.cloudfront.net/67DivRuMU72VmQ23tLEy8EFyTXg_NmrPeXOwIOnwufw/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/bd1700c4-59fd-432d-a31c-3031fbd5c9c6.png",
+          "category": "Crispy Chicken Salad Bowl"
+        },
+        {
+          "name": "Side of rice",
+          "title": "Side of rice",
+          "price": 6,
+          "description": "Side of rice$6.00",
+          "image": "https://d1w7312wesee68.cloudfront.net/TJdTBQ2nDWvLUGz3xDQ-Oj4c_VQBGZADdu6KDxTJT8M/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/96942547-2b54-4c10-9c22-dbe30b121e47.png",
+          "category": "Mix Rice Platter"
+        },
+        {
+          "name": "Beef Rice Platter",
+          "title": "Beef Rice Platter",
+          "price": 16.99,
+          "description": "Served with 2 smash patty over fragrant rice drizzled with signature sauce, and paired with fresh coleslaw.",
+          "image": "https://d1w7312wesee68.cloudfront.net/BVVXbq6tZGviUib67Fe-IFaaVBg0_zLpGOeFGqIAHLs/resize:fit:720:720/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/0/item-1600000003831606980_1781937569.png",
+          "category": "Side of rice"
+        },
+        {
+          "name": "Veg Salad Bowl",
+          "title": "Veg Salad Bowl",
+          "price": 14.49,
+          "description": "Crispy Falafel Served with Fresh Mixed Lettuce, onion, topped with our signature sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/dDLMiFO3KOFr5Du2fhM-_TAzEIervqm8hVqIDKamoyI/resize:fit:720:720/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/4/item-1600000003838810624_1781937816.png",
+          "category": "Beef Rice Platter"
+        },
+        {
+          "name": "Seasoned Fries",
+          "title": "Seasoned Fries",
+          "price": 4.99,
+          "description": "Regular Fries",
+          "image": "https://d1w7312wesee68.cloudfront.net/373ptzHqgaqFydkZi4LZQEcJCmr962Yb25a1RtNHtfg/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/4dd7c903-0bba-4499-97c2-1e2e88c424bd.png",
+          "category": "Sides"
+        },
+        {
+          "name": "Coleslaw",
+          "title": "Coleslaw",
+          "price": 4.99,
+          "description": "Coleslaw$4.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/BCtAFLF5vmGyGmjhMhEy30302ZPJun48gMsXQwoynyM/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e33357b5-71b5-43d2-ae9f-c4dc76e7149a.png",
+          "category": "Seasoned Fries"
+        },
+        {
+          "name": "Plain Fries",
+          "title": "Plain Fries",
+          "price": 4.99,
+          "description": "Plain Fries$4.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/kx1OpYkaaNVARrQhSmw_qiGcXNCPpdQ_ZxK0opyIjNk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/0da13be1-db98-47de-9522-010f1dcf7215.png",
+          "category": "Coleslaw"
+        },
+        {
+          "name": "Loaded Chicken  Fries",
+          "title": "Loaded Chicken  Fries",
+          "price": 16.49,
+          "description": "2 Crispy Tender Served with Golden Seasoned Fries and Paired with Zingsters Signature Zings Sauce and White Sauce",
+          "image": "https://d1w7312wesee68.cloudfront.net/s4Vnx8_gg8LeU3vc6LXlhFfjZ3ZAIzYbcpW3Jm5GsOc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e2176c8e-d262-44d6-8b73-a6475d23fa02.png",
+          "category": "Plain Fries"
+        },
+        {
+          "name": "kids juice",
+          "title": "kids juice",
+          "price": 2.99,
+          "description": "kids juice$2.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/Ok3Rqa0c8NfSdRLfKRmNece0BYWqdi7Qhgz9l-gqZWA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/dc3082a2-4345-4812-9803-3eff737d1378.png",
+          "category": "Loaded Chicken  Fries"
+        },
+        {
+          "name": "Oreo MilkShake",
+          "title": "Oreo MilkShake",
+          "price": 8.99,
+          "description": "Oreo MilkShakeOreo MilkShake$8.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/Sr3rjJUr8R8W4qX0csgGEU7hKO7bYZD-RSm-sOO0kFw/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6c64087a-3766-4686-b317-ab62dbaa66a8.png",
+          "category": "Milkshakes"
+        },
+        {
+          "name": "Biscoff Milkshake",
+          "title": "Biscoff Milkshake",
+          "price": 8.99,
+          "description": "Biscoff MilkshakeBiscoff Milkshake$8.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/FCQGSbgA5WVrafbt4nibMjL7Wzr8LTtb62i2NE5eb8k/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/2d9c4bab-c103-43a8-a0ef-8bad08ebf7f8.png",
+          "category": "Oreo MilkShake"
+        },
+        {
+          "name": "Dubai Chocolate Milkshake",
+          "title": "Dubai Chocolate Milkshake",
+          "price": 9.99,
+          "description": "Dubai Chocolate MilkshakeDubai Chocolate Milkshake$9.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/U5jYI_8VwRzQ7O5etutlSI5VtPSIuajeEJqcvOMm0G0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/01c9c05e-8547-43b2-979a-01939f4f1c67.png",
+          "category": "Biscoff Milkshake"
+        },
+        {
+          "name": "Soft Drink",
+          "title": "Soft Drink",
+          "price": 2.99,
+          "description": "Fountain Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/CUaqXDBe5spsSylNKB_2_XQUPSjiJ3IQhXX-jX51mio/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77de3486-7099-4d1a-8b33-70d8547d0421.png",
+          "category": "Drinks"
+        },
+        {
+          "name": "Aquafina pure water",
+          "title": "Aquafina pure water",
+          "price": 3.25,
+          "description": "Aquafina pure water$3.25",
+          "image": "",
+          "category": "Soft Drink"
+        },
+        {
+          "name": "Homestyle Lemonade",
+          "title": "Homestyle Lemonade",
+          "price": 5.99,
+          "description": "Homestyle Lemonade$5.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/NKmJpCgay8BfCWfmxV8pz__R-Qlzji8tMwxaB2veeNQ/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/0b5574af-e519-4b1b-85bc-79f4f036c703.png",
+          "category": "Aquafina pure water"
+        },
+        {
+          "name": "Mango Lemonade",
+          "title": "Mango Lemonade",
+          "price": 5.99,
+          "description": "Mango Lemonade$5.99",
+          "image": "https://d1w7312wesee68.cloudfront.net/CFhHr6_zG3Njtn4xwuxzTXnShVHiEyg8o6PyEYzQ-TQ/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e92d2bc0-54ba-4ac7-8bbd-0b7b83de5c8c.jpg",
+          "category": "Homestyle Lemonade"
+        },
+        {
+          "name": "Strawberry watermelon",
+          "title": "Strawberry watermelon",
+          "price": 5.99,
+          "description": "Strawberry watermelon$5.99",
+          "image": "",
+          "category": "Mango Lemonade"
+        },
+        {
+          "name": "LIFE WTR",
+          "title": "LIFE WTR",
+          "price": 3.5,
+          "description": "LIFE WTR$3.50",
+          "image": "",
+          "category": "Strawberry watermelon"
+        },
+        {
+          "name": "Zing Sauce",
+          "title": "Zing Sauce",
+          "price": 0.5,
+          "description": "Zing Sauce$0.50",
+          "image": "https://d1w7312wesee68.cloudfront.net/D-FMRa5C8nwX1HwNOAE8ZmflXqYKNOP2zwdX3kJalrI/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/13c747f1-2964-4df9-ad7c-335ece9335d1.png",
+          "category": "Sauce"
+        },
+        {
+          "name": "White Sauce",
+          "title": "White Sauce",
+          "price": 0.5,
+          "description": "White Sauce$0.50",
+          "image": "https://d1w7312wesee68.cloudfront.net/u9w1gEGZIBASNjk5aTlLCOb2ZwJ7lt2sulvP2cPHUPU/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/216730ee-f49e-4f5d-97f2-a852bb760ba0.png",
+          "category": "Zing Sauce"
+        },
+        {
+          "name": "Kids Meal - Chicken Slider, Fries and Juice",
+          "title": "Kids Meal - Chicken Slider, Fries and Juice",
+          "price": 13.99,
+          "description": "Chicken Slider comes with Plain Fries and Juice",
+          "image": "https://d1w7312wesee68.cloudfront.net/VNMZlLWGYUVP5pUVJKI37Il-NN7x_s3BqQqNo6PD_TA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/1f6ea6e1-2342-4aae-bba4-10bca26ffae7.png",
+          "category": "Kids Menu"
+        },
+        {
+          "name": "Tender - 2 Pcs",
+          "title": "Tender - 2 Pcs",
+          "price": 14.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/opx8kC1OqPOP8SXn11h65WOwm8soRwA-Nf5Uro7ZzlA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/a9f68d3b-90c7-4170-93f5-18bfc17deb54.png",
+          "category": "Tender Only"
+        },
+        {
+          "name": "Tender - 4 Pcs",
+          "title": "Tender - 4 Pcs",
+          "price": 27.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/P86lJtYTMbOAln1EuouNCcR8zQyRvbkPvFkUsotN2hA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/3e95a699-5bd6-417d-90fc-a209115ed3fd.png",
+          "category": "Tender - 2 Pcs"
+        },
+        {
+          "name": "Tender - 6 Pcs",
+          "title": "Tender - 6 Pcs",
+          "price": 39.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/kLIcQ1R7s3EiRU1ORGPgqCAPUu-ltOocv81Fp_uExWI/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/d5f9d9a9-b2ce-4367-97e8-ca286418747a.png",
+          "category": "Tender - 4 Pcs"
+        }
+      ]
+    }
+  }
+}

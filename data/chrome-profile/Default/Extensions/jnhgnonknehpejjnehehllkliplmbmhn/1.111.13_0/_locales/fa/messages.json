@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "خودکارسازی اسکرپینگ در $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "مدیریت $webScraper$ از طریق API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "خروجی خودکار به $dropbox$، $googledrive$، $awss3$، $googlecloud$، $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "$proxy$ داخلی برای مشکلات دسترسی به سایت",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "زمان‌بندی خودکار استخراج داده‌ها"
+   },
+   "browse_helpUsImprove": {
+      "message": "به بهبود $webScraper$ کمک کنید!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "در حال بارگذاری"
+   },
+   "button_addAction": {
+      "message": "افزودن اقدام"
+   },
+   "button_addColumn": {
+      "message": "افزودن ستون"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "افزودن از $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "ایجاد انتخابگر جدید"
+   },
+   "button_addUrl": {
+      "message": "افزودن URL"
+   },
+   "button_cancel": {
+      "message": "لغو"
+   },
+   "button_close": {
+      "message": "بستن"
+   },
+   "button_closePreview": {
+      "message": "بستن پیش‌نمایش"
+   },
+   "button_dataPreview": {
+      "message": "پیش‌نمایش داده"
+   },
+   "button_delete": {
+      "message": "حذف"
+   },
+   "button_deleteLocally": {
+      "message": "حذف محلی"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "حذف پیکربندی وضعیت وب‌سایت"
+   },
+   "button_download": {
+      "message": "دانلود"
+   },
+   "button_edit": {
+      "message": "ویرایش"
+   },
+   "button_elementPreview": {
+      "message": "پیش‌نمایش عنصر"
+   },
+   "button_listingPage": {
+      "message": "صفحهٔ فهرست"
+   },
+   "button_loading": {
+      "message": "در حال بارگذاری..."
+   },
+   "button_overwrite": {
+      "message": "بازنویسی"
+   },
+   "button_performAction": {
+      "message": "اجرای اقدام"
+   },
+   "button_performActions": {
+      "message": "اجرای کنش‌ها"
+   },
+   "button_refresh": {
+      "message": "تازه‌سازی"
+   },
+   "button_refreshData": {
+      "message": "تازه‌سازی داده‌ها"
+   },
+   "button_reload": {
+      "message": "تازه‌سازی"
+   },
+   "button_remove": {
+      "message": "حذف"
+   },
+   "button_save": {
+      "message": "ذخیره"
+   },
+   "button_saveSelector": {
+      "message": "ذخیره انتخابگر"
+   },
+   "button_saveSitemap": {
+      "message": "ذخیرهٔ $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "انتخاب"
+   },
+   "button_sendTrainingData": {
+      "message": "ارسال داده آموزشی"
+   },
+   "button_singleItemPage": {
+      "message": "صفحهٔ آیتم تکی"
+   },
+   "button_startScraping": {
+      "message": "شروع اسکرپینگ"
+   },
+   "button_update": {
+      "message": "به‌روزرسانی"
+   },
+   "button_upload": {
+      "message": "بارگذاری"
+   },
+   "button_uploadToCloud": {
+      "message": "آپلود $sitemap$ در $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "رأی مثبت و ارسال ایده‌های ویژگی"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "پس از اتصال افزونه به حساب $cloud$، فهرست $sitemap$ را تازه‌سازی کنید.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "کنش‌ها"
+   },
+   "common_createSitemap": {
+      "message": "ایجاد $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "خطا:"
+   },
+   "common_id": {
+      "message": "شناسه"
+   },
+   "common_importSitemap": {
+      "message": "وارد کردن $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "بیشتر بدانید"
+   },
+   "common_multiple": {
+      "message": "چندگانه"
+   },
+   "common_mustBeBetween": {
+      "message": "$1 باید بین $2 و $3 باشد",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "$1 باید عددی باشد",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "هنوز داده‌ای استخراج نشده"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "بازهٔ $1 باید صعودی باشد",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "استخراج داده"
+   },
+   "common_selector": {
+      "message": "انتخابگر"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "غیرمجاز. اتصال مجدد با $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "مقدار باید یکتا باشد."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "برای فعال‌سازی کلیدهای میانبر اینجا کلیک کنید"
+   },
+   "contentApp_doneSelecting": {
+      "message": "پایان انتخاب"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "والد شامل عنصر انتخاب‌شده نیست"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "عنصر والد یافت نشد"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "برای انتخاب عنصر فرزند، $key$ را فشار دهید",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "برای انتخاب عنصر والد، $key$ را فشار دهید",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "برای انتخاب عنصر زیر نشانگر، $key$ را فشار دهید",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "تعداد عناصر انتخاب‌شده: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 الزامی است و نمی‌تواند خالی باشد",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "حداکثر طول $1 برابر $2 نویسه است",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 باید حداقل $2 نویسه طول داشته باشد",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "فقط حروف، ارقام $digits$ یا هر یک از نویسه‌های $allowedCharacters$ مجاز است",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "$json$ نامعتبر",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "کلید $sitemap$ موجود نیست - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 باید یک آرایه باشد",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ با این شناسه از قبل وجود دارد",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ الزامی است و نمی‌تواند خالی باشد",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 الزامی است و نمی‌تواند خالی باشد",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "تعداد $1 نباید از $2 بیشتر شود",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "فقط کلیدهای یکتای _id، startUrl، websiteStateSetup، selectors، hashHistory در $sitemap$ مجاز هستند",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "نام $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "URL شروع"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 یک URL معتبر نیست",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "پیش‌نمایش داده"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "هنوز داده‌ای استخراج نشده است."
+   },
+   "edit_selector_attributeName": {
+      "message": "نام ویژگی"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "یکتایی عنصر کلیک‌شونده"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "برای مشاهدهٔ ویژگی‌های موجود کلیک کنید"
+   },
+   "edit_selector_clickType": {
+      "message": "نوع کلیک"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "کلیک بیشتر (کلیک برای بارگذاری عناصر بیشتر. وقتی عنصر جدیدی با محتوای متنی یکتا یافت نشود متوقف می‌شود.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "کلیک یک‌باره (صفحه‌بندی، زبانه‌ها)"
+   },
+   "edit_selector_column": {
+      "message": "ستون"
+   },
+   "edit_selector_columnCount": {
+      "message": "تعداد ستون"
+   },
+   "edit_selector_columnName": {
+      "message": "نام ستون"
+   },
+   "edit_selector_delay": {
+      "message": "تأخیر (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "این ویژگی منسوخ شده و در نسخهٔ آینده کار نخواهد کرد."
+   },
+   "edit_selector_discardAlways": {
+      "message": "همیشه کنار گذاشته شود"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "کنار گذاشتن عناصر اولیه"
+   },
+   "edit_selector_discardNever": {
+      "message": "هرگز کنار گذاشته نشود"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "کنار گذاشتن هنگام وجود عنصر کلیک‌شونده"
+   },
+   "edit_selector_elementLimit": {
+      "message": "حد عنصر"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "فقط اولین رکورد"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "URL یافت‌شده $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "شناسهٔ انتخابگر"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "گنجاندن در نتیجه"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "URL است (فقط یکی)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "انتخابگر کلیک"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "انتخابگر ردیف‌های داده"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "انتخابگر ردیف سرستون"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "انتخابگر اجرا هنگام یافت‌نشدن"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "عنصر اسکرول"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "اسکرول فقط در صورت نبودن"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "اسکرول به عنصر"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "پیوند از هر اسکریپت ($scriptExample1$، $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "نوع پیوند"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "ویژگی"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "پیوند (خوانده‌شده از ویژگی href)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "پیوند اسکریپتی در ویژگی ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "متن (استفاده از محتوای متنی به‌عنوان پیوند)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "حداقل اولویت"
+   },
+   "edit_selector_multipleNo": {
+      "message": "خیر"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "چند رکورد در چند ستون"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "چند رکورد در یک ستون"
+   },
+   "edit_selector_multipleType": {
+      "message": "نوع چندگانه"
+   },
+   "edit_selector_multipleYes": {
+      "message": "بله"
+   },
+   "edit_selector_paginationType": {
+      "message": "نوع صفحه‌بندی"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "خودکار"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "کلیک چندباره روی دکمهٔ بعد/بیشتر ([صفحهٔ بعد] [بارگذاری بیشتر])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "کلیک یک‌باره روی چند دکمه ([1] [2]، [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "پیوند ویژگی ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "پیوند ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "پیوند اسکریپتی ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "پیوند متنی ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "انتخابگرهای والد"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "کلید نتیجه"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "ستون‌های دادهٔ برگشتی"
+   },
+   "edit_selector_script": {
+      "message": "اسکریپت"
+   },
+   "edit_selector_scroll": {
+      "message": "اسکرول"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "اقدام کلیک"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "اقدام اسکرول به پایین"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "عنصر (اسکرول)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "ویژگی عنصر"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "کلیک عنصر"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "اسکرول به پایین عنصر (منسوخ)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "گروه‌بندی‌شده (منسوخ)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "تصویر"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "پیوند"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "دادهٔ شبکه"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "صفحه‌بندی"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "پیوند پاپ‌آپ (منسوخ)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "دادهٔ اسکریپت"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "پیوندهای $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "جدول"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "متن"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "URLهای $sitemapXml$",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "ستون‌های جدول"
+   },
+   "edit_selector_type": {
+      "message": "نوع"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "انتخابگر $css$ یکتا",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "$html$ یکتا",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "$html$+متن یکتا",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "متن یکتا"
+   },
+   "edit_selector_unlimited": {
+      "message": "نامحدود"
+   },
+   "export_downloadAs": {
+      "message": "دانلود به‌صورت:"
+   },
+   "export_generatingFile": {
+      "message": "در حال تولید فایل"
+   },
+   "extDesc": {
+      "message": "ابزار استخراج داده‌های وب با رابط اشاره و کلیک ساده برای وب مدرن"
+   },
+   "extName": {
+      "message": "$webScraper$ - استخراج رایگان داده‌های وب",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - استخراج رایگان داده‌های وب",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "داده استخراج‌شده"
+   },
+   "nav_createNewSitemap": {
+      "message": "ایجاد $sitemap$ جدید",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "ایجاد $sitemap$ با ویزارد",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "مستندات"
+   },
+   "nav_editMetadata": {
+      "message": "URLهای شروع"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "ویژگی‌های آزمایشی فعال است"
+   },
+   "nav_exportData": {
+      "message": "خروجی داده"
+   },
+   "nav_exportSitemap": {
+      "message": "خروجی $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "انجمن"
+   },
+   "nav_help": {
+      "message": "راهنما"
+   },
+   "nav_logout": {
+      "message": "خروج"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "برای شروع استفاده از $webScraper$، ابزارهای توسعه‌دهنده را به پایین مرورگر منتقل کنید.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "انتخابگرها"
+   },
+   "nav_signInToCloud": {
+      "message": "ورود به $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "سایت‌های آزمایشی"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "رأی مثبت به ایده‌های قابلیت"
+   },
+   "nav_videoTutorials": {
+      "message": "آموزش‌های ویدیویی"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Log-in به وب‌سایت / پیکربندی وضعیت"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "اجازهٔ جمع‌آوری آمار استفاده"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "فعال‌سازی ویژگی‌های آزمایشی"
+   },
+   "options_page_keepWorking": {
+      "message": "حین اسکرپینگ می‌توان کارهای دیگر را ادامه داد."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "اجازهٔ جمع‌آوری آمار استفاده از افزونه. فقط اطلاعات غیرشخصی به‌صورت تجمیعی جمع‌آوری می‌شود. جزئیات بیشتر در"
+   },
+   "options_page_privacyPolicy": {
+      "message": "سیاست حریم خصوصی"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "اسکرپینگ $sitemapId$ پایان یافت",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "اسکرپینگ پایان یافت"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "اسکرپینگ در زبانه‌ای جدید آغاز می‌شود. پس از تکمیل اسکرپینگ، این پنجره بسته می‌شود."
+   },
+   "options_page_settings": {
+      "message": "تنظیمات"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "یک فیلد رمز عبور در پیکربندی وضعیت وب‌سایت خالی است."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "تأخیر بارگذاری صفحه (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "تأخیر بارگذاری صفحه"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "بازهٔ درخواست (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "بازهٔ درخواست"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "انتخابگر $1 حذف شود؟",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "تولید انتخابگرها با هوش مصنوعی:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "انتخابگری با این شناسه از قبل وجود دارد"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "انتخابگری با این شناسه با ستون موجود در خروجی داده یکسان است"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "نام ویژگی نمی‌تواند شامل فاصله، \", ', >, /, = یا هیچ‌یک از نویسه‌های کنترلی باشد"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 نمی‌تواند با فاصله، زیرخط یا \"web-scraper\" شروع شود و نمی‌تواند شامل این موارد باشد: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "باید یک انتخابگر CSS معتبر باشد"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "انتخابگر باید حداقل یک انتخابگر دیگر را به‌عنوان والد داشته باشد"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript از عبارت‌های باقاعده‌ای که با 0 نویسه مطابقت دارند پشتیبانی نمی‌کند"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "انتخابگرهای والد"
+   },
+   "selectors_tableHeaderType": {
+      "message": "نوع"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "تأیید حذف"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "$sitemap$ حذف شود؟",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "فیلتر $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "این $sitemap$ فقط در حساب $cloud$ است. برای ویرایش، $sitemap$ را از حساب $cloud$ دانلود کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "این آخرین نسخهٔ $sitemap$ است. این $sitemap$ را با نسخه‌ای از حساب $cloud$ بازنویسی کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ همگام‌سازی نشده است",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "آخرین نسخهٔ $sitemap$ در حساب $cloud$ است. $sitemap$ موجود در حساب $cloud$ را با این نسخه از $sitemap$ بازنویسی کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "تعیین آخرین نسخهٔ $sitemap$ ممکن نیست. این $sitemap$ را با نسخهٔ موجود در حساب $cloud$ بازنویسی کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "تعیین آخرین نسخهٔ $sitemap$ ممکن نیست. $sitemap$ موجود در حساب $cloud$ را با این نسخه از $sitemap$ بازنویسی کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ فقط در $cloud$ است",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ همگام‌سازی شده است",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ فقط در افزونه است",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "آخرین نسخهٔ $sitemap$ در حساب $cloud$ است. این $sitemap$ را با نسخهٔ موجود در حساب $cloud$ به‌روزرسانی کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "این آخرین نسخهٔ $sitemap$ است. $sitemap$ موجود در حساب $cloud$ را با این نسخه از $sitemap$ به‌روزرسانی کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "این $sitemap$ فقط در فضای ذخیره‌سازی افزونه است. $sitemap$ را در حساب $cloud$ بارگذاری کنید",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "دامنه"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "دانلود از $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "بارگذاری در $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "کلیک"
+   },
+   "website_state_setup_actionInput": {
+      "message": "فیلد ورودی"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "باز کردن URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "ورودی رمز عبور"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "وقفه (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "ورودی متن"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "پیکربندی وضعیت وب‌سایت حذف شود؟"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "مدت‌زمان به ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "فعال"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "رمز عبور"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "متن"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "دسترسی به $sitemaps$ ویزارد",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "افزودن تصاویر"
+   },
+   "wizard_addMoreText": {
+      "message": "افزودن متن بیشتر"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "در حال تحلیل محتوای صفحه..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "در حال تحلیل $1 URL با هوش مصنوعی (میانگین انتظار $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "و موارد بیشتر..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "آیا پس از اسکرول، آیتم‌های بیشتری بارگذاری می‌شوند؟"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "خودکارسازی استخراج در $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "خودکارسازی در $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "مدیریت تشخیص ربات"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "در حال بررسی اسکرول بی‌نهایت"
+   },
+   "wizard_columnName": {
+      "message": "نام ستون"
+   },
+   "wizard_continueButton": {
+      "message": "ادامه"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "انتخابگرهای $css$ قابل‌تنظیم",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "ناوبری قابل‌تنظیم سایت"
+   },
+   "wizard_dataExtractionError": {
+      "message": "هنگام استخراج داده از این صفحه خطایی رخ داد. مشکل گزارش شده است. بعداً دوباره تلاش کنید."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "$1 نقطهٔ داده در صفحه یافت شد",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "۱ نقطهٔ داده در صفحه یافت شد"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "غیرفعال‌سازی اسکرول بی‌نهایت"
+   },
+   "wizard_disablePagination": {
+      "message": "غیرفعال‌سازی صفحه‌بندی"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "آیا این صفحه صفحه‌بندی دارد؟"
+   },
+   "wizard_doneSelecting": {
+      "message": "پایان انتخاب"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "فعال‌سازی اسکرول بی‌نهایت"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "فعال‌سازی پیمایش به صفحات آیتم و استخراج داده از هر صفحه."
+   },
+   "wizard_errorTitle": {
+      "message": "خطا"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "خروجی به $dropbox$، $googleDrive$، $s3$، ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "جمع‌آوری دادهٔ صفحه $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "ارائه بازخورد"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "رفتن به سازندهٔ $sitemap$ پیشرفته",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "نظر شما چیست؟"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "تجربهٔ شما از اسکرپینگ چگونه بود؟"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "$1 پیوند صفحهٔ آیتم انتخاب شد",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "۱ پیوند صفحهٔ آیتم انتخاب شد"
+   },
+   "wizard_link": {
+      "message": "پیوند"
+   },
+   "wizard_loadMore": {
+      "message": "بارگذاری بیشتر"
+   },
+   "wizard_loadingPage": {
+      "message": "در حال بارگذاری صفحه..."
+   },
+   "wizard_loginFeature": {
+      "message": "قابلیت $logIn$",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "حذف، افزودن یا تغییر نام ستون‌ها پیش از استخراج"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "استخراج‌کننده‌های دادهٔ بیشتر"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "$1 رکورد استخراج شد",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "در حال پیمایش صفحه‌بندی برای یافتن پیوندهای صفحهٔ آیتم."
+   },
+   "wizard_nextPage": {
+      "message": "صفحهٔ بعد"
+   },
+   "wizard_noDataFound": {
+      "message": "داده‌ای یافت نشد"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "هیچ رکوردی استخراج نشد. مراحل قبلی را بررسی کنید یا دوباره تلاش کنید."
+   },
+   "wizard_numberedPages": {
+      "message": "صفحات شماره‌دار: برای انتخاب همه روی چند دکمه کلیک کنید"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "فقط در یک زبانه کار می‌کند."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "برای باز کردن ابزارهای توسعه‌دهنده، $shortcut1$ یا $shortcut2$ را فشار دهید.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "برای باز کردن ابزارهای توسعه‌دهنده، $shortcut$ را فشار دهید.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "باز کردن ابزارهای توسعه‌دهندهٔ مرورگر"
+   },
+   "wizard_paginationDetected": {
+      "message": "صفحه‌بندی شناسایی شد. پیکربندی را در مرحلهٔ بعد مدیریت کنید."
+   },
+   "wizard_paginationEnabled": {
+      "message": "صفحه‌بندی فعال است"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "لطفاً برای افزونه در فروشگاه وب مرورگر نظر ثبت کنید!"
+   },
+   "wizard_rateUs": {
+      "message": "به ما امتیاز دهید"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "$1 رکورد استخراج شد، نمایش $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "بازتولید"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "استخراج مجدد"
+   },
+   "wizard_reselect": {
+      "message": "انتخاب مجدد"
+   },
+   "wizard_retry": {
+      "message": "تلاش مجدد"
+   },
+   "wizard_scheduler": {
+      "message": "زمان‌بند"
+   },
+   "wizard_scrapeThePage": {
+      "message": "استخراج داده از صفحه"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "پیکربندی استخراج‌گر آماده است"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "در حال استخراج داده. ($1 رکورد استخراج شد)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "در حال استخراج داده."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "در حال استخراج داده. (۱ رکورد استخراج شد)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "در حال استخراج داده. ($1 رکورد استخراج شد، نمایش $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "اسکرول فعال است"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "حداقل دو پیوند لازم است."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "نقاط داده را به‌صورت دستی انتخاب کنید"
+   },
+   "wizard_selectLink": {
+      "message": "انتخاب پیوند"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "انتخاب دکمهٔ صفحهٔ بعد"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "دکمهٔ صفحه‌بندی را انتخاب کنید. انواع رایج عبارت‌اند از:"
+   },
+   "wizard_sendFeedback": {
+      "message": "ارسال بازخورد"
+   },
+   "wizard_showMe": {
+      "message": "نمایش بده"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "نمایش $1 از $2 رکورد",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "نمایش $1 رکورد",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "نمایش ۱ رکورد"
+   },
+   "wizard_signUp": {
+      "message": "ثبت‌نام"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "۱ رکورد استخراج شد"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ در سازندهٔ $sitemap2$ پیشرفته ذخیره شد",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "رد شدن"
+   },
+   "wizard_stepDataSetup": {
+      "message": "پیکربندی داده"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "بازخورد و اسکرپینگ پیشرفته"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "دنبال کردن پیوندهای آیتم"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "پیکربندی دادهٔ صفحهٔ آیتم"
+   },
+   "wizard_stepPagination": {
+      "message": "صفحه‌بندی و اسکرول"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "همگام‌سازی و اجرای $sitemaps$ $webScraper$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "از بازخورد شما سپاسگزاریم!"
+   },
+   "wizard_title": {
+      "message": "عنوان"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "دوباره انتخاب کنید"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "همهٔ نظرات برای بهبود تجربهٔ کاربری بررسی می‌شوند."
+   },
+   "wizard_yourFeedback": {
+      "message": "بازخورد شما"
+   }
+}

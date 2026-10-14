@@ -1,0 +1,1672 @@
+{
+	"extName": {
+		"message": "$webScraper$ - ఉచిత వెబ్ స్క్రాపింగ్",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"extNameDev": {
+		"message": "$webScraperDev$ - ఉచిత వెబ్ స్క్రాపింగ్",
+		"placeholders": {
+			"webScraperDev": {
+				"content": "Web Scraper Dev"
+			}
+		}
+	},
+	"extDesc": {
+		"message": "ఆధునిక వెబ్ కోసం సులభమైన పాయింట్-అండ్-క్లిక్ ఇంటర్‌ఫేస్‌తో కూడిన వెబ్ డేటా సంగ్రహణ సాధనం"
+	},
+	"common_actions": {
+		"message": "చర్యలు"
+	},
+	"common_createSitemap": {
+		"message": "$sitemap$ని సృష్టించండి",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_id": {
+		"message": "ఐడి"
+	},
+	"common_importSitemap": {
+		"message": "$sitemap$ను దిగుమతి చేయండి",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"common_learnMore": {
+		"message": "మరింత తెలుసుకోండి",
+		"labels": [
+			"button"
+		]
+	},
+	"common_multiple": {
+		"message": "బహుళ"
+	},
+	"common_noDataScrapedYet": {
+		"message": "ఇంకా డేటా ఏదీ సేకరించబడలేదు"
+	},
+	"common_scrape": {
+		"message": "గీకండి",
+		"description": "Button label for starting the scraping process",
+		"labels": [
+			"button"
+		]
+	},
+	"common_selector": {
+		"message": "సెలెక్టర్"
+	},
+	"wizard_goToAdvancedSitemapBuilder": {
+		"message": "అధునాతన $sitemap$ బిల్డర్‌కు వెళ్లండి",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_moreDataExtractors": {
+		"message": "మరిన్ని డేటా ఎక్స్‌ట్రాక్టర్లు"
+	},
+	"wizard_customizableSiteNavigation": {
+		"message": "అనుకూలీకరించదగిన సైట్ నావిగేషన్"
+	},
+	"wizard_customizableCssSelectors": {
+		"message": "అనుకూలీకరించదగిన $css$ సెలెక్టర్లు",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"wizard_loginFeature": {
+		"message": "$logIn$ ఫీచర్",
+		"placeholders": {
+			"logIn": {
+				"content": "Log-in"
+			}
+		}
+	},
+	"wizard_andMore": {
+		"message": "ఇంకా మరిన్ని..."
+	},
+	"wizard_accessWizardSitemaps": {
+		"message": "యాక్సెస్ విజార్డ్ $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		}
+	},
+	"wizard_openDevtools_linuxWindows": {
+		"message": "డెవలపర్ టూల్స్‌ను తెరవడానికి $shortcut1$ లేదా $shortcut2$ నొక్కండి.",
+		"placeholders": {
+			"shortcut1": {
+				"content": "F12"
+			},
+			"shortcut2": {
+				"content": "Ctrl+Shift+I"
+			}
+		}
+	},
+	"wizard_openDevtools_macos": {
+		"message": "డెవలపర్ టూల్స్‌ను తెరవడానికి $shortcut$ నొక్కండి.",
+		"placeholders": {
+			"shortcut": {
+				"content": "Cmd+Opt+I"
+			}
+		}
+	},
+	"wizard_openDevtools_other": {
+		"message": "ఓపెన్ బ్రౌజర్ డెవలపర్ టూల్స్"
+	},
+	"wizard_showMe": {
+		"message": "నాకు చూపించు",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noDataFound": {
+		"message": "డేటా ఏదీ కనుగొనబడలేదు",
+		"description": "an alert message when no data selectors were created because no data was found on the page"
+	},
+	"wizard_columnName": {
+		"message": "కాలమ్ పేరు"
+	},
+	"wizard_title": {
+		"message": "శీర్షిక",
+		"description": "a column name in for link text when showing a table of links with link text and URL. Not a heading title"
+	},
+	"wizard_link": {
+		"message": "లింక్"
+	},
+	"wizard_analyzingPageContent": {
+		"message": "పేజీలోని కంటెంట్‌ను విశ్లేషిస్తోంది..."
+	},
+	"wizard_dataExtractionError": {
+		"message": "ఈ పేజీ నుండి డేటాను సంగ్రహించేటప్పుడు లోపం సంభవించింది. ఈ సమస్య నివేదించబడింది. దయచేసి తర్వాత మళ్ళీ ప్రయత్నించండి."
+	},
+	"wizard_showingLimitedRecords": {
+		"message": "$2 రికార్డులలో $1 చూపబడుతోంది",
+		"placeholders": {
+			"shown": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		},
+		"description": "all numbers are plurals, e.g. 'Showing 2 out of 3 records', etc."
+	},
+	"wizard_showingSingleRecord": {
+		"message": "1 రికార్డును చూపుతోంది"
+	},
+	"wizard_showingRecordsMultiple": {
+		"message": "$1 రికార్డులు చూపబడుతున్నాయి",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_dataPointsFoundSingle": {
+		"message": "పేజీలో 1 డేటా పాయింట్ కనుగొనబడింది"
+	},
+	"wizard_dataPointsFoundMultiple": {
+		"message": "పేజీలో $1 డేటా పాయింట్లు కనుగొనబడ్డాయి",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_loadingPage": {
+		"message": "పేజీ లోడ్ అవుతోంది..."
+	},
+	"wizard_modifyColumnsBeforeExtracting": {
+		"message": "సంగ్రహించే ముందు నిలువు వరుసలను తొలగించండి, జోడించండి లేదా పేరు మార్చండి"
+	},
+	"wizard_addMoreText": {
+		"message": "మరింత టెక్స్ట్ జోడించండి",
+		"description": "a button that allows to create more data selectors by clicking on data elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_addImages": {
+		"message": "చిత్రాలను జోడించండి",
+		"description": "a button that allows to create more data selectors by clicking on image elements within the page",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_retry": {
+		"message": "మళ్ళీ ప్రయత్నించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_regenerate": {
+		"message": "పునరుత్పత్తి",
+		"description": "A fixed width button that allows to re-generate the data extraction configuration. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_errorTitle": {
+		"message": "లోపం"
+	},
+	"wizard_scraperConfigurationReady": {
+		"message": "స్క్రాపర్ కాన్ఫిగరేషన్ సిద్ధంగా ఉంది"
+	},
+	"wizard_scrapeThePage": {
+		"message": "పేజీని స్క్రాప్ చేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_noRecordsScraped": {
+		"message": "రికార్డులు ఏవీ సేకరించబడలేదు. మునుపటి దశలను తనిఖీ చేయండి లేదా మళ్లీ ప్రయత్నించండి."
+	},
+	"wizard_rescrapeThePage": {
+		"message": "తిరిగి గీకండి",
+		"description": "A fixed width button that allows to run the scraping again. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_haveSomeThoughts": {
+		"message": "మీరు ఏమనుకుంటున్నారు?"
+	},
+	"wizard_giveFeedback": {
+		"message": "అభిప్రాయం ఇవ్వండి",
+		"description": "A button that opens feedback form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_yourFeedback": {
+		"message": "మీ అభిప్రాయం",
+		"description": "A label text in feedback form. It should be in singular form."
+	},
+	"wizard_sendFeedback": {
+		"message": "అభిప్రాయాన్ని పంపండి",
+		"description": "A button that sends a single feedback from form.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_sitemapSavedInAdvancedBuilder": {
+		"message": "అడ్వాన్స్‌డ్ $sitemap2$ బిల్డర్‌లో $sitemap$ సేవ్ చేయబడింది",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"sitemap2": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"wizard_reselect": {
+		"message": "తిరిగి ఎంచుకోండి",
+		"description": "A fixed width button that allows to re-select the links with selector tool. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_itemPageLinksSingle": {
+		"message": "1 అంశం పేజీ లింక్ ఎంచుకోబడింది"
+	},
+	"wizard_itemPageLinksMultiple": {
+		"message": "$1 ఐటమ్ పేజీ లింక్‌లు ఎంపిక చేయబడ్డాయి",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_selectAtLeastTwoLinks": {
+		"message": "కనీసం రెండు లింకులు అవసరం."
+	},
+	"wizard_trySelectingAgain": {
+		"message": "మళ్ళీ ఎంచుకోవడానికి ప్రయత్నించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_howWasYourScrapingExperience": {
+		"message": "మీ స్క్రాపింగ్ అనుభవం ఎలా ఉంది?"
+	},
+	"wizard_automateExtractionInCloud": {
+		"message": "$webScraperCloud$లో సంగ్రహణను స్వయంచాలకం చేయండి",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"wizard_exportToDropboxGoogleDriveS3": {
+		"message": "$dropbox$, $googleDrive$, $s3$, ... లకు ఎగుమతి చేయండి",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googleDrive": {
+				"content": "Google Drive"
+			},
+			"s3": {
+				"content": "S3"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_botDetectionHandling": {
+		"message": "బాట్ గుర్తింపు నిర్వహణ",
+		"description": "Web Scraper Cloud Feature List. Cloud can extract data from websites that use bot detection mechanisms."
+	},
+	"wizard_syncAndRunSitemaps": {
+		"message": "సమకాలీకరించండి & అమలు చేయండి $webScraper$ $sitemaps$",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			},
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"description": "Web Scraper Cloud Feature List."
+	},
+	"wizard_signUp": {
+		"message": "నమోదు చేసుకోండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scheduler": {
+		"message": "షెడ్యూలర్"
+	},
+	"wizard_stepPagination": {
+		"message": "పేజీల విభజన & స్క్రోల్"
+	},
+	"wizard_stepDataSetup": {
+		"message": "డేటా సెటప్"
+	},
+	"wizard_continueButton": {
+		"message": "కొనసాగించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_doesPageHavePagination": {
+		"message": "ఈ పేజీలో పేజీల విభజన ఉందా?"
+	},
+	"wizard_paginationEnabled": {
+		"message": "పేజీల విభజన ప్రారంభించబడింది"
+	},
+	"wizard_selectNextPageButton": {
+		"message": "తదుపరి పేజీ బటన్‌ను ఎంచుకోండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disablePagination": {
+		"message": "పేజీకరణను నిలిపివేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_selectPaginationButtonKind": {
+		"message": "పేజినేషన్ బటన్‌ను ఎంచుకోండి. సాధారణ రకాలు:"
+	},
+	"wizard_nextPage": {
+		"message": "తదుపరి పేజీ"
+	},
+	"wizard_loadMore": {
+		"message": "మరిన్ని లోడ్ చేయండి"
+	},
+	"wizard_numberedPages": {
+		"message": "సంఖ్యలతో కూడిన పేజీలు: అన్నింటినీ ఎంచుకోవడానికి అనేక బటన్లపై క్లిక్ చేయండి"
+	},
+	"wizard_areMoreItemsLoadedAfterScrolling": {
+		"message": "స్క్రోల్ చేసిన తర్వాత మరిన్ని అంశాలు లోడ్ అవుతాయా?"
+	},
+	"wizard_checkingInfiniteScroll": {
+		"message": "అనంతమైన స్క్రోల్‌ను తనిఖీ చేస్తోంది"
+	},
+	"wizard_scrollingEnabled": {
+		"message": "స్క్రోలింగ్ ప్రారంభించబడింది"
+	},
+	"wizard_enableInfiniteScroll": {
+		"message": "అనంతమైన స్క్రోల్‌ను ప్రారంభించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_disableInfiniteScroll": {
+		"message": "అనంతమైన స్క్రోల్‌ను నిలిపివేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_scrapingInProgressNoRecord": {
+		"message": "గీకే ప్రక్రియ జరుగుతోంది."
+	},
+	"wizard_scrapingInProgressSingleRecord": {
+		"message": "స్క్రాపింగ్ జరుగుతోంది. (1 రికార్డు స్క్రాప్ చేయబడింది)"
+	},
+	"wizard_scrapingInProgressMultipleRecords": {
+		"message": "స్క్రాపింగ్ జరుగుతోంది. ($1 రికార్డులు స్క్రాప్ చేయబడ్డాయి)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_scrapingInProgressWithLimit": {
+		"message": "స్క్రాపింగ్ జరుగుతోంది. ($1 రికార్డులు స్క్రాప్ చేయబడ్డాయి, $2 చూపబడుతోంది)",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_singleRecordScraped": {
+		"message": "1 రికార్డు స్క్రాప్ చేయబడింది"
+	},
+	"wizard_multipleRecordsScraped": {
+		"message": "$1 రికార్డులు స్క్రాప్ చేయబడ్డాయి",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			}
+		}
+	},
+	"wizard_recordsScrapedWithLimit": {
+		"message": "$1 రికార్డులు స్క్రాప్ చేయబడ్డాయి, $2 చూపిస్తోంది",
+		"placeholders": {
+			"total": {
+				"content": "$1"
+			},
+			"limit": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_thankYouForFeedback": {
+		"message": "మీ అభిప్రాయానికి ధన్యవాదాలు!"
+	},
+	"wizard_pleaseReviewExtension": {
+		"message": "దయచేసి బ్రౌజర్ వెబ్‌స్టోర్‌లో ఎక్స్‌టెన్షన్‌ను సమీక్షించండి!"
+	},
+	"wizard_rateUs": {
+		"message": "మాకు రేటింగ్ ఇవ్వండి"
+	},
+	"wizard_weInspectAllReviews": {
+		"message": "వినియోగదారు అనుభవాన్ని మెరుగుపరచడానికి అన్ని సమీక్షలు తనిఖీ చేయబడతాయి."
+	},
+	"wizard_enableNavigationToItemPages": {
+		"message": "ఐటమ్ పేజీలకు నావిగేషన్‌ను మరియు ప్రతి పేజీ నుండి డేటా సంగ్రహణను ప్రారంభించండి."
+	},
+	"wizard_selectLink": {
+		"message": "లింక్‌ను ఎంచుకోండి",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_gatheringPageData": {
+		"message": "పేజీ డేటాను సేకరిస్తోంది $1 / $2",
+		"placeholders": {
+			"current": {
+				"content": "$1"
+			},
+			"total": {
+				"content": "$2"
+			}
+		}
+	},
+	"wizard_analyzingUrlsWithAi": {
+		"message": "AIతో $1 URLలను విశ్లేషించడం (సగటు నిరీక్షణ $waitTime$s)",
+		"placeholders": {
+			"count": {
+				"content": "$1"
+			},
+			"waitTime": {
+				"content": "15-30"
+			}
+		}
+	},
+	"wizard_stepFollowItemLinks": {
+		"message": "ఐటమ్ లింక్‌లను అనుసరించండి"
+	},
+	"wizard_stepFeedbackAndAdvancedScraping": {
+		"message": "ఫీడ్‌బ్యాక్ & అధునాతన స్క్రాపింగ్"
+	},
+	"wizard_stepItemPageDataSetup": {
+		"message": "అంశం పేజీ డేటా సెటప్"
+	},
+	"wizard_doneSelecting": {
+		"message": "ఎంపిక పూర్తయింది",
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_automateInCloud": {
+		"message": "$cloud$లో ఆటోమేట్ చేయండి",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"wizard_paginationDetected": {
+		"message": "పేజీల విభజన గుర్తించబడింది. తదుపరి దశలో కాన్ఫిగరేషన్‌ను నిర్వహించండి."
+	},
+	"wizard_onlyWorksInOneTab": {
+		"message": "ఒకే ట్యాబ్‌లో మాత్రమే పనిచేస్తుంది."
+	},
+	"create_sitemap_sitemapName": {
+		"message": "$sitemap$ పేరు",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_startURL": {
+		"message": "ప్రారంభ URL"
+	},
+	"create_sitemap_startURLPlaceholder": {
+		"message": "URL"
+	},
+	"button_saveSitemap": {
+		"message": "$sitemap$ను సేవ్ చేయండి",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"create_sitemap_warningValidUrl": {
+		"message": "$1 అనేది చెల్లుబాటు అయ్యే URL కాదు",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importSitemapJSON": {
+		"message": "$sitemap$ $json$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapRequired": {
+		"message": "$sitemap$ $json$ తప్పనిసరి మరియు ఖాళీగా ఉండకూడదు",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidJson": {
+		"message": "చెల్లని $json$",
+		"placeholders": {
+			"json": {
+				"content": "JSON"
+			}
+		}
+	},
+	"create_sitemap_importWarningKeyMissing": {
+		"message": "$sitemap$ కీ లేదు - $1",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningTooManyURLs": {
+		"message": "$1 సంఖ్య $2 ను మించకూడదు",
+		"placeholders": {
+			"item": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdRequired": {
+		"message": "$1 తప్పనిసరి మరియు ఖాళీగా ఉండకూడదు",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooShort": {
+		"message": "$1 కనీసం $2 అక్షరాల పొడవు ఉండాలి",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningIdTooLong": {
+		"message": "$1 యొక్క గరిష్ట పొడవు $2 అక్షరాలు",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			},
+			"count": {
+				"content": "$2"
+			}
+		}
+	},
+	"create_sitemap_importWarningInvalidCharacters": {
+		"message": "అక్షరాలు, అంకెలు $digits$ లేదా $allowedCharacters$ లోని ఏవైనా అక్షరాలు మాత్రమే అనుమతించబడతాయి",
+		"placeholders": {
+			"digits": {
+				"content": "(0-9)"
+			},
+			"allowedCharacters": {
+				"content": "_, (, ), +, -"
+			}
+		}
+	},
+	"create_sitemap_importWarningSitemapIdExists": {
+		"message": "ఈ ఐడితో $sitemap$ ఇప్పటికే ఉంది",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"create_sitemap_importWarningMustBeArray": {
+		"message": "$1 ఒక శ్రేణి అయి ఉండాలి",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningStartURLRequired": {
+		"message": "$1 తప్పనిసరి మరియు ఖాళీగా ఉండకూడదు. కనీసం ఒకదాన్ని ఎంచుకోవాలి.",
+		"placeholders": {
+			"id": {
+				"content": "$1"
+			}
+		}
+	},
+	"create_sitemap_importWarningUniqueKeys": {
+		"message": "$sitemap$లో _id, startUrl, websiteStateSetup, selectors, hashHistory అనే ప్రత్యేకమైన కీలు మాత్రమే అనుమతించబడతాయి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_searchPlaceholder": {
+		"message": "ఫిల్టర్ $sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "sitemaps"
+			}
+		}
+	},
+	"sitemaps_tableDomain": {
+		"message": "డొమైన్"
+	},
+	"sitemaps_tableUploadToCloud": {
+		"message": "$cloud$ కు అప్‌లోడ్ చేయండి",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableDownloadFromCloud": {
+		"message": "$cloud$ నుండి డౌన్‌లోడ్ చేసుకోండి",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellNotSyncedIcon": {
+		"message": "$sitemap$ సింక్ చేయబడలేదు",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedIcon": {
+		"message": "$sitemap$ సమకాలీకరించబడింది",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedCloudIcon": {
+		"message": "$sitemap$ కేవలం $cloud$ లో మాత్రమే ఉంది",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellSyncedLocalIcon": {
+		"message": "$sitemap$ అనేది ఎక్స్‌టెన్షన్‌లో మాత్రమే ఉంటుంది",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		}
+	},
+	"button_overwrite": {
+		"message": "తిరిగి వ్రాయండి",
+		"description": "A button that allows to overwrite the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+		"message": "తాజా $sitemap$ వెర్షన్‌ను నిర్ధారించలేము. $cloud$ ఖాతాలోని $sitemap$ను ఈ $sitemap$ వెర్షన్‌తో ఓవర్‌రైట్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+		"message": "తాజా $sitemap$ వెర్షన్‌ను నిర్ధారించలేము. ఈ $sitemap$ను $cloud$ ఖాతాలోని వెర్షన్‌తో ఓవర్‌రైట్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellOverwriteCloudUploadHover": {
+		"message": "తాజా $sitemap$ వెర్షన్ $cloud$ ఖాతాలో ఉంది. $cloud$ ఖాతాలోని $sitemap$ను ఈ $sitemap$ వెర్షన్‌తో ఓవర్‌రైట్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellLocalOverwriteHover": {
+		"message": "ఇది తాజా $sitemap$ వెర్షన్. ఈ $sitemap$ని $cloud$ ఖాతాలోని వెర్షన్‌తో ఓవర్‌రైట్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_update": {
+		"message": "నవీకరణ",
+		"description": "A button that allows to update the sitemap in the Cloud with the one from local storage. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUpdateCloudHover": {
+		"message": "తాజా $sitemap$ వెర్షన్ $cloud$ ఖాతాలో ఉంది. $cloud$ ఖాతాలోని వెర్షన్‌కు సరిపోయేలా ఈ $sitemap$ను అప్‌డేట్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_tableCellUpdateLocalHover": {
+		"message": "ఇది తాజా $sitemap$ వెర్షన్. $cloud$ ఖాతాలోని $sitemap$ను ఈ $sitemap$ వెర్షన్‌తో అప్‌డేట్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_download": {
+		"message": "డౌన్‌లోడ్",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellDownloadHover": {
+		"message": "ఈ $sitemap$ కేవలం $cloud$ ఖాతాలో మాత్రమే ఉంది. సవరించడానికి $cloud$ ఖాతా నుండి $sitemap$ను డౌన్‌లోడ్ చేసుకోండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_upload": {
+		"message": "అప్‌లోడ్ చేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_deleteLocally": {
+		"message": "స్థానికంగా తొలగించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"sitemaps_tableCellUploadHover": {
+		"message": "ఈ $sitemap$ కేవలం ఎక్స్‌టెన్షన్ స్టోరేజ్‌లో మాత్రమే ఉంది. $sitemap$ను $cloud$ ఖాతాకు అప్‌లోడ్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+		"message": "$sitemap$ను తొలగించాలా?",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		}
+	},
+	"sitemaps_modalsDeleteSitemapConfirmationHeading": {
+		"message": "తొలగింపు నిర్ధారణ"
+	},
+	"button_cancel": {
+		"message": "రద్దు చేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_delete": {
+		"message": "తొలగించు",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_logout": {
+		"message": "లాగౌట్",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_signInToCloud": {
+		"message": "$cloud$ లోకి సైన్ ఇన్ చేయండి",
+		"placeholders": {
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemaps": {
+		"message": "$sitemaps$",
+		"placeholders": {
+			"sitemaps": {
+				"content": "Sitemaps"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_sitemap": {
+		"message": "$sitemap$",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_selectors": {
+		"message": "సెలెక్టర్లు",
+		"description": "Data extraction instruction selectors based on CSS Selectors.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_editMetadata": {
+		"message": "ప్రారంభ URLలు",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_websiteStateSetup": {
+		"message": "వెబ్‌సైట్ లాగిన్ / స్థితి సెటప్",
+		"description": "Website State Setup - a configuration view that allows to set up a predefined state of the website before data extraction starts. For example, it can be used to log in to the website or set up a specific filter on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_browse": {
+		"message": "స్క్రాప్ చేయబడిన డేటా",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportSitemap": {
+		"message": "$sitemap$ ఎగుమతి",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_exportData": {
+		"message": "డేటా ఎగుమతి",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createNewSitemap": {
+		"message": "కొత్త $sitemap$ని సృష్టించండి",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_createSitemapWizardAlpha": {
+		"message": "విజార్డ్‌తో $sitemap$ను సృష్టించండి",
+		"placeholders": {
+			"sitemap": {
+				"content": "Sitemap"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"nav_help": {
+		"message": "సహాయం",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_videoTutorials": {
+		"message": "వీడియో ట్యుటోరియల్స్",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_documentation": {
+		"message": "డాక్యుమెంటేషన్",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_testSites": {
+		"message": "పరీక్షా స్థలాలు",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_forum": {
+		"message": "ఫోరమ్",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_upvoteFeatureIdeas": {
+		"message": "ఫీచర్ ఐడియాలకు అప్‌వోట్ చేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"nav_experimentalFeaturesEnabled": {
+		"message": "ప్రయోగాత్మక ఫీచర్లు ప్రారంభించబడ్డాయి",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_tableHeaderType": {
+		"message": "రకం"
+	},
+	"selectors_tableHeaderParentSelectors": {
+		"message": "పేరెంట్ సెలెక్టర్లు",
+		"description": "A scraper could be configured like\n  this <product links selector> -> [<title selector>, <price selector>]. In this\n  case, the product links selector is a parent selector and title and price\n  selectors are child selectors. The parent selector is used to extract the\n  links to item pages and then the child selectors are used to extract data from\n  those item pages."
+	},
+	"button_addNewSelector": {
+		"message": "కొత్త సెలెక్టర్‌ను సృష్టించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_generateSelectorsWithAi": {
+		"message": "AIతో సెలెక్టర్లను రూపొందించండి:"
+	},
+	"button_listingPage": {
+		"message": "జాబితా పేజీ",
+		"description": "Listing - A website page with a list of records - for example product listing page or a data table.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_singleItemPage": {
+		"message": "ఒకే అంశం పేజీ",
+		"labels": [
+			"button"
+		]
+	},
+	"selectors_deleteSelectorConfirmation": {
+		"message": "$1 సెలెక్టర్‌ను తొలగించాలా?",
+		"placeholders": {
+			"selectorId": {
+				"content": "$1"
+			}
+		}
+	},
+	"nav_moveDevToolsToBottom": {
+		"message": "$webScraper$ను ఉపయోగించడం ప్రారంభించడానికి డెవలపర్ టూల్స్‌ను బ్రౌజర్ దిగువకు తరలించండి.",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"data_preview_Title": {
+		"message": "డేటా ప్రివ్యూ"
+	},
+	"data_preview_noDataExtracted": {
+		"message": "ఇంకా డేటా ఏదీ సేకరించబడలేదు."
+	},
+	"cloud_auth_reloadMessage": {
+		"message": "ఎక్స్టెన్షన్‌ను $cloud$ ఖాతాకు కనెక్ట్ చేసిన తర్వాత, $sitemap$ జాబితాను రీలోడ్ చేయండి.",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		}
+	},
+	"button_reload": {
+		"message": "రీలోడ్",
+		"labels": [
+			"button"
+		]
+	},
+	"button_close": {
+		"message": "మూసివేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_attributeName": {
+		"message": "లక్షణం పేరు"
+	},
+	"edit_selector_clickToViewAvailableAttributes": {
+		"message": "అందుబాటులో ఉన్న లక్షణాలను వీక్షించడానికి క్లిక్ చేయండి"
+	},
+	"edit_selector_tableColumns": {
+		"message": "పట్టిక నిలువు వరుసలు"
+	},
+	"edit_selector_column": {
+		"message": "కాలమ్"
+	},
+	"edit_selector_resultKey": {
+		"message": "ఫలిత కీ"
+	},
+	"edit_selector_includeIntoResult": {
+		"message": "ఫలితంలో చేర్చండి"
+	},
+	"button_dataPreview": {
+		"message": "డేటా ప్రివ్యూ",
+		"labels": [
+			"button"
+		]
+	},
+	"button_uploadToCloud": {
+		"message": "$sitemap$ ను $cloud$ కు అప్‌లోడ్ చేయండి",
+		"placeholders": {
+			"sitemap": {
+				"content": "sitemap"
+			},
+			"cloud": {
+				"content": "Cloud"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"button_sendTrainingData": {
+		"message": "శిక్షణ డేటాను పంపండి",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_labelScrollElement": {
+		"message": "స్క్రోల్ ఎలిమెంట్",
+		"description": "Scroll element - an element that will be automatically scrolled to the bottom during data extraction. It is used for websites with infinite scrolling, where new data is loaded when the user scrolls to the bottom of the page."
+	},
+	"edit_selector_labelScrollOnlyIfMissing": {
+		"message": "కనిపించకపోతే మాత్రమే స్క్రోల్ చేయండి"
+	},
+	"edit_selector_labelScrollToElement": {
+		"message": "మూలకానికి స్క్రోల్ చేయండి"
+	},
+	"edit_selector_labelClickSelector": {
+		"message": "క్లిక్ సెలెక్టర్"
+	},
+	"edit_selector_labelHeaderRowSelector": {
+		"message": "హెడర్ వరుస సెలెక్టర్"
+	},
+	"edit_selector_labelDataRowsSelector": {
+		"message": "డేటా వరుసల సెలెక్టర్"
+	},
+	"edit_selector_labelPerformWhenNotFoundSelector": {
+		"message": "సెలెక్టర్ కనుగొనబడనప్పుడు నిర్వహించండి"
+	},
+	"button_select": {
+		"message": "ఎంచుకోండి",
+		"description": "Select - A button that allows to select an element on the page by clicking on it. Should be a single word if possible.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_elementPreview": {
+		"message": "మూలకం ప్రివ్యూ",
+		"description": "Element preview - A button that allows to preview the selected element or elements on the page.",
+		"labels": [
+			"button"
+		]
+	},
+	"button_closePreview": {
+		"message": "ప్రివ్యూను మూసివేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_saveSelector": {
+		"message": "సేవ్ సెలెక్టర్",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_scroll": {
+		"message": "స్క్రోల్",
+		"description": "Form input title"
+	},
+	"edit_selector_elementLimit": {
+		"message": "మూలకం పరిమితి",
+		"description": "Form input title"
+	},
+	"edit_selector_unlimited": {
+		"message": "అపరిమిత",
+		"description": "Form input title"
+	},
+	"edit_selector_regex": {
+		"message": "రెగెక్స్",
+		"description": "Form input title"
+	},
+	"edit_selector_foundUrlRegex": {
+		"message": "URL కనుగొనబడింది $regex$",
+		"placeholders": {
+			"regex": {
+				"content": "Regex"
+			}
+		},
+		"description": "Form input title"
+	},
+	"edit_selector_minimumPriority": {
+		"message": "కనీస ప్రాధాన్యత",
+		"description": "Form input title"
+	},
+	"edit_selector_delay": {
+		"message": "ఆలస్యం (మిల్లీసెకన్లు)",
+		"description": "Form input title. How much time (in milliseconds) to wait before executing action"
+	},
+	"edit_selector_columnCount": {
+		"message": "కాలమ్ గణన",
+		"description": "Form input title"
+	},
+	"edit_selector_multipleType": {
+		"message": "బహుళ రకం",
+		"description": "Form input title. A dropdown with types - First record only, Multiple Records in One Column, Multiple Records in Multiple Columns"
+	},
+	"edit_selector_firstRecordOnly": {
+		"message": "మొదటి రికార్డు మాత్రమే"
+	},
+	"edit_selector_multipleRecordsInMultipleColumns": {
+		"message": "బహుళ నిలువు వరుసలలో బహుళ రికార్డులు"
+	},
+	"edit_selector_multipleRecordsInOneColumn": {
+		"message": "ఒకే కాలమ్‌లో బహుళ రికార్డులు"
+	},
+	"edit_selector_parentSelectors": {
+		"message": "పేరెంట్ సెలెక్టర్లు",
+		"description": "Form input title"
+	},
+	"button_performAction": {
+		"message": "చర్యను నిర్వహించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_script": {
+		"message": "స్క్రిప్ట్",
+		"description": "Form input title"
+	},
+	"edit_selector_returnedDataColumns": {
+		"message": "తిరిగి వచ్చిన డేటా కాలమ్‌లు"
+	},
+	"edit_selector_columnName": {
+		"message": "కాలమ్ పేరు"
+	},
+	"edit_selector_isUrlOnlyOne": {
+		"message": "URL (ఒకే ఒకటి)"
+	},
+	"button_remove": {
+		"message": "తొలగించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addColumn": {
+		"message": "కాలమ్‌ను జోడించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_clickType": {
+		"message": "క్లిక్ రకం",
+		"description": "Form input title. A dropdown to choose between click types"
+	},
+	"edit_selector_paginationType": {
+		"message": "పేజీకరణ రకం",
+		"description": "Form input title"
+	},
+	"edit_selector_clickElementUniqueness": {
+		"message": "క్లిక్ మూలకం ప్రత్యేకత",
+		"description": "Form input title"
+	},
+	"edit_selector_linkType": {
+		"message": "లింక్ రకం",
+		"description": "Form input title"
+	},
+	"edit_selector_discardInitialElements": {
+		"message": "ప్రారంభ మూలకాలను విస్మరించండి",
+		"description": "Form input title"
+	},
+	"edit_selector_paginationTypeAuto": {
+		"message": "ఆటో"
+	},
+	"edit_selector_paginationTypeLinkFromHref": {
+		"message": "లింక్ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"https://example.com/\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInlineScript": {
+		"message": "స్క్రిప్ట్ చేయబడిన లింక్ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a href=\"javascript:window.location='https://example.com'\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromAttributes": {
+		"message": "లక్షణ లింక్ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a data-link=\"https://example.com\">"
+			}
+		}
+	},
+	"edit_selector_paginationTypeLinkFromInnerText": {
+		"message": "టెక్స్ట్ లింక్ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<div>link: https://example.com/</div>"
+			}
+		}
+	},
+	"edit_selector_paginationTypeClickMore": {
+		"message": "తదుపరి/మరిన్ని బటన్‌పై ([తదుపరి పేజీ] [మరిన్ని లోడ్ చేయండి]) చాలాసార్లు క్లిక్ చేయండి"
+	},
+	"edit_selector_paginationTypeClickOnce": {
+		"message": "బహుళ బటన్లపై ఒక్కసారి క్లిక్ చేయండి ([1] [2], [3])"
+	},
+	"edit_selector_linkFromRedirect": {
+		"message": "ఏదైనా స్క్రిప్ట్ నుండి లింక్ చేయండి ($scriptExample1$, $scriptExample2$)",
+		"placeholders": {
+			"scriptExample1": {
+				"content": "window.location="
+			},
+			"scriptExample2": {
+				"content": "window.open"
+			}
+		}
+	},
+	"edit_selector_clickTypeClickOnce": {
+		"message": "ఒకసారి క్లిక్ చేయండి (పేజీల విభజన, ట్యాబ్‌లు)"
+	},
+	"edit_selector_clickTypeClickMore": {
+		"message": "మరిన్నింటిపై క్లిక్ చేయండి (మరిన్ని ఎలిమెంట్లను లోడ్ చేయడానికి క్లిక్ చేయండి. ప్రత్యేకమైన టెక్స్ట్ కంటెంట్‌తో కొత్త ఎలిమెంట్లు ఏవీ కనుగొనబడనప్పుడు ఇది ఆగిపోతుంది.)"
+	},
+	"edit_selector_uniquenessUniqueText": {
+		"message": "ప్రత్యేకమైన వచనం"
+	},
+	"edit_selector_uniquenessUniqueHtmlText": {
+		"message": "ప్రత్యేకమైన $html$+టెక్స్ట్",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueHtml": {
+		"message": "ప్రత్యేకమైన $html$",
+		"placeholders": {
+			"html": {
+				"content": "HTML"
+			}
+		}
+	},
+	"edit_selector_uniquenessUniqueCssSelector": {
+		"message": "ప్రత్యేకమైన $css$ సెలెక్టర్",
+		"placeholders": {
+			"css": {
+				"content": "CSS"
+			}
+		}
+	},
+	"edit_selector_linkTypeLinkFromHref": {
+		"message": "లింక్ (href అట్రిబ్యూట్ నుండి చదవబడింది)"
+	},
+	"edit_selector_linkTypeLinkFromInnerText": {
+		"message": "టెక్స్ట్ (టెక్స్ట్ కంటెంట్‌ను లింక్‌గా ఉపయోగించండి)"
+	},
+	"edit_selector_linkTypeLinkFromAttributes": {
+		"message": "లక్షణం"
+	},
+	"edit_selector_linkTypeLinkFromInlineScript": {
+		"message": "అట్రిబ్యూట్‌లో స్క్రిప్ట్ చేయబడిన లింక్ ($htmlExample$)",
+		"placeholders": {
+			"htmlExample": {
+				"content": "<a onclick=\"window.location='example.com'\">"
+			}
+		}
+	},
+	"edit_selector_discardNever": {
+		"message": "ఎప్పుడూ విస్మరించవద్దు"
+	},
+	"edit_selector_discardWhenClickElementExists": {
+		"message": "క్లిక్ ఎలిమెంట్ ఉన్నప్పుడు విస్మరించండి"
+	},
+	"edit_selector_discardAlways": {
+		"message": "ఎల్లప్పుడూ విస్మరించండి"
+	},
+	"edit_selector_sitemapXmlUrls": {
+		"message": "$sitemapXml$ URLలు",
+		"placeholders": {
+			"sitemapXml": {
+				"content": "Sitemap.xml"
+			}
+		}
+	},
+	"button_addUrl": {
+		"message": "URL జోడించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addFromRobotsTxt": {
+		"message": "$robotstxt$ నుండి జోడించండి",
+		"placeholders": {
+			"robotstxt": {
+				"content": "robots.txt"
+			}
+		},
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_deprecatedFeature": {
+		"message": "ఈ ఫీచర్ వాడుకలో లేదు మరియు భవిష్యత్ విడుదలలలో పనిచేయదు."
+	},
+	"website_state_setup_enabled": {
+		"message": "ప్రారంభించబడింది",
+		"description": "Form input title"
+	},
+	"button_deleteWebsiteStateSetup": {
+		"message": "వెబ్‌సైట్ స్థితి సెటప్‌ను తొలగించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_addAction": {
+		"message": "చర్యను జోడించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_performActions": {
+		"message": "చర్యలను నిర్వహించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"button_save": {
+		"message": "సేవ్ చేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"website_state_setup_deleteConfirmation": {
+		"message": "వెబ్‌సైట్ స్థితి సెటప్‌ను తొలగించాలా?"
+	},
+	"website_state_setup_passwordPlaceholder": {
+		"message": "పాస్‌వర్డ్",
+		"description": "Form input title"
+	},
+	"website_state_setup_textPlaceholder": {
+		"message": "టెక్స్ట్",
+		"description": "Form input title"
+	},
+	"website_state_setup_durationPlaceholder": {
+		"message": "మిల్లీసెకన్లలో వ్యవధి",
+		"description": "Form input title"
+	},
+	"website_state_setup_actionOpenUrl": {
+		"message": "URL తెరవండి"
+	},
+	"website_state_setup_actionClick": {
+		"message": "క్లిక్ చేయండి"
+	},
+	"website_state_setup_actionSleep": {
+		"message": "నిద్ర (మి.సె.)"
+	},
+	"website_state_setup_actionTextInput": {
+		"message": "టెక్స్ట్ ఇన్‌పుట్"
+	},
+	"website_state_setup_actionPasswordInput": {
+		"message": "పాస్‌వర్డ్ ఇన్‌పుట్"
+	},
+	"website_state_setup_actionInput": {
+		"message": "ఇన్‌పుట్"
+	},
+	"button_loading": {
+		"message": "లోడ్ అవుతోంది...",
+		"labels": [
+			"button"
+		]
+	},
+	"button_startScraping": {
+		"message": "గీరడం ప్రారంభించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"scrape_emptyPasswordError": {
+		"message": "వెబ్‌సైట్ స్టేట్ సెటప్‌లోని పాస్‌వర్డ్ ఫీల్డ్ ఖాళీగా ఉంది."
+	},
+	"scrape_requestIntervalLabel": {
+		"message": "అభ్యర్థన విరామం (ms)"
+	},
+	"scrape_requestIntervalPlaceholder": {
+		"message": "అభ్యర్థన విరామం",
+		"description": "Form input title"
+	},
+	"scrape_pageLoadDelayLabel": {
+		"message": "పేజీ లోడ్ ఆలస్యం (మిల్లీసెకన్లు)"
+	},
+	"scrape_pageLoadDelayPlaceholder": {
+		"message": "పేజీ లోడ్ ఆలస్యం",
+		"description": "Form input title"
+	},
+	"browse_loading": {
+		"message": "లోడ్ అవుతోంది"
+	},
+	"button_refresh": {
+		"message": "రిఫ్రెష్",
+		"labels": [
+			"button"
+		]
+	},
+	"button_refreshData": {
+		"message": "డేటాను రిఫ్రెష్ చేయండి",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_helpUsImprove": {
+		"message": "$webScraper$ను మెరుగుపరచడంలో మాకు సహాయం చేయండి!",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"button_upvoteAndSubmit": {
+		"message": "అప్‌వోట్ చేయండి మరియు ఫీచర్ ఐడియాలను సమర్పించండి",
+		"labels": [
+			"button"
+		]
+	},
+	"browse_cloudAdHeading": {
+		"message": "$webScraperCloud$లో స్క్రాపింగ్‌ను ఆటోమేట్ చేయండి",
+		"placeholders": {
+			"webScraperCloud": {
+				"content": "Web Scraper Cloud"
+			}
+		}
+	},
+	"browse_cloudFeatureSchedule": {
+		"message": "డేటా సంగ్రహణను స్వయంచాలకంగా షెడ్యూల్ చేయండి"
+	},
+	"browse_cloudFeatureApi": {
+		"message": "API ద్వారా $webScraper$ని నిర్వహించండి",
+		"placeholders": {
+			"webScraper": {
+				"content": "Web Scraper"
+			}
+		}
+	},
+	"browse_cloudFeatureDropbox": {
+		"message": "$dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$ లకు ఆటోమేటిక్ ఎగుమతి",
+		"placeholders": {
+			"dropbox": {
+				"content": "Dropbox"
+			},
+			"googledrive": {
+				"content": "Google Drive"
+			},
+			"awss3": {
+				"content": "AWS S3"
+			},
+			"googlecloud": {
+				"content": "Google Cloud"
+			},
+			"azureblob": {
+				"content": "Azure Blob Storage"
+			}
+		}
+	},
+	"browse_cloudFeatureProxy": {
+		"message": "సైట్ యాక్సెస్ సమస్యల కోసం అంతర్నిర్మిత $proxy$",
+		"placeholders": {
+			"proxy": {
+				"content": "proxy"
+			}
+		}
+	},
+	"export_generatingFile": {
+		"message": "ఫైల్ సృష్టిస్తోంది"
+	},
+	"export_downloadAs": {
+		"message": "ఈ విధంగా డౌన్‌లోడ్ చేసుకోండి:"
+	},
+	"edit_selector_multipleYes": {
+		"message": "అవును"
+	},
+	"edit_selector_multipleNo": {
+		"message": "లేదు"
+	},
+	"button_edit": {
+		"message": "సవరించు",
+		"labels": [
+			"button"
+		]
+	},
+	"edit_selector_idPlaceholder": {
+		"message": "సెలెక్టర్ ఐడి",
+		"description": "Form input title"
+	},
+	"options_page_settings": {
+		"message": "సెట్టింగ్‌లు"
+	},
+	"options_page_metricGatheringDescription": {
+		"message": "ఎక్స్టెన్షన్ వినియోగ మెట్రిక్ సేకరణను అనుమతించండి. కేవలం సమగ్ర రూపంలో వ్యక్తిగతం కాని సమాచారం మాత్రమే సేకరించబడుతోంది. మరిన్ని వివరాలు"
+	},
+	"options_page_privacyPolicy": {
+		"message": "గోప్యతా విధానం"
+	},
+	"options_page_allowMetricGathering": {
+		"message": "వినియోగ కొలమాన సేకరణను అనుమతించండి"
+	},
+	"options_page_enableExperimentalFeatures": {
+		"message": "ప్రయోగాత్మక ఫీచర్‌లను ప్రారంభించండి"
+	},
+	"options_page_scrapingInNewTab": {
+		"message": "స్క్రాపింగ్ కొత్త ట్యాబ్‌లో ప్రారంభమవుతుంది. స్క్రాపింగ్ పూర్తయిన తర్వాత, ఈ విండో మూసివేయబడుతుంది."
+	},
+	"options_page_keepWorking": {
+		"message": "స్క్రాపింగ్ చేస్తున్నప్పుడు ఇతర పనులు కొనసాగించవచ్చు."
+	}
+}

@@ -1,0 +1,1585 @@
+{
+   "browse_cloudAdHeading": {
+      "message": "Automatizēt datu ieguvi $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "browse_cloudFeatureApi": {
+      "message": "Pārvaldīt $webScraper$, izmantojot API",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_cloudFeatureDropbox": {
+      "message": "Automātisks eksports uz $dropbox$, $googledrive$, $awss3$, $googlecloud$, $azureblob$",
+      "placeholders": {
+         "awss3": {
+            "content": "AWS S3"
+         },
+         "azureblob": {
+            "content": "Azure Blob Storage"
+         },
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googlecloud": {
+            "content": "Google Cloud"
+         },
+         "googledrive": {
+            "content": "Google Drive"
+         }
+      }
+   },
+   "browse_cloudFeatureProxy": {
+      "message": "Iebūvēts $proxy$ vietņu piekļuves problēmām",
+      "placeholders": {
+         "proxy": {
+            "content": "proxy"
+         }
+      }
+   },
+   "browse_cloudFeatureSchedule": {
+      "message": "Automātiski ieplānot datu ieguvi"
+   },
+   "browse_helpUsImprove": {
+      "message": "Palīdziet mums uzlabot $webScraper$!",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "browse_loading": {
+      "message": "Ielādē"
+   },
+   "button_addAction": {
+      "message": "Pievienot darbību"
+   },
+   "button_addColumn": {
+      "message": "Pievienot kolonnu"
+   },
+   "button_addFromRobotsTxt": {
+      "message": "Pievienot no $robotstxt$",
+      "placeholders": {
+         "robotstxt": {
+            "content": "robots.txt"
+         }
+      }
+   },
+   "button_addNewSelector": {
+      "message": "Izveidot jaunu selektoru"
+   },
+   "button_addUrl": {
+      "message": "Pievienot URL"
+   },
+   "button_cancel": {
+      "message": "Atcelt"
+   },
+   "button_close": {
+      "message": "Aizvērt"
+   },
+   "button_closePreview": {
+      "message": "Aizvērt priekšskatījumu"
+   },
+   "button_dataPreview": {
+      "message": "Datu priekšskatījums"
+   },
+   "button_delete": {
+      "message": "Dzēst"
+   },
+   "button_deleteLocally": {
+      "message": "Dzēst lokāli"
+   },
+   "button_deleteWebsiteStateSetup": {
+      "message": "Dzēst Vietnes stāvokļa iestatīšanu"
+   },
+   "button_download": {
+      "message": "Lejupielādēt"
+   },
+   "button_edit": {
+      "message": "Rediģēt"
+   },
+   "button_elementPreview": {
+      "message": "Elementa priekšskatījums"
+   },
+   "button_listingPage": {
+      "message": "Saraksta lapa"
+   },
+   "button_loading": {
+      "message": "Ielādē..."
+   },
+   "button_overwrite": {
+      "message": "Pārrakstīt"
+   },
+   "button_performAction": {
+      "message": "Veikt darbību"
+   },
+   "button_performActions": {
+      "message": "Veikt darbības"
+   },
+   "button_refresh": {
+      "message": "Atsvaidzināt"
+   },
+   "button_refreshData": {
+      "message": "Atsvaidzināt datus"
+   },
+   "button_reload": {
+      "message": "Atsvaidzināt"
+   },
+   "button_remove": {
+      "message": "Noņemt"
+   },
+   "button_save": {
+      "message": "Saglabāt"
+   },
+   "button_saveSelector": {
+      "message": "Saglabāt selektoru"
+   },
+   "button_saveSitemap": {
+      "message": "Saglabāt $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "button_select": {
+      "message": "Atlasīt"
+   },
+   "button_sendTrainingData": {
+      "message": "Sūtīt apmācības datus"
+   },
+   "button_singleItemPage": {
+      "message": "Viena vienuma lapa"
+   },
+   "button_startScraping": {
+      "message": "Sākt datu ieguvi"
+   },
+   "button_update": {
+      "message": "Atjaunināt"
+   },
+   "button_upload": {
+      "message": "Augšupielādēt"
+   },
+   "button_uploadToCloud": {
+      "message": "Augšupielādēt $sitemap$ uz $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "button_upvoteAndSubmit": {
+      "message": "Balsot un iesniegt funkciju idejas"
+   },
+   "cloud_auth_reloadMessage": {
+      "message": "Pēc paplašinājuma savienošanas ar $cloud$ kontu atsvaidziniet $sitemap$ sarakstu.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "common_actions": {
+      "message": "Darbības"
+   },
+   "common_createSitemap": {
+      "message": "Izveidot $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_error": {
+      "message": "Kļūda:"
+   },
+   "common_id": {
+      "message": "ID"
+   },
+   "common_importSitemap": {
+      "message": "Importēt $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "common_learnMore": {
+      "message": "Uzzināt vairāk"
+   },
+   "common_multiple": {
+      "message": "Vairāki"
+   },
+   "common_mustBeBetween": {
+      "message": "Laukam $1 jābūt no $2 līdz $3",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         },
+         "max": {
+            "content": "$3"
+         },
+         "min": {
+            "content": "$2"
+         }
+      }
+   },
+   "common_mustBeNumeric": {
+      "message": "Laukam $1 jābūt skaitliskam",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_noDataScrapedYet": {
+      "message": "Dati vēl nav iegūti"
+   },
+   "common_rangeShouldBeAscending": {
+      "message": "Diapazonam $1 jābūt augošam",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "common_scrape": {
+      "message": "Iegūt datus"
+   },
+   "common_selector": {
+      "message": "Selektors"
+   },
+   "common_unauthorizedReconnect": {
+      "message": "Nav autorizēts. Atkārtoti savienoties ar $cloud$.",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "common_valueMustBeUnique": {
+      "message": "Vērtībai jābūt unikālai."
+   },
+   "contentApp_clickToEnableHotkeys": {
+      "message": "Noklikšķiniet šeit, lai iespējotu īsinājumtaustiņus"
+   },
+   "contentApp_doneSelecting": {
+      "message": "Pabeigt atlasi"
+   },
+   "contentApp_parentDoesNotContainSelectedElement": {
+      "message": "Vecākelements nesatur atlasīto elementu"
+   },
+   "contentApp_parentElementNotFound": {
+      "message": "Vecākelements nav atrasts"
+   },
+   "contentApp_pressCToSelectChild": {
+      "message": "Nospiediet $key$, lai atlasītu bērnelementu",
+      "placeholders": {
+         "key": {
+            "content": "C"
+         }
+      }
+   },
+   "contentApp_pressPToSelectParent": {
+      "message": "Nospiediet $key$, lai atlasītu vecākelementu",
+      "placeholders": {
+         "key": {
+            "content": "P"
+         }
+      }
+   },
+   "contentApp_pressSToSelectHovered": {
+      "message": "Nospiediet $key$, lai atlasītu elementu zem kursora",
+      "placeholders": {
+         "key": {
+            "content": "S"
+         }
+      }
+   },
+   "contentApp_selectedElementCount": {
+      "message": "Atlasīto elementu skaits: $1",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importSitemapJSON": {
+      "message": "$sitemap$ $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdRequired": {
+      "message": "$1 ir obligāts un nevar būt tukšs",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooLong": {
+      "message": "Maksimālais $1 garums ir $2 rakstzīmes",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningIdTooShort": {
+      "message": "$1 jābūt vismaz $2 rakstzīmes garam",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidCharacters": {
+      "message": "Atļauti tikai burti, cipari $digits$ vai jebkura no rakstzīmēm $allowedCharacters$",
+      "placeholders": {
+         "allowedCharacters": {
+            "content": "_, (, ), +, -"
+         },
+         "digits": {
+            "content": "(0-9)"
+         }
+      }
+   },
+   "create_sitemap_importWarningInvalidJson": {
+      "message": "Nederīgs $json$",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         }
+      }
+   },
+   "create_sitemap_importWarningKeyMissing": {
+      "message": "Trūkst $sitemap$ atslēgas - $1",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningMustBeArray": {
+      "message": "$1 jābūt masīvam",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapIdExists": {
+      "message": "$sitemap$ ar šādu ID jau pastāv",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningSitemapRequired": {
+      "message": "$sitemap$ $json$ ir obligāts un nevar būt tukšs",
+      "placeholders": {
+         "json": {
+            "content": "JSON"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_importWarningStartURLRequired": {
+      "message": "$1 ir obligāts un nevar būt tukšs",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningTooManyURLs": {
+      "message": "$1 skaits nedrīkst pārsniegt $2",
+      "placeholders": {
+         "count": {
+            "content": "$2"
+         },
+         "item": {
+            "content": "$1"
+         }
+      }
+   },
+   "create_sitemap_importWarningUniqueKeys": {
+      "message": "$sitemap$ ietvaros ir atļautas tikai unikālas atslēgas _id, startUrl, websiteStateSetup, selectors, hashHistory",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "create_sitemap_sitemapName": {
+      "message": "$sitemap$ nosaukums",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "create_sitemap_startURL": {
+      "message": "Sākuma URL"
+   },
+   "create_sitemap_startURLPlaceholder": {
+      "message": "URL"
+   },
+   "create_sitemap_warningValidUrl": {
+      "message": "$1 nav derīgs URL",
+      "placeholders": {
+         "id": {
+            "content": "$1"
+         }
+      }
+   },
+   "data_preview_Title": {
+      "message": "Datu priekšskatījums"
+   },
+   "data_preview_noDataExtracted": {
+      "message": "Dati vēl nav iegūti."
+   },
+   "edit_selector_attributeName": {
+      "message": "Atribūta nosaukums"
+   },
+   "edit_selector_clickElementUniqueness": {
+      "message": "Klikšķa elementa unikalitāte"
+   },
+   "edit_selector_clickToViewAvailableAttributes": {
+      "message": "Klikšķiniet, lai skatītu pieejamos atribūtus"
+   },
+   "edit_selector_clickType": {
+      "message": "Klikšķa veids"
+   },
+   "edit_selector_clickTypeClickMore": {
+      "message": "Klikšķināt vēl (klikšķināt, lai ielādētu vairāk elementu. Apstājas, kad netiek atrasti jauni elementi ar unikālu teksta saturu.)"
+   },
+   "edit_selector_clickTypeClickOnce": {
+      "message": "Klikšķināt vienreiz (lapošana, cilnes)"
+   },
+   "edit_selector_column": {
+      "message": "Kolonna"
+   },
+   "edit_selector_columnCount": {
+      "message": "Kolonnu skaits"
+   },
+   "edit_selector_columnName": {
+      "message": "Kolonnas nosaukums"
+   },
+   "edit_selector_delay": {
+      "message": "Aizture (ms)"
+   },
+   "edit_selector_deprecatedFeature": {
+      "message": "Šī funkcija ir novecojusi un nedarbosies turpmākajās versijās."
+   },
+   "edit_selector_discardAlways": {
+      "message": "Vienmēr atmest"
+   },
+   "edit_selector_discardInitialElements": {
+      "message": "Atmest sākotnējos elementus"
+   },
+   "edit_selector_discardNever": {
+      "message": "Nekad neatmest"
+   },
+   "edit_selector_discardWhenClickElementExists": {
+      "message": "Atmest, kad pastāv klikšķa elements"
+   },
+   "edit_selector_elementLimit": {
+      "message": "Elementu ierobežojums"
+   },
+   "edit_selector_firstRecordOnly": {
+      "message": "Tikai pirmais ieraksts"
+   },
+   "edit_selector_foundUrlRegex": {
+      "message": "Atrasts URL $regex$",
+      "placeholders": {
+         "regex": {
+            "content": "Regex"
+         }
+      }
+   },
+   "edit_selector_idPlaceholder": {
+      "message": "Selektora ID"
+   },
+   "edit_selector_includeIntoResult": {
+      "message": "Iekļaut rezultātā"
+   },
+   "edit_selector_isUrlOnlyOne": {
+      "message": "Ir URL (tikai viens)"
+   },
+   "edit_selector_labelClickSelector": {
+      "message": "Klikšķa selektors"
+   },
+   "edit_selector_labelDataRowsSelector": {
+      "message": "Datu rindu selektors"
+   },
+   "edit_selector_labelHeaderRowSelector": {
+      "message": "Galvenes rindas selektors"
+   },
+   "edit_selector_labelPerformWhenNotFoundSelector": {
+      "message": "Izpildīt, ja selektors nav atrasts"
+   },
+   "edit_selector_labelScrollElement": {
+      "message": "Ritināšanas elements"
+   },
+   "edit_selector_labelScrollOnlyIfMissing": {
+      "message": "Ritināt tikai, ja trūkst"
+   },
+   "edit_selector_labelScrollToElement": {
+      "message": "Ritināt līdz elementam"
+   },
+   "edit_selector_linkFromRedirect": {
+      "message": "Saite no jebkura skripta ($scriptExample1$, $scriptExample2$)",
+      "placeholders": {
+         "scriptExample1": {
+            "content": "window.location="
+         },
+         "scriptExample2": {
+            "content": "window.open"
+         }
+      }
+   },
+   "edit_selector_linkType": {
+      "message": "Saites veids"
+   },
+   "edit_selector_linkTypeLinkFromAttributes": {
+      "message": "Atribūts"
+   },
+   "edit_selector_linkTypeLinkFromHref": {
+      "message": "Saite (nolasīt no href atribūta)"
+   },
+   "edit_selector_linkTypeLinkFromInlineScript": {
+      "message": "Skriptēta saite atribūtā ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca onclick=\"window.location='example.com'\">"
+         }
+      }
+   },
+   "edit_selector_linkTypeLinkFromInnerText": {
+      "message": "Teksts (izmantot teksta saturu kā saiti)"
+   },
+   "edit_selector_minimumPriority": {
+      "message": "Minimālā prioritāte"
+   },
+   "edit_selector_multipleNo": {
+      "message": "Nē"
+   },
+   "edit_selector_multipleRecordsInMultipleColumns": {
+      "message": "Vairāki ieraksti vairākās kolonnās"
+   },
+   "edit_selector_multipleRecordsInOneColumn": {
+      "message": "Vairāki ieraksti vienā kolonnā"
+   },
+   "edit_selector_multipleType": {
+      "message": "Vairāku ierakstu veids"
+   },
+   "edit_selector_multipleYes": {
+      "message": "Jā"
+   },
+   "edit_selector_paginationType": {
+      "message": "Lapošanas veids"
+   },
+   "edit_selector_paginationTypeAuto": {
+      "message": "Automātiski"
+   },
+   "edit_selector_paginationTypeClickMore": {
+      "message": "Vairākkārt klikšķināt nākamās/vēl pogu ([Nākamā lapa] [Ielādēt vairāk])"
+   },
+   "edit_selector_paginationTypeClickOnce": {
+      "message": "Vienreiz klikšķināt vairākas pogas ([1] [2], [3])"
+   },
+   "edit_selector_paginationTypeLinkFromAttributes": {
+      "message": "Atribūta saite ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca data-link=\"https://example.com\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromHref": {
+      "message": "Saite ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"https://example.com/\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInlineScript": {
+      "message": "Skriptēta saite ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Ca href=\"javascript:window.location='https://example.com'\">"
+         }
+      }
+   },
+   "edit_selector_paginationTypeLinkFromInnerText": {
+      "message": "Teksta saite ($htmlExample$)",
+      "placeholders": {
+         "htmlExample": {
+            "content": "\u003Cdiv>link: https://example.com/\u003C/div>"
+         }
+      }
+   },
+   "edit_selector_parentSelectors": {
+      "message": "Vecākselektori"
+   },
+   "edit_selector_regex": {
+      "message": "Regex"
+   },
+   "edit_selector_resultKey": {
+      "message": "Rezultāta atslēga"
+   },
+   "edit_selector_returnedDataColumns": {
+      "message": "Atgriezto datu kolonnas"
+   },
+   "edit_selector_script": {
+      "message": "Skripts"
+   },
+   "edit_selector_scroll": {
+      "message": "Ritināšana"
+   },
+   "edit_selector_selectorTypeActionClick": {
+      "message": "Klikšķa darbība"
+   },
+   "edit_selector_selectorTypeActionScrollDown": {
+      "message": "Lejupritināšanas darbība"
+   },
+   "edit_selector_selectorTypeElement": {
+      "message": "Elements (ritināšana)"
+   },
+   "edit_selector_selectorTypeElementAttribute": {
+      "message": "Elementa atribūts"
+   },
+   "edit_selector_selectorTypeElementClick": {
+      "message": "Elementa klikšķis"
+   },
+   "edit_selector_selectorTypeElementScroll": {
+      "message": "Elements ar ritināšanu lejup (novecojis)"
+   },
+   "edit_selector_selectorTypeGroup": {
+      "message": "Grupēts (novecojis)"
+   },
+   "edit_selector_selectorTypeHtml": {
+      "message": "HTML"
+   },
+   "edit_selector_selectorTypeImage": {
+      "message": "Attēls"
+   },
+   "edit_selector_selectorTypeLink": {
+      "message": "Saite"
+   },
+   "edit_selector_selectorTypeNetworkData": {
+      "message": "Tīkla dati"
+   },
+   "edit_selector_selectorTypePagination": {
+      "message": "Lapošana"
+   },
+   "edit_selector_selectorTypePopupLink": {
+      "message": "Uznirstošā loga saite (novecojis)"
+   },
+   "edit_selector_selectorTypeScriptData": {
+      "message": "Skripta dati"
+   },
+   "edit_selector_selectorTypeSitemapXmlLink": {
+      "message": "$sitemapXml$ saites",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_selectorTypeTable": {
+      "message": "Tabula"
+   },
+   "edit_selector_selectorTypeText": {
+      "message": "Teksts"
+   },
+   "edit_selector_sitemapXmlUrls": {
+      "message": "$sitemapXml$ URL",
+      "placeholders": {
+         "sitemapXml": {
+            "content": "Sitemap.xml"
+         }
+      }
+   },
+   "edit_selector_tableColumns": {
+      "message": "Tabulas kolonnas"
+   },
+   "edit_selector_type": {
+      "message": "Tips"
+   },
+   "edit_selector_uniquenessUniqueCssSelector": {
+      "message": "Unikāls $css$ selektors",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtml": {
+      "message": "Unikāls $html$",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueHtmlText": {
+      "message": "Unikāls $html$+teksts",
+      "placeholders": {
+         "html": {
+            "content": "HTML"
+         }
+      }
+   },
+   "edit_selector_uniquenessUniqueText": {
+      "message": "Unikāls teksts"
+   },
+   "edit_selector_unlimited": {
+      "message": "Neierobežots"
+   },
+   "export_downloadAs": {
+      "message": "Lejupielādēt kā:"
+   },
+   "export_generatingFile": {
+      "message": "Ģenerē failu"
+   },
+   "extDesc": {
+      "message": "Tīmekļa datu ieguves rīks ar ērtu, uz klikšķiem balstītu saskarni mūsdienīgam tīmeklim"
+   },
+   "extName": {
+      "message": "$webScraper$ - bezmaksas tīmekļa datu ieguve",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "extNameDev": {
+      "message": "$webScraperDev$ - bezmaksas tīmekļa datu ieguve",
+      "placeholders": {
+         "webScraperDev": {
+            "content": "Web Scraper Dev"
+         }
+      }
+   },
+   "nav_browse": {
+      "message": "Iegūtie dati"
+   },
+   "nav_createNewSitemap": {
+      "message": "Izveidot jaunu $sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "nav_createSitemapWizardAlpha": {
+      "message": "Izveidot $sitemap$ ar vedni",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_documentation": {
+      "message": "Dokumentācija"
+   },
+   "nav_editMetadata": {
+      "message": "Sākuma URL"
+   },
+   "nav_experimentalFeaturesEnabled": {
+      "message": "Eksperimentālās funkcijas iespējotas"
+   },
+   "nav_exportData": {
+      "message": "Datu eksports"
+   },
+   "nav_exportSitemap": {
+      "message": "$sitemap$ eksports",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_forum": {
+      "message": "Forums"
+   },
+   "nav_help": {
+      "message": "Palīdzība"
+   },
+   "nav_logout": {
+      "message": "Izrakstīties"
+   },
+   "nav_moveDevToolsToBottom": {
+      "message": "Pārvietojiet izstrādātāju rīkus uz pārlūka apakšdaļu, lai sāktu lietot $webScraper$.",
+      "placeholders": {
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "nav_selectors": {
+      "message": "Selektori"
+   },
+   "nav_signInToCloud": {
+      "message": "Pierakstīties $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "nav_sitemap": {
+      "message": "$sitemap$",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "nav_sitemaps": {
+      "message": "$sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "nav_testSites": {
+      "message": "Testa vietnes"
+   },
+   "nav_upvoteFeatureIdeas": {
+      "message": "Balsot par funkciju idejām"
+   },
+   "nav_videoTutorials": {
+      "message": "Video pamācības"
+   },
+   "nav_websiteStateSetup": {
+      "message": "Vietnes Log-In / stāvokļa iestatīšana"
+   },
+   "options_page_allowMetricGathering": {
+      "message": "Atļaut lietošanas metrikas apkopošanu"
+   },
+   "options_page_enableExperimentalFeatures": {
+      "message": "Iespējot eksperimentālās funkcijas"
+   },
+   "options_page_keepWorking": {
+      "message": "Datu ieguves laikā var turpināt citu darbu."
+   },
+   "options_page_metricGatheringDescription": {
+      "message": "Atļaut paplašinājuma lietošanas metrikas apkopošanu. Tiek vākta tikai nepersoniska informācija apkopotā formātā. Plašāka informācija sadaļā"
+   },
+   "options_page_privacyPolicy": {
+      "message": "Privātuma politika"
+   },
+   "options_page_scrapingFinishedMessage": {
+      "message": "$sitemapId$ datu ieguve pabeigta",
+      "placeholders": {
+         "sitemapId": {
+            "content": "$1",
+            "example": "my-sitemap"
+         }
+      }
+   },
+   "options_page_scrapingFinishedTitle": {
+      "message": "Datu ieguve pabeigta"
+   },
+   "options_page_scrapingInNewTab": {
+      "message": "Datu ieguve sāksies jaunā cilnē. Pēc datu ieguves pabeigšanas šis logs aizvērsies."
+   },
+   "options_page_settings": {
+      "message": "Iestatījumi"
+   },
+   "scrape_emptyPasswordError": {
+      "message": "Paroles lauks Vietnes stāvokļa iestatīšanā ir tukšs."
+   },
+   "scrape_pageLoadDelayLabel": {
+      "message": "Lapas ielādes aizkave (ms)"
+   },
+   "scrape_pageLoadDelayPlaceholder": {
+      "message": "Lapas ielādes aizkave"
+   },
+   "scrape_requestIntervalLabel": {
+      "message": "Pieprasījumu intervāls (ms)"
+   },
+   "scrape_requestIntervalPlaceholder": {
+      "message": "Pieprasījumu intervāls"
+   },
+   "selectors_deleteSelectorConfirmation": {
+      "message": "Dzēst selektoru $1?",
+      "placeholders": {
+         "selectorId": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_generateSelectorsWithAi": {
+      "message": "Ģenerēt selektorus ar AI:"
+   },
+   "selectors_idAlreadyExists": {
+      "message": "Selektors ar šo ID jau eksistē"
+   },
+   "selectors_idEqualsExistingColumn": {
+      "message": "Selektors ar šo ID sakrīt ar jau esošu datu eksporta kolonnu"
+   },
+   "selectors_invalidAttributeSymbols": {
+      "message": "Atribūta nosaukums nedrīkst saturēt tukšumzīmes, \", ', >, /, = vai jebkādas vadības rakstzīmes"
+   },
+   "selectors_invalidColumnName": {
+      "message": "$1 nedrīkst sākties ar tukšumzīmi, pasvītrojumu vai \"web-scraper\" un nedrīkst saturēt: . $$ # * & % ? / \\n \\t",
+      "placeholders": {
+         "field": {
+            "content": "$1"
+         }
+      }
+   },
+   "selectors_mustBeValidCssSelector": {
+      "message": "Jābūt derīgam CSS selektoram"
+   },
+   "selectors_needsOtherParentSelector": {
+      "message": "Selektoram par vecākselektoru jābūt vismaz vienam citam selektoram"
+   },
+   "selectors_regexCannotMatchEmpty": {
+      "message": "JavaScript neatbalsta regulārās izteiksmes, kas var atbilst 0 rakstzīmēm"
+   },
+   "selectors_tableHeaderParentSelectors": {
+      "message": "Vecākselektori"
+   },
+   "selectors_tableHeaderType": {
+      "message": "Tips"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationHeading": {
+      "message": "Dzēšanas apstiprinājums"
+   },
+   "sitemaps_modalsDeleteSitemapConfirmationQuestion": {
+      "message": "Dzēst $sitemap$?",
+      "placeholders": {
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_searchPlaceholder": {
+      "message": "Filtrēt $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "sitemaps"
+         }
+      }
+   },
+   "sitemaps_tableCellDownloadHover": {
+      "message": "Šis $sitemap$ ir tikai $cloud$ kontā. Lejupielādēt $sitemap$ no $cloud$ konta, lai rediģētu",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellLocalOverwriteHover": {
+      "message": "Šī ir jaunākā $sitemap$ versija. Pārrakstīt šo $sitemap$ ar versiju no $cloud$ konta",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellNotSyncedIcon": {
+      "message": "$sitemap$ nav sinhronizēts",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteCloudUploadHover": {
+      "message": "Jaunākā $sitemap$ versija ir $cloud$ kontā. Pārrakstīt $sitemap$ $cloud$ kontā ar šo $sitemap$ versiju",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedDownloadHover": {
+      "message": "Jaunāko $sitemap$ versiju nevar noteikt. Pārrakstīt šo $sitemap$ ar versiju no $cloud$ konta",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellOverwriteUndeterminedUploadHover": {
+      "message": "Jaunāko $sitemap$ versiju nevar noteikt. Pārrakstīt $sitemap$ $cloud$ kontā ar šo $sitemap$ versiju",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedCloudIcon": {
+      "message": "$sitemap$ ir tikai $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedIcon": {
+      "message": "$sitemap$ ir sinhronizēts",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellSyncedLocalIcon": {
+      "message": "$sitemap$ ir tikai paplašinājumā",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateCloudHover": {
+      "message": "Jaunākā $sitemap$ versija ir $cloud$ kontā. Atjaunināt šo $sitemap$, lai tas atbilstu versijai $cloud$ kontā",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUpdateLocalHover": {
+      "message": "Šī ir jaunākā $sitemap$ versija. Atjaunināt $sitemap$ $cloud$ kontā ar šo $sitemap$ versiju",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableCellUploadHover": {
+      "message": "Šis $sitemap$ ir tikai paplašinājuma krātuvē. Augšupielādēt $sitemap$ $cloud$ kontā",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         },
+         "sitemap": {
+            "content": "sitemap"
+         }
+      }
+   },
+   "sitemaps_tableDomain": {
+      "message": "Domēns"
+   },
+   "sitemaps_tableDownloadFromCloud": {
+      "message": "Lejupielādēt no $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "sitemaps_tableUploadToCloud": {
+      "message": "Augšupielādēt $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "website_state_setup_actionClick": {
+      "message": "Klikšķis"
+   },
+   "website_state_setup_actionInput": {
+      "message": "Ievade"
+   },
+   "website_state_setup_actionOpenUrl": {
+      "message": "Atvērt URL"
+   },
+   "website_state_setup_actionPasswordInput": {
+      "message": "Paroles ievade"
+   },
+   "website_state_setup_actionSleep": {
+      "message": "Pauze (ms)"
+   },
+   "website_state_setup_actionTextInput": {
+      "message": "Teksta ievade"
+   },
+   "website_state_setup_deleteConfirmation": {
+      "message": "Dzēst Vietnes stāvokļa iestatīšanu?"
+   },
+   "website_state_setup_durationPlaceholder": {
+      "message": "Ilgums ms"
+   },
+   "website_state_setup_enabled": {
+      "message": "Iespējots"
+   },
+   "website_state_setup_passwordPlaceholder": {
+      "message": "Parole"
+   },
+   "website_state_setup_textPlaceholder": {
+      "message": "Teksts"
+   },
+   "wizard_accessWizardSitemaps": {
+      "message": "Piekļūt vedņa $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         }
+      }
+   },
+   "wizard_addImages": {
+      "message": "Pievienot attēlus"
+   },
+   "wizard_addMoreText": {
+      "message": "Pievienot vairāk teksta"
+   },
+   "wizard_analyzingPageContent": {
+      "message": "Analizē lapas saturu..."
+   },
+   "wizard_analyzingUrlsWithAi": {
+      "message": "Analizē $1 URL ar AI (vidējais gaidīšanas laiks $waitTime$s)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "waitTime": {
+            "content": "15-30"
+         }
+      }
+   },
+   "wizard_andMore": {
+      "message": "Un vēl..."
+   },
+   "wizard_areMoreItemsLoadedAfterScrolling": {
+      "message": "Vai pēc ritināšanas tiek ielādēti vēl vienumi?"
+   },
+   "wizard_automateExtractionInCloud": {
+      "message": "Automatizēt datu izgūšanu pakalpojumā $webScraperCloud$",
+      "placeholders": {
+         "webScraperCloud": {
+            "content": "Web Scraper Cloud"
+         }
+      }
+   },
+   "wizard_automateInCloud": {
+      "message": "Automatizēt ar $cloud$",
+      "placeholders": {
+         "cloud": {
+            "content": "Cloud"
+         }
+      }
+   },
+   "wizard_botDetectionHandling": {
+      "message": "Botu noteikšanas apstrāde"
+   },
+   "wizard_checkingInfiniteScroll": {
+      "message": "Pārbauda bezgalīgo ritināšanu"
+   },
+   "wizard_columnName": {
+      "message": "Kolonnas nosaukums"
+   },
+   "wizard_continueButton": {
+      "message": "Turpināt"
+   },
+   "wizard_customizableCssSelectors": {
+      "message": "Pielāgojami $css$ selektori",
+      "placeholders": {
+         "css": {
+            "content": "CSS"
+         }
+      }
+   },
+   "wizard_customizableSiteNavigation": {
+      "message": "Pielāgojama vietnes navigācija"
+   },
+   "wizard_dataExtractionError": {
+      "message": "Iegūstot datus no šīs lapas, radās kļūda. Problēma ir reģistrēta. Mēģiniet vēlreiz vēlāk."
+   },
+   "wizard_dataPointsFoundMultiple": {
+      "message": "Lapā atrasti $1 datu punkti",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_dataPointsFoundSingle": {
+      "message": "Lapā atrasts 1 datu punkts"
+   },
+   "wizard_disableInfiniteScroll": {
+      "message": "Atspējot bezgalīgo ritināšanu"
+   },
+   "wizard_disablePagination": {
+      "message": "Atspējot lapošanu"
+   },
+   "wizard_doesPageHavePagination": {
+      "message": "Vai šajā lapā ir lapošana?"
+   },
+   "wizard_doneSelecting": {
+      "message": "Atlase pabeigta"
+   },
+   "wizard_enableInfiniteScroll": {
+      "message": "Iespējot bezgalīgo ritināšanu"
+   },
+   "wizard_enableNavigationToItemPages": {
+      "message": "Iespējot navigāciju uz vienumu lapām un datu ieguvi no katras lapas."
+   },
+   "wizard_errorTitle": {
+      "message": "Kļūda"
+   },
+   "wizard_exportToDropboxGoogleDriveS3": {
+      "message": "Eksportēt uz $dropbox$, $googleDrive$, $s3$, ...",
+      "placeholders": {
+         "dropbox": {
+            "content": "Dropbox"
+         },
+         "googleDrive": {
+            "content": "Google Drive"
+         },
+         "s3": {
+            "content": "S3"
+         }
+      }
+   },
+   "wizard_gatheringPageData": {
+      "message": "Vāc lapas datus $1 / $2",
+      "placeholders": {
+         "current": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_giveFeedback": {
+      "message": "Sniegt Atsauksmi"
+   },
+   "wizard_goToAdvancedSitemapBuilder": {
+      "message": "Uz Paplašināto $sitemap$ veidotāju",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_haveSomeThoughts": {
+      "message": "Ko jūs domājat?"
+   },
+   "wizard_howWasYourScrapingExperience": {
+      "message": "Kāda bija jūsu datu ieguves pieredze?"
+   },
+   "wizard_itemPageLinksMultiple": {
+      "message": "Atlasītas $1 vienumu lapu saites",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_itemPageLinksSingle": {
+      "message": "Atlasīta 1 vienuma lapas saite"
+   },
+   "wizard_link": {
+      "message": "Saite"
+   },
+   "wizard_loadMore": {
+      "message": "Ielādēt vairāk"
+   },
+   "wizard_loadingPage": {
+      "message": "Ielādē lapu..."
+   },
+   "wizard_loginFeature": {
+      "message": "$logIn$ funkcija",
+      "placeholders": {
+         "logIn": {
+            "content": "Log-in"
+         }
+      }
+   },
+   "wizard_modifyColumnsBeforeExtracting": {
+      "message": "Noņemt, pievienot vai pārdēvēt kolonnas pirms datu ieguves"
+   },
+   "wizard_moreDataExtractors": {
+      "message": "Citi datu ieguvēji"
+   },
+   "wizard_multipleRecordsScraped": {
+      "message": "Iegūti $1 ieraksti",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_navigatingPaginationToDiscoverLinks": {
+      "message": "Pārlūko lapošanu, lai atrastu vienumu lapu saites."
+   },
+   "wizard_nextPage": {
+      "message": "Nākamā lapa"
+   },
+   "wizard_noDataFound": {
+      "message": "Dati nav atrasti"
+   },
+   "wizard_noRecordsScraped": {
+      "message": "Netika iegūts neviens ieraksts. Pārbaudiet iepriekšējos soļus vai mēģiniet vēlreiz."
+   },
+   "wizard_numberedPages": {
+      "message": "Numurētas lapas: noklikšķiniet uz vairākām pogām, lai atlasītu visas"
+   },
+   "wizard_onlyWorksInOneTab": {
+      "message": "Darbojas tikai vienā cilnē."
+   },
+   "wizard_openDevtools_linuxWindows": {
+      "message": "Nospiediet $shortcut1$ vai $shortcut2$, lai atvērtu izstrādātāju rīkus.",
+      "placeholders": {
+         "shortcut1": {
+            "content": "F12"
+         },
+         "shortcut2": {
+            "content": "Ctrl+Shift+I"
+         }
+      }
+   },
+   "wizard_openDevtools_macos": {
+      "message": "Nospiediet $shortcut$, lai atvērtu izstrādātāju rīkus.",
+      "placeholders": {
+         "shortcut": {
+            "content": "Cmd+Opt+I"
+         }
+      }
+   },
+   "wizard_openDevtools_other": {
+      "message": "Atveriet pārlūka izstrādātāju rīkus"
+   },
+   "wizard_paginationDetected": {
+      "message": "Konstatēta lapošana. Konfigurāciju pārvaldiet nākamajā solī."
+   },
+   "wizard_paginationEnabled": {
+      "message": "Lapošana iespējota"
+   },
+   "wizard_pleaseReviewExtension": {
+      "message": "Lūdzu, novērtējiet paplašinājumu pārlūka veikalā!"
+   },
+   "wizard_rateUs": {
+      "message": "Novērtējiet mūs"
+   },
+   "wizard_recordsScrapedWithLimit": {
+      "message": "Iegūti $1 ieraksti, rāda $2",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_regenerate": {
+      "message": "Pārģenerēt"
+   },
+   "wizard_rescrapeThePage": {
+      "message": "Iegūt atkārtoti"
+   },
+   "wizard_reselect": {
+      "message": "Atlasīt atkārtoti"
+   },
+   "wizard_retry": {
+      "message": "Mēģināt vēlreiz"
+   },
+   "wizard_scheduler": {
+      "message": "Plānotājs"
+   },
+   "wizard_scrapeThePage": {
+      "message": "Iegūt datus no lapas"
+   },
+   "wizard_scraperConfigurationReady": {
+      "message": "Datu ieguves dzinēja konfigurācija ir gatava"
+   },
+   "wizard_scrapingInProgressMultipleRecords": {
+      "message": "Notiek datu ieguve. (iegūti $1 ieraksti)",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrapingInProgressNoRecord": {
+      "message": "Notiek datu ieguve."
+   },
+   "wizard_scrapingInProgressSingleRecord": {
+      "message": "Notiek datu ieguve. (iegūts 1 ieraksts)"
+   },
+   "wizard_scrapingInProgressWithLimit": {
+      "message": "Notiek datu ieguve. (iegūti $1 ieraksti, rāda $2)",
+      "placeholders": {
+         "limit": {
+            "content": "$2"
+         },
+         "total": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_scrollingEnabled": {
+      "message": "Ritināšana iespējota"
+   },
+   "wizard_selectAtLeastTwoLinks": {
+      "message": "Nepieciešamas vismaz divas saites."
+   },
+   "wizard_selectDataPointsManually": {
+      "message": "Atlasiet datu punktus manuāli"
+   },
+   "wizard_selectLink": {
+      "message": "Atlasīt saiti"
+   },
+   "wizard_selectNextPageButton": {
+      "message": "Atlasīt nākamās lapas pogu"
+   },
+   "wizard_selectPaginationButtonKind": {
+      "message": "Atlasiet lapošanas pogu. Izplatītākie veidi:"
+   },
+   "wizard_sendFeedback": {
+      "message": "Sūtīt atsauksmi"
+   },
+   "wizard_showMe": {
+      "message": "Parādīt"
+   },
+   "wizard_showingLimitedRecords": {
+      "message": "Rāda $1 no $2 ierakstiem",
+      "placeholders": {
+         "shown": {
+            "content": "$1"
+         },
+         "total": {
+            "content": "$2"
+         }
+      }
+   },
+   "wizard_showingRecordsMultiple": {
+      "message": "Rāda $1 ierakstus",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "wizard_showingSingleRecord": {
+      "message": "Rāda 1 ierakstu"
+   },
+   "wizard_signUp": {
+      "message": "Reģistrēties"
+   },
+   "wizard_singleRecordScraped": {
+      "message": "Iegūts 1 ieraksts"
+   },
+   "wizard_sitemapSavedInAdvancedBuilder": {
+      "message": "$sitemap$ saglabāts Paplašinātajā $sitemap2$ veidotājā",
+      "placeholders": {
+         "sitemap": {
+            "content": "Sitemap"
+         },
+         "sitemap2": {
+            "content": "Sitemap"
+         }
+      }
+   },
+   "wizard_skipButton": {
+      "message": "Izlaist"
+   },
+   "wizard_stepDataSetup": {
+      "message": "Datu iestatīšana"
+   },
+   "wizard_stepFeedbackAndAdvancedScraping": {
+      "message": "Atsauksmes un paplašinātā datu ieguve"
+   },
+   "wizard_stepFollowItemLinks": {
+      "message": "Sekot vienumu saitēm"
+   },
+   "wizard_stepItemPageDataSetup": {
+      "message": "Vienuma lapas datu iestatīšana"
+   },
+   "wizard_stepPagination": {
+      "message": "Lapošana un ritināšana"
+   },
+   "wizard_syncAndRunSitemaps": {
+      "message": "Sinhronizēt un palaist $webScraper$ $sitemaps$",
+      "placeholders": {
+         "sitemaps": {
+            "content": "Sitemaps"
+         },
+         "webScraper": {
+            "content": "Web Scraper"
+         }
+      }
+   },
+   "wizard_thankYouForFeedback": {
+      "message": "Paldies par atsauksmi!"
+   },
+   "wizard_title": {
+      "message": "Nosaukums"
+   },
+   "wizard_trySelectingAgain": {
+      "message": "Mēģiniet atlasīt vēlreiz"
+   },
+   "wizard_weInspectAllReviews": {
+      "message": "Visas atsauksmes tiek pārbaudītas, lai uzlabotu lietotāja pieredzi."
+   },
+   "wizard_yourFeedback": {
+      "message": "Jūsu atsauksme"
+   }
+}
