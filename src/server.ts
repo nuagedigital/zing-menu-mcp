@@ -20,11 +20,10 @@ const DATA_FILE = path.join(ROOT, "data", "toast-menu.json")
 
 const PORT = Number(process.env.PORT || 3100)
 const ORDER_WEBHOOK_URL = process.env.ORDER_WEBHOOK_URL || ""
+const UPLOAD_SECRET = process.env.UPLOAD_SECRET || ""
 
 // ============================================================
-// MENU LOADER — reads the JSON file on every call.
-// No in-memory cache, so the daily 4 AM scrape is picked up
-// immediately without restarting the server.
+// MENU LOADER
 // ============================================================
 type MenuItem = {
   id: string
@@ -76,10 +75,7 @@ function loadMenu(): MenuSnapshot {
     }
   }
 
-  return {
-    items,
-    scrapedAt: raw.scrapedAt || "unknown",
-  }
+  return { items, scrapedAt: raw.scrapedAt || "unknown" }
 }
 
 function textResult(data: unknown, isError = false) {
@@ -121,14 +117,12 @@ function createMcpServer() {
     tools: [
       {
         name: "get_menu",
-        description:
-          "Get the full live menu scraped from Toast. Includes name, title, price, description, image URL, and category for every item. Groups items by category.",
+        description: "Get the full live menu scraped from Toast.",
         inputSchema: { type: "object", properties: {}, required: [] },
       },
       {
         name: "get_menu_item",
-        description:
-          "Search for a menu item by name (partial match OK). Returns name, title, price, description, image, and category.",
+        description: "Search for a menu item by name.",
         inputSchema: {
           type: "object",
           properties: {
@@ -188,19 +182,13 @@ function createMcpServer() {
       switch (name) {
         case "get_menu": {
           const { items, scrapedAt } = loadMenu()
-          if (!items.length) {
-            return textResult({ error: "No menu scraped yet." }, true)
-          }
+          if (!items.length) return textResult({ error: "No menu scraped yet." }, true)
           const byCategory: Record<string, MenuItem[]> = {}
           for (const it of items) {
             const key = `${it.category} (${it.location})`
             ;(byCategory[key] ||= []).push(it)
           }
-          return textResult({
-            scrapedAt,
-            total: items.length,
-            categories: byCategory,
-          })
+          return textResult({ scrapedAt, total: items.length, categories: byCategory })
         }
 
         case "get_menu_item": {
@@ -210,30 +198,17 @@ function createMcpServer() {
               location: z.enum(["fremont", "palo_alto"]).optional(),
             })
             .parse(args)
-
           const { items } = loadMenu()
           let matches = findItems(q, items)
           if (location) matches = matches.filter((m) => m.location === location)
-          return textResult({
-            query: q,
-            found: matches.length > 0,
-            matches: matches.slice(0, 20),
-          })
+          return textResult({ query: q, found: matches.length > 0, matches: matches.slice(0, 20) })
         }
 
         case "get_locations":
           return textResult({
             locations: {
-              fremont: {
-                name: "Fremont",
-                address: "4169 Cushing Parkway, Fremont, CA 94538",
-                phone: "(510) 771-9989",
-              },
-              palo_alto: {
-                name: "Palo Alto",
-                address: "220B University Ave, Palo Alto, CA 94301",
-                phone: "(650) 800-7657",
-              },
+              fremont: { name: "Fremont", address: "4169 Cushing Parkway, Fremont, CA 94538", phone: "(510) 771-9989" },
+              palo_alto: { name: "Palo Alto", address: "220B University Ave, Palo Alto, CA 94301", phone: "(650) 800-7657" },
             },
           })
 
@@ -254,14 +229,7 @@ function createMcpServer() {
         case "place_order": {
           const order = z
             .object({
-              items: z
-                .array(
-                  z.object({
-                    name: z.string().min(1),
-                    quantity: z.number().int().positive(),
-                  })
-                )
-                .min(1),
+              items: z.array(z.object({ name: z.string().min(1), quantity: z.number().int().positive() })).min(1),
               location: z.enum(["fremont", "palo_alto"]),
               customerName: z.string().min(1),
               customerPhone: z.string().min(1),
@@ -270,89 +238,45 @@ function createMcpServer() {
             .parse(args)
 
           const { items: allMenu } = loadMenu()
-
           const priced = order.items.map((sel) => {
             const match =
-              allMenu.find(
-                (m) =>
-                  m.location === order.location &&
-                  m.name.toLowerCase() === sel.name.toLowerCase()
-              ) ||
-              allMenu.find((m) =>
-                m.name.toLowerCase().includes(sel.name.toLowerCase())
-              )
+              allMenu.find((m) => m.location === order.location && m.name.toLowerCase() === sel.name.toLowerCase()) ||
+              allMenu.find((m) => m.name.toLowerCase().includes(sel.name.toLowerCase()))
             if (!match) throw new Error(`Item not found: ${sel.name}`)
             return {
-              id: match.id,
-              name: match.name,
-              quantity: sel.quantity,
-              unitPrice: match.price,
-              lineTotal: +(match.price * sel.quantity).toFixed(2),
+              id: match.id, name: match.name, quantity: sel.quantity,
+              unitPrice: match.price, lineTotal: +(match.price * sel.quantity).toFixed(2),
             }
           })
 
-          const subtotal = +priced
-            .reduce((s, i) => s + i.lineTotal, 0)
-            .toFixed(2)
+          const subtotal = +priced.reduce((s, i) => s + i.lineTotal, 0).toFixed(2)
           const tax = +(subtotal * 0.0875).toFixed(2)
           const total = +(subtotal + tax).toFixed(2)
 
           const orderRecord = {
             orderId: "ZG-" + randomUUID().slice(0, 8).toUpperCase(),
-            location: order.location,
-            customerName: order.customerName,
-            customerPhone: order.customerPhone,
-            pickupTime: order.pickupTime || "ASAP",
-            items: priced,
-            subtotal,
-            tax,
-            total,
-            currency: "USD",
+            location: order.location, customerName: order.customerName,
+            customerPhone: order.customerPhone, pickupTime: order.pickupTime || "ASAP",
+            items: priced, subtotal, tax, total, currency: "USD",
             createdAt: new Date().toISOString(),
           }
 
           if (!ORDER_WEBHOOK_URL) {
-            return textResult({
-              success: false,
-              status: "integration_required",
-              draft: orderRecord,
-              note: "No ORDER_WEBHOOK_URL configured.",
-            })
+            return textResult({ success: false, status: "integration_required", draft: orderRecord })
           }
 
           const res = await fetch(ORDER_WEBHOOK_URL, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(orderRecord),
-            signal: AbortSignal.timeout(15000),
+            method: "POST", headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(orderRecord), signal: AbortSignal.timeout(15000),
           })
-          if (!res.ok) {
-            return textResult(
-              {
-                success: false,
-                status: "submission_failed",
-                draft: orderRecord,
-              },
-              true
-            )
-          }
+          if (!res.ok) return textResult({ success: false, status: "submission_failed", draft: orderRecord }, true)
           const confirmed = await res.json().catch(() => ({}))
-          return textResult({
-            success: true,
-            submittedToRestaurant: true,
-            restaurantOrderId: confirmed.orderId || orderRecord.orderId,
-            total,
-          })
+          return textResult({ success: true, submittedToRestaurant: true, restaurantOrderId: confirmed.orderId || orderRecord.orderId, total })
         }
 
         case "refresh_menu": {
-          // No cache to invalidate — this just re-reads and reports.
           const { items, scrapedAt } = loadMenu()
-          return textResult({
-            refreshed: true,
-            itemCount: items.length,
-            scrapedAt,
-          })
+          return textResult({ refreshed: true, itemCount: items.length, scrapedAt })
         }
 
         default:
@@ -376,16 +300,15 @@ app.use(
   cors({
     origin: true,
     methods: ["GET", "POST", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Accept", "Authorization", "Mcp-Session-Id"],
+    allowedHeaders: ["Content-Type", "Accept", "Authorization", "Mcp-Session-Id", "x-upload-secret"],
     exposedHeaders: ["Mcp-Session-Id"],
   })
 )
-app.use(express.json({ limit: "1mb" }))
+app.use(express.json({ limit: "5mb" }))
 
+// ---------- MCP ----------
 app.post("/mcp", async (req, res) => {
-  const transport = new StreamableHTTPServerTransport({
-    sessionIdGenerator: undefined,
-  })
+  const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined })
   const server = createMcpServer()
   res.on("close", () => {
     void transport.close()
@@ -404,17 +327,110 @@ app.get("/mcp", (_req, res) => {
   res.status(405).json({ error: "Use POST for MCP" })
 })
 
+// ---------- HEALTH ----------
 app.get("/health", (_req, res) => {
   const { items, scrapedAt } = loadMenu()
-  res.json({
-    status: "ok",
-    items: items.length,
-    scrapedAt,
-  })
+  res.json({ status: "ok", items: items.length, scrapedAt })
 })
 
+// ---------- UPLOAD (for scraper to push fresh data) ----------
+app.post("/upload-menu", (req, res) => {
+  if (UPLOAD_SECRET && req.headers["x-upload-secret"] !== UPLOAD_SECRET) {
+    return res.status(401).json({ error: "Unauthorized" })
+  }
+  try {
+    fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true })
+    fs.writeFileSync(DATA_FILE, JSON.stringify(req.body, null, 2))
+    const { items, scrapedAt } = loadMenu()
+    console.log(`[upload] received ${items.length} items (scraped ${scrapedAt})`)
+    res.json({ ok: true, items: items.length, scrapedAt })
+  } catch (err: any) {
+    console.error("[upload] failed:", err)
+    res.status(500).json({ error: err.message })
+  }
+})
+
+// ---------- LIVE MENU VIEW ----------
+app.get("/menu", (_req, res) => {
+  const { items, scrapedAt } = loadMenu()
+
+  const byCat: Record<string, MenuItem[]> = {}
+  for (const it of items) {
+    const key = `${it.category} — ${it.location}`
+    ;(byCat[key] ||= []).push(it)
+  }
+
+  const sections = Object.entries(byCat)
+    .map(
+      ([cat, list]) => `
+      <section>
+        <h2>${cat}</h2>
+        <div class="grid">
+          ${list
+            .map(
+              (it) => `
+            <div class="card">
+              ${it.image ? `<img src="${it.image}" alt="${it.name}" loading="lazy" />` : `<div class="noimg">no image</div>`}
+              <div class="body">
+                <h3>${it.name}</h3>
+                <div class="price">$${it.price.toFixed(2)}</div>
+                ${it.description ? `<p class="desc">${it.description}</p>` : ""}
+              </div>
+            </div>
+          `
+            )
+            .join("")}
+        </div>
+      </section>
+    `
+    )
+    .join("")
+
+  res.send(`<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Zingster Menu — Live</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:system-ui,sans-serif;background:#0b0b0d;color:#eee;margin:0;padding:24px}
+  header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #2a2a2e}
+  h1{margin:0;font-size:28px}
+  .meta{color:#888;font-size:13px;margin-top:4px}
+  h2{font-size:20px;margin-top:32px;border-left:4px solid #2563eb;padding-left:12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:12px}
+  .card{background:#17171a;border:1px solid #2a2a2e;border-radius:12px;overflow:hidden}
+  .card img{width:100%;height:160px;object-fit:cover;background:#222;display:block}
+  .noimg{width:100%;height:160px;background:#222;display:flex;align-items:center;justify-content:center;color:#555;font-size:12px}
+  .body{padding:12px}
+  .body h3{margin:0 0 6px 0;font-size:15px}
+  .price{color:#22c55e;font-weight:700;font-size:15px}
+  .desc{margin:8px 0 0 0;color:#999;font-size:12px;line-height:1.4}
+  .refresh{color:#2563eb;text-decoration:none;font-weight:500;padding:8px 16px;border:1px solid #2563eb;border-radius:8px}
+  .refresh:hover{background:#2563eb;color:white}
+</style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Zingster Menu</h1>
+      <div class="meta">${items.length} items · scraped ${scrapedAt}</div>
+    </div>
+    <a class="refresh" href="/menu">🔄 Refresh</a>
+  </header>
+  ${sections}
+</body>
+</html>`)
+})
+
+// ============================================================
+// BOOT
+// ============================================================
 app.listen(PORT, () => {
-  console.log(`\n[zing-menu-mcp] listening on http://localhost:${PORT}/mcp`)
+  console.log(`\n[zing-menu-mcp] listening on http://localhost:${PORT}`)
+  console.log(`[zing-menu-mcp] MCP:     http://localhost:${PORT}/mcp`)
+  console.log(`[zing-menu-mcp] Menu:    http://localhost:${PORT}/menu`)
+  console.log(`[zing-menu-mcp] Health:  http://localhost:${PORT}/health`)
   const { items, scrapedAt } = loadMenu()
   console.log(`[zing-menu-mcp] ${items.length} items loaded (scraped ${scrapedAt})\n`)
 })
