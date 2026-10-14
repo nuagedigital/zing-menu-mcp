@@ -1,506 +1,281 @@
-// src/server.ts
-import { randomUUID } from "node:crypto"
-import fs from "node:fs"
-import path from "node:path"
-import { fileURLToPath } from "node:url"
-import express from "express"
-import cors from "cors"
-import { Server } from "@modelcontextprotocol/sdk/server/index.js"
-import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js"
-import {
-  CallToolRequestSchema,
-  ListToolsRequestSchema,
-} from "@modelcontextprotocol/sdk/types.js"
-import { z } from "zod"
+﻿# scrape_toast.py
+import asyncio
+import json
+import os
+import subprocess
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.request import urlopen
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const ROOT = path.join(__dirname, "..")
-const DATA_FILE = path.join(ROOT, "data", "toast-menu.json")
+from patchright.async_api import async_playwright
 
-const PORT = Number(process.env.PORT || 3100)
-const ORDER_WEBHOOK_URL = process.env.ORDER_WEBHOOK_URL || ""
-
-// ============================================================
-// MENU — read from disk on every call (no cache)
-// ============================================================
-type MenuItem = {
-  id: string
-  name: string
-  title: string
-  price: number
-  description: string
-  image: string
-  category: string
-  location: string
+URLS = {
+    "fremont": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
+    "palo_alto": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b",
 }
 
-type MenuSnapshot = {
-  items: MenuItem[]
-  scrapedAt: string
-}
+DATA_DIR = Path(__file__).parent / "data"
+OUT_FILE = DATA_DIR / "toast-menu.json"
+DEBUG_DIR = DATA_DIR / "debug"
+PROFILE_DIR = DATA_DIR / "chrome-profile"
 
-function slug(s: string): string {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
-}
+CHROME_PATHS = [
+    r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+    r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+]
 
-function loadMenu(): MenuSnapshot {
-  if (!fs.existsSync(DATA_FILE)) {
-    console.warn(`[mcp] No scrape file at ${DATA_FILE}`)
-    return { items: [], scrapedAt: "never" }
-  }
+CDP_URL = "http://127.0.0.1:9222"
 
-  let raw: any
-  try {
-    raw = JSON.parse(fs.readFileSync(DATA_FILE, "utf-8"))
-  } catch (err) {
-    console.error("[mcp] Failed to parse toast-menu.json:", err)
-    return { items: [], scrapedAt: "invalid" }
-  }
-
-  const items: MenuItem[] = []
-  for (const [locKey, locData] of Object.entries<any>(raw.locations || {})) {
-    for (const item of locData.items || []) {
-      items.push({
-        id: `${locKey}-${slug(item.name)}`,
-        name: item.name,
-        title: item.title || item.name,
-        price: Number(item.price),
-        description: item.description || "",
-        image: item.image || "",
-        category: item.category || "Menu",
-        location: locKey,
-      })
-    }
-  }
-
-  return { items, scrapedAt: raw.scrapedAt || "unknown" }
-}
-
-function textResult(data: unknown, isError = false) {
-  return {
-    content: [
-      {
-        type: "text",
-        text: typeof data === "string" ? data : JSON.stringify(data, null, 2),
-      },
-    ],
-    ...(isError ? { isError: true } : {}),
-  }
-}
-
-function findItems(query: string, all: MenuItem[]): MenuItem[] {
-  const q = query.toLowerCase().trim()
-  if (!q) return []
-  const exact = all.filter((i) => i.name.toLowerCase() === q)
-  if (exact.length) return exact
-  const partial = all.filter((i) => i.name.toLowerCase().includes(q))
-  if (partial.length) return partial
-  const qToks = q.split(/\s+/)
-  return all.filter((i) => {
-    const name = i.name.toLowerCase()
-    return qToks.some((t) => t.length > 2 && name.includes(t))
-  })
-}
-
-// ============================================================
-// MCP SERVER
-// ============================================================
-function createMcpServer() {
-  const server = new Server(
-    { name: "zing-menu-mcp", version: "1.0.0" },
-    { capabilities: { tools: {} } }
-  )
-
-  server.setRequestHandler(ListToolsRequestSchema, async () => ({
-    tools: [
-      {
-        name: "get_menu",
-        description:
-          "Get the full live menu scraped from Toast. Includes name, title, price, description, image URL, and category for every item.",
-        inputSchema: { type: "object", properties: {}, required: [] },
-      },
-      {
-        name: "get_menu_item",
-        description:
-          "Search for a menu item by name (partial match OK). Returns name, title, price, description, image, and category.",
-        inputSchema: {
-          type: "object",
-          properties: {
-            name: { type: "string" },
-            location: { type: "string", enum: ["fremont", "palo_alto"] },
-          },
-          required: ["name"],
-        },
-      },
-      {
-        name: "get_locations",
-        description: "Get restaurant addresses and phone numbers.",
-        inputSchema: { type: "object", properties: {}, required: [] },
-      },
-      {
-        name: "get_hours",
-        description: "Get opening hours.",
-        inputSchema: { type: "object", properties: {}, required: [] },
-      },
-      {
-        name: "place_order",
-        description: "Submit a pickup order.",
-        inputSchema: {
-          type: "object",
-          properties: {
-            items: {
-              type: "array",
-              minItems: 1,
-              items: {
-                type: "object",
-                properties: {
-                  name: { type: "string" },
-                  quantity: { type: "integer", minimum: 1 },
-                },
-                required: ["name", "quantity"],
-              },
-            },
-            location: { type: "string", enum: ["fremont", "palo_alto"] },
-            customerName: { type: "string" },
-            customerPhone: { type: "string" },
-            pickupTime: { type: "string" },
-          },
-          required: ["items", "location", "customerName", "customerPhone"],
-        },
-      },
-      {
-        name: "refresh_menu",
-        description: "Report the current state of the menu file.",
-        inputSchema: { type: "object", properties: {}, required: [] },
-      },
-    ],
-  }))
-
-  server.setRequestHandler(CallToolRequestSchema, async (req) => {
-    const { name, arguments: args = {} } = req.params
-    try {
-      switch (name) {
-        case "get_menu": {
-          const { items, scrapedAt } = loadMenu()
-          if (!items.length) {
-            return textResult({ error: "No menu scraped yet." }, true)
-          }
-          const byCategory: Record<string, MenuItem[]> = {}
-          for (const it of items) {
-            const key = `${it.category} (${it.location})`
-            ;(byCategory[key] ||= []).push(it)
-          }
-          return textResult({
-            scrapedAt,
-            total: items.length,
-            categories: byCategory,
-          })
-        }
-
-        case "get_menu_item": {
-          const { name: q, location } = z
-            .object({
-              name: z.string().min(1),
-              location: z.enum(["fremont", "palo_alto"]).optional(),
-            })
-            .parse(args)
-
-          const { items } = loadMenu()
-          let matches = findItems(q, items)
-          if (location) matches = matches.filter((m) => m.location === location)
-          return textResult({
-            query: q,
-            found: matches.length > 0,
-            matches: matches.slice(0, 20),
-          })
-        }
-
-        case "get_locations":
-          return textResult({
-            locations: {
-              fremont: {
-                name: "Fremont",
-                address: "4169 Cushing Parkway, Fremont, CA 94538",
-                phone: "(510) 771-9989",
-              },
-              palo_alto: {
-                name: "Palo Alto",
-                address: "220B University Ave, Palo Alto, CA 94301",
-                phone: "(650) 800-7657",
-              },
-            },
-          })
-
-        case "get_hours":
-          return textResult({
-            hours: {
-              monday: "11:00 AM - 12:00 AM",
-              tuesday: "11:00 AM - 12:00 AM",
-              wednesday: "11:00 AM - 12:00 AM",
-              thursday: "11:00 AM - 12:00 AM",
-              friday: "11:00 AM - 12:30 AM",
-              saturday: "11:00 AM - 12:30 AM",
-              sunday: "11:00 AM - 12:00 AM",
-            },
-            timezone: "America/Los_Angeles",
-          })
-
-        case "place_order": {
-          const order = z
-            .object({
-              items: z
-                .array(
-                  z.object({
-                    name: z.string().min(1),
-                    quantity: z.number().int().positive(),
-                  })
-                )
-                .min(1),
-              location: z.enum(["fremont", "palo_alto"]),
-              customerName: z.string().min(1),
-              customerPhone: z.string().min(1),
-              pickupTime: z.string().optional(),
-            })
-            .parse(args)
-
-          const { items: allMenu } = loadMenu()
-
-          const priced = order.items.map((sel) => {
-            const match =
-              allMenu.find(
-                (m) =>
-                  m.location === order.location &&
-                  m.name.toLowerCase() === sel.name.toLowerCase()
-              ) ||
-              allMenu.find((m) =>
-                m.name.toLowerCase().includes(sel.name.toLowerCase())
-              )
-            if (!match) throw new Error(`Item not found: ${sel.name}`)
-            return {
-              id: match.id,
-              name: match.name,
-              quantity: sel.quantity,
-              unitPrice: match.price,
-              lineTotal: +(match.price * sel.quantity).toFixed(2),
-            }
-          })
-
-          const subtotal = +priced
-            .reduce((s, i) => s + i.lineTotal, 0)
-            .toFixed(2)
-          const tax = +(subtotal * 0.0875).toFixed(2)
-          const total = +(subtotal + tax).toFixed(2)
-
-          const orderRecord = {
-            orderId: "ZG-" + randomUUID().slice(0, 8).toUpperCase(),
-            location: order.location,
-            customerName: order.customerName,
-            customerPhone: order.customerPhone,
-            pickupTime: order.pickupTime || "ASAP",
-            items: priced,
-            subtotal,
-            tax,
-            total,
-            currency: "USD",
-            createdAt: new Date().toISOString(),
-          }
-
-          if (!ORDER_WEBHOOK_URL) {
-            return textResult({
-              success: false,
-              status: "integration_required",
-              draft: orderRecord,
-              note: "No ORDER_WEBHOOK_URL configured.",
-            })
-          }
-
-          const res = await fetch(ORDER_WEBHOOK_URL, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(orderRecord),
-            signal: AbortSignal.timeout(15000),
-          })
-          if (!res.ok) {
-            return textResult(
-              {
-                success: false,
-                status: "submission_failed",
-                draft: orderRecord,
-              },
-              true
-            )
-          }
-          const confirmed = await res.json().catch(() => ({}))
-          return textResult({
-            success: true,
-            submittedToRestaurant: true,
-            restaurantOrderId: confirmed.orderId || orderRecord.orderId,
-            total,
-          })
-        }
-
-        case "refresh_menu": {
-          const { items, scrapedAt } = loadMenu()
-          return textResult({
-            refreshed: true,
-            itemCount: items.length,
-            scrapedAt,
-          })
-        }
-
-        default:
-          return textResult(`Unknown tool: ${name}`, true)
-      }
-    } catch (error) {
-      const msg = error instanceof Error ? error.message : String(error)
-      return textResult(`Error: ${msg}`, true)
-    }
-  })
-
-  return server
-}
-
-// ============================================================
-// EXPRESS HTTP
-// ============================================================
-const app = express()
-
-app.use(
-  cors({
-    origin: true,
-    methods: ["GET", "POST", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Accept", "Authorization", "Mcp-Session-Id"],
-    exposedHeaders: ["Mcp-Session-Id"],
-  })
+ITEM_SELECTOR = (
+    '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
+    '[data-testid*="menu-item"], a[href*="/item/"]'
 )
-app.use(express.json({ limit: "1mb" }))
 
-// ============================================================
-// MCP ENDPOINT
-// ============================================================
-app.post("/mcp", async (req, res) => {
-  const transport = new StreamableHTTPServerTransport({
-    sessionIdGenerator: undefined,
-  })
-  const server = createMcpServer()
-  res.on("close", () => {
-    void transport.close()
-    void server.close()
-  })
-  try {
-    await server.connect(transport)
-    await transport.handleRequest(req, res, req.body)
-  } catch (err) {
-    console.error("[mcp] request failed:", err)
-    if (!res.headersSent) res.status(500).json({ error: "MCP request failed" })
-  }
-})
+EXTRACT_JS = r"""
+() => {
+    const results = [];
+    const seen = new Set();
+    const nodes = document.querySelectorAll(
+        '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
+        + '[data-testid*="menu-item"], a[href*="/item/"]'
+    );
+    for (const node of nodes) {
+        let name = '';
+        const nameCands = node.querySelectorAll(
+            '[class*="name"], [class*="Name"], [class*="title"], h2, h3, h4'
+        );
+        for (const c of nameCands) {
+            const t = (c.textContent || '').trim();
+            if (t && t.length > 1 && t.length < 120 && !t.match(/^\$/)) { name = t; break; }
+        }
+        if (!name) {
+            const full = (node.textContent || '').trim();
+            name = full.split('\n')[0].trim().slice(0, 120);
+        }
+        if (!name || name.length < 2) continue;
 
-app.get("/mcp", (_req, res) => {
-  res.status(405).json({ error: "Use POST for MCP" })
-})
+        const fullText = node.textContent || '';
+        const priceMatch = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
+        if (!priceMatch) continue;
+        const price = parseFloat(priceMatch[1]);
+        if (!price || price <= 0) continue;
 
-// ============================================================
-// HEALTH CHECK
-// ============================================================
-app.get("/health", (_req, res) => {
-  const { items, scrapedAt } = loadMenu()
-  res.json({
-    status: "ok",
-    items: items.length,
-    scrapedAt,
-  })
-})
+        let description = '';
+        const descCands = node.querySelectorAll(
+            '[class*="description"], [class*="Description"], '
+            + '[class*="subtitle"], [class*="Subtitle"], p'
+        );
+        for (const d of descCands) {
+            const t = (d.textContent || '').trim();
+            if (t.length > 8 && t.length < 500 && t !== name && !t.match(/^\$/)) {
+                description = t;
+                break;
+            }
+        }
 
-// ============================================================
-// LIVE BROWSER VIEW — http://localhost:3100/menu
-// Reads toast-menu.json fresh on every page load.
-// ============================================================
-app.get("/menu", (_req, res) => {
-  const { items, scrapedAt } = loadMenu()
+        let image = '';
+        const imgEl = node.querySelector('img');
+        if (imgEl) {
+            image = imgEl.src || imgEl.getAttribute('data-src') || '';
+        }
+        if (!image) {
+            const bgEls = [node, ...node.querySelectorAll('div, span')];
+            for (const el of bgEls) {
+                const bg = (el.style && el.style.backgroundImage) || '';
+                const m = bg.match(/url\(["']?(.+?)["']?\)/);
+                if (m && m[1]) { image = m[1]; break; }
+            }
+        }
+        if (image && image.startsWith('//')) image = 'https:' + image;
 
-  const byCat: Record<string, MenuItem[]> = {}
-  for (const it of items) {
-    const key = `${it.category} — ${it.location}`
-    ;(byCat[key] ||= []).push(it)
-  }
+        // ---------- ITEM URL ----------
+        let url = '';
+        if (node.tagName === 'A' && node.href) {
+            url = node.href;
+        }
+        if (!url) {
+            const linkEl = node.querySelector('a[href*="/item/"], a[href*="/online/"]');
+            if (linkEl && linkEl.href) url = linkEl.href;
+        }
+        if (!url) {
+            let p = node.parentElement;
+            for (let i = 0; i < 4 && p; i++) {
+                if (p.tagName === 'A' && p.href) { url = p.href; break; }
+                p = p.parentElement;
+            }
+        }
+        if (url && url.startsWith('//')) url = 'https:' + url;
+        if (url && url.startsWith('/')) url = 'https://order.toasttab.com' + url;
 
-  const sections = Object.entries(byCat)
-    .map(
-      ([cat, list]) => `
-      <section>
-        <h2>${cat}</h2>
-        <div class="grid">
-          ${list
-            .map(
-              (it) => `
-            <div class="card">
-              ${
-                it.image
-                  ? `<img src="${it.image}" alt="${it.name}" loading="lazy" />`
-                  : `<div class="noimg">no image</div>`
-              }
-              <div class="body">
-                <h3>${it.name}</h3>
-                <div class="price">$${it.price.toFixed(2)}</div>
-                ${it.description ? `<p class="desc">${it.description}</p>` : ""}
-              </div>
-            </div>
-          `
-            )
-            .join("")}
-        </div>
-      </section>
-    `
+        let category = '';
+        let cur = node;
+        for (let up = 0; up < 8 && cur && !category; up++) {
+            let sibling = cur.previousElementSibling;
+            while (sibling) {
+                if (sibling.tagName === 'H2' || sibling.tagName === 'H3') {
+                    const t = (sibling.textContent || '').trim();
+                    if (t && t.length > 2 && t.length < 50 && !t.includes('$')) {
+                        category = t; break;
+                    }
+                }
+                sibling = sibling.previousElementSibling;
+            }
+            cur = cur.parentElement;
+        }
+
+        const key = name.toLowerCase() + '|' + price;
+        if (seen.has(key)) continue;
+        seen.add(key);
+
+        results.push({ name, title: name, price, description, image, category, url });
+    }
+    return results;
+}
+"""
+
+
+def kill_chrome():
+    print("[setup] Killing Chrome processes...")
+    subprocess.run(["taskkill", "/F", "/IM", "chrome.exe", "/T"],
+                   capture_output=True, shell=True)
+
+
+def find_chrome():
+    for p in CHROME_PATHS:
+        if Path(p).exists():
+            return p
+    return None
+
+
+def launch_chrome(chrome_path):
+    PROFILE_DIR.mkdir(parents=True, exist_ok=True)
+    print(f"[setup] Launching Chrome (debug port 9222)")
+    subprocess.Popen(
+        [
+            chrome_path,
+            "--remote-debugging-port=9222",
+            f"--user-data-dir={PROFILE_DIR}",
+            "--no-first-run",
+            "--no-default-browser-check",
+            "--start-maximized",
+        ],
+        creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
     )
-    .join("")
 
-  res.send(`<!doctype html>
-<html>
-<head>
-<meta charset="utf-8" />
-<title>Zingster Menu — Live</title>
-<style>
-  * { box-sizing: border-box; }
-  body { font-family: system-ui, sans-serif; background: #0b0b0d; color: #eee; margin: 0; padding: 24px; }
-  header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #2a2a2e; }
-  h1 { margin: 0; font-size: 28px; }
-  .meta { color: #888; font-size: 13px; margin-top: 4px; }
-  h2 { font-size: 20px; margin-top: 32px; border-left: 4px solid #2563eb; padding-left: 12px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-top: 12px; }
-  .card { background: #17171a; border: 1px solid #2a2a2e; border-radius: 12px; overflow: hidden; }
-  .card img { width: 100%; height: 160px; object-fit: cover; background: #222; display: block; }
-  .noimg { width: 100%; height: 160px; background: #222; display: flex; align-items: center; justify-content: center; color: #555; font-size: 12px; }
-  .body { padding: 12px; }
-  .body h3 { margin: 0 0 6px 0; font-size: 15px; }
-  .price { color: #22c55e; font-weight: 700; font-size: 15px; }
-  .desc { margin: 8px 0 0 0; color: #999; font-size: 12px; line-height: 1.4; }
-  .refresh { color: #2563eb; text-decoration: none; font-weight: 500; padding: 8px 16px; border: 1px solid #2563eb; border-radius: 8px; }
-  .refresh:hover { background: #2563eb; color: white; }
-</style>
-</head>
-<body>
-  <header>
-    <div>
-      <h1>Zingster Menu</h1>
-      <div class="meta">${items.length} items · scraped ${scrapedAt}</div>
-    </div>
-    <a class="refresh" href="/menu">🔄 Refresh</a>
-  </header>
-  ${sections}
-</body>
-</html>`)
-})
 
-// ============================================================
-// BOOT
-// ============================================================
-app.listen(PORT, () => {
-  console.log(`\n[zing-menu-mcp] listening on http://localhost:${PORT}`)
-  console.log(`[zing-menu-mcp] MCP endpoint:  http://localhost:${PORT}/mcp`)
-  console.log(`[zing-menu-mcp] Menu view:     http://localhost:${PORT}/menu`)
-  console.log(`[zing-menu-mcp] Health:        http://localhost:${PORT}/health`)
-  const { items, scrapedAt } = loadMenu()
-  console.log(`[zing-menu-mcp] ${items.length} items loaded (scraped ${scrapedAt})\n`)
-})
+async def wait_for_debug_port(timeout=20):
+    for i in range(timeout * 2):
+        try:
+            urlopen(f"{CDP_URL}/json/version", timeout=1)
+            print(f"[setup] Debug port ready after {(i+1)*0.5:.1f}s")
+            return True
+        except Exception:
+            await asyncio.sleep(0.5)
+    return False
+
+
+async def is_cloudflare(page):
+    try:
+        c = (await page.content()).lower()
+        return (
+            "performing security verification" in c
+            or "verify you are human" in c
+            or "checking your browser" in c
+            or "just a moment" in c
+        )
+    except Exception:
+        return False
+
+
+async def wait_cloudflare(page, timeout=180):
+    print("[scrape] Cloudflare detected - CLICK THE CHECKBOX in Chrome")
+    for i in range(timeout):
+        await page.wait_for_timeout(1000)
+        if not await is_cloudflare(page):
+            print(f"[scrape] Cleared after {i+1}s")
+            return True
+        if (i + 1) % 15 == 0:
+            print(f"[scrape] Waiting... {i+1}s")
+    return False
+
+
+async def scrape_one(page, key, url):
+    print(f"[scrape] {key} -> {url}")
+    try:
+        await page.goto(url, wait_until="domcontentloaded", timeout=90000)
+        await page.wait_for_timeout(2000)
+
+        if await is_cloudflare(page):
+            if not await wait_cloudflare(page, timeout=180):
+                return {"ok": False, "url": url, "error": "Cloudflare blocked", "items": []}
+
+        try:
+            await page.wait_for_selector(ITEM_SELECTOR, timeout=45000)
+            await page.wait_for_timeout(3000)
+        except Exception as e:
+            print(f"[scrape] {key} - selector timeout: {e}")
+
+        await page.evaluate("""async () => {
+            const h = document.body.scrollHeight;
+            for (let y = 0; y < h; y += 800) {
+                window.scrollTo(0, y);
+                await new Promise(r => setTimeout(r, 150));
+            }
+            window.scrollTo(0, 0);
+        }""")
+        await page.wait_for_timeout(2000)
+
+        items = await page.evaluate(EXTRACT_JS)
+
+        with_img = sum(1 for i in items if i.get("image"))
+        with_desc = sum(1 for i in items if i.get("description"))
+        with_url = sum(1 for i in items if i.get("url"))
+        print(f"[scrape] {key} OK - {len(items)} items (img:{with_img} desc:{with_desc} url:{with_url})")
+
+        return {"ok": True, "url": url, "items": items}
+    except Exception as e:
+        print(f"[scrape] {key} FAILED: {e}")
+        return {"ok": False, "url": url, "error": str(e), "items": []}
+
+
+async def main():
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    kill_chrome()
+    await asyncio.sleep(3)
+
+    chrome_path = find_chrome()
+    if not chrome_path:
+        print("[setup] ERROR: Chrome not found.")
+        return
+
+    launch_chrome(chrome_path)
+
+    if not await wait_for_debug_port(timeout=20):
+        print("[setup] ERROR: Chrome debug port never opened.")
+        return
+
+    out = {
+        "scrapedAt": datetime.now(timezone.utc).isoformat(),
+        "locations": {},
+    }
+
+    async with async_playwright() as p:
+        browser = await p.chromium.connect_over_cdp(CDP_URL)
+        context = browser.contexts[0] if browser.contexts else await browser.new_context()
+        page = await context.new_page()
+
+        for key, url in URLS.items():
+            out["locations"][key] = await scrape_one(page, key, url)
+
+        await page.close()
+
+    with open(OUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=2, ensure_ascii=False)
+
+    total = sum(len(v.get("items", [])) for v in out["locations"].values())
+    print(f"\n[done] Saved {total} items -> {OUT_FILE}")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

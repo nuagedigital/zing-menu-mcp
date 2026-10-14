@@ -34,6 +34,7 @@ type MenuItem = {
   image: string
   category: string
   location: string
+  url: string
 }
 
 type MenuSnapshot = {
@@ -71,6 +72,7 @@ function loadMenu(): MenuSnapshot {
         image: item.image || "",
         category: item.category || "Menu",
         location: locKey,
+        url: item.url || "",
       })
     }
   }
@@ -333,7 +335,7 @@ app.get("/health", (_req, res) => {
   res.json({ status: "ok", items: items.length, scrapedAt })
 })
 
-// ---------- UPLOAD (for scraper to push fresh data) ----------
+// ---------- UPLOAD ----------
 app.post("/upload-menu", (req, res) => {
   if (UPLOAD_SECRET && req.headers["x-upload-secret"] !== UPLOAD_SECRET) {
     return res.status(401).json({ error: "Unauthorized" })
@@ -375,6 +377,9 @@ app.get("/menu", (_req, res) => {
                 <h3>${it.name}</h3>
                 <div class="price">$${it.price.toFixed(2)}</div>
                 ${it.description ? `<p class="desc">${it.description}</p>` : ""}
+                ${it.url
+                  ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
+                  : `<span class="order-btn disabled">Not orderable</span>`}
               </div>
             </div>
           `
@@ -399,15 +404,18 @@ app.get("/menu", (_req, res) => {
   .meta{color:#888;font-size:13px;margin-top:4px}
   h2{font-size:20px;margin-top:32px;border-left:4px solid #2563eb;padding-left:12px}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:12px}
-  .card{background:#17171a;border:1px solid #2a2a2e;border-radius:12px;overflow:hidden}
+  .card{background:#17171a;border:1px solid #2a2a2e;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
   .card img{width:100%;height:160px;object-fit:cover;background:#222;display:block}
   .noimg{width:100%;height:160px;background:#222;display:flex;align-items:center;justify-content:center;color:#555;font-size:12px}
-  .body{padding:12px}
+  .body{padding:12px;display:flex;flex-direction:column;flex:1}
   .body h3{margin:0 0 6px 0;font-size:15px}
   .price{color:#22c55e;font-weight:700;font-size:15px}
-  .desc{margin:8px 0 0 0;color:#999;font-size:12px;line-height:1.4}
+  .desc{margin:8px 0 0 0;color:#999;font-size:12px;line-height:1.4;flex:1}
   .refresh{color:#2563eb;text-decoration:none;font-weight:500;padding:8px 16px;border:1px solid #2563eb;border-radius:8px}
   .refresh:hover{background:#2563eb;color:white}
+  .order-btn{display:inline-block;margin-top:12px;padding:8px 16px;background:#22c55e;color:#0a0a0a;font-weight:600;text-decoration:none;border-radius:8px;font-size:13px;text-align:center;transition:background .15s}
+  .order-btn:hover{background:#16a34a;color:white}
+  .order-btn.disabled{background:#333;color:#666;cursor:not-allowed}
 </style>
 </head>
 <body>
