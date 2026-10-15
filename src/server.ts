@@ -356,30 +356,48 @@ app.post("/upload-menu", (req, res) => {
 app.get("/menu", (_req, res) => {
   const { items, scrapedAt } = loadMenu()
 
+  // Group by category only (not category+location) so tabs match Toast
+  const seen = new Set<string>()
+  const cats: string[] = []
   const byCat: Record<string, MenuItem[]> = {}
   for (const it of items) {
-    const key = `${it.category} — ${it.location}`
+    const key = it.category || "Menu"
+    if (!seen.has(key)) {
+      seen.add(key)
+      cats.push(key)
+    }
     ;(byCat[key] ||= []).push(it)
   }
 
-  const sections = Object.entries(byCat)
+  const navHtml = `
+    <a href="#cat-all" data-cat="all" class="active">All</a>
+    ${cats.map((c) => `<a href="#cat-${slug(c)}" data-cat="${slug(c)}">${c}</a>`).join("")}
+  `
+
+  const sectionsHtml = cats
     .map(
-      ([cat, list]) => `
-      <section>
+      (cat) => `
+      <section id="cat-${slug(cat)}" data-cat="${slug(cat)}">
         <h2>${cat}</h2>
         <div class="grid">
-          ${list
+          ${byCat[cat]
             .map(
               (it) => `
             <div class="card">
-              ${it.image ? `<img src="${it.image}" alt="${it.name}" loading="lazy" />` : `<div class="noimg">no image</div>`}
+              ${
+                it.image
+                  ? `<img src="${it.image}" alt="${it.name}" loading="lazy" />`
+                  : `<div class="noimg">no image</div>`
+              }
               <div class="body">
                 <h3>${it.name}</h3>
                 <div class="price">$${it.price.toFixed(2)}</div>
                 ${it.description ? `<p class="desc">${it.description}</p>` : ""}
-                ${it.url
-                  ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
-                  : `<span class="order-btn disabled">Not orderable</span>`}
+                ${
+                  it.url
+                    ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
+                    : `<span class="order-btn disabled">Not orderable</span>`
+                }
               </div>
             </div>
           `
@@ -392,41 +410,267 @@ app.get("/menu", (_req, res) => {
     .join("")
 
   res.send(`<!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Zingster Menu — Live</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zingster Menu</title>
 <style>
-  *{box-sizing:border-box}
-  body{font-family:system-ui,sans-serif;background:#0b0b0d;color:#eee;margin:0;padding:24px}
-  header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #2a2a2e}
-  h1{margin:0;font-size:28px}
-  .meta{color:#888;font-size:13px;margin-top:4px}
-  h2{font-size:20px;margin-top:32px;border-left:4px solid #2563eb;padding-left:12px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:12px}
-  .card{background:#17171a;border:1px solid #2a2a2e;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
-  .card img{width:100%;height:160px;object-fit:cover;background:#222;display:block}
-  .noimg{width:100%;height:160px;background:#222;display:flex;align-items:center;justify-content:center;color:#555;font-size:12px}
-  .body{padding:12px;display:flex;flex-direction:column;flex:1}
-  .body h3{margin:0 0 6px 0;font-size:15px}
-  .price{color:#22c55e;font-weight:700;font-size:15px}
-  .desc{margin:8px 0 0 0;color:#999;font-size:12px;line-height:1.4;flex:1}
-  .refresh{color:#2563eb;text-decoration:none;font-weight:500;padding:8px 16px;border:1px solid #2563eb;border-radius:8px}
-  .refresh:hover{background:#2563eb;color:white}
-  .order-btn{display:inline-block;margin-top:12px;padding:8px 16px;background:#22c55e;color:#0a0a0a;font-weight:600;text-decoration:none;border-radius:8px;font-size:13px;text-align:center;transition:background .15s}
-  .order-btn:hover{background:#16a34a;color:white}
-  .order-btn.disabled{background:#333;color:#666;cursor:not-allowed}
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: #0b0b0d;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Page header */
+  .page-header {
+    padding: 24px 24px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
+  .meta { color: #888; font-size: 13px; margin-top: 4px; }
+  .refresh {
+    color: #2563eb; text-decoration: none; font-weight: 500;
+    padding: 8px 16px; border: 1px solid #2563eb; border-radius: 8px;
+    font-size: 14px; transition: all 0.15s;
+  }
+  .refresh:hover { background: #2563eb; color: white; }
+
+  /* Sticky category tabs */
+  .category-nav-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #0b0b0d;
+    border-bottom: 1px solid #2a2a2e;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .category-nav {
+    display: flex;
+    gap: 4px;
+    padding: 0 16px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .category-nav::-webkit-scrollbar { display: none; }
+  .category-nav a {
+    color: #999;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 16px 14px;
+    white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+    flex-shrink: 0;
+  }
+  .category-nav a:hover { color: #e11d48; }
+  .category-nav a.active {
+    color: #e11d48;
+    border-bottom-color: #e11d48;
+  }
+
+  /* Sections */
+  main { padding: 8px 24px 40px; }
+  section {
+    scroll-margin-top: 80px;
+    padding: 32px 0 16px;
+  }
+  section h2 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    padding-left: 14px;
+    border-left: 4px solid #e11d48;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  /* Cards */
+  .card {
+    background: #17171a;
+    border: 1px solid #2a2a2e;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: #3a3a3e;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background: #222;
+    display: block;
+  }
+  .noimg {
+    width: 100%;
+    height: 180px;
+    background: #1d1d20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 12px;
+  }
+  .body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .body h3 {
+    margin: 0 0 6px 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .price {
+    color: #22c55e;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .desc {
+    margin: 0 0 12px 0;
+    color: #999;
+    font-size: 13px;
+    line-height: 1.5;
+    flex: 1;
+  }
+  .order-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #22c55e;
+    color: #0a0a0a;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 13px;
+    text-align: center;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .order-btn:hover { background: #16a34a; color: white; }
+  .order-btn:active { transform: scale(0.98); }
+  .order-btn.disabled {
+    background: #2a2a2e;
+    color: #555;
+    cursor: not-allowed;
+  }
+
+  /* Mobile */
+  @media (max-width: 640px) {
+    .page-header { padding: 20px 16px 12px; }
+    h1 { font-size: 22px; }
+    .grid { grid-template-columns: 1fr; gap: 16px; }
+    main { padding: 4px 16px 40px; }
+    section h2 { font-size: 18px; }
+    .category-nav a { padding: 14px 12px; font-size: 14px; }
+  }
 </style>
 </head>
 <body>
-  <header>
+
+  <div class="page-header">
     <div>
       <h1>Zingster Menu</h1>
       <div class="meta">${items.length} items · scraped ${scrapedAt}</div>
     </div>
     <a class="refresh" href="/menu">🔄 Refresh</a>
-  </header>
-  ${sections}
+  </div>
+
+  <div class="category-nav-wrap">
+    <nav class="category-nav" id="category-nav">
+      ${navHtml}
+    </nav>
+  </div>
+
+  <main>
+    ${sectionsHtml}
+  </main>
+
+  <script>
+    // -------- Smooth scroll on tab click --------
+    const navLinks = Array.from(document.querySelectorAll("#category-nav a"));
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const slug = link.dataset.cat;
+
+        if (slug === "all") {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+          const target = document.getElementById("cat-" + slug);
+          if (target) {
+            const top = target.getBoundingClientRect().top + window.scrollY - 70;
+            window.scrollTo({ top, behavior: "smooth" });
+          }
+        }
+
+        navLinks.forEach((l) => l.classList.remove("active"));
+        link.classList.add("active");
+      });
+    });
+
+    // -------- Scrollspy — highlight current section --------
+    const sections = Array.from(document.querySelectorAll("section[data-cat]"));
+
+    function setActive(slug) {
+      navLinks.forEach((l) =>
+        l.classList.toggle("active", l.dataset.cat === slug)
+      );
+      const active = document.querySelector("#category-nav a.active");
+      if (active && active.parentElement) {
+        const parent = active.parentElement;
+        parent.scrollTo({
+          left: active.offsetLeft - parent.clientWidth / 2 + active.clientWidth / 2,
+          behavior: "smooth",
+        });
+      }
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible.length > 0) {
+          setActive(visible[0].target.dataset.cat);
+        }
+      },
+      { rootMargin: "-80px 0px -60% 0px", threshold: 0 }
+    );
+
+    sections.forEach((s) => observer.observe(s));
+
+    // -------- "All" highlight when at very top --------
+    window.addEventListener("scroll", () => {
+      if (window.scrollY < 100) setActive("all");
+    });
+  </script>
 </body>
 </html>`)
 })
