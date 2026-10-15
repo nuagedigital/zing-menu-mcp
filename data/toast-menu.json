@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-14T23:53:21.633774+00:00",
+  "scrapedAt": "2026-10-15T16:17:12.522266+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -694,15 +694,6 @@
           "image": "https://d1w7312wesee68.cloudfront.net/CUaqXDBe5spsSylNKB_2_XQUPSjiJ3IQhXX-jX51mio/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77de3486-7099-4d1a-8b33-70d8547d0421.png",
           "category": "",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-soft-drink_6603cfae-64a5-48c0-9a08-5038da2a1bf5"
-        },
-        {
-          "name": "Aquafina pure water",
-          "title": "Aquafina pure water",
-          "price": 3.25,
-          "description": "",
-          "image": "",
-          "category": "",
-          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-aquafina-pure-water_3f8e77ca-c9b5-40f9-bae4-c56c4a3a65c9"
         },
         {
           "name": "Homestyle Lemonade",
