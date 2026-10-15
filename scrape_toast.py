@@ -1,4 +1,4 @@
-﻿# scrape_toast.py — captures Toast category tabs + items
+﻿# scrape_toast.py — captures exact Toast tab names
 import asyncio
 import json
 import subprocess
@@ -24,69 +24,68 @@ CHROME_PATHS = [
 
 CDP_URL = "http://127.0.0.1:9222"
 
-# Step 1: grab category tabs
+# Known tabs from Toast (fallback if DOM extraction fails)
+KNOWN_TABS = [
+    "Burgers",
+    "Wraps",
+    "Bowls",
+    "Sides",
+    "Milkshakes",
+    "Drinks",
+    "Sauce",
+    "Kids Menu",
+    "Tender Only",
+]
+
+# JS: grab the visible tab names from the top nav
 EXTRACT_TABS_JS = r"""
 () => {
     const tabs = [];
-    // Toast nav tabs usually sit in a horizontal bar. Try several selectors.
-    const cand = document.querySelectorAll(
-        'nav a, [role="tab"], [class*="category"], [class*="Category"], '
-        + '[class*="tab"], [class*="Tab"] a, [class*="menuNav"] a, '
-        + '[class*="navigation"] a, header a'
-    );
     const seen = new Set();
-    cand.forEach((el) => {
-        const t = (el.textContent || '').trim();
-        if (!t) return;
-        if (t.length < 2 || t.length > 30) return;
-        if (t.includes('$')) return;
-        if (/^(menu|order|cart|checkout|login|home|search|view cart|add|back)$/i.test(t)) return;
-        if (seen.has(t.toLowerCase())) return;
-        seen.add(t.toLowerCase());
-        tabs.push(t);
-    });
-    return tabs;
+
+    // Toast puts tabs in a horizontal bar. They are plain <button> or <a> elements,
+    // styled with red text. Match them by scanning for the bar.
+    const candidates = document.querySelectorAll(
+        'button, a, [role="tab"], [role="link"]'
+    );
+
+    for (const el of candidates) {
+        const text = (el.textContent || '').trim();
+        if (!text) continue;
+        if (text.length < 3 || text.length > 25) continue;
+        if (text.includes('$') || text.includes('\n')) continue;
+        if (/^(see more|view cart|checkout|order now|search|sign in|login|home|menu|help|contact|featured items|opens at|closed|open)$/i.test(text)) continue;
+
+        // Tab elements usually have their top position in the top third of the page
+        const rect = el.getBoundingClientRect();
+        if (rect.top > 500) continue;
+        if (rect.width < 30 || rect.width > 300) continue;
+
+        const key = text.toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        tabs.push({ text, x: rect.left, y: rect.top });
+    }
+
+    // Sort by horizontal position (left to right)
+    tabs.sort((a, b) => (a.y - b.y) || (a.x - b.x));
+
+    return tabs.map(t => t.text);
 }
 """
 
-# Step 2: grab items, assigned to nearest tab when scrolled
-EXTRACT_JS = r"""
+# JS: extract items currently visible on the page
+EXTRACT_ITEMS_JS = r"""
 () => {
     const results = [];
     const seen = new Set();
-
-    // Collect tab positions if present in DOM
-    const tabEls = document.querySelectorAll(
-        '[role="tab"], nav a, [class*="category"], [class*="Category"]'
-    );
-    const tabPositions = [];
-    tabEls.forEach((el) => {
-        const t = (el.textContent || '').trim();
-        if (!t || t.length < 2 || t.length > 30) return;
-        if (t.includes('$')) return;
-        const r = el.getBoundingClientRect();
-        tabPositions.push({ text: t, y: r.top + window.scrollY });
-    });
-    tabPositions.sort((a, b) => a.y - b.y);
-
-    // Also collect heading positions as fallback
-    const headings = [];
-    document.querySelectorAll('h1, h2, h3, h4').forEach((h) => {
-        const t = (h.textContent || '').trim();
-        if (!t || t.length < 2 || t.length > 50) return;
-        if (t.includes('$')) return;
-        const r = h.getBoundingClientRect();
-        headings.push({ text: t, y: r.top + window.scrollY });
-    });
-    headings.sort((a, b) => a.y - b.y);
 
     const cards = document.querySelectorAll(
         '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
         + '[data-testid*="menu-item"], a[href*="/item/"]'
     );
 
-    cards.forEach((node) => {
-        // NAME
+    for (const node of cards) {
         let name = '';
         const nameCands = node.querySelectorAll(
             '[class*="name"], [class*="Name"], [class*="title"], h2, h3, h4, h5'
@@ -99,16 +98,14 @@ EXTRACT_JS = r"""
             const full = (node.textContent || '').trim();
             name = full.split('\n')[0].trim().slice(0, 120);
         }
-        if (!name || name.length < 2) return;
+        if (!name || name.length < 2) continue;
 
-        // PRICE
         const fullText = node.textContent || '';
         const pm = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
-        if (!pm) return;
+        if (!pm) continue;
         const price = parseFloat(pm[1]);
-        if (!price || price <= 0) return;
+        if (!price || price <= 0) continue;
 
-        // DESCRIPTION
         let description = '';
         const dcs = node.querySelectorAll(
             '[class*="description"], [class*="Description"], '
@@ -121,7 +118,6 @@ EXTRACT_JS = r"""
             }
         }
 
-        // IMAGE
         let image = '';
         const imgEl = node.querySelector('img');
         if (imgEl) image = imgEl.src || imgEl.getAttribute('data-src') || '';
@@ -135,29 +131,21 @@ EXTRACT_JS = r"""
         }
         if (image && image.startsWith('//')) image = 'https:' + image;
 
-        // URL
         let url = '';
         if (node.tagName === 'A' && node.href) url = node.href;
         if (!url) {
             const l = node.querySelector('a[href*="/item/"], a[href*="/online/"]');
             if (l && l.href) url = l.href;
         }
+        if (url && url.startsWith('//')) url = 'https:' + url;
         if (url && url.startsWith('/')) url = 'https://order.toasttab.com' + url;
 
-        // CATEGORY — nearest heading above the card
-        const cardY = node.getBoundingClientRect().top + window.scrollY;
-        let category = 'Menu';
-        for (let i = headings.length - 1; i >= 0; i--) {
-            if (headings[i].y < cardY) { category = headings[i].text; break; }
-        }
-
         const key = name.toLowerCase() + '|' + price;
-        if (seen.has(key)) return;
+        if (seen.has(key)) continue;
         seen.add(key);
 
-        results.push({ name, title: name, price, description, image, category, url });
-    });
-
+        results.push({ name, title: name, price, description, image, url });
+    }
     return results;
 }
 """
@@ -188,7 +176,8 @@ def launch_chrome(path):
 async def wait_debug(timeout=20):
     for _ in range(timeout * 2):
         try:
-            urlopen(f"{CDP_URL}/json/version", timeout=1); return True
+            urlopen(f"{CDP_URL}/json/version", timeout=1)
+            return True
         except Exception:
             await asyncio.sleep(0.5)
     return False
@@ -207,7 +196,7 @@ async def is_cf(page):
 
 
 async def wait_cf(page, timeout=180):
-    print("[scrape] Cloudflare - CLICK THE CHECKBOX")
+    print("[scrape] Cloudflare — Chrome mein checkbox click karo")
     for _ in range(timeout):
         await page.wait_for_timeout(1000)
         if not await is_cf(page):
@@ -215,51 +204,103 @@ async def wait_cf(page, timeout=180):
     return False
 
 
+async def click_tab_by_name(page, name):
+    """Try multiple strategies to click a tab."""
+    strategies = [
+        f'button:has-text("{name}")',
+        f'a:has-text("{name}")',
+        f'[role="tab"]:has-text("{name}")',
+        f'text="{name}"',
+    ]
+    for sel in strategies:
+        try:
+            loc = page.locator(sel).first
+            await loc.click(timeout=2500)
+            return True
+        except Exception:
+            continue
+    return False
+
+
 async def scrape_one(page, key, url):
-    print(f"[scrape] {key} -> {url}")
+    print(f"\n[scrape] {key} -> {url}")
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=90000)
-        await page.wait_for_timeout(2000)
+        await page.wait_for_timeout(3000)
+
         if await is_cf(page):
             if not await wait_cf(page, 180):
                 return {"ok": False, "items": [], "tabs": []}
 
         await page.wait_for_timeout(3000)
 
-        # Grab tab names
+        # ---- 1. Try to read the tab names from the page ----
         tabs = await page.evaluate(EXTRACT_TABS_JS)
-        print(f"[scrape]   tabs: {tabs}")
+        print(f"[scrape]   tabs found in DOM: {tabs}")
 
-        # Scroll fully to load everything
-        await page.evaluate("""async () => {
-            const h = document.body.scrollHeight;
-            for (let y = 0; y < h; y += 600) {
-                window.scrollTo(0, y);
-                await new Promise(r => setTimeout(r, 200));
-            }
-            window.scrollTo(0, 0);
-        }""")
-        await page.wait_for_timeout(2000)
+        # ---- 2. Sanity check — if empty or wrong, use known list ----
+        if len(tabs) < 3:
+            print(f"[scrape]   DOM gave {len(tabs)} tabs — using known list")
+            tabs = KNOWN_TABS[:]
+        else:
+            # Filter to short tab-like names only
+            tabs = [t for t in tabs if 3 <= len(t) <= 25]
+            if len(tabs) < 3:
+                tabs = KNOWN_TABS[:]
 
-        items = await page.evaluate(EXTRACT_JS)
+        print(f"[scrape]   using tabs: {tabs}")
 
-        # Build categories dict from tabs (preserving order)
-        cat_counts = {}
-        for it in items:
-            cat_counts[it["category"]] = cat_counts.get(it["category"], 0) + 1
+        # ---- 3. Click each tab and extract items ----
+        all_items = []
+        seen_keys = set()
 
-        with_img = sum(1 for i in items if i.get("image"))
-        with_desc = sum(1 for i in items if i.get("description"))
-        with_url = sum(1 for i in items if i.get("url"))
-        print(f"[scrape]   {len(items)} items (img:{with_img} desc:{with_desc} url:{with_url})")
-        print(f"[scrape]   item categories: {list(cat_counts.keys())}")
+        for tab_name in tabs:
+            print(f"[scrape]   → tab: {tab_name}")
+            ok = await click_tab_by_name(page, tab_name)
+            if not ok:
+                print(f"[scrape]     couldn't click '{tab_name}', skipping")
+                continue
+
+            await page.wait_for_timeout(2500)
+
+            # Scroll down a bit so lazy items render
+            await page.evaluate("""async () => {
+                const h = document.body.scrollHeight;
+                for (let y = 0; y < Math.min(h, 3000); y += 500) {
+                    window.scrollTo(0, y);
+                    await new Promise(r => setTimeout(r, 150));
+                }
+                window.scrollTo(0, 0);
+            }""")
+            await page.wait_for_timeout(1500)
+
+            items = await page.evaluate(EXTRACT_ITEMS_JS)
+            count = 0
+            for it in items:
+                it["category"] = tab_name
+                k = f"{it['name'].lower()}|{it['price']}"
+                if k in seen_keys:
+                    continue
+                seen_keys.add(k)
+                all_items.append(it)
+                count += 1
+
+            print(f"[scrape]     got {count} new items under '{tab_name}'")
+
+        with_img = sum(1 for i in all_items if i.get("image"))
+        with_desc = sum(1 for i in all_items if i.get("description"))
+        with_url = sum(1 for i in all_items if i.get("url"))
+
+        print(f"[scrape] {key} DONE — {len(all_items)} items total")
+        print(f"[scrape]   img:{with_img} desc:{with_desc} url:{with_url}")
 
         return {
             "ok": True,
             "url": url,
-            "tabs": tabs,       # ← Toast nav tab names in order
-            "items": items,
+            "tabs": tabs,
+            "items": all_items,
         }
+
     except Exception as e:
         print(f"[scrape] {key} FAILED: {e}")
         return {"ok": False, "error": str(e), "items": [], "tabs": []}
@@ -272,11 +313,13 @@ async def main():
 
     chrome = find_chrome()
     if not chrome:
-        print("[setup] ERROR: Chrome not found."); return
+        print("[setup] ERROR: Chrome not found.")
+        return
 
     launch_chrome(chrome)
     if not await wait_debug(20):
-        print("[setup] ERROR: Debug port not open."); return
+        print("[setup] ERROR: debug port not open.")
+        return
 
     out = {
         "scrapedAt": datetime.now(timezone.utc).isoformat(),
