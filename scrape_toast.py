@@ -1,4 +1,4 @@
-﻿# scrape_toast.py
+﻿# scrape_toast.py — full data scraper with proper categories
 import asyncio
 import json
 import os
@@ -16,7 +16,6 @@ URLS = {
 
 DATA_DIR = Path(__file__).parent / "data"
 OUT_FILE = DATA_DIR / "toast-menu.json"
-DEBUG_DIR = DATA_DIR / "debug"
 PROFILE_DIR = DATA_DIR / "chrome-profile"
 
 CHROME_PATHS = [
@@ -26,23 +25,39 @@ CHROME_PATHS = [
 
 CDP_URL = "http://127.0.0.1:9222"
 
-ITEM_SELECTOR = (
-    '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
-    '[data-testid*="menu-item"], a[href*="/item/"]'
-)
-
+# Toast page uses category tabs/sections. This captures each section header
+# and the items underneath it.
 EXTRACT_JS = r"""
 () => {
     const results = [];
-    const seen = new Set();
-    const nodes = document.querySelectorAll(
+
+    // ---- Strategy 1: Walk all menu item cards and find their nearest category header ----
+    const cards = document.querySelectorAll(
         '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
         + '[data-testid*="menu-item"], a[href*="/item/"]'
     );
-    for (const node of nodes) {
+
+    // Collect all category header candidates with their document position
+    const headers = [];
+    document.querySelectorAll('h1, h2, h3, h4, [class*="categoryName"], [class*="CategoryName"], [role="heading"]').forEach((h) => {
+        const text = (h.textContent || '').trim();
+        if (!text || text.length < 2 || text.length > 50) return;
+        if (text.includes('$')) return;
+        if (/^menu$/i.test(text)) return;
+        // Get Y position
+        const rect = h.getBoundingClientRect();
+        headers.push({ text, y: rect.top + window.scrollY, el: h });
+    });
+    // Sort by document position
+    headers.sort((a, b) => a.y - b.y);
+
+    const seen = new Set();
+
+    cards.forEach((node) => {
+        // NAME
         let name = '';
         const nameCands = node.querySelectorAll(
-            '[class*="name"], [class*="Name"], [class*="title"], h2, h3, h4'
+            '[class*="name"], [class*="Name"], [class*="title"], h2, h3, h4, h5'
         );
         for (const c of nameCands) {
             const t = (c.textContent || '').trim();
@@ -52,14 +67,16 @@ EXTRACT_JS = r"""
             const full = (node.textContent || '').trim();
             name = full.split('\n')[0].trim().slice(0, 120);
         }
-        if (!name || name.length < 2) continue;
+        if (!name || name.length < 2) return;
 
+        // PRICE
         const fullText = node.textContent || '';
         const priceMatch = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
-        if (!priceMatch) continue;
+        if (!priceMatch) return;
         const price = parseFloat(priceMatch[1]);
-        if (!price || price <= 0) continue;
+        if (!price || price <= 0) return;
 
+        // DESCRIPTION
         let description = '';
         const descCands = node.querySelectorAll(
             '[class*="description"], [class*="Description"], '
@@ -73,11 +90,10 @@ EXTRACT_JS = r"""
             }
         }
 
+        // IMAGE
         let image = '';
         const imgEl = node.querySelector('img');
-        if (imgEl) {
-            image = imgEl.src || imgEl.getAttribute('data-src') || '';
-        }
+        if (imgEl) image = imgEl.src || imgEl.getAttribute('data-src') || '';
         if (!image) {
             const bgEls = [node, ...node.querySelectorAll('div, span')];
             for (const el of bgEls) {
@@ -88,11 +104,9 @@ EXTRACT_JS = r"""
         }
         if (image && image.startsWith('//')) image = 'https:' + image;
 
-        // ---------- ITEM URL ----------
+        // URL
         let url = '';
-        if (node.tagName === 'A' && node.href) {
-            url = node.href;
-        }
+        if (node.tagName === 'A' && node.href) url = node.href;
         if (!url) {
             const linkEl = node.querySelector('a[href*="/item/"], a[href*="/online/"]');
             if (linkEl && linkEl.href) url = linkEl.href;
@@ -107,35 +121,32 @@ EXTRACT_JS = r"""
         if (url && url.startsWith('//')) url = 'https:' + url;
         if (url && url.startsWith('/')) url = 'https://order.toasttab.com' + url;
 
+        // CATEGORY — nearest header ABOVE the card
+        const cardRect = node.getBoundingClientRect();
+        const cardY = cardRect.top + window.scrollY;
         let category = '';
-        let cur = node;
-        for (let up = 0; up < 8 && cur && !category; up++) {
-            let sibling = cur.previousElementSibling;
-            while (sibling) {
-                if (sibling.tagName === 'H2' || sibling.tagName === 'H3') {
-                    const t = (sibling.textContent || '').trim();
-                    if (t && t.length > 2 && t.length < 50 && !t.includes('$')) {
-                        category = t; break;
-                    }
-                }
-                sibling = sibling.previousElementSibling;
+        for (let i = headers.length - 1; i >= 0; i--) {
+            if (headers[i].y < cardY) {
+                category = headers[i].text;
+                break;
             }
-            cur = cur.parentElement;
         }
+        if (!category) category = 'Menu';
 
+        // DEDUPE
         const key = name.toLowerCase() + '|' + price;
-        if (seen.has(key)) continue;
+        if (seen.has(key)) return;
         seen.add(key);
 
         results.push({ name, title: name, price, description, image, category, url });
-    }
+    });
+
     return results;
 }
 """
 
 
 def kill_chrome():
-    print("[setup] Killing Chrome processes...")
     subprocess.run(["taskkill", "/F", "/IM", "chrome.exe", "/T"],
                    capture_output=True, shell=True)
 
@@ -167,7 +178,7 @@ async def wait_for_debug_port(timeout=20):
     for i in range(timeout * 2):
         try:
             urlopen(f"{CDP_URL}/json/version", timeout=1)
-            print(f"[setup] Debug port ready after {(i+1)*0.5:.1f}s")
+            print(f"[setup] Debug port ready")
             return True
         except Exception:
             await asyncio.sleep(0.5)
@@ -180,7 +191,6 @@ async def is_cloudflare(page):
         return (
             "performing security verification" in c
             or "verify you are human" in c
-            or "checking your browser" in c
             or "just a moment" in c
         )
     except Exception:
@@ -194,8 +204,6 @@ async def wait_cloudflare(page, timeout=180):
         if not await is_cloudflare(page):
             print(f"[scrape] Cleared after {i+1}s")
             return True
-        if (i + 1) % 15 == 0:
-            print(f"[scrape] Waiting... {i+1}s")
     return False
 
 
@@ -209,17 +217,14 @@ async def scrape_one(page, key, url):
             if not await wait_cloudflare(page, timeout=180):
                 return {"ok": False, "url": url, "error": "Cloudflare blocked", "items": []}
 
-        try:
-            await page.wait_for_selector(ITEM_SELECTOR, timeout=45000)
-            await page.wait_for_timeout(3000)
-        except Exception as e:
-            print(f"[scrape] {key} - selector timeout: {e}")
+        await page.wait_for_timeout(3000)
 
+        # Scroll through the page to load lazy content
         await page.evaluate("""async () => {
             const h = document.body.scrollHeight;
-            for (let y = 0; y < h; y += 800) {
+            for (let y = 0; y < h; y += 600) {
                 window.scrollTo(0, y);
-                await new Promise(r => setTimeout(r, 150));
+                await new Promise(r => setTimeout(r, 200));
             }
             window.scrollTo(0, 0);
         }""")
@@ -227,12 +232,25 @@ async def scrape_one(page, key, url):
 
         items = await page.evaluate(EXTRACT_JS)
 
+        # Count categories
+        categories = {}
+        for it in items:
+            categories[it["category"]] = categories.get(it["category"], 0) + 1
+
         with_img = sum(1 for i in items if i.get("image"))
         with_desc = sum(1 for i in items if i.get("description"))
         with_url = sum(1 for i in items if i.get("url"))
-        print(f"[scrape] {key} OK - {len(items)} items (img:{with_img} desc:{with_desc} url:{with_url})")
 
-        return {"ok": True, "url": url, "items": items}
+        print(f"[scrape] {key} OK - {len(items)} items")
+        print(f"[scrape]   img:{with_img} desc:{with_desc} url:{with_url}")
+        print(f"[scrape]   categories: {list(categories.keys())}")
+
+        return {
+            "ok": True,
+            "url": url,
+            "items": items,
+            "categories": list(categories.keys()),
+        }
     except Exception as e:
         print(f"[scrape] {key} FAILED: {e}")
         return {"ok": False, "url": url, "error": str(e), "items": []}
