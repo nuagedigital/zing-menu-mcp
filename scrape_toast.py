@@ -1,4 +1,4 @@
-﻿# scrape_toast.py — clicks EVERY tab to get ALL items
+﻿# scrape_toast.py — ALL 9 Toast tabs with items
 import asyncio
 import json
 import subprocess
@@ -8,22 +8,15 @@ from urllib.request import urlopen
 
 from patchright.async_api import async_playwright
 
+# ------------------------------------------------------------------
+# CONFIG
+# ------------------------------------------------------------------
 URLS = {
     "fremont": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
     "palo_alto": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b",
 }
 
-DATA_DIR = Path(__file__).parent / "data"
-OUT_FILE = DATA_DIR / "toast-menu.json"
-PROFILE_DIR = DATA_DIR / "chrome-profile"
-
-CHROME_PATHS = [
-    r"C:\Program Files\Google\Chrome\Application\chrome.exe",
-    r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
-]
-
-CDP_URL = "http://127.0.0.1:9222"
-
+# ⭐ ALL 9 TABS — exact order from Toast website
 KNOWN_TABS = [
     "Burgers",
     "Wraps",
@@ -36,7 +29,20 @@ KNOWN_TABS = [
     "Tender Only",
 ]
 
-# Extract items visible right now (used after each tab click)
+DATA_DIR = Path(__file__).parent / "data"
+OUT_FILE = DATA_DIR / "toast-menu.json"
+PROFILE_DIR = DATA_DIR / "chrome-profile"
+
+CHROME_PATHS = [
+    r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+    r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+]
+
+CDP_URL = "http://127.0.0.1:9222"
+
+# ------------------------------------------------------------------
+# JS — extract items from currently visible page
+# ------------------------------------------------------------------
 EXTRACT_JS = r"""
 () => {
     const results = [];
@@ -172,19 +178,17 @@ async def wait_cf(page, timeout=180):
 
 
 async def click_tab(page, tab_name):
-    """Click a tab by its visible text. Try many strategies."""
+    """Click a tab by its visible text. Multiple strategies."""
     strategies = [
-        # Exact text
         lambda: page.get_by_role("tab", name=tab_name, exact=True).click(timeout=3000),
         lambda: page.get_by_role("button", name=tab_name, exact=True).click(timeout=3000),
         lambda: page.get_by_role("link", name=tab_name, exact=True).click(timeout=3000),
-        # Locator-based
         lambda: page.locator(f'button:has-text("{tab_name}")').first.click(timeout=3000),
         lambda: page.locator(f'a:has-text("{tab_name}")').first.click(timeout=3000),
         lambda: page.locator(f'[role="tab"]:has-text("{tab_name}")').first.click(timeout=3000),
         lambda: page.locator(f'text="{tab_name}"').first.click(timeout=3000),
     ]
-    for i, strat in enumerate(strategies):
+    for strat in strategies:
         try:
             await strat()
             return True
@@ -193,15 +197,14 @@ async def click_tab(page, tab_name):
     return False
 
 
-async def scroll_to_load_all(page):
-    """Scroll down slowly to trigger lazy loading, then scroll back up."""
+async def scroll_all(page):
+    """Scroll to trigger lazy loading."""
     await page.evaluate("""async () => {
         const h = document.body.scrollHeight;
         for (let y = 0; y < h; y += 400) {
             window.scrollTo(0, y);
             await new Promise(r => setTimeout(r, 180));
         }
-        // Extra pass to catch any late-loading items
         await new Promise(r => setTimeout(r, 800));
         window.scrollTo(0, 0);
     }""")
@@ -217,100 +220,62 @@ async def scrape_one(page, key, url):
             if not await wait_cf(page, 180):
                 return {"ok": False, "items": [], "tabs": []}
 
-        # Wait for initial content
         await page.wait_for_timeout(3000)
-        await scroll_to_load_all(page)
+        await scroll_all(page)
         await page.wait_for_timeout(2000)
 
         all_items = []
         seen_keys = set()
-        tabs_found = []
+        tabs_used = []
 
-        # -------------- STEP 1: "All" / Featured items (default view) --------------
-        print("[scrape]   extracting default view (All/Featured)...")
-        initial = await page.evaluate(EXTRACT_JS)
-        for it in initial:
-            it["category"] = ""  # will assign later if it matches a tab
-            k = f"{it['name'].lower()}|{it['price']}"
-            if k not in seen_keys:
-                seen_keys.add(k)
-                all_items.append(it)
-        print(f"[scrape]     default view: {len(initial)} items")
-
-        # -------------- STEP 2: Click each tab --------------
+        # ---------- Click every tab ----------
         for tab_name in KNOWN_TABS:
-            print(f"[scrape]   clicking tab: {tab_name}")
+            print(f"[scrape]   → {tab_name}")
 
             ok = await click_tab(page, tab_name)
             if not ok:
-                print(f"[scrape]     ✗ couldn't click '{tab_name}'")
+                print(f"[scrape]     ✗ couldn't click")
                 continue
 
-            tabs_found.append(tab_name)
-
-            # Wait for content to load, then scroll to trigger lazy items
             await page.wait_for_timeout(2500)
-            await scroll_to_load_all(page)
+            await scroll_all(page)
             await page.wait_for_timeout(1500)
 
             items = await page.evaluate(EXTRACT_JS)
 
             added = 0
             for it in items:
-                it["category"] = tab_name  # assign the clicked tab as category
+                it["category"] = tab_name
                 k = f"{it['name'].lower()}|{it['price']}"
                 if k in seen_keys:
-                    # Already seen — but update category if it was blank
-                    for existing in all_items:
-                        if f"{existing['name'].lower()}|{existing['price']}" == k:
-                            if not existing.get("category"):
-                                existing["category"] = tab_name
-                            break
                     continue
                 seen_keys.add(k)
                 all_items.append(it)
                 added += 1
 
-            print(f"[scrape]     ✓ {tab_name}: {len(items)} items on page, {added} new")
+            if added > 0:
+                tabs_used.append(tab_name)
+            print(f"[scrape]     ✓ {len(items)} items, {added} new")
 
-        # -------------- STEP 3: Assign any remaining blank categories --------------
-        # Items from the default view that didn't match a tab get "Menu" or "Other"
-        blanks = 0
-        for it in all_items:
-            if not it.get("category"):
-                it["category"] = "Other"
-                blanks += 1
-        if blanks:
-            print(f"[scrape]   {blanks} items not in any known tab (tagged 'Other')")
-
-        # -------------- STEP 4: Summary --------------
+        # ---------- Summary ----------
         counts = {}
         for it in all_items:
             counts[it["category"]] = counts.get(it["category"], 0) + 1
 
-        # Order by KNOWN_TABS
-        ordered = {}
-        for t in KNOWN_TABS:
-            if counts.get(t):
-                ordered[t] = counts[t]
-        if counts.get("Other"):
-            ordered["Other"] = counts["Other"]
-
-        print(f"[scrape]   final categories: {ordered}")
+        print(f"[scrape]   categories captured: {counts}")
+        print(f"[scrape]   tabs with items: {tabs_used}")
 
         with_img = sum(1 for i in all_items if i.get("image"))
         with_desc = sum(1 for i in all_items if i.get("description"))
         with_url = sum(1 for i in all_items if i.get("url"))
+
         print(f"[scrape] {key} DONE — {len(all_items)} items "
               f"(img:{with_img} desc:{with_desc} url:{with_url})")
-
-        # Tabs that actually had items
-        used_tabs = [t for t in KNOWN_TABS if counts.get(t)]
 
         return {
             "ok": True,
             "url": url,
-            "tabs": used_tabs,
+            "tabs": tabs_used,
             "items": all_items,
         }
 
@@ -358,12 +323,14 @@ async def main():
         counts = {}
         for it in items:
             counts[it["category"]] = counts.get(it["category"], 0) + 1
-        print(f"{loc}: {len(items)} items")
-        for cat, n in counts.items():
-            print(f"    {cat}: {n}")
+        print(f"\n{loc}: {len(items)} items")
+        for tab in KNOWN_TABS:
+            n = counts.get(tab, 0)
+            mark = "✓" if n else "✗"
+            print(f"   {mark} {tab}: {n}")
 
     total = sum(len(v.get("items", [])) for v in out["locations"].values())
-    print(f"\n[done] {total} items -> {OUT_FILE}")
+    print(f"\n[done] {total} items total -> {OUT_FILE}")
 
 
 if __name__ == "__main__":
