@@ -1,4 +1,5 @@
-﻿# scrape_toast.py — FINAL: DOM headings se category detect
+# -*- coding: utf-8 -*-
+# scrape_toast.py - FINAL: DOM headings se category detect
 import asyncio
 import json
 import subprocess
@@ -30,7 +31,7 @@ TAB_ORDER = [
 ]
 
 # ------------------------------------------------------------------
-# EXTRACT — items + their nearest preceding category heading
+# EXTRACT � items + their nearest preceding category heading
 # ------------------------------------------------------------------
 EXTRACT_JS = r"""
 () => {
@@ -209,7 +210,7 @@ async def is_cf(page):
 
 
 async def wait_cf(page, timeout=180):
-    print("[scrape] Cloudflare — Chrome mein checkbox click karo")
+    print("[scrape] Cloudflare � Chrome mein checkbox click karo")
     for _ in range(timeout):
         await page.wait_for_timeout(1000)
         if not await is_cf(page):
@@ -323,7 +324,7 @@ async def scrape_one(page, key, url):
         with_img = sum(1 for i in final_items if i.get("image"))
         with_desc = sum(1 for i in final_items if i.get("description"))
 
-        print(f"[scrape] {key} DONE — {len(final_items)} items "
+        print(f"[scrape] {key} DONE � {len(final_items)} items "
               f"(img:{with_img} desc:{with_desc})")
 
         used_tabs = [t for t in TAB_ORDER if final_counts.get(t)]
@@ -382,10 +383,47 @@ async def main():
         print(f"\n{loc}: {len(items)} items")
         for tab in TAB_ORDER:
             n = counts.get(tab, 0)
-            mark = "✓" if n else "✗"
+            mark = "?" if n else "?"
             print(f"   {mark} {tab}: {n}")
 
     total = sum(len(v.get("items", [])) for v in out["locations"].values())
+
+
+    # ============================================================
+    # UPLOAD TO WORDPRESS (only when env vars are set)
+    # ============================================================
+    import os
+    import urllib.request
+    import urllib.error
+
+    WP_URL = os.environ.get("WP_URL", "")
+    WP_SECRET = os.environ.get("WP_SECRET", "")
+
+    if WP_URL and WP_SECRET:
+        print(f"\n[upload] Sending to WordPress: {WP_URL}")
+        try:
+            payload = json.dumps(out).encode("utf-8")
+            req = urllib.request.Request(
+                WP_URL,
+                data=payload,
+                method="POST",
+                headers={
+                    "Content-Type": "application/json",
+                    "x-upload-secret": WP_SECRET,
+                },
+            )
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                result = json.loads(resp.read().decode("utf-8"))
+                print(f"[upload] WordPress: {result.get('message')}")
+                print(f"[upload] Items: {result.get('items')}")
+        except urllib.error.HTTPError as e:
+            print(f"[upload] Rejected: {e.code}")
+            print(f"[upload] {e.read().decode('utf-8', errors='ignore')[:300]}")
+        except Exception as e:
+            print(f"[upload] Failed: {e}")
+    else:
+        print("[upload] Skipped (WP_URL/WP_SECRET not set - local mode)")
+
     print(f"\n[done] {total} items -> {OUT_FILE}")
 
 

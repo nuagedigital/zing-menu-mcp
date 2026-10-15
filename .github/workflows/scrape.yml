@@ -1,0 +1,40 @@
+﻿name: Zingster Menu Scraper
+
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: windows-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install patchright
+          python -m patchright install chromium
+
+      - name: Run scraper
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_SECRET: ${{ secrets.WP_SECRET }}
+        run: python scrape_toast.py
+
+      - name: Save JSON output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: toast-menu-json
+          path: data/toast-menu.json
+          if-no-files-found: ignore
