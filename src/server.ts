@@ -23,7 +23,7 @@ const ORDER_WEBHOOK_URL = process.env.ORDER_WEBHOOK_URL || ""
 const UPLOAD_SECRET = process.env.UPLOAD_SECRET || ""
 
 // ============================================================
-// MENU LOADER
+// TYPES
 // ============================================================
 type MenuItem = {
   id: string
@@ -42,10 +42,30 @@ type MenuSnapshot = {
   scrapedAt: string
 }
 
+type LocationGroup = {
+  cats: string[]
+  byCat: Record<string, MenuItem[]>
+}
+
+// ============================================================
+// HELPERS
+// ============================================================
 function slug(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
 }
 
+function escapeHtml(s: string): string {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;")
+}
+
+// ============================================================
+// MENU LOADER
+// ============================================================
 function loadMenu(): MenuSnapshot {
   if (!fs.existsSync(DATA_FILE)) {
     console.warn(`[mcp] No scrape file at ${DATA_FILE}`)
@@ -80,6 +100,9 @@ function loadMenu(): MenuSnapshot {
   return { items, scrapedAt: raw.scrapedAt || "unknown" }
 }
 
+// ============================================================
+// MCP HELPERS
+// ============================================================
 function textResult(data: unknown, isError = false) {
   return {
     content: [
@@ -246,8 +269,11 @@ function createMcpServer() {
               allMenu.find((m) => m.name.toLowerCase().includes(sel.name.toLowerCase()))
             if (!match) throw new Error(`Item not found: ${sel.name}`)
             return {
-              id: match.id, name: match.name, quantity: sel.quantity,
-              unitPrice: match.price, lineTotal: +(match.price * sel.quantity).toFixed(2),
+              id: match.id,
+              name: match.name,
+              quantity: sel.quantity,
+              unitPrice: match.price,
+              lineTotal: +(match.price * sel.quantity).toFixed(2),
             }
           })
 
@@ -257,9 +283,15 @@ function createMcpServer() {
 
           const orderRecord = {
             orderId: "ZG-" + randomUUID().slice(0, 8).toUpperCase(),
-            location: order.location, customerName: order.customerName,
-            customerPhone: order.customerPhone, pickupTime: order.pickupTime || "ASAP",
-            items: priced, subtotal, tax, total, currency: "USD",
+            location: order.location,
+            customerName: order.customerName,
+            customerPhone: order.customerPhone,
+            pickupTime: order.pickupTime || "ASAP",
+            items: priced,
+            subtotal,
+            tax,
+            total,
+            currency: "USD",
             createdAt: new Date().toISOString(),
           }
 
@@ -268,12 +300,19 @@ function createMcpServer() {
           }
 
           const res = await fetch(ORDER_WEBHOOK_URL, {
-            method: "POST", headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(orderRecord), signal: AbortSignal.timeout(15000),
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(orderRecord),
+            signal: AbortSignal.timeout(15000),
           })
           if (!res.ok) return textResult({ success: false, status: "submission_failed", draft: orderRecord }, true)
           const confirmed = await res.json().catch(() => ({}))
-          return textResult({ success: true, submittedToRestaurant: true, restaurantOrderId: confirmed.orderId || orderRecord.orderId, total })
+          return textResult({
+            success: true,
+            submittedToRestaurant: true,
+            restaurantOrderId: confirmed.orderId || orderRecord.orderId,
+            total,
+          })
         }
 
         case "refresh_menu": {
@@ -294,7 +333,119 @@ function createMcpServer() {
 }
 
 // ============================================================
-// EXPRESS HTTP
+// MENU PAGE BUILDER
+// ============================================================
+const LOCATION_LABELS: Record<string, string> = {
+  fremont: "Fremont",
+  palo_alto: "Palo Alto",
+}
+
+function groupByLocation(items: MenuItem[]) {
+  const locationKeys: string[] = []
+  const locSeen = new Set<string>()
+  for (const it of items) {
+    if (!locSeen.has(it.location)) {
+      locSeen.add(it.location)
+      locationKeys.push(it.location)
+    }
+  }
+
+  const perLoc: Record<string, LocationGroup> = {}
+  for (const loc of locationKeys) {
+    const cats: string[] = []
+    const catSeen = new Set<string>()
+    const byCat: Record<string, MenuItem[]> = {}
+    for (const it of items) {
+      if (it.location !== loc) continue
+      const c = it.category || "Menu"
+      if (!catSeen.has(c)) {
+        catSeen.add(c)
+        cats.push(c)
+      }
+      ;(byCat[c] ||= []).push(it)
+    }
+    perLoc[loc] = { cats, byCat }
+  }
+
+  return { locationKeys, perLoc }
+}
+
+function buildLocationSwitcher(locationKeys: string[]): string {
+  return `
+    <nav class="location-nav" id="location-nav">
+      ${locationKeys
+        .map(
+          (loc, i) =>
+            `<a href="#" data-loc="${loc}" class="${i === 0 ? "active" : ""}">${LOCATION_LABELS[loc] || loc}</a>`
+        )
+        .join("")}
+    </nav>
+  `
+}
+
+function buildCategoryNavs(locationKeys: string[], perLoc: Record<string, LocationGroup>): string {
+  return locationKeys
+    .map((loc, i) => {
+      const { cats } = perLoc[loc]
+      const tabs = [
+        `<a href="#" data-loc="${loc}" data-cat="all" class="active">All</a>`,
+        ...cats.map((c) => `<a href="#" data-loc="${loc}" data-cat="${slug(c)}">${c}</a>`),
+      ].join("")
+      return `
+        <div class="category-nav-wrap${i === 0 ? " active" : ""}" data-loc="${loc}">
+          <nav class="category-nav" data-loc="${loc}">${tabs}</nav>
+        </div>
+      `
+    })
+    .join("")
+}
+
+function buildLocationContents(locationKeys: string[], perLoc: Record<string, LocationGroup>): string {
+  return locationKeys
+    .map((loc, i) => {
+      const { cats, byCat } = perLoc[loc]
+      const sections = cats
+        .map(
+          (cat) => `
+            <section id="${loc}-cat-${slug(cat)}" data-loc="${loc}" data-cat="${slug(cat)}">
+              <h2>${escapeHtml(cat)}</h2>
+              <div class="grid">
+                ${byCat[cat]
+                  .map(
+                    (it) => `
+                  <div class="card">
+                    ${
+                      it.image
+                        ? `<img src="${it.image}" alt="${escapeHtml(it.name)}" loading="lazy" />`
+                        : `<div class="noimg">no image</div>`
+                    }
+                    <div class="body">
+                      <h3>${escapeHtml(it.name)}</h3>
+                      <div class="price">$${it.price.toFixed(2)}</div>
+                      ${it.description ? `<p class="desc">${escapeHtml(it.description)}</p>` : ""}
+                      ${
+                        it.url
+                          ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
+                          : `<span class="order-btn disabled">Not orderable</span>`
+                      }
+                    </div>
+                  </div>
+                `
+                  )
+                  .join("")}
+              </div>
+            </section>
+          `
+        )
+        .join("")
+
+      return `<div class="location-content${i === 0 ? " active" : ""}" data-loc="${loc}">${sections}</div>`
+    })
+    .join("")
+}
+
+// ============================================================
+// EXPRESS
 // ============================================================
 const app = express()
 
@@ -352,113 +503,14 @@ app.post("/upload-menu", (req, res) => {
   }
 })
 
-// ---------- LIVE MENU VIEW (TWO LOCATIONS) ----------
+// ---------- MENU PAGE ----------
 app.get("/menu", (_req, res) => {
   const { items, scrapedAt } = loadMenu()
+  const { locationKeys, perLoc } = groupByLocation(items)
 
-  const LOCATION_LABELS: Record<string, string> = {
-    fremont: "Fremont",
-    palo_alto: "Palo Alto",
-  }
-
-  // Discover locations in insertion order
-  const locationKeys: string[] = []
-  const locSeen = new Set<string>()
-  for (const it of items) {
-    if (!locSeen.has(it.location)) {
-      locSeen.add(it.location)
-      locationKeys.push(it.location)
-    }
-  }
-
-  // Group per location
-  const perLoc: Record<string, { cats: string[]; byCat: Record<string, MenuItem[]> }> = {}
-  for (const loc of locationKeys) {
-    const cats: string[] = []
-    const catSeen = new Set<string>()
-    const byCat: Record<string, MenuItem[]> = {}
-    for (const it of items) {
-      if (it.location !== loc) continue
-      const c = it.category || "Menu"
-      if (!catSeen.has(c)) {
-        catSeen.add(c)
-        cats.push(c)
-      }
-      ;(byCat[c] ||= []).push(it)
-    }
-    perLoc[loc] = { cats, byCat }
-  }
-
-  // ---------- Location switcher ----------
-  const locationSwitcher = `
-    <nav class="location-nav" id="location-nav">
-      ${locationKeys
-        .map(
-          (loc, i) =>
-            `<a href="#" data-loc="${loc}" class="${i === 0 ? "active" : ""}">${LOCATION_LABELS[loc] || loc}</a>`
-        )
-        .join("")}
-    </nav>
-  `
-
-  // ---------- Category tabs per location ----------
-  const categoryNavs = locationKeys
-    .map((loc, i) => {
-      const { cats } = perLoc[loc]
-      const tabs = [
-        `<a href="#" data-loc="${loc}" data-cat="all" class="active">All</a>`,
-        ...cats.map((c) => `<a href="#" data-loc="${loc}" data-cat="${slug(c)}">${c}</a>`),
-      ].join("")
-      return `
-        <div class="category-nav-wrap${i === 0 ? " active" : ""}" data-loc="${loc}">
-          <nav class="category-nav" data-loc="${loc}">${tabs}</nav>
-        </div>
-      `
-    })
-    .join("")
-
-  // ---------- Content sections per location ----------
-  const locationContents = locationKeys
-    .map((loc, i) => {
-      const { cats, byCat } = perLoc[loc]
-      const sections = cats
-        .map(
-          (cat) => `
-            <section id="${loc}-cat-${slug(cat)}" data-loc="${loc}" data-cat="${slug(cat)}">
-              <h2>${cat}</h2>
-              <div class="grid">
-                ${byCat[cat]
-                  .map(
-                    (it) => `
-                  <div class="card">
-                    ${
-                      it.image
-                        ? `<img src="${it.image}" alt="${it.name}" loading="lazy" />`
-                        : `<div class="noimg">no image</div>`
-                    }
-                    <div class="body">
-                      <h3>${it.name}</h3>
-                      <div class="price">$${it.price.toFixed(2)}</div>
-                      ${it.description ? `<p class="desc">${it.description}</p>` : ""}
-                      ${
-                        it.url
-                          ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
-                          : `<span class="order-btn disabled">Not orderable</span>`
-                      }
-                    </div>
-                  </div>
-                `
-                  )
-                  .join("")}
-              </div>
-            </section>
-          `
-        )
-        .join("")
-
-      return `<div class="location-content${i === 0 ? " active" : ""}" data-loc="${loc}">${sections}</div>`
-    })
-    .join("")
+  const locationSwitcher = buildLocationSwitcher(locationKeys)
+  const categoryNavs = buildCategoryNavs(locationKeys, perLoc)
+  const locationContents = buildLocationContents(locationKeys, perLoc)
 
   res.send(`<!doctype html>
 <html lang="en">
@@ -522,7 +574,7 @@ app.get("/menu", (_req, res) => {
     border-color: #e11d48;
   }
 
-  /* Category tabs (per location) */
+  /* Category tabs */
   .category-nav-wrap {
     position: sticky;
     top: 0;
@@ -669,32 +721,16 @@ app.get("/menu", (_req, res) => {
     // ============================================================
     function showLocation(loc) {
       currentLocation = loc;
+      locationLinks.forEach((l) => l.classList.toggle("active", l.dataset.loc === loc));
+      locationContents.forEach((c) => c.classList.toggle("active", c.dataset.loc === loc));
+      catNavWraps.forEach((w) => w.classList.toggle("active", w.dataset.loc === loc));
 
-      // Highlight location button
-      locationLinks.forEach((l) =>
-        l.classList.toggle("active", l.dataset.loc === loc)
-      );
-
-      // Show only this location's content
-      locationContents.forEach((c) =>
-        c.classList.toggle("active", c.dataset.loc === loc)
-      );
-
-      // Show only this location's category nav
-      catNavWraps.forEach((w) =>
-        w.classList.toggle("active", w.dataset.loc === loc)
-      );
-
-      // Reset category tab to "All" for the newly shown location
-      const nav = document.querySelector(
-        \`.category-nav-wrap[data-loc="\${loc}"] .category-nav\`
-      );
+      const nav = document.querySelector(\`.category-nav-wrap[data-loc="\${loc}"] .category-nav\`);
       if (nav) {
         const links = nav.querySelectorAll("a");
         links.forEach((a, i) => a.classList.toggle("active", i === 0));
       }
 
-      // Scroll to top of location
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
@@ -706,7 +742,7 @@ app.get("/menu", (_req, res) => {
     });
 
     // ============================================================
-    // 2. Category tab click — scroll to section within active location
+    // 2. Category tab click
     // ============================================================
     document.querySelectorAll(".category-nav a").forEach((link) => {
       link.addEventListener("click", (e) => {
@@ -724,7 +760,6 @@ app.get("/menu", (_req, res) => {
           }
         }
 
-        // Highlight this tab, clear siblings
         const nav = link.closest(".category-nav");
         nav.querySelectorAll("a").forEach((a) => a.classList.remove("active"));
         link.classList.add("active");
@@ -732,17 +767,13 @@ app.get("/menu", (_req, res) => {
     });
 
     // ============================================================
-    // 3. Scrollspy — highlight active section within current location
+    // 3. Scrollspy
     // ============================================================
     function updateScrollspy() {
       const sections = Array.from(
-        document.querySelectorAll(
-          \`.location-content[data-loc="\${currentLocation}"] section[data-cat]\`
-        )
+        document.querySelectorAll(\`.location-content[data-loc="\${currentLocation}"] section[data-cat]\`)
       );
-      const nav = document.querySelector(
-        \`.category-nav-wrap[data-loc="\${currentLocation}"] .category-nav\`
-      );
+      const nav = document.querySelector(\`.category-nav-wrap[data-loc="\${currentLocation}"] .category-nav\`);
       if (!sections.length || !nav) return;
 
       const scrollY = window.scrollY + 100;
@@ -760,7 +791,6 @@ app.get("/menu", (_req, res) => {
         const tab = nav.querySelector(\`a[data-cat="\${current.dataset.cat}"]\`);
         if (tab) {
           tab.classList.add("active");
-          // Center the active tab in the nav
           nav.scrollTo({
             left: tab.offsetLeft - nav.clientWidth / 2 + tab.clientWidth / 2,
             behavior: "smooth",
@@ -771,13 +801,13 @@ app.get("/menu", (_req, res) => {
       }
     }
 
-    window.addEventListener("scroll", updateScrollspy, { passive: true });
+    window.addEventListener("scroll", updateScrollSpy, { passive: true });
 
     // ============================================================
     // 4. Init
     // ============================================================
     if (currentLocation) showLocation(currentLocation);
-    updateScrollspy();
+    updateScrollSpy();
   </script>
 </body>
 </html>`)
