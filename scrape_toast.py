@@ -10,12 +10,15 @@ except Exception:
 # scrape_toast.py - FINAL
 import asyncio
 import json
+import os
+import shutil
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen
 
 from patchright.async_api import async_playwright
+from patchright.sync_api import sync_playwright
 
 URLS = {
     "fremont": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
@@ -44,6 +47,45 @@ def clean_str(s):
     if not isinstance(s, str):
         return s
     return s.replace('\ufffd', '').replace('\u2014', '-').replace('\u2013', '-').strip()
+
+
+def find_chrome():
+    """Find a browser that can be launched for CDP debugging.
+
+    GitHub Actions installs the browser through Patchright/Playwright rather than a
+    system Chrome install, so checking only the default Windows Chrome paths is
+    not enough.
+    """
+    for p in CHROME_PATHS:
+        if Path(p).exists():
+            return p
+
+    for exe in (shutil.which("chrome"), shutil.which("google-chrome"), shutil.which("chromium"), shutil.which("chromium-browser")):
+        if exe and Path(exe).exists():
+            return exe
+
+    try:
+        with sync_playwright() as p:
+            exe = p.chromium.executable_path
+            if exe and Path(exe).exists():
+                return exe
+    except Exception:
+        pass
+
+    for base in (
+        Path.home() / ".cache" / "ms-playwright",
+        Path.home() / ".local" / "share" / "ms-playwright",
+        Path.home() / "AppData" / "Local" / "ms-playwright",
+        Path("C:/ms-playwright"),
+    ):
+        if not base.exists():
+            continue
+        for pattern in ("**/chrome.exe", "**/chromium.exe", "**/chrome-win/chrome.exe"):
+            matches = sorted(base.glob(pattern))
+            if matches:
+                return str(matches[0])
+
+    return None
 
 
 EXTRACT_JS = r"""
@@ -152,13 +194,6 @@ EXTRACT_JS = r"""
 def kill_chrome():
     subprocess.run(["taskkill", "/F", "/IM", "chrome.exe", "/T"],
                    capture_output=True, shell=True)
-
-
-def find_chrome():
-    for p in CHROME_PATHS:
-        if Path(p).exists():
-            return p
-    return None
 
 
 def launch_chrome(path):
@@ -359,11 +394,6 @@ async def main():
             print(f"   {mark} {tab}: {n}")
 
     total = sum(len(v.get("items", [])) for v in out["locations"].values())
-
-    # UPLOAD TO WORDPRESS
-    import os
-    import urllib.request
-    import urllib.error
 
     WP_URL = os.environ.get("WP_URL", "")
     WP_SECRET = os.environ.get("WP_SECRET", "")
