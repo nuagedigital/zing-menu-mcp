@@ -1,6 +1,15 @@
-2026/10/14-13:44:13.726 2d88 Reusing MANIFEST C:\Users\Nuage Digital\Desktop\zingsters\zing-menu-mcp\data\chrome-profile\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/10/14-13:44:13.727 2d88 Recovering log #3
-2026/10/14-13:44:13.729 2d88 Reusing old log C:\Users\Nuage Digital\Desktop\zingsters\zing-menu-mcp\data\chrome-profile\Default\Sync Data\LevelDB/000003.log 
-2026/10/14-13:44:14.702 424c Level-0 table #5: started
-2026/10/14-13:44:14.709 424c Level-0 table #5: 148304 bytes OK
-2026/10/14-13:44:14.710 424c Delete type=0 #3
+2026/10/15-12:42:33.597 687c Reusing MANIFEST C:\Users\Nuage Digital\Desktop\zingsters\zing-menu-mcp\data\chrome-profile\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/10/15-12:42:33.598 687c Recovering log #28
+2026/10/15-12:42:33.599 687c Reusing old log C:\Users\Nuage Digital\Desktop\zingsters\zing-menu-mcp\data\chrome-profile\Default\Sync Data\LevelDB/000028.log 
+2026/10/15-13:00:52.700 7860 Level-0 table #32: started
+2026/10/15-13:00:52.709 7860 Level-0 table #32: 117918 bytes OK
+2026/10/15-13:00:52.713 7860 Delete type=0 #28
+2026/10/15-13:00:52.714 7860 Compacting 4@0 + 1@1 files
+2026/10/15-13:00:52.729 7860 Generated table #33@0: 148 keys, 18155 bytes
+2026/10/15-13:00:52.729 7860 Compacted 4@0 + 1@1 files => 18155 bytes
+2026/10/15-13:00:52.730 7860 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/15-13:00:52.732 7860 Delete type=2 #20
+2026/10/15-13:00:52.732 7860 Delete type=2 #23
+2026/10/15-13:00:52.732 7860 Delete type=2 #26
+2026/10/15-13:00:52.732 7860 Delete type=2 #29
+2026/10/15-13:00:52.732 7860 Delete type=2 #32
