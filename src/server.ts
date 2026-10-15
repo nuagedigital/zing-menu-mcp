@@ -352,61 +352,112 @@ app.post("/upload-menu", (req, res) => {
   }
 })
 
-// ---------- LIVE MENU VIEW ----------
+// ---------- LIVE MENU VIEW (TWO LOCATIONS) ----------
 app.get("/menu", (_req, res) => {
   const { items, scrapedAt } = loadMenu()
 
-  // Group by category only (not category+location) so tabs match Toast
-  const seen = new Set<string>()
-  const cats: string[] = []
-  const byCat: Record<string, MenuItem[]> = {}
-  for (const it of items) {
-    const key = it.category || "Menu"
-    if (!seen.has(key)) {
-      seen.add(key)
-      cats.push(key)
-    }
-    ;(byCat[key] ||= []).push(it)
+  const LOCATION_LABELS: Record<string, string> = {
+    fremont: "Fremont",
+    palo_alto: "Palo Alto",
   }
 
-  const navHtml = `
-    <a href="#cat-all" data-cat="all" class="active">All</a>
-    ${cats.map((c) => `<a href="#cat-${slug(c)}" data-cat="${slug(c)}">${c}</a>`).join("")}
+  // Discover locations in insertion order
+  const locationKeys: string[] = []
+  const locSeen = new Set<string>()
+  for (const it of items) {
+    if (!locSeen.has(it.location)) {
+      locSeen.add(it.location)
+      locationKeys.push(it.location)
+    }
+  }
+
+  // Group per location
+  const perLoc: Record<string, { cats: string[]; byCat: Record<string, MenuItem[]> }> = {}
+  for (const loc of locationKeys) {
+    const cats: string[] = []
+    const catSeen = new Set<string>()
+    const byCat: Record<string, MenuItem[]> = {}
+    for (const it of items) {
+      if (it.location !== loc) continue
+      const c = it.category || "Menu"
+      if (!catSeen.has(c)) {
+        catSeen.add(c)
+        cats.push(c)
+      }
+      ;(byCat[c] ||= []).push(it)
+    }
+    perLoc[loc] = { cats, byCat }
+  }
+
+  // ---------- Location switcher ----------
+  const locationSwitcher = `
+    <nav class="location-nav" id="location-nav">
+      ${locationKeys
+        .map(
+          (loc, i) =>
+            `<a href="#" data-loc="${loc}" class="${i === 0 ? "active" : ""}">${LOCATION_LABELS[loc] || loc}</a>`
+        )
+        .join("")}
+    </nav>
   `
 
-  const sectionsHtml = cats
-    .map(
-      (cat) => `
-      <section id="cat-${slug(cat)}" data-cat="${slug(cat)}">
-        <h2>${cat}</h2>
-        <div class="grid">
-          ${byCat[cat]
-            .map(
-              (it) => `
-            <div class="card">
-              ${
-                it.image
-                  ? `<img src="${it.image}" alt="${it.name}" loading="lazy" />`
-                  : `<div class="noimg">no image</div>`
-              }
-              <div class="body">
-                <h3>${it.name}</h3>
-                <div class="price">$${it.price.toFixed(2)}</div>
-                ${it.description ? `<p class="desc">${it.description}</p>` : ""}
-                ${
-                  it.url
-                    ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
-                    : `<span class="order-btn disabled">Not orderable</span>`
-                }
-              </div>
-            </div>
-          `
-            )
-            .join("")}
+  // ---------- Category tabs per location ----------
+  const categoryNavs = locationKeys
+    .map((loc, i) => {
+      const { cats } = perLoc[loc]
+      const tabs = [
+        `<a href="#" data-loc="${loc}" data-cat="all" class="active">All</a>`,
+        ...cats.map((c) => `<a href="#" data-loc="${loc}" data-cat="${slug(c)}">${c}</a>`),
+      ].join("")
+      return `
+        <div class="category-nav-wrap${i === 0 ? " active" : ""}" data-loc="${loc}">
+          <nav class="category-nav" data-loc="${loc}">${tabs}</nav>
         </div>
-      </section>
-    `
-    )
+      `
+    })
+    .join("")
+
+  // ---------- Content sections per location ----------
+  const locationContents = locationKeys
+    .map((loc, i) => {
+      const { cats, byCat } = perLoc[loc]
+      const sections = cats
+        .map(
+          (cat) => `
+            <section id="${loc}-cat-${slug(cat)}" data-loc="${loc}" data-cat="${slug(cat)}">
+              <h2>${cat}</h2>
+              <div class="grid">
+                ${byCat[cat]
+                  .map(
+                    (it) => `
+                  <div class="card">
+                    ${
+                      it.image
+                        ? `<img src="${it.image}" alt="${it.name}" loading="lazy" />`
+                        : `<div class="noimg">no image</div>`
+                    }
+                    <div class="body">
+                      <h3>${it.name}</h3>
+                      <div class="price">$${it.price.toFixed(2)}</div>
+                      ${it.description ? `<p class="desc">${it.description}</p>` : ""}
+                      ${
+                        it.url
+                          ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
+                          : `<span class="order-btn disabled">Not orderable</span>`
+                      }
+                    </div>
+                  </div>
+                `
+                  )
+                  .join("")}
+              </div>
+            </section>
+          `
+        )
+        .join("")
+
+      return `<div class="location-content${i === 0 ? " active" : ""}" data-loc="${loc}">${sections}</div>`
+    })
     .join("")
 
   res.send(`<!doctype html>
@@ -429,7 +480,7 @@ app.get("/menu", (_req, res) => {
 
   /* Page header */
   .page-header {
-    padding: 24px 24px 16px;
+    padding: 24px 24px 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -445,7 +496,33 @@ app.get("/menu", (_req, res) => {
   }
   .refresh:hover { background: #2563eb; color: white; }
 
-  /* Sticky category tabs */
+  /* Location switcher */
+  .location-nav {
+    display: flex;
+    gap: 8px;
+    padding: 8px 24px 20px;
+    border-bottom: 1px solid #2a2a2e;
+  }
+  .location-nav a {
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: #888;
+    background: #17171a;
+    border: 1px solid #2a2a2e;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  .location-nav a:hover { color: #ccc; border-color: #3a3a3e; }
+  .location-nav a.active {
+    background: #e11d48;
+    color: white;
+    border-color: #e11d48;
+  }
+
+  /* Category tabs (per location) */
   .category-nav-wrap {
     position: sticky;
     top: 0;
@@ -453,7 +530,9 @@ app.get("/menu", (_req, res) => {
     background: #0b0b0d;
     border-bottom: 1px solid #2a2a2e;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    display: none;
   }
+  .category-nav-wrap.active { display: block; }
   .category-nav {
     display: flex;
     gap: 4px;
@@ -474,12 +553,17 @@ app.get("/menu", (_req, res) => {
     border-bottom: 3px solid transparent;
     transition: color 0.15s, border-color 0.15s;
     flex-shrink: 0;
+    cursor: pointer;
   }
   .category-nav a:hover { color: #e11d48; }
   .category-nav a.active {
     color: #e11d48;
     border-bottom-color: #e11d48;
   }
+
+  /* Location content switching */
+  .location-content { display: none; }
+  .location-content.active { display: block; }
 
   /* Sections */
   main { padding: 8px 24px 40px; }
@@ -519,71 +603,33 @@ app.get("/menu", (_req, res) => {
     box-shadow: 0 8px 24px rgba(0,0,0,0.4);
   }
   .card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    background: #222;
-    display: block;
+    width: 100%; height: 180px; object-fit: cover; background: #222; display: block;
   }
   .noimg {
-    width: 100%;
-    height: 180px;
-    background: #1d1d20;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #555;
-    font-size: 12px;
+    width: 100%; height: 180px; background: #1d1d20;
+    display: flex; align-items: center; justify-content: center;
+    color: #555; font-size: 12px;
   }
-  .body {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-  }
-  .body h3 {
-    margin: 0 0 6px 0;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: -0.01em;
-  }
-  .price {
-    color: #22c55e;
-    font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 8px;
-  }
-  .desc {
-    margin: 0 0 12px 0;
-    color: #999;
-    font-size: 13px;
-    line-height: 1.5;
-    flex: 1;
-  }
+  .body { padding: 16px; display: flex; flex-direction: column; flex: 1; }
+  .body h3 { margin: 0 0 6px 0; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
+  .price { color: #22c55e; font-weight: 700; font-size: 16px; margin-bottom: 8px; }
+  .desc { margin: 0 0 12px 0; color: #999; font-size: 13px; line-height: 1.5; flex: 1; }
   .order-btn {
-    display: inline-block;
-    padding: 10px 16px;
-    background: #22c55e;
-    color: #0a0a0a;
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 13px;
-    text-align: center;
-    transition: background 0.15s, transform 0.1s;
+    display: inline-block; padding: 10px 16px;
+    background: #22c55e; color: #0a0a0a; font-weight: 700;
+    text-decoration: none; border-radius: 8px; font-size: 13px;
+    text-align: center; transition: background 0.15s, transform 0.1s;
   }
   .order-btn:hover { background: #16a34a; color: white; }
   .order-btn:active { transform: scale(0.98); }
-  .order-btn.disabled {
-    background: #2a2a2e;
-    color: #555;
-    cursor: not-allowed;
-  }
+  .order-btn.disabled { background: #2a2a2e; color: #555; cursor: not-allowed; }
 
   /* Mobile */
   @media (max-width: 640px) {
-    .page-header { padding: 20px 16px 12px; }
+    .page-header { padding: 20px 16px 8px; }
     h1 { font-size: 22px; }
+    .location-nav { padding: 4px 16px 16px; gap: 6px; }
+    .location-nav a { padding: 10px 16px; font-size: 14px; flex: 1; text-align: center; }
     .grid { grid-template-columns: 1fr; gap: 16px; }
     main { padding: 4px 16px 40px; }
     section h2 { font-size: 18px; }
@@ -601,75 +647,137 @@ app.get("/menu", (_req, res) => {
     <a class="refresh" href="/menu">🔄 Refresh</a>
   </div>
 
-  <div class="category-nav-wrap">
-    <nav class="category-nav" id="category-nav">
-      ${navHtml}
-    </nav>
-  </div>
+  ${locationSwitcher}
+  ${categoryNavs}
 
   <main>
-    ${sectionsHtml}
+    ${locationContents}
   </main>
 
   <script>
-    // -------- Smooth scroll on tab click --------
-    const navLinks = Array.from(document.querySelectorAll("#category-nav a"));
+    // ============================================================
+    // State
+    // ============================================================
+    const locationLinks = Array.from(document.querySelectorAll("#location-nav a"));
+    const locationContents = Array.from(document.querySelectorAll(".location-content"));
+    const catNavWraps = Array.from(document.querySelectorAll(".category-nav-wrap"));
 
-    navLinks.forEach((link) => {
+    let currentLocation = locationLinks[0]?.dataset.loc || "";
+
+    // ============================================================
+    // 1. Location switching
+    // ============================================================
+    function showLocation(loc) {
+      currentLocation = loc;
+
+      // Highlight location button
+      locationLinks.forEach((l) =>
+        l.classList.toggle("active", l.dataset.loc === loc)
+      );
+
+      // Show only this location's content
+      locationContents.forEach((c) =>
+        c.classList.toggle("active", c.dataset.loc === loc)
+      );
+
+      // Show only this location's category nav
+      catNavWraps.forEach((w) =>
+        w.classList.toggle("active", w.dataset.loc === loc)
+      );
+
+      // Reset category tab to "All" for the newly shown location
+      const nav = document.querySelector(
+        \`.category-nav-wrap[data-loc="\${loc}"] .category-nav\`
+      );
+      if (nav) {
+        const links = nav.querySelectorAll("a");
+        links.forEach((a, i) => a.classList.toggle("active", i === 0));
+      }
+
+      // Scroll to top of location
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    locationLinks.forEach((link) => {
       link.addEventListener("click", (e) => {
         e.preventDefault();
-        const slug = link.dataset.cat;
+        showLocation(link.dataset.loc);
+      });
+    });
 
-        if (slug === "all") {
+    // ============================================================
+    // 2. Category tab click — scroll to section within active location
+    // ============================================================
+    document.querySelectorAll(".category-nav a").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const loc = link.dataset.loc;
+        const cat = link.dataset.cat;
+
+        if (cat === "all") {
           window.scrollTo({ top: 0, behavior: "smooth" });
         } else {
-          const target = document.getElementById("cat-" + slug);
+          const target = document.getElementById(\`\${loc}-cat-\${cat}\`);
           if (target) {
             const top = target.getBoundingClientRect().top + window.scrollY - 70;
             window.scrollTo({ top, behavior: "smooth" });
           }
         }
 
-        navLinks.forEach((l) => l.classList.remove("active"));
+        // Highlight this tab, clear siblings
+        const nav = link.closest(".category-nav");
+        nav.querySelectorAll("a").forEach((a) => a.classList.remove("active"));
         link.classList.add("active");
       });
     });
 
-    // -------- Scrollspy — highlight current section --------
-    const sections = Array.from(document.querySelectorAll("section[data-cat]"));
-
-    function setActive(slug) {
-      navLinks.forEach((l) =>
-        l.classList.toggle("active", l.dataset.cat === slug)
+    // ============================================================
+    // 3. Scrollspy — highlight active section within current location
+    // ============================================================
+    function updateScrollspy() {
+      const sections = Array.from(
+        document.querySelectorAll(
+          \`.location-content[data-loc="\${currentLocation}"] section[data-cat]\`
+        )
       );
-      const active = document.querySelector("#category-nav a.active");
-      if (active && active.parentElement) {
-        const parent = active.parentElement;
-        parent.scrollTo({
-          left: active.offsetLeft - parent.clientWidth / 2 + active.clientWidth / 2,
-          behavior: "smooth",
-        });
+      const nav = document.querySelector(
+        \`.category-nav-wrap[data-loc="\${currentLocation}"] .category-nav\`
+      );
+      if (!sections.length || !nav) return;
+
+      const scrollY = window.scrollY + 100;
+      let current = null;
+      for (const s of sections) {
+        const top = s.getBoundingClientRect().top + window.scrollY;
+        if (top <= scrollY) current = s;
+        else break;
+      }
+
+      const links = nav.querySelectorAll("a");
+      links.forEach((a) => a.classList.remove("active"));
+
+      if (current) {
+        const tab = nav.querySelector(\`a[data-cat="\${current.dataset.cat}"]\`);
+        if (tab) {
+          tab.classList.add("active");
+          // Center the active tab in the nav
+          nav.scrollTo({
+            left: tab.offsetLeft - nav.clientWidth / 2 + tab.clientWidth / 2,
+            behavior: "smooth",
+          });
+        }
+      } else {
+        links[0]?.classList.add("active");
       }
     }
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
-        if (visible.length > 0) {
-          setActive(visible[0].target.dataset.cat);
-        }
-      },
-      { rootMargin: "-80px 0px -60% 0px", threshold: 0 }
-    );
+    window.addEventListener("scroll", updateScrollspy, { passive: true });
 
-    sections.forEach((s) => observer.observe(s));
-
-    // -------- "All" highlight when at very top --------
-    window.addEventListener("scroll", () => {
-      if (window.scrollY < 100) setActive("all");
-    });
+    // ============================================================
+    // 4. Init
+    // ============================================================
+    if (currentLocation) showLocation(currentLocation);
+    updateScrollspy();
   </script>
 </body>
 </html>`)
