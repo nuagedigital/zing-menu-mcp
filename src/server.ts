@@ -47,6 +47,29 @@ type LocationGroup = {
   byCat: Record<string, MenuItem[]>
 }
 
+// Exact tab order from Toast
+const TAB_ORDER = [
+  "Burgers",
+  "Wraps",
+  "Bowls",
+  "Sides",
+  "Milkshakes",
+  "Drinks",
+  "Sauce",
+  "Kids Menu",
+  "Tender Only",
+]
+
+const LOCATION_LABELS: Record<string, string> = {
+  fremont: "Zingsters - Fremont",
+  palo_alto: "Zingsters - Palo Alto",
+}
+
+const LOCATION_ADDRESSES: Record<string, string> = {
+  fremont: "4169 Cushing Parkway, Fremont, CA",
+  palo_alto: "220B University Ave, Palo Alto, CA",
+}
+
 // ============================================================
 // HELPERS
 // ============================================================
@@ -333,13 +356,8 @@ function createMcpServer() {
 }
 
 // ============================================================
-// MENU PAGE BUILDER
+// GROUPING — sort categories using TAB_ORDER
 // ============================================================
-const LOCATION_LABELS: Record<string, string> = {
-  fremont: "Fremont",
-  palo_alto: "Palo Alto",
-}
-
 function groupByLocation(items: MenuItem[]) {
   const locationKeys: string[] = []
   const locSeen = new Set<string>()
@@ -355,6 +373,7 @@ function groupByLocation(items: MenuItem[]) {
     const cats: string[] = []
     const catSeen = new Set<string>()
     const byCat: Record<string, MenuItem[]> = {}
+
     for (const it of items) {
       if (it.location !== loc) continue
       const c = it.category || "Menu"
@@ -364,22 +383,40 @@ function groupByLocation(items: MenuItem[]) {
       }
       ;(byCat[c] ||= []).push(it)
     }
+
+    // Sort categories by TAB_ORDER, unknown ones at the end
+    cats.sort((a, b) => {
+      const ia = TAB_ORDER.indexOf(a)
+      const ib = TAB_ORDER.indexOf(b)
+      if (ia === -1 && ib === -1) return a.localeCompare(b)
+      if (ia === -1) return 1
+      if (ib === -1) return -1
+      return ia - ib
+    })
+
     perLoc[loc] = { cats, byCat }
   }
 
   return { locationKeys, perLoc }
 }
 
+// ============================================================
+// HTML BUILDERS
+// ============================================================
 function buildLocationSwitcher(locationKeys: string[]): string {
   return `
-    <nav class="location-nav" id="location-nav">
+    <div class="location-tabs" id="location-tabs">
       ${locationKeys
         .map(
-          (loc, i) =>
-            `<a href="#" data-loc="${loc}" class="${i === 0 ? "active" : ""}">${LOCATION_LABELS[loc] || loc}</a>`
+          (loc, i) => `
+        <button class="loc-btn${i === 0 ? " active" : ""}" data-loc="${loc}">
+          <span class="loc-name">${LOCATION_LABELS[loc] || loc}</span>
+          <span class="loc-addr">${LOCATION_ADDRESSES[loc] || ""}</span>
+        </button>
+      `
         )
         .join("")}
-    </nav>
+    </div>
   `
 }
 
@@ -388,12 +425,12 @@ function buildCategoryNavs(locationKeys: string[], perLoc: Record<string, Locati
     .map((loc, i) => {
       const { cats } = perLoc[loc]
       const tabs = [
-        `<a href="#" data-loc="${loc}" data-cat="all" class="active">All</a>`,
-        ...cats.map((c) => `<a href="#" data-loc="${loc}" data-cat="${slug(c)}">${c}</a>`),
+        `<button class="cat-btn active" data-loc="${loc}" data-cat="all">All</button>`,
+        ...cats.map((c) => `<button class="cat-btn" data-loc="${loc}" data-cat="${slug(c)}">${c}</button>`),
       ].join("")
       return `
-        <div class="category-nav-wrap${i === 0 ? " active" : ""}" data-loc="${loc}">
-          <nav class="category-nav" data-loc="${loc}">${tabs}</nav>
+        <div class="category-tabs${i === 0 ? " active" : ""}" data-loc="${loc}">
+          <div class="cat-scroll">${tabs}</div>
         </div>
       `
     })
@@ -408,26 +445,25 @@ function buildLocationContents(locationKeys: string[], perLoc: Record<string, Lo
         .map(
           (cat) => `
             <section id="${loc}-cat-${slug(cat)}" data-loc="${loc}" data-cat="${slug(cat)}">
-              <h2>${escapeHtml(cat)}</h2>
+              <div class="section-head">
+                <h2>${escapeHtml(cat)}</h2>
+                <span class="section-count">${byCat[cat].length} item${byCat[cat].length === 1 ? "" : "s"}</span>
+              </div>
               <div class="grid">
                 ${byCat[cat]
                   .map(
                     (it) => `
                   <div class="card">
-                    ${
-                      it.image
+                    ${it.image
                         ? `<img src="${it.image}" alt="${escapeHtml(it.name)}" loading="lazy" />`
-                        : `<div class="noimg">no image</div>`
-                    }
+                        : `<div class="noimg">no image</div>`}
                     <div class="body">
                       <h3>${escapeHtml(it.name)}</h3>
                       <div class="price">$${it.price.toFixed(2)}</div>
                       ${it.description ? `<p class="desc">${escapeHtml(it.description)}</p>` : ""}
-                      ${
-                        it.url
-                          ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
-                          : `<span class="order-btn disabled">Not orderable</span>`
-                      }
+                      ${it.url
+                        ? `<a class="order-btn" href="${it.url}" target="_blank" rel="noopener">Order →</a>`
+                        : `<span class="order-btn disabled">Not orderable</span>`}
                     </div>
                   </div>
                 `
@@ -439,7 +475,7 @@ function buildLocationContents(locationKeys: string[], perLoc: Record<string, Lo
         )
         .join("")
 
-      return `<div class="location-content${i === 0 ? " active" : ""}" data-loc="${loc}">${sections}</div>`
+      return `<div class="location-panel${i === 0 ? " active" : ""}" data-loc="${loc}">${sections}</div>`
     })
     .join("")
 }
@@ -517,186 +553,302 @@ app.get("/menu", (_req, res) => {
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Zingster Menu</title>
+<title>Zingsters Menu</title>
 <style>
-  * { box-sizing: border-box; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
   body {
-    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    background: #0b0b0d;
-    color: #eee;
-    margin: 0;
-    padding: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #0a0a0c;
+    color: #f0f0f0;
     -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
   }
 
-  /* Page header */
+  /* ============ HEADER ============ */
   .page-header {
-    padding: 24px 24px 12px;
+    padding: 32px 32px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 16px;
+    border-bottom: 1px solid #1e1e22;
   }
-  h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
-  .meta { color: #888; font-size: 13px; margin-top: 4px; }
-  .refresh {
-    color: #2563eb; text-decoration: none; font-weight: 500;
-    padding: 8px 16px; border: 1px solid #2563eb; border-radius: 8px;
-    font-size: 14px; transition: all 0.15s;
+  .brand h1 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #fff;
   }
-  .refresh:hover { background: #2563eb; color: white; }
-
-  /* Location switcher */
-  .location-nav {
-    display: flex;
-    gap: 8px;
-    padding: 8px 24px 20px;
-    border-bottom: 1px solid #2a2a2e;
+  .brand .tagline {
+    color: #666;
+    font-size: 13px;
+    margin-top: 4px;
   }
-  .location-nav a {
-    padding: 12px 24px;
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 15px;
+  .refresh-btn {
+    color: #fff;
     text-decoration: none;
-    color: #888;
-    background: #17171a;
-    border: 1px solid #2a2a2e;
-    transition: all 0.15s;
-    cursor: pointer;
-  }
-  .location-nav a:hover { color: #ccc; border-color: #3a3a3e; }
-  .location-nav a.active {
+    font-weight: 600;
+    padding: 10px 20px;
     background: #e11d48;
-    color: white;
-    border-color: #e11d48;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
   }
+  .refresh-btn:hover { background: #f43f5e; transform: translateY(-1px); }
 
-  /* Category tabs */
-  .category-nav-wrap {
+  /* ============ LOCATION SWITCHER ============ */
+  .location-tabs {
+    display: flex;
+    gap: 12px;
+    padding: 20px 32px;
+    background: #0f0f12;
+    border-bottom: 1px solid #1e1e22;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .location-tabs::-webkit-scrollbar { display: none; }
+  .loc-btn {
+    flex-shrink: 0;
+    background: #17171c;
+    border: 1.5px solid #26262e;
+    border-radius: 12px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.15s;
+    font-family: inherit;
+    color: inherit;
+    min-width: 220px;
+  }
+  .loc-btn:hover {
+    border-color: #3a3a44;
+    background: #1d1d24;
+  }
+  .loc-btn.active {
+    background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+    border-color: #e11d48;
+    box-shadow: 0 8px 24px rgba(225, 29, 72, 0.35);
+  }
+  .loc-name {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .loc-addr {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 2px;
+  }
+  .loc-btn.active .loc-addr { color: rgba(255,255,255,0.75); }
+
+  /* ============ CATEGORY TABS ============ */
+  .category-tabs {
     position: sticky;
     top: 0;
     z-index: 100;
-    background: #0b0b0d;
-    border-bottom: 1px solid #2a2a2e;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    background: rgba(10, 10, 12, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #1e1e22;
     display: none;
   }
-  .category-nav-wrap.active { display: block; }
-  .category-nav {
+  .category-tabs.active { display: block; }
+  .cat-scroll {
     display: flex;
-    gap: 4px;
-    padding: 0 16px;
+    gap: 6px;
+    padding: 12px 32px;
     overflow-x: auto;
-    overflow-y: hidden;
     scrollbar-width: none;
-    -ms-overflow-style: none;
   }
-  .category-nav::-webkit-scrollbar { display: none; }
-  .category-nav a {
-    color: #999;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 15px;
-    padding: 16px 14px;
-    white-space: nowrap;
-    border-bottom: 3px solid transparent;
-    transition: color 0.15s, border-color 0.15s;
+  .cat-scroll::-webkit-scrollbar { display: none; }
+  .cat-btn {
     flex-shrink: 0;
+    background: transparent;
+    border: none;
+    color: #8a8a92;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+    white-space: nowrap;
   }
-  .category-nav a:hover { color: #e11d48; }
-  .category-nav a.active {
-    color: #e11d48;
-    border-bottom-color: #e11d48;
+  .cat-btn:hover {
+    color: #fff;
+    background: #1a1a20;
+  }
+  .cat-btn.active {
+    color: #fff;
+    background: #e11d48;
   }
 
-  /* Location content switching */
-  .location-content { display: none; }
-  .location-content.active { display: block; }
+  /* ============ LOCATION CONTENT ============ */
+  .location-panel { display: none; }
+  .location-panel.active { display: block; }
 
-  /* Sections */
-  main { padding: 8px 24px 40px; }
+  main { padding: 0 32px 60px; }
+
+  /* ============ SECTIONS ============ */
   section {
-    scroll-margin-top: 80px;
-    padding: 32px 0 16px;
+    scroll-margin-top: 90px;
+    padding: 40px 0 24px;
   }
-  section h2 {
-    font-size: 22px;
-    margin: 0 0 20px 0;
-    padding-left: 14px;
-    border-left: 4px solid #e11d48;
-    font-weight: 700;
-    letter-spacing: -0.01em;
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #1e1e22;
+  }
+  .section-head h2 {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #fff;
+    position: relative;
+    padding-left: 16px;
+  }
+  .section-head h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 6px;
+    width: 4px;
+    background: #e11d48;
+    border-radius: 2px;
+  }
+  .section-count {
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
   }
 
-  /* Grid */
+  /* ============ GRID ============ */
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
   }
 
-  /* Cards */
+  /* ============ CARD ============ */
   .card {
-    background: #17171a;
-    border: 1px solid #2a2a2e;
-    border-radius: 14px;
+    background: #121216;
+    border: 1px solid #1e1e22;
+    border-radius: 16px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+    transition: all 0.2s;
   }
   .card:hover {
-    transform: translateY(-2px);
-    border-color: #3a3a3e;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    transform: translateY(-3px);
+    border-color: #2d2d38;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.5);
   }
   .card img {
-    width: 100%; height: 180px; object-fit: cover; background: #222; display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: #1a1a1f;
+    display: block;
   }
   .noimg {
-    width: 100%; height: 180px; background: #1d1d20;
-    display: flex; align-items: center; justify-content: center;
-    color: #555; font-size: 12px;
+    width: 100%;
+    height: 200px;
+    background: #1a1a1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    font-size: 12px;
   }
-  .body { padding: 16px; display: flex; flex-direction: column; flex: 1; }
-  .body h3 { margin: 0 0 6px 0; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
-  .price { color: #22c55e; font-weight: 700; font-size: 16px; margin-bottom: 8px; }
-  .desc { margin: 0 0 12px 0; color: #999; font-size: 13px; line-height: 1.5; flex: 1; }
+  .body {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .body h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+  .price {
+    color: #22c55e;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .desc {
+    color: #888;
+    font-size: 13px;
+    line-height: 1.55;
+    margin-bottom: 14px;
+    flex: 1;
+  }
   .order-btn {
-    display: inline-block; padding: 10px 16px;
-    background: #22c55e; color: #0a0a0a; font-weight: 700;
-    text-decoration: none; border-radius: 8px; font-size: 13px;
-    text-align: center; transition: background 0.15s, transform 0.1s;
+    display: inline-block;
+    padding: 11px 18px;
+    background: #22c55e;
+    color: #052e16;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.15s;
+    margin-top: auto;
   }
-  .order-btn:hover { background: #16a34a; color: white; }
+  .order-btn:hover { background: #16a34a; color: #fff; }
   .order-btn:active { transform: scale(0.98); }
-  .order-btn.disabled { background: #2a2a2e; color: #555; cursor: not-allowed; }
-
-  /* Mobile */
-  @media (max-width: 640px) {
-    .page-header { padding: 20px 16px 8px; }
-    h1 { font-size: 22px; }
-    .location-nav { padding: 4px 16px 16px; gap: 6px; }
-    .location-nav a { padding: 10px 16px; font-size: 14px; flex: 1; text-align: center; }
-    .grid { grid-template-columns: 1fr; gap: 16px; }
-    main { padding: 4px 16px 40px; }
-    section h2 { font-size: 18px; }
-    .category-nav a { padding: 14px 12px; font-size: 14px; }
+  .order-btn.disabled {
+    background: #1e1e22;
+    color: #555;
+    cursor: not-allowed;
   }
+
+  /* ============ MOBILE ============ */
+  @media (max-width: 720px) {
+    .page-header { padding: 20px 16px 16px; }
+    .brand h1 { font-size: 22px; }
+    .location-tabs { padding: 16px; gap: 8px; }
+    .loc-btn { min-width: 180px; padding: 10px 16px; }
+    .cat-scroll { padding: 10px 16px; gap: 4px; }
+    .cat-btn { padding: 8px 14px; font-size: 13px; }
+    main { padding: 0 16px 40px; }
+    section { padding: 28px 0 16px; }
+    .section-head h2 { font-size: 19px; }
+    .grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .card img, .noimg { height: 180px; }
+  }
+
+  /* Hide sections when filtering */
+  section[data-hidden="true"] { display: none; }
 </style>
 </head>
 <body>
 
   <div class="page-header">
-    <div>
-      <h1>Zingster Menu</h1>
-      <div class="meta">${items.length} items · scraped ${scrapedAt}</div>
+    <div class="brand">
+      <h1>Zingsters Menu</h1>
+      <div class="tagline">${items.length} items · updated ${scrapedAt}</div>
     </div>
-    <a class="refresh" href="/menu">🔄 Refresh</a>
+    <a class="refresh-btn" href="/menu">🔄 Refresh</a>
   </div>
 
   ${locationSwitcher}
@@ -708,75 +860,90 @@ app.get("/menu", (_req, res) => {
 
   <script>
     // ============================================================
-    // State
+    // STATE
     // ============================================================
-    const locationLinks = Array.from(document.querySelectorAll("#location-nav a"));
-    const locationContents = Array.from(document.querySelectorAll(".location-content"));
-    const catNavWraps = Array.from(document.querySelectorAll(".category-nav-wrap"));
+    const locButtons = Array.from(document.querySelectorAll(".loc-btn"));
+    const catTabs = Array.from(document.querySelectorAll(".category-tabs"));
+    const panels = Array.from(document.querySelectorAll(".location-panel"));
+    const catButtons = Array.from(document.querySelectorAll(".cat-btn"));
 
-    let currentLocation = locationLinks[0]?.dataset.loc || "";
+    let currentLoc = locButtons[0]?.dataset.loc || "";
+    let currentCat = "all";
 
     // ============================================================
-    // 1. Location switching
+    // LOCATION SWITCH
     // ============================================================
     function showLocation(loc) {
-      currentLocation = loc;
-      locationLinks.forEach((l) => l.classList.toggle("active", l.dataset.loc === loc));
-      locationContents.forEach((c) => c.classList.toggle("active", c.dataset.loc === loc));
-      catNavWraps.forEach((w) => w.classList.toggle("active", w.dataset.loc === loc));
+      currentLoc = loc;
+      currentCat = "all";
 
-      const nav = document.querySelector(\`.category-nav-wrap[data-loc="\${loc}"] .category-nav\`);
-      if (nav) {
-        const links = nav.querySelectorAll("a");
-        links.forEach((a, i) => a.classList.toggle("active", i === 0));
+      locButtons.forEach((b) => b.classList.toggle("active", b.dataset.loc === loc));
+      panels.forEach((p) => p.classList.toggle("active", p.dataset.loc === loc));
+      catTabs.forEach((t) => t.classList.toggle("active", t.dataset.loc === loc));
+
+      // Reset category tabs to "All"
+      const activeCatBar = document.querySelector(\`.category-tabs[data-loc="\${loc}"]\`);
+      if (activeCatBar) {
+        activeCatBar.querySelectorAll(".cat-btn").forEach((b, i) => {
+          b.classList.toggle("active", i === 0);
+        });
       }
+
+      // Show all sections
+      document.querySelectorAll(\`.location-panel[data-loc="\${loc}"] section\`).forEach((s) => {
+        s.dataset.hidden = "false";
+      });
 
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
-    locationLinks.forEach((link) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        showLocation(link.dataset.loc);
-      });
+    locButtons.forEach((b) => {
+      b.addEventListener("click", () => showLocation(b.dataset.loc));
     });
 
     // ============================================================
-    // 2. Category tab click
+    // CATEGORY FILTER — smooth scroll + hide others
     // ============================================================
-    document.querySelectorAll(".category-nav a").forEach((link) => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const loc = link.dataset.loc;
-        const cat = link.dataset.cat;
+    catButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const loc = btn.dataset.loc;
+        const cat = btn.dataset.cat;
+        if (loc !== currentLoc) return;
 
+        currentCat = cat;
+
+        // Update active state
+        const activeBar = document.querySelector(\`.category-tabs[data-loc="\${loc}"]\`);
+        activeBar.querySelectorAll(".cat-btn").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        // Scroll to top first if "All"
         if (cat === "all") {
           window.scrollTo({ top: 0, behavior: "smooth" });
-        } else {
-          const target = document.getElementById(\`\${loc}-cat-\${cat}\`);
-          if (target) {
-            const top = target.getBoundingClientRect().top + window.scrollY - 70;
-            window.scrollTo({ top, behavior: "smooth" });
-          }
+          return;
         }
 
-        const nav = link.closest(".category-nav");
-        nav.querySelectorAll("a").forEach((a) => a.classList.remove("active"));
-        link.classList.add("active");
+        // Scroll to that section
+        const target = document.getElementById(\`\${loc}-cat-\${cat}\`);
+        if (target) {
+          const top = target.getBoundingClientRect().top + window.scrollY - 80;
+          window.scrollTo({ top, behavior: "smooth" });
+        }
       });
     });
 
     // ============================================================
-    // 3. Scrollspy
+    // SCROLLSPY — highlight tab as user scrolls
     // ============================================================
     function updateScrollspy() {
-      const sections = Array.from(
-        document.querySelectorAll(\`.location-content[data-loc="\${currentLocation}"] section[data-cat]\`)
-      );
-      const nav = document.querySelector(\`.category-nav-wrap[data-loc="\${currentLocation}"] .category-nav\`);
-      if (!sections.length || !nav) return;
+      const activePanel = document.querySelector(\`.location-panel[data-loc="\${currentLoc}"]\`);
+      if (!activePanel) return;
 
-      const scrollY = window.scrollY + 100;
+      const sections = Array.from(activePanel.querySelectorAll("section[data-cat]"));
+      const activeBar = document.querySelector(\`.category-tabs[data-loc="\${currentLoc}"]\`);
+      if (!activeBar) return;
+
+      const scrollY = window.scrollY + 120;
       let current = null;
       for (const s of sections) {
         const top = s.getBoundingClientRect().top + window.scrollY;
@@ -784,30 +951,33 @@ app.get("/menu", (_req, res) => {
         else break;
       }
 
-      const links = nav.querySelectorAll("a");
-      links.forEach((a) => a.classList.remove("active"));
+      activeBar.querySelectorAll(".cat-btn").forEach((b) => b.classList.remove("active"));
 
       if (current) {
-        const tab = nav.querySelector(\`a[data-cat="\${current.dataset.cat}"]\`);
+        const tab = activeBar.querySelector(\`.cat-btn[data-cat="\${current.dataset.cat}"]\`);
         if (tab) {
           tab.classList.add("active");
-          nav.scrollTo({
-            left: tab.offsetLeft - nav.clientWidth / 2 + tab.clientWidth / 2,
-            behavior: "smooth",
-          });
+          // Center the active tab
+          const parent = activeBar.querySelector(".cat-scroll");
+          if (parent) {
+            parent.scrollTo({
+              left: tab.offsetLeft - parent.clientWidth / 2 + tab.clientWidth / 2,
+              behavior: "smooth",
+            });
+          }
         }
       } else {
-        links[0]?.classList.add("active");
+        activeBar.querySelector(".cat-btn")?.classList.add("active");
       }
     }
 
-    window.addEventListener("scroll", updateScrollSpy, { passive: true });
+    window.addEventListener("scroll", updateScrollspy, { passive: true });
 
     // ============================================================
-    // 4. Init
+    // INIT
     // ============================================================
-    if (currentLocation) showLocation(currentLocation);
-    updateScrollSpy();
+    if (currentLoc) showLocation(currentLoc);
+    updateScrollspy();
   </script>
 </body>
 </html>`)
