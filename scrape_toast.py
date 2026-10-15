@@ -1,7 +1,6 @@
-﻿# scrape_toast.py — full data scraper with proper categories
+﻿# scrape_toast.py — captures Toast category tabs + items
 import asyncio
 import json
-import os
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -25,33 +24,66 @@ CHROME_PATHS = [
 
 CDP_URL = "http://127.0.0.1:9222"
 
-# Toast page uses category tabs/sections. This captures each section header
-# and the items underneath it.
+# Step 1: grab category tabs
+EXTRACT_TABS_JS = r"""
+() => {
+    const tabs = [];
+    // Toast nav tabs usually sit in a horizontal bar. Try several selectors.
+    const cand = document.querySelectorAll(
+        'nav a, [role="tab"], [class*="category"], [class*="Category"], '
+        + '[class*="tab"], [class*="Tab"] a, [class*="menuNav"] a, '
+        + '[class*="navigation"] a, header a'
+    );
+    const seen = new Set();
+    cand.forEach((el) => {
+        const t = (el.textContent || '').trim();
+        if (!t) return;
+        if (t.length < 2 || t.length > 30) return;
+        if (t.includes('$')) return;
+        if (/^(menu|order|cart|checkout|login|home|search|view cart|add|back)$/i.test(t)) return;
+        if (seen.has(t.toLowerCase())) return;
+        seen.add(t.toLowerCase());
+        tabs.push(t);
+    });
+    return tabs;
+}
+"""
+
+# Step 2: grab items, assigned to nearest tab when scrolled
 EXTRACT_JS = r"""
 () => {
     const results = [];
+    const seen = new Set();
 
-    // ---- Strategy 1: Walk all menu item cards and find their nearest category header ----
+    // Collect tab positions if present in DOM
+    const tabEls = document.querySelectorAll(
+        '[role="tab"], nav a, [class*="category"], [class*="Category"]'
+    );
+    const tabPositions = [];
+    tabEls.forEach((el) => {
+        const t = (el.textContent || '').trim();
+        if (!t || t.length < 2 || t.length > 30) return;
+        if (t.includes('$')) return;
+        const r = el.getBoundingClientRect();
+        tabPositions.push({ text: t, y: r.top + window.scrollY });
+    });
+    tabPositions.sort((a, b) => a.y - b.y);
+
+    // Also collect heading positions as fallback
+    const headings = [];
+    document.querySelectorAll('h1, h2, h3, h4').forEach((h) => {
+        const t = (h.textContent || '').trim();
+        if (!t || t.length < 2 || t.length > 50) return;
+        if (t.includes('$')) return;
+        const r = h.getBoundingClientRect();
+        headings.push({ text: t, y: r.top + window.scrollY });
+    });
+    headings.sort((a, b) => a.y - b.y);
+
     const cards = document.querySelectorAll(
         '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
         + '[data-testid*="menu-item"], a[href*="/item/"]'
     );
-
-    // Collect all category header candidates with their document position
-    const headers = [];
-    document.querySelectorAll('h1, h2, h3, h4, [class*="categoryName"], [class*="CategoryName"], [role="heading"]').forEach((h) => {
-        const text = (h.textContent || '').trim();
-        if (!text || text.length < 2 || text.length > 50) return;
-        if (text.includes('$')) return;
-        if (/^menu$/i.test(text)) return;
-        // Get Y position
-        const rect = h.getBoundingClientRect();
-        headers.push({ text, y: rect.top + window.scrollY, el: h });
-    });
-    // Sort by document position
-    headers.sort((a, b) => a.y - b.y);
-
-    const seen = new Set();
 
     cards.forEach((node) => {
         // NAME
@@ -71,22 +103,21 @@ EXTRACT_JS = r"""
 
         // PRICE
         const fullText = node.textContent || '';
-        const priceMatch = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
-        if (!priceMatch) return;
-        const price = parseFloat(priceMatch[1]);
+        const pm = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
+        if (!pm) return;
+        const price = parseFloat(pm[1]);
         if (!price || price <= 0) return;
 
         // DESCRIPTION
         let description = '';
-        const descCands = node.querySelectorAll(
+        const dcs = node.querySelectorAll(
             '[class*="description"], [class*="Description"], '
             + '[class*="subtitle"], [class*="Subtitle"], p'
         );
-        for (const d of descCands) {
+        for (const d of dcs) {
             const t = (d.textContent || '').trim();
             if (t.length > 8 && t.length < 500 && t !== name && !t.match(/^\$/)) {
-                description = t;
-                break;
+                description = t; break;
             }
         }
 
@@ -95,8 +126,8 @@ EXTRACT_JS = r"""
         const imgEl = node.querySelector('img');
         if (imgEl) image = imgEl.src || imgEl.getAttribute('data-src') || '';
         if (!image) {
-            const bgEls = [node, ...node.querySelectorAll('div, span')];
-            for (const el of bgEls) {
+            const bgs = [node, ...node.querySelectorAll('div, span')];
+            for (const el of bgs) {
                 const bg = (el.style && el.style.backgroundImage) || '';
                 const m = bg.match(/url\(["']?(.+?)["']?\)/);
                 if (m && m[1]) { image = m[1]; break; }
@@ -108,32 +139,18 @@ EXTRACT_JS = r"""
         let url = '';
         if (node.tagName === 'A' && node.href) url = node.href;
         if (!url) {
-            const linkEl = node.querySelector('a[href*="/item/"], a[href*="/online/"]');
-            if (linkEl && linkEl.href) url = linkEl.href;
+            const l = node.querySelector('a[href*="/item/"], a[href*="/online/"]');
+            if (l && l.href) url = l.href;
         }
-        if (!url) {
-            let p = node.parentElement;
-            for (let i = 0; i < 4 && p; i++) {
-                if (p.tagName === 'A' && p.href) { url = p.href; break; }
-                p = p.parentElement;
-            }
-        }
-        if (url && url.startsWith('//')) url = 'https:' + url;
         if (url && url.startsWith('/')) url = 'https://order.toasttab.com' + url;
 
-        // CATEGORY — nearest header ABOVE the card
-        const cardRect = node.getBoundingClientRect();
-        const cardY = cardRect.top + window.scrollY;
-        let category = '';
-        for (let i = headers.length - 1; i >= 0; i--) {
-            if (headers[i].y < cardY) {
-                category = headers[i].text;
-                break;
-            }
+        // CATEGORY — nearest heading above the card
+        const cardY = node.getBoundingClientRect().top + window.scrollY;
+        let category = 'Menu';
+        for (let i = headings.length - 1; i >= 0; i--) {
+            if (headings[i].y < cardY) { category = headings[i].text; break; }
         }
-        if (!category) category = 'Menu';
 
-        // DEDUPE
         const key = name.toLowerCase() + '|' + price;
         if (seen.has(key)) return;
         seen.add(key);
@@ -158,51 +175,42 @@ def find_chrome():
     return None
 
 
-def launch_chrome(chrome_path):
+def launch_chrome(path):
     PROFILE_DIR.mkdir(parents=True, exist_ok=True)
-    print(f"[setup] Launching Chrome (debug port 9222)")
     subprocess.Popen(
-        [
-            chrome_path,
-            "--remote-debugging-port=9222",
-            f"--user-data-dir={PROFILE_DIR}",
-            "--no-first-run",
-            "--no-default-browser-check",
-            "--start-maximized",
-        ],
+        [path, "--remote-debugging-port=9222",
+         f"--user-data-dir={PROFILE_DIR}",
+         "--no-first-run", "--no-default-browser-check", "--start-maximized"],
         creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
     )
 
 
-async def wait_for_debug_port(timeout=20):
-    for i in range(timeout * 2):
+async def wait_debug(timeout=20):
+    for _ in range(timeout * 2):
         try:
-            urlopen(f"{CDP_URL}/json/version", timeout=1)
-            print(f"[setup] Debug port ready")
-            return True
+            urlopen(f"{CDP_URL}/json/version", timeout=1); return True
         except Exception:
             await asyncio.sleep(0.5)
     return False
 
 
-async def is_cloudflare(page):
+async def is_cf(page):
     try:
         c = (await page.content()).lower()
-        return (
-            "performing security verification" in c
-            or "verify you are human" in c
-            or "just a moment" in c
-        )
+        return any(k in c for k in [
+            "performing security verification",
+            "verify you are human",
+            "just a moment",
+        ])
     except Exception:
         return False
 
 
-async def wait_cloudflare(page, timeout=180):
-    print("[scrape] Cloudflare detected - CLICK THE CHECKBOX in Chrome")
-    for i in range(timeout):
+async def wait_cf(page, timeout=180):
+    print("[scrape] Cloudflare - CLICK THE CHECKBOX")
+    for _ in range(timeout):
         await page.wait_for_timeout(1000)
-        if not await is_cloudflare(page):
-            print(f"[scrape] Cleared after {i+1}s")
+        if not await is_cf(page):
             return True
     return False
 
@@ -212,14 +220,17 @@ async def scrape_one(page, key, url):
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=90000)
         await page.wait_for_timeout(2000)
-
-        if await is_cloudflare(page):
-            if not await wait_cloudflare(page, timeout=180):
-                return {"ok": False, "url": url, "error": "Cloudflare blocked", "items": []}
+        if await is_cf(page):
+            if not await wait_cf(page, 180):
+                return {"ok": False, "items": [], "tabs": []}
 
         await page.wait_for_timeout(3000)
 
-        # Scroll through the page to load lazy content
+        # Grab tab names
+        tabs = await page.evaluate(EXTRACT_TABS_JS)
+        print(f"[scrape]   tabs: {tabs}")
+
+        # Scroll fully to load everything
         await page.evaluate("""async () => {
             const h = document.body.scrollHeight;
             for (let y = 0; y < h; y += 600) {
@@ -232,46 +243,40 @@ async def scrape_one(page, key, url):
 
         items = await page.evaluate(EXTRACT_JS)
 
-        # Count categories
-        categories = {}
+        # Build categories dict from tabs (preserving order)
+        cat_counts = {}
         for it in items:
-            categories[it["category"]] = categories.get(it["category"], 0) + 1
+            cat_counts[it["category"]] = cat_counts.get(it["category"], 0) + 1
 
         with_img = sum(1 for i in items if i.get("image"))
         with_desc = sum(1 for i in items if i.get("description"))
         with_url = sum(1 for i in items if i.get("url"))
-
-        print(f"[scrape] {key} OK - {len(items)} items")
-        print(f"[scrape]   img:{with_img} desc:{with_desc} url:{with_url}")
-        print(f"[scrape]   categories: {list(categories.keys())}")
+        print(f"[scrape]   {len(items)} items (img:{with_img} desc:{with_desc} url:{with_url})")
+        print(f"[scrape]   item categories: {list(cat_counts.keys())}")
 
         return {
             "ok": True,
             "url": url,
+            "tabs": tabs,       # ← Toast nav tab names in order
             "items": items,
-            "categories": list(categories.keys()),
         }
     except Exception as e:
         print(f"[scrape] {key} FAILED: {e}")
-        return {"ok": False, "url": url, "error": str(e), "items": []}
+        return {"ok": False, "error": str(e), "items": [], "tabs": []}
 
 
 async def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-
     kill_chrome()
     await asyncio.sleep(3)
 
-    chrome_path = find_chrome()
-    if not chrome_path:
-        print("[setup] ERROR: Chrome not found.")
-        return
+    chrome = find_chrome()
+    if not chrome:
+        print("[setup] ERROR: Chrome not found."); return
 
-    launch_chrome(chrome_path)
-
-    if not await wait_for_debug_port(timeout=20):
-        print("[setup] ERROR: Chrome debug port never opened.")
-        return
+    launch_chrome(chrome)
+    if not await wait_debug(20):
+        print("[setup] ERROR: Debug port not open."); return
 
     out = {
         "scrapedAt": datetime.now(timezone.utc).isoformat(),
@@ -280,8 +285,8 @@ async def main():
 
     async with async_playwright() as p:
         browser = await p.chromium.connect_over_cdp(CDP_URL)
-        context = browser.contexts[0] if browser.contexts else await browser.new_context()
-        page = await context.new_page()
+        ctx = browser.contexts[0] if browser.contexts else await browser.new_context()
+        page = await ctx.new_page()
 
         for key, url in URLS.items():
             out["locations"][key] = await scrape_one(page, key, url)
@@ -292,7 +297,7 @@ async def main():
         json.dump(out, f, indent=2, ensure_ascii=False)
 
     total = sum(len(v.get("items", [])) for v in out["locations"].values())
-    print(f"\n[done] Saved {total} items -> {OUT_FILE}")
+    print(f"\n[done] {total} items -> {OUT_FILE}")
 
 
 if __name__ == "__main__":

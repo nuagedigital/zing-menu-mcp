@@ -1,9 +1,13 @@
 {
-  "scrapedAt": "2026-10-15T16:33:49.073190+00:00",
+  "scrapedAt": "2026-10-15T16:46:58.060551+00:00",
   "locations": {
     "fremont": {
       "ok": true,
       "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
+      "tabs": [
+        "Zingsters",
+        "Buy Gift Cards"
+      ],
       "items": [
         {
           "name": "Zing-1",
@@ -410,39 +414,14 @@
           "category": "Tender - 4 Pcs",
           "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-tender-6-pcs_7a7ba17b-b518-4a7c-9d71-2e406fbdadcc"
         }
-      ],
-      "categories": [
-        "Featured Items",
-        "Smash-Double",
-        "Burgers",
-        "Zing-1 Meal",
-        "Zing-2 Meal",
-        "Zing-3 Meal",
-        "Zing-4 Meal",
-        "Single Tender",
-        "Smash-Single Meal",
-        "Smash-Double Meal",
-        "Smash-Triple Meal",
-        "Wraps",
-        "Chicken Wrap Meal",
-        "Bowls",
-        "Chicken Rice Platter",
-        "Side of rice",
-        "Sides",
-        "Loaded Chicken  Fries",
-        "Milkshakes",
-        "Dubai Chocolate Milkshake",
-        "Drinks",
-        "Home Style Lemonade",
-        "Sauce",
-        "Kids Menu",
-        "Tender Only",
-        "Tender - 4 Pcs"
       ]
     },
     "palo_alto": {
       "ok": true,
       "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b",
+      "tabs": [
+        "Zingsters"
+      ],
       "items": [
         {
           "name": "Kids Meal - Chicken Tender, Fries and Juice",
@@ -813,32 +792,6 @@
           "category": "Tender - 4 Pcs",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-tender-6-pcs_fd27e3da-3d40-4d4b-a070-26775d7f4620"
         }
-      ],
-      "categories": [
-        "Featured Items",
-        "Chicken Rice Platter",
-        "Burgers",
-        "Zing -2",
-        "Zing-4",
-        "Smash-Single",
-        "Smash-Triple",
-        "Wraps",
-        "MIX WRAP  (chicken and smash)",
-        "Bowls",
-        "Mix Rice Platter",
-        "Beef Rice Platter",
-        "Sides",
-        "Coleslaw",
-        "Loaded Chicken  Fries",
-        "Milkshakes",
-        "Biscoff Milkshake",
-        "Drinks",
-        "Homestyle Lemonade",
-        "Strawberry watermelon",
-        "Sauce",
-        "Kids Menu",
-        "Tender Only",
-        "Tender - 4 Pcs"
       ]
     }
   }
