@@ -9,6 +9,9 @@ jobs:
   scrape:
     runs-on: windows-latest
     timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
 
     steps:
       - name: Checkout code
