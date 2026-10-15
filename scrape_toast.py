@@ -1,5 +1,13 @@
-# -*- coding: utf-8 -*-
-# scrape_toast.py - FINAL: DOM headings se category detect
+# -*- coding: utf-8 -*-
+import sys, io
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
+# scrape_toast.py - FINAL
 import asyncio
 import json
 import subprocess
@@ -30,47 +38,34 @@ TAB_ORDER = [
     "Drinks", "Sauce", "Kids Menu", "Tender Only",
 ]
 
-# ------------------------------------------------------------------
-# EXTRACT � items + their nearest preceding category heading
-# ------------------------------------------------------------------
+
+def clean_str(s):
+    """Remove invalid unicode chars."""
+    if not isinstance(s, str):
+        return s
+    return s.replace('\ufffd', '').replace('\u2014', '-').replace('\u2013', '-').strip()
+
+
 EXTRACT_JS = r"""
 () => {
     const KNOWN = ["Burgers","Wraps","Bowls","Sides","Milkshakes","Drinks","Sauce","Kids Menu","Tender Only"];
-    const knownLower = KNOWN.map(t => t.toLowerCase());
 
-    // ---------- 1. Collect ALL headings with Y positions ----------
     const headings = [];
     document.querySelectorAll('h1, h2, h3, h4, h5, [role="heading"]').forEach((h) => {
         const text = (h.textContent || '').trim();
         if (!text || text.length < 3 || text.length > 40) return;
         if (text.includes('$')) return;
-
         const rect = h.getBoundingClientRect();
         const y = rect.top + window.scrollY;
-
-        // Is this a category heading? (matches one of the 9 tabs)
         const lower = text.toLowerCase();
         let matchedCategory = '';
         for (const tab of KNOWN) {
             if (tab.toLowerCase() === lower) { matchedCategory = tab; break; }
         }
-        // Fuzzy
-        if (!matchedCategory) {
-            for (const tab of KNOWN) {
-                if (lower === tab.toLowerCase()) { matchedCategory = tab; break; }
-            }
-        }
-
-        headings.push({
-            text,
-            y,
-            category: matchedCategory,
-            tag: h.tagName,
-        });
+        headings.push({ text, y, category: matchedCategory, tag: h.tagName });
     });
     headings.sort((a, b) => a.y - b.y);
 
-    // ---------- 2. Collect all items ----------
     const items = [];
     const seen = new Set();
 
@@ -79,7 +74,6 @@ EXTRACT_JS = r"""
         + '[data-testid*="menu-item"], a[href*="/item/"]';
 
     document.querySelectorAll(cardSelectors).forEach((node) => {
-        // --- NAME ---
         let name = '';
         const nameCands = node.querySelectorAll(
             '[class*="name"], [class*="Name"], h3, h4, h5, [class*="title"]'
@@ -96,14 +90,12 @@ EXTRACT_JS = r"""
         }
         if (!name || name.length < 2) return;
 
-        // --- PRICE ---
         const fullText = node.textContent || '';
         const pm = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
         if (!pm) return;
         const price = parseFloat(pm[1]);
         if (!price || price <= 0) return;
 
-        // --- DESCRIPTION ---
         let description = '';
         const dcs = node.querySelectorAll(
             '[class*="description"], [class*="Description"], p'
@@ -115,7 +107,6 @@ EXTRACT_JS = r"""
             }
         }
 
-        // --- IMAGE ---
         let image = '';
         const imgEl = node.querySelector('img');
         if (imgEl) image = imgEl.src || imgEl.getAttribute('data-src') || '';
@@ -128,7 +119,6 @@ EXTRACT_JS = r"""
         }
         if (image && image.startsWith('//')) image = 'https:' + image;
 
-        // --- URL ---
         let url = '';
         if (node.tagName === 'A' && node.href) url = node.href;
         if (!url) {
@@ -138,7 +128,6 @@ EXTRACT_JS = r"""
         if (url && url.startsWith('//')) url = 'https:' + url;
         if (url && url.startsWith('/')) url = 'https://order.toasttab.com' + url;
 
-        // --- CATEGORY (nearest preceding heading matching a tab) ---
         const itemY = node.getBoundingClientRect().top + window.scrollY;
         let category = '';
         for (let i = headings.length - 1; i >= 0; i--) {
@@ -148,7 +137,6 @@ EXTRACT_JS = r"""
             }
         }
 
-        // --- DEDUPE ---
         const key = name.toLowerCase() + '|' + price;
         if (seen.has(key)) return;
         seen.add(key);
@@ -156,11 +144,7 @@ EXTRACT_JS = r"""
         items.push({ name, price, description, image, url, category });
     });
 
-    return {
-        headings_found: headings.map(h => ({ text: h.text, tag: h.tag, cat: h.category })),
-        items,
-        item_count: items.length,
-    };
+    return { headings_found: headings.map(h => ({ text: h.text, tag: h.tag, cat: h.category })), items };
 }
 """
 
@@ -201,16 +185,14 @@ async def is_cf(page):
     try:
         c = (await page.content()).lower()
         return any(k in c for k in [
-            "performing security verification",
-            "verify you are human",
-            "just a moment",
+            "performing security verification", "verify you are human", "just a moment",
         ])
     except Exception:
         return False
 
 
 async def wait_cf(page, timeout=180):
-    print("[scrape] Cloudflare � Chrome mein checkbox click karo")
+    print("[scrape] Cloudflare - click the checkbox")
     for _ in range(timeout):
         await page.wait_for_timeout(1000)
         if not await is_cf(page):
@@ -242,7 +224,6 @@ async def scrape_one(page, key, url):
 
         await page.wait_for_timeout(3000)
 
-        # Click each tab once to trigger all lazy-loading sections
         for tab in TAB_ORDER:
             try:
                 await page.evaluate(f'''
@@ -261,34 +242,24 @@ async def scrape_one(page, key, url):
             except Exception:
                 pass
 
-        # Scroll everything to load
         await scroll_all(page)
         await page.wait_for_timeout(2500)
 
-        # Extract
         result = await page.evaluate(EXTRACT_JS)
         raw_items = result.get("items", [])
-        headings = result.get("headings_found", [])
 
-        print(f"[scrape]   headings found: {len(headings)}")
-        # Show unique categories found in headings
-        cat_headings = [h for h in headings if h.get("cat")]
-        print(f"[scrape]   category headings: {[h['text'] for h in cat_headings]}")
+        print(f"[scrape]   raw items: {len(raw_items)}")
 
-        # Group items by category
         counts = {}
         for it in raw_items:
             cat = it.get("category") or "Other"
             counts[cat] = counts.get(cat, 0) + 1
-
         print(f"[scrape]   category counts: {counts}")
 
-        # Keep only items with a valid category (or assign from name)
         final_items = []
         for it in raw_items:
             if not it.get("category"):
-                # Try to infer from name
-                name_low = it["name"].lower()
+                name_low = (it.get("name") or "").lower()
                 if any(k in name_low for k in ["burger", "smash", "zing"]):
                     it["category"] = "Burgers"
                 elif "wrap" in name_low:
@@ -308,11 +279,15 @@ async def scrape_one(page, key, url):
                 elif "tender" in name_low:
                     it["category"] = "Tender Only"
                 else:
-                    continue  # skip unknown
+                    continue
+
+            # CLEAN the item fields
+            it['name'] = clean_str(it.get('name', ''))
+            it['description'] = clean_str(it.get('description', ''))
+            it['category'] = clean_str(it.get('category', ''))
 
             final_items.append(it)
 
-        # Final counts
         final_counts = {}
         for it in final_items:
             c = it["category"]
@@ -324,21 +299,18 @@ async def scrape_one(page, key, url):
         with_img = sum(1 for i in final_items if i.get("image"))
         with_desc = sum(1 for i in final_items if i.get("description"))
 
-        print(f"[scrape] {key} DONE � {len(final_items)} items "
+        print(f"[scrape] {key} DONE - {len(final_items)} items "
               f"(img:{with_img} desc:{with_desc})")
 
         used_tabs = [t for t in TAB_ORDER if final_counts.get(t)]
 
-        return {
-            "ok": True,
-            "url": url,
-            "tabs": used_tabs,
-            "items": final_items,
-        }
+        return {"ok": True, "url": url, "tabs": used_tabs, "items": final_items}
 
     except Exception as e:
-        print(f"[scrape] {key} FAILED: {e}")
-        return {"ok": False, "error": str(e), "items": [], "tabs": []}
+        # Make error safe for printing
+        err_msg = clean_str(str(e))
+        print(f"[scrape] {key} FAILED: {err_msg}")
+        return {"ok": False, "error": err_msg, "items": [], "tabs": []}
 
 
 async def main():
@@ -383,15 +355,12 @@ async def main():
         print(f"\n{loc}: {len(items)} items")
         for tab in TAB_ORDER:
             n = counts.get(tab, 0)
-            mark = "?" if n else "?"
+            mark = "OK" if n else "--"
             print(f"   {mark} {tab}: {n}")
 
     total = sum(len(v.get("items", [])) for v in out["locations"].values())
 
-
-    # ============================================================
-    # UPLOAD TO WORDPRESS (only when env vars are set)
-    # ============================================================
+    # UPLOAD TO WORDPRESS
     import os
     import urllib.request
     import urllib.error
@@ -400,27 +369,28 @@ async def main():
     WP_SECRET = os.environ.get("WP_SECRET", "")
 
     if WP_URL and WP_SECRET:
-        print(f"\n[upload] Sending to WordPress: {WP_URL}")
+        print(f"\n[upload] Sending {total} items to WordPress")
         try:
-            payload = json.dumps(out).encode("utf-8")
+            payload = json.dumps(out, ensure_ascii=False).encode("utf-8")
             req = urllib.request.Request(
                 WP_URL,
                 data=payload,
                 method="POST",
                 headers={
-                    "Content-Type": "application/json",
+                    "Content-Type": "application/json; charset=utf-8",
                     "x-upload-secret": WP_SECRET,
                 },
             )
             with urllib.request.urlopen(req, timeout=60) as resp:
-                result = json.loads(resp.read().decode("utf-8"))
+                raw = resp.read().decode("utf-8-sig")
+                result = json.loads(raw)
                 print(f"[upload] WordPress: {result.get('message')}")
                 print(f"[upload] Items: {result.get('items')}")
         except urllib.error.HTTPError as e:
             print(f"[upload] Rejected: {e.code}")
-            print(f"[upload] {e.read().decode('utf-8', errors='ignore')[:300]}")
+            print(f"[upload] {e.read().decode('utf-8', errors='replace')[:300]}")
         except Exception as e:
-            print(f"[upload] Failed: {e}")
+            print(f"[upload] Failed: {clean_str(str(e))}")
     else:
         print("[upload] Skipped (WP_URL/WP_SECRET not set - local mode)")
 
