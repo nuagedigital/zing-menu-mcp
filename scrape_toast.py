@@ -1,4 +1,4 @@
-﻿# scrape_toast.py — ALL 9 Toast tabs with items
+﻿# scrape_toast.py — FINAL: DOM headings se category detect
 import asyncio
 import json
 import subprocess
@@ -8,26 +8,10 @@ from urllib.request import urlopen
 
 from patchright.async_api import async_playwright
 
-# ------------------------------------------------------------------
-# CONFIG
-# ------------------------------------------------------------------
 URLS = {
     "fremont": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
     "palo_alto": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b",
 }
-
-# ⭐ ALL 9 TABS — exact order from Toast website
-KNOWN_TABS = [
-    "Burgers",
-    "Wraps",
-    "Bowls",
-    "Sides",
-    "Milkshakes",
-    "Drinks",
-    "Sauce",
-    "Kids Menu",
-    "Tender Only",
-]
 
 DATA_DIR = Path(__file__).parent / "data"
 OUT_FILE = DATA_DIR / "toast-menu.json"
@@ -40,47 +24,88 @@ CHROME_PATHS = [
 
 CDP_URL = "http://127.0.0.1:9222"
 
+TAB_ORDER = [
+    "Burgers", "Wraps", "Bowls", "Sides", "Milkshakes",
+    "Drinks", "Sauce", "Kids Menu", "Tender Only",
+]
+
 # ------------------------------------------------------------------
-# JS — extract items from currently visible page
+# EXTRACT — items + their nearest preceding category heading
 # ------------------------------------------------------------------
 EXTRACT_JS = r"""
 () => {
-    const results = [];
+    const KNOWN = ["Burgers","Wraps","Bowls","Sides","Milkshakes","Drinks","Sauce","Kids Menu","Tender Only"];
+    const knownLower = KNOWN.map(t => t.toLowerCase());
+
+    // ---------- 1. Collect ALL headings with Y positions ----------
+    const headings = [];
+    document.querySelectorAll('h1, h2, h3, h4, h5, [role="heading"]').forEach((h) => {
+        const text = (h.textContent || '').trim();
+        if (!text || text.length < 3 || text.length > 40) return;
+        if (text.includes('$')) return;
+
+        const rect = h.getBoundingClientRect();
+        const y = rect.top + window.scrollY;
+
+        // Is this a category heading? (matches one of the 9 tabs)
+        const lower = text.toLowerCase();
+        let matchedCategory = '';
+        for (const tab of KNOWN) {
+            if (tab.toLowerCase() === lower) { matchedCategory = tab; break; }
+        }
+        // Fuzzy
+        if (!matchedCategory) {
+            for (const tab of KNOWN) {
+                if (lower === tab.toLowerCase()) { matchedCategory = tab; break; }
+            }
+        }
+
+        headings.push({
+            text,
+            y,
+            category: matchedCategory,
+            tag: h.tagName,
+        });
+    });
+    headings.sort((a, b) => a.y - b.y);
+
+    // ---------- 2. Collect all items ----------
+    const items = [];
     const seen = new Set();
 
-    const cards = document.querySelectorAll(
+    const cardSelectors =
         '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
-        + '[data-testid*="menu-item"], a[href*="/item/"]'
-    );
+        + '[data-testid*="menu-item"], a[href*="/item/"]';
 
-    for (const node of cards) {
-        // NAME
+    document.querySelectorAll(cardSelectors).forEach((node) => {
+        // --- NAME ---
         let name = '';
         const nameCands = node.querySelectorAll(
-            '[class*="name"], [class*="Name"], [class*="title"], h2, h3, h4, h5'
+            '[class*="name"], [class*="Name"], h3, h4, h5, [class*="title"]'
         );
         for (const c of nameCands) {
             const t = (c.textContent || '').trim();
-            if (t && t.length > 1 && t.length < 120 && !t.match(/^\$/)) { name = t; break; }
+            if (t && t.length > 1 && t.length < 120 && !t.match(/^\$/)) {
+                name = t; break;
+            }
         }
         if (!name) {
             const full = (node.textContent || '').trim();
             name = full.split('\n')[0].trim().slice(0, 120);
         }
-        if (!name || name.length < 2) continue;
+        if (!name || name.length < 2) return;
 
-        // PRICE
+        // --- PRICE ---
         const fullText = node.textContent || '';
         const pm = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
-        if (!pm) continue;
+        if (!pm) return;
         const price = parseFloat(pm[1]);
-        if (!price || price <= 0) continue;
+        if (!price || price <= 0) return;
 
-        // DESCRIPTION
+        // --- DESCRIPTION ---
         let description = '';
         const dcs = node.querySelectorAll(
-            '[class*="description"], [class*="Description"], '
-            + '[class*="subtitle"], [class*="Subtitle"], p'
+            '[class*="description"], [class*="Description"], p'
         );
         for (const d of dcs) {
             const t = (d.textContent || '').trim();
@@ -89,13 +114,12 @@ EXTRACT_JS = r"""
             }
         }
 
-        // IMAGE
+        // --- IMAGE ---
         let image = '';
         const imgEl = node.querySelector('img');
         if (imgEl) image = imgEl.src || imgEl.getAttribute('data-src') || '';
         if (!image) {
-            const bgs = [node, ...node.querySelectorAll('div, span')];
-            for (const el of bgs) {
+            for (const el of [node, ...node.querySelectorAll('div, span')]) {
                 const bg = (el.style && el.style.backgroundImage) || '';
                 const m = bg.match(/url\(["']?(.+?)["']?\)/);
                 if (m && m[1]) { image = m[1]; break; }
@@ -103,23 +127,39 @@ EXTRACT_JS = r"""
         }
         if (image && image.startsWith('//')) image = 'https:' + image;
 
-        // URL
+        // --- URL ---
         let url = '';
         if (node.tagName === 'A' && node.href) url = node.href;
         if (!url) {
-            const l = node.querySelector('a[href*="/item/"], a[href*="/online/"]');
-            if (l && l.href) url = l.href;
+            const a = node.querySelector('a[href*="/item/"], a');
+            if (a && a.href) url = a.href;
         }
         if (url && url.startsWith('//')) url = 'https:' + url;
         if (url && url.startsWith('/')) url = 'https://order.toasttab.com' + url;
 
+        // --- CATEGORY (nearest preceding heading matching a tab) ---
+        const itemY = node.getBoundingClientRect().top + window.scrollY;
+        let category = '';
+        for (let i = headings.length - 1; i >= 0; i--) {
+            if (headings[i].y <= itemY && headings[i].category) {
+                category = headings[i].category;
+                break;
+            }
+        }
+
+        // --- DEDUPE ---
         const key = name.toLowerCase() + '|' + price;
-        if (seen.has(key)) continue;
+        if (seen.has(key)) return;
         seen.add(key);
 
-        results.push({ name, title: name, price, description, image, url });
-    }
-    return results;
+        items.push({ name, price, description, image, url, category });
+    });
+
+    return {
+        headings_found: headings.map(h => ({ text: h.text, tag: h.tag, cat: h.category })),
+        items,
+        item_count: items.length,
+    };
 }
 """
 
@@ -177,28 +217,7 @@ async def wait_cf(page, timeout=180):
     return False
 
 
-async def click_tab(page, tab_name):
-    """Click a tab by its visible text. Multiple strategies."""
-    strategies = [
-        lambda: page.get_by_role("tab", name=tab_name, exact=True).click(timeout=3000),
-        lambda: page.get_by_role("button", name=tab_name, exact=True).click(timeout=3000),
-        lambda: page.get_by_role("link", name=tab_name, exact=True).click(timeout=3000),
-        lambda: page.locator(f'button:has-text("{tab_name}")').first.click(timeout=3000),
-        lambda: page.locator(f'a:has-text("{tab_name}")').first.click(timeout=3000),
-        lambda: page.locator(f'[role="tab"]:has-text("{tab_name}")').first.click(timeout=3000),
-        lambda: page.locator(f'text="{tab_name}"').first.click(timeout=3000),
-    ]
-    for strat in strategies:
-        try:
-            await strat()
-            return True
-        except Exception:
-            continue
-    return False
-
-
 async def scroll_all(page):
-    """Scroll to trigger lazy loading."""
     await page.evaluate("""async () => {
         const h = document.body.scrollHeight;
         for (let y = 0; y < h; y += 400) {
@@ -221,62 +240,99 @@ async def scrape_one(page, key, url):
                 return {"ok": False, "items": [], "tabs": []}
 
         await page.wait_for_timeout(3000)
+
+        # Click each tab once to trigger all lazy-loading sections
+        for tab in TAB_ORDER:
+            try:
+                await page.evaluate(f'''
+                    () => {{
+                        const els = document.querySelectorAll('button, a, [role="tab"]');
+                        for (const el of els) {{
+                            if ((el.textContent || '').trim() === "{tab}") {{
+                                el.click();
+                                return true;
+                            }}
+                        }}
+                        return false;
+                    }}
+                ''')
+                await page.wait_for_timeout(1000)
+            except Exception:
+                pass
+
+        # Scroll everything to load
         await scroll_all(page)
-        await page.wait_for_timeout(2000)
+        await page.wait_for_timeout(2500)
 
-        all_items = []
-        seen_keys = set()
-        tabs_used = []
+        # Extract
+        result = await page.evaluate(EXTRACT_JS)
+        raw_items = result.get("items", [])
+        headings = result.get("headings_found", [])
 
-        # ---------- Click every tab ----------
-        for tab_name in KNOWN_TABS:
-            print(f"[scrape]   → {tab_name}")
+        print(f"[scrape]   headings found: {len(headings)}")
+        # Show unique categories found in headings
+        cat_headings = [h for h in headings if h.get("cat")]
+        print(f"[scrape]   category headings: {[h['text'] for h in cat_headings]}")
 
-            ok = await click_tab(page, tab_name)
-            if not ok:
-                print(f"[scrape]     ✗ couldn't click")
-                continue
-
-            await page.wait_for_timeout(2500)
-            await scroll_all(page)
-            await page.wait_for_timeout(1500)
-
-            items = await page.evaluate(EXTRACT_JS)
-
-            added = 0
-            for it in items:
-                it["category"] = tab_name
-                k = f"{it['name'].lower()}|{it['price']}"
-                if k in seen_keys:
-                    continue
-                seen_keys.add(k)
-                all_items.append(it)
-                added += 1
-
-            if added > 0:
-                tabs_used.append(tab_name)
-            print(f"[scrape]     ✓ {len(items)} items, {added} new")
-
-        # ---------- Summary ----------
+        # Group items by category
         counts = {}
-        for it in all_items:
-            counts[it["category"]] = counts.get(it["category"], 0) + 1
+        for it in raw_items:
+            cat = it.get("category") or "Other"
+            counts[cat] = counts.get(cat, 0) + 1
 
-        print(f"[scrape]   categories captured: {counts}")
-        print(f"[scrape]   tabs with items: {tabs_used}")
+        print(f"[scrape]   category counts: {counts}")
 
-        with_img = sum(1 for i in all_items if i.get("image"))
-        with_desc = sum(1 for i in all_items if i.get("description"))
-        with_url = sum(1 for i in all_items if i.get("url"))
+        # Keep only items with a valid category (or assign from name)
+        final_items = []
+        for it in raw_items:
+            if not it.get("category"):
+                # Try to infer from name
+                name_low = it["name"].lower()
+                if any(k in name_low for k in ["burger", "smash", "zing"]):
+                    it["category"] = "Burgers"
+                elif "wrap" in name_low:
+                    it["category"] = "Wraps"
+                elif any(k in name_low for k in ["bowl", "platter", "salad"]):
+                    it["category"] = "Bowls"
+                elif any(k in name_low for k in ["fries", "coleslaw"]):
+                    it["category"] = "Sides"
+                elif "shake" in name_low:
+                    it["category"] = "Milkshakes"
+                elif any(k in name_low for k in ["lemonade", "drink", "cola", "sprite", "water"]):
+                    it["category"] = "Drinks"
+                elif "sauce" in name_low:
+                    it["category"] = "Sauce"
+                elif any(k in name_low for k in ["kids", "slider", "juice"]):
+                    it["category"] = "Kids Menu"
+                elif "tender" in name_low:
+                    it["category"] = "Tender Only"
+                else:
+                    continue  # skip unknown
 
-        print(f"[scrape] {key} DONE — {len(all_items)} items "
-              f"(img:{with_img} desc:{with_desc} url:{with_url})")
+            final_items.append(it)
+
+        # Final counts
+        final_counts = {}
+        for it in final_items:
+            c = it["category"]
+            final_counts[c] = final_counts.get(c, 0) + 1
+
+        ordered = {t: final_counts.get(t, 0) for t in TAB_ORDER if final_counts.get(t)}
+        print(f"[scrape]   FINAL categories: {ordered}")
+
+        with_img = sum(1 for i in final_items if i.get("image"))
+        with_desc = sum(1 for i in final_items if i.get("description"))
+
+        print(f"[scrape] {key} DONE — {len(final_items)} items "
+              f"(img:{with_img} desc:{with_desc})")
+
+        used_tabs = [t for t in TAB_ORDER if final_counts.get(t)]
 
         return {
             "ok": True,
             "url": url,
-            "tabs": tabs_used,
-            "items": all_items,
+            "tabs": used_tabs,
+            "items": final_items,
         }
 
     except Exception as e:
@@ -324,13 +380,13 @@ async def main():
         for it in items:
             counts[it["category"]] = counts.get(it["category"], 0) + 1
         print(f"\n{loc}: {len(items)} items")
-        for tab in KNOWN_TABS:
+        for tab in TAB_ORDER:
             n = counts.get(tab, 0)
             mark = "✓" if n else "✗"
             print(f"   {mark} {tab}: {n}")
 
     total = sum(len(v.get("items", [])) for v in out["locations"].values())
-    print(f"\n[done] {total} items total -> {OUT_FILE}")
+    print(f"\n[done] {total} items -> {OUT_FILE}")
 
 
 if __name__ == "__main__":
