@@ -29,7 +29,9 @@ jobs:
         env:
           WP_URL: ${{ secrets.WP_URL }}
           WP_SECRET: ${{ secrets.WP_SECRET }}
-        run: python scrape_toast.py
+          PYTHONIOENCODING: utf-8
+          PYTHONUTF8: "1"
+        run: python -X utf8 scrape_toast.py
 
       - name: Save JSON output
         if: always()
