@@ -1,19 +1,12 @@
-﻿name: Zingster Menu Scraper
+name: Zingster Menu Scraper
 
 on:
   schedule:
-    # 23:00 UTC = 16:00 America/Los_Angeles during PDT, 15:00 during PST
     - cron: '0 23 * * *'
   workflow_dispatch:
-    inputs:
-      allow_partial_upload:
-        description: 'Publish to WordPress even when a location scrapes badly'
-        type: boolean
-        default: false
 
-concurrency:
-  group: zingster-menu-scraper
-  cancel-in-progress: false
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -26,6 +19,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -42,34 +37,32 @@ jobs:
         env:
           WP_URL: ${{ secrets.WP_URL }}
           WP_SECRET: ${{ secrets.WP_SECRET }}
-
-          # Console encoding. Without these three, a single unusual character
-          # in a menu item name aborts the run on a Windows runner.
           PYTHONIOENCODING: utf-8
           PYTHONUTF8: '1'
-
-          # Safety guard. The scraper refuses to publish to WordPress when a
-          # location returns fewer than this many items, which is what prevents
-          # a failed scrape from emptying the live menu.
           MIN_ITEMS_PER_LOCATION: '20'
-          ALLOW_PARTIAL_UPLOAD: ${{ inputs.allow_partial_upload && '1' || '0' }}
-
-          # No human is present to solve a Cloudflare challenge in CI, so fail
-          # fast instead of burning the job timeout waiting for a click.
-          CF_WAIT_SECONDS: '0'
-
-          # Safe on a disposable runner. Left off locally so that running the
-          # scraper on your own machine never closes your browser.
+          CF_WAIT_SECONDS: '60'
           KILL_CHROME: '1'
         run: python -X utf8 scrape_toast.py
 
-      - name: Save JSON output
+      - name: Commit and push menu data (updates Vercel)
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/toast-menu.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update menu data [skip ci]"
+            git push
+            echo "Pushed to GitHub — Vercel will auto-deploy"
+          fi
+
+      - name: Save JSON output (artifact)
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: toast-menu-json
-          path: |
-            data/toast-menu.json
-            data/toast-menu.last-good.json
+          path: data/toast-menu.json
           if-no-files-found: ignore
           retention-days: 30
