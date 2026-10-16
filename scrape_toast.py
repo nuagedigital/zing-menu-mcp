@@ -13,6 +13,8 @@ import json
 import os
 import shutil
 import subprocess
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen
