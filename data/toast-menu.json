@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-16T16:54:44.415866+00:00",
+  "scrapedAt": "2026-10-17T01:00:20.713696+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -266,7 +266,7 @@
         },
         {
           "name": "Biscoff Milkshake",
-          "price": 8.99,
+          "price": 7.99,
           "description": "Biscoff Milkshakes",
           "image": "https://d1w7312wesee68.cloudfront.net/ZI4-Gf8J6R7Mq7GY40HO_k--ONvs8tI4IhGTQYU8IUk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/73c6f752-f79e-42f4-ae78-51024491124b.png",
           "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-biscoff-milkshake_41c0a69b-916e-4f02-8102-887d1b48eca1",
@@ -282,7 +282,7 @@
         },
         {
           "name": "Oreo MilkShake",
-          "price": 8.99,
+          "price": 7.99,
           "description": "Oero Milk Shake",
           "image": "https://d1w7312wesee68.cloudfront.net/tDDpMKqR1ixTZBWp85GwHrA9ZRPsbYa0Q-1-0VNKsWU/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/57baa8af-8497-4889-b6f4-be1e27df6182.png",
           "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-oreo-milkshake_8b66b287-f472-47d2-826e-a1ca9c02d564",
