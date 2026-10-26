@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-25T00:45:35.755167+00:00",
+  "scrapedAt": "2026-10-26T00:58:04.432494+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -607,6 +607,14 @@
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/Ok3Rqa0c8NfSdRLfKRmNece0BYWqdi7Qhgz9l-gqZWA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/dc3082a2-4345-4812-9803-3eff737d1378.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-kids-juice_870dc048-79f1-4f77-bdfa-9a0d3111d968",
+          "category": "Sides"
+        },
+        {
+          "name": "SIDE OF FRAGRANT RICE",
+          "price": 6,
+          "description": "",
+          "image": "",
+          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-side-of-fragrant-rice_8591176c-28c1-4c8e-ae23-358d805c9eae",
           "category": "Sides"
         },
         {
