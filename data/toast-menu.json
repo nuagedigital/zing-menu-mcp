@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-10-28T01:59:53.901536+00:00",
+  "scrapedAt": "2026-10-29T02:04:22.963107+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -450,11 +450,11 @@
           "category": "Burgers"
         },
         {
-          "name": "Combo Burger",
+          "name": "Chicken Smash Duo",
           "price": 17.99,
           "description": "Combo of Chicken Slider & SINGLE Smash Burger, served with creamy coleslaw, pickles, cheese & Zing Sauce",
           "image": "https://d1w7312wesee68.cloudfront.net/91pppYoWikLk8xN4LB-vUtS68ymnj8bJ6MXtORH_yo0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77596c60-1f61-4496-adc9-e15cc193fb4c.png",
-          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-combo-burger_210bb88d-a2ce-488c-ab25-7029c6bb496f",
+          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-chicken-smash-duo_210bb88d-a2ce-488c-ab25-7029c6bb496f",
           "category": "Burgers"
         },
         {
