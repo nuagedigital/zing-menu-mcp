@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-02T02:02:52.046086+00:00",
+  "scrapedAt": "2026-11-03T03:50:10.294914+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -20,7 +20,7 @@
           "name": "Zing-1",
           "price": 13.49,
           "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature and Zing sauces",
-          "image": "https://d1w7312wesee68.cloudfront.net/QTzQGKQwvlsT-Ivxo9TGlZVoOj1r_JkBTqoCyZ60pdE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/56abcaf0-7334-4184-97c9-ad5e01715da4.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/TBRf4GmP8W3YGWsuHduPefocc5mls4sXh-0JeXAPHZ0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/3f1eb5e5-c7fb-42d3-9bee-d1c5c51df2b8.png",
           "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing1_28afc75d-854c-40ac-a94f-688f89d97b93",
           "category": "Burgers"
         },
