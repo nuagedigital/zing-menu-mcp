@@ -311,6 +311,8 @@ async def scrape_one(page, key, url):
             for field in ("name", "description", "category"):
                 item[field] = clean_str(item.get(field, ""))
             final_items.append(item)
+        if len(final_items) >= MIN_ITEMS_PER_LOCATION:
+            await refresh_detail_images(page, final_items)
         if len(final_items) < MIN_ITEMS_PER_LOCATION:
             return {"ok": False, "error": f"Only {len(final_items)} items scraped; minimum {MIN_ITEMS_PER_LOCATION}",
                     "items": [], "tabs": []}
@@ -326,6 +328,76 @@ async def scrape_one(page, key, url):
         message = clean_str(str(exc))
         print(f"[scrape] {key} FAILED: {message}")
         return {"ok": False, "error": message, "items": [], "tabs": []}
+
+
+# Toast sometimes renders a stale thumbnail on the menu card while the item
+# detail dialog has the newly published image. Check detail views for every item.
+DETAIL_IMAGES = os.environ.get("DETAIL_IMAGES", "1") == "1"
+DETAIL_WAIT_MS = int(os.environ.get("DETAIL_WAIT_MS", "350"))
+
+
+DETAIL_IMAGE_JS = r"""() => {
+  const candidates = [...document.querySelectorAll(
+    '[role="dialog"] img, [aria-modal="true"] img, [data-testid*="modal"] img, [class*="Modal"] img, [class*="modal"] img'
+  )];
+  // Prefer the largest displayed product image, not tiny icons or thumbnails.
+  const scored = candidates.map(img => {
+    const rect = img.getBoundingClientRect();
+    const src = img.currentSrc || img.getAttribute('src') || img.getAttribute('data-src') || '';
+    return {src, score: rect.width * rect.height};
+  }).filter(x => x.score > 5000 && /cloudfront\.net|toasttab/i.test(x.src));
+  scored.sort((a,b) => b.score - a.score);
+  return scored.length ? scored[0].src : '';
+}"""
+
+
+async def refresh_detail_images(page, items):
+    """Read the image shown by Toast's item detail overlay, if available.
+
+    Never overwrite an existing card image with an empty or unverified result.
+    """
+    if not DETAIL_IMAGES:
+        return
+    changed = 0
+    checked = 0
+    for item in items:
+        item_url = (item.get("url") or "").split("?", 1)[0]
+        if "/item-" not in item_url:
+            continue
+        # Select by exact item href; nested Toast cards may have multiple links.
+        try:
+            opened = await page.evaluate("""url => {
+                const links = [...document.querySelectorAll('a[href*="/item-"]')];
+                const link = links.find(a => a.href.split('?')[0] === url);
+                if (!link) return false;
+                link.scrollIntoView({block:'center'});
+                link.click();
+                return true;
+            }""", item_url)
+            if not opened:
+                continue
+            await page.wait_for_timeout(DETAIL_WAIT_MS)
+            # If Toast navigated rather than opening a dialog, return to the menu.
+            if "/item-" in page.url:
+                await page.go_back(wait_until="domcontentloaded", timeout=30000)
+                await page.wait_for_timeout(400)
+                continue
+            fresh_url = await page.evaluate(DETAIL_IMAGE_JS)
+            if fresh_url:
+                checked += 1
+                if fresh_url != (item.get("image") or ""):
+                    print(f"[detail-images] {item.get('name')}: new image URL detected")
+                    item["image"] = fresh_url
+                    changed += 1
+            await page.keyboard.press("Escape")
+            await page.wait_for_timeout(100)
+        except Exception as exc:
+            print(f"[detail-images] {item.get('name')}: skipped ({str(exc)[:100]})")
+            try:
+                await page.keyboard.press("Escape")
+            except Exception:
+                pass
+    print(f"[detail-images] checked {checked} item detail images; replaced {changed} card URLs")
 
 
 def item_key(item):
