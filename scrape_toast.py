@@ -1,20 +1,14 @@
 # -*- coding: utf-8 -*-
-import sys, io
-try:
-    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
-    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
-except Exception:
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
-
-# scrape_toast.py - FINAL
+"""Scrape Zingsters Toast menus and refresh product image URLs automatically."""
 import asyncio
+import io
 import json
 import os
 import shutil
 import subprocess
-import urllib.request
+import sys
 import urllib.error
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlopen
@@ -22,197 +16,201 @@ from urllib.request import urlopen
 from patchright.async_api import async_playwright
 from patchright.sync_api import sync_playwright
 
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
 URLS = {
     "fremont": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
     "palo_alto": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b",
 }
-
 DATA_DIR = Path(__file__).parent / "data"
 OUT_FILE = DATA_DIR / "toast-menu.json"
 PROFILE_DIR = DATA_DIR / "chrome-profile"
-
 CHROME_PATHS = [
     r"C:\Program Files\Google\Chrome\Application\chrome.exe",
     r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
 ]
-
 CDP_URL = "http://127.0.0.1:9222"
-
-TAB_ORDER = [
-    "Burgers", "Wraps", "Bowls", "Sides", "Milkshakes",
-    "Drinks", "Sauce", "Kids Menu", "Tender Only",
-]
+TAB_ORDER = ["Burgers", "Wraps", "Bowls", "Sides", "Milkshakes", "Drinks", "Sauce", "Kids Menu", "Tender Only"]
+MIN_ITEMS_PER_LOCATION = int(os.environ.get("MIN_ITEMS_PER_LOCATION", "20"))
+CF_WAIT_SECONDS = int(os.environ.get("CF_WAIT_SECONDS", "180"))
 
 
-def clean_str(s):
-    """Remove invalid unicode chars."""
-    if not isinstance(s, str):
-        return s
-    return s.replace('\ufffd', '').replace('\u2014', '-').replace('\u2013', '-').strip()
+def clean_str(value):
+    if not isinstance(value, str):
+        return value
+    return value.replace("\ufffd", "").replace("\u2014", "-").replace("\u2013", "-").strip()
 
 
 def find_chrome():
-    """Find a browser that can be launched for CDP debugging.
-
-    GitHub Actions installs the browser through Patchright/Playwright rather than a
-    system Chrome install, so checking only the default Windows Chrome paths is
-    not enough.
-    """
-    for p in CHROME_PATHS:
-        if Path(p).exists():
-            return p
-
-    for exe in (shutil.which("chrome"), shutil.which("google-chrome"), shutil.which("chromium"), shutil.which("chromium-browser")):
-        if exe and Path(exe).exists():
-            return exe
-
+    for path in CHROME_PATHS:
+        if Path(path).exists():
+            return path
+    for path in (shutil.which("chrome"), shutil.which("google-chrome"),
+                 shutil.which("chromium"), shutil.which("chromium-browser")):
+        if path and Path(path).exists():
+            return path
     try:
         with sync_playwright() as p:
-            exe = p.chromium.executable_path
-            if exe and Path(exe).exists():
-                return exe
+            path = p.chromium.executable_path
+            if path and Path(path).exists():
+                return path
     except Exception:
         pass
-
-    for base in (
-        Path.home() / ".cache" / "ms-playwright",
-        Path.home() / ".local" / "share" / "ms-playwright",
-        Path.home() / "AppData" / "Local" / "ms-playwright",
-        Path("C:/ms-playwright"),
-    ):
-        if not base.exists():
-            continue
-        for pattern in ("**/chrome.exe", "**/chromium.exe", "**/chrome-win/chrome.exe"):
-            matches = sorted(base.glob(pattern))
-            if matches:
-                return str(matches[0])
-
+    for base in (Path.home() / ".cache" / "ms-playwright",
+                 Path.home() / ".local" / "share" / "ms-playwright",
+                 Path.home() / "AppData" / "Local" / "ms-playwright",
+                 Path("C:/ms-playwright")):
+        if base.exists():
+            for pattern in ("**/chrome.exe", "**/chromium.exe", "**/chrome-win/chrome.exe"):
+                matches = sorted(base.glob(pattern))
+                if matches:
+                    return str(matches[0])
     return None
 
 
 EXTRACT_JS = r"""
 () => {
     const KNOWN = ["Burgers","Wraps","Bowls","Sides","Milkshakes","Drinks","Sauce","Kids Menu","Tender Only"];
-
     const headings = [];
-    document.querySelectorAll('h1, h2, h3, h4, h5, [role="heading"]').forEach((h) => {
+    document.querySelectorAll('h1, h2, h3, h4, h5, [role="heading"]').forEach(h => {
         const text = (h.textContent || '').trim();
-        if (!text || text.length < 3 || text.length > 40) return;
-        if (text.includes('$')) return;
-        const rect = h.getBoundingClientRect();
-        const y = rect.top + window.scrollY;
-        const lower = text.toLowerCase();
-        let matchedCategory = '';
-        for (const tab of KNOWN) {
-            if (tab.toLowerCase() === lower) { matchedCategory = tab; break; }
-        }
-        headings.push({ text, y, category: matchedCategory, tag: h.tagName });
+        if (!text || text.length < 3 || text.length > 40 || text.includes('$')) return;
+        const y = h.getBoundingClientRect().top + window.scrollY;
+        const category = KNOWN.find(t => t.toLowerCase() === text.toLowerCase()) || '';
+        headings.push({text, y, category, tag: h.tagName});
     });
     headings.sort((a, b) => a.y - b.y);
 
-    const items = [];
-    const seen = new Set();
+    function validImage(url) {
+        if (!url || typeof url !== 'string') return '';
+        url = url.trim();
+        if (!url || url.startsWith('data:') || url.startsWith('blob:')) return '';
+        try {
+            const resolved = new URL(url, document.baseURI);
+            if (!['http:', 'https:'].includes(resolved.protocol)) return '';
+            return resolved.href;
+        } catch (_) { return ''; }
+    }
 
-    const cardSelectors =
-        '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
-        + '[data-testid*="menu-item"], a[href*="/item/"]';
-
-    document.querySelectorAll(cardSelectors).forEach((node) => {
-        let name = '';
-        const nameCands = node.querySelectorAll(
-            '[class*="name"], [class*="Name"], h3, h4, h5, [class*="title"]'
-        );
-        for (const c of nameCands) {
-            const t = (c.textContent || '').trim();
-            if (t && t.length > 1 && t.length < 120 && !t.match(/^\$/)) {
-                name = t; break;
+    function imageFrom(node) {
+        const imgs = [...node.querySelectorAll('img')];
+        for (const img of imgs) {
+            const candidates = [
+                img.currentSrc,
+                img.getAttribute('src'),
+                img.getAttribute('data-src'),
+                img.getAttribute('data-lazy-src'),
+                img.getAttribute('data-original')
+            ];
+            for (const attr of ['srcset', 'data-srcset']) {
+                const value = img.getAttribute(attr) || '';
+                const entries = value.split(',').map(v => v.trim().split(/\s+/)[0]).filter(Boolean);
+                candidates.push(...entries.reverse());
+            }
+            // Prefer Toast's actual CDN asset, not placeholder or tracking images.
+            for (const candidate of candidates) {
+                const url = validImage(candidate);
+                if (url && /cloudfront\.net|toasttab|\.jpe?g(?:\?|$)|\.png(?:\?|$)|\.webp(?:\?|$)/i.test(url)) return url;
             }
         }
-        if (!name) {
-            const full = (node.textContent || '').trim();
-            name = full.split('\n')[0].trim().slice(0, 120);
+        for (const el of [node, ...node.querySelectorAll('div, span, picture')]) {
+            const bg = window.getComputedStyle(el).backgroundImage || '';
+            const match = bg.match(/url\(["']?(.+?)["']?\)/);
+            if (match) {
+                const url = validImage(match[1]);
+                if (url) return url;
+            }
         }
-        if (!name || name.length < 2) return;
+        return '';
+    }
 
+    const items = [];
+    const index = new Map();
+    const cardSelectors = '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
+        + '[data-testid*="menu-item"], a[href*="/item/"]';
+    document.querySelectorAll(cardSelectors).forEach(node => {
+        let name = '';
+        const nameCands = node.querySelectorAll('[class*="name"], [class*="Name"], h3, h4, h5, [class*="title"]');
+        for (const c of nameCands) {
+            const t = (c.textContent || '').trim();
+            if (t && t.length > 1 && t.length < 120 && !/^\$/.test(t)) { name = t; break; }
+        }
+        if (!name) name = (node.textContent || '').trim().split('\n')[0].trim().slice(0, 120);
+        if (!name || name.length < 2) return;
         const fullText = node.textContent || '';
         const pm = fullText.match(/\$\s*(\d+(?:\.\d{2})?)/);
         if (!pm) return;
         const price = parseFloat(pm[1]);
         if (!price || price <= 0) return;
-
         let description = '';
-        const dcs = node.querySelectorAll(
-            '[class*="description"], [class*="Description"], p'
-        );
-        for (const d of dcs) {
+        for (const d of node.querySelectorAll('[class*="description"], [class*="Description"], p')) {
             const t = (d.textContent || '').trim();
-            if (t.length > 8 && t.length < 500 && t !== name && !t.match(/^\$/)) {
+            if (t.length > 8 && t.length < 500 && t !== name && !/^\$/.test(t)) {
                 description = t; break;
             }
         }
-
-        let image = '';
-        const imgEl = node.querySelector('img');
-        if (imgEl) image = imgEl.src || imgEl.getAttribute('data-src') || '';
-        if (!image) {
-            for (const el of [node, ...node.querySelectorAll('div, span')]) {
-                const bg = (el.style && el.style.backgroundImage) || '';
-                const m = bg.match(/url\(["']?(.+?)["']?\)/);
-                if (m && m[1]) { image = m[1]; break; }
-            }
-        }
-        if (image && image.startsWith('//')) image = 'https:' + image;
-
+        const image = imageFrom(node);
         let url = '';
         if (node.tagName === 'A' && node.href) url = node.href;
         if (!url) {
             const a = node.querySelector('a[href*="/item/"], a');
             if (a && a.href) url = a.href;
         }
-        if (url && url.startsWith('//')) url = 'https:' + url;
-        if (url && url.startsWith('/')) url = 'https://order.toasttab.com' + url;
-
+        if (url) {
+            try { url = new URL(url, document.baseURI).href; } catch (_) { url = ''; }
+        }
         const itemY = node.getBoundingClientRect().top + window.scrollY;
         let category = '';
         for (let i = headings.length - 1; i >= 0; i--) {
             if (headings[i].y <= itemY && headings[i].category) {
-                category = headings[i].category;
-                break;
+                category = headings[i].category; break;
             }
         }
-
-        const key = name.toLowerCase() + '|' + price;
-        if (seen.has(key)) return;
-        seen.add(key);
-
-        items.push({ name, price, description, image, url, category });
+        const key = (url && url.includes('/item') ? url : name.toLowerCase() + '|' + price);
+        const item = {name, price, description, image, url, category};
+        if (index.has(key)) {
+            const old = items[index.get(key)];
+            // Nested card selectors may describe the same item. Prefer richer data.
+            if (!old.image && item.image) old.image = item.image;
+            if (!old.description && item.description) old.description = item.description;
+            if (!old.category && item.category) old.category = item.category;
+        } else {
+            index.set(key, items.length);
+            items.push(item);
+        }
     });
-
-    return { headings_found: headings.map(h => ({ text: h.text, tag: h.tag, cat: h.category })), items };
+    return {headings_found: headings.map(h => ({text:h.text, tag:h.tag, cat:h.category})), items};
 }
 """
 
 
 def kill_chrome():
-    subprocess.run(["taskkill", "/F", "/IM", "chrome.exe", "/T"],
-                   capture_output=True, shell=True)
+    if os.name == "nt" and os.environ.get("KILL_CHROME", "1") == "1":
+        subprocess.run(["taskkill", "/F", "/IM", "chrome.exe", "/T"],
+                       capture_output=True, shell=False)
 
 
 def launch_chrome(path):
     PROFILE_DIR.mkdir(parents=True, exist_ok=True)
-    subprocess.Popen(
-        [path, "--remote-debugging-port=9222",
-         f"--user-data-dir={PROFILE_DIR}",
-         "--no-first-run", "--no-default-browser-check", "--start-maximized"],
-        creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
-    )
+    args = [path, "--remote-debugging-port=9222", f"--user-data-dir={PROFILE_DIR}",
+            "--no-first-run", "--no-default-browser-check", "--start-maximized"]
+    kwargs = {}
+    if os.name == "nt":
+        kwargs["creationflags"] = subprocess.CREATE_NEW_PROCESS_GROUP
+    subprocess.Popen(args, **kwargs)
 
 
 async def wait_debug(timeout=20):
     for _ in range(timeout * 2):
         try:
-            urlopen(f"{CDP_URL}/json/version", timeout=1)
-            return True
+            with urlopen(f"{CDP_URL}/json/version", timeout=1) as response:
+                if response.status == 200:
+                    return True
         except Exception:
             await asyncio.sleep(0.5)
     return False
@@ -220,16 +218,15 @@ async def wait_debug(timeout=20):
 
 async def is_cf(page):
     try:
-        c = (await page.content()).lower()
-        return any(k in c for k in [
-            "performing security verification", "verify you are human", "just a moment",
-        ])
+        content = (await page.content()).lower()
+        return any(term in content for term in (
+            "performing security verification", "verify you are human", "just a moment"))
     except Exception:
         return False
 
 
 async def wait_cf(page, timeout=180):
-    print("[scrape] Cloudflare - click the checkbox")
+    print("[scrape] Cloudflare verification detected")
     for _ in range(timeout):
         await page.wait_for_timeout(1000)
         if not await is_cf(page):
@@ -238,15 +235,28 @@ async def wait_cf(page, timeout=180):
 
 
 async def scroll_all(page):
+    # Scroll repeatedly to load images and menu cards which use IntersectionObserver.
     await page.evaluate("""async () => {
-        const h = document.body.scrollHeight;
-        for (let y = 0; y < h; y += 400) {
-            window.scrollTo(0, y);
-            await new Promise(r => setTimeout(r, 180));
+        const pause = ms => new Promise(r => setTimeout(r, ms));
+        let previousHeight = 0;
+        for (let pass = 0; pass < 3; pass++) {
+            const height = document.body.scrollHeight;
+            for (let y = 0; y < height; y += 350) {
+                window.scrollTo(0, y);
+                await pause(130);
+            }
+            await pause(650);
+            if (height === previousHeight) break;
+            previousHeight = height;
         }
-        await new Promise(r => setTimeout(r, 800));
         window.scrollTo(0, 0);
+        await pause(750);
     }""")
+    # Allow pending lazy image requests to settle, without requiring every analytics request.
+    try:
+        await page.wait_for_load_state("networkidle", timeout=10000)
+    except Exception:
+        pass
 
 
 async def scrape_one(page, key, url):
@@ -254,179 +264,185 @@ async def scrape_one(page, key, url):
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=90000)
         await page.wait_for_timeout(3000)
-
-        if await is_cf(page):
-            if not await wait_cf(page, 180):
-                return {"ok": False, "items": [], "tabs": []}
-
+        if await is_cf(page) and not await wait_cf(page, CF_WAIT_SECONDS):
+            return {"ok": False, "error": "Cloudflare verification timeout", "items": [], "tabs": []}
         await page.wait_for_timeout(3000)
-
         for tab in TAB_ORDER:
             try:
-                await page.evaluate(f'''
-                    () => {{
-                        const els = document.querySelectorAll('button, a, [role="tab"]');
-                        for (const el of els) {{
-                            if ((el.textContent || '').trim() === "{tab}") {{
-                                el.click();
-                                return true;
-                            }}
-                        }}
-                        return false;
-                    }}
-                ''')
-                await page.wait_for_timeout(1000)
+                await page.evaluate("""tab => {
+                    const els = document.querySelectorAll('button, a, [role="tab"]');
+                    for (const el of els) {
+                        if ((el.textContent || '').trim() === tab) { el.click(); return true; }
+                    }
+                    return false;
+                }""", tab)
+                await page.wait_for_timeout(800)
             except Exception:
                 pass
-
         await scroll_all(page)
-        await page.wait_for_timeout(2500)
-
+        await page.wait_for_timeout(1500)
         result = await page.evaluate(EXTRACT_JS)
         raw_items = result.get("items", [])
-
-        print(f"[scrape]   raw items: {len(raw_items)}")
-
-        counts = {}
-        for it in raw_items:
-            cat = it.get("category") or "Other"
-            counts[cat] = counts.get(cat, 0) + 1
-        print(f"[scrape]   category counts: {counts}")
-
+        print(f"[scrape] raw items: {len(raw_items)}")
         final_items = []
-        for it in raw_items:
-            if not it.get("category"):
-                name_low = (it.get("name") or "").lower()
-                if any(k in name_low for k in ["burger", "smash", "zing"]):
-                    it["category"] = "Burgers"
-                elif "wrap" in name_low:
-                    it["category"] = "Wraps"
-                elif any(k in name_low for k in ["bowl", "platter", "salad"]):
-                    it["category"] = "Bowls"
-                elif any(k in name_low for k in ["fries", "coleslaw"]):
-                    it["category"] = "Sides"
-                elif "shake" in name_low:
-                    it["category"] = "Milkshakes"
-                elif any(k in name_low for k in ["lemonade", "drink", "cola", "sprite", "water"]):
-                    it["category"] = "Drinks"
-                elif "sauce" in name_low:
-                    it["category"] = "Sauce"
-                elif any(k in name_low for k in ["kids", "slider", "juice"]):
-                    it["category"] = "Kids Menu"
-                elif "tender" in name_low:
-                    it["category"] = "Tender Only"
+        for item in raw_items:
+            if not item.get("category"):
+                name = (item.get("name") or "").lower()
+                if any(t in name for t in ("burger", "smash", "zing")):
+                    item["category"] = "Burgers"
+                elif "wrap" in name:
+                    item["category"] = "Wraps"
+                elif any(t in name for t in ("bowl", "platter", "salad")):
+                    item["category"] = "Bowls"
+                elif any(t in name for t in ("fries", "coleslaw")):
+                    item["category"] = "Sides"
+                elif "shake" in name:
+                    item["category"] = "Milkshakes"
+                elif any(t in name for t in ("lemonade", "drink", "cola", "sprite", "water")):
+                    item["category"] = "Drinks"
+                elif "sauce" in name:
+                    item["category"] = "Sauce"
+                elif any(t in name for t in ("kids", "slider", "juice")):
+                    item["category"] = "Kids Menu"
+                elif "tender" in name:
+                    item["category"] = "Tender Only"
                 else:
                     continue
-
-            # CLEAN the item fields
-            it['name'] = clean_str(it.get('name', ''))
-            it['description'] = clean_str(it.get('description', ''))
-            it['category'] = clean_str(it.get('category', ''))
-
-            final_items.append(it)
-
-        final_counts = {}
-        for it in final_items:
-            c = it["category"]
-            final_counts[c] = final_counts.get(c, 0) + 1
-
-        ordered = {t: final_counts.get(t, 0) for t in TAB_ORDER if final_counts.get(t)}
-        print(f"[scrape]   FINAL categories: {ordered}")
-
-        with_img = sum(1 for i in final_items if i.get("image"))
-        with_desc = sum(1 for i in final_items if i.get("description"))
-
-        print(f"[scrape] {key} DONE - {len(final_items)} items "
-              f"(img:{with_img} desc:{with_desc})")
-
-        used_tabs = [t for t in TAB_ORDER if final_counts.get(t)]
-
+            for field in ("name", "description", "category"):
+                item[field] = clean_str(item.get(field, ""))
+            final_items.append(item)
+        if len(final_items) < MIN_ITEMS_PER_LOCATION:
+            return {"ok": False, "error": f"Only {len(final_items)} items scraped; minimum {MIN_ITEMS_PER_LOCATION}",
+                    "items": [], "tabs": []}
+        counts = {}
+        for item in final_items:
+            cat = item["category"]
+            counts[cat] = counts.get(cat, 0) + 1
+        used_tabs = [tab for tab in TAB_ORDER if counts.get(tab)]
+        with_images = sum(bool(item.get("image")) for item in final_items)
+        print(f"[scrape] {key}: {len(final_items)} items, {with_images} images; categories {counts}")
         return {"ok": True, "url": url, "tabs": used_tabs, "items": final_items}
+    except Exception as exc:
+        message = clean_str(str(exc))
+        print(f"[scrape] {key} FAILED: {message}")
+        return {"ok": False, "error": message, "items": [], "tabs": []}
 
-    except Exception as e:
-        # Make error safe for printing
-        err_msg = clean_str(str(e))
-        print(f"[scrape] {key} FAILED: {err_msg}")
-        return {"ok": False, "error": err_msg, "items": [], "tabs": []}
+
+def item_key(item):
+    # Toast item URL is a stronger identity than a potentially edited name/price.
+    url = item.get("url") or ""
+    if "/item" in url:
+        return ("url", url.split("?", 1)[0])
+    return ("name", (item.get("name") or "").strip().casefold())
+
+
+def preserve_missing_images(current, previous):
+    """Keep prior images only when fresh scraping returned no image for an item."""
+    old_items = previous.get("items", []) if isinstance(previous, dict) else []
+    old_by_key = {item_key(item): item for item in old_items}
+    old_by_name = {(item.get("name") or "").strip().casefold(): item for item in old_items}
+    updated = 0
+    retained = 0
+    for item in current.get("items", []):
+        old = old_by_key.get(item_key(item)) or old_by_name.get((item.get("name") or "").strip().casefold())
+        if not old:
+            continue
+        fresh_image = item.get("image") or ""
+        old_image = old.get("image") or ""
+        if fresh_image and fresh_image != old_image:
+            updated += 1
+            print(f"[images] UPDATED {item.get('name')}: {old_image[:65]} -> {fresh_image[:65]}")
+        elif not fresh_image and old_image:
+            item["image"] = old_image
+            retained += 1
+    return updated, retained
+
+
+def load_previous():
+    if not OUT_FILE.exists():
+        return {"locations": {}}
+    try:
+        with OUT_FILE.open("r", encoding="utf-8") as handle:
+            return json.load(handle)
+    except (OSError, ValueError) as exc:
+        print(f"[warning] Existing JSON cannot be read: {exc}")
+        return {"locations": {}}
+
+
+def save_json_atomic(data):
+    temp_file = OUT_FILE.with_suffix(".json.tmp")
+    with temp_file.open("w", encoding="utf-8") as handle:
+        json.dump(data, handle, indent=2, ensure_ascii=False)
+    temp_file.replace(OUT_FILE)
+
+
+def upload_wordpress(data):
+    wp_url = os.environ.get("WP_URL", "")
+    wp_secret = os.environ.get("WP_SECRET", "")
+    if not wp_url or not wp_secret:
+        print("[upload] Skipped (WP_URL/WP_SECRET not set)")
+        return
+    total = sum(len(loc.get("items", [])) for loc in data["locations"].values())
+    print(f"[upload] Sending {total} items to WordPress")
+    try:
+        request = urllib.request.Request(
+            wp_url,
+            data=json.dumps(data, ensure_ascii=False).encode("utf-8"),
+            method="POST",
+            headers={"Content-Type": "application/json; charset=utf-8", "x-upload-secret": wp_secret},
+        )
+        with urllib.request.urlopen(request, timeout=60) as response:
+            result = json.loads(response.read().decode("utf-8-sig"))
+            print(f"[upload] WordPress: {result.get('message')}; items: {result.get('items')}")
+    except urllib.error.HTTPError as exc:
+        print(f"[upload] Rejected: {exc.code}; {exc.read().decode('utf-8', errors='replace')[:300]}")
+    except Exception as exc:
+        print(f"[upload] Failed: {clean_str(str(exc))}")
 
 
 async def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    previous = load_previous()
     kill_chrome()
     await asyncio.sleep(3)
-
     chrome = find_chrome()
     if not chrome:
-        print("[setup] ERROR: Chrome not found.")
-        return
-
+        raise RuntimeError("Chrome/Chromium not found")
     launch_chrome(chrome)
     if not await wait_debug(20):
-        print("[setup] ERROR: debug port not open.")
-        return
+        raise RuntimeError("Chrome debugging port did not open")
 
-    out = {
-        "scrapedAt": datetime.now(timezone.utc).isoformat(),
-        "locations": {},
-    }
-
-    async with async_playwright() as p:
-        browser = await p.chromium.connect_over_cdp(CDP_URL)
-        ctx = browser.contexts[0] if browser.contexts else await browser.new_context()
-        page = await ctx.new_page()
-
-        for key, url in URLS.items():
-            out["locations"][key] = await scrape_one(page, key, url)
-
-        await page.close()
-
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(out, f, indent=2, ensure_ascii=False)
-
-    print(f"\n{'='*60}")
-    for loc, data in out["locations"].items():
-        items = data.get("items", [])
-        counts = {}
-        for it in items:
-            counts[it["category"]] = counts.get(it["category"], 0) + 1
-        print(f"\n{loc}: {len(items)} items")
-        for tab in TAB_ORDER:
-            n = counts.get(tab, 0)
-            mark = "OK" if n else "--"
-            print(f"   {mark} {tab}: {n}")
-
-    total = sum(len(v.get("items", [])) for v in out["locations"].values())
-
-    WP_URL = os.environ.get("WP_URL", "")
-    WP_SECRET = os.environ.get("WP_SECRET", "")
-
-    if WP_URL and WP_SECRET:
-        print(f"\n[upload] Sending {total} items to WordPress")
+    out = {"scrapedAt": datetime.now(timezone.utc).isoformat(), "locations": {}}
+    async with async_playwright() as playwright:
+        browser = await playwright.chromium.connect_over_cdp(CDP_URL)
+        # A NEW context per run avoids persisted browser cache, cookies and stale DOM state.
+        context = await browser.new_context(service_workers="block")
         try:
-            payload = json.dumps(out, ensure_ascii=False).encode("utf-8")
-            req = urllib.request.Request(
-                WP_URL,
-                data=payload,
-                method="POST",
-                headers={
-                    "Content-Type": "application/json; charset=utf-8",
-                    "x-upload-secret": WP_SECRET,
-                },
-            )
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                raw = resp.read().decode("utf-8-sig")
-                result = json.loads(raw)
-                print(f"[upload] WordPress: {result.get('message')}")
-                print(f"[upload] Items: {result.get('items')}")
-        except urllib.error.HTTPError as e:
-            print(f"[upload] Rejected: {e.code}")
-            print(f"[upload] {e.read().decode('utf-8', errors='replace')[:300]}")
-        except Exception as e:
-            print(f"[upload] Failed: {clean_str(str(e))}")
-    else:
-        print("[upload] Skipped (WP_URL/WP_SECRET not set - local mode)")
+            for key, url in URLS.items():
+                page = await context.new_page()
+                try:
+                    fresh = await scrape_one(page, key, url)
+                finally:
+                    await page.close()
+                old = previous.get("locations", {}).get(key, {})
+                if fresh.get("ok"):
+                    updated, retained = preserve_missing_images(fresh, old)
+                    print(f"[images] {key}: {updated} changed URLs; {retained} missing images retained")
+                    out["locations"][key] = fresh
+                elif old.get("ok") and old.get("items"):
+                    print(f"[warning] {key}: scrape failed; preserving last successful menu")
+                    out["locations"][key] = old
+                else:
+                    raise RuntimeError(f"{key}: scrape failed and no previous valid menu exists: {fresh.get('error')}")
+        finally:
+            await context.close()
+            await browser.close()
 
-    print(f"\n[done] {total} items -> {OUT_FILE}")
+    save_json_atomic(out)
+    for key, location in out["locations"].items():
+        print(f"[done] {key}: {len(location.get('items', []))} items")
+    upload_wordpress(out)
+    print(f"[done] Saved {OUT_FILE}")
 
 
 if __name__ == "__main__":
