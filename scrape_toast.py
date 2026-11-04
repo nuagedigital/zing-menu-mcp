@@ -351,53 +351,79 @@ DETAIL_IMAGE_JS = r"""() => {
 }"""
 
 
-async def refresh_detail_images(page, items):
-    """Read the image shown by Toast's item detail overlay, if available.
+# Detail-page fallback for Toast items that navigate instead of opening a dialog.
+# The image must be a large, visible Toast CDN image inside the product view.
+DETAIL_PAGE_IMAGE_JS = r"""() => {
+  const roots = [...document.querySelectorAll('main, [role="main"], [role="dialog"]')];
+  const root = roots.find(el => /\$\s*\d/.test(el.innerText || '')) || document.querySelector('main');
+  if (!root) return '';
+  const candidates = [...root.querySelectorAll('img')].map(img => {
+    const r = img.getBoundingClientRect();
+    return {src: img.currentSrc || img.getAttribute('src') || '',
+            area: r.width * r.height};
+  }).filter(x => x.area >= 20000 && /cloudfront\.net/.test(x.src)
+           && /menu_service\/restaurants\//.test(x.src));
+  candidates.sort((a,b) => b.area - a.area);
+  return candidates.length ? candidates[0].src : '';
+}"""
 
-    Never overwrite an existing card image with an empty or unverified result.
-    """
+
+async def refresh_detail_images(page, items):
+    """Prefer the current Toast detail image; retain card image if unverified."""
     if not DETAIL_IMAGES:
         return
-    changed = 0
-    checked = 0
-    for item in items:
-        item_url = (item.get("url") or "").split("?", 1)[0]
-        if "/item-" not in item_url:
-            continue
-        # Select by exact item href; nested Toast cards may have multiple links.
-        try:
-            opened = await page.evaluate("""url => {
-                const links = [...document.querySelectorAll('a[href*="/item-"]')];
-                const link = links.find(a => a.href.split('?')[0] === url);
-                if (!link) return false;
-                link.scrollIntoView({block:'center'});
-                link.click();
-                return true;
-            }""", item_url)
-            if not opened:
+    changed = checked = 0
+    detail_page = await page.context.new_page()
+    try:
+        for item in items:
+            item_url = (item.get("url") or "").split("?", 1)[0]
+            if "/item-" not in item_url:
                 continue
-            await page.wait_for_timeout(DETAIL_WAIT_MS)
-            # If Toast navigated rather than opening a dialog, return to the menu.
-            if "/item-" in page.url:
-                await page.go_back(wait_until="domcontentloaded", timeout=30000)
-                await page.wait_for_timeout(400)
-                continue
-            fresh_url = await page.evaluate(DETAIL_IMAGE_JS)
-            if fresh_url:
-                checked += 1
-                if fresh_url != (item.get("image") or ""):
-                    print(f"[detail-images] {item.get('name')}: new image URL detected")
-                    item["image"] = fresh_url
-                    changed += 1
-            await page.keyboard.press("Escape")
-            await page.wait_for_timeout(100)
-        except Exception as exc:
-            print(f"[detail-images] {item.get('name')}: skipped ({str(exc)[:100]})")
+            fresh_url = ""
             try:
-                await page.keyboard.press("Escape")
-            except Exception:
-                pass
-    print(f"[detail-images] checked {checked} item detail images; replaced {changed} card URLs")
+                # First try Toast's product overlay.
+                opened = await page.evaluate("""url => {
+                    const link = [...document.querySelectorAll('a[href*="/item-"]')]
+                        .find(a => a.href.split('?')[0] === url);
+                    if (!link) return false;
+                    link.scrollIntoView({block:'center'});
+                    link.click();
+                    return true;
+                }""", item_url)
+                if opened:
+                    await page.wait_for_timeout(DETAIL_WAIT_MS)
+                    if "/item-" not in page.url:
+                        fresh_url = await page.evaluate(DETAIL_IMAGE_JS)
+                        await page.keyboard.press("Escape")
+                    else:
+                        await page.go_back(wait_until="domcontentloaded", timeout=30000)
+                        await page.wait_for_timeout(350)
+                if not fresh_url:
+                    # A separate item page can contain a newer image than the card.
+                    await detail_page.goto(item_url, wait_until="domcontentloaded", timeout=30000)
+                    await detail_page.wait_for_timeout(900)
+                    if not await is_cf(detail_page):
+                        fresh_url = await detail_page.evaluate(DETAIL_PAGE_IMAGE_JS)
+                if fresh_url:
+                    checked += 1
+                    if fresh_url != (item.get("image") or ""):
+                        print(f"[detail-images] UPDATED {item.get('name')}: {fresh_url}")
+                        item["image"] = fresh_url
+                        changed += 1
+                else:
+                    print(f"[detail-images] NO VERIFIED IMAGE {item.get('name')}; keeping card URL")
+            except Exception as exc:
+                print(f"[detail-images] {item.get('name')}: skipped ({str(exc)[:120]})")
+                try:
+                    if "/item-" in page.url:
+                        await page.go_back(wait_until="domcontentloaded", timeout=30000)
+                    else:
+                        await page.keyboard.press("Escape")
+                except Exception:
+                    pass
+    finally:
+        await detail_page.close()
+    print(f"[detail-images] verified {checked} detail images; replaced {changed} URLs")
 
 
 def item_key(item):
