@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-04T02:52:32.693483+00:00",
+  "scrapedAt": "2026-11-04T22:30:07.636158+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -397,15 +397,15 @@
           "name": "Kids Meal - Chicken Tender, Fries and Juice",
           "price": 13.99,
           "description": "Chicken Tender comes with Plain regular fries and Juice",
-          "image": "https://d1w7312wesee68.cloudfront.net/BGRfA6Y86yCMOiUI45-E6-5Jil8137XzGll8Uk3yJ3o/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/376fbc67-085e-4338-ae5d-e72843b168d5.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/vmu5m_BPZMRE_Qc2AxEzFvpvDtx_RPoM2TIFeehd7VI/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/376fbc67-085e-4338-ae5d-e72843b168d5.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-kids-meal-chicken-tender-fries-and-juice_28858507-e79d-4ec7-83be-a6455517fab4",
-          "category": "Sides"
+          "category": "Kids Menu"
         },
         {
           "name": "Chicken Rice Platter",
           "price": 16.99,
           "description": "Two chopped, juicy chicken tenders served over fragrant rice with fresh coleslaw and our signature Zing sauces.",
-          "image": "https://d1w7312wesee68.cloudfront.net/oFJlSLVw7qyfqBUZMVUplf4YTmURfHnGuMt9-P-J7TU/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/5658a11a-f7b5-46b4-8c19-8c77c55e3ccb.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/wlovq429y4ZORHW0ypicXtzfmtNKlpfHkqLOb4PwLy0/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/5658a11a-f7b5-46b4-8c19-8c77c55e3ccb.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-chicken-rice-platter_506926ff-0f55-4fe9-ae1d-b3993b69f954",
           "category": "Bowls"
         },
@@ -413,7 +413,7 @@
           "name": "Mix Rice Platter",
           "price": 16.99,
           "description": "Served with 1 Single Smash Patty Topped with Cheese and 1 Chopped Crispy Fried Tender Over Fragrant Rice, Drizzled With Zing Sauce and White Sauce,",
-          "image": "https://d1w7312wesee68.cloudfront.net/LWMnOaTxT9-BuKWAcPmebiNsi8G13l0tfEyOGkjt05s/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6d87400b-ebeb-47e8-9d5b-96037361b072.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/ybtrJXFDSqdQQCgSgu1Sv5evY_f_Ml9UOQDuEUAFiuE/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6d87400b-ebeb-47e8-9d5b-96037361b072.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-mix-rice-platter_c7ff0e3a-00f1-4835-b647-8d4e2184064a",
           "category": "Bowls"
         },
@@ -421,7 +421,7 @@
           "name": "Zing-1",
           "price": 15.99,
           "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature Zing sauces",
-          "image": "https://d1w7312wesee68.cloudfront.net/so5I7QkQR45zIuQYklsBtoAuJc5R-OLYYUsJR66rSK0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/b70644ec-49da-4209-8fb8-db4e2449c229.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/hrJpoUlno9LeNwGkiADSRyjRZJG3kACQAUO9u1FNUAc/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/b70644ec-49da-4209-8fb8-db4e2449c229.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-zing1_e7741d51-a0fd-4205-b63b-eea63b0b5c42",
           "category": "Burgers"
         },
@@ -429,7 +429,7 @@
           "name": "Zing -2",
           "price": 17.99,
           "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces",
-          "image": "https://d1w7312wesee68.cloudfront.net/ie2BAjcYr20hdDd5DF2x4abK0qpReYFxfThLAOvF5kc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6bafa521-4687-4c4f-b2da-326e8a6b299e.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/Mjyu46db6BmijRAWhsMy5cq2ASWsQ3LqdgLxopWDGEk/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6bafa521-4687-4c4f-b2da-326e8a6b299e.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-zing-2_9095565a-a838-4c1d-9152-60ad0e681f4f",
           "category": "Burgers"
         },
@@ -437,7 +437,7 @@
           "name": "Zing -3",
           "price": 15.58,
           "description": "2 crispy Chicken Tenders comes with  Pickles, and white bread.",
-          "image": "https://d1w7312wesee68.cloudfront.net/f0qarqqwk07qnPcTWWO49GEhBkz3R6ByYNeDmrKouhE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/3f15063d-a10f-42ea-b188-f819a9213f37.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/iIF9HpqSbACBrq8nS3ErgMyI8X0qnMf0_IvpVDk-mcI/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/3f15063d-a10f-42ea-b188-f819a9213f37.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-zing-3_b1777ee6-e64a-4460-86b9-acb831e15b91",
           "category": "Burgers"
         },
@@ -445,7 +445,7 @@
           "name": "Zing-4",
           "price": 16.58,
           "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
-          "image": "https://d1w7312wesee68.cloudfront.net/N_nsBJ1N4-cvaMxJVqvOBurYrBQMBJJ0lG2vysd6Zzo/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/d30e5cfd-ea41-4ded-99e2-a397f90e67b9.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/f1tFycMvXIUjdJKylnoXC2bPOt8tZ7n1o-IkAAK7K-I/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/d30e5cfd-ea41-4ded-99e2-a397f90e67b9.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-zing4_7d652423-7f88-4e9f-8c5e-2aeed4898280",
           "category": "Burgers"
         },
@@ -453,7 +453,7 @@
           "name": "Chicken Smash Duo",
           "price": 17.99,
           "description": "Combo of Chicken Slider & SINGLE Smash Burger, served with creamy coleslaw, pickles, cheese & Zing Sauce",
-          "image": "https://d1w7312wesee68.cloudfront.net/91pppYoWikLk8xN4LB-vUtS68ymnj8bJ6MXtORH_yo0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77596c60-1f61-4496-adc9-e15cc193fb4c.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/rMVrdH9zgngs3-y4kHUskKimR4Xm8QA_OKWAfNIA4sg/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77596c60-1f61-4496-adc9-e15cc193fb4c.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-chicken-smash-duo_210bb88d-a2ce-488c-ab25-7029c6bb496f",
           "category": "Burgers"
         },
@@ -461,7 +461,7 @@
           "name": "Smash-Single",
           "price": 11.49,
           "description": "A single beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
-          "image": "https://d1w7312wesee68.cloudfront.net/LKF_29iAWlfsM75otM7722XyiKSnEkLiEuRaL5jg734/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/1d628728-d319-4b05-8521-38199be83850.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/SungqOIwRMO9AVS22slyGgq-j4Yr0iCRgmDSG_hX0pA/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/1d628728-d319-4b05-8521-38199be83850.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-smashsingle_038376f2-88e4-479c-a6a5-b8ffc238d985",
           "category": "Burgers"
         },
@@ -469,7 +469,7 @@
           "name": "Smash-Double",
           "price": 13.49,
           "description": "A DOUBLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
-          "image": "https://d1w7312wesee68.cloudfront.net/xHTJ07SeFT3iIXvoZ3d3oaCJh-hb3p-LY7UH-qlbbeA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/69e33589-39a6-456f-82cc-f46015c18892.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/qbYkAVNtGc6baGZ62__e2UkzC--UykG70huvR9dsLIs/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/69e33589-39a6-456f-82cc-f46015c18892.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-smashdouble_58f00182-dcb4-43a9-87a8-5b219b94a513",
           "category": "Burgers"
         },
@@ -477,7 +477,7 @@
           "name": "Smash-Triple",
           "price": 15.49,
           "description": "A TRIPLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
-          "image": "https://d1w7312wesee68.cloudfront.net/H7J3OFk-BnpSHYmF-1NqHRtHnG99pgladOT57kqMFyA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/37e32faf-38e6-4ff7-83e0-d319caa46f34.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/7C8xsmb4ch3KFvo9UWEtROfBAi_0AchkQNO7BaP8nPQ/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/37e32faf-38e6-4ff7-83e0-d319caa46f34.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-smashtriple_ff6e68e0-50b0-44e3-b27b-439b3d0911ee",
           "category": "Burgers"
         },
@@ -485,7 +485,7 @@
           "name": "Single Slider",
           "price": 8.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/C8xffUWqKFjaUOCNaTK4pCM_NBC7MRv7I8woHR6P6Eo/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/960a3c37-973e-4561-92ab-847e39c3c92b.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/f10p68m0qAQ9Kdg4Yg85JJy840nm00I20BxtE6rrx5A/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/960a3c37-973e-4561-92ab-847e39c3c92b.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-single-slider_a0f753d5-e301-4c2b-b506-856fd25e7d86",
           "category": "Burgers"
         },
@@ -493,7 +493,7 @@
           "name": "Single Tender",
           "price": 8.49,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/QiESFwniuliyPInlNmYpbTpNWSPEvS_M23CQXWghXO8/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/987913cd-4a7c-472f-87a5-cc5c330c190e.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/6DedtT0dSAwpuFSP0qPHonguKwLoTw2s5hkiwuIMFlE/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/987913cd-4a7c-472f-87a5-cc5c330c190e.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-single-tender_f17964f1-5f58-445c-870b-71eeb7c498f0",
           "category": "Burgers"
         },
@@ -501,7 +501,7 @@
           "name": "Chicken Wrap",
           "price": 16.99,
           "description": "2 Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing sauces",
-          "image": "https://d1w7312wesee68.cloudfront.net/3ApNelkUTDZSPnac0P-ERC29S-uufXoLeu3wurvDJOI/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/c2b65b4d-4100-458b-a5cc-1ade18a91a10.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/-cj2hj4NBvyFEtdDwXXwvKDTpMtvPpWpiPzGNE8v0Fo/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/c2b65b4d-4100-458b-a5cc-1ade18a91a10.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-chicken-wrap_2add9151-3c64-4e1a-89e9-04973ff2ec28",
           "category": "Wraps"
         },
@@ -509,7 +509,7 @@
           "name": "MIX WRAP  (chicken and smash)",
           "price": 16.99,
           "description": "1 Crispy fried chicken tender and 1 Smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces.",
-          "image": "https://d1w7312wesee68.cloudfront.net/FbeVg_fSnaMGDkekF5rIUlkVW_V_Va0c9yAgJWnte9E/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/72e789ec-9713-4477-9356-a2c334d3248f.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/36TN2UgX5LwNz9khz1kxMiEHBm8spbYjNDQrV4Ak6ao/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/72e789ec-9713-4477-9356-a2c334d3248f.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-mix-wrap-chicken-and-smash_34eda0b3-28ee-4d55-8a1f-e63714e02cd0",
           "category": "Wraps"
         },
@@ -517,7 +517,7 @@
           "name": "Veg Wrap",
           "price": 14.99,
           "description": "Crispy Falafel layered with fresh Lettuce and onion, drizzled with our signature sauces.",
-          "image": "https://d1w7312wesee68.cloudfront.net/KhXweygzXhBrb1gljMGJSb_E4vtPOCX-RqOBpb3ZUoE/resize:fit:720:720/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/4/item-1600000003839065334_1781937427.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/LvsNO7nyQnJ-kxiGjLWlEMus78F5FfSlWEd6SH42QHY/resize:fit:360:360/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/4/item-1600000003839065334_1781937427.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-veg-wrap_95815d5b-08d3-4a1a-a405-6b2b01881fc2",
           "category": "Wraps"
         },
@@ -525,7 +525,7 @@
           "name": "Beef wrap",
           "price": 16.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/fdpAqpIw3o6x66T0ckNRTMtQIKZmVCpkLVIJJNbyY3g/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/9834a729-1e48-4125-a2bc-30e4ca4a8ade.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/uUilrVsQ1Zf9YzSxQRqGYfnqa10s6dOanqqNbLNk3-M/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/9834a729-1e48-4125-a2bc-30e4ca4a8ade.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-beef-wrap_4b30ad64-7a02-4fb6-9e5f-62092e8c9c80",
           "category": "Wraps"
         },
@@ -533,7 +533,7 @@
           "name": "Crispy Chicken Salad Bowl",
           "price": 17.99,
           "description": "2 Crispy Tenders Served with Fresh Mixed Lettuce, Onion, Topped with Our Signature Zing Sauce And White Sauce",
-          "image": "https://d1w7312wesee68.cloudfront.net/Z55rHnl0hhh3UjTcrbtwNpqK-MOO8SNFGx9al0PEA0Q/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/65d4979e-e0d2-4af7-95ae-c63f1d8f17b1.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/ue2xyuFWCMcxpMDWjjS8rRg14IqzAe7BLlyVMEX18aE/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/65d4979e-e0d2-4af7-95ae-c63f1d8f17b1.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-crispy-chicken-salad-bowl_8198a74a-dbf3-4448-b15d-874e09bff322",
           "category": "Bowls"
         },
@@ -541,7 +541,7 @@
           "name": "Grilled Chicken Salad Bowl",
           "price": 18.49,
           "description": "2 Grilled Tenders Served With Fresh Mixed Lettuce, Onion, Topped With Our Signature Zing Sauces and White Sauce",
-          "image": "https://d1w7312wesee68.cloudfront.net/67DivRuMU72VmQ23tLEy8EFyTXg_NmrPeXOwIOnwufw/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/bd1700c4-59fd-432d-a31c-3031fbd5c9c6.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/IlqV5jD5LtQvPQsnmuk_P_rJJdPSMmp7g9oAvxdLptU/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/bd1700c4-59fd-432d-a31c-3031fbd5c9c6.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-grilled-chicken-salad-bowl_ff37a2f9-577b-43ff-8830-99ebfbc514fe",
           "category": "Bowls"
         },
@@ -549,7 +549,7 @@
           "name": "Side of rice",
           "price": 6,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/TJdTBQ2nDWvLUGz3xDQ-Oj4c_VQBGZADdu6KDxTJT8M/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/96942547-2b54-4c10-9c22-dbe30b121e47.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/Vu53V3XrG5EO1F1MRjTVezmH7oeaMAVIQNqWAARlnbg/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/96942547-2b54-4c10-9c22-dbe30b121e47.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-side-of-rice_7a1b96c4-284f-47e0-bdbc-d0cf28d73aec",
           "category": "Bowls"
         },
@@ -557,7 +557,7 @@
           "name": "Beef Rice Platter",
           "price": 16.99,
           "description": "Served with 2 smash patty over fragrant rice drizzled with signature sauce, and paired with fresh coleslaw.",
-          "image": "https://d1w7312wesee68.cloudfront.net/BVVXbq6tZGviUib67Fe-IFaaVBg0_zLpGOeFGqIAHLs/resize:fit:720:720/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/0/item-1600000003831606980_1781937569.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/jwvTCOYZVi_p8RF6pr22AiHt7hxOhoPDNGVBCiRWn7A/resize:fit:360:360/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/0/item-1600000003831606980_1781937569.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-beef-rice-platter_a503bf7e-58ed-40db-b9a3-05d71de491e4",
           "category": "Bowls"
         },
@@ -565,7 +565,7 @@
           "name": "Veg Salad Bowl",
           "price": 14.49,
           "description": "Crispy Falafel Served with Fresh Mixed Lettuce, onion, topped with our signature sauces.",
-          "image": "https://d1w7312wesee68.cloudfront.net/dDLMiFO3KOFr5Du2fhM-_TAzEIervqm8hVqIDKamoyI/resize:fit:720:720/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/4/item-1600000003838810624_1781937816.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/OjnV7Z2PVy59Rs-JIg9wCtFudyTYnN905x1Xw4YuW8g/resize:fit:360:360/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/4/item-1600000003838810624_1781937816.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-veg-salad-bowl_45c7d3e3-6247-46ef-971a-bc7307d9342a",
           "category": "Bowls"
         },
@@ -573,7 +573,7 @@
           "name": "Seasoned Fries",
           "price": 4.99,
           "description": "Regular Fries",
-          "image": "https://d1w7312wesee68.cloudfront.net/373ptzHqgaqFydkZi4LZQEcJCmr962Yb25a1RtNHtfg/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/4dd7c903-0bba-4499-97c2-1e2e88c424bd.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/MRCZ_6wJQzZHZufnlnRPkhB7wEOtWadKAB8ARiMfyvQ/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/4dd7c903-0bba-4499-97c2-1e2e88c424bd.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-seasoned-fries_4e256018-9455-4324-8a83-bed9238a532d",
           "category": "Sides"
         },
@@ -581,7 +581,7 @@
           "name": "Coleslaw",
           "price": 4.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/BCtAFLF5vmGyGmjhMhEy30302ZPJun48gMsXQwoynyM/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e33357b5-71b5-43d2-ae9f-c4dc76e7149a.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/EITDBy3rBWq6ofP7XVktlQnZenEQ13mxnHgnTz8tXUE/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e33357b5-71b5-43d2-ae9f-c4dc76e7149a.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-coleslaw_f4d7605a-233e-491c-945a-148e218ae9b1",
           "category": "Sides"
         },
@@ -589,7 +589,7 @@
           "name": "Plain Fries",
           "price": 4.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/kx1OpYkaaNVARrQhSmw_qiGcXNCPpdQ_ZxK0opyIjNk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/0da13be1-db98-47de-9522-010f1dcf7215.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/UBZlnZsEXpMAK-pOIwuEEtGy3QZIaB3gH0Scbevx8r0/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/0da13be1-db98-47de-9522-010f1dcf7215.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-plain-fries_83a4e047-d09e-4d81-b816-77a6dfb575f7",
           "category": "Sides"
         },
@@ -597,7 +597,7 @@
           "name": "Loaded Chicken  Fries",
           "price": 16.49,
           "description": "2 Crispy Tender Served with Golden Seasoned Fries and Paired with Zingsters Signature Zings Sauce and White Sauce",
-          "image": "https://d1w7312wesee68.cloudfront.net/s4Vnx8_gg8LeU3vc6LXlhFfjZ3ZAIzYbcpW3Jm5GsOc/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e2176c8e-d262-44d6-8b73-a6475d23fa02.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/NqivZToNVFLteLmUjD-Fqca83JwcNSX4J1-HSJnPLRg/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e2176c8e-d262-44d6-8b73-a6475d23fa02.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-loaded-chicken-fries_1be4042e-b077-4d1b-91f4-eb2a3deabe4e",
           "category": "Sides"
         },
@@ -605,7 +605,7 @@
           "name": "kids juice",
           "price": 2.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/Ok3Rqa0c8NfSdRLfKRmNece0BYWqdi7Qhgz9l-gqZWA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/dc3082a2-4345-4812-9803-3eff737d1378.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/R1HOucbVyHp01NWIKGnwSVhPkESoiDzeUiZwGmuOa94/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/dc3082a2-4345-4812-9803-3eff737d1378.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-kids-juice_870dc048-79f1-4f77-bdfa-9a0d3111d968",
           "category": "Sides"
         },
@@ -621,7 +621,7 @@
           "name": "Oreo MilkShake",
           "price": 8.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/Sr3rjJUr8R8W4qX0csgGEU7hKO7bYZD-RSm-sOO0kFw/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6c64087a-3766-4686-b317-ab62dbaa66a8.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/o_3G4HZB_gXD6TqWmrRk0hyjai67dSoT-QKfVwp1f4M/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/6c64087a-3766-4686-b317-ab62dbaa66a8.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-oreo-milkshake_b84eea10-42c8-4ab0-9616-b03897b76301",
           "category": "Milkshakes"
         },
@@ -629,7 +629,7 @@
           "name": "Biscoff Milkshake",
           "price": 8.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/FCQGSbgA5WVrafbt4nibMjL7Wzr8LTtb62i2NE5eb8k/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/2d9c4bab-c103-43a8-a0ef-8bad08ebf7f8.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/ZyZS6HpogflzLa-g94392RhADXEhNFtGkkHyYMsV6xE/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/2d9c4bab-c103-43a8-a0ef-8bad08ebf7f8.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-biscoff-milkshake_e9626519-5883-43fd-8980-4c83a5323d1c",
           "category": "Milkshakes"
         },
@@ -637,7 +637,7 @@
           "name": "Dubai Chocolate Milkshake",
           "price": 9.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/U5jYI_8VwRzQ7O5etutlSI5VtPSIuajeEJqcvOMm0G0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/01c9c05e-8547-43b2-979a-01939f4f1c67.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/vIDm78cZg37hPThWMBQV9KRhQIPK0-aJxejrj0JgniE/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/01c9c05e-8547-43b2-979a-01939f4f1c67.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-dubai-chocolate-milkshake_5f8e0a2a-aa11-47a8-8614-c91470240b3e",
           "category": "Milkshakes"
         },
@@ -645,7 +645,7 @@
           "name": "Soft Drink",
           "price": 2.99,
           "description": "Fountain Drink",
-          "image": "https://d1w7312wesee68.cloudfront.net/CUaqXDBe5spsSylNKB_2_XQUPSjiJ3IQhXX-jX51mio/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77de3486-7099-4d1a-8b33-70d8547d0421.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/kixPa4t3pg4FmkoKyPHcsP_etcEByOxDLmw6FXxp8Y8/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/77de3486-7099-4d1a-8b33-70d8547d0421.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-soft-drink_6603cfae-64a5-48c0-9a08-5038da2a1bf5",
           "category": "Drinks"
         },
@@ -653,7 +653,7 @@
           "name": "Homestyle Lemonade",
           "price": 5.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/NKmJpCgay8BfCWfmxV8pz__R-Qlzji8tMwxaB2veeNQ/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/0b5574af-e519-4b1b-85bc-79f4f036c703.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/Uyyklm117JW1yiluk54gDJRRzaHm9ZjHOZCI8vGaDGU/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/0b5574af-e519-4b1b-85bc-79f4f036c703.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-homestyle-lemonade_ce8e276b-c144-4f3f-acec-cfbf1e74aef8",
           "category": "Drinks"
         },
@@ -661,7 +661,7 @@
           "name": "Mango Lemonade",
           "price": 5.99,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/CFhHr6_zG3Njtn4xwuxzTXnShVHiEyg8o6PyEYzQ-TQ/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e92d2bc0-54ba-4ac7-8bbd-0b7b83de5c8c.jpg",
+          "image": "https://d1w7312wesee68.cloudfront.net/ZepRDzcouEbTXOmgXQcHvOMqjSTUhQPjEd8BqwewTdA/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/e92d2bc0-54ba-4ac7-8bbd-0b7b83de5c8c.jpg",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-mango-lemonade_65ac69a0-f1ae-4b23-8baa-dc576371fbd2",
           "category": "Drinks"
         },
@@ -685,7 +685,7 @@
           "name": "Zing Sauce",
           "price": 0.5,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/D-FMRa5C8nwX1HwNOAE8ZmflXqYKNOP2zwdX3kJalrI/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/13c747f1-2964-4df9-ad7c-335ece9335d1.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/-N7JGtXXaRHSxFQhCJ88vWm2VW3uyCid-cqXoMkFcy0/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/13c747f1-2964-4df9-ad7c-335ece9335d1.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-zing-sauce_1b20f8b1-cbeb-4a1d-87c9-75ba858532c1",
           "category": "Sauce"
         },
@@ -693,7 +693,7 @@
           "name": "White Sauce",
           "price": 0.5,
           "description": "",
-          "image": "https://d1w7312wesee68.cloudfront.net/u9w1gEGZIBASNjk5aTlLCOb2ZwJ7lt2sulvP2cPHUPU/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/216730ee-f49e-4f5d-97f2-a852bb760ba0.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/85v6SeEWsq0JV6GOi9ttrqmxkDRNJWop3e6erTN06bY/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/216730ee-f49e-4f5d-97f2-a852bb760ba0.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-white-sauce_92df62ee-9972-40f5-9a9c-94cbf90e5461",
           "category": "Sauce"
         },
@@ -701,7 +701,7 @@
           "name": "Kids Meal - Chicken Slider, Fries and Juice",
           "price": 13.99,
           "description": "Chicken Slider comes with Plain Fries and Juice",
-          "image": "https://d1w7312wesee68.cloudfront.net/VNMZlLWGYUVP5pUVJKI37Il-NN7x_s3BqQqNo6PD_TA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/1f6ea6e1-2342-4aae-bba4-10bca26ffae7.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/ECs93x-MfkcZwn4vMK-3HLkiKw61xDeZ2kwmB6CznPk/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/1f6ea6e1-2342-4aae-bba4-10bca26ffae7.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-kids-meal-chicken-slider-fries-and-juice_1e039a6a-8c68-442a-9693-b9ce4ac08754",
           "category": "Kids Menu"
         },
@@ -709,7 +709,7 @@
           "name": "Tender - 2 Pcs",
           "price": 14.99,
           "description": "Crispy Chicken Tenders",
-          "image": "https://d1w7312wesee68.cloudfront.net/opx8kC1OqPOP8SXn11h65WOwm8soRwA-Nf5Uro7ZzlA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/a9f68d3b-90c7-4170-93f5-18bfc17deb54.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/xwTFIRq9SRxPrVUJwUZK7ivDdejNK-5WhsRmrO4xn6Q/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/a9f68d3b-90c7-4170-93f5-18bfc17deb54.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-tender-2-pcs_4b5578da-7bb7-42dc-a579-32dab71f4cd8",
           "category": "Tender Only"
         },
@@ -717,7 +717,7 @@
           "name": "Tender - 4 Pcs",
           "price": 27.99,
           "description": "Crispy Chicken Tenders",
-          "image": "https://d1w7312wesee68.cloudfront.net/P86lJtYTMbOAln1EuouNCcR8zQyRvbkPvFkUsotN2hA/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/3e95a699-5bd6-417d-90fc-a209115ed3fd.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/LihxULtvGhjGrSC8ioFiEQGx1TFlL0aXat9AGM8QYug/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/3e95a699-5bd6-417d-90fc-a209115ed3fd.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-tender-4-pcs_ef90922e-5f7d-4806-b7e8-c32922318847",
           "category": "Tender Only"
         },
@@ -725,7 +725,7 @@
           "name": "Tender - 6 Pcs",
           "price": 39.99,
           "description": "Crispy Chicken Tenders",
-          "image": "https://d1w7312wesee68.cloudfront.net/kLIcQ1R7s3EiRU1ORGPgqCAPUu-ltOocv81Fp_uExWI/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/d5f9d9a9-b2ce-4367-97e8-ca286418747a.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/Oqrt3Z8p1kpkMe59LRnTkdeBIgfttkmM64YhfxwlRN4/resize:fit:360:360/plain/s3://toasttab/menu_service/restaurants/8de19b59-da1f-4770-a319-1cc5d09edd21/MenuItem/d5f9d9a9-b2ce-4367-97e8-ca286418747a.png",
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-tender-6-pcs_fd27e3da-3d40-4d4b-a070-26775d7f4620",
           "category": "Tender Only"
         }
