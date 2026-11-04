@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-03T03:50:10.294914+00:00",
+  "scrapedAt": "2026-11-04T02:52:32.693483+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -20,7 +20,7 @@
           "name": "Zing-1",
           "price": 13.49,
           "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature and Zing sauces",
-          "image": "https://d1w7312wesee68.cloudfront.net/TBRf4GmP8W3YGWsuHduPefocc5mls4sXh-0JeXAPHZ0/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/3f1eb5e5-c7fb-42d3-9bee-d1c5c51df2b8.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/S620O-XeXA4_8TbLvWEzyRggVKEC8wvh-s2RqBF6PYY/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/55785170-4a56-44e8-8467-63d5c031eeab.jpg",
           "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing1_28afc75d-854c-40ac-a94f-688f89d97b93",
           "category": "Burgers"
         },
@@ -36,7 +36,7 @@
           "name": "Zing -2",
           "price": 14.49,
           "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces",
-          "image": "https://d1w7312wesee68.cloudfront.net/W9VCbsR-JjYSO9yxYKoeEIQCBGGI4un5xtI1vzmuwzk/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/4f5100c0-bea1-47c1-82a6-fa09cc7b5906.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/F1-gs8AlS7lV5xDMOhJvLo-q00MBzJiy9KxSdXhPseE/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/809d5131-103c-4e3e-bf7b-3960e0c447cd.jpg",
           "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing-2_1d680ae1-ae99-4023-9557-132c50854892",
           "category": "Burgers"
         },
@@ -44,7 +44,7 @@
           "name": "Zing-1 Meal",
           "price": 18.99,
           "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature Zing sauces, Fries and Drink",
-          "image": "https://d1w7312wesee68.cloudfront.net/EdoLEHbyiJbWHgrQLO67tXVIKd5_yNewCwImpHGeBCw/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/f1018fe6-041d-4fbb-9b2a-7bc261bf8d3c.png",
+          "image": "https://d1w7312wesee68.cloudfront.net/rIs5sySF8pfrYNDsQVF5K_9mxZwOcjGD-rjW8i8X7dY/resize:fit:720:720/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/0339578e-3ecd-4ad3-8cef-19d4e68d2a3d.jpg",
           "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing1-meal_b19e3a27-0cf8-4a31-9504-2caa032ca84c",
           "category": "Burgers"
         },
