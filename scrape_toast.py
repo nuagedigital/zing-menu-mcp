@@ -4,6 +4,7 @@ import asyncio
 import io
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -98,35 +99,34 @@ EXTRACT_JS = r"""
     }
 
     function imageFrom(node) {
-        const imgs = [...node.querySelectorAll('img')];
-        for (const img of imgs) {
-            const candidates = [
-                img.currentSrc,
-                img.getAttribute('src'),
-                img.getAttribute('data-src'),
-                img.getAttribute('data-lazy-src'),
-                img.getAttribute('data-original')
-            ];
+        const candidates = [];
+        const add = (value) => {
+            const url = validImage(value);
+            if (url && /cloudfront\.net|toasttab|\.jpe?g(?:\?|$)|\.png(?:\?|$)|\.webp(?:\?|$)/i.test(url)) {
+                candidates.push(url);
+            }
+        };
+        for (const img of node.querySelectorAll('img')) {
             for (const attr of ['srcset', 'data-srcset']) {
-                const value = img.getAttribute(attr) || '';
-                const entries = value.split(',').map(v => v.trim().split(/\s+/)[0]).filter(Boolean);
-                candidates.push(...entries.reverse());
+                const srcset = img.getAttribute(attr) || '';
+                for (const entry of srcset.split(',')) add(entry.trim().split(/\s+/)[0]);
             }
-            // Prefer Toast's actual CDN asset, not placeholder or tracking images.
-            for (const candidate of candidates) {
-                const url = validImage(candidate);
-                if (url && /cloudfront\.net|toasttab|\.jpe?g(?:\?|$)|\.png(?:\?|$)|\.webp(?:\?|$)/i.test(url)) return url;
-            }
+            for (const src of [img.currentSrc, img.getAttribute('src'),
+                img.getAttribute('data-src'), img.getAttribute('data-lazy-src'),
+                img.getAttribute('data-original')]) add(src);
         }
         for (const el of [node, ...node.querySelectorAll('div, span, picture')]) {
             const bg = window.getComputedStyle(el).backgroundImage || '';
             const match = bg.match(/url\(["']?(.+?)["']?\)/);
-            if (match) {
-                const url = validImage(match[1]);
-                if (url) return url;
-            }
+            if (match) add(match[1]);
         }
-        return '';
+        // Toast CDN URLs are signed: choose the best *existing* URL; never edit its resize path.
+        const size = url => {
+            const m = url.match(/resize:(?:fit|fill|cover):(\d+):(\d+)/i);
+            return m ? Math.min(+m[1], +m[2]) : 0;
+        };
+        candidates.sort((a, b) => size(b) - size(a));
+        return candidates[0] || '';
     }
 
     const items = [];
@@ -340,13 +340,19 @@ DETAIL_IMAGE_JS = r"""() => {
   const candidates = [...document.querySelectorAll(
     '[role="dialog"] img, [aria-modal="true"] img, [data-testid*="modal"] img, [class*="Modal"] img, [class*="modal"] img'
   )];
-  // Prefer the largest displayed product image, not tiny icons or thumbnails.
-  const scored = candidates.map(img => {
+  const scored = candidates.flatMap(img => {
     const rect = img.getBoundingClientRect();
-    const src = img.currentSrc || img.getAttribute('src') || img.getAttribute('data-src') || '';
-    return {src, score: rect.width * rect.height};
-  }).filter(x => x.score > 5000 && /cloudfront\.net|toasttab/i.test(x.src));
-  scored.sort((a,b) => b.score - a.score);
+    if (rect.width * rect.height <= 5000) return [];
+    const urls = [img.currentSrc, img.getAttribute('src'), img.getAttribute('data-src')];
+    for (const attr of ['srcset', 'data-srcset']) {
+      for (const entry of (img.getAttribute(attr) || '').split(','))
+        urls.push(entry.trim().split(/\s+/)[0]);
+    }
+    return urls.filter(src => src && /cloudfront\.net|toasttab/i.test(src))
+      .map(src => ({src, area: rect.width * rect.height,
+        size: +(src.match(/resize:(?:fit|fill|cover):(\d+):(\d+)/i) || [0,0])[1]}));
+  });
+  scored.sort((a,b) => b.size - a.size || b.area - a.area);
   return scored.length ? scored[0].src : '';
 }"""
 
@@ -357,13 +363,19 @@ DETAIL_PAGE_IMAGE_JS = r"""() => {
   const roots = [...document.querySelectorAll('main, [role="main"], [role="dialog"]')];
   const root = roots.find(el => /\$\s*\d/.test(el.innerText || '')) || document.querySelector('main');
   if (!root) return '';
-  const candidates = [...root.querySelectorAll('img')].map(img => {
+  const candidates = [...root.querySelectorAll('img')].flatMap(img => {
     const r = img.getBoundingClientRect();
-    return {src: img.currentSrc || img.getAttribute('src') || '',
-            area: r.width * r.height};
-  }).filter(x => x.area >= 20000 && /cloudfront\.net/.test(x.src)
-           && /menu_service\/restaurants\//.test(x.src));
-  candidates.sort((a,b) => b.area - a.area);
+    if (r.width * r.height < 20000) return [];
+    const urls = [img.currentSrc, img.getAttribute('src')];
+    for (const attr of ['srcset', 'data-srcset']) {
+      for (const entry of (img.getAttribute(attr) || '').split(','))
+        urls.push(entry.trim().split(/\s+/)[0]);
+    }
+    return urls.filter(src => src && /cloudfront\.net/.test(src) && /\/plain\//.test(src))
+      .map(src => ({src, area: r.width * r.height,
+        size: +(src.match(/resize:(?:fit|fill|cover):(\d+):(\d+)/i) || [0,0])[1]}));
+  });
+  candidates.sort((a,b) => b.size - a.size || b.area - a.area);
   return candidates.length ? candidates[0].src : '';
 }"""
 
@@ -406,10 +418,11 @@ async def refresh_detail_images(page, items):
                         fresh_url = await detail_page.evaluate(DETAIL_PAGE_IMAGE_JS)
                 if fresh_url:
                     checked += 1
-                    if fresh_url != (item.get("image") or ""):
-                        print(f"[detail-images] UPDATED {item.get('name')}: {fresh_url}")
-                        item["image"] = fresh_url
+                    selected = best_image(fresh_url, item.get("image") or "")
+                    if toast_asset_id(selected) != toast_asset_id(item.get("image") or ""):
+                        print(f"[detail-images] IMAGE ASSET UPDATED {item.get('name')}")
                         changed += 1
+                    item["image"] = selected
                 else:
                     print(f"[detail-images] NO VERIFIED IMAGE {item.get('name')}; keeping card URL")
             except Exception as exc:
@@ -424,6 +437,31 @@ async def refresh_detail_images(page, items):
     finally:
         await detail_page.close()
     print(f"[detail-images] verified {checked} detail images; replaced {changed} URLs")
+
+
+def toast_asset_id(url):
+    """Identify original Toast image independent of signed CDN URL or resize."""
+    if not url or '/plain/' not in url:
+        return None
+    return url.split('/plain/', 1)[1].split('?', 1)[0]
+
+
+def image_resolution(url):
+    """Approximate smallest requested CDN dimension; zero means unknown."""
+    match = re.search(r'/resize:(?:fit|fill|cover):(\d+):(\d+)', url or '', re.I)
+    return min(int(match.group(1)), int(match.group(2))) if match else 0
+
+
+def best_image(new_url, old_url):
+    """Keep a known higher-res signed URL when the underlying image is unchanged."""
+    if not new_url:
+        return old_url or ''
+    if not old_url:
+        return new_url
+    new_asset, old_asset = toast_asset_id(new_url), toast_asset_id(old_url)
+    if new_asset and old_asset and new_asset == old_asset:
+        return old_url if image_resolution(old_url) > image_resolution(new_url) else new_url
+    return new_url
 
 
 def item_key(item):
@@ -447,10 +485,15 @@ def preserve_missing_images(current, previous):
             continue
         fresh_image = item.get("image") or ""
         old_image = old.get("image") or ""
-        if fresh_image and fresh_image != old_image:
-            updated += 1
-            print(f"[images] UPDATED {item.get('name')}: {old_image[:65]} -> {fresh_image[:65]}")
-        elif not fresh_image and old_image:
+        if fresh_image:
+            selected = best_image(fresh_image, old_image)
+            item["image"] = selected
+            if toast_asset_id(fresh_image) != toast_asset_id(old_image) and fresh_image != old_image:
+                updated += 1
+                print(f"[images] IMAGE ASSET UPDATED {item.get('name')}")
+            elif selected == old_image and selected != fresh_image:
+                print(f"[images] PRESERVED HIGHER RESOLUTION {item.get('name')}: {image_resolution(old_image)}px")
+        elif old_image:
             item["image"] = old_image
             retained += 1
     return updated, retained
@@ -525,7 +568,7 @@ async def main():
                 old = previous.get("locations", {}).get(key, {})
                 if fresh.get("ok"):
                     updated, retained = preserve_missing_images(fresh, old)
-                    print(f"[images] {key}: {updated} changed URLs; {retained} missing images retained")
+                    print(f"[images] {key}: {updated} changed image assets; {retained} missing images retained")
                     out["locations"][key] = fresh
                 elif old.get("ok") and old.get("items"):
                     print(f"[warning] {key}: scrape failed; preserving last successful menu")
