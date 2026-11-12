@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-11T02:29:31.299025+00:00",
+  "scrapedAt": "2026-11-12T03:34:22.042147+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -21,7 +21,7 @@
           "price": 13.49,
           "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature and Zing sauces",
           "image": "https://d1w7312wesee68.cloudfront.net/Lxda2NFGrArSjFZCMDI4nzp2mJg6GRIJp-gUGtdxqas/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/95226f74-c495-4446-baf0-9574cf5cdda9.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing1_28afc75d-854c-40ac-a94f-688f89d97b93",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -29,7 +29,7 @@
           "price": 9.49,
           "description": "A DOUBLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
           "image": "https://d1w7312wesee68.cloudfront.net/oiFASX_A0BPP3pvWpGpMK5IIHQ-OAOLi906uI1SYajA/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/a6d5d592-f5e4-47ae-8ff0-2f83f729e0f5.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-smashdouble_84fdfb80-44b1-49f6-a8f1-9f765de2b3d6",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -37,7 +37,7 @@
           "price": 14.49,
           "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces",
           "image": "https://d1w7312wesee68.cloudfront.net/C53b9aDXkp-ybmiQeQiP3Yajxr7W1Gin98_pxIxw8Zk/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/edb48e99-2b6f-4e8f-94b4-f9981da6b1f6.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing-2_1d680ae1-ae99-4023-9557-132c50854892",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -45,7 +45,7 @@
           "price": 18.99,
           "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature Zing sauces, Fries and Drink",
           "image": "https://d1w7312wesee68.cloudfront.net/QzDXDffZG7XUkXHAoyGIIOmO5Cfr5j_hcSUm56xjL4c/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/2ac34a19-5bec-4e50-b49f-98bea8501b96.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing1-meal_b19e3a27-0cf8-4a31-9504-2caa032ca84c",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -53,7 +53,7 @@
           "price": 19.99,
           "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces, Fries and Drink",
           "image": "https://d1w7312wesee68.cloudfront.net/MhVUOe1GG4CroWxVWb1ato0fQ5Uk_31mdCbduxXLA6Q/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/30bdb66c-bd63-4ead-b4cc-e3a5ce6cab31.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing2-meal_da48e6f4-e878-4027-9911-6f21265be5d2",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -61,7 +61,7 @@
           "price": 12.49,
           "description": "2 crispy Chicken Tenders comes with  Pickles, and white bread.",
           "image": "https://d1w7312wesee68.cloudfront.net/Txq_uHtm1BYQyS8VMbcOA-kU4z9q4orSBGGsjZBp594/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/fbea9d52-0c62-423c-84e6-83dd6db6605f.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing-3_c10cbc00-8e50-4417-bf02-c26aace32835",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -69,7 +69,7 @@
           "price": 17.99,
           "description": "2 Crispy Chicken Tenders comes with Pickles, White bread, Fries and Drink",
           "image": "https://d1w7312wesee68.cloudfront.net/yVpoR0zWiqriP953baMA1fDcBeh6QQrmPjHcW-3qdi0/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/10ce07d6-f617-4f8d-9aee-ad51804aeb71.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing3-meal_cc93a3b7-ab3b-4b9b-8a63-2d13d607e264",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -77,7 +77,7 @@
           "price": 13.49,
           "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
           "image": "https://d1w7312wesee68.cloudfront.net/y1yPJdyOF1DpSYnd1THKimeKEosEEvFbWQPR4acMRkw/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/81a8d07b-a270-4212-8ba3-6e8e169ecf37.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing4_b0fb856f-01ba-4e51-80df-a1d2feac1cb1",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -85,7 +85,7 @@
           "price": 18.99,
           "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
           "image": "https://d1w7312wesee68.cloudfront.net/HWrCrKnTf-kxv-Da7YqobnQRQij21XMojIY24Aq8-kw/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/875ac50d-28f9-4d71-a392-246d95bdaa3e.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing4-meal_96fe01db-54a4-4856-b30f-8e51f3717d65",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -93,7 +93,7 @@
           "price": 7.49,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/ehZdLGIvuk62AhbvFpYRRX33_cvk7JfDxdc6MZB-BBc/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/144a3ed9-5434-4855-83cd-47c878d09b74.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-single-slider_a567b57a-29f2-4cd7-aea1-6dcd783875c6",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -101,7 +101,7 @@
           "price": 7.49,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/k2pIfpTQIacMJAJBbtF7cObv7xXVB6LFUeMdxMbkTZo/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/39016d77-b5d9-4007-8e52-acecca4b911d.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-single-tender_17624528-df27-40af-8338-7f3d76fe6d01",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -109,7 +109,7 @@
           "price": 7.99,
           "description": "A single beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
           "image": "https://d1w7312wesee68.cloudfront.net/CVuW58PQ6qMN7qwIEeSRvyC9UAVymUVflMrf1Wt9Xf4/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/9685a905-0e02-4f4c-8272-e24cb0f68968.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-smashsingle_97a8c5c8-3ca6-4b3a-9c3d-8e7dd6235fe9",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -117,7 +117,7 @@
           "price": 13.99,
           "description": "Smash Burger - Single plus Fries and Drink",
           "image": "https://d1w7312wesee68.cloudfront.net/8DTzElyGjCEEBVfmPCXaDpGwQNCCmAWEaauztatQfvs/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/6eed782c-cb85-482a-b1ec-b95fcb504827.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-smashsingle-meal_4bed790d-27c9-4c56-8205-167642acd76f",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -125,7 +125,7 @@
           "price": 14.99,
           "description": "Smash Burger-Double plus  Fries and Drink",
           "image": "https://d1w7312wesee68.cloudfront.net/-OJpDKNaFWJA3e9Ah7curHiGviERou5gHVEVVs_Oo_c/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/e6af35dd-161a-4962-963b-ca5feca9ce3f.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-smashdouble-meal_41a4bf8a-58a4-4b7e-8fda-4288a3bb7ef2",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -133,7 +133,7 @@
           "price": 10.49,
           "description": "A TRIPLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
           "image": "https://d1w7312wesee68.cloudfront.net/cgtgbg37yA6sjpqUYH74nweOftM7eEOMsGprqc-WKiw/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/22f932a5-abdd-48ac-9599-a60cbfeaac43.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-smashtriple_b1183678-6674-4235-b99a-a60eff95ba85",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -141,7 +141,7 @@
           "price": 15.99,
           "description": "Smash Burger-Triple plus fries and drink",
           "image": "https://d1w7312wesee68.cloudfront.net/0unEGfPL441Bboe75_aXJci6hqQyVUEc7Nd6P77H75k/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/8fedea71-eb25-4946-9cac-53754cf0a8a8.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-smashtriple-meal_e50baec5-49e2-4970-8d6a-69305eaa9ebc",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -149,7 +149,7 @@
           "price": 14.99,
           "description": "Combo of Chicken Slider & SINGLE Smash Burger, served with creamy coleslaw, pickles, cheese & Zing Sauce",
           "image": "https://d1w7312wesee68.cloudfront.net/EFhI1LCLmgua1NtoeRZMAfmO3a7HXmrz2SB_U6-Uo6Q/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/4e042b66-dacf-449a-af2d-e43f721b2093.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-combo-burger_cbd56adf-fc95-4633-b363-d97495e7e95a",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -157,7 +157,7 @@
           "price": 19.99,
           "description": "Combo of Chicken Slider & Single Smash Burger\r\n\r\nServed with creamy coleslaw, pickles, melted cheese, and Zing Sauce. Comes with a side of crispy fries and a refreshing drink.",
           "image": "https://d1w7312wesee68.cloudfront.net/rtt9VZQlVbSEBVMrlXUMD-gaUouTQnJdnmFmtUumSOI/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/2ed47bf1-093c-4a48-b380-c36fb54e3ea6.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-combo-burger-meal_3001bb13-343d-4407-97dc-faef64ba8565",
+          "url": "",
           "category": "Burgers"
         },
         {
@@ -165,7 +165,7 @@
           "price": 14.49,
           "description": "Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing sauces",
           "image": "https://d1w7312wesee68.cloudfront.net/WZQmJ9juFG2UY7WzedsUfscF3AAPiN-knzh-XS60N90/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/6296fc3e-5bec-4829-9f34-7bb1e962ead5.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-chicken-wrap_864d9fb5-576d-43ee-820d-a04a2d2f4f98",
+          "url": "",
           "category": "Wraps"
         },
         {
@@ -173,7 +173,7 @@
           "price": 19.99,
           "description": "Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing and White sauces. Served with golden fries and a refreshing drink.",
           "image": "https://d1w7312wesee68.cloudfront.net/IUsrJatnrhmu5s-Wsp-EmiM7hyg3iRA-H6zv4nygvq0/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/1ec3e3be-c3ff-4ca4-b120-c063bac49c6c.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-chicken-wrap-meal_0ed5922e-b013-4fe6-9d2f-280e667c9649",
+          "url": "",
           "category": "Wraps"
         },
         {
@@ -181,7 +181,7 @@
           "price": 14.49,
           "description": "Crispy fried chicken tender and smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces.",
           "image": "https://d1w7312wesee68.cloudfront.net/wMsVInUSxenBjoCmkr-gsTZpiMFArlRNSnSnDx3SsKE/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/754d92a1-7459-4bec-84ad-39a128fb90a3.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-mix-wrapchicken-and-smash_4c8fd430-5773-4577-9639-2ae0a65cba60",
+          "url": "",
           "category": "Wraps"
         },
         {
@@ -189,7 +189,7 @@
           "price": 19.99,
           "description": "Crispy fried chicken tender and smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces with Fries and Drinks.",
           "image": "https://d1w7312wesee68.cloudfront.net/3ErX9vathE_jusCA0pugCZVKmHvJInXW86KCVxtGelY/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/5a5ae899-f787-4e99-a3f4-e1388923b3aa.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-mix-wrap-mealchicken-and-smash_af5c791a-f259-4056-a229-09aa606dfb8a",
+          "url": "",
           "category": "Wraps"
         },
         {
@@ -197,7 +197,7 @@
           "price": 15.99,
           "description": "fresh mixed lettuce ,onion and olives, topped with tenders and our signature zing sauces.",
           "image": "https://d1w7312wesee68.cloudfront.net/b9yqDjcEruvQL7cOoLoGnm_vhIszg8iq9RHph-7TIP4/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/9fdb77aa-eace-452f-a3b6-238d21b06515.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-salad-bowl_a915c8da-1f7e-49d9-83a0-8ab1631e4758",
+          "url": "",
           "category": "Bowls"
         },
         {
@@ -205,7 +205,7 @@
           "price": 15.99,
           "description": "Two chopped, juicy chicken tenders served over fragrant rice with fresh coleslaw and our signature Zing sauces.",
           "image": "https://d1w7312wesee68.cloudfront.net/_FkYoEDZd5KCCLwjb4B5z2qOEc8fI-s7wzpZnDgkNVo/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/9fba3b74-9ae4-4356-b562-72769bfe59d9.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-chicken-rice-platter_3bfcd5cc-6a47-4b2e-936d-4ff0fd952fc2",
+          "url": "",
           "category": "Bowls"
         },
         {
@@ -213,7 +213,7 @@
           "price": 15.99,
           "description": "One chopped chicken tender and one juicy smash cheese patty served over seasoned rice with fresh coleslaw and our signature Zing sauces.",
           "image": "https://d1w7312wesee68.cloudfront.net/iYBPVfACWiVXlrDTkqIA27Vy4qUV2MNwQasllFexppI/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/25e32701-fa74-4115-97fb-0d2db03f36f2.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-mix-rice-platter_3967c665-0633-481b-a339-69a8796d3e9b",
+          "url": "",
           "category": "Bowls"
         },
         {
@@ -221,7 +221,7 @@
           "price": 6,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/WvlMO9qynAQNoD9BKUF-vO2TXRPkH8SMr6rlP4dIlm4/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/074d81ca-560c-4cce-b22e-091c765f38ab.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-side-of-rice_ea913152-2659-4b41-9636-7b269a46b842",
+          "url": "",
           "category": "Bowls"
         },
         {
@@ -229,7 +229,7 @@
           "price": 15.99,
           "description": "Served with 2 Smash Patty over fragrant Rice, Drizzled with Signature Sauce and paired with Fresh Coleslaw.",
           "image": "https://d1w7312wesee68.cloudfront.net/rSj6_LeywmnJYJ8W3_6vLv6-7xx6p-4kWm0ftIJD4Us/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/4bd17030-110e-4d9d-ac66-25adcf88feb9.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-smash-rice-platter_cd687166-2259-4d3a-a826-f83412e14fd3",
+          "url": "",
           "category": "Bowls"
         },
         {
@@ -237,7 +237,7 @@
           "price": 4.99,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/bHXlQYT004mdLBxA4S0IXWhdKiXP7sxvRhquvJ5rBx4/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/ab81bde5-4632-409a-be64-e0e1bbc6eb1c.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-coleslaw_38b2c848-2a4a-4f80-affb-785614a6de0e",
+          "url": "",
           "category": "Sides"
         },
         {
@@ -245,7 +245,7 @@
           "price": 14.49,
           "description": "A perfect duo of golden, seasoned fries served with our juicy chicken crispy tenders, paired with Zingster’s signature Z Sauces for that extra kick of flavor.",
           "image": "https://d1w7312wesee68.cloudfront.net/bCI7P0sLDEm6TaiarEd1V60CG0w2VqhGO6oDrjcHnFY/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/c765af38-1c23-4f6e-80b3-334c73e8bcc3.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-loaded-chicken-fries_24aabe7e-d398-4dfb-b839-d083cf6f11c4",
+          "url": "",
           "category": "Sides"
         },
         {
@@ -253,7 +253,7 @@
           "price": 4.49,
           "description": "Seasoned Fries",
           "image": "https://d1w7312wesee68.cloudfront.net/wZ24953_FgESNUc2lpdGOM6BctkEcjyeCiIWo6_Fqls/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/2136a5ce-0e86-4e30-ad47-a898afc2512f.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-plain-fries_c91b7984-e564-4a9b-aa76-bc21440b6d45",
+          "url": "",
           "category": "Sides"
         },
         {
@@ -261,7 +261,7 @@
           "price": 4.99,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/8ktuuwNTi0SAGuCsTMrK42dJ2gxUGMH9Cuw9k3M_IAI/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/4a1589ee-10a2-4db5-ad2c-f916e370cb8a.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-seasoned-fries-_4bc54c0e-0c88-4000-b021-6e9f5de7749d",
+          "url": "",
           "category": "Sides"
         },
         {
@@ -269,7 +269,7 @@
           "price": 7.99,
           "description": "Biscoff Milkshakes",
           "image": "https://d1w7312wesee68.cloudfront.net/Palrx45mdP2fn7tXHr-fdQyd90nXr61HVeFLsWUz4JQ/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/73c6f752-f79e-42f4-ae78-51024491124b.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-biscoff-milkshake_41c0a69b-916e-4f02-8102-887d1b48eca1",
+          "url": "",
           "category": "Milkshakes"
         },
         {
@@ -277,7 +277,7 @@
           "price": 9.99,
           "description": "Dubai Chocolate Milkshakes",
           "image": "https://d1w7312wesee68.cloudfront.net/nlmCRQCSaWin4XC-j_AFx21hE8vyatPXxQq0bnZzeAc/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/e05aa615-3d60-4d29-ac4c-d1df7a7cf701.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-dubai-chocolate-milkshake_c4fb3d81-fb2c-4c22-8ee1-5066ce446630",
+          "url": "",
           "category": "Milkshakes"
         },
         {
@@ -285,7 +285,7 @@
           "price": 7.99,
           "description": "Oero Milk Shake",
           "image": "https://d1w7312wesee68.cloudfront.net/6GYPlqUkGmvIVYL1G6HvBKoLpa184TjoChVJgQIt5UM/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/57baa8af-8497-4889-b6f4-be1e27df6182.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-oreo-milkshake_8b66b287-f472-47d2-826e-a1ca9c02d564",
+          "url": "",
           "category": "Milkshakes"
         },
         {
@@ -293,7 +293,7 @@
           "price": 2.99,
           "description": "Fountain Drink",
           "image": "https://d1w7312wesee68.cloudfront.net/-jxnA6SZjbjCSEIRr2xAgeCIbt3iyJ4T1MLKZuoAo70/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/7111b1a9-5f3d-46ca-b702-baf82e1a2a13.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-soft-drink_9cdae566-7e82-4b6a-930f-86e9619fc546",
+          "url": "",
           "category": "Drinks"
         },
         {
@@ -301,7 +301,7 @@
           "price": 4.49,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/ApVLDw-0Zela8XobW8-ljkTJxs6fRvpUs_aaojCgGJY/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/05d1ca97-fa5f-4255-a8b4-f9f4cd626b28.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-home-style-lemonade-_378e5a41-ab42-4eec-a379-c7a1bc66a624",
+          "url": "",
           "category": "Drinks"
         },
         {
@@ -309,7 +309,7 @@
           "price": 4.49,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/bnRWG4EbSzeF3dsUpsuQsLqafUaAq7USmzy3itAtpps/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/8fd2b586-8ec2-4e89-87fb-b33b969181d7.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-mango-lemonade-_87944067-c220-411f-83e1-03f61e8373b7",
+          "url": "",
           "category": "Drinks"
         },
         {
@@ -317,7 +317,7 @@
           "price": 4.49,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/y2DjDhdLZ80eejGJcplUIVYRmKCmyJ4iAorfMQj7mz8/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/40d9a9dd-f976-452a-9111-cf89a5afb5b8.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-strawberry-watermelon-lemonade-_109fcd6e-4df5-45e9-b350-d31f2e8c6301",
+          "url": "",
           "category": "Drinks"
         },
         {
@@ -325,7 +325,7 @@
           "price": 0.5,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/ZJ75U247LZNxXQQIxiHbmESphQTzTA6SuYL1jXyJpZ4/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/8a78126b-3222-49e1-a48d-620a14f925d6.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-zing-sauce_d98f313d-fcf2-4f64-a53b-6c0dc25885a9",
+          "url": "",
           "category": "Sauce"
         },
         {
@@ -333,7 +333,7 @@
           "price": 0.5,
           "description": "",
           "image": "https://d1w7312wesee68.cloudfront.net/eMZlQjvd-cGMV87O0UJN76LswQUlzHt88aTLkGgcqJo/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/9579e35d-0cde-40e0-94c6-9a3b8aa7d86c.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-white-sauce_d88feb80-2704-4714-8cb7-e03e3f92bbf3",
+          "url": "",
           "category": "Sauce"
         },
         {
@@ -341,7 +341,7 @@
           "price": 10.99,
           "description": "Chicken Slider comes with Plain Fries and Juice",
           "image": "https://d1w7312wesee68.cloudfront.net/r4DVarGaLdh5WW51uB9wL36fhU97rW7Pfct4bXToZzk/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/cab1a05a-744f-44d6-b2e6-2b573244c92d.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-chicken-slider-fries-and-juice_0c1310e3-0376-4b5a-aed4-515d951c5b9f",
+          "url": "",
           "category": "Kids Menu"
         },
         {
@@ -349,7 +349,7 @@
           "price": 10.99,
           "description": "Chicken Tender comes with Plain regular fries and Juice",
           "image": "https://d1w7312wesee68.cloudfront.net/NkyItaD5BsWw52gU2xE-Gd-UHpx4sAIzlL9dYFS4ScU/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/2efafb76-6cd0-403b-8c3f-64a2bba5749b.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-chicken-tender-fries-and-juice_228adb4c-636d-4a03-b1bc-b05acdf3bede",
+          "url": "",
           "category": "Kids Menu"
         },
         {
@@ -357,7 +357,7 @@
           "price": 11.49,
           "description": "Crispy Chicken Tenders",
           "image": "https://d1w7312wesee68.cloudfront.net/H804thPz7pwPlp4_butz_k5BKngE2zGD-jdOXoLpZOI/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/eb04cd47-733c-43f0-bed7-f1de5bab599c.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-tender-2-pcs_1fdd4ab2-8168-48f7-a06a-c4b7f85b012b",
+          "url": "",
           "category": "Tender Only"
         },
         {
@@ -365,7 +365,7 @@
           "price": 21.99,
           "description": "Crispy Chicken Tenders",
           "image": "https://d1w7312wesee68.cloudfront.net/4Iqrwa1zyinpJpfrWeDnyyrA0GncZer-G9PF7btWZ9Q/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/7763c383-3fc5-45ae-b616-222874ac8a42.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-tender-4-pcs_4eec9618-9a27-4333-b198-b6a23f4e3577",
+          "url": "",
           "category": "Tender Only"
         },
         {
@@ -373,7 +373,7 @@
           "price": 32.99,
           "description": "Crispy Chicken Tenders",
           "image": "https://d1w7312wesee68.cloudfront.net/FEPVOG9KRRrx37_aSKH_i9fFf6JkelwURovrEjxB57w/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/6d256cc1-4597-4882-ab61-63505a34784b/MenuItem/aa8e48e4-a76a-40d2-9e0c-d5c663bf116f.png",
-          "url": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway/item-tender-6-pcs_7a7ba17b-b518-4a7c-9d71-2e406fbdadcc",
+          "url": "",
           "category": "Tender Only"
         }
       ]
