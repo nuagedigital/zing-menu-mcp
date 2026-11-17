@@ -132,7 +132,7 @@ EXTRACT_JS = r"""
     const items = [];
     const index = new Map();
     const cardSelectors = '[class*="menuItem"], [class*="MenuItem"], [class*="itemCard"], '
-        + '[data-testid*="menu-item"], a[href*="/item/"]';
+        + '[data-testid*="menu-item"], a[href*="/item-"], a[href*="/item/"]';
     document.querySelectorAll(cardSelectors).forEach(node => {
         let name = '';
         const nameCands = node.querySelectorAll('[class*="name"], [class*="Name"], h3, h4, h5, [class*="title"]');
@@ -158,11 +158,29 @@ EXTRACT_JS = r"""
         let url = '';
         if (node.tagName === 'A' && node.href) url = node.href;
         if (!url) {
-            const a = node.querySelector('a[href*="/item/"], a');
+            const a = node.querySelector('a[href*="/item-"], a[href*="/item/"], a[href]');
             if (a && a.href) url = a.href;
+        }
+        if (!url) {
+            const parent = node.closest('a[href*="/item-"], a[href*="/item/"]');
+            if (parent && parent.href) url = parent.href;
         }
         if (url) {
             try { url = new URL(url, document.baseURI).href; } catch (_) { url = ''; }
+        }
+        // Only accept actual item URLs; generic anchors can point to the menu.
+        if (url && !/\/item(?:-|\/)/.test(new URL(url).pathname)) url = '';
+        // Toast's new menu cards are <li> elements with no anchor.
+        // The product UUID is exposed in the add-to-cart button test ID.
+        const button = node.querySelector('[data-testid^="add-to-cart-"]');
+        const testid = button?.getAttribute('data-testid') || '';
+        const idMatch = testid.match(/^add-to-cart-([0-9a-f]{8}-[0-9a-f-]{27,})$/i);
+        const itemId = idMatch ? idMatch[1] : '';
+        if (!url && itemId) {
+            const slug = name.toLowerCase().normalize('NFKD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+            if (slug) url = `${location.origin}${location.pathname.replace(/\/$/, '')}/item-${slug}_${itemId}`;
         }
         const itemY = node.getBoundingClientRect().top + window.scrollY;
         let category = '';
@@ -171,14 +189,16 @@ EXTRACT_JS = r"""
                 category = headings[i].category; break;
             }
         }
-        const key = (url && url.includes('/item') ? url : name.toLowerCase() + '|' + price);
-        const item = {name, price, description, image, url, category};
+        const key = itemId ? 'uuid|' + itemId : (name.toLowerCase() + '|' + price);
+        const item = {name, price, description, image, url, category, itemId};
         if (index.has(key)) {
             const old = items[index.get(key)];
             // Nested card selectors may describe the same item. Prefer richer data.
             if (!old.image && item.image) old.image = item.image;
             if (!old.description && item.description) old.description = item.description;
             if (!old.category && item.category) old.category = item.category;
+            if (!old.url && item.url) old.url = item.url;
+            if (!old.itemId && item.itemId) old.itemId = item.itemId;
         } else {
             index.set(key, items.length);
             items.push(item);
@@ -282,6 +302,10 @@ async def scrape_one(page, key, url):
         await scroll_all(page)
         await page.wait_for_timeout(1500)
         result = await page.evaluate(EXTRACT_JS)
+        print("[debug] Product anchor links:", await page.evaluate("""() =>
+            [...document.querySelectorAll('a[href]')]
+              .filter(a => /\/item(?:-|\/)/.test(a.href)).length
+        """))
         raw_items = result.get("items", [])
         print(f"[scrape] raw items: {len(raw_items)}")
         final_items = []
@@ -311,6 +335,8 @@ async def scrape_one(page, key, url):
             for field in ("name", "description", "category"):
                 item[field] = clean_str(item.get(field, ""))
             final_items.append(item)
+        # New Toast cards expose UUIDs, not hrefs. Verify generated URLs by
+        # checking navigation only for products absent from the known-good backup.
         if len(final_items) >= MIN_ITEMS_PER_LOCATION:
             await refresh_detail_images(page, final_items)
         if len(final_items) < MIN_ITEMS_PER_LOCATION:
@@ -476,13 +502,32 @@ def preserve_missing_images(current, previous):
     """Keep prior images only when fresh scraping returned no image for an item."""
     old_items = previous.get("items", []) if isinstance(previous, dict) else []
     old_by_key = {item_key(item): item for item in old_items}
+    old_by_uuid = {}
+    for old_item in old_items:
+        m = re.search(r"_([0-9a-f]{8}-[0-9a-f-]{27,})", old_item.get("url") or "", re.I)
+        if m:
+            old_by_uuid[m.group(1).lower()] = old_item
     old_by_name = {(item.get("name") or "").strip().casefold(): item for item in old_items}
     updated = 0
     retained = 0
+    restored_urls = 0
     for item in current.get("items", []):
-        old = old_by_key.get(item_key(item)) or old_by_name.get((item.get("name") or "").strip().casefold())
+        old = (old_by_uuid.get((item.get("itemId") or "").lower())
+               or old_by_key.get(item_key(item))
+               or old_by_name.get((item.get("name") or "").strip().casefold()))
         if not old:
             continue
+        # Prefer the previously observed exact Toast slug when UUID matches.
+        if old.get("url"):
+            current_id = item.get("itemId") or ""
+            old_id_match = re.search(r"_([0-9a-f]{8}-[0-9a-f-]{27,})", old["url"], re.I)
+            if current_id and old_id_match and current_id.lower() == old_id_match.group(1).lower():
+                if item.get("url") != old["url"]:
+                    item["url"] = old["url"]
+                    restored_urls += 1
+            elif not item.get("url"):
+                item["url"] = old["url"]
+                restored_urls += 1
         fresh_image = item.get("image") or ""
         old_image = old.get("image") or ""
         if fresh_image:
@@ -496,18 +541,36 @@ def preserve_missing_images(current, previous):
         elif old_image:
             item["image"] = old_image
             retained += 1
+    if restored_urls:
+        print(f"[urls] Restored {restored_urls} previous product URLs")
     return updated, retained
 
 
 def load_previous():
-    if not OUT_FILE.exists():
+    # A known-good snapshot restores URLs even if the latest output lost them.
+    backup = Path(__file__).parent / "toast-menu-url-backup.json"
+    snapshots = []
+    for candidate in (backup, OUT_FILE):
+        if candidate.exists():
+            try:
+                with candidate.open("r", encoding="utf-8") as handle:
+                    snapshots.append(json.load(handle))
+            except (OSError, ValueError) as exc:
+                print(f"[warning] Cannot read {candidate}: {exc}")
+    if not snapshots:
         return {"locations": {}}
-    try:
-        with OUT_FILE.open("r", encoding="utf-8") as handle:
-            return json.load(handle)
-    except (OSError, ValueError) as exc:
-        print(f"[warning] Existing JSON cannot be read: {exc}")
-        return {"locations": {}}
+    # Prefer latest menu content but fill its missing URLs from the known-good backup.
+    merged = snapshots[-1]
+    if len(snapshots) > 1:
+        for key, loc in merged.get("locations", {}).items():
+            backup_loc = snapshots[0].get("locations", {}).get(key, {})
+            old_by_name = {(i.get("name") or "").strip().casefold(): i for i in backup_loc.get("items", [])}
+            for item in loc.get("items", []):
+                if not item.get("url"):
+                    old = old_by_name.get((item.get("name") or "").strip().casefold())
+                    if old and old.get("url"):
+                        item["url"] = old["url"]
+    return merged
 
 
 def save_json_atomic(data):
@@ -579,6 +642,11 @@ async def main():
             await context.close()
             await browser.close()
 
+    # Never silently publish a menu that has lost product URLs.
+    for key, location in out["locations"].items():
+        missing = [i.get("name") for i in location.get("items", []) if not i.get("url")]
+        if missing:
+            raise RuntimeError(f"{key}: {len(missing)} product URLs missing; refusing to overwrite valid JSON: {missing[:8]}")
     save_json_atomic(out)
     for key, location in out["locations"].items():
         print(f"[done] {key}: {len(location.get('items', []))} items")
