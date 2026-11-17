@@ -1,0 +1,6 @@
+# Keep local scraper files out of Vercel builds
+data/chrome-profile/
+data/browser-profile/
+data/debug/
+.venv/
+logs/
