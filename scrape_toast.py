@@ -172,9 +172,18 @@ EXTRACT_JS = r"""
         if (url && !/\/item(?:-|\/)/.test(new URL(url).pathname)) url = '';
         // Toast's new menu cards are <li> elements with no anchor.
         // The product UUID is exposed in the add-to-cart button test ID.
-        const button = node.querySelector('[data-testid^="add-to-cart-"]');
+        // Nested selectors can match an inner element of the same card that does not
+        // contain the button; fall back to the enclosing card, then to the URL UUID,
+        // so both matches share the same 'uuid|' key instead of creating a duplicate.
+        let button = node.querySelector('[data-testid^="add-to-cart-"]');
+        if (!button) {
+            const card = node.closest('li, [data-testid*="menu-item"], [class*="menuItem"], [class*="MenuItem"]');
+            const buttons = card ? card.querySelectorAll('[data-testid^="add-to-cart-"]') : [];
+            if (buttons.length === 1) button = buttons[0];
+        }
         const testid = button?.getAttribute('data-testid') || '';
-        const idMatch = testid.match(/^add-to-cart-([0-9a-f]{8}-[0-9a-f-]{27,})$/i);
+        const idMatch = testid.match(/^add-to-cart-([0-9a-f]{8}-[0-9a-f-]{27,})$/i)
+            || (url.match(/_([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/i));
         const itemId = idMatch ? idMatch[1] : '';
         if (!url && itemId) {
             const slug = name.toLowerCase().normalize('NFKD')
@@ -279,6 +288,67 @@ async def scroll_all(page):
         pass
 
 
+UUID_RE = re.compile(r"_([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", re.I)
+
+
+def item_uuid(item):
+    if item.get("itemId"):
+        return item["itemId"].lower()
+    match = UUID_RE.search(item.get("url") or "")
+    return match.group(1).lower() if match else ""
+
+
+def dedupe_items(items):
+    """Collapse duplicate cards. Toast can render one product as two DOM matches:
+    one with the add-to-cart UUID and one without it. Items sharing a UUID are
+    merged; an item with no UUID is merged into a UUID item with the same name
+    and price. Same-name items with different UUIDs (e.g. a product listed in two
+    categories) are kept."""
+    def merge(target, extra):
+        for field in ("image", "description", "category", "url", "itemId"):
+            if not target.get(field) and extra.get(field):
+                target[field] = extra[field]
+
+    def name_price(item):
+        return ((item.get("name") or "").strip().casefold(), item.get("price"))
+
+    # Canonical items carry the explicit add-to-cart UUID from the card itself.
+    canonical, by_name_price = {}, {}
+    for item in items:
+        uid = (item.get("itemId") or "").lower()
+        if uid and uid not in canonical:
+            canonical[uid] = item
+            by_name_price.setdefault(name_price(item), []).append(item)
+
+    result, seen_plain = [], {}
+    for item in items:
+        uid = (item.get("itemId") or "").lower()
+        if uid:
+            if canonical[uid] is item:
+                result.append(item)
+            else:
+                merge(canonical[uid], item)
+            continue
+        url_uid = item_uuid(item)
+        if url_uid in canonical:
+            merge(canonical[url_uid], item)
+            continue
+        matches = by_name_price.get(name_price(item))
+        if matches:
+            target = next((m for m in matches if m.get("category") == item.get("category")), matches[0])
+            merge(target, item)
+            continue
+        key = ("uuid", url_uid) if url_uid else ("plain",) + name_price(item)
+        if key in seen_plain:
+            merge(seen_plain[key], item)
+            continue
+        if url_uid:
+            item["itemId"] = url_uid
+        seen_plain[key] = item
+        result.append(item)
+    return result
+
+
 async def scrape_one(page, key, url):
     print(f"\n[scrape] {key} -> {url}")
     try:
@@ -335,6 +405,10 @@ async def scrape_one(page, key, url):
             for field in ("name", "description", "category"):
                 item[field] = clean_str(item.get(field, ""))
             final_items.append(item)
+        before = len(final_items)
+        final_items = dedupe_items(final_items)
+        if len(final_items) != before:
+            print(f"[scrape] {key}: removed {before - len(final_items)} duplicate items")
         # New Toast cards expose UUIDs, not hrefs. Verify generated URLs by
         # checking navigation only for products absent from the known-good backup.
         if len(final_items) >= MIN_ITEMS_PER_LOCATION:
