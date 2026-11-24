@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-23T03:28:03.438046+00:00",
+  "scrapedAt": "2026-11-24T06:42:33.071840+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -448,22 +448,13 @@
           "itemId": "28858507-e79d-4ec7-83be-a6455517fab4"
         },
         {
-          "name": "Chicken Rice Platter",
-          "price": 16.99,
-          "description": "Two chopped, juicy chicken tenders served over fragrant rice with fresh coleslaw and our signature Zing sauces.",
-          "image": "https://d1w7312wesee68.cloudfront.net/bdtSFKH9r9DlLEFmb0pUvEKVEurPIMUiqjek3XDFZ3s/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/2/item-1600000002497922822_1793842957.jpg",
-          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-chicken-rice-platter_506926ff-0f55-4fe9-ae1d-b3993b69f954",
+          "name": "Grilled Chicken Salad Bowl",
+          "price": 18.49,
+          "description": "2 Grilled Tenders Served With Fresh Mixed Lettuce, Onion, Topped With Our Signature Zing Sauces and White Sauce",
+          "image": "https://d1w7312wesee68.cloudfront.net/yC7psobz3EaRTKW9S31BBUM_a0Of9bCpPhbmUMtMq4w/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/3/item-1600000003086826113_1793842923.png",
+          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-grilled-chicken-salad-bowl_ff37a2f9-577b-43ff-8830-99ebfbc514fe",
           "category": "Bowls",
-          "itemId": "506926ff-0f55-4fe9-ae1d-b3993b69f954"
-        },
-        {
-          "name": "Mix Rice Platter",
-          "price": 16.99,
-          "description": "Served with 1 Single Smash Patty Topped with Cheese and 1 Chopped Crispy Fried Tender Over Fragrant Rice, Drizzled With Zing Sauce and White Sauce,",
-          "image": "https://d1w7312wesee68.cloudfront.net/DHYowOjrb2R8UM4j1NNhNc0h5KvdkVy_wc6pbLDjGDk/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/6/item-1600000002497922846_1793842979.png",
-          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-mix-rice-platter_c7ff0e3a-00f1-4835-b647-8d4e2184064a",
-          "category": "Bowls",
-          "itemId": "c7ff0e3a-00f1-4835-b647-8d4e2184064a"
+          "itemId": "ff37a2f9-577b-43ff-8830-99ebfbc514fe"
         },
         {
           "name": "Zing-1",
@@ -601,13 +592,22 @@
           "itemId": "8198a74a-dbf3-4448-b15d-874e09bff322"
         },
         {
-          "name": "Grilled Chicken Salad Bowl",
-          "price": 18.49,
-          "description": "2 Grilled Tenders Served With Fresh Mixed Lettuce, Onion, Topped With Our Signature Zing Sauces and White Sauce",
-          "image": "https://d1w7312wesee68.cloudfront.net/yC7psobz3EaRTKW9S31BBUM_a0Of9bCpPhbmUMtMq4w/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/3/item-1600000003086826113_1793842923.png",
-          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-grilled-chicken-salad-bowl_ff37a2f9-577b-43ff-8830-99ebfbc514fe",
+          "name": "Chicken Rice Platter",
+          "price": 16.99,
+          "description": "Two chopped, juicy chicken tenders served over fragrant rice with fresh coleslaw and our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/bdtSFKH9r9DlLEFmb0pUvEKVEurPIMUiqjek3XDFZ3s/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/2/item-1600000002497922822_1793842957.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-chicken-rice-platter_506926ff-0f55-4fe9-ae1d-b3993b69f954",
           "category": "Bowls",
-          "itemId": "ff37a2f9-577b-43ff-8830-99ebfbc514fe"
+          "itemId": "506926ff-0f55-4fe9-ae1d-b3993b69f954"
+        },
+        {
+          "name": "Mix Rice Platter",
+          "price": 16.99,
+          "description": "Served with 1 Single Smash Patty Topped with Cheese and 1 Chopped Crispy Fried Tender Over Fragrant Rice, Drizzled With Zing Sauce and White Sauce,",
+          "image": "https://d1w7312wesee68.cloudfront.net/DHYowOjrb2R8UM4j1NNhNc0h5KvdkVy_wc6pbLDjGDk/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-335346000000000000/menu/items/6/item-1600000002497922846_1793842979.png",
+          "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-mix-rice-platter_c7ff0e3a-00f1-4835-b647-8d4e2184064a",
+          "category": "Bowls",
+          "itemId": "c7ff0e3a-00f1-4835-b647-8d4e2184064a"
         },
         {
           "name": "SIDE OF FRAGRANT RICE",
