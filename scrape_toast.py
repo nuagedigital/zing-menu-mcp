@@ -711,11 +711,18 @@ async def main():
                 elif old.get("ok") and old.get("items"):
                     print(f"[warning] {key}: scrape failed; preserving last successful menu")
                     out["locations"][key] = old
+                elif key not in previous.get("locations", {}):
+                    # Newly added location (e.g. Hayward) with no saved menu yet:
+                    # skip it for this run instead of failing every location.
+                    print(f"[warning] {key}: new location scrape failed; skipping this run: {fresh.get('error')}")
                 else:
                     raise RuntimeError(f"{key}: scrape failed and no previous valid menu exists: {fresh.get('error')}")
         finally:
             await context.close()
             await browser.close()
+
+    if not out["locations"]:
+        raise RuntimeError("No location menus scraped; refusing to overwrite valid JSON")
 
     # Never silently publish a menu that has lost product URLs.
     for key, location in out["locations"].items():
