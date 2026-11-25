@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-11-25T05:12:46.477351+00:00",
+  "scrapedAt": "2026-11-25T22:00:12.961765+00:00",
   "locations": {
     "fremont": {
       "ok": true,
@@ -815,6 +815,428 @@
           "url": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b/item-tender-6-pcs_fd27e3da-3d40-4d4b-a070-26775d7f4620",
           "category": "Tender Only",
           "itemId": "fd27e3da-3d40-4d4b-a070-26775d7f4620"
+        }
+      ]
+    },
+    "hayward": {
+      "ok": true,
+      "url": "https://order.toasttab.com/online/zingsters-hayward",
+      "tabs": [
+        "Burgers",
+        "Wraps",
+        "Bowls",
+        "Sides",
+        "Milkshakes",
+        "Drinks",
+        "Sauce",
+        "Kids Menu",
+        "Tender Only"
+      ],
+      "items": [
+        {
+          "name": "Zing-1",
+          "price": 11.99,
+          "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature and Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/9KuDz-cH8AzE-Yfp-tdZzwHduaMy45UBCvt9-us76z8/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/9dde9206-a896-4ddc-a175-8725947c12c3.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-1_61da8bf4-f9a7-4f8c-b7a1-e91f8c39c7dc",
+          "category": "Burgers",
+          "itemId": "61da8bf4-f9a7-4f8c-b7a1-e91f8c39c7dc"
+        },
+        {
+          "name": "Zing-1 Meal",
+          "price": 16.49,
+          "description": "Chicken ZINGER, comes with Pickle, Coleslaw, Cheese and our signature Zing sauces, Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/al3AilcSSYxIP0gQQx_6hHZvsSnqV058OXuKU0PGS-Y/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/c30397e6-57a4-4805-841b-f52f90ebda17.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-1-meal_01640644-4e9f-4c7f-9cdc-350928df96a7",
+          "category": "Burgers",
+          "itemId": "01640644-4e9f-4c7f-9cdc-350928df96a7"
+        },
+        {
+          "name": "Zing -2",
+          "price": 12.49,
+          "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/VqtMYkbbotQ-7VOqGn8UwD01fG_E77qZgJha56-yBi4/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/9752f841-df11-4cce-94bf-1e1bd7937028.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-2_6270863e-2c9a-410c-8b82-3a05c77c8a5d",
+          "category": "Burgers",
+          "itemId": "6270863e-2c9a-410c-8b82-3a05c77c8a5d"
+        },
+        {
+          "name": "Zing-2 Meal",
+          "price": 17.99,
+          "description": "2 CHICKEN Sliders comes with Pickle, Coleslaw, and served with our signature Zing sauces, Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/SoldBg71ILxZYHksANy3U_iJglCQk3dxVPJxDoHOZeg/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/7afa07fe-683e-49a3-8962-fa466ac52017.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-2-meal_05fda134-7c33-413c-933c-5c48c5461892",
+          "category": "Burgers",
+          "itemId": "05fda134-7c33-413c-933c-5c48c5461892"
+        },
+        {
+          "name": "Zing -3",
+          "price": 10.99,
+          "description": "2 crispy Chicken Tenders comes with  Pickles, and white bread.",
+          "image": "https://d1w7312wesee68.cloudfront.net/eRkaRxFdNOWJImid6lA185DAUkDqDcGzVJFKA8ML33M/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/5757081a-2927-4795-b008-54f9edcfcbcd.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-3_f87df538-5d34-4d7c-8e87-303bf1700713",
+          "category": "Burgers",
+          "itemId": "f87df538-5d34-4d7c-8e87-303bf1700713"
+        },
+        {
+          "name": "Zing-3 Meal",
+          "price": 15.49,
+          "description": "2 Crispy Chicken Tenders comes with Pickles, White bread, Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/KFFt-M7zx71JmR9v1aZZOCMSIVbmen5zNvyIqelqB3E/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/e5d16411-2b8c-44bc-b7cf-114f4f1959d3.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-3-meal_0db8f558-f423-4505-810a-aa458bb79a39",
+          "category": "Burgers",
+          "itemId": "0db8f558-f423-4505-810a-aa458bb79a39"
+        },
+        {
+          "name": "Zing-4",
+          "price": 11.99,
+          "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
+          "image": "https://d1w7312wesee68.cloudfront.net/LcYv1qBJo2q4msDrH5XxPIx9jpXi4NaNSiiRZuB7wMM/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/00cffd50-4f94-4932-bd43-e452b0b9dbaf.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-4_ea2b010c-8e46-4c80-abf0-a0154d43f4b5",
+          "category": "Burgers",
+          "itemId": "ea2b010c-8e46-4c80-abf0-a0154d43f4b5"
+        },
+        {
+          "name": "Zing-4 Meal",
+          "price": 16.49,
+          "description": "1 Chicken Tender and 1 Chicken Slider comes with Pickle and Coleslaw served on White Bread",
+          "image": "https://d1w7312wesee68.cloudfront.net/EHgdOUdvjcbur58sY79N1ygYpSMIg4u1ds9h97QBQQk/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/29dc50f6-a2a1-444d-8c5b-32cc4acb4829.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-4-meal_bf572868-6ea5-408e-8194-5277508ef9e5",
+          "category": "Burgers",
+          "itemId": "bf572868-6ea5-408e-8194-5277508ef9e5"
+        },
+        {
+          "name": "Single Slider",
+          "price": 6.49,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/gRJse7JK0G0pFqJBgSampmnxTuDIbmm18rdrhDBSkgw/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/f90238df-3f33-4582-8ed6-5c9c25b34c26.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-single-slider_171ae5ec-c361-49f7-aa22-4c86f0d4a79b",
+          "category": "Burgers",
+          "itemId": "171ae5ec-c361-49f7-aa22-4c86f0d4a79b"
+        },
+        {
+          "name": "Single Tender",
+          "price": 6.49,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/Q9vqEIHSlXCjL5At_DXYMnM7ZZPYrAes6d0EHmsxY30/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/b1af6bc2-d34f-42f1-9dd4-c3ae02589be4.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-single-tender_fcec34ef-4a69-4c56-a347-f212d02ab5b9",
+          "category": "Burgers",
+          "itemId": "fcec34ef-4a69-4c56-a347-f212d02ab5b9"
+        },
+        {
+          "name": "Smash-Single",
+          "price": 6.99,
+          "description": "A single beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/2TErjctzbGuMnpxGbxXHLLTh-b0ply6cGW_fiCO8UPQ/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/7b576f3e-07ad-4cc7-a127-f86889d3a552.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-smash-single_56757d93-8a19-4222-ae04-7a4558beeb3b",
+          "category": "Burgers",
+          "itemId": "56757d93-8a19-4222-ae04-7a4558beeb3b"
+        },
+        {
+          "name": "Smash-Single Meal",
+          "price": 11.49,
+          "description": "Smash Burger - Single plus Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/kOI1ZLcUr2HWzz5CjBYXcub5xlt6KK_wQ-HijXftJrM/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/58cfadcd-8de8-48fc-bf37-bd74447870b8.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-smash-single-meal_a081c8db-63b6-4401-b8bb-256999ed569b",
+          "category": "Burgers",
+          "itemId": "a081c8db-63b6-4401-b8bb-256999ed569b"
+        },
+        {
+          "name": "Smash-Double",
+          "price": 8.49,
+          "description": "A DOUBLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/xJxQpRB_e70DC--kRclhe4_Z7vrlYnVOWB5aX66a8TY/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/33a80baa-4318-4535-a784-d5de716fc75f.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-smash-double_5deab9b7-71e0-41a3-a1b1-ec6d7362c347",
+          "category": "Burgers",
+          "itemId": "5deab9b7-71e0-41a3-a1b1-ec6d7362c347"
+        },
+        {
+          "name": "Smash-Double Meal",
+          "price": 12.99,
+          "description": "Smash Burger-Double plus  Fries and Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/8z3wkJsT9yWhw-2NUJMpIv-MbjHvOGRX4gwKdgss47w/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/6c83785a-69ba-43e0-9b75-84aabac342c2.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-smash-double-meal_14c80e76-e526-40cf-ba59-6265035b386e",
+          "category": "Burgers",
+          "itemId": "14c80e76-e526-40cf-ba59-6265035b386e"
+        },
+        {
+          "name": "Smash-Triple",
+          "price": 9.99,
+          "description": "A TRIPLE beef patty topped with melted cheese, onions, pickles, and creamy coleslaw in a toasted bun.",
+          "image": "https://d1w7312wesee68.cloudfront.net/hV6KoqRdWRT_6SbK9KkY6C1TPZ7c8WF6fJolQSG4Bms/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/dff8c1a3-f9b2-4533-ac9f-f3ccbcfffde7.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-smash-triple_c1fbce85-e321-4227-a4e6-40fca21bf1f9",
+          "category": "Burgers",
+          "itemId": "c1fbce85-e321-4227-a4e6-40fca21bf1f9"
+        },
+        {
+          "name": "Smash-Triple Meal",
+          "price": 14.99,
+          "description": "Smash Burger-Triple plus fries and drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/8lfWT5DfIpCc2D4KqtoXnb9nlgP8aAnXXT-PmJufE48/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/19bd8415-3376-4350-a6ac-f6765d480537.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-smash-triple-meal_1345d197-3f8e-408d-bc11-e57e76682afd",
+          "category": "Burgers",
+          "itemId": "1345d197-3f8e-408d-bc11-e57e76682afd"
+        },
+        {
+          "name": "Combo Burger",
+          "price": 12.99,
+          "description": "Combo of Chicken Slider & SINGLE Smash Burger, served with creamy coleslaw, pickles, cheese & Zing Sauce",
+          "image": "https://d1w7312wesee68.cloudfront.net/ei-UfU-o7GOhRs8JEv2_BT3FP4YH9rdEtmrcq9BSTyM/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/0889d122-f026-4edc-866d-4bc5092a276d.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-combo-burger_5023c3e5-bca6-4b18-a5f8-b75848098a8f",
+          "category": "Burgers",
+          "itemId": "5023c3e5-bca6-4b18-a5f8-b75848098a8f"
+        },
+        {
+          "name": "Combo Burger Meal",
+          "price": 17.49,
+          "description": "Combo of Chicken Slider & Single Smash Burger\r\n\r\nServed with creamy coleslaw, pickles, melted cheese, and Zing Sauce. Comes with a side of crispy fries and a refreshing drink.",
+          "image": "https://d1w7312wesee68.cloudfront.net/OssSrzq5FewdIV9sjgJvld72eW7I7H1Tdq4QzDV2sYE/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/75564447-3f44-4f80-9418-300e42c570dd.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-combo-burger-meal_2c034413-d76a-416b-838a-67dbe990d683",
+          "category": "Burgers",
+          "itemId": "2c034413-d76a-416b-838a-67dbe990d683"
+        },
+        {
+          "name": "Chicken Wrap",
+          "price": 12.49,
+          "description": "Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing sauces",
+          "image": "https://d1w7312wesee68.cloudfront.net/mOGuu7XB9buuDZ45yPwLPB9Q8_E_zjmhgtAXpPGCbAc/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/e2319301-dc27-4056-a062-04f4a8b727af.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-chicken-wrap_30405a69-5519-4ba4-b3ed-0c4a8a9119b2",
+          "category": "Wraps",
+          "itemId": "30405a69-5519-4ba4-b3ed-0c4a8a9119b2"
+        },
+        {
+          "name": "Chicken Wrap Meal",
+          "price": 16.99,
+          "description": "Crispy fried chicken tenders layered with fresh lettuce and onion, drizzled with our signature Zing and White sauces. Served with golden fries and a refreshing drink.",
+          "image": "https://d1w7312wesee68.cloudfront.net/TGintzSIU-HVznA6AKjDX-TMeUunfWdINdV3revktec/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/87a8d301-4937-4cd3-b79b-e710ded89490.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-chicken-wrap-meal_d4eee8db-1455-4720-83ad-0e90f7ac8c28",
+          "category": "Wraps",
+          "itemId": "d4eee8db-1455-4720-83ad-0e90f7ac8c28"
+        },
+        {
+          "name": "Mix Wrap(chicken and smash)",
+          "price": 12.49,
+          "description": "Crispy fried chicken tender and smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/_8YhgJ42sge39gD6Yp2f1p1vdhXeW3m1ck1gH89XkAw/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/1845a803-f096-475d-94f9-f609943704d2.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-mix-wrap-chicken-and-smash_1956d8d0-4308-4240-b598-1dbdc5330b26",
+          "category": "Wraps",
+          "itemId": "1956d8d0-4308-4240-b598-1dbdc5330b26"
+        },
+        {
+          "name": "Mix Wrap Meal(chicken and smash)",
+          "price": 16.99,
+          "description": "Crispy fried chicken tender and smash cheese patty layered with fresh lettuce and onion, drizzled with our signature Zing sauces with Fries and Drinks.",
+          "image": "https://d1w7312wesee68.cloudfront.net/tCQt5-JYKnAIpbHdDyL4ssJGfJWyIwQeh458n770z6c/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/b582e350-e1ba-477a-9975-98cfc0e7ea96.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-mix-wrap-meal-chicken-and-smash_437b17b4-837a-47d6-829f-f1516a09d497",
+          "category": "Wraps",
+          "itemId": "437b17b4-837a-47d6-829f-f1516a09d497"
+        },
+        {
+          "name": "Salad Bowl",
+          "price": 11.99,
+          "description": "fresh mixed lettuce ,onion and olives, topped with tenders and our signature zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/pvV5DB997KFMmntyK0_TdzHqiuen8A82WqJlmNBN_S0/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/29317e31-321e-4cfe-931d-7d3c92cd3bc8.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-salad-bowl_3102cb4d-9e6b-4580-87c1-9ac4c83f1d7c",
+          "category": "Bowls",
+          "itemId": "3102cb4d-9e6b-4580-87c1-9ac4c83f1d7c"
+        },
+        {
+          "name": "Chicken Rice Platter",
+          "price": 13.99,
+          "description": "Two chopped, juicy chicken tenders served over fragrant rice with fresh coleslaw and our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/47OMX7BBfeIHmuY7xEXvZlxkfNH_93whqHQS2z9KJjU/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/617c050c-004c-402b-8b08-a7865c5a0ee6.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-chicken-rice-platter_a25370b4-c40a-4ede-b85c-d7fc4cbbfa18",
+          "category": "Bowls",
+          "itemId": "a25370b4-c40a-4ede-b85c-d7fc4cbbfa18"
+        },
+        {
+          "name": "Mix Rice Platter",
+          "price": 13.99,
+          "description": "One chopped chicken tender and one juicy smash cheese patty served over seasoned rice with fresh coleslaw and our signature Zing sauces.",
+          "image": "https://d1w7312wesee68.cloudfront.net/gBinf10y5a6WwzWhkUP1Q02LQZlV3Cgs_VugBYLa_Vs/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/9fc12b37-e145-496d-9ea7-95edd649c2e2.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-mix-rice-platter_78e3e1af-b92e-4667-906a-d150639bd6e9",
+          "category": "Bowls",
+          "itemId": "78e3e1af-b92e-4667-906a-d150639bd6e9"
+        },
+        {
+          "name": "Side of rice",
+          "price": 4.99,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/0HlIfJ2fbfoazlWt3UVNMOi_4KCZlbEWBlJ8memZ-co/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/85dad1ae-002f-4f42-bd11-a852ccc8f6cc.jpg",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-side-of-rice_db3f6ddf-6577-44f4-aae3-a310d9e2af6f",
+          "category": "Bowls",
+          "itemId": "db3f6ddf-6577-44f4-aae3-a310d9e2af6f"
+        },
+        {
+          "name": "Smash Rice Platter",
+          "price": 13.99,
+          "description": "Served with 2 Smash Patty over fragrant Rice, Drizzled with Signature Sauce and paired with Fresh Coleslaw.",
+          "image": "https://d1w7312wesee68.cloudfront.net/euSMJl7rekQ3YwPDdfSEf1ApJ8X_xGNEY4VzH_QGmQI/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/7d95c1e5-42c9-401c-83ad-4063cef2163c.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-smash-rice-platter_a5843e91-dc3b-4b6a-8aae-bc79d0fdc61f",
+          "category": "Bowls",
+          "itemId": "a5843e91-dc3b-4b6a-8aae-bc79d0fdc61f"
+        },
+        {
+          "name": "Coleslaw",
+          "price": 3.99,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/Tjnt3v4fQpLpjSR9MQL2bYaFy9coadkgZRZOfMbEq3s/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/e35be4c0-c2c2-4670-9097-47c2dea5a262.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-coleslaw_c360e25c-85b3-4470-9d8c-f944d0cd3833",
+          "category": "Sides",
+          "itemId": "c360e25c-85b3-4470-9d8c-f944d0cd3833"
+        },
+        {
+          "name": "Loaded Chicken  Fries",
+          "price": 12.49,
+          "description": "A perfect duo of golden, seasoned fries served with our juicy chicken crispy tenders, paired with Zingster’s signature Z Sauces for that extra kick of flavor.",
+          "image": "https://d1w7312wesee68.cloudfront.net/3bFLLUhIQC5YDwqxYjDn_RX8e74QU68XGY0fILW3nqo/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/290d2373-5d21-4213-84ec-7946a7d875aa.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-loaded-chicken-fries_fcb7eaa1-e225-420d-bf7d-05b948a1cd1d",
+          "category": "Sides",
+          "itemId": "fcb7eaa1-e225-420d-bf7d-05b948a1cd1d"
+        },
+        {
+          "name": "Plain Fries",
+          "price": 3.99,
+          "description": "Seasoned Fries",
+          "image": "https://d1w7312wesee68.cloudfront.net/dEjoGInJBuvl_uURUFz0puJ-TXEhrlpuxzccrzo7IIM/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/3ddd4049-bb9a-4536-b038-e89f1d0e6f32.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-plain-fries_ce9d5db0-d9f2-41d1-aaa2-fcf11d44d3db",
+          "category": "Sides",
+          "itemId": "ce9d5db0-d9f2-41d1-aaa2-fcf11d44d3db"
+        },
+        {
+          "name": "Seasoned Fries",
+          "price": 3.99,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/eiAiKUpVZSNUfIjJqlokW1vNb0_vAg9MQQ-gtLSigJA/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/0014cfc9-80f1-4c48-9408-17de99c44d0f.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-seasoned-fries_38bf30bf-7b3b-4c7a-942c-0eea12e18797",
+          "category": "Sides",
+          "itemId": "38bf30bf-7b3b-4c7a-942c-0eea12e18797"
+        },
+        {
+          "name": "Biscoff Milkshake",
+          "price": 7.99,
+          "description": "Biscoff Milkshakes",
+          "image": "https://d1w7312wesee68.cloudfront.net/ezBkWJLuvuiT6Cnpvp4DVsXlE5z0z6vuitfDLNvvEcg/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-383289000000000000/menu/images/item-99e339df-31c7-4791-83d5-c382116c5be0.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-biscoff-milkshake_5fd31adf-ae57-4fd8-9992-66ec7473d481",
+          "category": "Milkshakes",
+          "itemId": "5fd31adf-ae57-4fd8-9992-66ec7473d481"
+        },
+        {
+          "name": "Dubai Chocolate Milkshake",
+          "price": 9.99,
+          "description": "Dubai Chocolate Milkshakes",
+          "image": "https://d1w7312wesee68.cloudfront.net/SFd0pWFH21vGrJkbQ5DuoZ5KPEf8EYXFwToTeJmi8Jg/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-383289000000000000/menu/images/item-fa467c60-0467-4c8f-9253-8c554dee7bf2.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-dubai-chocolate-milkshake_f7cf8912-1146-4037-9021-e3488a45c1f5",
+          "category": "Milkshakes",
+          "itemId": "f7cf8912-1146-4037-9021-e3488a45c1f5"
+        },
+        {
+          "name": "Oreo MilkShake",
+          "price": 7.99,
+          "description": "Oero Milk Shake",
+          "image": "https://d1w7312wesee68.cloudfront.net/GmIGIwEpC-JlUCX6XPIIzijVk-9ubvqkd3btE-9Etwg/resize:fit:1080:1080/plain/s3://toasttab/restaurants/restaurant-383289000000000000/menu/images/item-4acd004a-daed-477a-b49c-573a25832e12.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-oreo-milkshake_85d80b3e-0a40-4b44-af06-0c8f6fda1b90",
+          "category": "Milkshakes",
+          "itemId": "85d80b3e-0a40-4b44-af06-0c8f6fda1b90"
+        },
+        {
+          "name": "Soft Drink",
+          "price": 2.99,
+          "description": "Fountain Drink",
+          "image": "https://d1w7312wesee68.cloudfront.net/f5ObPvsRBbdHrhABQNV1266CKw0K726opDcStj_z1Wo/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/03cab2da-967a-48ef-98d8-466a3966a900.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-soft-drink_ef69b62b-c922-4d20-979d-2a0b57af2447",
+          "category": "Drinks",
+          "itemId": "ef69b62b-c922-4d20-979d-2a0b57af2447"
+        },
+        {
+          "name": "Home Style Lemonade",
+          "price": 4.49,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/FgSziDoD_Q_wK9qTIcWQDEVWlKo_gvl0O6whil607EA/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/6c7123cb-91b1-4efa-9cf8-c93a055ba2d7.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-home-style-lemonade_82807d38-d459-4fea-a9a3-3e2d39af7ef1",
+          "category": "Drinks",
+          "itemId": "82807d38-d459-4fea-a9a3-3e2d39af7ef1"
+        },
+        {
+          "name": "Mango Lemonade",
+          "price": 4.49,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/1T7Ths_qnptsVxdmWfzDvswIbJl0ykYTBJxXveXFPH4/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/31f85fb1-5088-4b77-b3cf-6a83a94837da.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-mango-lemonade_70053950-2e98-4b9f-8eab-16afe6220df2",
+          "category": "Drinks",
+          "itemId": "70053950-2e98-4b9f-8eab-16afe6220df2"
+        },
+        {
+          "name": "Strawberry Watermelon Lemonade",
+          "price": 4.49,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/M7Ew5NC-h5qbyc5ebgl0mOXPuBCG31BxUERaUK0YvTg/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/c626a375-e195-4055-a1b5-e1354d4f7833.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-strawberry-watermelon-lemonade_b4d5b0ce-900e-455d-abfa-2583e84c28c1",
+          "category": "Drinks",
+          "itemId": "b4d5b0ce-900e-455d-abfa-2583e84c28c1"
+        },
+        {
+          "name": "Zing Sauce",
+          "price": 0.5,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/hwsvS88ql-WEGoelvHMhampOn7evtzPP5S4P3TdiROE/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/66e4b2e3-5964-49c7-9f06-259a79a98b7a.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-zing-sauce_f1e611b3-145d-47cd-ad65-db8750ce62dc",
+          "category": "Sauce",
+          "itemId": "f1e611b3-145d-47cd-ad65-db8750ce62dc"
+        },
+        {
+          "name": "White Sauce",
+          "price": 0.5,
+          "description": "",
+          "image": "https://d1w7312wesee68.cloudfront.net/c-Z4n1QbnQ7HNYhNdxyIGSa6vrvEurstOx-dNQWS_tU/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/5dd3800d-7990-46f9-9e00-39d5204ed2a6.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-white-sauce_4572aa78-3adc-403d-9fc2-995e6b1d4ed7",
+          "category": "Sauce",
+          "itemId": "4572aa78-3adc-403d-9fc2-995e6b1d4ed7"
+        },
+        {
+          "name": "Chicken Slider, Fries and Juice",
+          "price": 9.99,
+          "description": "Chicken Slider comes with Plain Fries and Juice",
+          "image": "https://d1w7312wesee68.cloudfront.net/WVOTBQ7VHXQRzjJcGAEZ2BinIeTXDALRrf1Jr6tm12o/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/a5135ddf-7222-4e6d-a79e-ab14b2c3beb2.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-chicken-slider-fries-and-juice_2c591789-68db-43ae-ab84-10d2b696a448",
+          "category": "Kids Menu",
+          "itemId": "2c591789-68db-43ae-ab84-10d2b696a448"
+        },
+        {
+          "name": "Chicken Tender, Fries and Juice",
+          "price": 9.99,
+          "description": "Chicken Tender comes with Plain regular fries and Juice",
+          "image": "https://d1w7312wesee68.cloudfront.net/8NY4nFYjHJmGnB8brnWay67sA1w6Hfnp1RLIvswu918/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/283715f6-cf66-41da-9d3d-54bf28e02cbc.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-chicken-tender-fries-and-juice_014b568c-8db2-4c16-a674-fb9f26ebf7ca",
+          "category": "Kids Menu",
+          "itemId": "014b568c-8db2-4c16-a674-fb9f26ebf7ca"
+        },
+        {
+          "name": "Tender - 2 Pcs",
+          "price": 9.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/a0gL_QtFcoF7TDBeGrrKmedCWQ2ZbRTzCIe2tEfWvxk/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/a94aa906-9c65-4e98-a371-c0d8ca5a8f6b.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-tender-2-pcs_c60df69a-7e7a-4b8f-a6fe-216ba523a2f0",
+          "category": "Tender Only",
+          "itemId": "c60df69a-7e7a-4b8f-a6fe-216ba523a2f0"
+        },
+        {
+          "name": "Tender - 4 Pcs",
+          "price": 18.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/4X0deKGv59Gf27a9pb2__a0iK-w2lAivai-ij73qo3A/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/a9288b03-0098-48e1-b198-ac17dfde80e3.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-tender-4-pcs_e75c3d7e-1e50-4378-86a1-8eedc824bde0",
+          "category": "Tender Only",
+          "itemId": "e75c3d7e-1e50-4378-86a1-8eedc824bde0"
+        },
+        {
+          "name": "Tender - 6 Pcs",
+          "price": 27.99,
+          "description": "Crispy Chicken Tenders",
+          "image": "https://d1w7312wesee68.cloudfront.net/6dTf7lGQPy_G0XPpR4thdEU0yCBuV_kUWeZCaNkKbfw/resize:fit:1080:1080/plain/s3://toasttab/menu_service/restaurants/30eccad0-d442-4829-b94a-4f390f7447ae/MenuItem/f8ac475a-9952-4491-9262-23d8495b75b7.png",
+          "url": "https://order.toasttab.com/online/zingsters-hayward/item-tender-6-pcs_1e31f6f7-b5b6-44f2-98a4-40490619c8fe",
+          "category": "Tender Only",
+          "itemId": "1e31f6f7-b5b6-44f2-98a4-40490619c8fe"
         }
       ]
     }
