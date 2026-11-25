@@ -27,6 +27,7 @@ except Exception:
 URLS = {
     "fremont": "https://order.toasttab.com/online/zingsters-4169-cushing-parkway",
     "palo_alto": "https://order.toasttab.com/online/zingsters-2-220-university-ave-b",
+    "hayward": "https://order.toasttab.com/online/zingsters-hayward",
 }
 DATA_DIR = Path(__file__).parent / "data"
 OUT_FILE = DATA_DIR / "toast-menu.json"
