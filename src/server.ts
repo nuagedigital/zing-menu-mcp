@@ -415,18 +415,22 @@ function groupByLocation(items: MenuItem[]) {
 // ============================================================
 // HTML BUILDERS
 // ============================================================
-function buildLocationSwitcher(locationKeys: string[]): string {
+function buildLocationSwitcher(locationKeys: string[], perLoc: Record<string, LocationGroup>): string {
   return `
     <div class="location-tabs" id="location-tabs">
       ${locationKeys
-        .map(
-          (loc, i) => `
+        .map((loc, i) => {
+          const count = Object.values(perLoc[loc]?.byCat || {}).reduce((n, list) => n + list.length, 0)
+          return `
         <button class="loc-btn${i === 0 ? " active" : ""}" data-loc="${loc}">
-          <span class="loc-name">${LOCATION_LABELS[loc] || loc}</span>
+          <span class="loc-top">
+            <span class="loc-name">${LOCATION_LABELS[loc] || loc}</span>
+            <span class="loc-count">${count} item${count === 1 ? "" : "s"}</span>
+          </span>
           <span class="loc-addr">${LOCATION_ADDRESSES[loc] || ""}</span>
         </button>
       `
-        )
+        })
         .join("")}
     </div>
   `
@@ -556,7 +560,7 @@ app.get("/menu", (_req, res) => {
   const { items, scrapedAt } = loadMenu()
   const { locationKeys, perLoc } = groupByLocation(items)
 
-  const locationSwitcher = buildLocationSwitcher(locationKeys)
+  const locationSwitcher = buildLocationSwitcher(locationKeys, perLoc)
   const categoryNavs = buildCategoryNavs(locationKeys, perLoc)
   const locationContents = buildLocationContents(locationKeys, perLoc)
 
@@ -645,6 +649,26 @@ app.get("/menu", (_req, res) => {
     background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
     border-color: #e11d48;
     box-shadow: 0 8px 24px rgba(225, 29, 72, 0.35);
+  }
+  .loc-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .loc-count {
+    flex-shrink: 0;
+    font-size: 11px;
+    font-weight: 700;
+    color: #e4e4e7;
+    background: #2a2a33;
+    border-radius: 999px;
+    padding: 2px 9px;
+    white-space: nowrap;
+  }
+  .loc-btn.active .loc-count {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
   }
   .loc-name {
     display: block;
