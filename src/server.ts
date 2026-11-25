@@ -60,14 +60,19 @@ const TAB_ORDER = [
   "Tender Only",
 ]
 
+// Display order of the location tabs on /menu (also the MCP location enum)
+const LOCATION_KEYS = ["fremont", "palo_alto", "hayward"] as const
+
 const LOCATION_LABELS: Record<string, string> = {
   fremont: "Zingsters - Fremont",
   palo_alto: "Zingsters - Palo Alto",
+  hayward: "Zingsters - Hayward",
 }
 
 const LOCATION_ADDRESSES: Record<string, string> = {
   fremont: "4169 Cushing Parkway, Fremont, CA",
   palo_alto: "220B University Ave, Palo Alto, CA",
+  hayward: "545 Southland Mall #20, Hayward, CA",
 }
 
 // ============================================================
@@ -175,7 +180,7 @@ function createMcpServer() {
           type: "object",
           properties: {
             name: { type: "string" },
-            location: { type: "string", enum: ["fremont", "palo_alto"] },
+            location: { type: "string", enum: [...LOCATION_KEYS] },
           },
           required: ["name"],
         },
@@ -208,7 +213,7 @@ function createMcpServer() {
                 required: ["name", "quantity"],
               },
             },
-            location: { type: "string", enum: ["fremont", "palo_alto"] },
+            location: { type: "string", enum: [...LOCATION_KEYS] },
             customerName: { type: "string" },
             customerPhone: { type: "string" },
             pickupTime: { type: "string" },
@@ -243,7 +248,7 @@ function createMcpServer() {
           const { name: q, location } = z
             .object({
               name: z.string().min(1),
-              location: z.enum(["fremont", "palo_alto"]).optional(),
+              location: z.enum(LOCATION_KEYS).optional(),
             })
             .parse(args)
           const { items } = loadMenu()
@@ -257,6 +262,7 @@ function createMcpServer() {
             locations: {
               fremont: { name: "Fremont", address: "4169 Cushing Parkway, Fremont, CA 94538", phone: "(510) 771-9989" },
               palo_alto: { name: "Palo Alto", address: "220B University Ave, Palo Alto, CA 94301", phone: "(650) 800-7657" },
+              hayward: { name: "Hayward", address: "545 Southland Mall #20, Hayward, CA 94545", phone: "(510) 954-2627" },
             },
           })
 
@@ -278,7 +284,7 @@ function createMcpServer() {
           const order = z
             .object({
               items: z.array(z.object({ name: z.string().min(1), quantity: z.number().int().positive() })).min(1),
-              location: z.enum(["fremont", "palo_alto"]),
+              location: z.enum(LOCATION_KEYS),
               customerName: z.string().min(1),
               customerPhone: z.string().min(1),
               pickupTime: z.string().optional(),
@@ -367,6 +373,12 @@ function groupByLocation(items: MenuItem[]) {
       locationKeys.push(it.location)
     }
   }
+  // Keep tabs in a fixed order (Fremont, Palo Alto, Hayward); unknown keys go last
+  const rank = (k: string) => {
+    const i = (LOCATION_KEYS as readonly string[]).indexOf(k)
+    return i === -1 ? LOCATION_KEYS.length : i
+  }
+  locationKeys.sort((a, b) => rank(a) - rank(b))
 
   const perLoc: Record<string, LocationGroup> = {}
   for (const loc of locationKeys) {
